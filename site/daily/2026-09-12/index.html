@@ -856,6 +856,9 @@ body.has-quant-shared-nav .skip-link {
   function themeLabel(){const dark=document.documentElement.dataset.theme==='dark';const label=dark?'라이트 모드':'다크 모드';theme.querySelector('.theme-text').textContent=label;theme.setAttribute('aria-label',label+'로 전환');theme.setAttribute('aria-pressed',String(dark));}
   theme.addEventListener('click',()=>{const next=document.documentElement.dataset.theme==='dark'?'light':'dark';document.documentElement.dataset.theme=next;try{localStorage.setItem('research-news-theme',next);}catch(e){}themeLabel();});
   themeLabel();
+  const projectRail=document.querySelector('.quant-shared-nav__links'),activeProject=projectRail.querySelector('[aria-current="page"]');
+  const showActiveProject=()=>{if(activeProject&&projectRail.scrollWidth>projectRail.clientWidth)projectRail.scrollLeft=Math.max(0,activeProject.offsetLeft-(projectRail.clientWidth-activeProject.offsetWidth)/2);};
+  requestAnimationFrame(showActiveProject);window.addEventListener('resize',showActiveProject);
   const measureNavigation=()=>{document.documentElement.style.setProperty('--masthead-height',document.querySelector('.masthead').getBoundingClientRect().height+'px');document.documentElement.style.setProperty('--toolbar-height',document.querySelector('.toolbar').getBoundingClientRect().height+'px');};
   measureNavigation();if(typeof ResizeObserver!=='undefined'){const observer=new ResizeObserver(measureNavigation);observer.observe(document.querySelector('.masthead'));observer.observe(document.querySelector('.toolbar'));}else window.addEventListener('resize',measureNavigation);
 
