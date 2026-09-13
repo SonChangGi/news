@@ -272,6 +272,110 @@ body.has-quant-shared-nav .skip-link {
   <div class="page-header"><div><p class="eyebrow">경제 · 금융 · 기업</p><h1>9월 12일 브리핑</h1><nav class="date-navigation" aria-label="저장된 브리핑 이동"><button type="button" id="archive-open" class="archive-open" aria-haspopup="dialog" aria-controls="archive-dialog">날짜 선택</button><a id="previous-report" aria-disabled="true">← 이전 날짜</a><a id="next-report" aria-disabled="true">다음 날짜 →</a><a id="latest-report" hidden>최신 브리핑</a></nav></div><div class="header-meta"><span>자료 기준 <strong>09.12 07:00 KST</strong></span><span>생성 09.12 13:33 KST</span><span class="pill">사후 재구성</span></div></div>
   
   <section class="headline-panel" aria-labelledby="highlights-title"><div class="panel-heading"><h2 id="highlights-title">주요 이슈</h2></div><ol class="highlight-list"><li><a href="#issue-8c8c054cc7298d40">美 9월 미시간대 소비심리지수 예비치 47.8…2개월 연속 급락(상보)</a></li><li><a href="#issue-f641ad3109c8bd82">와이즈플래닛컴퍼니, 공모가 1만2000원 확정…기관 수요예측 1248대 1</a></li><li><a href="#issue-387fcccb08439306">삼성바이오, 유럽 제약사와 3508억원 CMO 계약…2033년까지 장기 공급</a></li><li><a href="#issue-d7ea54e327ce1228">미 근원 CPI 예상치 상회…유가·국채 발작 겹쳐 ‘긴축 공포’</a></li></ol></section>
+  
+<style>
+  .weekly-outlook{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);margin:0 0 20px;padding:20px 24px}
+  .weekly-outlook__heading{display:flex;align-items:baseline;justify-content:space-between;gap:8px 20px;flex-wrap:wrap;margin-bottom:4px}
+  .weekly-outlook__heading h2{font-size:16px;margin:0}
+  .weekly-outlook__period,.weekly-outlook__coverage{color:var(--muted);font-size:11px;margin:0}
+  .weekly-outlook__coverage{margin-bottom:14px}
+  .weekly-outlook__table{width:100%;border-collapse:collapse;table-layout:fixed;font-size:12px;line-height:1.75}
+  .weekly-outlook__table col:nth-child(1){width:29%}.weekly-outlook__table col:nth-child(2){width:47%}.weekly-outlook__table col:nth-child(3){width:24%}
+  .weekly-outlook__table th,.weekly-outlook__table td{border-bottom:1px solid var(--line);padding:12px 14px;vertical-align:top;text-align:left;overflow-wrap:anywhere}
+  .weekly-outlook__table thead th{font-size:11px;font-weight:500;color:var(--muted);padding-top:0;padding-bottom:8px}
+  .weekly-outlook__table th:first-child,.weekly-outlook__table td:first-child{padding-left:0}.weekly-outlook__table th:last-child,.weekly-outlook__table td:last-child{padding-right:0}
+  .weekly-outlook__group th{background:var(--surface);font-weight:650;font-size:12px;padding:7px 10px!important}
+  .weekly-outlook__group span{color:var(--muted);font-size:11px;font-weight:400;margin-left:8px}
+  .weekly-outlook__title{font-weight:650;color:var(--ink);text-decoration:none}.weekly-outlook__title:hover{color:var(--primary)}
+  .weekly-outlook__table p{margin:0}.weekly-outlook__table p+p{margin-top:6px}
+  .weekly-outlook__watch strong{color:var(--primary);font-weight:600;margin-right:5px}
+  .weekly-outlook__date{font-weight:600}.weekly-outlook__basis{color:var(--muted);font-size:11px}
+  .weekly-outlook__empty{color:var(--muted);font-size:12px}
+  .weekly-outlook__table tbody:last-child tr:last-child>*{border-bottom:0;padding-bottom:0}
+  @media(max-width:600px){
+    .weekly-outlook{padding:16px;margin-bottom:12px}
+    .weekly-outlook__heading{gap:4px 12px}.weekly-outlook__coverage{margin-bottom:12px}
+    .weekly-outlook__table,.weekly-outlook__table tbody,.weekly-outlook__table tr,.weekly-outlook__table td,.weekly-outlook__table tbody th{display:block;width:100%}
+    .weekly-outlook__table colgroup{display:none}
+    .weekly-outlook__table thead{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap}
+    .weekly-outlook__table tr.weekly-outlook__row{padding:12px 0;border-bottom:1px solid var(--line)}
+    .weekly-outlook__table tr.weekly-outlook__row>*{padding:0;border:0}
+    .weekly-outlook__table tr.weekly-outlook__row>td{margin-top:8px}
+    .weekly-outlook__table tr.weekly-outlook__row>td:last-child{display:flex;flex-wrap:wrap;align-items:baseline;gap:2px 10px;font-size:11px}
+    .weekly-outlook__table tr.weekly-outlook__row>td:last-child p{margin:0}
+    .weekly-outlook__table .weekly-outlook__title{font-size:13px}
+    .weekly-outlook__table .weekly-outlook__empty{padding:12px 0}
+    .weekly-outlook__table tbody:last-child tr:last-child{border-bottom:0}
+  }
+  @media print{.weekly-outlook{padding:12px;break-inside:avoid}.weekly-outlook__table{font-size:10px}.weekly-outlook__table tr{break-inside:avoid}}
+</style>
+
+<section class="weekly-outlook" id="weekly-outlook" aria-labelledby="weekly-outlook-title">
+  <div class="weekly-outlook__heading">
+    <h2 id="weekly-outlook-title">주간 점검</h2>
+    <p class="weekly-outlook__period">이번 주 09.07–09.13</p>
+  </div>
+  <p class="weekly-outlook__coverage" id="weekly-outlook-coverage">자료 09.12 · 1일</p>
+  <table class="weekly-outlook__table" aria-labelledby="weekly-outlook-title" aria-describedby="weekly-outlook-coverage">
+    <colgroup><col><col><col></colgroup>
+    <thead><tr><th scope="col">이슈</th><th scope="col">영향·확인할 내용</th><th scope="col">일정·근거</th></tr></thead>
+    
+    <tbody aria-labelledby="weekly-ongoing-title">
+      <tr class="weekly-outlook__group"><th scope="rowgroup" colspan="3" id="weekly-ongoing-title">지속 점검</th></tr>
+      
+      <tr class="weekly-outlook__row" id="weekly-cc60b889e59f415a2ff11def">
+        <th scope="row"><a class="weekly-outlook__title" href="#issue-a10d1c6fd731a663">마이리얼트립, 아웃바운드이어 인바운드까지…크리에이트립 인수</a></th>
+        <td><p>주식교환 방식으로 지분 전량을 인수해 남은 절차를 거쳐 연내 자회사로 편입할 계획이다.</p></td>
+        <td><p class="weekly-outlook__date">지속 점검</p><p class="weekly-outlook__basis">기업 거래 · 09.12 자료</p></td>
+      </tr>
+      
+      <tr class="weekly-outlook__row" id="weekly-4b79007918b3ef9cd3947ffc">
+        <th scope="row"><a class="weekly-outlook__title" href="#issue-03a02b2bfac1a9a4">월가, 이란 전쟁에 유가 &#39;쇼크&#39; 장기화 관측…가격 전망 상향 잇따라</a></th>
+        <td><p>10일(현지시간) 비즈니스인사이더에 따르면 HSBC는 최근 2027년 브렌트유 가격 전망치를 기존보다 20달러 상향한 배럴당 85달러로 제시했다.</p></td>
+        <td><p class="weekly-outlook__date">지속 점검</p><p class="weekly-outlook__basis">수급·전망 · 09.12 자료</p></td>
+      </tr>
+      
+      <tr class="weekly-outlook__row" id="weekly-a1301fc437d725a39bba27a7">
+        <th scope="row"><a class="weekly-outlook__title" href="#issue-387fcccb08439306">삼성바이오, 유럽 제약사와 3508억원 CMO 계약…2033년까지 장기 공급</a></th>
+        <td><p>특히 이번 계약은 글로벌 경제 불확실성과 위탁개발생산(CDMO) 시장 경쟁 심화 속에서 2033년까지 생산과 공급이 이어지는 대규모 장기계약이라는 점에서 중장기 수주 잔고와 매출 기반을 강화하는 데 기여할 것으로 예상된다.</p></td>
+        <td><p class="weekly-outlook__date">지속 점검</p><p class="weekly-outlook__basis">장기 계약 · 09.12 자료</p></td>
+      </tr>
+      
+      <tr class="weekly-outlook__row" id="weekly-55ec477c9025bc1221bfa91a">
+        <th scope="row"><a class="weekly-outlook__title" href="#issue-784ac4ad62124bde">TSMC 8월 매출 53% 껑충...&#34;설비 확대에도 AI칩 수요 못 따라잡아&#34;</a></th>
+        <td><p>TSMC는 2026년 설비투자 규모가 600억~640억 달러에 이를 것으로 내다봤다.</p></td>
+        <td><p class="weekly-outlook__date">지속 점검</p><p class="weekly-outlook__basis">실적·전망 · 09.12 자료</p></td>
+      </tr>
+      
+      <tr class="weekly-outlook__row" id="weekly-012ffaca9c195fb53da8c930">
+        <th scope="row"><a class="weekly-outlook__title" href="#issue-52258c1530da57cc">삼성E&amp;A, 사우디서 4.7조원 잭팟…해외수주 목표 9개월 만에 넘겼다</a></th>
+        <td><p>삼성E&amp;A가 단독으로 EPC를 수행하며 오는 2030년 완공할 예정이다.</p></td>
+        <td><p class="weekly-outlook__date">지속 점검</p><p class="weekly-outlook__basis">장기 계약 · 09.12 자료</p></td>
+      </tr>
+      
+    </tbody>
+    
+    <tbody aria-labelledby="weekly-current-week-title">
+      <tr class="weekly-outlook__group"><th scope="rowgroup" colspan="3" id="weekly-current-week-title">이번 주 일정</th></tr>
+      
+      <tr><td class="weekly-outlook__empty" colspan="3">모은 자료에서 확인된 일정이 없습니다.</td></tr>
+      
+    </tbody>
+    
+    <tbody aria-labelledby="weekly-next-week-title">
+      <tr class="weekly-outlook__group"><th scope="rowgroup" colspan="3" id="weekly-next-week-title">다음 주 일정<span>09.14–09.20</span></th></tr>
+      
+      <tr class="weekly-outlook__row" id="weekly-20567d4aa36ab0a3b9feeb9d">
+        <th scope="row"><a class="weekly-outlook__title" href="#issue-f641ad3109c8bd82">와이즈플래닛컴퍼니, 공모가 1만2000원 확정…기관 수요예측 1248대 1</a></th>
+        <td><p>와이즈플래닛컴퍼니는 오는 14일부터 15일까지 일반투자자 대상 청약을 진행한 뒤 23일 코스닥 시장에 상장할 예정이다.</p></td>
+        <td><p class="weekly-outlook__date">9/14–9/15</p><p class="weekly-outlook__basis">출처상 일정 · 09.12 자료</p></td>
+      </tr>
+      
+    </tbody>
+    
+  </table>
+</section>
+
   <nav class="toolbar" aria-label="브리핑 필터">
     <div class="toolbar-top"><div class="search"><input id="search" type="search" aria-label="검색" placeholder="기업 · 키워드 · 출처 검색" autocomplete="off"></div><select id="section-filter" aria-label="브리핑 구간"><option value="all">모든 구간</option><option value="yesterday">전일 경제·금융 이슈</option><option value="overnight">밤사이 시장·기업 업데이트</option><option value="investment">종목·산업 리서치</option></select><select id="evidence-filter" aria-label="확보한 원문 범위"><option value="all">모든 자료</option><option value="full">기사·문서 본문</option><option value="limited">메시지·요약</option></select></div>
     <div class="toolbar-bottom"><div class="scope-nav" aria-label="이슈 분야"><button type="button" data-scope="all" aria-pressed="true">전체</button><button type="button" data-scope="company" aria-pressed="false">기업</button><button type="button" data-scope="market" aria-pressed="false">시장</button><button type="button" data-scope="economy" aria-pressed="false">경제·산업</button></div><span class="results" id="result-count" aria-live="polite">20개 이슈</span></div>
@@ -851,7 +955,7 @@ body.has-quant-shared-nav .skip-link {
   }
   input.addEventListener('input',filter);evidence.addEventListener('change',filter);period.addEventListener('change',filter);
   for(const button of buttons)button.addEventListener('click',()=>{scope=button.dataset.scope;for(const b of buttons)b.setAttribute('aria-pressed',String(b===button));filter();});
-  for(const link of document.querySelectorAll('.highlight-list a,.related a'))link.addEventListener('click',()=>{input.value='';evidence.value='all';period.value='all';scope='all';for(const b of buttons)b.setAttribute('aria-pressed',String(b.dataset.scope==='all'));filter();});
+  for(const link of document.querySelectorAll('.highlight-list a,.related a,.weekly-outlook a'))link.addEventListener('click',()=>{input.value='';evidence.value='all';period.value='all';scope='all';for(const b of buttons)b.setAttribute('aria-pressed',String(b.dataset.scope==='all'));filter();});
   const theme=document.getElementById('theme-toggle');
   function themeLabel(){const dark=document.documentElement.dataset.theme==='dark';const label=dark?'라이트 모드':'다크 모드';theme.querySelector('.theme-text').textContent=label;theme.setAttribute('aria-label',label+'로 전환');theme.setAttribute('aria-pressed',String(dark));}
   theme.addEventListener('click',()=>{const next=document.documentElement.dataset.theme==='dark'?'light':'dark';document.documentElement.dataset.theme=next;try{localStorage.setItem('research-news-theme',next);}catch(e){}themeLabel();});
