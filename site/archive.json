@@ -4,7 +4,7 @@
   "base_path": "/news/",
   "timezone": "Asia/Seoul",
   "latest_date": "2026-09-13",
-  "updated_at": "2026-09-13T03:47:28.458569+00:00",
+  "updated_at": "2026-09-13T07:11:55.256856+00:00",
   "latest_url": "/news/",
   "archive_url": "/news/?archive=1",
   "manifest_url": "/news/archive.json",
@@ -14,14 +14,14 @@
       "url": "/news/daily/2026-09-13/index.html",
       "report_url": "/news/daily/2026-09-13/index.html",
       "mode": "reconstruction",
-      "generated_at": "2026-09-13T03:47:28.458569+00:00",
+      "generated_at": "2026-09-13T07:11:55.256856+00:00",
       "cutoff": "2026-09-13T07:00:00+09:00",
       "issue_count": 20,
       "status": "partial",
       "sha256": {
-        "json": "84494c7744ba3a17d2354de601309687c5fffe5cbd43f98bc08a5c9c42d945c7",
-        "markdown": "fb63f90e675000c8563f0eb7dc69a7ba5121e40db144e1c7cb0ed5e69d2ce6ed",
-        "html": "51fe8d324825cdb1f1aacb20b1643f656c800a7e2907cd03f96ee0c928077b8a"
+        "json": "ef5d3659fe82393d22825ede836b9cb02e7717ec09a282eacd2f09ac08c7ccb2",
+        "markdown": "959b3725125a06aa0c93937d1d96d7cabde6fa1a66aa9b843a41ef6b19770e5b",
+        "html": "7ab464fbbe799e32a44f77b1f36c0597917eb2a3c7302a25c765af6b7b5f00ee"
       }
     },
     {

@@ -1,9 +1,9 @@
 {
   "schema_version": "1",
-  "run_id": "35a675ba844e63017ad2c639",
+  "run_id": "f2f3704591ec8d8e3573b6c5",
   "report_date": "2026-09-13",
   "cutoff": "2026-09-13T07:00:00+09:00",
-  "generated_at": "2026-09-13T03:47:28.458569+00:00",
+  "generated_at": "2026-09-13T07:11:55.256856+00:00",
   "mode": "reconstruction",
   "status": "partial",
   "language": "ko",
@@ -11,11 +11,11 @@
   "input_manifest_hash": "03eeda8515a6a3fd6e394b9c0f21e0bd51ef5760084d5f44bd514547880ecf41",
   "highlights": [
     "속보)9월 1~10일 수출 350억달러 '역대 최대'… 반도체 270% 증가",
-    "로켓랩, 이리듐 80억달러 인수 합의…9월 24일 표결",
-    "삼성바이오, 유럽 제약사와 3508억원 CMO 계약…2033년까지 장기 공급",
-    "인플레이션이 다시 임금 상승률을 앞지르며 미국인들의 급여를 압박하고 있습니다."
+    "인플레이션이 다시 임금 상승률을 앞지르며 미국인들의 급여를 압박하고 있습니다.",
+    "美 9월 미시간대 소비심리지수 예비치 47.8…2개월 연속 급락(상보)",
+    "로켓랩, 이리듐 80억달러 인수 합의…9월 24일 표결"
   ],
-  "delivery_target": "2026-09-13T07:15:00+09:00",
+  "delivery_target": "2026-09-13T08:25:00+09:00",
   "generation_delayed": false,
   "issues": [
     {
@@ -191,7 +191,7 @@
       "related_issue_id": null,
       "late_discovered": true,
       "analysis_provider": "mlx",
-      "model_status": "actual_model_output",
+      "model_status": "cached_model_output",
       "analysis_label": "한국어 번역 · 수치·출처 자동 대조",
       "evidence_expired": false,
       "evidence_partially_expired": false,
@@ -387,40 +387,74 @@
       "korean_required": true
     },
     {
-      "id": "b5dfa8e094077a9c9471d11b",
-      "anchor": "issue-c6b0162f06468c54",
-      "editorial_scope": "company",
-      "event_type": "product_production",
-      "title": "더존비즈온, ERP 뱅킹 ‘DJ Bank’ WEHAGO로 확대…가입 고객에 ‘ONE AI’ 지원",
+      "id": "aea2a320d49548e770be9a8c",
+      "anchor": "issue-a2ea65ebe5c04bbb",
+      "editorial_scope": "market",
+      "event_type": "market_update",
+      "title": "\"달라진 원화 강세 공식…外人 주식 17조원 팔아도 환율 급락\"",
       "section": "yesterday",
       "category": "economy",
       "summary": [
-        "더존비즈온이 제주은행과 협력한 ERP 뱅킹 서비스 'DJ Bank'를 WEHAGO로 확대 출시했다고 12일 밝혔다.",
-        "이를 기념해 DJ Bank에서 금융상품에 가입한 고객에게 기업용 AI 플랫폼 ‘ONE AI’ 도입을 지원하는 프로모션도 진행한다.",
-        "DJ Bank는 더존비즈온의 ERP·데이터 역량과 제주은행의 금융 인프라를 결합한 임베디드 금융 모델이다.",
-        "계좌개설, 자금·급여이체, 대출신청·상환 등 기업금융 전 과정을 ERP 안에서 영업점 방문 없이 100% 비대면으로 처리할 수 있다."
+        "과거 환율 급락 10차례 중 8차례 외국인 주식 순매수 동반",
+        "코스피 15%↓…\"외국인 복귀할 금리 환경 조성돼야\"",
+        "외국인이 지난 7월 이후 국내주식을 17조원 넘게 팔아치웠지만, 달러-원 환율은 같은 기간 200원 이상 급락한 것으로 나타났다.",
+        "과거에는 원화 강세가 외국인의 주식자금 유입, 국내증시 상승과 함께 움직이는 흐름을 보였다."
       ],
       "change": "비교 가능한 과거 자료 없음 — 상향·하향·전망 변경 여부 미판정",
       "claims": [
         {
-          "id": "729fae257d9932b476bd39f6",
-          "text": "더존비즈온이 제주은행과 협력한 ERP 뱅킹 서비스 'DJ Bank'를 WEHAGO로 확대 출시했다고 12일 밝혔다.",
+          "id": "28f2270251d87993aabead94",
+          "text": "과거 환율 급락 10차례 중 8차례 외국인 주식 순매수 동반",
           "kind": "fact",
-          "author": "한종해 기자",
+          "author": "연합인포맥스",
           "source_ids": [
-            "82e5a69b4349852f58ef2222"
+            "bcfa29e1f98fb31ed86753c2"
           ],
           "evidence": [
             {
-              "source_id": "82e5a69b4349852f58ef2222",
-              "source_version_id": "ba25f6697472eebeb8a2a3fb",
+              "source_id": "bcfa29e1f98fb31ed86753c2",
+              "source_version_id": "c56785dfb5e5fc0b5de7c52f",
               "start": 0,
+              "end": 33,
+              "text": "과거 환율 급락 10차례 중 8차례 외국인 주식 순매수 동반",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "과거 환율 급락 10차례 중 8차례 외국인 주식 순매수 동반",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote"
+          },
+          "numbers": []
+        },
+        {
+          "id": "0457963679f23838f485a523",
+          "text": "코스피 15%↓…\"외국인 복귀할 금리 환경 조성돼야\"",
+          "kind": "fact",
+          "author": "연합인포맥스",
+          "source_ids": [
+            "bcfa29e1f98fb31ed86753c2"
+          ],
+          "evidence": [
+            {
+              "source_id": "bcfa29e1f98fb31ed86753c2",
+              "source_version_id": "c56785dfb5e5fc0b5de7c52f",
+              "start": 35,
               "end": 64,
-              "text": "더존비즈온이 제주은행과 협력한 ERP 뱅킹 서비스 'DJ Bank'를 WEHAGO로 확대 출시했다고 12일 밝혔다.",
+              "text": "코스피 15%↓…\"외국인 복귀할 금리 환경 조성돼야\"",
               "source_excerpt_truncated": false,
               "excerpt_truncated": false,
               "location": "본문",
-              "display_text": "더존비즈온이 제주은행과 협력한 ERP 뱅킹 서비스 'DJ Bank'를 WEHAGO로 확대 출시했다고 12일 밝혔다.",
+              "display_text": "코스피 15%↓…\"외국인 복귀할 금리 환경 조성돼야\"",
               "is_translation": false
             }
           ],
@@ -437,24 +471,24 @@
           "numbers": []
         },
         {
-          "id": "2f48e625ba4190e346bd3ebe",
-          "text": "이를 기념해 DJ Bank에서 금융상품에 가입한 고객에게 기업용 AI 플랫폼 ‘ONE AI’ 도입을 지원하는 프로모션도 진행한다.",
+          "id": "21bf5572a53a47a1f24e74c9",
+          "text": "외국인이 지난 7월 이후 국내주식을 17조원 넘게 팔아치웠지만, 달러-원 환율은 같은 기간 200원 이상 급락한 것으로 나타났다.",
           "kind": "fact",
-          "author": "한종해 기자",
+          "author": "연합인포맥스",
           "source_ids": [
-            "82e5a69b4349852f58ef2222"
+            "bcfa29e1f98fb31ed86753c2"
           ],
           "evidence": [
             {
-              "source_id": "82e5a69b4349852f58ef2222",
-              "source_version_id": "ba25f6697472eebeb8a2a3fb",
-              "start": 65,
-              "end": 137,
-              "text": "이를 기념해 DJ Bank에서 금융상품에 가입한 고객에게 기업용 AI 플랫폼 ‘ONE AI’ 도입을 지원하는 프로모션도 진행한다.",
+              "source_id": "bcfa29e1f98fb31ed86753c2",
+              "source_version_id": "c56785dfb5e5fc0b5de7c52f",
+              "start": 91,
+              "end": 163,
+              "text": "외국인이 지난 7월 이후 국내주식을 17조원 넘게 팔아치웠지만, 달러-원 환율은 같은 기간 200원 이상 급락한 것으로 나타났다.",
               "source_excerpt_truncated": false,
               "excerpt_truncated": false,
               "location": "본문",
-              "display_text": "이를 기념해 DJ Bank에서 금융상품에 가입한 고객에게 기업용 AI 플랫폼 ‘ONE AI’ 도입을 지원하는 프로모션도 진행한다.",
+              "display_text": "외국인이 지난 7월 이후 국내주식을 17조원 넘게 팔아치웠지만, 달러-원 환율은 같은 기간 200원 이상 급락한 것으로 나타났다.",
               "is_translation": false
             }
           ],
@@ -471,58 +505,24 @@
           "numbers": []
         },
         {
-          "id": "f57a47149ba2aa20b61510ed",
-          "text": "DJ Bank는 더존비즈온의 ERP·데이터 역량과 제주은행의 금융 인프라를 결합한 임베디드 금융 모델이다.",
+          "id": "734fdc6c8cfe5aa1fd91eb7c",
+          "text": "과거에는 원화 강세가 외국인의 주식자금 유입, 국내증시 상승과 함께 움직이는 흐름을 보였다.",
           "kind": "fact",
-          "author": "한종해 기자",
+          "author": "연합인포맥스",
           "source_ids": [
-            "82e5a69b4349852f58ef2222"
+            "bcfa29e1f98fb31ed86753c2"
           ],
           "evidence": [
             {
-              "source_id": "82e5a69b4349852f58ef2222",
-              "source_version_id": "ba25f6697472eebeb8a2a3fb",
-              "start": 139,
-              "end": 198,
-              "text": "DJ Bank는 더존비즈온의 ERP·데이터 역량과 제주은행의 금융 인프라를 결합한 임베디드 금융 모델이다.",
+              "source_id": "bcfa29e1f98fb31ed86753c2",
+              "source_version_id": "c56785dfb5e5fc0b5de7c52f",
+              "start": 165,
+              "end": 216,
+              "text": "과거에는 원화 강세가 외국인의 주식자금 유입, 국내증시 상승과 함께 움직이는 흐름을 보였다.",
               "source_excerpt_truncated": false,
               "excerpt_truncated": false,
               "location": "본문",
-              "display_text": "DJ Bank는 더존비즈온의 ERP·데이터 역량과 제주은행의 금융 인프라를 결합한 임베디드 금융 모델이다.",
-              "is_translation": false
-            }
-          ],
-          "rationale": "",
-          "conditions": "",
-          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
-          "validation": {
-            "semantic_support": "source_quote_only",
-            "human_review": "not_reviewed",
-            "status": "source_checked",
-            "source_linkage": "passed",
-            "content_check": "exact_quote"
-          },
-          "numbers": []
-        },
-        {
-          "id": "ccdbbbc75ca06c3f56dbad0a",
-          "text": "계좌개설, 자금·급여이체, 대출신청·상환 등 기업금융 전 과정을 ERP 안에서 영업점 방문 없이 100% 비대면으로 처리할 수 있다.",
-          "kind": "fact",
-          "author": "한종해 기자",
-          "source_ids": [
-            "82e5a69b4349852f58ef2222"
-          ],
-          "evidence": [
-            {
-              "source_id": "82e5a69b4349852f58ef2222",
-              "source_version_id": "ba25f6697472eebeb8a2a3fb",
-              "start": 199,
-              "end": 273,
-              "text": "계좌개설, 자금·급여이체, 대출신청·상환 등 기업금융 전 과정을 ERP 안에서 영업점 방문 없이 100% 비대면으로 처리할 수 있다.",
-              "source_excerpt_truncated": false,
-              "excerpt_truncated": false,
-              "location": "본문",
-              "display_text": "계좌개설, 자금·급여이체, 대출신청·상환 등 기업금융 전 과정을 ERP 안에서 영업점 방문 없이 100% 비대면으로 처리할 수 있다.",
+              "display_text": "과거에는 원화 강세가 외국인의 주식자금 유입, 국내증시 상승과 함께 움직이는 흐름을 보였다.",
               "is_translation": false
             }
           ],
@@ -540,17 +540,17 @@
         }
       ],
       "document_ids": [
-        "82e5a69b4349852f58ef2222"
+        "bcfa29e1f98fb31ed86753c2"
       ],
       "source_versions": [
-        "ba25f6697472eebeb8a2a3fb"
+        "c56785dfb5e5fc0b5de7c52f"
       ],
       "entities": [],
       "selection_reason": [
         "수집 범위 내 독립 발행자 1개",
-        "자료 기준 경과 19.8시간",
+        "자료 기준 경과 20.6시간",
         "이전 입력 대비 신규 문서",
-        "원문에 실행·결정 근거가 있는 기업 계약·제품·자본거래·승인"
+        "수치가 확인되는 금융시장 급변·기록 경신"
       ],
       "follow_up": [
         "원문과 기간·단위·작성 주체를 확인하고 해석을 검토하세요."
@@ -566,8 +566,8 @@
       "has_full_text": true,
       "has_message_text": false,
       "prior_day_follow_up": false,
-      "original_title": "더존비즈온, ERP 뱅킹 ‘DJ Bank’ WEHAGO로 확대…가입 고객에 ‘ONE AI’ 지원",
-      "source_title_ko": "더존비즈온, ERP 뱅킹 ‘DJ Bank’ WEHAGO로 확대…가입 고객에 ‘ONE AI’ 지원",
+      "original_title": "\"달라진 원화 강세 공식…外人 주식 17조원 팔아도 환율 급락\"",
+      "source_title_ko": "\"달라진 원화 강세 공식…外人 주식 17조원 팔아도 환율 급락\"",
       "korean_required": true
     },
     {
@@ -1471,6 +1471,190 @@
       "korean_required": true
     },
     {
+      "id": "07eab3fb5c2e354d43262e5a",
+      "anchor": "issue-871b09e40afb2810",
+      "editorial_scope": "industry",
+      "event_type": "industry_regulation",
+      "title": "\"인재·기술 싹쓸이 M&A 회피?\"…美 법무부, 엔비디아 '반독점 조사'",
+      "section": "investment",
+      "category": "research",
+      "summary": [
+        "그록에 170억弗 주고 인력영입…사전심사 우회 역인수 꼼수 정조준 상원 문제제기 이어 사법당국 칼날…향후 유사거래 사전통보 검토",
+        "미국 법무부(DOJ)가 글로벌 AI 가속기 사업자인 엔비디아(Nvidia)와 차세대 추론 칩 스타트업 그록(Groq) 간의 170억 달러(약 22조 7000억 원) 규모 거래에 대해 반독점 조사에 착수한 것으로 확인됐다.",
+        "빅테크가 유망 AI 스타트업을 직접 인수하지 않고, 천문학적인 라이선스 비용을 지불한 뒤 핵심 인력만 영입하는 이른바 '역인수합병(Reverse Acquihire)' 방식을 통해 독점규제 당국의 사전 심사를 고의로 회피했는지가 핵심 쟁점이다.",
+        "12일(현지시간) 정보기술 전문 매체 테크타깃(TechTarget)에 따르면 뉴욕타임스(NYT) 보도를 인용해, 미 법무부는 지난해 12월 엔비디아와 그록 간의 계약 발표 직후 조사에 착수했으며 최근 엔비디아 측에 거래 구조와 관련한 공식 정보요구서를 발송한 것으로 전해졌다."
+      ],
+      "change": "비교 가능한 과거 자료 없음 — 상향·하향·전망 변경 여부 미판정",
+      "claims": [
+        {
+          "id": "2bd4d79522d6358c15c7396c",
+          "text": "그록에 170억弗 주고 인력영입…사전심사 우회 역인수 꼼수 정조준 상원 문제제기 이어 사법당국 칼날…향후 유사거래 사전통보 검토",
+          "kind": "fact",
+          "author": "김성은 기자",
+          "source_ids": [
+            "513d2e1b45e944962c773fcd"
+          ],
+          "evidence": [
+            {
+              "source_id": "513d2e1b45e944962c773fcd",
+              "source_version_id": "f16779f13844060982e89dc9",
+              "start": 0,
+              "end": 71,
+              "text": "그록에 170억弗 주고 인력영입…사전심사 우회 역인수 꼼수 정조준 상원 문제제기 이어 사법당국 칼날…향후 유사거래 사전통보 검토",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "그록에 170억弗 주고 인력영입…사전심사 우회 역인수 꼼수 정조준 상원 문제제기 이어 사법당국 칼날…향후 유사거래 사전통보 검토",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote"
+          },
+          "numbers": []
+        },
+        {
+          "id": "b54e1eeae65ad9b0b049b8b7",
+          "text": "미국 법무부(DOJ)가 글로벌 AI 가속기 사업자인 엔비디아(Nvidia)와 차세대 추론 칩 스타트업 그록(Groq) 간의 170억 달러(약 22조 7000억 원) 규모 거래에 대해 반독점 조사에 착수한 것으로 확인됐다.",
+          "kind": "fact",
+          "author": "김성은 기자",
+          "source_ids": [
+            "513d2e1b45e944962c773fcd"
+          ],
+          "evidence": [
+            {
+              "source_id": "513d2e1b45e944962c773fcd",
+              "source_version_id": "f16779f13844060982e89dc9",
+              "start": 73,
+              "end": 196,
+              "text": "미국 법무부(DOJ)가 글로벌 AI 가속기 사업자인 엔비디아(Nvidia)와 차세대 추론 칩 스타트업 그록(Groq) 간의 170억 달러(약 22조 7000억 원) 규모 거래에 대해 반독점 조사에 착수한 것으로 확인됐다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "미국 법무부(DOJ)가 글로벌 AI 가속기 사업자인 엔비디아(Nvidia)와 차세대 추론 칩 스타트업 그록(Groq) 간의 170억 달러(약 22조 7000억 원) 규모 거래에 대해 반독점 조사에 착수한 것으로 확인됐다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote"
+          },
+          "numbers": []
+        },
+        {
+          "id": "bbee4d1e8c17093bfd94356d",
+          "text": "빅테크가 유망 AI 스타트업을 직접 인수하지 않고, 천문학적인 라이선스 비용을 지불한 뒤 핵심 인력만 영입하는 이른바 '역인수합병(Reverse Acquihire)' 방식을 통해 독점규제 당국의 사전 심사를 고의로 회피했는지가 핵심 쟁점이다.",
+          "kind": "fact",
+          "author": "김성은 기자",
+          "source_ids": [
+            "513d2e1b45e944962c773fcd"
+          ],
+          "evidence": [
+            {
+              "source_id": "513d2e1b45e944962c773fcd",
+              "source_version_id": "f16779f13844060982e89dc9",
+              "start": 198,
+              "end": 333,
+              "text": "빅테크가 유망 AI 스타트업을 직접 인수하지 않고, 천문학적인 라이선스 비용을 지불한 뒤 핵심 인력만 영입하는 이른바 '역인수합병(Reverse Acquihire)' 방식을 통해 독점규제 당국의 사전 심사를 고의로 회피했는지가 핵심 쟁점이다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "빅테크가 유망 AI 스타트업을 직접 인수하지 않고, 천문학적인 라이선스 비용을 지불한 뒤 핵심 인력만 영입하는 이른바 '역인수합병(Reverse Acquihire)' 방식을 통해 독점규제 당국의 사전 심사를 고의로 회피했는지가 핵심 쟁점이다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote"
+          },
+          "numbers": []
+        },
+        {
+          "id": "34c6873cbeece913264f541a",
+          "text": "12일(현지시간) 정보기술 전문 매체 테크타깃(TechTarget)에 따르면 뉴욕타임스(NYT) 보도를 인용해, 미 법무부는 지난해 12월 엔비디아와 그록 간의 계약 발표 직후 조사에 착수했으며 최근 엔비디아 측에 거래 구조와 관련한 공식 정보요구서를 발송한 것으로 전해졌다.",
+          "kind": "fact",
+          "author": "김성은 기자",
+          "source_ids": [
+            "513d2e1b45e944962c773fcd"
+          ],
+          "evidence": [
+            {
+              "source_id": "513d2e1b45e944962c773fcd",
+              "source_version_id": "f16779f13844060982e89dc9",
+              "start": 335,
+              "end": 487,
+              "text": "12일(현지시간) IT 전문 매체 테크타깃(TechTarget)에 따르면 뉴욕타임스(NYT) 보도를 인용해, 미 법무부는 지난해 12월 엔비디아와 그록 간의 계약 발표 직후 조사에 착수했으며 최근 엔비디아 측에 거래 구조와 관련한 공식 정보요구서를 발송한 것으로 전해졌다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "12일(현지시간) 정보기술 전문 매체 테크타깃(TechTarget)에 따르면 뉴욕타임스(NYT) 보도를 인용해, 미 법무부는 지난해 12월 엔비디아와 그록 간의 계약 발표 직후 조사에 착수했으며 최근 엔비디아 측에 거래 구조와 관련한 공식 정보요구서를 발송한 것으로 전해졌다.",
+              "is_translation": true
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "not_verified",
+            "human_review": "not_reviewed",
+            "status": "needs_review",
+            "source_linkage": "passed",
+            "content_check": "unverified_paraphrase"
+          },
+          "numbers": []
+        }
+      ],
+      "document_ids": [
+        "513d2e1b45e944962c773fcd"
+      ],
+      "source_versions": [
+        "f16779f13844060982e89dc9"
+      ],
+      "entities": [],
+      "selection_reason": [
+        "수집 범위 내 독립 발행자 1개",
+        "자료 기준 경과 0.5시간",
+        "이전 입력 대비 신규 문서",
+        "발표를 앞둔 관측·우려 중심으로 실제 지표·정책 변경보다 후순위"
+      ],
+      "follow_up": [
+        "원문과 기간·단위·작성 주체를 확인하고 해석을 검토하세요."
+      ],
+      "confidence": "source_checked",
+      "related_issue_id": null,
+      "late_discovered": true,
+      "analysis_provider": "extractive",
+      "model_status": "not_needed_source_korean",
+      "analysis_label": "한국어 원문 · 용어 번역",
+      "evidence_expired": false,
+      "evidence_partially_expired": false,
+      "has_full_text": true,
+      "has_message_text": false,
+      "prior_day_follow_up": false,
+      "original_title": "\"인재·기술 싹쓸이 M&A 회피?\"…美 법무부, 엔비디아 '반독점 조사'",
+      "source_title_ko": "\"인재·기술 싹쓸이 M&A 회피?\"…美 법무부, 엔비디아 '반독점 조사'",
+      "korean_required": true
+    },
+    {
       "id": "bfe3aa07b9419ebcaf92706e",
       "anchor": "issue-d40cb729f813fac0",
       "editorial_scope": "company",
@@ -1652,190 +1836,6 @@
       "prior_day_follow_up": false,
       "original_title": "로켓랩, 이리듐 80억달러 인수 합의…9월 24일 표결",
       "source_title_ko": "로켓랩, 이리듐 80억달러 인수 합의…9월 24일 표결",
-      "korean_required": true
-    },
-    {
-      "id": "129240df5b16c621fc97d6bc",
-      "anchor": "issue-6b40238feb8d9abd",
-      "editorial_scope": "company",
-      "event_type": "capital_transaction",
-      "title": "와이즈플래닛컴퍼니, 공모가 최상단 1만2000원 확정",
-      "section": "investment",
-      "category": "research",
-      "summary": [
-        "와이즈플래닛컴퍼니가 기관투자자 대상 수요예측에서 1248대 1의 경쟁률을 기록하며 공모가를 희망범위 최상단인 1만2000원으로 확정했다.",
-        "지난 4일부터 10일까지 5거래일간 진행된 수요예측에는 국내외 기관 2323곳이 참여해 1248대 1의 경쟁률을 기록했다.",
-        "참여 물량의 99.93%는 희망범위 1만~1만2000원의 상단 이상 가격을 제시하거나 가격을 제시하지 않았다.",
-        "와이즈플래닛컴퍼니는 오는 14~15일 일반투자자 대상 청약을 진행하고 23일 코스닥시장에 상장할 예정이다."
-      ],
-      "change": "비교 가능한 과거 자료 없음 — 상향·하향·전망 변경 여부 미판정",
-      "claims": [
-        {
-          "id": "bbbabfd438d888ce002f6d3a",
-          "text": "와이즈플래닛컴퍼니가 기관투자자 대상 수요예측에서 1248대 1의 경쟁률을 기록하며 공모가를 희망범위 최상단인 1만2000원으로 확정했다.",
-          "kind": "fact",
-          "author": "이주희 기자",
-          "source_ids": [
-            "82709f02e6bd72e71b99c7f3"
-          ],
-          "evidence": [
-            {
-              "source_id": "82709f02e6bd72e71b99c7f3",
-              "source_version_id": "c0e6cd5d42df497e882bc399",
-              "start": 0,
-              "end": 76,
-              "text": "와이즈플래닛컴퍼니가 기관투자자 대상 수요예측에서 1248대 1의 경쟁률을 기록하며 공모가를 희망범위 최상단인 1만2000원으로 확정했다.",
-              "source_excerpt_truncated": false,
-              "excerpt_truncated": false,
-              "location": "본문",
-              "display_text": "와이즈플래닛컴퍼니가 기관투자자 대상 수요예측에서 1248대 1의 경쟁률을 기록하며 공모가를 희망범위 최상단인 1만2000원으로 확정했다.",
-              "is_translation": false
-            }
-          ],
-          "rationale": "",
-          "conditions": "",
-          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
-          "validation": {
-            "semantic_support": "source_quote_only",
-            "human_review": "not_reviewed",
-            "status": "source_checked",
-            "source_linkage": "passed",
-            "content_check": "exact_quote"
-          },
-          "numbers": []
-        },
-        {
-          "id": "40b672989bf8b6e4d2c4eea1",
-          "text": "지난 4일부터 10일까지 5거래일간 진행된 수요예측에는 국내외 기관 2323곳이 참여해 1248대 1의 경쟁률을 기록했다.",
-          "kind": "fact",
-          "author": "이주희 기자",
-          "source_ids": [
-            "82709f02e6bd72e71b99c7f3"
-          ],
-          "evidence": [
-            {
-              "source_id": "82709f02e6bd72e71b99c7f3",
-              "source_version_id": "c0e6cd5d42df497e882bc399",
-              "start": 78,
-              "end": 146,
-              "text": "지난 4일부터 10일까지 5거래일간 진행된 수요예측에는 국내외 기관 2323곳이 참여해 1248대 1의 경쟁률을 기록했다.",
-              "source_excerpt_truncated": false,
-              "excerpt_truncated": false,
-              "location": "본문",
-              "display_text": "지난 4일부터 10일까지 5거래일간 진행된 수요예측에는 국내외 기관 2323곳이 참여해 1248대 1의 경쟁률을 기록했다.",
-              "is_translation": false
-            }
-          ],
-          "rationale": "",
-          "conditions": "",
-          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
-          "validation": {
-            "semantic_support": "source_quote_only",
-            "human_review": "not_reviewed",
-            "status": "source_checked",
-            "source_linkage": "passed",
-            "content_check": "exact_quote"
-          },
-          "numbers": []
-        },
-        {
-          "id": "9c3c02226eb3670180aed4b2",
-          "text": "참여 물량의 99.93%는 희망범위 1만~1만2000원의 상단 이상 가격을 제시하거나 가격을 제시하지 않았다.",
-          "kind": "fact",
-          "author": "이주희 기자",
-          "source_ids": [
-            "82709f02e6bd72e71b99c7f3"
-          ],
-          "evidence": [
-            {
-              "source_id": "82709f02e6bd72e71b99c7f3",
-              "source_version_id": "c0e6cd5d42df497e882bc399",
-              "start": 147,
-              "end": 208,
-              "text": "참여 물량의 99.93%는 희망범위 1만~1만2000원의 상단 이상 가격을 제시하거나 가격을 제시하지 않았다.",
-              "source_excerpt_truncated": false,
-              "excerpt_truncated": false,
-              "location": "본문",
-              "display_text": "참여 물량의 99.93%는 희망범위 1만~1만2000원의 상단 이상 가격을 제시하거나 가격을 제시하지 않았다.",
-              "is_translation": false
-            }
-          ],
-          "rationale": "",
-          "conditions": "",
-          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
-          "validation": {
-            "semantic_support": "source_quote_only",
-            "human_review": "not_reviewed",
-            "status": "source_checked",
-            "source_linkage": "passed",
-            "content_check": "exact_quote"
-          },
-          "numbers": []
-        },
-        {
-          "id": "ddc4b592c1696707ea742f6b",
-          "text": "와이즈플래닛컴퍼니는 오는 14~15일 일반투자자 대상 청약을 진행하고 23일 코스닥시장에 상장할 예정이다.",
-          "kind": "fact",
-          "author": "이주희 기자",
-          "source_ids": [
-            "82709f02e6bd72e71b99c7f3"
-          ],
-          "evidence": [
-            {
-              "source_id": "82709f02e6bd72e71b99c7f3",
-              "source_version_id": "c0e6cd5d42df497e882bc399",
-              "start": 964,
-              "end": 1023,
-              "text": "와이즈플래닛컴퍼니는 오는 14~15일 일반투자자 대상 청약을 진행하고 23일 코스닥시장에 상장할 예정이다.",
-              "source_excerpt_truncated": false,
-              "excerpt_truncated": false,
-              "location": "본문",
-              "display_text": "와이즈플래닛컴퍼니는 오는 14~15일 일반투자자 대상 청약을 진행하고 23일 코스닥시장에 상장할 예정이다.",
-              "is_translation": false
-            }
-          ],
-          "rationale": "",
-          "conditions": "",
-          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
-          "validation": {
-            "semantic_support": "source_quote_only",
-            "human_review": "not_reviewed",
-            "status": "source_checked",
-            "source_linkage": "passed",
-            "content_check": "exact_quote"
-          },
-          "numbers": []
-        }
-      ],
-      "document_ids": [
-        "82709f02e6bd72e71b99c7f3"
-      ],
-      "source_versions": [
-        "c0e6cd5d42df497e882bc399"
-      ],
-      "entities": [],
-      "selection_reason": [
-        "수집 범위 내 독립 발행자 1개",
-        "자료 기준 경과 20.5시간",
-        "이전 입력 대비 신규 문서",
-        "원문에 실행·결정 근거가 있는 기업 계약·제품·자본거래·승인"
-      ],
-      "follow_up": [
-        "원문과 기간·단위·작성 주체를 확인하고 해석을 검토하세요."
-      ],
-      "confidence": "source_checked",
-      "related_issue_id": null,
-      "late_discovered": false,
-      "analysis_provider": "extractive",
-      "model_status": "not_needed_source_korean",
-      "analysis_label": "한국어 원문에서 핵심 문장 선별",
-      "evidence_expired": false,
-      "evidence_partially_expired": false,
-      "has_full_text": true,
-      "has_message_text": false,
-      "prior_day_follow_up": false,
-      "original_title": "와이즈플래닛컴퍼니, 공모가 최상단 1만2000원 확정",
-      "source_title_ko": "와이즈플래닛컴퍼니, 공모가 최상단 1만2000원 확정",
       "korean_required": true
     },
     {
@@ -2903,74 +2903,40 @@
       "korean_required": true
     },
     {
-      "id": "cc60b889e59f415a2ff11def",
-      "anchor": "issue-a10d1c6fd731a663",
-      "editorial_scope": "company",
-      "event_type": "capital_transaction",
-      "title": "마이리얼트립, 아웃바운드이어 인바운드까지…크리에이트립 인수",
+      "id": "4b79007918b3ef9cd3947ffc",
+      "anchor": "issue-03a02b2bfac1a9a4",
+      "editorial_scope": "industry",
+      "event_type": "outlook",
+      "title": "월가, 이란 전쟁에 유가 '쇼크' 장기화 관측…가격 전망 상향 잇따라",
       "section": "investment",
       "category": "research",
       "summary": [
-        "마이리얼트립이 인바운드 여행 플랫폼 크리에이트립을 인수한다.",
-        "국내 여행 플랫폼 1호 상장을 추진 중인 마이리얼트립이, 상장을 앞두고 아웃바운드·인트라바운드에 이어 인바운드까지 사업 구조를 완성하는 모양새다.",
-        "마이리얼트립은 11일 이사회를 열고 크리에이트립 지분 인수 안건을 의결했다.",
-        "주식교환 방식으로 지분 전량을 인수해 남은 절차를 거쳐 연내 자회사로 편입할 계획이다."
+        "10일(현지시간) 비즈니스인사이더에 따르면 HSBC는 최근 2027년 브렌트유 가격 전망치를 기존보다 20달러 상향한 배럴당 85달러로 제시했다.",
+        "국제유가는 지난 8월 초 배럴당 80달러 아래로 떨어졌지만 이후 대부분의 기간 상승세를 이어갔다.",
+        "뱅크오브아메리카(BofA)는 중동 지역의 분쟁이 지속될 경우 국제유가가 배럴당 95~120달러 범위에서 움직일 수 있다고 전망했다.",
+        "월가의 전망치 대부분은 현재 국제유가보다 낮은 수준이지만, 시장에서는 배럴당 100달러 이상의 유가가 더 이상 현실성이 낮은 위험 시나리오가 아니라는 인식이 확산하고 있다."
       ],
       "change": "이전 사건과 동일한 정보를 재확인. 전망 변경 여부는 미판정",
       "claims": [
         {
-          "id": "995bdea243370ba94da8e5bc",
-          "text": "마이리얼트립이 인바운드 여행 플랫폼 크리에이트립을 인수한다.",
-          "kind": "fact",
-          "author": "녹색경제신문",
-          "source_ids": [
-            "2499d2f34d35057581750ed3"
-          ],
-          "evidence": [
-            {
-              "source_id": "2499d2f34d35057581750ed3",
-              "source_version_id": "3b60a4a5771b5a93cd6cc4fd",
-              "start": 0,
-              "end": 33,
-              "text": "마이리얼트립이 인바운드 여행 플랫폼 크리에이트립을 인수한다.",
-              "source_excerpt_truncated": false,
-              "excerpt_truncated": false,
-              "location": "본문",
-              "display_text": "마이리얼트립이 인바운드 여행 플랫폼 크리에이트립을 인수한다.",
-              "is_translation": false
-            }
-          ],
-          "rationale": "",
-          "conditions": "",
-          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
-          "validation": {
-            "semantic_support": "source_quote_only",
-            "human_review": "not_reviewed",
-            "status": "source_checked",
-            "source_linkage": "passed",
-            "content_check": "exact_quote"
-          },
-          "numbers": []
-        },
-        {
-          "id": "f07525e6f99537aebf916965",
-          "text": "국내 여행 플랫폼 1호 상장을 추진 중인 마이리얼트립이, 상장을 앞두고 아웃바운드·인트라바운드에 이어 인바운드까지 사업 구조를 완성하는 모양새다.",
+          "id": "26b82f5d9515d0191ffe90ca",
+          "text": "10일(현지시간) 비즈니스인사이더에 따르면 HSBC는 최근 2027년 브렌트유 가격 전망치를 기존보다 20달러 상향한 배럴당 85달러로 제시했다.",
           "kind": "author_opinion",
-          "author": "녹색경제신문",
+          "author": "연합인포맥스",
           "source_ids": [
-            "2499d2f34d35057581750ed3"
+            "900917ae6f763ca3fd3d04ba"
           ],
           "evidence": [
             {
-              "source_id": "2499d2f34d35057581750ed3",
-              "source_version_id": "3b60a4a5771b5a93cd6cc4fd",
-              "start": 34,
-              "end": 115,
-              "text": "국내 여행 플랫폼 1호 상장을 추진 중인 마이리얼트립이, 상장을 앞두고 아웃바운드·인트라바운드에 이어 인바운드까지 사업 구조를 완성하는 모양새다.",
+              "source_id": "900917ae6f763ca3fd3d04ba",
+              "source_version_id": "20bd71e65b5dada4d235988d",
+              "start": 83,
+              "end": 164,
+              "text": "10일(현지시간) 비즈니스인사이더에 따르면 HSBC는 최근 2027년 브렌트유 가격 전망치를 기존보다 20달러 상향한 배럴당 85달러로 제시했다.",
               "source_excerpt_truncated": false,
               "excerpt_truncated": false,
               "location": "본문",
-              "display_text": "국내 여행 플랫폼 1호 상장을 추진 중인 마이리얼트립이, 상장을 앞두고 아웃바운드·인트라바운드에 이어 인바운드까지 사업 구조를 완성하는 모양새다.",
+              "display_text": "10일(현지시간) 비즈니스인사이더에 따르면 HSBC는 최근 2027년 브렌트유 가격 전망치를 기존보다 20달러 상향한 배럴당 85달러로 제시했다.",
               "is_translation": false
             }
           ],
@@ -2987,24 +2953,24 @@
           "numbers": []
         },
         {
-          "id": "b5345ae7a494665cf88b1b63",
-          "text": "마이리얼트립은 11일 이사회를 열고 크리에이트립 지분 인수 안건을 의결했다.",
+          "id": "f13e9b9448a18f6c4db8071a",
+          "text": "국제유가는 지난 8월 초 배럴당 80달러 아래로 떨어졌지만 이후 대부분의 기간 상승세를 이어갔다.",
           "kind": "fact",
-          "author": "녹색경제신문",
+          "author": "연합인포맥스",
           "source_ids": [
-            "2499d2f34d35057581750ed3"
+            "900917ae6f763ca3fd3d04ba"
           ],
           "evidence": [
             {
-              "source_id": "2499d2f34d35057581750ed3",
-              "source_version_id": "3b60a4a5771b5a93cd6cc4fd",
-              "start": 117,
-              "end": 159,
-              "text": "마이리얼트립은 11일 이사회를 열고 크리에이트립 지분 인수 안건을 의결했다.",
+              "source_id": "900917ae6f763ca3fd3d04ba",
+              "source_version_id": "20bd71e65b5dada4d235988d",
+              "start": 384,
+              "end": 438,
+              "text": "국제유가는 지난 8월 초 배럴당 80달러 아래로 떨어졌지만 이후 대부분의 기간 상승세를 이어갔다.",
               "source_excerpt_truncated": false,
               "excerpt_truncated": false,
               "location": "본문",
-              "display_text": "마이리얼트립은 11일 이사회를 열고 크리에이트립 지분 인수 안건을 의결했다.",
+              "display_text": "국제유가는 지난 8월 초 배럴당 80달러 아래로 떨어졌지만 이후 대부분의 기간 상승세를 이어갔다.",
               "is_translation": false
             }
           ],
@@ -3021,24 +2987,58 @@
           "numbers": []
         },
         {
-          "id": "17cc5fd386eab4d4c6ad018e",
-          "text": "주식교환 방식으로 지분 전량을 인수해 남은 절차를 거쳐 연내 자회사로 편입할 계획이다.",
-          "kind": "fact",
-          "author": "녹색경제신문",
+          "id": "3c913b087eb4fa7733507139",
+          "text": "뱅크오브아메리카(BofA)는 중동 지역의 분쟁이 지속될 경우 국제유가가 배럴당 95~120달러 범위에서 움직일 수 있다고 전망했다.",
+          "kind": "author_opinion",
+          "author": "연합인포맥스",
           "source_ids": [
-            "2499d2f34d35057581750ed3"
+            "900917ae6f763ca3fd3d04ba"
           ],
           "evidence": [
             {
-              "source_id": "2499d2f34d35057581750ed3",
-              "source_version_id": "3b60a4a5771b5a93cd6cc4fd",
-              "start": 160,
-              "end": 208,
-              "text": "주식교환 방식으로 지분 전량을 인수해 남은 절차를 거쳐 연내 자회사로 편입할 계획이다.",
+              "source_id": "900917ae6f763ca3fd3d04ba",
+              "source_version_id": "20bd71e65b5dada4d235988d",
+              "start": 636,
+              "end": 709,
+              "text": "뱅크오브아메리카(BofA)는 중동 지역의 분쟁이 지속될 경우 국제유가가 배럴당 95~120달러 범위에서 움직일 수 있다고 전망했다.",
               "source_excerpt_truncated": false,
               "excerpt_truncated": false,
               "location": "본문",
-              "display_text": "주식교환 방식으로 지분 전량을 인수해 남은 절차를 거쳐 연내 자회사로 편입할 계획이다.",
+              "display_text": "뱅크오브아메리카(BofA)는 중동 지역의 분쟁이 지속될 경우 국제유가가 배럴당 95~120달러 범위에서 움직일 수 있다고 전망했다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote"
+          },
+          "numbers": []
+        },
+        {
+          "id": "a825433e8b1e1564236f1d4b",
+          "text": "월가의 전망치 대부분은 현재 국제유가보다 낮은 수준이지만, 시장에서는 배럴당 100달러 이상의 유가가 더 이상 현실성이 낮은 위험 시나리오가 아니라는 인식이 확산하고 있다.",
+          "kind": "author_opinion",
+          "author": "연합인포맥스",
+          "source_ids": [
+            "900917ae6f763ca3fd3d04ba"
+          ],
+          "evidence": [
+            {
+              "source_id": "900917ae6f763ca3fd3d04ba",
+              "source_version_id": "20bd71e65b5dada4d235988d",
+              "start": 768,
+              "end": 864,
+              "text": "월가의 전망치 대부분은 현재 국제유가보다 낮은 수준이지만, 시장에서는 배럴당 100달러 이상의 유가가 더 이상 현실성이 낮은 위험 시나리오가 아니라는 인식이 확산하고 있다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "월가의 전망치 대부분은 현재 국제유가보다 낮은 수준이지만, 시장에서는 배럴당 100달러 이상의 유가가 더 이상 현실성이 낮은 위험 시나리오가 아니라는 인식이 확산하고 있다.",
               "is_translation": false
             }
           ],
@@ -3056,17 +3056,17 @@
         }
       ],
       "document_ids": [
-        "2499d2f34d35057581750ed3"
+        "900917ae6f763ca3fd3d04ba"
       ],
       "source_versions": [
-        "3b60a4a5771b5a93cd6cc4fd"
+        "20bd71e65b5dada4d235988d"
       ],
       "entities": [],
       "selection_reason": [
         "수집 범위 내 독립 발행자 1개",
-        "자료 기준 경과 38.7시간",
+        "자료 기준 경과 39.0시간",
         "이전 입력과 중복 내용",
-        "원문에 실행·결정 근거가 있는 기업 계약·제품·자본거래·승인"
+        "수치가 명시된 전망 변경; 관측 사실과 구분"
       ],
       "follow_up": [
         "원문과 기간·단위·작성 주체를 확인하고 해석을 검토하세요."
@@ -3082,8 +3082,8 @@
       "has_full_text": true,
       "has_message_text": false,
       "prior_day_follow_up": false,
-      "original_title": "마이리얼트립, 아웃바운드이어 인바운드까지…크리에이트립 인수",
-      "source_title_ko": "마이리얼트립, 아웃바운드이어 인바운드까지…크리에이트립 인수",
+      "original_title": "월가, 이란 전쟁에 유가 '쇼크' 장기화 관측…가격 전망 상향 잇따라",
+      "source_title_ko": "월가, 이란 전쟁에 유가 '쇼크' 장기화 관측…가격 전망 상향 잇따라",
       "korean_required": true
     },
     {
@@ -3856,6 +3856,27 @@
       "synthetic": false
     },
     {
+      "id": "900917ae6f763ca3fd3d04ba",
+      "version_id": "20bd71e65b5dada4d235988d",
+      "source_id": "naver_investment",
+      "source_kind": "news",
+      "title": "월가, 이란 전쟁에 유가 '쇼크' 장기화 관측…가격 전망 상향 잇따라",
+      "publisher": "연합인포맥스",
+      "author": "",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434495",
+      "published_at": "2026-09-11T07:00:36+00:00",
+      "provided_at": "2026-09-11T07:02:00+00:00",
+      "modified_at": null,
+      "collected_at": "2026-09-11T07:27:40.657913+00:00",
+      "event_at": null,
+      "time_basis": "original_published_at",
+      "full_text": true,
+      "text_scope": "기사·문서 본문 확보",
+      "evidence_expired": false,
+      "extraction_quality": "article_text",
+      "synthetic": false
+    },
+    {
       "id": "a4e18fc2d77f3eae1787f6d9",
       "version_id": "29efce0b98553912be11b1c9",
       "source_id": "naver_investment",
@@ -3910,27 +3931,6 @@
       "provided_at": "2026-09-11T16:38:00+00:00",
       "modified_at": "2026-09-11T16:38:00+00:00",
       "collected_at": "2026-09-11T20:43:33.280921+00:00",
-      "event_at": null,
-      "time_basis": "original_published_at",
-      "full_text": true,
-      "text_scope": "기사·문서 본문 확보",
-      "evidence_expired": false,
-      "extraction_quality": "article_text",
-      "synthetic": false
-    },
-    {
-      "id": "2499d2f34d35057581750ed3",
-      "version_id": "3b60a4a5771b5a93cd6cc4fd",
-      "source_id": "naver_investment",
-      "source_kind": "news",
-      "title": "마이리얼트립, 아웃바운드이어 인바운드까지…크리에이트립 인수",
-      "publisher": "녹색경제신문",
-      "author": "",
-      "url": "https://www.greened.kr/news/articleView.html?idxno=349905",
-      "published_at": "2026-09-11T07:17:00+00:00",
-      "provided_at": "2026-09-11T07:17:00+00:00",
-      "modified_at": null,
-      "collected_at": "2026-09-11T20:43:44.070385+00:00",
       "event_at": null,
       "time_basis": "original_published_at",
       "full_text": true,
@@ -4045,48 +4045,6 @@
       "synthetic": false
     },
     {
-      "id": "82e5a69b4349852f58ef2222",
-      "version_id": "ba25f6697472eebeb8a2a3fb",
-      "source_id": "naver_general",
-      "source_kind": "news",
-      "title": "더존비즈온, ERP 뱅킹 ‘DJ Bank’ WEHAGO로 확대…가입 고객에 ‘ONE AI’ 지원",
-      "publisher": "파이낸셜투데이",
-      "author": "한종해 기자",
-      "url": "http://www.ftoday.co.kr/news/articleView.html?idxno=365312",
-      "published_at": "2026-09-12T02:11:03+00:00",
-      "provided_at": "2026-09-12T02:12:00+00:00",
-      "modified_at": null,
-      "collected_at": "2026-09-12T09:00:51.089987+00:00",
-      "event_at": null,
-      "time_basis": "original_published_at",
-      "full_text": true,
-      "text_scope": "기사·문서 본문 확보",
-      "evidence_expired": false,
-      "extraction_quality": "article_text",
-      "synthetic": false
-    },
-    {
-      "id": "82709f02e6bd72e71b99c7f3",
-      "version_id": "c0e6cd5d42df497e882bc399",
-      "source_id": "naver_investment",
-      "source_kind": "news",
-      "title": "와이즈플래닛컴퍼니, 공모가 최상단 1만2000원 확정",
-      "publisher": "월요신문",
-      "author": "이주희 기자",
-      "url": "https://www.wolyo.co.kr/news/articleView.html?idxno=317678",
-      "published_at": "2026-09-12T01:30:15+00:00",
-      "provided_at": "2026-09-12T01:32:00+00:00",
-      "modified_at": "2026-09-12T01:30:15+00:00",
-      "collected_at": "2026-09-12T09:02:15.941756+00:00",
-      "event_at": null,
-      "time_basis": "original_published_at",
-      "full_text": true,
-      "text_scope": "기사·문서 본문 확보",
-      "evidence_expired": false,
-      "extraction_quality": "article_text",
-      "synthetic": false
-    },
-    {
       "id": "8c762dc60dcdaa9ee24ff90e",
       "version_id": "c2c7963fe0d4a6a4d256b814",
       "source_id": "naver_einfomax",
@@ -4099,6 +4057,27 @@
       "provided_at": "2026-09-11T22:02:00+00:00",
       "modified_at": null,
       "collected_at": "2026-09-12T09:03:37.337090+00:00",
+      "event_at": null,
+      "time_basis": "original_published_at",
+      "full_text": true,
+      "text_scope": "기사·문서 본문 확보",
+      "evidence_expired": false,
+      "extraction_quality": "article_text",
+      "synthetic": false
+    },
+    {
+      "id": "bcfa29e1f98fb31ed86753c2",
+      "version_id": "c56785dfb5e5fc0b5de7c52f",
+      "source_id": "naver_general",
+      "source_kind": "news",
+      "title": "\"달라진 원화 강세 공식…外人 주식 17조원 팔아도 환율 급락\"",
+      "publisher": "연합인포맥스",
+      "author": "",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434564",
+      "published_at": "2026-09-12T01:25:00+00:00",
+      "provided_at": "2026-09-12T01:28:00+00:00",
+      "modified_at": null,
+      "collected_at": "2026-09-12T09:00:58.533880+00:00",
       "event_at": null,
       "time_basis": "original_published_at",
       "full_text": true,
@@ -4162,6 +4141,27 @@
       "provided_at": null,
       "modified_at": "2026-09-11T04:40:43+00:00",
       "collected_at": "2026-09-11T06:33:52.983038+00:00",
+      "event_at": null,
+      "time_basis": "original_published_at",
+      "full_text": true,
+      "text_scope": "기사·문서 본문 확보",
+      "evidence_expired": false,
+      "extraction_quality": "article_text",
+      "synthetic": false
+    },
+    {
+      "id": "513d2e1b45e944962c773fcd",
+      "version_id": "f16779f13844060982e89dc9",
+      "source_id": "naver_investment",
+      "source_kind": "news",
+      "title": "\"인재·기술 싹쓸이 M&A 회피?\"…美 법무부, 엔비디아 '반독점 조사'",
+      "publisher": "더투데이",
+      "author": "김성은 기자",
+      "url": "https://www.the-today.com/news/articleView.html?idxno=90019",
+      "published_at": "2026-09-12T21:29:56+00:00",
+      "provided_at": "2026-09-12T21:30:00+00:00",
+      "modified_at": "2026-09-12T21:29:56+00:00",
+      "collected_at": "2026-09-13T03:20:10.035749+00:00",
       "event_at": null,
       "time_basis": "original_published_at",
       "full_text": true,
@@ -4255,7 +4255,7 @@
     "status": "complete",
     "issues_completed": 20,
     "issues_pending": 0,
-    "foreign_issues_completed": 4
+    "foreign_issues_completed": 5
   },
   "publication": {
     "withheld_private_documents": 1162,
