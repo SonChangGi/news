@@ -1,0 +1,6 @@
+.DS_Store
+.env*
+*.session*
+*.sqlite*
+*.log
+__pycache__/
