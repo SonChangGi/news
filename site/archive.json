@@ -4,7 +4,7 @@
   "base_path": "/news/",
   "timezone": "Asia/Seoul",
   "latest_date": "2026-09-14",
-  "updated_at": "2026-09-14T05:44:53.323766+00:00",
+  "updated_at": "2026-09-14T14:46:41.571235+00:00",
   "latest_url": "/news/",
   "archive_url": "/news/?archive=1",
   "manifest_url": "/news/archive.json",
@@ -13,15 +13,15 @@
       "date": "2026-09-14",
       "url": "/news/daily/2026-09-14/index.html",
       "report_url": "/news/daily/2026-09-14/index.html",
-      "mode": "on_time",
-      "generated_at": "2026-09-14T05:44:53.323766+00:00",
-      "cutoff": "2026-09-14T10:11:12.696390+09:00",
-      "issue_count": 20,
+      "mode": "reconstruction",
+      "generated_at": "2026-09-14T14:46:41.571235+00:00",
+      "cutoff": "2026-09-14T21:11:52.472541+09:00",
+      "issue_count": 28,
       "status": "partial",
       "sha256": {
-        "json": "49c38dfd7e6d92ea5054675e5c4dc8eaa2435d968c1820a0d0c3849e791d4dab",
-        "markdown": "902a39b08553d9a6faea16502023dfb960a1b3488245b12e36556c9b14c491ac",
-        "html": "974a80aee55f5d50fdf2c7d6d1b9206b3a1b356140cb8920d8f5ac8e0b204811"
+        "json": "e3f5e3bbb7936f1ec766ee149b78e52c4e6aee4f8c990442defc9f0bb7efd369",
+        "markdown": "1df5ca5c89d0cc36ba324c710c45ca4e3b5031e3957ff07b4d1bb7545a6dfe72",
+        "html": "dd07ea2b683a313fa77d7ef745cb4a0dd5a983884566dd0296f68ab7cec72835"
       }
     },
     {
@@ -36,7 +36,7 @@
       "sha256": {
         "json": "ef5d3659fe82393d22825ede836b9cb02e7717ec09a282eacd2f09ac08c7ccb2",
         "markdown": "959b3725125a06aa0c93937d1d96d7cabde6fa1a66aa9b843a41ef6b19770e5b",
-        "html": "3db7af997a0fffd5852ef6c53f50b335bcae07ec4693a62e72781513fdf84b61"
+        "html": "70d5d11e3f29882b292b3958df8d87e2ab6f2b2232790792142bd00bc5b316e4"
       }
     },
     {
@@ -51,7 +51,7 @@
       "sha256": {
         "json": "a1347bda08a527af245228c18909e6208c36d3f4b1fecba8be0fe33f0c61c23e",
         "markdown": "7e24482492f998d9be9397b65e54a99338db8ce464d05cf61f76e38cff79ff02",
-        "html": "986c4e1b72818d78f29db35451fab500a8d47fb337fb184d25d06547cc4f9212"
+        "html": "7cec6c17bb978c7306b50e124bf9389173435cf6752264e43a2bbd7304dc0f17"
       }
     }
   ]

@@ -249,6 +249,12 @@ body.has-quant-shared-nav .skip-link {
     /* Briefing has a second sticky filter row below the shared menu. */
     html{scroll-padding-top:calc(var(--masthead-height) + var(--toolbar-height) + 16px)}
     .skip{z-index:1300}.date-navigation .archive-open{min-height:44px;padding:5px 10px;color:var(--primary);background:var(--soft);border-color:transparent}
+    .headline-panel{padding:18px 24px;margin-bottom:14px}.highlight-list li{font-weight:600;align-items:flex-start}.highlight-list a{display:block}.highlight-copy{min-width:0}.highlight-lead{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;font-size:13px;font-weight:400;line-height:1.7;color:var(--muted);margin:5px 0 0}
+    .issue-grid{display:flex;flex-wrap:wrap;gap:16px;border:0;overflow:visible;background:transparent;align-items:flex-start}.issue{flex:1 1 100%;border:1px solid var(--line);border-radius:var(--radius);padding:22px 24px;scroll-margin-top:12px}.issue h3{font-size:20px;line-height:1.55;margin-bottom:8px;max-width:1000px}.issue-top{margin-bottom:8px}.issue-lead{font-size:15px;line-height:1.8;color:var(--muted);margin:0;max-width:1000px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}.issue:has(.issue-detail[open]) .issue-lead{display:none}.issue-detail>summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:8px;padding:10px 0 0;width:fit-content;font-size:12px;color:var(--primary);min-height:36px}.issue-detail>summary::-webkit-details-marker{display:none}.issue-detail>summary:after{content:'＋';font-size:15px}.issue-detail[open]>summary:after{content:'−'}.issue-detail .detail-close,.issue-detail[open] .detail-open{display:none}.issue-detail[open] .detail-close{display:inline}.detail-source-count{color:var(--muted);font-weight:400;margin-left:5px}.issue-reading{padding-top:14px;max-width:960px}.issue-summary p{font-size:16px;line-height:1.85;margin-bottom:14px}.issue-detail[open]{margin-top:4px}.issue:target{box-shadow:inset 3px 0 var(--primary)}.event-dates{display:flex;flex-wrap:wrap;gap:8px;margin:16px 0 0;padding:0;list-style:none}.event-dates li{font-size:12px;background:var(--soft);color:var(--primary);border-radius:5px;padding:5px 10px}.event-dates time{font-weight:700;margin-right:6px}.reading-controls{display:flex;align-items:center;gap:12px;padding-right:48px}.reading-toggle{font-size:12px;border:1px solid var(--line);border-radius:6px;padding:5px 10px;color:var(--muted);background:var(--panel);min-height:34px}.reading-toggle[aria-pressed=true]{color:var(--primary);background:var(--soft)}.section-heading{margin-bottom:10px}.section{margin-bottom:26px}.evidence-panel{margin-top:18px}.evidence-body{max-width:900px}.claim>p,.quote{font-size:13px}.claim-context,.source-meta,.location{font-size:12px}
+    /* A lone card fills its row; expanded articles stay in source order at full width. */
+    @media(min-width:1120px){.issue{flex-basis:calc(50% - 8px)}.issue:has(.issue-detail[open]){flex-basis:100%}}
+    @media(max-width:600px){.headline-panel{padding:16px}.highlight-list li{font-size:14px}.highlight-lead{font-size:12px;-webkit-line-clamp:1}.issue{padding:18px 17px}.issue h3{font-size:18px}.issue-lead{font-size:14px}.issue-summary p{font-size:15px;line-height:1.9}.reading-controls{gap:7px}.reading-toggle{padding:4px 7px;font-size:11px}.toolbar-bottom{align-items:center;flex-wrap:wrap}.results{font-size:11px}.issue-reading{padding-top:12px}}
+    @media print{.issue-lead,.issue-detail>summary,.reading-toggle{display:none!important}.issue-detail>.issue-reading{display:block!important}.issue{padding:14px 0}.issue-grid{border:0}.issue-summary p{font-size:11px}}
     @media print{.quant-shared-nav{display:none!important}html{color-scheme:light}body{background:white;color:black}.masthead,.toolbar,.downloads,.theme-toggle,.operations-panel,.evidence-panel>summary,.date-navigation,.page-jump-nav,.archive-dialog{display:none}body{padding-top:0}.shell{max-width:none;padding:0}.issue-grid,.highlight-list{display:block}.issue{break-inside:avoid;margin-bottom:12px}.evidence-panel:not([open])>*{display:block}.page-header{padding:12px 0}.issue-summary p{font-size:11px}}
   </style>
 </head>
@@ -271,7 +277,7 @@ body.has-quant-shared-nav .skip-link {
 <div class="shell">
   <div class="page-header"><div><p class="eyebrow">경제 · 금융 · 기업</p><h1>9월 12일 브리핑</h1><nav class="date-navigation" aria-label="저장된 브리핑 이동"><button type="button" id="archive-open" class="archive-open" aria-haspopup="dialog" aria-controls="archive-dialog">날짜 선택</button><a id="previous-report" aria-disabled="true">← 이전 날짜</a><a id="next-report" aria-disabled="true">다음 날짜 →</a><a id="latest-report" hidden>최신 브리핑</a></nav></div><div class="header-meta"><span>자료 기준 <strong>09.12 07:00 KST</strong></span><span>생성 09.12 13:33 KST</span><span class="pill">사후 재구성</span></div></div>
   
-  <section class="headline-panel" aria-labelledby="highlights-title"><div class="panel-heading"><h2 id="highlights-title">주요 이슈</h2></div><ol class="highlight-list"><li><a href="#issue-8c8c054cc7298d40">美 9월 미시간대 소비심리지수 예비치 47.8…2개월 연속 급락(상보)</a></li><li><a href="#issue-f641ad3109c8bd82">와이즈플래닛컴퍼니, 공모가 1만2000원 확정…기관 수요예측 1248대 1</a></li><li><a href="#issue-387fcccb08439306">삼성바이오, 유럽 제약사와 3508억원 CMO 계약…2033년까지 장기 공급</a></li><li><a href="#issue-d7ea54e327ce1228">미 근원 CPI 예상치 상회…유가·국채 발작 겹쳐 ‘긴축 공포’</a></li></ol></section>
+  <section class="headline-panel" aria-labelledby="highlights-title"><div class="panel-heading"><h2 id="highlights-title">주요 이슈</h2></div><ol class="highlight-list"><li><div class="highlight-copy"><a href="#issue-8c8c054cc7298d40">美 9월 미시간대 소비심리지수 예비치 47.8…2개월 연속 급락(상보)</a><p class="highlight-lead">11일(현지시간) 미시간대에 따르면 9월 소비자심리지수 예비치는 47.8로 집계됐다. 8월 수치 51.7과 비교해 7.5% 하락했다. 전년 동월의 55.1과 비교하면 13.2% 하락했다.</p></div></li><li><div class="highlight-copy"><a href="#issue-f641ad3109c8bd82">와이즈플래닛컴퍼니, 공모가 1만2000원 확정…기관 수요예측 1248대 1</a><p class="highlight-lead">와이즈플래닛컴퍼니는 기관투자자 대상 수요예측을 마치고 최종 공모가를 희망밴드(1만원~1만2000원) 최상단인 1만2000원으로 확정했다고 11일 밝혔다.</p></div></li><li><div class="highlight-copy"><a href="#issue-387fcccb08439306">삼성바이오, 유럽 제약사와 3508억원 CMO 계약…2033년까지 장기 공급</a><p class="highlight-lead">삼성바이오로직스가 유럽 소재 제약사와 3500억원대 바이오의약품 위탁생산(CMO) 장기계약을 체결하며 글로벌 수주 확대에 나섰다.</p></div></li><li><div class="highlight-copy"><a href="#issue-d7ea54e327ce1228">미 근원 CPI 예상치 상회…유가·국채 발작 겹쳐 ‘긴축 공포’</a><p class="highlight-lead">미 노동부는 11일(현지시간) 8월 CPI가 전월보다 0.4%, 지난해 같은 달보다 3.4% 상승했다고 발표했다.</p></div></li></ol></section>
   
 <style>
   .weekly-outlook{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);margin:0 0 20px;padding:20px 24px}
@@ -307,14 +313,16 @@ body.has-quant-shared-nav .skip-link {
     .weekly-outlook__table .weekly-outlook__empty{padding:12px 0}
     .weekly-outlook__table tbody:last-child tr:last-child{border-bottom:0}
   }
+  .weekly-outlook{padding:0;margin-bottom:16px}.weekly-fold>summary{cursor:pointer;list-style:none;padding:15px 22px;display:flex;align-items:center;gap:14px;min-height:58px}.weekly-fold>summary::-webkit-details-marker{display:none}.weekly-fold>summary:after{content:'＋';margin-left:auto;color:var(--muted)}.weekly-fold[open]>summary:after{content:'−'}.weekly-fold h2{font-size:15px;margin:0;white-space:nowrap}.weekly-peek{font-size:12px;color:var(--muted);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.weekly-peek strong{color:var(--primary);font-weight:600;margin-right:8px}.weekly-body{padding:2px 22px 20px}.weekly-outlook__heading{margin-bottom:10px}.weekly-outlook__table{font-size:13px}.weekly-outlook__table th,.weekly-outlook__table td{padding:13px 14px}.weekly-outlook__coverage{margin:0 0 12px}.weekly-outlook__period{font-size:12px}
+  @media(max-width:600px){.weekly-outlook{padding:0}.weekly-fold>summary{padding:13px 16px;gap:10px}.weekly-peek{font-size:11px}.weekly-peek .weekly-peek-title{display:none}.weekly-body{padding:0 16px 16px}}
+  @media print{.weekly-fold>.weekly-body{display:block!important}.weekly-fold>summary{padding:10px 0}.weekly-fold>summary:after{display:none}}
   @media print{.weekly-outlook{padding:12px;break-inside:avoid}.weekly-outlook__table{font-size:10px}.weekly-outlook__table tr{break-inside:avoid}}
 </style>
 
 <section class="weekly-outlook" id="weekly-outlook" aria-labelledby="weekly-outlook-title">
-  <div class="weekly-outlook__heading">
-    <h2 id="weekly-outlook-title">주간 점검</h2>
-    <p class="weekly-outlook__period">이번 주 09.07–09.13</p>
-  </div>
+  
+  <details class="weekly-fold"><summary><h2 id="weekly-outlook-title">주간 점검</h2><span class="weekly-peek"><strong>1개 일정</strong><span class="weekly-peek-title">9/14–9/15 · 와이즈플래닛컴퍼니, 공모가 1만2000원 확정…기관 수요예측 1248대 1</span></span></summary><div class="weekly-body">
+  <div class="weekly-outlook__heading"><p class="weekly-outlook__period">이번 주 09.07–09.13</p></div>
   <p class="weekly-outlook__coverage" id="weekly-outlook-coverage">자료 09.12 · 1일</p>
   <table class="weekly-outlook__table" aria-labelledby="weekly-outlook-title" aria-describedby="weekly-outlook-coverage">
     <colgroup><col><col><col></colgroup>
@@ -358,7 +366,7 @@ body.has-quant-shared-nav .skip-link {
     <tbody aria-labelledby="weekly-current-week-title">
       <tr class="weekly-outlook__group"><th scope="rowgroup" colspan="3" id="weekly-current-week-title">이번 주 일정</th></tr>
       
-      <tr><td class="weekly-outlook__empty" colspan="3">모은 자료에서 확인된 일정이 없습니다.</td></tr>
+      <tr><td class="weekly-outlook__empty" colspan="3">예정 일정 없음</td></tr>
       
     </tbody>
     
@@ -374,11 +382,12 @@ body.has-quant-shared-nav .skip-link {
     </tbody>
     
   </table>
+  </div></details>
 </section>
 
   <nav class="toolbar" aria-label="브리핑 필터">
     <div class="toolbar-top"><div class="search"><input id="search" type="search" aria-label="검색" placeholder="기업 · 키워드 · 출처 검색" autocomplete="off"></div><select id="section-filter" aria-label="브리핑 구간"><option value="all">모든 구간</option><option value="yesterday">전일 경제·금융 이슈</option><option value="overnight">밤사이 시장·기업 업데이트</option><option value="investment">종목·산업 리서치</option></select><select id="evidence-filter" aria-label="확보한 원문 범위"><option value="all">모든 자료</option><option value="full">기사·문서 본문</option><option value="limited">메시지·요약</option></select></div>
-    <div class="toolbar-bottom"><div class="scope-nav" aria-label="이슈 분야"><button type="button" data-scope="all" aria-pressed="true">전체</button><button type="button" data-scope="company" aria-pressed="false">기업</button><button type="button" data-scope="market" aria-pressed="false">시장</button><button type="button" data-scope="economy" aria-pressed="false">경제·산업</button></div><span class="results" id="result-count" aria-live="polite">20개 이슈</span></div>
+    <div class="toolbar-bottom"><div class="scope-nav" aria-label="이슈 분야"><button type="button" data-scope="all" aria-pressed="true">전체</button><button type="button" data-scope="company" aria-pressed="false">기업</button><button type="button" data-scope="market" aria-pressed="false">시장</button><button type="button" data-scope="economy" aria-pressed="false">경제·산업</button></div><div class="reading-controls"><span class="results" id="result-count" aria-live="polite">20개 이슈</span><button type="button" id="reading-toggle" class="reading-toggle" aria-pressed="false">모두 펼치기</button></div></div>
   </nav>
   <noscript><p>검색·필터를 사용하려면 JavaScript를 켜세요.</p></noscript>
   <main id="report-content" tabindex="-1">
@@ -387,8 +396,11 @@ body.has-quant-shared-nav .skip-link {
       <article class="issue" id="issue-26d37a998f245196" data-issue-section="yesterday" data-scope="macro" data-full-text="true">
         <div class="issue-top"><span class="pill accent">경제지표</span><span class="source-caption">매일경제 · 09.11 18:00 KST</span></div>
         <h3><a href="#issue-26d37a998f245196">9월 누적 수출액 급등 … 82% 증가한 350억弗</a></h3>
-        <div class="issue-summary"><p>관세청은 이달 1~10일 수출액이 350억달러로 지난해 같은 기간보다 82.6% 증가했다고 11일 밝혔다. 이는 월별 초순 수출액 가운데 역대 가장 큰 규모다. 반도체 수출이 165억달러로 급증해 전체 수출 증가를 견인했다. 품목별로는 반도체 수출이 전년 동기 대비 270.1% 늘어난 165억달러로 집계돼 1~10일 기준 최고 기록을 새로 썼다.</p><p>전체 수출에서 반도체가 차지하는 비중도 47.1%로 1년 전보다 23.9%포인트 확대됐다. 석유 제품과 승용차 수출은 각각 57.0%, 10.0% 증가한 반면 정밀기기는 4.8% 줄었다. 국가별 수출은 중국이 103.0%, 미국이 137.5% 늘었다. 대만과 베트남, 유럽연합(EU)에 대한 수출도 각각 176.0%, 42.2%, 38.9% 증가했다.</p><p>같은 기간 수입은 246억달러로 20.7% 늘었다.</p><p>국가별로는 중국·미국·EU·일본산 수입이 증가했고, 호주산 수입은 0.7% 줄었다. 수출이 수입을 크게 웃돌면서 무역수지는 104억달러 흑자를 나타냈다.</p></div>
+        <p class="issue-lead">관세청은 이달 1~10일 수출액이 350억달러로 지난해 같은 기간보다 82.6% 증가했다고 11일 밝혔다. 이는 월별 초순 수출액 가운데 역대 가장 큰 규모다. 반도체 수출이 165억달러로 급증해 전체 수출 증가를 견인했다. 품목별로는 반도체 수출이 전년 동기 대비 270.1% 늘어난 165억달러로 집계돼 1~10일 기준 최고 기록을 새로 썼다.</p>
         
+        
+        <details class="issue-detail"><summary><span class="detail-open">상세 보기</span><span class="detail-close">접기</span><span class="detail-source-count">자료 1건</span></summary><div class="issue-reading">
+        <div class="issue-summary"><p>관세청은 이달 1~10일 수출액이 350억달러로 지난해 같은 기간보다 82.6% 증가했다고 11일 밝혔다. 이는 월별 초순 수출액 가운데 역대 가장 큰 규모다. 반도체 수출이 165억달러로 급증해 전체 수출 증가를 견인했다. 품목별로는 반도체 수출이 전년 동기 대비 270.1% 늘어난 165억달러로 집계돼 1~10일 기준 최고 기록을 새로 썼다.</p><p>전체 수출에서 반도체가 차지하는 비중도 47.1%로 1년 전보다 23.9%포인트 확대됐다. 석유 제품과 승용차 수출은 각각 57.0%, 10.0% 증가한 반면 정밀기기는 4.8% 줄었다. 국가별 수출은 중국이 103.0%, 미국이 137.5% 늘었다. 대만과 베트남, 유럽연합(EU)에 대한 수출도 각각 176.0%, 42.2%, 38.9% 증가했다.</p><p>같은 기간 수입은 246억달러로 20.7% 늘었다.</p><p>국가별로는 중국·미국·EU·일본산 수입이 증가했고, 호주산 수입은 0.7% 줄었다. 수출이 수입을 크게 웃돌면서 무역수지는 104억달러 흑자를 나타냈다.</p></div>
         
         
         
@@ -410,13 +422,17 @@ body.has-quant-shared-nav .skip-link {
           <ul class="source-list"><li><a href="https://www.mk.co.kr/article/12150722" target="_blank" rel="noopener noreferrer" referrerpolicy="no-referrer">9월 누적 수출액 급등 … 82% 증가한 350억弗 ↗</a><div class="source-meta">매일경제 · 강인선 · 발행 09.11 18:00 KST</div><details class="source-details"><summary>자료 정보</summary><div class="source-meta">수집 09.12 05:43 KST · 시간 기준 원문 발행<br>자료 제공 09.11 18:01 KST<br>원문 수정 09.11 20:01 KST<br>기사·문서 본문 확보</div></details></li></ul>
           <details class="selection-detail"><summary>선정 정보</summary><p>수집 범위 내 독립 발행자 1개 · 자료 기준 경과 13.0시간 · 이전 입력 대비 신규 문서 · 수치가 명시된 거시 지표 발표 또는 확정된 통화·무역 정책 변경</p></details>
         </div></details>
+        </div></details>
       </article><article class="issue" id="issue-489bdc917d3e7b85" data-issue-section="yesterday" data-scope="macro" data-full-text="true">
         <div class="issue-top"><span class="pill accent">경제지표</span><span class="source-caption">연합인포맥스 · 09.11 17:40 KST</span></div>
         <h3><a href="#issue-489bdc917d3e7b85">영국 7월 GDP 전월비 0.4%↑…성장세 유지(상보)</a></h3>
+        <p class="issue-lead">영국의 지난 7월 국내총생산(GDP)이 서비스 부문의 호조에 힘입어 전월 대비 0.4% 증가했다.</p>
+        
+        
+        <details class="issue-detail"><summary><span class="detail-open">상세 보기</span><span class="detail-close">접기</span><span class="detail-source-count">자료 1건</span></summary><div class="issue-reading">
         <div class="issue-summary"><p>영국의 지난 7월 국내총생산(GDP)이 서비스 부문의 호조에 힘입어 전월 대비 0.4% 증가했다.</p><p>11일(현지시간) 영국 통계청(ONS)에 따르면 영국의 7월 GDP는 전월 대비 0.4% 증가했다. 시장 예상치는 보합(0.0%)이었다.
 
 전년 동월 대비로는 1.6% 증가했다. 이는 지난해 2월 이후 가장 빠른 연간 성장률로, 전문가 전망치인 1.0%도 웃돌았다.</p><p>5월부터 7월까지 3개월간 GDP는 직전 3개월 대비 0.4% 증가해 4월부터 6월까지의 성장률과 같은 수준을 유지했다. 전문가들은 해당 기간 성장률이 0.3%로 둔화할 것으로 예상했다.</p><p>영국 경제는 올해 상반기 1% 성장해 주요 선진 7개국(G7) 가운데 가장 높은 성장률을 기록했다. 다만 일부 분석가들은 계절적 요인이 충분히 조정되지 않은 영향이 일부 반영됐을 가능성이 있다고 지적했다.</p></div>
-        
         
         
         
@@ -440,11 +456,15 @@ body.has-quant-shared-nav .skip-link {
           <ul class="source-list"><li><a href="https://news.einfomax.co.kr/news/articleView.html?idxno=4434510" target="_blank" rel="noopener noreferrer" referrerpolicy="no-referrer">영국 7월 GDP 전월비 0.4%↑…성장세 유지(상보) ↗</a><div class="source-meta">연합인포맥스 · 발행 09.11 17:40 KST</div><details class="source-details"><summary>자료 정보</summary><div class="source-meta">수집 09.12 05:44 KST · 시간 기준 원문 발행<br>자료 제공 09.11 17:42 KST<br>기사·문서 본문 확보</div></details></li></ul>
           <details class="selection-detail"><summary>선정 정보</summary><p>수집 범위 내 독립 발행자 1개 · 자료 기준 경과 13.3시간 · 이전 입력 대비 신규 문서 · 수치가 명시된 거시 지표 발표 또는 확정된 통화·무역 정책 변경</p></details>
         </div></details>
+        </div></details>
       </article><article class="issue" id="issue-1e2778bc5a8bb669" data-issue-section="yesterday" data-scope="macro" data-full-text="true">
         <div class="issue-top"><span class="pill accent">경제지표</span><span class="source-caption">연합인포맥스 · 09.11 01:39 KST</span></div>
         <h3><a href="#issue-1e2778bc5a8bb669">美 8월 기존주택 판매 전월比 2.0% 감소…모기지금리 상승 탓</a></h3>
-        <div class="issue-summary"><p>10일(현지시간) 전미 부동산중개인협회(NAR)에 따르면 지난 8월 미국의 기존 주택 판매 규모는 계절 조정 기준 전달 대비 2.0% 감소한 연율 398만채로 나타났다.</p><p>NAR의 수석 이코노미스트인 로런스 윤은 &#34;모기지금리와 주택 판매는 서로 반대 방향으로 움직이기 때문에 높은 모기지금리로 주택 구매 활동이 소폭 감소한 것은 놀라운 일이 아니다&#34;고 평가했다.</p><p>이어 &#34;그런데도 주택 가격은 상승하고 있고, 기존 주택 판매는 실제로 올해 첫 8개월 동안 전년 대비 누적으로 1.6% 증가했다&#34;면서 &#34;더 높은 금리에도 불구하고 주택 구매 수요가 뒷받침되고 있는 것은 의심할 여지 없이 임금 상승 덕분&#34;이라고 설명했다</p><p>기존 주택 중간 가격은 38개월 연속 전년 대비 상승세를 기록했다.</p></div>
+        <p class="issue-lead">10일(현지시간) 전미 부동산중개인협회(NAR)에 따르면 지난 8월 미국의 기존 주택 판매 규모는 계절 조정 기준 전달 대비 2.0% 감소한 연율 398만채로 나타났다.</p>
         
+        
+        <details class="issue-detail"><summary><span class="detail-open">상세 보기</span><span class="detail-close">접기</span><span class="detail-source-count">자료 1건</span></summary><div class="issue-reading">
+        <div class="issue-summary"><p>10일(현지시간) 전미 부동산중개인협회(NAR)에 따르면 지난 8월 미국의 기존 주택 판매 규모는 계절 조정 기준 전달 대비 2.0% 감소한 연율 398만채로 나타났다.</p><p>NAR의 수석 이코노미스트인 로런스 윤은 &#34;모기지금리와 주택 판매는 서로 반대 방향으로 움직이기 때문에 높은 모기지금리로 주택 구매 활동이 소폭 감소한 것은 놀라운 일이 아니다&#34;고 평가했다.</p><p>이어 &#34;그런데도 주택 가격은 상승하고 있고, 기존 주택 판매는 실제로 올해 첫 8개월 동안 전년 대비 누적으로 1.6% 증가했다&#34;면서 &#34;더 높은 금리에도 불구하고 주택 구매 수요가 뒷받침되고 있는 것은 의심할 여지 없이 임금 상승 덕분&#34;이라고 설명했다</p><p>기존 주택 중간 가격은 38개월 연속 전년 대비 상승세를 기록했다.</p></div>
         
         
         
@@ -466,11 +486,15 @@ body.has-quant-shared-nav .skip-link {
           <ul class="source-list"><li><a href="https://news.einfomax.co.kr/news/articleView.html?idxno=4434354" target="_blank" rel="noopener noreferrer" referrerpolicy="no-referrer">美 8월 기존주택 판매 전월比 2.0% 감소…모기지금리 상승 탓 ↗</a><div class="source-meta">연합인포맥스 · 발행 09.11 01:39 KST</div><details class="source-details"><summary>자료 정보</summary><div class="source-meta">수집 09.11 16:29 KST · 시간 기준 원문 발행<br>기사·문서 본문 확보</div></details></li></ul>
           <details class="selection-detail"><summary>선정 정보</summary><p>수집 범위 내 독립 발행자 1개 · 자료 기준 경과 29.3시간 · 이전 입력과 중복 내용 · 수치가 명시된 거시 지표 발표 또는 확정된 통화·무역 정책 변경</p></details>
         </div></details>
+        </div></details>
       </article><article class="issue" id="issue-8e3ae09a1dd39bd4" data-issue-section="yesterday" data-scope="industry" data-full-text="true">
         <div class="issue-top"><span class="pill accent">산업 규제</span><span class="source-caption">미국 연방준비제도 · 09.11 05:00 KST 제공</span></div>
         <h3><a href="#issue-8e3ae09a1dd39bd4">기관들이 지역 은행에 대한 규제 부담을 줄이고 18 개월 검사 주기에 대한 자격 요건을 확대합니다.</a></h3>
-        <div class="issue-summary"><p>연방 은행 규제 기관들은 오늘 18 개월 검사 주기에 자격이 있는 지역 은행의 수를 늘리는 임시 최종 규정을 발표했습니다.</p><p>21세기 주택 로드법은 특정 감독 대상 기관이 연장된 18 개월 현장 검사 주기에 자격을 갖추기 위한 총 자산 기준을 30 억 달러에서 60 억 달러로 상향 조정했습니다.</p><p>이러한 소규모 비복합 기업에 대한 검사 주기를 12 개월에서 18 개월로 연장하는 것은 이러한 저위험 기관에 대한 부담, 특히 소요되는 시간과 자원을 적절히 줄여줍니다.</p><p>연장된 주기는 상대적으로 위험도가 낮은 소규모 은행에 적용되지만, 관련 기관들은 예정된 검사 사이에서 현재와 같은 현장 외 모니터링 감독 관행을 계속 유지할 것입니다.</p></div>
+        <p class="issue-lead">연방 은행 규제 기관들은 오늘 18 개월 검사 주기에 자격이 있는 지역 은행의 수를 늘리는 임시 최종 규정을 발표했습니다.</p>
         
+        
+        <details class="issue-detail"><summary><span class="detail-open">상세 보기</span><span class="detail-close">접기</span><span class="detail-source-count">자료 2건</span></summary><div class="issue-reading">
+        <div class="issue-summary"><p>연방 은행 규제 기관들은 오늘 18 개월 검사 주기에 자격이 있는 지역 은행의 수를 늘리는 임시 최종 규정을 발표했습니다.</p><p>21세기 주택 로드법은 특정 감독 대상 기관이 연장된 18 개월 현장 검사 주기에 자격을 갖추기 위한 총 자산 기준을 30 억 달러에서 60 억 달러로 상향 조정했습니다.</p><p>이러한 소규모 비복합 기업에 대한 검사 주기를 12 개월에서 18 개월로 연장하는 것은 이러한 저위험 기관에 대한 부담, 특히 소요되는 시간과 자원을 적절히 줄여줍니다.</p><p>연장된 주기는 상대적으로 위험도가 낮은 소규모 은행에 적용되지만, 관련 기관들은 예정된 검사 사이에서 현재와 같은 현장 외 모니터링 감독 관행을 계속 유지할 것입니다.</p></div>
         
         
         
@@ -492,11 +516,15 @@ body.has-quant-shared-nav .skip-link {
           <ul class="source-list"><li><a href="https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260910a.htm" target="_blank" rel="noopener noreferrer" referrerpolicy="no-referrer">기관들이 지역 은행에 대한 규제 부담을 줄이고 18 개월 검사 주기에 대한 자격 요건을 확대합니다. ↗</a><div class="source-meta">미국 연방준비제도 · 발행 확인되지 않음</div><details class="source-details"><summary>자료 정보</summary><div class="source-meta">수집 09.11 13:27 KST · 시간 기준 피드 제공<br>자료 제공 09.11 05:00 KST<br>기사·문서 본문 확보</div></details></li><li><a href="https://www.federalreserve.gov/newsevents/pressreleases/files/bcreg20260910a1.pdf" target="_blank" rel="noopener noreferrer" referrerpolicy="no-referrer">연방준비제도 이사회: bcreg20260910a1.pdf ↗</a><div class="source-meta">미국 연방준비제도 · 발행 확인되지 않음</div><details class="source-details"><summary>자료 정보</summary><div class="source-meta">수집 09.11 13:51 KST · 시간 기준 첨부 제공<br>자료 제공 09.11 05:00 KST<br>PDF 텍스트층 확보</div></details></li></ul>
           <details class="selection-detail"><summary>선정 정보</summary><p>수집 범위 내 독립 발행자 1개 · 자료 기준 경과 26.0시간 · 이전 입력과 중복 내용 · 기업·금융에 직접 연결되는 제도·감독 변경</p></details>
         </div></details>
+        </div></details>
       </article><article class="issue" id="issue-239547e2b052d83c" data-issue-section="yesterday" data-scope="company" data-full-text="true">
         <div class="issue-top"><span class="pill accent">규제·승인</span><span class="source-caption">디지털투데이 (DigitalToday) · 09.11 10:28 KST</span></div>
         <h3><a href="#issue-239547e2b052d83c">칼시, 암호화폐 이어 금·은 무기한 선물 거래 시작…CFTC 승인 확보</a></h3>
-        <div class="issue-summary"><p>칼시가 미국 트레이더를 대상으로 금과 은 무기한 선물인 &#39;퍼프스&#39; 거래를 시작했다.</p><p>10일(이하 현지시간) 블록체인 매체 크립토폴리탄 등에 따르면 칼시는 미국 상품선물거래위원회(CFTC)의 승인을 받아 금과 은 무기한 선물(퍼프스) 계약을 출시했으며, 해당 계약은 이날 칼시 웹사이트를 통해 거래를 시작했다.</p><p>CFTC 자료에서도 금·은 퍼프스 계약은 9월 8일 인증된 것으로 확인된다.</p><p>CME그룹은 CFTC를 상대로 소송을 제기하고, 규제당국이 퍼프스 계약을 허용한 절차가 부적절했다며 미국 내 퍼프스 승인을 막아달라고 요구하고 있다.</p></div>
+        <p class="issue-lead">칼시가 미국 트레이더를 대상으로 금과 은 무기한 선물인 &#39;퍼프스&#39; 거래를 시작했다.</p>
         
+        
+        <details class="issue-detail"><summary><span class="detail-open">상세 보기</span><span class="detail-close">접기</span><span class="detail-source-count">자료 1건</span></summary><div class="issue-reading">
+        <div class="issue-summary"><p>칼시가 미국 트레이더를 대상으로 금과 은 무기한 선물인 &#39;퍼프스&#39; 거래를 시작했다.</p><p>10일(이하 현지시간) 블록체인 매체 크립토폴리탄 등에 따르면 칼시는 미국 상품선물거래위원회(CFTC)의 승인을 받아 금과 은 무기한 선물(퍼프스) 계약을 출시했으며, 해당 계약은 이날 칼시 웹사이트를 통해 거래를 시작했다.</p><p>CFTC 자료에서도 금·은 퍼프스 계약은 9월 8일 인증된 것으로 확인된다.</p><p>CME그룹은 CFTC를 상대로 소송을 제기하고, 규제당국이 퍼프스 계약을 허용한 절차가 부적절했다며 미국 내 퍼프스 승인을 막아달라고 요구하고 있다.</p></div>
         
         
         
@@ -518,11 +546,15 @@ body.has-quant-shared-nav .skip-link {
           <ul class="source-list"><li><a href="https://www.digitaltoday.co.kr/news/articleView.html?idxno=699883" target="_blank" rel="noopener noreferrer" referrerpolicy="no-referrer">칼시, 암호화폐 이어 금·은 무기한 선물 거래 시작…CFTC 승인 확보 ↗</a><div class="source-meta">디지털투데이 (DigitalToday) · 발행 09.11 10:28 KST</div><details class="source-details"><summary>자료 정보</summary><div class="source-meta">수집 09.12 05:43 KST · 시간 기준 원문 발행<br>자료 제공 09.11 10:30 KST<br>기사·문서 본문 확보</div></details></li></ul>
           <details class="selection-detail"><summary>선정 정보</summary><p>수집 범위 내 독립 발행자 1개 · 자료 기준 경과 20.5시간 · 이전 입력 대비 신규 문서 · 원문에 실행·결정 근거가 있는 기업 계약·제품·자본거래·승인</p></details>
         </div></details>
+        </div></details>
       </article><article class="issue" id="issue-d2addc37e720acf0" data-issue-section="yesterday" data-scope="company" data-full-text="true">
         <div class="issue-top"><span class="pill accent">제품·생산</span><span class="source-caption">한스경제 · 09.11 16:20 KST</span></div>
         <h3><a href="#issue-d2addc37e720acf0">코아시아씨엠코리아, 로봇용 3D 센싱 모듈 양산</a></h3>
-        <div class="issue-summary"><p>| 서울=한스경제 김종효 기자 | 코아시아씨엠의 자회사 코아시아씨엠코리아는 하나옵트로닉스와 ToF 기반 3D 센싱 카메라 모듈 양산 공급 계약을 체결하고 이달 중 초도 물량 출하에 돌입한다고 11일 밝혔다.</p><p>이번 계약은 지난 6월 양사가 ToF 모듈 솔루션 공동 개발 및 협력을 발표한 지 3개월 만에 양산 단계로 진입한 결과다.</p><p>해당 제품은 글로벌 로보틱스 공급망에 핵심 부품으로 탑재될 예정이다.</p><p>ToF는 피사체를 향해 발사한 빛이 반사돼 돌아오는 시간을 측정해 대상물의 거리와 공간 정보를 입체적으로 인식하는 기술이다.</p></div>
+        <p class="issue-lead">| 서울=한스경제 김종효 기자 | 코아시아씨엠의 자회사 코아시아씨엠코리아는 하나옵트로닉스와 ToF 기반 3D 센싱 카메라 모듈 양산 공급 계약을 체결하고 이달 중 초도 물량 출하에 돌입한다고 11일 밝혔다.</p>
         
+        
+        <details class="issue-detail"><summary><span class="detail-open">상세 보기</span><span class="detail-close">접기</span><span class="detail-source-count">자료 1건</span></summary><div class="issue-reading">
+        <div class="issue-summary"><p>| 서울=한스경제 김종효 기자 | 코아시아씨엠의 자회사 코아시아씨엠코리아는 하나옵트로닉스와 ToF 기반 3D 센싱 카메라 모듈 양산 공급 계약을 체결하고 이달 중 초도 물량 출하에 돌입한다고 11일 밝혔다.</p><p>이번 계약은 지난 6월 양사가 ToF 모듈 솔루션 공동 개발 및 협력을 발표한 지 3개월 만에 양산 단계로 진입한 결과다.</p><p>해당 제품은 글로벌 로보틱스 공급망에 핵심 부품으로 탑재될 예정이다.</p><p>ToF는 피사체를 향해 발사한 빛이 반사돼 돌아오는 시간을 측정해 대상물의 거리와 공간 정보를 입체적으로 인식하는 기술이다.</p></div>
         
         
         
@@ -544,13 +576,17 @@ body.has-quant-shared-nav .skip-link {
           <ul class="source-list"><li><a href="http://www.hansbiz.co.kr/news/articleView.html?idxno=864483" target="_blank" rel="noopener noreferrer" referrerpolicy="no-referrer">코아시아씨엠코리아, 로봇용 3D 센싱 모듈 양산 ↗</a><div class="source-meta">한스경제 · 발행 09.11 16:20 KST</div><details class="source-details"><summary>자료 정보</summary><div class="source-meta">수집 09.11 16:25 KST · 시간 기준 원문 발행<br>자료 제공 09.11 16:22 KST<br>기사·문서 본문 확보</div></details></li></ul>
           <details class="selection-detail"><summary>선정 정보</summary><p>수집 범위 내 독립 발행자 1개 · 자료 기준 경과 14.7시간 · 이전 입력과 중복 내용 · 원문에 실행·결정 근거가 있는 기업 계약·제품·자본거래·승인</p></details>
         </div></details>
+        </div></details>
       </article>
     </div></section><section class="section" data-report-section="overnight" aria-labelledby="section-overnight"><div class="section-heading"><h2 id="section-overnight">밤사이 시장·기업 업데이트</h2><span class="count">4</span></div><div class="issue-grid">
       <article class="issue" id="issue-8c8c054cc7298d40" data-issue-section="overnight" data-scope="macro" data-full-text="true">
         <div class="issue-top"><span class="pill accent">경제지표</span><span class="source-caption">연합인포맥스 · 09.12 01:50 KST</span></div>
         <h3><a href="#issue-8c8c054cc7298d40">美 9월 미시간대 소비심리지수 예비치 47.8…2개월 연속 급락(상보)</a></h3>
-        <div class="issue-summary"><p>11일(현지시간) 미시간대에 따르면 9월 소비자심리지수 예비치는 47.8로 집계됐다. 8월 수치 51.7과 비교해 7.5% 하락했다. 전년 동월의 55.1과 비교하면 13.2% 하락했다.</p><p>소비자심리지수는 7월의 55.2에서 8월의 51.7을 거쳐 9월까지 2개월 연속 악화 흐름이다.</p><p>현재 경제 상황을 반영하는 현재경제여건지수는 50.9로 8월의 51.9에서 1.9% 내렸다. 전년 동월의 60.4 대비로는 15.7% 낮아졌다.</p><p>1년 기대 인플레이션은 4.6%로 집계됐다. 이는 지난달의 4.0%에서 급등한 것이며 6월 이후 최고치다. 이란 전쟁 시작 전인 올해 2월의 3.4%는 물론 2024년의 모든 수치를 크게 상회한다.</p></div>
+        <p class="issue-lead">11일(현지시간) 미시간대에 따르면 9월 소비자심리지수 예비치는 47.8로 집계됐다. 8월 수치 51.7과 비교해 7.5% 하락했다. 전년 동월의 55.1과 비교하면 13.2% 하락했다.</p>
         
+        
+        <details class="issue-detail"><summary><span class="detail-open">상세 보기</span><span class="detail-close">접기</span><span class="detail-source-count">자료 1건</span></summary><div class="issue-reading">
+        <div class="issue-summary"><p>11일(현지시간) 미시간대에 따르면 9월 소비자심리지수 예비치는 47.8로 집계됐다. 8월 수치 51.7과 비교해 7.5% 하락했다. 전년 동월의 55.1과 비교하면 13.2% 하락했다.</p><p>소비자심리지수는 7월의 55.2에서 8월의 51.7을 거쳐 9월까지 2개월 연속 악화 흐름이다.</p><p>현재 경제 상황을 반영하는 현재경제여건지수는 50.9로 8월의 51.9에서 1.9% 내렸다. 전년 동월의 60.4 대비로는 15.7% 낮아졌다.</p><p>1년 기대 인플레이션은 4.6%로 집계됐다. 이는 지난달의 4.0%에서 급등한 것이며 6월 이후 최고치다. 이란 전쟁 시작 전인 올해 2월의 3.4%는 물론 2024년의 모든 수치를 크게 상회한다.</p></div>
         
         
         
@@ -572,11 +608,15 @@ body.has-quant-shared-nav .skip-link {
           <ul class="source-list"><li><a href="https://news.einfomax.co.kr/news/articleView.html?idxno=4434537" target="_blank" rel="noopener noreferrer" referrerpolicy="no-referrer">美 9월 미시간대 소비심리지수 예비치 47.8…2개월 연속 급락(상보) ↗</a><div class="source-meta">연합인포맥스 · 발행 09.12 01:50 KST</div><details class="source-details"><summary>자료 정보</summary><div class="source-meta">수집 09.12 05:44 KST · 시간 기준 원문 발행<br>자료 제공 09.12 01:52 KST<br>기사·문서 본문 확보</div></details></li></ul>
           <details class="selection-detail"><summary>선정 정보</summary><p>수집 범위 내 독립 발행자 1개 · 자료 기준 경과 5.2시간 · 이전 입력 대비 신규 문서 · 수치가 명시된 거시 지표 발표 또는 확정된 통화·무역 정책 변경</p></details>
         </div></details>
+        </div></details>
       </article><article class="issue" id="issue-d7ea54e327ce1228" data-issue-section="overnight" data-scope="macro" data-full-text="true">
         <div class="issue-top"><span class="pill accent">경제지표</span><span class="source-caption">중앙일보 · 09.12 01:10 KST</span></div>
         <h3><a href="#issue-d7ea54e327ce1228">미 근원 CPI 예상치 상회…유가·국채 발작 겹쳐 ‘긴축 공포’</a></h3>
-        <div class="issue-summary"><p>미 노동부는 11일(현지시간) 8월 CPI가 전월보다 0.4%, 지난해 같은 달보다 3.4% 상승했다고 발표했다.</p><p>그러나 변동성이 큰 식품과 에너지를 제외한 근원 CPI가 전월 대비 0.3% 올라 시장 전망치인 0.2%를 웃돌았다. 헤드라인 물가는 예상 범위에 머물렀지만, Fed가 물가의 기조적 흐름을 판단할 때 주목하는 근원 물가가 예상보다 강하게 나오면서 이달 금리 인상에 힘이 실렸다는 전망이 번졌다.</p><p>통화정책에 민감한 미 국채 2년물 금리는 CPI 발표 직후 약 0.05%포인트 올라 4.63%까지 상승했다. 다만 10년물 금리는 발표 전보다 약 0.04%포인트 떨어져 4.92%를 나타냈다.</p><p>중동발 긴장이 다시 고조되면서 국제유가가 6% 넘게 급등한 것이 증시에 직접적인 충격으로 작용했다. 10일(현지시간) 뉴욕상업거래소에서 서부텍사스산원유(WTI)는 전 거래일보다 6.69% 오른 배럴당 102.48달러에 거래를 마쳤다. 런던 ICE선물거래소의 브렌트유도 6.34% 상승한 배럴당 107.63달러에 마감했다.</p></div>
+        <p class="issue-lead">미 노동부는 11일(현지시간) 8월 CPI가 전월보다 0.4%, 지난해 같은 달보다 3.4% 상승했다고 발표했다.</p>
         
+        
+        <details class="issue-detail"><summary><span class="detail-open">상세 보기</span><span class="detail-close">접기</span><span class="detail-source-count">자료 1건</span></summary><div class="issue-reading">
+        <div class="issue-summary"><p>미 노동부는 11일(현지시간) 8월 CPI가 전월보다 0.4%, 지난해 같은 달보다 3.4% 상승했다고 발표했다.</p><p>그러나 변동성이 큰 식품과 에너지를 제외한 근원 CPI가 전월 대비 0.3% 올라 시장 전망치인 0.2%를 웃돌았다. 헤드라인 물가는 예상 범위에 머물렀지만, Fed가 물가의 기조적 흐름을 판단할 때 주목하는 근원 물가가 예상보다 강하게 나오면서 이달 금리 인상에 힘이 실렸다는 전망이 번졌다.</p><p>통화정책에 민감한 미 국채 2년물 금리는 CPI 발표 직후 약 0.05%포인트 올라 4.63%까지 상승했다. 다만 10년물 금리는 발표 전보다 약 0.04%포인트 떨어져 4.92%를 나타냈다.</p><p>중동발 긴장이 다시 고조되면서 국제유가가 6% 넘게 급등한 것이 증시에 직접적인 충격으로 작용했다. 10일(현지시간) 뉴욕상업거래소에서 서부텍사스산원유(WTI)는 전 거래일보다 6.69% 오른 배럴당 102.48달러에 거래를 마쳤다. 런던 ICE선물거래소의 브렌트유도 6.34% 상승한 배럴당 107.63달러에 마감했다.</p></div>
         
         
         
@@ -598,11 +638,15 @@ body.has-quant-shared-nav .skip-link {
           <ul class="source-list"><li><a href="https://www.joongang.co.kr/article/25461234" target="_blank" rel="noopener noreferrer" referrerpolicy="no-referrer">미 근원 CPI 예상치 상회…유가·국채 발작 겹쳐 ‘긴축 공포’ ↗</a><div class="source-meta">중앙일보 · 장서윤 · 발행 09.12 01:10 KST</div><details class="source-details"><summary>자료 정보</summary><div class="source-meta">수집 09.12 05:42 KST · 시간 기준 원문 발행<br>자료 제공 09.12 01:11 KST<br>기사·문서 본문 확보</div></details></li></ul>
           <details class="selection-detail"><summary>선정 정보</summary><p>수집 범위 내 독립 발행자 1개 · 자료 기준 경과 5.8시간 · 이전 입력 대비 신규 문서 · 수치가 명시된 거시 지표 발표 또는 확정된 통화·무역 정책 변경</p></details>
         </div></details>
+        </div></details>
       </article><article class="issue" id="issue-52258c1530da57cc" data-issue-section="overnight" data-scope="company" data-full-text="true">
         <div class="issue-top"><span class="pill accent">수주·계약</span><span class="source-caption">머니스톰 · 09.12 06:24 KST</span></div>
         <h3><a href="#issue-52258c1530da57cc">삼성E&amp;A, 사우디서 4.7조원 잭팟…해외수주 목표 9개월 만에 넘겼다</a></h3>
-        <div class="issue-summary"><p>-사빅과 35억달러 비료 플랜트 EPC 계약…2030년까지 하루 7700t 요소비료 생산 -올해 해외 화공·수처리 이어 대형 수주 잇따라…사업 포트폴리오 재편도 성과. 영업익 1조원 넘을수도 -중동 전쟁으로 국내 건설사 중동 수주 70% 급감 속 ‘텃밭’ 사우디서 차별화…추가 파이프라인도 주목</p><p>중동 지역의 지정학적 불확실성으로 국내 건설사들의 해외 수주가 급감한 가운데 삼성E&amp;A가 사우디아라비아에서 4조7000억원 규모의 초대형 플랜트 사업을 따내며 수주 행보에 속도를 내고 있다.</p><p>계약 규모는 약 35억달러, 우리 돈으로 약 4조7000억원이다. 삼성E&amp;A가 단독으로 EPC를 수행하며 오는 2030년 완공할 예정이다.  이에 따라 올해 영업이익이 1조원을 돌파할 수 있다는 에측치도 나오고 있다.</p><p>같은 기간 국내 건설사의 중동 수주액은 23억달러로 지난해 같은 기간 77억7202만달러에서 약 70% 감소했다. 미국과 이란의 전쟁 장기화로 중동 지역의 지정학적 불확실성이 커지면서 일부 대형 프로젝트의 발주와 투자 결정이 지연된 영향으로 풀이된다.</p></div>
+        <p class="issue-lead">-사빅과 35억달러 비료 플랜트 EPC 계약…2030년까지 하루 7700t 요소비료 생산 -올해 해외 화공·수처리 이어 대형 수주 잇따라…사업 포트폴리오 재편도 성과. 영업익 1조원 넘을수도 -중동 전쟁으로 국내 건설사 중동 수주 70% 급감 속 ‘텃밭’ 사우디서 차별화…추가 파이프라인도 주목</p>
         
+        
+        <details class="issue-detail"><summary><span class="detail-open">상세 보기</span><span class="detail-close">접기</span><span class="detail-source-count">자료 1건</span></summary><div class="issue-reading">
+        <div class="issue-summary"><p>-사빅과 35억달러 비료 플랜트 EPC 계약…2030년까지 하루 7700t 요소비료 생산 -올해 해외 화공·수처리 이어 대형 수주 잇따라…사업 포트폴리오 재편도 성과. 영업익 1조원 넘을수도 -중동 전쟁으로 국내 건설사 중동 수주 70% 급감 속 ‘텃밭’ 사우디서 차별화…추가 파이프라인도 주목</p><p>중동 지역의 지정학적 불확실성으로 국내 건설사들의 해외 수주가 급감한 가운데 삼성E&amp;A가 사우디아라비아에서 4조7000억원 규모의 초대형 플랜트 사업을 따내며 수주 행보에 속도를 내고 있다.</p><p>계약 규모는 약 35억달러, 우리 돈으로 약 4조7000억원이다. 삼성E&amp;A가 단독으로 EPC를 수행하며 오는 2030년 완공할 예정이다.  이에 따라 올해 영업이익이 1조원을 돌파할 수 있다는 에측치도 나오고 있다.</p><p>같은 기간 국내 건설사의 중동 수주액은 23억달러로 지난해 같은 기간 77억7202만달러에서 약 70% 감소했다. 미국과 이란의 전쟁 장기화로 중동 지역의 지정학적 불확실성이 커지면서 일부 대형 프로젝트의 발주와 투자 결정이 지연된 영향으로 풀이된다.</p></div>
         
         
         
@@ -624,11 +668,15 @@ body.has-quant-shared-nav .skip-link {
           <ul class="source-list"><li><a href="https://www.moneystorm.kr/news/articleView.html?idxno=6427" target="_blank" rel="noopener noreferrer" referrerpolicy="no-referrer">삼성E&amp;A, 사우디서 4.7조원 잭팟…해외수주 목표 9개월 만에 넘겼다 ↗</a><div class="source-meta">머니스톰 · 박진영 기자 · 발행 09.12 06:24 KST</div><details class="source-details"><summary>자료 정보</summary><div class="source-meta">수집 09.12 06:46 KST · 시간 기준 원문 발행<br>자료 제공 09.12 06:24 KST<br>원문 수정 09.12 06:42 KST<br>기사·문서 본문 확보</div></details></li></ul>
           <details class="selection-detail"><summary>선정 정보</summary><p>수집 범위 내 독립 발행자 1개 · 자료 기준 경과 0.6시간 · 이전 입력 대비 신규 문서 · 원문에 실행·결정 근거가 있는 기업 계약·제품·자본거래·승인</p></details>
         </div></details>
+        </div></details>
       </article><article class="issue" id="issue-d0e77085c893ffe9" data-issue-section="overnight" data-scope="company" data-full-text="true">
         <div class="issue-top"><span class="pill accent">실적</span><span class="source-caption">뉴스핌 · 09.12 01:38 KST</span></div>
         <h3><a href="#issue-d0e77085c893ffe9">[GAM] 에어로바이런먼트 ① 사상 최대 분기 매출로 어닝 서프라이즈</a></h3>
-        <div class="issue-summary"><p>항공우주·방위산업체 에어로바이런먼트(종목코드: AVAV) 주가가 사상 최대 분기 매출과 확정 수주잔고의 대폭 증가 소식에 급등했다. 10일(현지시간) 뉴욕증시에서 에어로바이런먼트 주가는 장중 한때 159.24달러까지 오르며 전일 종가 140.80달러 대비 13.10% 급등했고, 장 마감 시에는 전일 대비 4.45% 상승한 147.07달러에 거래를 마쳤다. 이날 상승에도 불구하고 주가는 지난해 10월 9일 기록한 사상 최고가 417.86달러에서는 여전히 64.80% 후퇴한 상태이며, 올해 6월 25일에는 135.20달러까지 떨어져 52주 최저가를 찍은 바 있다. 실적 발표를 앞두고 시장의 불안감이 컸던 만큼, 이번 반등은 투자자들에게 신뢰 회복의 신호로 읽힌다.</p><p>에어로바이런먼트는 2027 회계연도 1분기(8월 1일 마감) 실적에서 매출 4억 8,050만 달러를 기록해 전년 대비 5.7% 증가하며 사상 최고치를 새로 썼다. 이는 애널리스트 컨센서스인 4억 5,000만~4억 6,000만 달러대 전망치를 5% 안팎 웃도는 수치다. 조정 희석 주당순이익(EPS)은 0.59달러로, 시장이 예상했던 0.30달러 수준을 거의 두 배 가까이 뛰어넘는 어닝 서프라이즈를 기록했다.</p><p>이번 매출 서프라이즈는 수요 급증에 힘입은 바 크다. 에어로바이런먼트는 이번 분기 6억 8,300만의 신규 수주를 기록해 수주-매출 비율(수주액/매출액 비율) 1.4배를 나타냈다. 이는 현재 수요가 공급을 앞서고 있음을 시사하는 지표다. 이에 따라 확정 수주잔고는 전년 대비 37%, 전분기 대비 23% 증가한 사상 최대치인 15억 달러로 확대됐으며, 향후 기대되지만 아직 확정되지 않은 미확정 수주잔고도 14억 달러에 달했다.</p><p>호실적에도 불구하고 경영진은 연간 가이던스를 상향하지 않고 기존 전망을 그대로 재확인했다. 회사는 2027 회계연도 매출을 21억 2,500만~22억 2,500만 달러(가이던스 중간값 기준 약 10% 성장)로, 조정 희석 EPS는 3.02~3.34달러(중간값 3.16~3.18달러, 전년 대비 약 4% 감소)로 제시했다. 연간 조정 EBITDA 가이던스는 3억 500만~3억 2,500만 달러(중간값 3억 1,500만 달러)로, 컨센서스인 3억 1,820만 달러에는 다소 못 미쳤다.</p></div>
+        <p class="issue-lead">항공우주·방위산업체 에어로바이런먼트(종목코드: AVAV) 주가가 사상 최대 분기 매출과 확정 수주잔고의 대폭 증가 소식에 급등했다. 10일(현지시간) 뉴욕증시에서 에어로바이런먼트 주가는 장중 한때 159.24달러까지 오르며 전일 종가 140.80달러 대비 13.10% 급등했고, 장 마감 시에는 전일 대비 4.45% 상승한 147.07달러에 거래를 마쳤다. 이날 상승에도 불구하고 주가는 지난해 10월 9일 기록한 사상 최고가 417.86달러에서는 여전히 64.80% 후퇴한 상태이며, 올해 6월 25일에는 135.20달러까지 떨어져 52주 최저가를 찍은 바 있다. 실적 발표를 앞두고 시장의 불안감이 컸던 만큼, 이번 반등은 투자자들에게 신뢰 회복의 신호로 읽힌다.</p>
         
+        
+        <details class="issue-detail"><summary><span class="detail-open">상세 보기</span><span class="detail-close">접기</span><span class="detail-source-count">자료 1건</span></summary><div class="issue-reading">
+        <div class="issue-summary"><p>항공우주·방위산업체 에어로바이런먼트(종목코드: AVAV) 주가가 사상 최대 분기 매출과 확정 수주잔고의 대폭 증가 소식에 급등했다. 10일(현지시간) 뉴욕증시에서 에어로바이런먼트 주가는 장중 한때 159.24달러까지 오르며 전일 종가 140.80달러 대비 13.10% 급등했고, 장 마감 시에는 전일 대비 4.45% 상승한 147.07달러에 거래를 마쳤다. 이날 상승에도 불구하고 주가는 지난해 10월 9일 기록한 사상 최고가 417.86달러에서는 여전히 64.80% 후퇴한 상태이며, 올해 6월 25일에는 135.20달러까지 떨어져 52주 최저가를 찍은 바 있다. 실적 발표를 앞두고 시장의 불안감이 컸던 만큼, 이번 반등은 투자자들에게 신뢰 회복의 신호로 읽힌다.</p><p>에어로바이런먼트는 2027 회계연도 1분기(8월 1일 마감) 실적에서 매출 4억 8,050만 달러를 기록해 전년 대비 5.7% 증가하며 사상 최고치를 새로 썼다. 이는 애널리스트 컨센서스인 4억 5,000만~4억 6,000만 달러대 전망치를 5% 안팎 웃도는 수치다. 조정 희석 주당순이익(EPS)은 0.59달러로, 시장이 예상했던 0.30달러 수준을 거의 두 배 가까이 뛰어넘는 어닝 서프라이즈를 기록했다.</p><p>이번 매출 서프라이즈는 수요 급증에 힘입은 바 크다. 에어로바이런먼트는 이번 분기 6억 8,300만의 신규 수주를 기록해 수주-매출 비율(수주액/매출액 비율) 1.4배를 나타냈다. 이는 현재 수요가 공급을 앞서고 있음을 시사하는 지표다. 이에 따라 확정 수주잔고는 전년 대비 37%, 전분기 대비 23% 증가한 사상 최대치인 15억 달러로 확대됐으며, 향후 기대되지만 아직 확정되지 않은 미확정 수주잔고도 14억 달러에 달했다.</p><p>호실적에도 불구하고 경영진은 연간 가이던스를 상향하지 않고 기존 전망을 그대로 재확인했다. 회사는 2027 회계연도 매출을 21억 2,500만~22억 2,500만 달러(가이던스 중간값 기준 약 10% 성장)로, 조정 희석 EPS는 3.02~3.34달러(중간값 3.16~3.18달러, 전년 대비 약 4% 감소)로 제시했다. 연간 조정 EBITDA 가이던스는 3억 500만~3억 2,500만 달러(중간값 3억 1,500만 달러)로, 컨센서스인 3억 1,820만 달러에는 다소 못 미쳤다.</p></div>
         
         
         
@@ -650,13 +698,17 @@ body.has-quant-shared-nav .skip-link {
           <ul class="source-list"><li><a href="https://www.newspim.com/news/view/20260912000011" target="_blank" rel="noopener noreferrer" referrerpolicy="no-referrer">[GAM] 에어로바이런먼트 ① 사상 최대 분기 매출로 어닝 서프라이즈 ↗</a><div class="source-meta">뉴스핌 · 김현영 기자 · 발행 09.12 01:38 KST</div><details class="source-details"><summary>자료 정보</summary><div class="source-meta">수집 09.12 05:43 KST · 시간 기준 원문 발행<br>자료 제공 09.12 01:38 KST<br>원문 수정 09.12 01:38 KST<br>기사·문서 본문 확보</div></details></li></ul>
           <details class="selection-detail"><summary>선정 정보</summary><p>수집 범위 내 독립 발행자 1개 · 자료 기준 경과 5.4시간 · 이전 입력 대비 신규 문서 · 실적·자본·계약 등 기업 활동의 구체적 변화</p></details>
         </div></details>
+        </div></details>
       </article>
     </div></section><section class="section" data-report-section="investment" aria-labelledby="section-investment"><div class="section-heading"><h2 id="section-investment">종목·산업 리서치</h2><span class="count">10</span></div><div class="issue-grid">
       <article class="issue" id="issue-a4bf72179e08c879" data-issue-section="investment" data-scope="market" data-full-text="true">
         <div class="issue-top"><span class="pill accent">시장 마감</span><span class="source-caption">초이스경제 · 09.12 05:42 KST</span></div>
         <h3><a href="#issue-a4bf72179e08c879">유가 진정·美 CPI 안도...미국증시 3대 지수 &#39;활짝&#39;</a></h3>
-        <div class="issue-summary"><p>뉴욕증권거래소에 따르면 뉴욕증시 3대 지수 중 우량주 중심의 다우존스 지수는 전일 대비 0.98% 상승한 5만2573.29, 대형주 중심의 S&amp;P500 지수는 0.86% 오른 7656.98을 각각 기록했다. 기술주 중심의 나스닥 지수는 전일 대비 0.96% 상승한 2만6333.04로 거래를 마쳤다.</p><p>미국 노동부가 이날 발표한 미국의 8월 CPI는 전월보다 0.4%, 전년 동월 대비 3.4% 각각 상승하며 시장 전망치에 부합했다. 다만 석유가격을 제외한 8월 근원 CPI는 전월 대비 0.3% 상승하며 시장 전망치(+0.2%)를 웃돌았다. 전년 동월 대비로는 2.4%로 예상치와 같았다.</p><p>미국증시 주요 기술주 가운데 엔비디아는 0.03% 하락하며 약보합으로 마감한 것을 제외하면 애플(+1.74%), 마이크로소프트(+0.66%), 아마존(+1.92%), 브로드컴(+0.29%) 등이 상승했다.</p><p>S&amp;P500을 구성하는 11개 섹터 중에선 정보기술(+1.11%), 금융(+0.62%), 커뮤니케이션 서비스(+1.35%), 산업재(+1.07%), 필수소비재(+0.56%) 등이 상승했다. S&amp;P500 종목 중에선 월마트(+1.34%), 비자(+0.88%), 엑슨모빌(+0.46%) 등이 상승했다. 다우존스 종목 중에선 JP모건 체이스(+0.76%), 시스코시스템즈(+4.37%), 코카콜라(+0.50%) 등이 올랐다.</p></div>
+        <p class="issue-lead">뉴욕증권거래소에 따르면 뉴욕증시 3대 지수 중 우량주 중심의 다우존스 지수는 전일 대비 0.98% 상승한 5만2573.29, 대형주 중심의 S&amp;P500 지수는 0.86% 오른 7656.98을 각각 기록했다. 기술주 중심의 나스닥 지수는 전일 대비 0.96% 상승한 2만6333.04로 거래를 마쳤다.</p>
         
+        
+        <details class="issue-detail"><summary><span class="detail-open">상세 보기</span><span class="detail-close">접기</span><span class="detail-source-count">자료 1건</span></summary><div class="issue-reading">
+        <div class="issue-summary"><p>뉴욕증권거래소에 따르면 뉴욕증시 3대 지수 중 우량주 중심의 다우존스 지수는 전일 대비 0.98% 상승한 5만2573.29, 대형주 중심의 S&amp;P500 지수는 0.86% 오른 7656.98을 각각 기록했다. 기술주 중심의 나스닥 지수는 전일 대비 0.96% 상승한 2만6333.04로 거래를 마쳤다.</p><p>미국 노동부가 이날 발표한 미국의 8월 CPI는 전월보다 0.4%, 전년 동월 대비 3.4% 각각 상승하며 시장 전망치에 부합했다. 다만 석유가격을 제외한 8월 근원 CPI는 전월 대비 0.3% 상승하며 시장 전망치(+0.2%)를 웃돌았다. 전년 동월 대비로는 2.4%로 예상치와 같았다.</p><p>미국증시 주요 기술주 가운데 엔비디아는 0.03% 하락하며 약보합으로 마감한 것을 제외하면 애플(+1.74%), 마이크로소프트(+0.66%), 아마존(+1.92%), 브로드컴(+0.29%) 등이 상승했다.</p><p>S&amp;P500을 구성하는 11개 섹터 중에선 정보기술(+1.11%), 금융(+0.62%), 커뮤니케이션 서비스(+1.35%), 산업재(+1.07%), 필수소비재(+0.56%) 등이 상승했다. S&amp;P500 종목 중에선 월마트(+1.34%), 비자(+0.88%), 엑슨모빌(+0.46%) 등이 상승했다. 다우존스 종목 중에선 JP모건 체이스(+0.76%), 시스코시스템즈(+4.37%), 코카콜라(+0.50%) 등이 올랐다.</p></div>
         
         
         
@@ -678,11 +730,15 @@ body.has-quant-shared-nav .skip-link {
           <ul class="source-list"><li><a href="http://www.choicenews.co.kr/news/articleView.html?idxno=171204" target="_blank" rel="noopener noreferrer" referrerpolicy="no-referrer">유가 진정·美 CPI 안도...미국증시 3대 지수 &#39;활짝&#39; ↗</a><div class="source-meta">초이스경제 · 발행 09.12 05:42 KST</div><details class="source-details"><summary>자료 정보</summary><div class="source-meta">수집 09.12 05:43 KST · 시간 기준 원문 발행<br>자료 제공 09.12 05:42 KST<br>기사·문서 본문 확보</div></details></li></ul>
           <details class="selection-detail"><summary>선정 정보</summary><p>수집 범위 내 독립 발행자 1개 · 자료 기준 경과 1.3시간 · 이전 입력 대비 신규 문서 · 미국 주요 지수의 장 마감과 등락 수치를 확인한 핵심 시장 동향</p></details>
         </div></details>
+        </div></details>
       </article><article class="issue" id="issue-f641ad3109c8bd82" data-issue-section="investment" data-scope="company" data-full-text="true">
         <div class="issue-top"><span class="pill accent">인수·자본거래</span><span class="source-caption">문화경제 · 09.11 16:49 KST</span></div>
         <h3><a href="#issue-f641ad3109c8bd82">와이즈플래닛컴퍼니, 공모가 1만2000원 확정…기관 수요예측 1248대 1</a></h3>
-        <div class="issue-summary"><p>와이즈플래닛컴퍼니는 기관투자자 대상 수요예측을 마치고 최종 공모가를 희망밴드(1만원~1만2000원) 최상단인 1만2000원으로 확정했다고 11일 밝혔다.</p><p>지난 4일부터 10일까지 5거래일간 진행된 수요예측에는 국내외 2323개 기관이 참여해 1248대 1의 경쟁률을 기록했다.</p><p>총 공모금액은 약 192억원, 상장 후 예상 시가총액은 약 1200억원이다.</p><p>와이즈플래닛컴퍼니는 오는 14일부터 15일까지 일반투자자 대상 청약을 진행한 뒤 23일 코스닥 시장에 상장할 예정이다.</p></div>
+        <p class="issue-lead">와이즈플래닛컴퍼니는 기관투자자 대상 수요예측을 마치고 최종 공모가를 희망밴드(1만원~1만2000원) 최상단인 1만2000원으로 확정했다고 11일 밝혔다.</p>
         
+        
+        <details class="issue-detail"><summary><span class="detail-open">상세 보기</span><span class="detail-close">접기</span><span class="detail-source-count">자료 1건</span></summary><div class="issue-reading">
+        <div class="issue-summary"><p>와이즈플래닛컴퍼니는 기관투자자 대상 수요예측을 마치고 최종 공모가를 희망밴드(1만원~1만2000원) 최상단인 1만2000원으로 확정했다고 11일 밝혔다.</p><p>지난 4일부터 10일까지 5거래일간 진행된 수요예측에는 국내외 2323개 기관이 참여해 1248대 1의 경쟁률을 기록했다.</p><p>총 공모금액은 약 192억원, 상장 후 예상 시가총액은 약 1200억원이다.</p><p>와이즈플래닛컴퍼니는 오는 14일부터 15일까지 일반투자자 대상 청약을 진행한 뒤 23일 코스닥 시장에 상장할 예정이다.</p></div>
         
         
         
@@ -704,11 +760,15 @@ body.has-quant-shared-nav .skip-link {
           <ul class="source-list"><li><a href="https://www.cnbizm.com/news/articleView.html?idxno=314865" target="_blank" rel="noopener noreferrer" referrerpolicy="no-referrer">와이즈플래닛컴퍼니, 공모가 1만2000원 확정…기관 수요예측 1248대 1 ↗</a><div class="source-meta">문화경제 · 김예은 기자 · 발행 09.11 16:49 KST</div><details class="source-details"><summary>자료 정보</summary><div class="source-meta">수집 09.12 05:43 KST · 시간 기준 원문 발행<br>자료 제공 09.11 16:50 KST<br>원문 수정 09.11 16:49 KST<br>기사·문서 본문 확보</div></details></li></ul>
           <details class="selection-detail"><summary>선정 정보</summary><p>수집 범위 내 독립 발행자 1개 · 자료 기준 경과 14.2시간 · 이전 입력 대비 신규 문서 · 원문에 실행·결정 근거가 있는 기업 계약·제품·자본거래·승인</p></details>
         </div></details>
+        </div></details>
       </article><article class="issue" id="issue-a10d1c6fd731a663" data-issue-section="investment" data-scope="company" data-full-text="true">
         <div class="issue-top"><span class="pill accent">인수·자본거래</span><span class="source-caption">녹색경제신문 · 09.11 16:17 KST</span></div>
         <h3><a href="#issue-a10d1c6fd731a663">마이리얼트립, 아웃바운드이어 인바운드까지…크리에이트립 인수</a></h3>
-        <div class="issue-summary"><p>마이리얼트립이 인바운드 여행 플랫폼 크리에이트립을 인수한다.</p><p>국내 여행 플랫폼 1호 상장을 추진 중인 마이리얼트립이, 상장을 앞두고 아웃바운드·인트라바운드에 이어 인바운드까지 사업 구조를 완성하는 모양새다.</p><p>마이리얼트립은 11일 이사회를 열고 크리에이트립 지분 인수 안건을 의결했다.</p><p>주식교환 방식으로 지분 전량을 인수해 남은 절차를 거쳐 연내 자회사로 편입할 계획이다.</p></div>
+        <p class="issue-lead">마이리얼트립이 인바운드 여행 플랫폼 크리에이트립을 인수한다.</p>
         
+        
+        <details class="issue-detail"><summary><span class="detail-open">상세 보기</span><span class="detail-close">접기</span><span class="detail-source-count">자료 1건</span></summary><div class="issue-reading">
+        <div class="issue-summary"><p>마이리얼트립이 인바운드 여행 플랫폼 크리에이트립을 인수한다.</p><p>국내 여행 플랫폼 1호 상장을 추진 중인 마이리얼트립이, 상장을 앞두고 아웃바운드·인트라바운드에 이어 인바운드까지 사업 구조를 완성하는 모양새다.</p><p>마이리얼트립은 11일 이사회를 열고 크리에이트립 지분 인수 안건을 의결했다.</p><p>주식교환 방식으로 지분 전량을 인수해 남은 절차를 거쳐 연내 자회사로 편입할 계획이다.</p></div>
         
         
         
@@ -730,11 +790,15 @@ body.has-quant-shared-nav .skip-link {
           <ul class="source-list"><li><a href="https://www.greened.kr/news/articleView.html?idxno=349905" target="_blank" rel="noopener noreferrer" referrerpolicy="no-referrer">마이리얼트립, 아웃바운드이어 인바운드까지…크리에이트립 인수 ↗</a><div class="source-meta">녹색경제신문 · 발행 09.11 16:17 KST</div><details class="source-details"><summary>자료 정보</summary><div class="source-meta">수집 09.12 05:43 KST · 시간 기준 원문 발행<br>자료 제공 09.11 16:17 KST<br>기사·문서 본문 확보</div></details></li></ul>
           <details class="selection-detail"><summary>선정 정보</summary><p>수집 범위 내 독립 발행자 1개 · 자료 기준 경과 14.7시간 · 이전 입력 대비 신규 문서 · 원문에 실행·결정 근거가 있는 기업 계약·제품·자본거래·승인</p></details>
         </div></details>
+        </div></details>
       </article><article class="issue" id="issue-03a02b2bfac1a9a4" data-issue-section="investment" data-scope="industry" data-full-text="true">
         <div class="issue-top"><span class="pill accent">전망</span><span class="source-caption">연합인포맥스 · 09.11 16:00 KST</span></div>
         <h3><a href="#issue-03a02b2bfac1a9a4">월가, 이란 전쟁에 유가 &#39;쇼크&#39; 장기화 관측…가격 전망 상향 잇따라</a></h3>
-        <div class="issue-summary"><p>10일(현지시간) 비즈니스인사이더에 따르면 HSBC는 최근 2027년 브렌트유 가격 전망치를 기존보다 20달러 상향한 배럴당 85달러로 제시했다.</p><p>국제유가는 지난 8월 초 배럴당 80달러 아래로 떨어졌지만 이후 대부분의 기간 상승세를 이어갔다.</p><p>뱅크오브아메리카(BofA)는 중동 지역의 분쟁이 지속될 경우 국제유가가 배럴당 95~120달러 범위에서 움직일 수 있다고 전망했다.</p><p>월가의 전망치 대부분은 현재 국제유가보다 낮은 수준이지만, 시장에서는 배럴당 100달러 이상의 유가가 더 이상 현실성이 낮은 위험 시나리오가 아니라는 인식이 확산하고 있다.</p></div>
+        <p class="issue-lead">10일(현지시간) 비즈니스인사이더에 따르면 HSBC는 최근 2027년 브렌트유 가격 전망치를 기존보다 20달러 상향한 배럴당 85달러로 제시했다.</p>
         
+        
+        <details class="issue-detail"><summary><span class="detail-open">상세 보기</span><span class="detail-close">접기</span><span class="detail-source-count">자료 1건</span></summary><div class="issue-reading">
+        <div class="issue-summary"><p>10일(현지시간) 비즈니스인사이더에 따르면 HSBC는 최근 2027년 브렌트유 가격 전망치를 기존보다 20달러 상향한 배럴당 85달러로 제시했다.</p><p>국제유가는 지난 8월 초 배럴당 80달러 아래로 떨어졌지만 이후 대부분의 기간 상승세를 이어갔다.</p><p>뱅크오브아메리카(BofA)는 중동 지역의 분쟁이 지속될 경우 국제유가가 배럴당 95~120달러 범위에서 움직일 수 있다고 전망했다.</p><p>월가의 전망치 대부분은 현재 국제유가보다 낮은 수준이지만, 시장에서는 배럴당 100달러 이상의 유가가 더 이상 현실성이 낮은 위험 시나리오가 아니라는 인식이 확산하고 있다.</p></div>
         
         
         
@@ -756,11 +820,15 @@ body.has-quant-shared-nav .skip-link {
           <ul class="source-list"><li><a href="https://news.einfomax.co.kr/news/articleView.html?idxno=4434495" target="_blank" rel="noopener noreferrer" referrerpolicy="no-referrer">월가, 이란 전쟁에 유가 &#39;쇼크&#39; 장기화 관측…가격 전망 상향 잇따라 ↗</a><div class="source-meta">연합인포맥스 · 발행 09.11 16:00 KST</div><details class="source-details"><summary>자료 정보</summary><div class="source-meta">수집 09.11 16:27 KST · 시간 기준 원문 발행<br>자료 제공 09.11 16:02 KST<br>기사·문서 본문 확보</div></details></li></ul>
           <details class="selection-detail"><summary>선정 정보</summary><p>수집 범위 내 독립 발행자 1개 · 자료 기준 경과 15.0시간 · 이전 입력과 중복 내용 · 수치가 명시된 전망 변경; 관측 사실과 구분</p></details>
         </div></details>
+        </div></details>
       </article><article class="issue" id="issue-387fcccb08439306" data-issue-section="investment" data-scope="company" data-full-text="true">
         <div class="issue-top"><span class="pill accent">수주·계약</span><span class="source-caption">약사공론 · 09.11 12:12 KST</span></div>
         <h3><a href="#issue-387fcccb08439306">삼성바이오, 유럽 제약사와 3508억원 CMO 계약…2033년까지 장기 공급</a></h3>
-        <div class="issue-summary"><p>삼성바이오로직스가 유럽 소재 제약사와 3500억원대 바이오의약품 위탁생산(CMO) 장기계약을 체결하며 글로벌 수주 확대에 나섰다.</p><p>삼성바이오로직스는 지난 10일 유럽 소재 제약사와 약 3508억원(미화 2억6218만2000달러) 규모의 신규 바이오의약품 위탁생산 계약을 체결했다고 공시했다.</p><p>이번 계약을 포함해 삼성바이오로직스의 창립 이래 누적 수주액은 총 219억달러를 기록했다.</p><p>특히 이번 계약은 글로벌 경제 불확실성과 위탁개발생산(CDMO) 시장 경쟁 심화 속에서 2033년까지 생산과 공급이 이어지는 대규모 장기계약이라는 점에서 중장기 수주 잔고와 매출 기반을 강화하는 데 기여할 것으로 예상된다.</p></div>
+        <p class="issue-lead">삼성바이오로직스가 유럽 소재 제약사와 3500억원대 바이오의약품 위탁생산(CMO) 장기계약을 체결하며 글로벌 수주 확대에 나섰다.</p>
         
+        
+        <details class="issue-detail"><summary><span class="detail-open">상세 보기</span><span class="detail-close">접기</span><span class="detail-source-count">자료 1건</span></summary><div class="issue-reading">
+        <div class="issue-summary"><p>삼성바이오로직스가 유럽 소재 제약사와 3500억원대 바이오의약품 위탁생산(CMO) 장기계약을 체결하며 글로벌 수주 확대에 나섰다.</p><p>삼성바이오로직스는 지난 10일 유럽 소재 제약사와 약 3508억원(미화 2억6218만2000달러) 규모의 신규 바이오의약품 위탁생산 계약을 체결했다고 공시했다.</p><p>이번 계약을 포함해 삼성바이오로직스의 창립 이래 누적 수주액은 총 219억달러를 기록했다.</p><p>특히 이번 계약은 글로벌 경제 불확실성과 위탁개발생산(CDMO) 시장 경쟁 심화 속에서 2033년까지 생산과 공급이 이어지는 대규모 장기계약이라는 점에서 중장기 수주 잔고와 매출 기반을 강화하는 데 기여할 것으로 예상된다.</p></div>
         
         
         
@@ -782,11 +850,15 @@ body.has-quant-shared-nav .skip-link {
           <ul class="source-list"><li><a href="https://www.kpanews.co.kr/news/articleView.html?idxno=543635" target="_blank" rel="noopener noreferrer" referrerpolicy="no-referrer">삼성바이오, 유럽 제약사와 3508억원 CMO 계약…2033년까지 장기 공급 ↗</a><div class="source-meta">약사공론 · 임태균 기자 · 발행 09.11 12:12 KST</div><details class="source-details"><summary>자료 정보</summary><div class="source-meta">수집 09.11 16:27 KST · 시간 기준 원문 발행<br>자료 제공 09.11 12:14 KST<br>원문 수정 09.11 12:12 KST<br>기사·문서 본문 확보</div></details></li></ul>
           <details class="selection-detail"><summary>선정 정보</summary><p>수집 범위 내 독립 발행자 1개 · 자료 기준 경과 18.8시간 · 이전 입력과 중복 내용 · 원문에 실행·결정 근거가 있는 기업 계약·제품·자본거래·승인</p></details>
         </div></details>
+        </div></details>
       </article><article class="issue" id="issue-861629a630f5e170" data-issue-section="investment" data-scope="market" data-full-text="true">
         <div class="issue-top"><span class="pill accent">시장 동향</span><span class="source-caption">초이스경제 · 09.11 14:12 KST</span></div>
         <h3><a href="#issue-861629a630f5e170">유가·금리 &#39;쇼크&#39;...일본증시 &#39;장중 뚝&#39;, 키옥시아 &#39;급락&#39;</a></h3>
-        <div class="issue-summary"><p>각 거래소에 따르면 오후 1시 42분 현재 일본 닛케이225 지수는 전일 대비 2.13% 급락한 6만3878.17에서 움직이는 중이다. 소프트뱅크 그룹(-4.35%), 키옥시아홀딩스(-7.47%), 도쿄일렉트론(-3.45%), 어드반테스트(-6.76%) 등이 급락 거래 중이다. 중동 혼란 장기화로 원유 가격이 치솟고 인플레이션으로 세계적으로 금리 상승 우려가 강해지는 가운데 AI 및 반도체 종목을 중심으로 장중 매도세가 몰리고 있다고 니혼게이자이 신문(닛케이)은 전했다.</p><p>중국 상하이종합지수는 오후 1시 2분(현지시간) 기준 전일 대비 1.71% 하락한 3867.13에서 움직이고 있다. 구이저우 마오타이(-1.05%), 폭스콘(-1.33%), 자진광업(-7.30%) 등이 하락 거래 중이다.</p><p>홍콩 항셍지수는 전일 대비 0.85% 내린 2만4742.51로 오전장을 마쳤다. HSBC(-1.52%), 알리바바(-0.47%), 차이나모바일(-0.05%) 등이 하락 거래 중이다.</p><p>앞서 10일(현지시간) 미국증시에서 다우존스(-0.60%), S&amp;P500(-0.58%), 나스닥(-0.65%) 등 3대 지수는 4거래일 연속 하락했다. 미국-이란 무력 충돌 재격화 속에 국제유가가 급등하며 인플레이션 우려를 키웠고, 미국 국채금리까지 장중 4.95%까지 치솟으며 수년 만에 최고 수준을 기록한 가운데 이 같은 흐름이 나타났다고 미국 경제방송 CNBC는 전했다.</p></div>
+        <p class="issue-lead">각 거래소에 따르면 오후 1시 42분 현재 일본 닛케이225 지수는 전일 대비 2.13% 급락한 6만3878.17에서 움직이는 중이다. 소프트뱅크 그룹(-4.35%), 키옥시아홀딩스(-7.47%), 도쿄일렉트론(-3.45%), 어드반테스트(-6.76%) 등이 급락 거래 중이다. 중동 혼란 장기화로 원유 가격이 치솟고 인플레이션으로 세계적으로 금리 상승 우려가 강해지는 가운데 AI 및 반도체 종목을 중심으로 장중 매도세가 몰리고 있다고 니혼게이자이 신문(닛케이)은 전했다.</p>
         
+        
+        <details class="issue-detail"><summary><span class="detail-open">상세 보기</span><span class="detail-close">접기</span><span class="detail-source-count">자료 1건</span></summary><div class="issue-reading">
+        <div class="issue-summary"><p>각 거래소에 따르면 오후 1시 42분 현재 일본 닛케이225 지수는 전일 대비 2.13% 급락한 6만3878.17에서 움직이는 중이다. 소프트뱅크 그룹(-4.35%), 키옥시아홀딩스(-7.47%), 도쿄일렉트론(-3.45%), 어드반테스트(-6.76%) 등이 급락 거래 중이다. 중동 혼란 장기화로 원유 가격이 치솟고 인플레이션으로 세계적으로 금리 상승 우려가 강해지는 가운데 AI 및 반도체 종목을 중심으로 장중 매도세가 몰리고 있다고 니혼게이자이 신문(닛케이)은 전했다.</p><p>중국 상하이종합지수는 오후 1시 2분(현지시간) 기준 전일 대비 1.71% 하락한 3867.13에서 움직이고 있다. 구이저우 마오타이(-1.05%), 폭스콘(-1.33%), 자진광업(-7.30%) 등이 하락 거래 중이다.</p><p>홍콩 항셍지수는 전일 대비 0.85% 내린 2만4742.51로 오전장을 마쳤다. HSBC(-1.52%), 알리바바(-0.47%), 차이나모바일(-0.05%) 등이 하락 거래 중이다.</p><p>앞서 10일(현지시간) 미국증시에서 다우존스(-0.60%), S&amp;P500(-0.58%), 나스닥(-0.65%) 등 3대 지수는 4거래일 연속 하락했다. 미국-이란 무력 충돌 재격화 속에 국제유가가 급등하며 인플레이션 우려를 키웠고, 미국 국채금리까지 장중 4.95%까지 치솟으며 수년 만에 최고 수준을 기록한 가운데 이 같은 흐름이 나타났다고 미국 경제방송 CNBC는 전했다.</p></div>
         
         
         
@@ -808,11 +880,15 @@ body.has-quant-shared-nav .skip-link {
           <ul class="source-list"><li><a href="http://www.choicenews.co.kr/news/articleView.html?idxno=171192" target="_blank" rel="noopener noreferrer" referrerpolicy="no-referrer">유가·금리 &#39;쇼크&#39;...일본증시 &#39;장중 뚝&#39;, 키옥시아 &#39;급락&#39; ↗</a><div class="source-meta">초이스경제 · 발행 09.11 14:12 KST</div><details class="source-details"><summary>자료 정보</summary><div class="source-meta">수집 09.11 16:27 KST · 시간 기준 원문 발행<br>자료 제공 09.11 14:14 KST<br>기사·문서 본문 확보</div></details></li></ul>
           <details class="selection-detail"><summary>선정 정보</summary><p>수집 범위 내 독립 발행자 1개 · 자료 기준 경과 16.8시간 · 이전 입력과 중복 내용 · 수치가 확인되는 금융시장 급변·기록 경신</p></details>
         </div></details>
+        </div></details>
       </article><article class="issue" id="issue-784ac4ad62124bde" data-issue-section="investment" data-scope="company" data-full-text="true">
         <div class="issue-top"><span class="pill accent">실적</span><span class="source-caption">뉴스핌 · 09.10 15:13 KST</span></div>
         <h3><a href="#issue-784ac4ad62124bde">TSMC 8월 매출 53% 껑충...&#34;설비 확대에도 AI칩 수요 못 따라잡아&#34;</a></h3>
-        <div class="issue-summary"><p>대만의 반도체 위탁 생산(파운드리) 업체 TSMC의 8월 매출이 전년비 53.3% 증가한 5148억 대만달러(약 163억달러)를 기록, 시장 예상을 웃도는 성장세를 이어갔다.</p><p>10일 블룸버그에 따르면 회사가 이날 공개한 8월 매출은 월간 기준으로 역대 최대였다. 매출 증가율(53.3%)은 시장 예상치(46.8%)를 웃돌았다. 전월에 비해서는 10.1% 늘었다.</p><p>앞서 지난 7월 TSMC는 AI칩 수요의 가파른 증가세가 2027년 이후에도 이어질 것이라 자신하고, 이를 반영해 올해 설비투자와 매출 전망을 상향 조정한 바 있다.</p><p>TSMC는 2026년 설비투자 규모가 600억~640억 달러에 이를 것으로 내다봤다. 연간 매출은 미국 달러 기준으로 40%를 소폭 웃도는 성장세를 기록할 것이라고 했다. TSMC 주가는 올 들어 약 60% 상승했다.</p></div>
+        <p class="issue-lead">대만의 반도체 위탁 생산(파운드리) 업체 TSMC의 8월 매출이 전년비 53.3% 증가한 5148억 대만달러(약 163억달러)를 기록, 시장 예상을 웃도는 성장세를 이어갔다.</p>
         
+        
+        <details class="issue-detail"><summary><span class="detail-open">상세 보기</span><span class="detail-close">접기</span><span class="detail-source-count">자료 2건</span></summary><div class="issue-reading">
+        <div class="issue-summary"><p>대만의 반도체 위탁 생산(파운드리) 업체 TSMC의 8월 매출이 전년비 53.3% 증가한 5148억 대만달러(약 163억달러)를 기록, 시장 예상을 웃도는 성장세를 이어갔다.</p><p>10일 블룸버그에 따르면 회사가 이날 공개한 8월 매출은 월간 기준으로 역대 최대였다. 매출 증가율(53.3%)은 시장 예상치(46.8%)를 웃돌았다. 전월에 비해서는 10.1% 늘었다.</p><p>앞서 지난 7월 TSMC는 AI칩 수요의 가파른 증가세가 2027년 이후에도 이어질 것이라 자신하고, 이를 반영해 올해 설비투자와 매출 전망을 상향 조정한 바 있다.</p><p>TSMC는 2026년 설비투자 규모가 600억~640억 달러에 이를 것으로 내다봤다. 연간 매출은 미국 달러 기준으로 40%를 소폭 웃도는 성장세를 기록할 것이라고 했다. TSMC 주가는 올 들어 약 60% 상승했다.</p></div>
         
         
         
@@ -834,11 +910,15 @@ body.has-quant-shared-nav .skip-link {
           <ul class="source-list"><li><a href="https://www.newspim.com/news/view/20260910000930?sicode=01" target="_blank" rel="noopener noreferrer" referrerpolicy="no-referrer">TSMC 8월 매출 53% 껑충...&#34;설비 확대에도 AI칩 수요 못 따라잡아&#34; ↗</a><div class="source-meta">뉴스핌 · 오상용  · 발행 09.10 15:13 KST</div><details class="source-details"><summary>자료 정보</summary><div class="source-meta">수집 09.11 16:41 KST · 시간 기준 원문 발행<br>원문 수정 09.10 15:20 KST<br>기사·문서 본문 확보</div></details></li><li><strong>관련 요약</strong><div class="source-meta">텔레그램 · 발행 09.10 15:23 KST</div><details class="source-details"><summary>자료 정보</summary><div class="source-meta">수집 09.11 15:34 KST · 시간 기준 메시지 발행<br>원문 수정 09.10 15:37 KST<br>선정 자료</div></details></li></ul>
           <details class="selection-detail"><summary>선정 정보</summary><p>수집 범위 내 독립 발행자 1개 · 자료 기준 경과 39.8시간 · 이전 입력과 중복 내용 · 실적·자본·계약 등 기업 활동의 구체적 변화</p></details>
         </div></details>
+        </div></details>
       </article><article class="issue" id="issue-1b7ad10f0b0675a5" data-issue-section="investment" data-scope="company" data-full-text="true">
         <div class="issue-top"><span class="pill accent">실적</span><span class="source-caption">시엔비시 · 09.11 20:22 KST</span></div>
         <h3><a href="#issue-1b7ad10f0b0675a5">오라클, AI 클라우드 수요로 매출 30% 성장…부채 1,250억 달러 기록</a></h3>
-        <div class="issue-summary"><p>오라클의 주가는 금요일에 등락을 거듭했습니다. 이 소프트웨어 기업은 최근 분기에 클라우드 인프라에 대한 강력한 수요로 판매가 견인되면서 30%의 매출 성장을 기록해 예상치를 상회했습니다. 주가는 장 시작 직후 급등했으나, 이후 거의 2% 하락한 가격으로 장을 마감했습니다.</p><p>회계 1 분기 매출은 191 억 4 천만 달러의 LSEG 컨센서스 추정치를 상회하는 193 억 5 천만 달러로 증가했습니다. 순이익은 전년 29 억 3 천만 달러에서 47 억 달러로 60% 상승했습니다.</p><p>클라우드 매출은 전년 대비 62% 증가하여 116억 달러를 기록했는데, 이는 클라우드 인프라 매출이 121% 급증한 데 힘입은 것이며, 클라우드 애플리케이션 매출은 10% 성장했습니다.</p><p>오라클은 주력 데이터베이스 소프트웨어를 판매하는 한편, AI 워크로드를 위한 대규모 데이터센터 구축을 자금 지원하기 위해 1,250억 달러의 부채를 안고 있습니다. 이 투자는 엔비디아, 메타, 오픈AI, 어드밴스드 마이크로 디바이스, 스페이스X의 AI 사업 등 고객들의 계약된 클라우드 수요에 대한 용량을 확대할 것으로 예상됩니다. 오라클은 당기 분기에 전년 동기 3억 6,200만 달러의 마이너스 자유현금흐름 대비 54억 달러의 마이너스 자유현금흐름을 기록했습니다.</p></div>
+        <p class="issue-lead">오라클의 주가는 금요일에 등락을 거듭했습니다. 이 소프트웨어 기업은 최근 분기에 클라우드 인프라에 대한 강력한 수요로 판매가 견인되면서 30%의 매출 성장을 기록해 예상치를 상회했습니다. 주가는 장 시작 직후 급등했으나, 이후 거의 2% 하락한 가격으로 장을 마감했습니다.</p>
         
+        
+        <details class="issue-detail"><summary><span class="detail-open">상세 보기</span><span class="detail-close">접기</span><span class="detail-source-count">자료 1건</span></summary><div class="issue-reading">
+        <div class="issue-summary"><p>오라클의 주가는 금요일에 등락을 거듭했습니다. 이 소프트웨어 기업은 최근 분기에 클라우드 인프라에 대한 강력한 수요로 판매가 견인되면서 30%의 매출 성장을 기록해 예상치를 상회했습니다. 주가는 장 시작 직후 급등했으나, 이후 거의 2% 하락한 가격으로 장을 마감했습니다.</p><p>회계 1 분기 매출은 191 억 4 천만 달러의 LSEG 컨센서스 추정치를 상회하는 193 억 5 천만 달러로 증가했습니다. 순이익은 전년 29 억 3 천만 달러에서 47 억 달러로 60% 상승했습니다.</p><p>클라우드 매출은 전년 대비 62% 증가하여 116억 달러를 기록했는데, 이는 클라우드 인프라 매출이 121% 급증한 데 힘입은 것이며, 클라우드 애플리케이션 매출은 10% 성장했습니다.</p><p>오라클은 주력 데이터베이스 소프트웨어를 판매하는 한편, AI 워크로드를 위한 대규모 데이터센터 구축을 자금 지원하기 위해 1,250억 달러의 부채를 안고 있습니다. 이 투자는 엔비디아, 메타, 오픈AI, 어드밴스드 마이크로 디바이스, 스페이스X의 AI 사업 등 고객들의 계약된 클라우드 수요에 대한 용량을 확대할 것으로 예상됩니다. 오라클은 당기 분기에 전년 동기 3억 6,200만 달러의 마이너스 자유현금흐름 대비 54억 달러의 마이너스 자유현금흐름을 기록했습니다.</p></div>
         
         
         
@@ -860,11 +940,15 @@ body.has-quant-shared-nav .skip-link {
           <ul class="source-list"><li><a href="https://www.cnbc.com/2026/09/11/oracle-stock-q1-earnings-ai-cloud.html" target="_blank" rel="noopener noreferrer" referrerpolicy="no-referrer">오라클, AI 클라우드 수요로 매출 30% 성장…부채 1,250억 달러 기록 ↗</a><div class="source-meta">시엔비시 · Sawdah Bhaimiya · 발행 09.11 20:22 KST</div><details class="source-details"><summary>자료 정보</summary><div class="source-meta">수집 09.12 05:51 KST · 시간 기준 원문 발행<br>자료 제공 09.12 05:04 KST<br>원문 수정 09.12 05:04 KST<br>기사·문서 본문 확보</div></details></li></ul>
           <details class="selection-detail"><summary>선정 정보</summary><p>수집 범위 내 독립 발행자 1개 · 자료 기준 경과 10.6시간 · 이전 입력 대비 신규 문서 · 실적·자본·계약 등 기업 활동의 구체적 변화</p></details>
         </div></details>
+        </div></details>
       </article><article class="issue" id="issue-5726e01c2c920862" data-issue-section="investment" data-scope="company" data-full-text="true">
         <div class="issue-top"><span class="pill accent">주가 동향</span><span class="source-caption">미디어펜 · 09.12 04:02 KST</span></div>
         <h3><a href="#issue-5726e01c2c920862">[美증시 특징주] 델·HPE 서버수주 폭발에 폭등…오라클발 서버 수요 가속화</a></h3>
-        <div class="issue-summary"><p>인공지능(AI) 데이터센터 서버업체인 델 테크놀로지와 HPE가 서버 수요 폭발에 힘입어 주가가 폭등했다. 11일(현지시간) 뉴욕증시에서 델은 오후 2시48분 현재 10.90% 치솟은 562 달러선에서 움직이고 있다.</p><p>전날 나온 오라클의 실적발표가 기폭제가 된 것으로 보인다. 오라클의 분기실적 자체도 시장예상치를 상회했지만 전체 수주잔고가 6640억 달러까지 증가하면서 서버수요에 대한 기대감을 부풀렸다. 또 오라클의 연간 자본지출 계획이 기존 560억 달러에서  900억~950억 수준으로 늘어날 것으로 전망된데다 마이크로소프트도 컴퓨팅 용량을 크게 확대할 계획이어서 시장에서는 하이퍼스케일러들의 AI 인프라 투자가 생각보다 오래 지속될 것이라는 낙관론이 커졌다. 델 경영진이 지난 9일 골드만삭스 컨퍼런스에서 최근 분기 AI 서버 수주액이 61억 달러로 이전 3개 분기 합계와 맞먹는 수준이라고 밝힌 것도 주가에 강력한 모멘텀이 됐다.</p><p>이 회사의 최근 1년 AI 서버수주액은 132억 달러까지 불어났다.</p><p>RBC캐피털은 최근 델에 대해 매수 의견인 &#39;아웃퍼폼&#39;을 유지하면서 목표주가로 640 달러를 제시했다. 예상보다 강한 AI 서버 수요가 확인된데다 오라클의 수주잔고에서 보듯 데이터센터 투자확대가 지속되고 있다는 점을 들었다. 이런 흐름 속에서 같은 서버업체인 휴렛패커드 엔터프라이즈(HPE) 주가도 이날 10.60% 급등했다.</p></div>
+        <p class="issue-lead">인공지능(AI) 데이터센터 서버업체인 델 테크놀로지와 HPE가 서버 수요 폭발에 힘입어 주가가 폭등했다. 11일(현지시간) 뉴욕증시에서 델은 오후 2시48분 현재 10.90% 치솟은 562 달러선에서 움직이고 있다.</p>
         
+        
+        <details class="issue-detail"><summary><span class="detail-open">상세 보기</span><span class="detail-close">접기</span><span class="detail-source-count">자료 1건</span></summary><div class="issue-reading">
+        <div class="issue-summary"><p>인공지능(AI) 데이터센터 서버업체인 델 테크놀로지와 HPE가 서버 수요 폭발에 힘입어 주가가 폭등했다. 11일(현지시간) 뉴욕증시에서 델은 오후 2시48분 현재 10.90% 치솟은 562 달러선에서 움직이고 있다.</p><p>전날 나온 오라클의 실적발표가 기폭제가 된 것으로 보인다. 오라클의 분기실적 자체도 시장예상치를 상회했지만 전체 수주잔고가 6640억 달러까지 증가하면서 서버수요에 대한 기대감을 부풀렸다. 또 오라클의 연간 자본지출 계획이 기존 560억 달러에서  900억~950억 수준으로 늘어날 것으로 전망된데다 마이크로소프트도 컴퓨팅 용량을 크게 확대할 계획이어서 시장에서는 하이퍼스케일러들의 AI 인프라 투자가 생각보다 오래 지속될 것이라는 낙관론이 커졌다. 델 경영진이 지난 9일 골드만삭스 컨퍼런스에서 최근 분기 AI 서버 수주액이 61억 달러로 이전 3개 분기 합계와 맞먹는 수준이라고 밝힌 것도 주가에 강력한 모멘텀이 됐다.</p><p>이 회사의 최근 1년 AI 서버수주액은 132억 달러까지 불어났다.</p><p>RBC캐피털은 최근 델에 대해 매수 의견인 &#39;아웃퍼폼&#39;을 유지하면서 목표주가로 640 달러를 제시했다. 예상보다 강한 AI 서버 수요가 확인된데다 오라클의 수주잔고에서 보듯 데이터센터 투자확대가 지속되고 있다는 점을 들었다. 이런 흐름 속에서 같은 서버업체인 휴렛패커드 엔터프라이즈(HPE) 주가도 이날 10.60% 급등했다.</p></div>
         
         
         
@@ -886,13 +970,17 @@ body.has-quant-shared-nav .skip-link {
           <ul class="source-list"><li><a href="https://www.mediapen.com/news/view/1123062" target="_blank" rel="noopener noreferrer" referrerpolicy="no-referrer">[美증시 특징주] 델·HPE 서버수주 폭발에 폭등…오라클발 서버 수요 가속화 ↗</a><div class="source-meta">미디어펜 · 김종현 · 발행 09.12 04:02 KST</div><details class="source-details"><summary>자료 정보</summary><div class="source-meta">수집 09.12 05:44 KST · 시간 기준 원문 발행<br>자료 제공 09.12 04:04 KST<br>원문 수정 09.12 04:02 KST<br>기사·문서 본문 확보</div></details></li></ul>
           <details class="selection-detail"><summary>선정 정보</summary><p>수집 범위 내 독립 발행자 1개 · 자료 기준 경과 3.0시간 · 이전 입력 대비 신규 문서 · 실적·자본·계약 등 기업 활동의 구체적 변화</p></details>
         </div></details>
+        </div></details>
       </article><article class="issue" id="issue-667aa178acad5d10" data-issue-section="investment" data-scope="company" data-full-text="true">
         <div class="issue-top"><span class="pill accent">실적</span><span class="source-caption">시엔비시 · 09.10 19:56 KST</span></div>
         <h3><a href="#issue-667aa178acad5d10">메이시스가 강력한 실적을 발표하고 전환이 본격화됨에 따라 실적 전망을 상향 조정했습니다.</a></h3>
+        <p class="issue-lead">그럼에도 불구하고 메이시스의 주가는 목요일에 거의 5% 하락했습니다.</p>
+        
+        
+        <details class="issue-detail"><summary><span class="detail-open">상세 보기</span><span class="detail-close">접기</span><span class="detail-source-count">자료 1건</span></summary><div class="issue-reading">
         <div class="issue-summary"><p>그럼에도 불구하고 메이시스의 주가는 목요일에 거의 5% 하락했습니다.</p><p>주당순이익: 조정 기준 40센트, 예상 37센트
 
 수익: 48억 7,000만 달러, 예상 48억 3,000만 달러</p><p>회사는 또한 연간 실적 전망을 상향 조정하여 순매출을 종전 $215억~$217.5억에서 $216.8억~$218.3억으로 전망한다고 밝혔습니다. 또한 비교가능 매출 전망 범위를 0.5%~1.2% 성장에서 1%~1.5% 증가로 상향 조정했습니다.</p><p>메이시스는 연간 주당순이익 전망을 종전 2달러~2.20달러에서 2.15달러~2.35달러로 상향 조정했다. 회사는 관세 환급금으로 인해 당기 순이익에 반영될 약 5센트의 주당 증가분을 이 전망에 포함시켰다고 밝혔다.</p></div>
-        
         
         
         
@@ -915,6 +1003,7 @@ body.has-quant-shared-nav .skip-link {
           </div>
           <ul class="source-list"><li><a href="https://www.cnbc.com/2026/09/10/macys-m-q2-2026-earnings.html" target="_blank" rel="noopener noreferrer" referrerpolicy="no-referrer">메이시스가 강력한 실적을 발표하고 전환이 본격화됨에 따라 실적 전망을 상향 조정했습니다. ↗</a><div class="source-meta">시엔비시 · Laya Neelakandan · 발행 09.10 19:56 KST</div><details class="source-details"><summary>자료 정보</summary><div class="source-meta">수집 09.12 05:51 KST · 시간 기준 원문 발행<br>자료 제공 09.11 05:49 KST<br>원문 수정 09.11 05:49 KST<br>기사·문서 본문 확보</div></details></li></ul>
           <details class="selection-detail"><summary>선정 정보</summary><p>수집 범위 내 독립 발행자 1개 · 자료 기준 경과 35.1시간 · 이전 입력 대비 신규 문서 · 수치가 명시된 전망 변경; 관측 사실과 구분</p></details>
+        </div></details>
         </div></details>
       </article>
     </div></section>
@@ -951,11 +1040,17 @@ body.has-quant-shared-nav .skip-link {
     }
     for(const group of sections){const count=[...group.querySelectorAll('[data-issue-section]')].filter(i=>!i.hidden).length;group.hidden=count===0;group.querySelector('.count').textContent=String(count);}
     document.getElementById('result-count').textContent=visible+' / '+issues.length+'개';
-    document.getElementById('no-results').hidden=visible>0||issues.length===0;
+    document.getElementById('no-results').hidden=visible>0||issues.length===0;syncReading();
   }
   input.addEventListener('input',filter);evidence.addEventListener('change',filter);period.addEventListener('change',filter);
   for(const button of buttons)button.addEventListener('click',()=>{scope=button.dataset.scope;for(const b of buttons)b.setAttribute('aria-pressed',String(b===button));filter();});
-  for(const link of document.querySelectorAll('.highlight-list a,.related a,.weekly-outlook a'))link.addEventListener('click',()=>{input.value='';evidence.value='all';period.value='all';scope='all';for(const b of buttons)b.setAttribute('aria-pressed',String(b.dataset.scope==='all'));filter();});
+  function revealIssue(hash){let id;try{id=decodeURIComponent(hash.replace(/^#/,''));}catch(e){return;}const target=document.getElementById(id);if(!target||!target.matches('[data-issue-section]'))return;input.value='';evidence.value='all';period.value='all';scope='all';for(const b of buttons)b.setAttribute('aria-pressed',String(b.dataset.scope==='all'));filter();const details=target.querySelector('.issue-detail');if(details)details.open=true;requestAnimationFrame(()=>target.scrollIntoView({block:'start'}));}
+  for(const link of document.querySelectorAll('.highlight-list a,.related a,.weekly-outlook a,.issue h3 a'))link.addEventListener('click',()=>{const url=new URL(link.href,location.href);if(url.origin===location.origin&&url.pathname===location.pathname&&url.hash)revealIssue(url.hash);});
+  window.addEventListener('hashchange',()=>revealIssue(location.hash));
+  const readingToggle=document.getElementById('reading-toggle');
+  function syncReading(){const visible=issues.filter(issue=>!issue.hidden);const expanded=visible.length>0&&visible.every(issue=>issue.querySelector('.issue-detail').open);readingToggle.disabled=visible.length===0;readingToggle.setAttribute('aria-pressed',String(expanded));readingToggle.textContent=expanded?'모두 접기':'모두 펼치기';}
+  for(const issue of issues)issue.querySelector('.issue-detail').addEventListener('toggle',syncReading);
+  readingToggle.addEventListener('click',()=>{const expand=readingToggle.getAttribute('aria-pressed')!=='true';for(const issue of issues)if(!issue.hidden)issue.querySelector('.issue-detail').open=expand;readingToggle.setAttribute('aria-pressed',String(expand));readingToggle.textContent=expand?'모두 접기':'모두 펼치기';});
   const theme=document.getElementById('theme-toggle');
   function themeLabel(){const dark=document.documentElement.dataset.theme==='dark';const label=dark?'라이트 모드':'다크 모드';theme.querySelector('.theme-text').textContent=label;theme.setAttribute('aria-label',label+'로 전환');theme.setAttribute('aria-pressed',String(dark));}
   theme.addEventListener('click',()=>{const next=document.documentElement.dataset.theme==='dark'?'light':'dark';document.documentElement.dataset.theme=next;try{localStorage.setItem('research-news-theme',next);}catch(e){}themeLabel();});
@@ -964,9 +1059,9 @@ body.has-quant-shared-nav .skip-link {
   const showActiveProject=()=>{if(activeProject&&projectRail.scrollWidth>projectRail.clientWidth)projectRail.scrollLeft=Math.max(0,activeProject.offsetLeft-(projectRail.clientWidth-activeProject.offsetWidth)/2);};
   requestAnimationFrame(showActiveProject);window.addEventListener('resize',showActiveProject);
   const measureNavigation=()=>{document.documentElement.style.setProperty('--masthead-height',document.querySelector('.masthead').getBoundingClientRect().height+'px');document.documentElement.style.setProperty('--toolbar-height',document.querySelector('.toolbar').getBoundingClientRect().height+'px');};
-  measureNavigation();if(typeof ResizeObserver!=='undefined'){const observer=new ResizeObserver(measureNavigation);observer.observe(document.querySelector('.masthead'));observer.observe(document.querySelector('.toolbar'));}else window.addEventListener('resize',measureNavigation);
+  measureNavigation();if(location.hash)revealIssue(location.hash);if(typeof ResizeObserver!=='undefined'){const observer=new ResizeObserver(measureNavigation);observer.observe(document.querySelector('.masthead'));observer.observe(document.querySelector('.toolbar'));}else window.addEventListener('resize',measureNavigation);
 
-  const archiveContext={"archive_url": "/news/?archive=1", "base_path": "/news/", "current_date": "2026-09-12", "entries": [{"date": "2026-09-14", "issue_count": 20, "mode": "on_time", "url": "/news/daily/2026-09-14/index.html"}, {"date": "2026-09-13", "issue_count": 20, "mode": "reconstruction", "url": "/news/daily/2026-09-13/index.html"}, {"date": "2026-09-12", "issue_count": 20, "mode": "reconstruction", "url": "/news/daily/2026-09-12/index.html"}], "latest_url": "/news/", "manifest_url": "/news/archive.json"};
+  const archiveContext={"archive_url": "/news/?archive=1", "base_path": "/news/", "current_date": "2026-09-12", "entries": [{"date": "2026-09-14", "issue_count": 28, "mode": "reconstruction", "url": "/news/daily/2026-09-14/index.html"}, {"date": "2026-09-13", "issue_count": 20, "mode": "reconstruction", "url": "/news/daily/2026-09-13/index.html"}, {"date": "2026-09-12", "issue_count": 20, "mode": "reconstruction", "url": "/news/daily/2026-09-12/index.html"}], "latest_url": "/news/", "manifest_url": "/news/archive.json"};
   const currentDate=archiveContext.current_date||"2026-09-12";
   const dialog=document.getElementById('archive-dialog'),openCalendar=document.getElementById('archive-open');
   const daysBody=document.getElementById('calendar-days'),monthLabel=document.getElementById('calendar-month-label');
