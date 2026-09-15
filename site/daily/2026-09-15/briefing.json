@@ -1,19 +1,19 @@
 {
   "schema_version": "1",
-  "run_id": "88aed44502683b984f860a3c",
+  "run_id": "ee95e9b6333f53420cbe9b27",
   "report_date": "2026-09-15",
-  "cutoff": "2026-09-15T08:39:20.969370+09:00",
-  "generated_at": "2026-09-15T03:58:10.273923+00:00",
-  "mode": "on_time",
+  "cutoff": "2026-09-15T10:21:24.887750+09:00",
+  "generated_at": "2026-09-15T04:38:30.997358+00:00",
+  "mode": "reconstruction",
   "status": "partial",
   "language": "ko",
   "timezone": "Asia/Seoul",
-  "input_manifest_hash": "c246e85e6ac939b5d5dba6aada1042fc1e70bb90c496a3c452f2346442e98753",
+  "input_manifest_hash": "01caf841667c3eedf065560d2126058b59764aa5032b3a3549fa62be17b8839f",
   "highlights": [
     "지난달 ICT 수출액 600억달러 육박",
-    "연준 RMP, 2개월 연속 중단…재투자 재정증권 매입만 하기로(상보)",
-    "8월 수출물가 3.7%↓·44개월만 최대 낙폭…\"반도체 피크아웃 아냐\"",
-    "의료용품 수출액 확대에도 무역수지 적자 급증"
+    "반도체 호조 속 8월 수출 983억달러 역대 최대",
+    "[단독] 국내 은행 14곳, 대출 기준금리 0.72퍼센트포인트 내릴 때 실제 금리는 0.15퍼센트포인트 내려",
+    "연준 RMP, 2개월 연속 중단…재투자 재정증권 매입만 하기로(상보)"
   ],
   "delivery_target": null,
   "generation_delayed": false,
@@ -185,7 +185,7 @@
       "entities": [],
       "selection_reason": [
         "수집 범위 내 독립 발행자 1개",
-        "자료 기준 경과 18.4시간",
+        "자료 기준 경과 20.1시간",
         "이전 입력과 중복 내용",
         "수치가 명시된 거시 지표 발표 또는 확정된 통화·무역 정책 변경"
       ],
@@ -374,7 +374,7 @@
       "entities": [],
       "selection_reason": [
         "수집 범위 내 독립 발행자 1개",
-        "자료 기준 경과 15.6시간",
+        "자료 기준 경과 17.3시간",
         "이전 입력과 중복 내용",
         "원문에 수치와 관측·보고 근거가 있는 기업 실적"
       ],
@@ -563,7 +563,7 @@
       "entities": [],
       "selection_reason": [
         "수집 범위 내 독립 발행자 1개",
-        "자료 기준 경과 23.5시간",
+        "자료 기준 경과 25.2시간",
         "이전 입력과 중복 내용",
         "원문에 실행·결정 근거가 있는 기업 계약·제품·자본거래·승인"
       ],
@@ -752,7 +752,7 @@
       "entities": [],
       "selection_reason": [
         "수집 범위 내 독립 발행자 1개",
-        "자료 기준 경과 23.7시간",
+        "자료 기준 경과 25.4시간",
         "이전 입력과 중복 내용",
         "당국이 밝힌 정책 변경 방침; 실제 시행과 구분"
       ],
@@ -941,7 +941,7 @@
       "entities": [],
       "selection_reason": [
         "수집 범위 내 독립 발행자 1개",
-        "자료 기준 경과 12.3시간",
+        "자료 기준 경과 14.0시간",
         "이전 입력과 중복 내용",
         "수치가 명시된 전망 변경; 관측 사실과 구분"
       ],
@@ -1130,7 +1130,7 @@
       "entities": [],
       "selection_reason": [
         "수집 범위 내 독립 발행자 1개",
-        "자료 기준 경과 15.0시간",
+        "자료 기준 경과 16.7시간",
         "이전 입력과 중복 내용",
         "원문에 실행·결정 근거가 있는 기업 계약·제품·자본거래·승인"
       ],
@@ -1150,6 +1150,195 @@
       "prior_day_follow_up": false,
       "original_title": "포스코인터, 美 셰일가스 자산 인수…8천억 투입·1조 보증(종합)",
       "source_title_ko": "포스코인터, 美 셰일가스 자산 인수…8천억 투입·1조 보증(종합)",
+      "korean_required": true
+    },
+    {
+      "id": "cf48cf87971f5f2e32b6617e",
+      "anchor": "issue-8219c9885316ab94",
+      "editorial_scope": "macro",
+      "event_type": "macro_release",
+      "title": "반도체 호조 속 8월 수출 983억달러 역대 최대",
+      "section": "overnight",
+      "category": "economy",
+      "summary": [
+        "반도체 수출이 역대 최고치를 기록하면서 8월 수출액이 983억달러까지 치솟았다. 관세청이 15일 확정 발표한 '2026년 8월 수출입 현황'에 따르면 수출은 지난 2025년 같은 달보다 68.7% 늘어 15개월 연속 증가했고, 무역수지는 348억달러 흑자를 냈다.",
+        "올해 1~8월 누적 수출은 6935억8800만달러, 누적 무역흑자는 2026억2400만달러다.",
+        "8월 반도체 수출은 468억달러로 전년 동월보다 206.1% 늘어 역대 최고 실적을 냈다.",
+        "베트남(63.4%), 유럽연합(14.6%), 대만(48.0%), 일본(13.0%) 수출도 증가한 반면 중동은 14.9% 감소했다."
+      ],
+      "change": "비교 가능한 과거 자료 없음 — 상향·하향·전망 변경 여부 미판정",
+      "claims": [
+        {
+          "id": "6bcca2bc76355f561ba4a545",
+          "text": "반도체 수출이 역대 최고치를 기록하면서 8월 수출액이 983억달러까지 치솟았다. 관세청이 15일 확정 발표한 '2026년 8월 수출입 현황'에 따르면 수출은 지난 2025년 같은 달보다 68.7% 늘어 15개월 연속 증가했고, 무역수지는 348억달러 흑자를 냈다.",
+          "kind": "fact",
+          "author": "충청일보",
+          "source_ids": [
+            "2eb699113dfd45f2bb31c449"
+          ],
+          "evidence": [
+            {
+              "source_id": "2eb699113dfd45f2bb31c449",
+              "source_version_id": "b709d8077f5e5156c1fc8493",
+              "start": 0,
+              "end": 147,
+              "text": "반도체 수출이 역대 최고치를 기록하면서 8월 수출액이 983억달러까지 치솟았다. 관세청이 15일 확정 발표한 '2026년 8월 수출입 현황'에 따르면 수출은 지난 2025년 같은 달보다 68.7% 늘어 15개월 연속 증가했고, 무역수지는 348억달러 흑자를 냈다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "반도체 수출이 역대 최고치를 기록하면서 8월 수출액이 983억달러까지 치솟았다. 관세청이 15일 확정 발표한 '2026년 8월 수출입 현황'에 따르면 수출은 지난 2025년 같은 달보다 68.7% 늘어 15개월 연속 증가했고, 무역수지는 348억달러 흑자를 냈다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "4e38353d772c080c52f0f726",
+          "text": "올해 1~8월 누적 수출은 6935억8800만달러, 누적 무역흑자는 2026억2400만달러다.",
+          "kind": "fact",
+          "author": "충청일보",
+          "source_ids": [
+            "2eb699113dfd45f2bb31c449"
+          ],
+          "evidence": [
+            {
+              "source_id": "2eb699113dfd45f2bb31c449",
+              "source_version_id": "b709d8077f5e5156c1fc8493",
+              "start": 215,
+              "end": 267,
+              "text": "올해 1~8월 누적 수출은 6935억8800만달러, 누적 무역흑자는 2026억2400만달러다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "올해 1~8월 누적 수출은 6935억8800만달러, 누적 무역흑자는 2026억2400만달러다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "792768df7e87cbdbd2954273",
+          "text": "8월 반도체 수출은 468억달러로 전년 동월보다 206.1% 늘어 역대 최고 실적을 냈다.",
+          "kind": "fact",
+          "author": "충청일보",
+          "source_ids": [
+            "2eb699113dfd45f2bb31c449"
+          ],
+          "evidence": [
+            {
+              "source_id": "2eb699113dfd45f2bb31c449",
+              "source_version_id": "b709d8077f5e5156c1fc8493",
+              "start": 287,
+              "end": 337,
+              "text": "8월 반도체 수출은 468억달러로 전년 동월보다 206.1% 늘어 역대 최고 실적을 냈다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "8월 반도체 수출은 468억달러로 전년 동월보다 206.1% 늘어 역대 최고 실적을 냈다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "82d0383872f1150fcfd32322",
+          "text": "베트남(63.4%), 유럽연합(14.6%), 대만(48.0%), 일본(13.0%) 수출도 증가한 반면 중동은 14.9% 감소했다.",
+          "kind": "fact",
+          "author": "충청일보",
+          "source_ids": [
+            "2eb699113dfd45f2bb31c449"
+          ],
+          "evidence": [
+            {
+              "source_id": "2eb699113dfd45f2bb31c449",
+              "source_version_id": "b709d8077f5e5156c1fc8493",
+              "start": 538,
+              "end": 610,
+              "text": "베트남(63.4%), 유럽연합(14.6%), 대만(48.0%), 일본(13.0%) 수출도 증가한 반면 중동은 14.9% 감소했다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "베트남(63.4%), 유럽연합(14.6%), 대만(48.0%), 일본(13.0%) 수출도 증가한 반면 중동은 14.9% 감소했다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        }
+      ],
+      "event_schedules": [],
+      "document_ids": [
+        "2eb699113dfd45f2bb31c449"
+      ],
+      "source_versions": [
+        "b709d8077f5e5156c1fc8493"
+      ],
+      "entities": [],
+      "selection_reason": [
+        "수집 범위 내 독립 발행자 1개",
+        "자료 기준 경과 1.0시간",
+        "이전 입력 대비 신규 문서",
+        "수치가 명시된 거시 지표 발표 또는 확정된 통화·무역 정책 변경"
+      ],
+      "follow_up": [
+        "원문과 기간·단위·작성 주체를 확인하고 해석을 검토하세요."
+      ],
+      "confidence": "source_checked",
+      "related_issue_id": null,
+      "late_discovered": false,
+      "analysis_provider": "extractive",
+      "model_status": "not_needed_source_korean",
+      "analysis_label": "한국어 원문에서 핵심 문장 선별",
+      "evidence_expired": false,
+      "evidence_partially_expired": false,
+      "has_full_text": true,
+      "has_message_text": false,
+      "prior_day_follow_up": false,
+      "original_title": "반도체 호조 속 8월 수출 983억달러 역대 최대",
+      "source_title_ko": "반도체 호조 속 8월 수출 983억달러 역대 최대",
       "korean_required": true
     },
     {
@@ -1319,8 +1508,8 @@
       "entities": [],
       "selection_reason": [
         "수집 범위 내 독립 발행자 1개",
-        "자료 기준 경과 1.1시간",
-        "이전 입력 대비 신규 문서",
+        "자료 기준 경과 2.8시간",
+        "이전 입력과 중복 내용",
         "수치가 명시된 거시 지표 발표 또는 확정된 통화·무역 정책 변경"
       ],
       "follow_up": [
@@ -1508,8 +1697,8 @@
       "entities": [],
       "selection_reason": [
         "수집 범위 내 독립 발행자 1개",
-        "자료 기준 경과 2.7시간",
-        "이전 입력 대비 신규 문서",
+        "자료 기준 경과 4.4시간",
+        "이전 입력과 중복 내용",
         "수치가 명시된 거시 지표 발표 또는 확정된 통화·무역 정책 변경"
       ],
       "follow_up": [
@@ -1697,8 +1886,8 @@
       "entities": [],
       "selection_reason": [
         "수집 범위 내 독립 발행자 1개",
-        "자료 기준 경과 5.7시간",
-        "이전 입력 대비 신규 문서",
+        "자료 기준 경과 7.4시간",
+        "이전 입력과 중복 내용",
         "수치가 명시된 거시 지표 발표 또는 확정된 통화·무역 정책 변경"
       ],
       "follow_up": [
@@ -1886,8 +2075,8 @@
       "entities": [],
       "selection_reason": [
         "수집 범위 내 독립 발행자 1개",
-        "자료 기준 경과 2.7시간",
-        "이전 입력 대비 신규 문서",
+        "자료 기준 경과 4.4시간",
+        "이전 입력과 중복 내용",
         "수치가 명시된 거시 지표 발표 또는 확정된 통화·무역 정책 변경"
       ],
       "follow_up": [
@@ -1909,40 +2098,40 @@
       "korean_required": true
     },
     {
-      "id": "ce18c3465d2d8d154006bf4b",
-      "anchor": "issue-d56f16a3b8f28962",
+      "id": "ebcaf336b791c255f6d0dacf",
+      "anchor": "issue-147a38d717f62f53",
       "editorial_scope": "market",
       "event_type": "market_update",
-      "title": "美10년물 국채금리 '심리적 저항선' 5% 돌파…2023년 후 처음",
+      "title": "미국 10년물 국채금리, 심리적 저항선 ‘5%’ 돌파…2023년 이후 처음",
       "section": "overnight",
       "category": "economy",
       "summary": [
-        "컨슈머타임스=김동역 기자 |  14일(현지시간) 미국 국채 매도세가 이어지면서 10년 만기 국채 금리가 '심리적 저항선'인 5%를 넘어섰다.",
-        "전자거래 플랫폼 트레이드웹에 따르면 미 국채 10년물 금리는 미 동부시간 기준 오전 10시 19분 미 10년물 국채 금리는 5.00%를 찍은 뒤 5.012%까지 올랐다.",
-        "미 10년물 국채 금리가 5%를 넘긴 것은 2023년 10월 이후 처음이자, 글로벌 금융위기 직전인 2007년 이후 두 번째다.",
-        "이밖에 통화정책에 민감한 미 2년물 국채 금리는 4.66% 안팎에서, 30년물 국채 금리는 5.37% 선에서 움직이며 미 국채 금리 전반에 상방 압력이 가해지고 있다."
+        "14일(현지시간) 미국 국채 매도세가 커지면서 글로벌 금리 기준 지표인 10년 만기 국채 금리가 ‘심리적 저항선’인 5%를 넘어섰다.",
+        "미국 10년 만기 국채 금리는 미국 동부시간 기준 이날 오전 10시 19분 5.00%를 돌파한 뒤 5.012%까지 올랐다.",
+        "미국 10년 만기 국채 금리가 5%를 넘긴 것은 2023년 10월 이후 처음이자, 글로벌 금융위기 직전인 2007년 이후 두 번째다. 미국 10년 만기 국채 금리는 올해 들어 80bp 상승했다.",
+        "오는 15~16일 연방준비제도(Fed)의 연방공개시장위원회(FOMC)에서 기준금리를 인상할 것이란 전망이 커진 점도 미국 국채 금리를 끌어올리고 있다. 시카고상품거래소(CME 그룹) 페드워치에 따르면 시장은 연준이 이번 회의에서 기준금리를 0.25%포인트 인상할 가능성을 90%으로 보고 있다."
       ],
       "change": "비교 가능한 과거 자료 없음 — 상향·하향·전망 변경 여부 미판정",
       "claims": [
         {
-          "id": "434e455d27ab85504c00a01a",
-          "text": "컨슈머타임스=김동역 기자 |  14일(현지시간) 미국 국채 매도세가 이어지면서 10년 만기 국채 금리가 '심리적 저항선'인 5%를 넘어섰다.",
+          "id": "135136468d2aff83d012c374",
+          "text": "14일(현지시간) 미국 국채 매도세가 커지면서 글로벌 금리 기준 지표인 10년 만기 국채 금리가 ‘심리적 저항선’인 5%를 넘어섰다.",
           "kind": "fact",
-          "author": "컨슈머타임스(Consumertimes)",
+          "author": "이보라",
           "source_ids": [
-            "7c6b92caf6db523d7738a655"
+            "6a5d37c7a4e4faaf7af8b86a"
           ],
           "evidence": [
             {
-              "source_id": "7c6b92caf6db523d7738a655",
-              "source_version_id": "74ddb07642e7bf6bee45887b",
-              "start": 0,
-              "end": 78,
-              "text": "컨슈머타임스=김동역 기자 |  14일(현지시간) 미국 국채 매도세가 이어지면서 10년 만기 국채 금리가 '심리적 저항선'인 5%를 넘어섰다.",
+              "source_id": "6a5d37c7a4e4faaf7af8b86a",
+              "source_version_id": "f67fc7d311f04df7b377ca14",
+              "start": 100,
+              "end": 174,
+              "text": "14일(현지시간) 미국 국채 매도세가 커지면서 글로벌 금리 기준 지표인 10년 만기 국채 금리가 ‘심리적 저항선’인 5%를 넘어섰다.",
               "source_excerpt_truncated": false,
               "excerpt_truncated": false,
               "location": "본문",
-              "display_text": "컨슈머타임스=김동역 기자 |  14일(현지시간) 미국 국채 매도세가 이어지면서 10년 만기 국채 금리가 '심리적 저항선'인 5%를 넘어섰다.",
+              "display_text": "14일(현지시간) 미국 국채 매도세가 커지면서 글로벌 금리 기준 지표인 10년 만기 국채 금리가 ‘심리적 저항선’인 5%를 넘어섰다.",
               "is_translation": false
             }
           ],
@@ -1960,24 +2149,24 @@
           "numbers": []
         },
         {
-          "id": "b792dc53ad4d9f672ff12189",
-          "text": "전자거래 플랫폼 트레이드웹에 따르면 미 국채 10년물 금리는 미 동부시간 기준 오전 10시 19분 미 10년물 국채 금리는 5.00%를 찍은 뒤 5.012%까지 올랐다.",
+          "id": "a10eba1f393895f5708d7fd0",
+          "text": "미국 10년 만기 국채 금리는 미국 동부시간 기준 이날 오전 10시 19분 5.00%를 돌파한 뒤 5.012%까지 올랐다.",
           "kind": "fact",
-          "author": "컨슈머타임스(Consumertimes)",
+          "author": "이보라",
           "source_ids": [
-            "7c6b92caf6db523d7738a655"
+            "6a5d37c7a4e4faaf7af8b86a"
           ],
           "evidence": [
             {
-              "source_id": "7c6b92caf6db523d7738a655",
-              "source_version_id": "74ddb07642e7bf6bee45887b",
-              "start": 146,
-              "end": 240,
-              "text": "전자거래 플랫폼 트레이드웹에 따르면 미 국채 10년물 금리는 미 동부시간 기준 오전 10시 19분 미 10년물 국채 금리는 5.00%를 찍은 뒤 5.012%까지 올랐다.",
+              "source_id": "6a5d37c7a4e4faaf7af8b86a",
+              "source_version_id": "f67fc7d311f04df7b377ca14",
+              "start": 176,
+              "end": 244,
+              "text": "미국 10년 만기 국채 금리는 미국 동부시간 기준 이날 오전 10시 19분 5.00%를 돌파한 뒤 5.012%까지 올랐다.",
               "source_excerpt_truncated": false,
               "excerpt_truncated": false,
               "location": "본문",
-              "display_text": "전자거래 플랫폼 트레이드웹에 따르면 미 국채 10년물 금리는 미 동부시간 기준 오전 10시 19분 미 10년물 국채 금리는 5.00%를 찍은 뒤 5.012%까지 올랐다.",
+              "display_text": "미국 10년 만기 국채 금리는 미국 동부시간 기준 이날 오전 10시 19분 5.00%를 돌파한 뒤 5.012%까지 올랐다.",
               "is_translation": false
             }
           ],
@@ -1995,24 +2184,24 @@
           "numbers": []
         },
         {
-          "id": "6bf11db3964045288d7a54f4",
-          "text": "미 10년물 국채 금리가 5%를 넘긴 것은 2023년 10월 이후 처음이자, 글로벌 금융위기 직전인 2007년 이후 두 번째다.",
+          "id": "89f08d7f2ed9a2bf370a3b8a",
+          "text": "미국 10년 만기 국채 금리가 5%를 넘긴 것은 2023년 10월 이후 처음이자, 글로벌 금융위기 직전인 2007년 이후 두 번째다. 미국 10년 만기 국채 금리는 올해 들어 80bp 상승했다.",
           "kind": "fact",
-          "author": "컨슈머타임스(Consumertimes)",
+          "author": "이보라",
           "source_ids": [
-            "7c6b92caf6db523d7738a655"
+            "6a5d37c7a4e4faaf7af8b86a"
           ],
           "evidence": [
             {
-              "source_id": "7c6b92caf6db523d7738a655",
-              "source_version_id": "74ddb07642e7bf6bee45887b",
-              "start": 355,
+              "source_id": "6a5d37c7a4e4faaf7af8b86a",
+              "source_version_id": "f67fc7d311f04df7b377ca14",
+              "start": 318,
               "end": 426,
-              "text": "미 10년물 국채 금리가 5%를 넘긴 것은 2023년 10월 이후 처음이자, 글로벌 금융위기 직전인 2007년 이후 두 번째다.",
+              "text": "미국 10년 만기 국채 금리가 5%를 넘긴 것은 2023년 10월 이후 처음이자, 글로벌 금융위기 직전인 2007년 이후 두 번째다. 미국 10년 만기 국채 금리는 올해 들어 80bp 상승했다.",
               "source_excerpt_truncated": false,
               "excerpt_truncated": false,
               "location": "본문",
-              "display_text": "미 10년물 국채 금리가 5%를 넘긴 것은 2023년 10월 이후 처음이자, 글로벌 금융위기 직전인 2007년 이후 두 번째다.",
+              "display_text": "미국 10년 만기 국채 금리가 5%를 넘긴 것은 2023년 10월 이후 처음이자, 글로벌 금융위기 직전인 2007년 이후 두 번째다. 미국 10년 만기 국채 금리는 올해 들어 80bp 상승했다.",
               "is_translation": false
             }
           ],
@@ -2030,54 +2219,56 @@
           "numbers": []
         },
         {
-          "id": "996d035ee34ed4863bb8cc42",
-          "text": "이밖에 통화정책에 민감한 미 2년물 국채 금리는 4.66% 안팎에서, 30년물 국채 금리는 5.37% 선에서 움직이며 미 국채 금리 전반에 상방 압력이 가해지고 있다.",
-          "kind": "fact",
-          "author": "컨슈머타임스(Consumertimes)",
+          "id": "ee4c542a196428d3e5a5bc38",
+          "text": "오는 15~16일 연방준비제도(Fed)의 연방공개시장위원회(FOMC)에서 기준금리를 인상할 것이란 전망이 커진 점도 미국 국채 금리를 끌어올리고 있다. 시카고상품거래소(CME 그룹) 페드워치에 따르면 시장은 연준이 이번 회의에서 기준금리를 0.25%포인트 인상할 가능성을 90%으로 보고 있다.",
+          "kind": "author_opinion",
+          "author": "이보라",
           "source_ids": [
-            "7c6b92caf6db523d7738a655"
+            "6a5d37c7a4e4faaf7af8b86a"
           ],
           "evidence": [
             {
-              "source_id": "7c6b92caf6db523d7738a655",
-              "source_version_id": "74ddb07642e7bf6bee45887b",
-              "start": 635,
-              "end": 728,
-              "text": "이밖에 통화정책에 민감한 미 2년물 국채 금리는 4.66% 안팎에서, 30년물 국채 금리는 5.37% 선에서 움직이며 미 국채 금리 전반에 상방 압력이 가해지고 있다.",
+              "source_id": "6a5d37c7a4e4faaf7af8b86a",
+              "source_version_id": "f67fc7d311f04df7b377ca14",
+              "start": 849,
+              "end": 1010,
+              "text": "오는 15~16일 연방준비제도(Fed)의 연방공개시장위원회(FOMC)에서 기준금리를 인상할 것이란 전망이 커진 점도 미국 국채 금리를 끌어올리고 있다. 시카고상품거래소(CME) 페드워치에 따르면 시장은 연준이 이번 회의에서 기준금리를 0.25%포인트 인상할 가능성을 90%으로 보고 있다.",
               "source_excerpt_truncated": false,
               "excerpt_truncated": false,
               "location": "본문",
-              "display_text": "이밖에 통화정책에 민감한 미 2년물 국채 금리는 4.66% 안팎에서, 30년물 국채 금리는 5.37% 선에서 움직이며 미 국채 금리 전반에 상방 압력이 가해지고 있다.",
-              "is_translation": false
+              "display_text": "오는 15~16일 연방준비제도(Fed)의 연방공개시장위원회(FOMC)에서 기준금리를 인상할 것이란 전망이 커진 점도 미국 국채 금리를 끌어올리고 있다. 시카고상품거래소(CME 그룹) 페드워치에 따르면 시장은 연준이 이번 회의에서 기준금리를 0.25%포인트 인상할 가능성을 90%으로 보고 있다.",
+              "is_translation": true
             }
           ],
           "rationale": "",
           "conditions": "",
           "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
           "validation": {
-            "semantic_support": "source_quote_only",
+            "semantic_support": "not_verified",
             "human_review": "not_reviewed",
-            "status": "source_checked",
+            "status": "needs_review",
             "source_linkage": "passed",
-            "content_check": "exact_quote",
-            "assertion_type": "observation"
+            "content_check": "unverified_paraphrase",
+            "assertion_type": "forecast"
           },
           "numbers": []
         }
       ],
       "event_schedules": [],
       "document_ids": [
-        "7c6b92caf6db523d7738a655",
-        "09d222337f70a224f7053ce9"
+        "6a5d37c7a4e4faaf7af8b86a",
+        "a57a30b041162376c7f8cbd3",
+        "2b33630ebf23b7011394c391"
       ],
       "source_versions": [
-        "74ddb07642e7bf6bee45887b",
-        "34c076b458462dc990fa1e09"
+        "f67fc7d311f04df7b377ca14",
+        "6041d4886948ceba03db0ae8",
+        "1a0dec8d8ac314850b5f624a"
       ],
       "entities": [],
       "selection_reason": [
-        "수집 범위 내 독립 발행자 2개",
-        "자료 기준 경과 0.5시간",
+        "수집 범위 내 독립 발행자 3개",
+        "자료 기준 경과 2.7시간",
         "이전 입력 대비 신규 문서",
         "수치가 확인되는 금융시장 급변·기록 경신"
       ],
@@ -2089,240 +2280,86 @@
       "late_discovered": false,
       "analysis_provider": "extractive",
       "model_status": "not_needed_source_korean",
-      "analysis_label": "한국어 원문에서 핵심 문장 선별",
+      "analysis_label": "한국어 번역 · 수치·출처 자동 대조",
       "evidence_expired": false,
       "evidence_partially_expired": false,
       "has_full_text": true,
       "has_message_text": false,
       "prior_day_follow_up": false,
-      "original_title": "美10년물 국채금리 '심리적 저항선' 5% 돌파…2023년 후 처음",
-      "source_title_ko": "美10년물 국채금리 '심리적 저항선' 5% 돌파…2023년 후 처음",
+      "original_title": "미국 10년물 국채금리, 심리적 저항선 ‘5%’ 돌파…2023년 이후 처음",
+      "source_title_ko": "미국 10년물 국채금리, 심리적 저항선 ‘5%’ 돌파…2023년 이후 처음",
       "korean_required": true
     },
     {
-      "id": "eca3e0b9bf7bc4a3625e4fac",
-      "anchor": "issue-f937cb01d1f84f6f",
-      "editorial_scope": "industry",
-      "event_type": "outlook",
-      "title": "NH證 \"삼성SDI, 각형·원통형 선호로 수주 경쟁력 강화…목표가 73만원\" | 아주경제",
-      "section": "overnight",
-      "category": "economy",
-      "summary": [
-        "NH투자증권은 15일 삼성SDI에 대해 투자의견 '매수'를 유지하고 목표주가를 기존보다 22% 높인 73만원으로 상향했다. 선그로우 수주 가시성이 높아진 점을 반영해 ESS 실적 전망치를 상향하고 2027년 소형전지 믹스 개선을 고려해 수익성 전망을 높인 점이 목표주가 상향의 배경이다.",
-        "이에 따른 매출액은 약 1조1000억원, 영업이익은 약 5400억원으로 추정했다. 2027년에는 소형전지 믹스 개선을 반영해 영업이익률 전망을 기존 5%에서 6%로 상향했다.",
-        "미국 신규 생산능력 확보와 ESS 수주 가시성 개선을 반영해 할인율도 기존 20%에서 10%로 낮췄다.",
-        "삼성SDI의 3분기 매출액은 3조9000억원으로 전년 동기 대비 30% 증가하고 영업이익은 2603억원으로 추정했다."
-      ],
-      "change": "비교 가능한 과거 자료 없음 — 상향·하향·전망 변경 여부 미판정",
-      "claims": [
-        {
-          "id": "024be2847e3dea1ad5bb2fe6",
-          "text": "NH투자증권은 15일 삼성SDI에 대해 투자의견 '매수'를 유지하고 목표주가를 기존보다 22% 높인 73만원으로 상향했다. 선그로우 수주 가시성이 높아진 점을 반영해 ESS 실적 전망치를 상향하고 2027년 소형전지 믹스 개선을 고려해 수익성 전망을 높인 점이 목표주가 상향의 배경이다.",
-          "kind": "author_opinion",
-          "author": "신동근",
-          "source_ids": [
-            "81980aba84249f6660fcbb0e"
-          ],
-          "evidence": [
-            {
-              "source_id": "81980aba84249f6660fcbb0e",
-              "source_version_id": "069016548615e5eab82c2cdc",
-              "start": 80,
-              "end": 240,
-              "text": "NH투자증권은 15일 삼성SDI에 대해 투자의견 '매수'를 유지하고 목표주가를 기존보다 22% 높인 73만원으로 상향했다. 선그로우 수주 가시성이 높아진 점을 반영해 ESS 실적 전망치를 상향하고 2027년 소형전지 믹스 개선을 고려해 수익성 전망을 높인 점이 목표주가 상향의 배경이다.",
-              "source_excerpt_truncated": false,
-              "excerpt_truncated": false,
-              "location": "본문",
-              "display_text": "NH투자증권은 15일 삼성SDI에 대해 투자의견 '매수'를 유지하고 목표주가를 기존보다 22% 높인 73만원으로 상향했다. 선그로우 수주 가시성이 높아진 점을 반영해 ESS 실적 전망치를 상향하고 2027년 소형전지 믹스 개선을 고려해 수익성 전망을 높인 점이 목표주가 상향의 배경이다.",
-              "is_translation": false
-            }
-          ],
-          "rationale": "",
-          "conditions": "",
-          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
-          "validation": {
-            "semantic_support": "source_quote_only",
-            "human_review": "not_reviewed",
-            "status": "source_checked",
-            "source_linkage": "passed",
-            "content_check": "exact_quote",
-            "assertion_type": "forecast"
-          },
-          "numbers": []
-        },
-        {
-          "id": "7a8f4c8921dd45ea9cb0f051",
-          "text": "이에 따른 매출액은 약 1조1000억원, 영업이익은 약 5400억원으로 추정했다. 2027년에는 소형전지 믹스 개선을 반영해 영업이익률 전망을 기존 5%에서 6%로 상향했다.",
-          "kind": "author_opinion",
-          "author": "신동근",
-          "source_ids": [
-            "81980aba84249f6660fcbb0e"
-          ],
-          "evidence": [
-            {
-              "source_id": "81980aba84249f6660fcbb0e",
-              "source_version_id": "069016548615e5eab82c2cdc",
-              "start": 424,
-              "end": 521,
-              "text": "이에 따른 매출액은 약 1조1000억원, 영업이익은 약 5400억원으로 추정했다. 2027년에는 소형전지 믹스 개선을 반영해 영업이익률 전망을 기존 5%에서 6%로 상향했다.",
-              "source_excerpt_truncated": false,
-              "excerpt_truncated": false,
-              "location": "본문",
-              "display_text": "이에 따른 매출액은 약 1조1000억원, 영업이익은 약 5400억원으로 추정했다. 2027년에는 소형전지 믹스 개선을 반영해 영업이익률 전망을 기존 5%에서 6%로 상향했다.",
-              "is_translation": false
-            }
-          ],
-          "rationale": "",
-          "conditions": "",
-          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
-          "validation": {
-            "semantic_support": "source_quote_only",
-            "human_review": "not_reviewed",
-            "status": "source_checked",
-            "source_linkage": "passed",
-            "content_check": "exact_quote",
-            "assertion_type": "forecast"
-          },
-          "numbers": []
-        },
-        {
-          "id": "0340d5e1233a20b5ac245cf3",
-          "text": "미국 신규 생산능력 확보와 ESS 수주 가시성 개선을 반영해 할인율도 기존 20%에서 10%로 낮췄다.",
-          "kind": "fact",
-          "author": "신동근",
-          "source_ids": [
-            "81980aba84249f6660fcbb0e"
-          ],
-          "evidence": [
-            {
-              "source_id": "81980aba84249f6660fcbb0e",
-              "source_version_id": "069016548615e5eab82c2cdc",
-              "start": 523,
-              "end": 580,
-              "text": "미국 신규 생산능력 확보와 ESS 수주 가시성 개선을 반영해 할인율도 기존 20%에서 10%로 낮췄다.",
-              "source_excerpt_truncated": false,
-              "excerpt_truncated": false,
-              "location": "본문",
-              "display_text": "미국 신규 생산능력 확보와 ESS 수주 가시성 개선을 반영해 할인율도 기존 20%에서 10%로 낮췄다.",
-              "is_translation": false
-            }
-          ],
-          "rationale": "",
-          "conditions": "",
-          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
-          "validation": {
-            "semantic_support": "source_quote_only",
-            "human_review": "not_reviewed",
-            "status": "source_checked",
-            "source_linkage": "passed",
-            "content_check": "exact_quote",
-            "assertion_type": "observation"
-          },
-          "numbers": []
-        },
-        {
-          "id": "7ea67ad69554ec13212cdd9f",
-          "text": "삼성SDI의 3분기 매출액은 3조9000억원으로 전년 동기 대비 30% 증가하고 영업이익은 2603억원으로 추정했다.",
-          "kind": "author_opinion",
-          "author": "신동근",
-          "source_ids": [
-            "81980aba84249f6660fcbb0e"
-          ],
-          "evidence": [
-            {
-              "source_id": "81980aba84249f6660fcbb0e",
-              "source_version_id": "069016548615e5eab82c2cdc",
-              "start": 780,
-              "end": 845,
-              "text": "삼성SDI의 3분기 매출액은 3조9000억원으로 전년 동기 대비 30% 증가하고 영업이익은 2603억원으로 추정했다.",
-              "source_excerpt_truncated": false,
-              "excerpt_truncated": false,
-              "location": "본문",
-              "display_text": "삼성SDI의 3분기 매출액은 3조9000억원으로 전년 동기 대비 30% 증가하고 영업이익은 2603억원으로 추정했다.",
-              "is_translation": false
-            }
-          ],
-          "rationale": "",
-          "conditions": "",
-          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
-          "validation": {
-            "semantic_support": "source_quote_only",
-            "human_review": "not_reviewed",
-            "status": "source_checked",
-            "source_linkage": "passed",
-            "content_check": "exact_quote",
-            "assertion_type": "forecast"
-          },
-          "numbers": []
-        }
-      ],
-      "event_schedules": [],
-      "document_ids": [
-        "81980aba84249f6660fcbb0e"
-      ],
-      "source_versions": [
-        "069016548615e5eab82c2cdc"
-      ],
-      "entities": [],
-      "selection_reason": [
-        "수집 범위 내 독립 발행자 1개",
-        "자료 기준 경과 0.4시간",
-        "이전 입력 대비 신규 문서",
-        "수치가 명시된 전망 변경; 관측 사실과 구분"
-      ],
-      "follow_up": [
-        "원문과 기간·단위·작성 주체를 확인하고 해석을 검토하세요."
-      ],
-      "confidence": "source_checked",
-      "related_issue_id": null,
-      "late_discovered": false,
-      "analysis_provider": "extractive",
-      "model_status": "not_needed_source_korean",
-      "analysis_label": "한국어 원문에서 핵심 문장 선별",
-      "evidence_expired": false,
-      "evidence_partially_expired": false,
-      "has_full_text": true,
-      "has_message_text": false,
-      "prior_day_follow_up": false,
-      "original_title": "NH證 \"삼성SDI, 각형·원통형 선호로 수주 경쟁력 강화…목표가 73만원\" | 아주경제",
-      "source_title_ko": "NH證 \"삼성SDI, 각형·원통형 선호로 수주 경쟁력 강화…목표가 73만원\" | 아주경제",
-      "korean_required": true
-    },
-    {
-      "id": "331995b14040a102b5d8cdc9",
-      "anchor": "issue-fe9ec16d9bdac550",
+      "id": "0f43ca6d346239f96a4ada5d",
+      "anchor": "issue-05bbe024439344f8",
       "editorial_scope": "company",
-      "event_type": "company_regulation",
-      "title": "[단독] \"조사한 곳 0%인데 왜 우린 4.32%냐\"…효성·LS, 美 관세 불복소송",
+      "event_type": "contract",
+      "title": "조현준 승부수 통했다…효성重, 美빅테크서 3865억원 수주",
       "section": "overnight",
       "category": "economy",
       "summary": [
-        "HD현대·일진 덤핑마진 0% 판정…미조사 업체에 자의적 부과 반발 대형변압기 수출보증금 부담직결…국제무역법원 산정 적법성 다퉈",
-        "미국 전력망 투자 확대의 수혜를 받아 수출을 늘리고 있는 효성중공업과 LS일렉트릭이 미국 정부를 상대로 법정 싸움에 들어갔다.",
-        "미 상무부가 한국산 대형 전력용 변압기 반덤핑 행정재심에서 두 회사에 각각 4.32%의 덤핑마진을 부과하자 이에 불복해 미국 국제무역법원(CIT)에 소송을 제기했다.",
-        "특히 이번 재심에서 상무부가 직접 조사한 HD현대일렉트릭과 일진전기의 덤핑마진은 모두 0%로 판정됐다."
+        "효성중공업이 이달 미국에서 3865억원 규모 초고압변압기를 수주하며 북미 전력 인프라 시장 공략에 속도를 내고 있다. 조현준 효성 회장이 미국 전력시장과 AI 데이터센터를 겨냥해 선제적으로 구축해온 현지 생산·솔루션 체계가 대형 수주로 이어졌다는 분석이다.",
+        "효성중공업은 미국 빅테크 기업 2곳과 총 3865억원 규모의 초고압변압기 공급계약을 체결했다고 15일 밝혔다. 이번에 수주한 제품은 미국 남부와 북부 지역에 새로 건설되는 AI 데이터센터에 공급된다.",
+        "계약 규모는 각각 2200억원 규모의 765킬로볼트 초고압변압기와 1665억원 규모의 345킬로볼트 초고압변압기다.",
+        "효성중공업의 8월까지 신규 수주액은 약 9조3000억원으로 2025년 연간 수주액을 넘어섰다. 회사는 연간 수주 목표를 기존 8조4000억원에서 12조원으로 상향했다."
       ],
       "change": "비교 가능한 과거 자료 없음 — 상향·하향·전망 변경 여부 미판정",
       "claims": [
         {
-          "id": "3d0921b8b32ec6390bddc31b",
-          "text": "HD현대·일진 덤핑마진 0% 판정…미조사 업체에 자의적 부과 반발 대형변압기 수출보증금 부담직결…국제무역법원 산정 적법성 다퉈",
-          "kind": "fact",
-          "author": "김현호 기자",
+          "id": "dc2b2570dec63a4a530aa58c",
+          "text": "효성중공업이 이달 미국에서 3865억원 규모 초고압변압기를 수주하며 북미 전력 인프라 시장 공략에 속도를 내고 있다. 조현준 효성 회장이 미국 전력시장과 AI 데이터센터를 겨냥해 선제적으로 구축해온 현지 생산·솔루션 체계가 대형 수주로 이어졌다는 분석이다.",
+          "kind": "author_opinion",
+          "author": "김민서",
           "source_ids": [
-            "91c9da52d2c94a06e11fc7b4"
+            "7440d10a3ef8dae59841c120"
           ],
           "evidence": [
             {
-              "source_id": "91c9da52d2c94a06e11fc7b4",
-              "source_version_id": "15181d4dae7f7a42c229c480",
-              "start": 0,
-              "end": 70,
-              "text": "HD현대·일진 덤핑마진 0% 판정…미조사 업체에 자의적 부과 반발 대형변압기 수출보증금 부담직결…국제무역법원 산정 적법성 다퉈",
+              "source_id": "7440d10a3ef8dae59841c120",
+              "source_version_id": "22299e73a7b3c91634f990f2",
+              "start": 22,
+              "end": 165,
+              "text": "효성중공업이 이달 미국에서 3865억원 규모 초고압변압기를 수주하며 북미 전력 인프라 시장 공략에 속도를 내고 있다. 조현준 효성 회장이 미국 전력시장과 AI 데이터센터를 겨냥해 선제적으로 구축해온 현지 생산·솔루션 체계가 대형 수주로 이어졌다는 분석이다.",
               "source_excerpt_truncated": false,
               "excerpt_truncated": false,
               "location": "본문",
-              "display_text": "HD현대·일진 덤핑마진 0% 판정…미조사 업체에 자의적 부과 반발 대형변압기 수출보증금 부담직결…국제무역법원 산정 적법성 다퉈",
+              "display_text": "효성중공업이 이달 미국에서 3865억원 규모 초고압변압기를 수주하며 북미 전력 인프라 시장 공략에 속도를 내고 있다. 조현준 효성 회장이 미국 전력시장과 AI 데이터센터를 겨냥해 선제적으로 구축해온 현지 생산·솔루션 체계가 대형 수주로 이어졌다는 분석이다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "interpretation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "a7074faec9cc0eb35ab14b62",
+          "text": "효성중공업은 미국 빅테크 기업 2곳과 총 3865억원 규모의 초고압변압기 공급계약을 체결했다고 15일 밝혔다. 이번에 수주한 제품은 미국 남부와 북부 지역에 새로 건설되는 AI 데이터센터에 공급된다.",
+          "kind": "fact",
+          "author": "김민서",
+          "source_ids": [
+            "7440d10a3ef8dae59841c120"
+          ],
+          "evidence": [
+            {
+              "source_id": "7440d10a3ef8dae59841c120",
+              "source_version_id": "22299e73a7b3c91634f990f2",
+              "start": 167,
+              "end": 278,
+              "text": "효성중공업은 미국 빅테크 기업 2곳과 총 3865억원 규모의 초고압변압기 공급계약을 체결했다고 15일 밝혔다. 이번에 수주한 제품은 미국 남부와 북부 지역에 새로 건설되는 AI 데이터센터에 공급된다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "효성중공업은 미국 빅테크 기업 2곳과 총 3865억원 규모의 초고압변압기 공급계약을 체결했다고 15일 밝혔다. 이번에 수주한 제품은 미국 남부와 북부 지역에 새로 건설되는 AI 데이터센터에 공급된다.",
               "is_translation": false
             }
           ],
@@ -2340,94 +2377,59 @@
           "numbers": []
         },
         {
-          "id": "dc9354e5cf174fc034b7de7e",
-          "text": "미국 전력망 투자 확대의 수혜를 받아 수출을 늘리고 있는 효성중공업과 LS일렉트릭이 미국 정부를 상대로 법정 싸움에 들어갔다.",
+          "id": "2c82364da4befc86b03c910c",
+          "text": "계약 규모는 각각 2200억원 규모의 765킬로볼트 초고압변압기와 1665억원 규모의 345킬로볼트 초고압변압기다.",
           "kind": "fact",
-          "author": "김현호 기자",
+          "author": "김민서",
           "source_ids": [
-            "91c9da52d2c94a06e11fc7b4"
+            "7440d10a3ef8dae59841c120"
           ],
           "evidence": [
             {
-              "source_id": "91c9da52d2c94a06e11fc7b4",
-              "source_version_id": "15181d4dae7f7a42c229c480",
-              "start": 72,
-              "end": 142,
-              "text": "미국 전력망 투자 확대의 수혜를 받아 수출을 늘리고 있는 효성중공업과 LS일렉트릭이 미국 정부를 상대로 법정 싸움에 들어갔다.",
+              "source_id": "7440d10a3ef8dae59841c120",
+              "source_version_id": "22299e73a7b3c91634f990f2",
+              "start": 279,
+              "end": 339,
+              "text": "계약 규모는 각각 2200억원 규모의 765kV 초고압변압기와 1665억원 규모의 345kV 초고압변압기다.",
               "source_excerpt_truncated": false,
               "excerpt_truncated": false,
               "location": "본문",
-              "display_text": "미국 전력망 투자 확대의 수혜를 받아 수출을 늘리고 있는 효성중공업과 LS일렉트릭이 미국 정부를 상대로 법정 싸움에 들어갔다.",
-              "is_translation": false
+              "display_text": "계약 규모는 각각 2200억원 규모의 765킬로볼트 초고압변압기와 1665억원 규모의 345킬로볼트 초고압변압기다.",
+              "is_translation": true
             }
           ],
           "rationale": "",
           "conditions": "",
           "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
           "validation": {
-            "semantic_support": "source_quote_only",
+            "semantic_support": "not_verified",
             "human_review": "not_reviewed",
-            "status": "source_checked",
+            "status": "needs_review",
             "source_linkage": "passed",
-            "content_check": "exact_quote",
+            "content_check": "unverified_paraphrase",
             "assertion_type": "observation"
           },
           "numbers": []
         },
         {
-          "id": "a8896cc6fb6b8e6fe7007c83",
-          "text": "미 상무부가 한국산 대형 전력용 변압기 반덤핑 행정재심에서 두 회사에 각각 4.32%의 덤핑마진을 부과하자 이에 불복해 미국 국제무역법원(CIT)에 소송을 제기했다.",
+          "id": "6c9760e4e3471a212b7cdbba",
+          "text": "효성중공업의 8월까지 신규 수주액은 약 9조3000억원으로 2025년 연간 수주액을 넘어섰다. 회사는 연간 수주 목표를 기존 8조4000억원에서 12조원으로 상향했다.",
           "kind": "fact",
-          "author": "김현호 기자",
+          "author": "김민서",
           "source_ids": [
-            "91c9da52d2c94a06e11fc7b4"
+            "7440d10a3ef8dae59841c120"
           ],
           "evidence": [
             {
-              "source_id": "91c9da52d2c94a06e11fc7b4",
-              "source_version_id": "15181d4dae7f7a42c229c480",
-              "start": 143,
-              "end": 235,
-              "text": "미 상무부가 한국산 대형 전력용 변압기 반덤핑 행정재심에서 두 회사에 각각 4.32%의 덤핑마진을 부과하자 이에 불복해 미국 국제무역법원(CIT)에 소송을 제기했다.",
+              "source_id": "7440d10a3ef8dae59841c120",
+              "source_version_id": "22299e73a7b3c91634f990f2",
+              "start": 1419,
+              "end": 1512,
+              "text": "효성중공업의 8월까지 신규 수주액은 약 9조3000억원으로 2025년 연간 수주액을 넘어섰다. 회사는 연간 수주 목표를 기존 8조4000억원에서 12조원으로 상향했다.",
               "source_excerpt_truncated": false,
               "excerpt_truncated": false,
               "location": "본문",
-              "display_text": "미 상무부가 한국산 대형 전력용 변압기 반덤핑 행정재심에서 두 회사에 각각 4.32%의 덤핑마진을 부과하자 이에 불복해 미국 국제무역법원(CIT)에 소송을 제기했다.",
-              "is_translation": false
-            }
-          ],
-          "rationale": "",
-          "conditions": "",
-          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
-          "validation": {
-            "semantic_support": "source_quote_only",
-            "human_review": "not_reviewed",
-            "status": "source_checked",
-            "source_linkage": "passed",
-            "content_check": "exact_quote",
-            "assertion_type": "observation"
-          },
-          "numbers": []
-        },
-        {
-          "id": "fdc93af6f1ae2eaadef1736c",
-          "text": "특히 이번 재심에서 상무부가 직접 조사한 HD현대일렉트릭과 일진전기의 덤핑마진은 모두 0%로 판정됐다.",
-          "kind": "fact",
-          "author": "김현호 기자",
-          "source_ids": [
-            "91c9da52d2c94a06e11fc7b4"
-          ],
-          "evidence": [
-            {
-              "source_id": "91c9da52d2c94a06e11fc7b4",
-              "source_version_id": "15181d4dae7f7a42c229c480",
-              "start": 237,
-              "end": 294,
-              "text": "특히 이번 재심에서 상무부가 직접 조사한 HD현대일렉트릭과 일진전기의 덤핑마진은 모두 0%로 판정됐다.",
-              "source_excerpt_truncated": false,
-              "excerpt_truncated": false,
-              "location": "본문",
-              "display_text": "특히 이번 재심에서 상무부가 직접 조사한 HD현대일렉트릭과 일진전기의 덤핑마진은 모두 0%로 판정됐다.",
+              "display_text": "효성중공업의 8월까지 신규 수주액은 약 9조3000억원으로 2025년 연간 수주액을 넘어섰다. 회사는 연간 수주 목표를 기존 8조4000억원에서 12조원으로 상향했다.",
               "is_translation": false
             }
           ],
@@ -2447,17 +2449,19 @@
       ],
       "event_schedules": [],
       "document_ids": [
-        "91c9da52d2c94a06e11fc7b4"
+        "7440d10a3ef8dae59841c120",
+        "162b86fc2753b1b2e77b9339"
       ],
       "source_versions": [
-        "15181d4dae7f7a42c229c480"
+        "22299e73a7b3c91634f990f2",
+        "2d4743a9e155433defa9230c"
       ],
       "entities": [],
       "selection_reason": [
-        "수집 범위 내 독립 발행자 1개",
-        "자료 기준 경과 1.1시간",
+        "수집 범위 내 독립 발행자 2개",
+        "자료 기준 경과 0.7시간",
         "이전 입력 대비 신규 문서",
-        "기존 관세·정책에 대한 법적 불복 절차 개시; 제도 변경과 구분"
+        "원문에 실행·결정 근거가 있는 기업 계약·제품·자본거래·승인"
       ],
       "follow_up": [
         "원문과 기간·단위·작성 주체를 확인하고 해석을 검토하세요."
@@ -2467,14 +2471,14 @@
       "late_discovered": false,
       "analysis_provider": "extractive",
       "model_status": "not_needed_source_korean",
-      "analysis_label": "한국어 원문에서 핵심 문장 선별",
+      "analysis_label": "한국어 번역 · 수치·출처 자동 대조",
       "evidence_expired": false,
       "evidence_partially_expired": false,
       "has_full_text": true,
       "has_message_text": false,
       "prior_day_follow_up": false,
-      "original_title": "[단독] \"조사한 곳 0%인데 왜 우린 4.32%냐\"…효성·LS, 美 관세 불복소송",
-      "source_title_ko": "[단독] \"조사한 곳 0%인데 왜 우린 4.32%냐\"…효성·LS, 美 관세 불복소송",
+      "original_title": "조현준 승부수 통했다…효성重, 美빅테크서 3865억원 수주",
+      "source_title_ko": "조현준 승부수 통했다…효성重, 美빅테크서 3865억원 수주",
       "korean_required": true
     },
     {
@@ -2644,8 +2648,8 @@
       "entities": [],
       "selection_reason": [
         "수집 범위 내 독립 발행자 1개",
-        "자료 기준 경과 2.7시간",
-        "이전 입력 대비 신규 문서",
+        "자료 기준 경과 4.4시간",
+        "이전 입력과 중복 내용",
         "수치가 명시된 거시 지표 발표 또는 확정된 통화·무역 정책 변경"
       ],
       "follow_up": [
@@ -2667,75 +2671,40 @@
       "korean_required": true
     },
     {
-      "id": "d70be0d4f8a4bc419f407627",
-      "anchor": "issue-9aa188b75a5809c4",
-      "editorial_scope": "market",
-      "event_type": "market_close",
-      "title": "[뉴욕마켓워치] 사우디 송유관 가동 중단에 다급해진 트럼프…주식↓채권·달러↑",
+      "id": "5cb93935669729a82cf8a4c2",
+      "anchor": "issue-a8709ec32cd7fb53",
+      "editorial_scope": "macro",
+      "event_type": "policy",
+      "title": "[단독] 국내 은행 14곳, 대출 기준금리 0.72퍼센트포인트 내릴 때 실제 금리는 0.15퍼센트포인트 내려",
       "section": "investment",
       "category": "research",
       "summary": [
-        "시카고상품거래소(CME 그룹) 페드워치툴에 따르면 연방기금금리 선물시장에서 9월에 기준금리가 25bp 인상될 확률은 94.5%로 반영됐다.",
-        "연합인포맥스의 해외금리 일중 화면(화면번호 6532)에 따르면 오후 3시 현재 뉴욕 채권시장에서 10년물 국채금리는 전 거래일 오후 3시 기준가 대비 1.40bp 하락한 4.9600%에 거래됐다.",
-        "통화정책에 민감한 2년물 금리는 같은 기간 4.6370%로 0.70bp 낮아졌다.",
-        "만기가 가장 긴 30년물 국채금리는 5.3280%로 2.60bp 떨어졌다."
+        "국회 정무위원회 소속 박대출 국민의힘 의원실이 5대 은행을 포함한 국내 14개 은행(KB국민·신한·하나·우리·NH농협·IBK기업·SC제일·Sh수협·iM·부산·경남·광주·전북·제주은행)에서 입수한 자료에 따르면 이들 은행의 대출 기준금리는 2023년 8월 평균 3.82%에서 지난달 3.10%로 0.72%포인트 떨어졌다.",
+        "가산금리에서 가감조정금리를 뺀 실질 가산금리는 2023년 8월 평균 1.86%에서 지난달 2.43%로 0.57%포인트 올랐다. 대출 기준금리 하락 폭의 약 80%가 은행이 자체적으로 결정하는 금리 영역에서 상쇄된 셈이다.",
+        "최근 1년 동안에도 5대 은행의 평균 실질 가산금리는 1.38%에서 1.61%로 0.23%포인트 상승했다. 같은 기간 대출 기준금리가 2.72%에서 3.11%로 0.39%포인트 오르면서 실제 대출금리는 4.10%에서 4.71%로 0.61%포인트 뛰었다.",
+        "실질 가산금리가 눈에 띄게 오른 시점은 금융 당국이 가계대출 총량 규제를 강화한 지난 4월이다. 금융위원회가 올해 은행권 가계대출 증가율 관리 목표를 전년 1.7%보다 낮은 1.5%로 정하자 5대 은행의 평균 실질 가산금리는 3월 1.48%에서 4월 1.63%로 한 달 만에 0.15%포인트 상승했다."
       ],
       "change": "비교 가능한 과거 자료 없음 — 상향·하향·전망 변경 여부 미판정",
       "claims": [
         {
-          "id": "95a4774ed26d1cb13ce098cb",
-          "text": "시카고상품거래소(CME 그룹) 페드워치툴에 따르면 연방기금금리 선물시장에서 9월에 기준금리가 25bp 인상될 확률은 94.5%로 반영됐다.",
+          "id": "cd64d59a6f19a022078ba842",
+          "text": "국회 정무위원회 소속 박대출 국민의힘 의원실이 5대 은행을 포함한 국내 14개 은행(KB국민·신한·하나·우리·NH농협·IBK기업·SC제일·Sh수협·iM·부산·경남·광주·전북·제주은행)에서 입수한 자료에 따르면 이들 은행의 대출 기준금리는 2023년 8월 평균 3.82%에서 지난달 3.10%로 0.72%포인트 떨어졌다.",
           "kind": "fact",
-          "author": "연합인포맥스",
+          "author": "이준우 기자",
           "source_ids": [
-            "b9dd2141cd3a1948dd09e2ca"
+            "60c20fd58f3a974bf8affe6f"
           ],
           "evidence": [
             {
-              "source_id": "b9dd2141cd3a1948dd09e2ca",
-              "source_version_id": "713d408a438f6ced9804cdaa",
-              "start": 2758,
-              "end": 2832,
-              "text": "시카고상품거래소(CME) 페드워치툴에 따르면 연방기금금리 선물시장에서 9월에 기준금리가 25bp 인상될 확률은 94.5%로 반영됐다.",
+              "source_id": "60c20fd58f3a974bf8affe6f",
+              "source_version_id": "cf9e6194018b5843168984bd",
+              "start": 328,
+              "end": 506,
+              "text": "국회 정무위원회 소속 박대출 국민의힘 의원실이 5대 은행을 포함한 국내 14개 은행(KB국민·신한·하나·우리·NH농협·IBK기업·SC제일·Sh수협·iM·부산·경남·광주·전북·제주은행)에서 입수한 자료에 따르면 이들 은행의 대출 기준금리는 2023년 8월 평균 3.82%에서 지난달 3.10%로 0.72%포인트 떨어졌다.",
               "source_excerpt_truncated": false,
               "excerpt_truncated": false,
               "location": "본문",
-              "display_text": "시카고상품거래소(CME 그룹) 페드워치툴에 따르면 연방기금금리 선물시장에서 9월에 기준금리가 25bp 인상될 확률은 94.5%로 반영됐다.",
-              "is_translation": true
-            }
-          ],
-          "rationale": "",
-          "conditions": "",
-          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
-          "validation": {
-            "semantic_support": "not_verified",
-            "human_review": "not_reviewed",
-            "status": "needs_review",
-            "source_linkage": "passed",
-            "content_check": "unverified_paraphrase",
-            "assertion_type": "observation"
-          },
-          "numbers": []
-        },
-        {
-          "id": "17615342d4b3b92fae293587",
-          "text": "연합인포맥스의 해외금리 일중 화면(화면번호 6532)에 따르면 오후 3시 현재 뉴욕 채권시장에서 10년물 국채금리는 전 거래일 오후 3시 기준가 대비 1.40bp 하락한 4.9600%에 거래됐다.",
-          "kind": "fact",
-          "author": "연합인포맥스",
-          "source_ids": [
-            "b9dd2141cd3a1948dd09e2ca"
-          ],
-          "evidence": [
-            {
-              "source_id": "b9dd2141cd3a1948dd09e2ca",
-              "source_version_id": "713d408a438f6ced9804cdaa",
-              "start": 2929,
-              "end": 3038,
-              "text": "연합인포맥스의 해외금리 일중 화면(화면번호 6532)에 따르면 오후 3시 현재 뉴욕 채권시장에서 10년물 국채금리는 전 거래일 오후 3시 기준가 대비 1.40bp 하락한 4.9600%에 거래됐다.",
-              "source_excerpt_truncated": false,
-              "excerpt_truncated": false,
-              "location": "본문",
-              "display_text": "연합인포맥스의 해외금리 일중 화면(화면번호 6532)에 따르면 오후 3시 현재 뉴욕 채권시장에서 10년물 국채금리는 전 거래일 오후 3시 기준가 대비 1.40bp 하락한 4.9600%에 거래됐다.",
+              "display_text": "국회 정무위원회 소속 박대출 국민의힘 의원실이 5대 은행을 포함한 국내 14개 은행(KB국민·신한·하나·우리·NH농협·IBK기업·SC제일·Sh수협·iM·부산·경남·광주·전북·제주은행)에서 입수한 자료에 따르면 이들 은행의 대출 기준금리는 2023년 8월 평균 3.82%에서 지난달 3.10%로 0.72%포인트 떨어졌다.",
               "is_translation": false
             }
           ],
@@ -2753,24 +2722,24 @@
           "numbers": []
         },
         {
-          "id": "1884a529d61076a0d772ba6b",
-          "text": "통화정책에 민감한 2년물 금리는 같은 기간 4.6370%로 0.70bp 낮아졌다.",
+          "id": "b91fd8ccab74c57bdd072947",
+          "text": "가산금리에서 가감조정금리를 뺀 실질 가산금리는 2023년 8월 평균 1.86%에서 지난달 2.43%로 0.57%포인트 올랐다. 대출 기준금리 하락 폭의 약 80%가 은행이 자체적으로 결정하는 금리 영역에서 상쇄된 셈이다.",
           "kind": "fact",
-          "author": "연합인포맥스",
+          "author": "이준우 기자",
           "source_ids": [
-            "b9dd2141cd3a1948dd09e2ca"
+            "60c20fd58f3a974bf8affe6f"
           ],
           "evidence": [
             {
-              "source_id": "b9dd2141cd3a1948dd09e2ca",
-              "source_version_id": "713d408a438f6ced9804cdaa",
-              "start": 3040,
-              "end": 3085,
-              "text": "통화정책에 민감한 2년물 금리는 같은 기간 4.6370%로 0.70bp 낮아졌다.",
+              "source_id": "60c20fd58f3a974bf8affe6f",
+              "source_version_id": "cf9e6194018b5843168984bd",
+              "start": 873,
+              "end": 996,
+              "text": "가산금리에서 가감조정금리를 뺀 실질 가산금리는 2023년 8월 평균 1.86%에서 지난달 2.43%로 0.57%포인트 올랐다. 대출 기준금리 하락 폭의 약 80%가 은행이 자체적으로 결정하는 금리 영역에서 상쇄된 셈이다.",
               "source_excerpt_truncated": false,
               "excerpt_truncated": false,
               "location": "본문",
-              "display_text": "통화정책에 민감한 2년물 금리는 같은 기간 4.6370%로 0.70bp 낮아졌다.",
+              "display_text": "가산금리에서 가감조정금리를 뺀 실질 가산금리는 2023년 8월 평균 1.86%에서 지난달 2.43%로 0.57%포인트 올랐다. 대출 기준금리 하락 폭의 약 80%가 은행이 자체적으로 결정하는 금리 영역에서 상쇄된 셈이다.",
               "is_translation": false
             }
           ],
@@ -2788,24 +2757,59 @@
           "numbers": []
         },
         {
-          "id": "cdf5ae1f4b1e642390ab8b05",
-          "text": "만기가 가장 긴 30년물 국채금리는 5.3280%로 2.60bp 떨어졌다.",
+          "id": "43c8350d505b29178c6a0679",
+          "text": "최근 1년 동안에도 5대 은행의 평균 실질 가산금리는 1.38%에서 1.61%로 0.23%포인트 상승했다. 같은 기간 대출 기준금리가 2.72%에서 3.11%로 0.39%포인트 오르면서 실제 대출금리는 4.10%에서 4.71%로 0.61%포인트 뛰었다.",
           "kind": "fact",
-          "author": "연합인포맥스",
+          "author": "이준우 기자",
           "source_ids": [
-            "b9dd2141cd3a1948dd09e2ca"
+            "60c20fd58f3a974bf8affe6f"
           ],
           "evidence": [
             {
-              "source_id": "b9dd2141cd3a1948dd09e2ca",
-              "source_version_id": "713d408a438f6ced9804cdaa",
-              "start": 3087,
-              "end": 3128,
-              "text": "만기가 가장 긴 30년물 국채금리는 5.3280%로 2.60bp 떨어졌다.",
+              "source_id": "60c20fd58f3a974bf8affe6f",
+              "source_version_id": "cf9e6194018b5843168984bd",
+              "start": 1734,
+              "end": 1875,
+              "text": "최근 1년 동안에도 5대 은행의 평균 실질 가산금리는 1.38%에서 1.61%로 0.23%포인트 상승했다. 같은 기간 대출 기준금리가 2.72%에서 3.11%로 0.39%포인트 오르면서 실제 대출금리는 4.10%에서 4.71%로 0.61%포인트 뛰었다.",
               "source_excerpt_truncated": false,
               "excerpt_truncated": false,
               "location": "본문",
-              "display_text": "만기가 가장 긴 30년물 국채금리는 5.3280%로 2.60bp 떨어졌다.",
+              "display_text": "최근 1년 동안에도 5대 은행의 평균 실질 가산금리는 1.38%에서 1.61%로 0.23%포인트 상승했다. 같은 기간 대출 기준금리가 2.72%에서 3.11%로 0.39%포인트 오르면서 실제 대출금리는 4.10%에서 4.71%로 0.61%포인트 뛰었다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "2ee059703dd1fb1361677820",
+          "text": "실질 가산금리가 눈에 띄게 오른 시점은 금융 당국이 가계대출 총량 규제를 강화한 지난 4월이다. 금융위원회가 올해 은행권 가계대출 증가율 관리 목표를 전년 1.7%보다 낮은 1.5%로 정하자 5대 은행의 평균 실질 가산금리는 3월 1.48%에서 4월 1.63%로 한 달 만에 0.15%포인트 상승했다.",
+          "kind": "fact",
+          "author": "이준우 기자",
+          "source_ids": [
+            "60c20fd58f3a974bf8affe6f"
+          ],
+          "evidence": [
+            {
+              "source_id": "60c20fd58f3a974bf8affe6f",
+              "source_version_id": "cf9e6194018b5843168984bd",
+              "start": 1877,
+              "end": 2045,
+              "text": "실질 가산금리가 눈에 띄게 오른 시점은 금융 당국이 가계대출 총량 규제를 강화한 지난 4월이다. 금융위원회가 올해 은행권 가계대출 증가율 관리 목표를 전년 1.7%보다 낮은 1.5%로 정하자 5대 은행의 평균 실질 가산금리는 3월 1.48%에서 4월 1.63%로 한 달 만에 0.15%포인트 상승했다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "실질 가산금리가 눈에 띄게 오른 시점은 금융 당국이 가계대출 총량 규제를 강화한 지난 4월이다. 금융위원회가 올해 은행권 가계대출 증가율 관리 목표를 전년 1.7%보다 낮은 1.5%로 정하자 5대 은행의 평균 실질 가산금리는 3월 1.48%에서 4월 1.63%로 한 달 만에 0.15%포인트 상승했다.",
               "is_translation": false
             }
           ],
@@ -2825,15 +2829,206 @@
       ],
       "event_schedules": [],
       "document_ids": [
-        "b9dd2141cd3a1948dd09e2ca"
+        "60c20fd58f3a974bf8affe6f"
       ],
       "source_versions": [
-        "713d408a438f6ced9804cdaa"
+        "cf9e6194018b5843168984bd"
       ],
       "entities": [],
       "selection_reason": [
         "수집 범위 내 독립 발행자 1개",
-        "자료 기준 경과 0.3시간",
+        "자료 기준 경과 23.0시간",
+        "이전 입력 대비 신규 문서",
+        "수치가 명시된 거시 지표 발표 또는 확정된 통화·무역 정책 변경"
+      ],
+      "follow_up": [
+        "원문과 기간·단위·작성 주체를 확인하고 해석을 검토하세요."
+      ],
+      "confidence": "source_checked",
+      "related_issue_id": null,
+      "late_discovered": false,
+      "analysis_provider": "extractive",
+      "model_status": "not_needed_source_korean",
+      "analysis_label": "한국어 원문에서 핵심 문장 선별",
+      "evidence_expired": false,
+      "evidence_partially_expired": false,
+      "has_full_text": true,
+      "has_message_text": false,
+      "prior_day_follow_up": false,
+      "original_title": "[단독] 국내 은행 14곳, 대출 기준금리 0.72%p 내릴 때 실제 금리는 0.15%p 내려",
+      "source_title_ko": "[단독] 국내 은행 14곳, 대출 기준금리 0.72퍼센트포인트 내릴 때 실제 금리는 0.15퍼센트포인트 내려",
+      "korean_required": true
+    },
+    {
+      "id": "6385220cbd770873af1c35a6",
+      "anchor": "issue-a91218f8fea0bcf5",
+      "editorial_scope": "market",
+      "event_type": "market_close",
+      "title": "美 국채금리·유가 상승에 뉴욕증시 하락…나스닥 0.56%↓",
+      "section": "investment",
+      "category": "research",
+      "summary": [
+        "14일(현지시간) 뉴욕증권거래소(NYSE)에 따르면 다우존스30 산업평균지수는 전장보다 152.09포인트(0.29%) 내린 5만2421.20, S&P 500지수는 37.00포인트(0.48%) 내린 7619.98, 나스닥 종합지수는 146.62포인트(0.56%) 내린 2만6186.41에 장을 마감했다.",
+        "미 10년 만기 국채 금리는 장중 5.012%까지 오르며 5%를 넘어섰다.",
+        "국제유가도 사우디아라비아의 핵심 송유관 폐쇄에 따른 수급 차질 우려로 상승했다. 브렌트유는 1.02% 오른 배럴당 105.68달러, WTI는 1.34% 오른 101.39달러에 거래를 마쳤다.",
+        "미 국채 금리와 유가 상승으로 15∼16일 예정된 연방준비제도(Fed·연준)의 연방공개시장위원회를 앞두고 물가 우려가 커졌다. 금리선물 시장에서 연준의 기준금리 0.25퍼센트포인트 인상 확률은 이날 오후 94.5%까지 올랐다."
+      ],
+      "change": "비교 가능한 과거 자료 없음 — 상향·하향·전망 변경 여부 미판정",
+      "claims": [
+        {
+          "id": "54718973bb1c2c3f7b55e771",
+          "text": "14일(현지시간) 뉴욕증권거래소(NYSE)에 따르면 다우존스30 산업평균지수는 전장보다 152.09포인트(0.29%) 내린 5만2421.20, S&P 500지수는 37.00포인트(0.48%) 내린 7619.98, 나스닥 종합지수는 146.62포인트(0.56%) 내린 2만6186.41에 장을 마감했다.",
+          "kind": "fact",
+          "author": "직썰",
+          "source_ids": [
+            "8fb41fda45740d0b8b509cf1"
+          ],
+          "evidence": [
+            {
+              "source_id": "8fb41fda45740d0b8b509cf1",
+              "source_version_id": "b45e006a74909c5485874513",
+              "start": 103,
+              "end": 270,
+              "text": "14일(현지시간) 뉴욕증권거래소(NYSE)에 따르면 다우존스30 산업평균지수는 전장보다 152.09포인트(p, 0.29%) 내린 5만2421.20, S&P 500지수는 37.00p(0.48%) 내린 7619.98, 나스닥 종합지수는 146.62p(0.56%) 내린 2만6186.41에 장을 마감했다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "14일(현지시간) 뉴욕증권거래소(NYSE)에 따르면 다우존스30 산업평균지수는 전장보다 152.09포인트(0.29%) 내린 5만2421.20, S&P 500지수는 37.00포인트(0.48%) 내린 7619.98, 나스닥 종합지수는 146.62포인트(0.56%) 내린 2만6186.41에 장을 마감했다.",
+              "is_translation": true
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "not_verified",
+            "human_review": "not_reviewed",
+            "status": "needs_review",
+            "source_linkage": "passed",
+            "content_check": "unverified_paraphrase",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "1113f1bc0bb66784350aa4c1",
+          "text": "미 10년 만기 국채 금리는 장중 5.012%까지 오르며 5%를 넘어섰다.",
+          "kind": "fact",
+          "author": "직썰",
+          "source_ids": [
+            "8fb41fda45740d0b8b509cf1"
+          ],
+          "evidence": [
+            {
+              "source_id": "8fb41fda45740d0b8b509cf1",
+              "source_version_id": "b45e006a74909c5485874513",
+              "start": 272,
+              "end": 313,
+              "text": "미 10년 만기 국채 금리는 장중 5.012%까지 오르며 5%를 넘어섰다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "미 10년 만기 국채 금리는 장중 5.012%까지 오르며 5%를 넘어섰다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "3532dc7ef8a3e75923235d3b",
+          "text": "국제유가도 사우디아라비아의 핵심 송유관 폐쇄에 따른 수급 차질 우려로 상승했다. 브렌트유는 1.02% 오른 배럴당 105.68달러, WTI는 1.34% 오른 101.39달러에 거래를 마쳤다.",
+          "kind": "fact",
+          "author": "직썰",
+          "source_ids": [
+            "8fb41fda45740d0b8b509cf1"
+          ],
+          "evidence": [
+            {
+              "source_id": "8fb41fda45740d0b8b509cf1",
+              "source_version_id": "b45e006a74909c5485874513",
+              "start": 377,
+              "end": 483,
+              "text": "국제유가도 사우디아라비아의 핵심 송유관 폐쇄에 따른 수급 차질 우려로 상승했다. 브렌트유는 1.02% 오른 배럴당 105.68달러, WTI는 1.34% 오른 101.39달러에 거래를 마쳤다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "국제유가도 사우디아라비아의 핵심 송유관 폐쇄에 따른 수급 차질 우려로 상승했다. 브렌트유는 1.02% 오른 배럴당 105.68달러, WTI는 1.34% 오른 101.39달러에 거래를 마쳤다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "23b352ef648da004b43c5c42",
+          "text": "미 국채 금리와 유가 상승으로 15∼16일 예정된 연방준비제도(Fed·연준)의 연방공개시장위원회를 앞두고 물가 우려가 커졌다. 금리선물 시장에서 연준의 기준금리 0.25퍼센트포인트 인상 확률은 이날 오후 94.5%까지 올랐다.",
+          "kind": "fact",
+          "author": "직썰",
+          "source_ids": [
+            "8fb41fda45740d0b8b509cf1"
+          ],
+          "evidence": [
+            {
+              "source_id": "8fb41fda45740d0b8b509cf1",
+              "source_version_id": "b45e006a74909c5485874513",
+              "start": 485,
+              "end": 602,
+              "text": "미 국채 금리와 유가 상승으로 15∼16일 예정된 연방준비제도(Fed·연준)의 FOMC를 앞두고 물가 우려가 커졌다. 금리선물 시장에서 연준의 기준금리 0.25%p 인상 확률은 이날 오후 94.5%까지 올랐다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "미 국채 금리와 유가 상승으로 15∼16일 예정된 연방준비제도(Fed·연준)의 연방공개시장위원회를 앞두고 물가 우려가 커졌다. 금리선물 시장에서 연준의 기준금리 0.25퍼센트포인트 인상 확률은 이날 오후 94.5%까지 올랐다.",
+              "is_translation": true
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "not_verified",
+            "human_review": "not_reviewed",
+            "status": "needs_review",
+            "source_linkage": "passed",
+            "content_check": "unverified_paraphrase",
+            "assertion_type": "announcement"
+          },
+          "numbers": []
+        }
+      ],
+      "event_schedules": [],
+      "document_ids": [
+        "8fb41fda45740d0b8b509cf1",
+        "a0c3faa90efc46f01c18a1df"
+      ],
+      "source_versions": [
+        "b45e006a74909c5485874513",
+        "2dfa6ec69762a99acb71226d"
+      ],
+      "entities": [],
+      "selection_reason": [
+        "수집 범위 내 독립 발행자 2개",
+        "자료 기준 경과 2.1시간",
         "이전 입력 대비 신규 문서",
         "미국 주요 지수의 장 마감과 등락 수치를 확인한 핵심 시장 동향"
       ],
@@ -2851,646 +3046,45 @@
       "has_full_text": true,
       "has_message_text": false,
       "prior_day_follow_up": false,
-      "original_title": "[뉴욕마켓워치] 사우디 송유관 가동 중단에 다급해진 트럼프…주식↓채권·달러↑",
-      "source_title_ko": "[뉴욕마켓워치] 사우디 송유관 가동 중단에 다급해진 트럼프…주식↓채권·달러↑",
+      "original_title": "美 국채금리·유가 상승에 뉴욕증시 하락…나스닥 0.56%↓",
+      "source_title_ko": "美 국채금리·유가 상승에 뉴욕증시 하락…나스닥 0.56%↓",
       "korean_required": true
     },
     {
-      "id": "c49d4cc8e4016d6e8923a8cf",
-      "anchor": "issue-1f760e3bf51860cb",
-      "editorial_scope": "company",
-      "event_type": "product_production",
-      "title": "[美증시 특징주] 트럼프와'동맹' 럼그룹 11% 급등…앤트로픽 137억 달러 투자 호재",
+      "id": "447d5cde1048a0aea69aea88",
+      "anchor": "issue-8163c7f0161bd65e",
+      "editorial_scope": "industry",
+      "event_type": "outlook",
+      "title": "AI가 막아온 미국발 '고금리' 충격… 이제 '고유가'까지 덮친다[Deep Read]",
       "section": "investment",
       "category": "research",
       "summary": [
-        "▲ 인공지능(AI) 클라우드 인프라 기업인 럼그룹이 앤트로픽과의 대규모 컴퓨팅 계약 소식에 14일(현지시간) 주가가 급등했다.",
-        "인공지능(AI) 클라우드 인프라 기업인 럼그룹이 앤트로픽과의 대규모 컴퓨팅 계약 소식에 주가가 급등했다. 14일(현지시간) 나스닥시장에서 럼그룹은 11.58% 치솟은 8달러에 마감했다.",
-        "정보기술 전문 매체인 디인포메이션은 생성형 AI업체인 앤트로픽이 럼그룹과 6년간 총 137억 달러 규모의 AI 컴퓨팅 인프라 공급 계약을 체결했다고 전했다. 럼그룹은 지난 8월 공시를 통해 137억 달러 규모의 계약 사실을 선공개했으나 당시에는 고객사를 명시하지 않았다.",
-        "이번 계약에는 앤트로픽이 럼그룹의 주식 최대 5,100만 주를 주당 단 1센트에 매입할 수 있는 옵션이 포함되어 있어, 두 회사 간의 강력한 전략적 동맹 관계가 부각됐다."
+        "반도체 호황으로 성장률 3.3% 전망했지만… 고유가·고금리 ‘이중압박’으로 韓경제 충격",
+        "다만 한국은행의 8월 전망에는 국제유가가 이전 전망치보다 낮다는 전제가 있었다. 총수요 확대에 따른 물가 압력이 커지더라도 국제유가 하락이 이를 일부 상쇄해 소비자물가 상승률을 2.7% 수준으로 유지할 수 있다는 판단이었다.",
+        "국제유가는 배럴당 100달러를 넘었고, 미국 10년물 국채금리는 5%에 근접했다. 8월 말까지 한국 경제의 대외여건은 AI 붐에 따른 수출 확대, 기업 투자와 소득 증가, 내수 회복의 경로로 작용했다.",
+        "미국 장기금리 상승은 한국의 장기 금융 여건과 직결된다. 한국 10년물 국채금리는 8월 말 4.31%에서 9월 11일 4.54%로 상승했다."
       ],
       "change": "비교 가능한 과거 자료 없음 — 상향·하향·전망 변경 여부 미판정",
       "claims": [
         {
-          "id": "f9a6fb94360687c64395f93c",
-          "text": "▲ 인공지능(AI) 클라우드 인프라 기업인 럼그룹이 앤트로픽과의 대규모 컴퓨팅 계약 소식에 14일(현지시간) 주가가 급등했다.",
-          "kind": "fact",
-          "author": "김종현",
-          "source_ids": [
-            "9bb7f8a56f73ed7376ab9e93"
-          ],
-          "evidence": [
-            {
-              "source_id": "9bb7f8a56f73ed7376ab9e93",
-              "source_version_id": "81ae4daa0fbecb7ead810343",
-              "start": 0,
-              "end": 70,
-              "text": "▲ 인공지능(AI) 클라우드 인프라 기업인 럼그룹이 앤트로픽과의 대규모 컴퓨팅 계약 소식에 14일(현지시간) 주가가 급등했다.",
-              "source_excerpt_truncated": false,
-              "excerpt_truncated": false,
-              "location": "본문",
-              "display_text": "▲ 인공지능(AI) 클라우드 인프라 기업인 럼그룹이 앤트로픽과의 대규모 컴퓨팅 계약 소식에 14일(현지시간) 주가가 급등했다.",
-              "is_translation": false
-            }
-          ],
-          "rationale": "",
-          "conditions": "",
-          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
-          "validation": {
-            "semantic_support": "source_quote_only",
-            "human_review": "not_reviewed",
-            "status": "source_checked",
-            "source_linkage": "passed",
-            "content_check": "exact_quote",
-            "assertion_type": "observation"
-          },
-          "numbers": []
-        },
-        {
-          "id": "2d57514cf4e1f990af77a32b",
-          "text": "인공지능(AI) 클라우드 인프라 기업인 럼그룹이 앤트로픽과의 대규모 컴퓨팅 계약 소식에 주가가 급등했다. 14일(현지시간) 나스닥시장에서 럼그룹은 11.58% 치솟은 8달러에 마감했다.",
-          "kind": "fact",
-          "author": "김종현",
-          "source_ids": [
-            "9bb7f8a56f73ed7376ab9e93"
-          ],
-          "evidence": [
-            {
-              "source_id": "9bb7f8a56f73ed7376ab9e93",
-              "source_version_id": "81ae4daa0fbecb7ead810343",
-              "start": 85,
-              "end": 188,
-              "text": "인공지능(AI) 클라우드 인프라 기업인 럼그룹이 앤트로픽과의 대규모 컴퓨팅 계약 소식에 주가가 급등했다. 14일(현지시간) 나스닥시장에서 럼그룹은 11.58% 치솟은 8달러에 마감했다.",
-              "source_excerpt_truncated": false,
-              "excerpt_truncated": false,
-              "location": "본문",
-              "display_text": "인공지능(AI) 클라우드 인프라 기업인 럼그룹이 앤트로픽과의 대규모 컴퓨팅 계약 소식에 주가가 급등했다. 14일(현지시간) 나스닥시장에서 럼그룹은 11.58% 치솟은 8달러에 마감했다.",
-              "is_translation": false
-            }
-          ],
-          "rationale": "",
-          "conditions": "",
-          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
-          "validation": {
-            "semantic_support": "source_quote_only",
-            "human_review": "not_reviewed",
-            "status": "source_checked",
-            "source_linkage": "passed",
-            "content_check": "exact_quote",
-            "assertion_type": "observation"
-          },
-          "numbers": []
-        },
-        {
-          "id": "ad5580aebc9143d0716263c9",
-          "text": "정보기술 전문 매체인 디인포메이션은 생성형 AI업체인 앤트로픽이 럼그룹과 6년간 총 137억 달러 규모의 AI 컴퓨팅 인프라 공급 계약을 체결했다고 전했다. 럼그룹은 지난 8월 공시를 통해 137억 달러 규모의 계약 사실을 선공개했으나 당시에는 고객사를 명시하지 않았다.",
-          "kind": "fact",
-          "author": "김종현",
-          "source_ids": [
-            "9bb7f8a56f73ed7376ab9e93"
-          ],
-          "evidence": [
-            {
-              "source_id": "9bb7f8a56f73ed7376ab9e93",
-              "source_version_id": "81ae4daa0fbecb7ead810343",
-              "start": 218,
-              "end": 367,
-              "text": "IT 전문 매체인 디인포메이션은 생성형 AI업체인 앤트로픽이 럼그룹과 6년간 총 137억 달러 규모의 AI 컴퓨팅 인프라 공급 계약을 체결했다고 전했다. 럼그룹은 지난 8월 공시를 통해 137억 달러 규모의 계약 사실을 선공개했으나 당시에는 고객사를 명시하지 않았다.",
-              "source_excerpt_truncated": false,
-              "excerpt_truncated": false,
-              "location": "본문",
-              "display_text": "정보기술 전문 매체인 디인포메이션은 생성형 AI업체인 앤트로픽이 럼그룹과 6년간 총 137억 달러 규모의 AI 컴퓨팅 인프라 공급 계약을 체결했다고 전했다. 럼그룹은 지난 8월 공시를 통해 137억 달러 규모의 계약 사실을 선공개했으나 당시에는 고객사를 명시하지 않았다.",
-              "is_translation": true
-            }
-          ],
-          "rationale": "",
-          "conditions": "",
-          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
-          "validation": {
-            "semantic_support": "not_verified",
-            "human_review": "not_reviewed",
-            "status": "needs_review",
-            "source_linkage": "passed",
-            "content_check": "unverified_paraphrase",
-            "assertion_type": "observation"
-          },
-          "numbers": []
-        },
-        {
-          "id": "d1432fd1034ac2404e636cd9",
-          "text": "이번 계약에는 앤트로픽이 럼그룹의 주식 최대 5,100만 주를 주당 단 1센트에 매입할 수 있는 옵션이 포함되어 있어, 두 회사 간의 강력한 전략적 동맹 관계가 부각됐다.",
-          "kind": "fact",
-          "author": "김종현",
-          "source_ids": [
-            "9bb7f8a56f73ed7376ab9e93"
-          ],
-          "evidence": [
-            {
-              "source_id": "9bb7f8a56f73ed7376ab9e93",
-              "source_version_id": "81ae4daa0fbecb7ead810343",
-              "start": 431,
-              "end": 526,
-              "text": "이번 계약에는 앤트로픽이 럼그룹의 주식 최대 5,100만 주를 주당 단 1센트에 매입할 수 있는 옵션이 포함되어 있어, 두 회사 간의 강력한 전략적 동맹 관계가 부각됐다.",
-              "source_excerpt_truncated": false,
-              "excerpt_truncated": false,
-              "location": "본문",
-              "display_text": "이번 계약에는 앤트로픽이 럼그룹의 주식 최대 5,100만 주를 주당 단 1센트에 매입할 수 있는 옵션이 포함되어 있어, 두 회사 간의 강력한 전략적 동맹 관계가 부각됐다.",
-              "is_translation": false
-            }
-          ],
-          "rationale": "",
-          "conditions": "",
-          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
-          "validation": {
-            "semantic_support": "source_quote_only",
-            "human_review": "not_reviewed",
-            "status": "source_checked",
-            "source_linkage": "passed",
-            "content_check": "exact_quote",
-            "assertion_type": "observation"
-          },
-          "numbers": []
-        }
-      ],
-      "event_schedules": [],
-      "document_ids": [
-        "9bb7f8a56f73ed7376ab9e93"
-      ],
-      "source_versions": [
-        "81ae4daa0fbecb7ead810343"
-      ],
-      "entities": [],
-      "selection_reason": [
-        "수집 범위 내 독립 발행자 1개",
-        "자료 기준 경과 1.0시간",
-        "이전 입력 대비 신규 문서",
-        "원문에 실행·결정 근거가 있는 기업 계약·제품·자본거래·승인"
-      ],
-      "follow_up": [
-        "원문과 기간·단위·작성 주체를 확인하고 해석을 검토하세요."
-      ],
-      "confidence": "source_checked",
-      "related_issue_id": null,
-      "late_discovered": false,
-      "analysis_provider": "extractive",
-      "model_status": "not_needed_source_korean",
-      "analysis_label": "한국어 원문 · 용어 번역",
-      "evidence_expired": false,
-      "evidence_partially_expired": false,
-      "has_full_text": true,
-      "has_message_text": false,
-      "prior_day_follow_up": false,
-      "original_title": "[美증시 특징주] 트럼프와'동맹' 럼그룹 11% 급등…앤트로픽 137억 달러 투자 호재",
-      "source_title_ko": "[美증시 특징주] 트럼프와'동맹' 럼그룹 11% 급등…앤트로픽 137억 달러 투자 호재",
-      "korean_required": true
-    },
-    {
-      "id": "2629b5cb6ead3a3e6bc9ae35",
-      "anchor": "issue-0d24903afb0df487",
-      "editorial_scope": "market",
-      "event_type": "market_update",
-      "title": "[美증시 특징주] 구글 알파벳 급등…AI경쟁 속도조절+분기배당금 지급 효과",
-      "section": "investment",
-      "category": "research",
-      "summary": [
-        "14일(현지시간) 나스닥시장에서 핵심 기술주 가운데 구글 알파벳이 가장 돋보인 상승률을 보였다.",
-        "이날 알파벳은 3.22% 오른 349.39 달러에 마감했다.",
-        "알파벳이 최근, 15억 달러 이상을 투자한 AI 핵심 스타트업 메커나이즈(Mechanize) 인수를 최종 완료했다는 소식도 주가에 모멘텀이 됐다.이는 구글 클라우드 및 풀스택 AI 모델 파이프라인의 연산 능력을 크게 강화할 것으로 보인다. 이날 미국 증시를 조정으로 몰아넣은 AI 속도 조절론이 반도체주엔 악재였지만 알파벳엔 호재로 작용했다."
-      ],
-      "change": "비교 가능한 과거 자료 없음 — 상향·하향·전망 변경 여부 미판정",
-      "claims": [
-        {
-          "id": "3ffb715db050ac71f0022802",
-          "text": "14일(현지시간) 나스닥시장에서 핵심 기술주 가운데 구글 알파벳이 가장 돋보인 상승률을 보였다.",
-          "kind": "fact",
-          "author": "김종현",
-          "source_ids": [
-            "d92a8cc6aa8ebc74be5885be"
-          ],
-          "evidence": [
-            {
-              "source_id": "d92a8cc6aa8ebc74be5885be",
-              "source_version_id": "63e8edf889b46c482636afb3",
-              "start": 87,
-              "end": 140,
-              "text": "14일(현지시간) 나스닥시장에서 핵심 기술주 가운데 구글 알파벳이 가장 돋보인 상승률을 보였다.",
-              "source_excerpt_truncated": false,
-              "excerpt_truncated": false,
-              "location": "본문",
-              "display_text": "14일(현지시간) 나스닥시장에서 핵심 기술주 가운데 구글 알파벳이 가장 돋보인 상승률을 보였다.",
-              "is_translation": false
-            }
-          ],
-          "rationale": "",
-          "conditions": "",
-          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
-          "validation": {
-            "semantic_support": "source_quote_only",
-            "human_review": "not_reviewed",
-            "status": "source_checked",
-            "source_linkage": "passed",
-            "content_check": "exact_quote",
-            "assertion_type": "observation"
-          },
-          "numbers": []
-        },
-        {
-          "id": "a61665ff5af381e9099be0b9",
-          "text": "이날 알파벳은 3.22% 오른 349.39 달러에 마감했다.",
-          "kind": "fact",
-          "author": "김종현",
-          "source_ids": [
-            "d92a8cc6aa8ebc74be5885be"
-          ],
-          "evidence": [
-            {
-              "source_id": "d92a8cc6aa8ebc74be5885be",
-              "source_version_id": "63e8edf889b46c482636afb3",
-              "start": 141,
-              "end": 174,
-              "text": "이날 알파벳은 3.22% 오른 349.39 달러에 마감했다.",
-              "source_excerpt_truncated": false,
-              "excerpt_truncated": false,
-              "location": "본문",
-              "display_text": "이날 알파벳은 3.22% 오른 349.39 달러에 마감했다.",
-              "is_translation": false
-            }
-          ],
-          "rationale": "",
-          "conditions": "",
-          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
-          "validation": {
-            "semantic_support": "source_quote_only",
-            "human_review": "not_reviewed",
-            "status": "source_checked",
-            "source_linkage": "passed",
-            "content_check": "exact_quote",
-            "assertion_type": "observation"
-          },
-          "numbers": []
-        },
-        {
-          "id": "b18fb6d3a990c8c0102319c4",
-          "text": "알파벳이 최근, 15억 달러 이상을 투자한 AI 핵심 스타트업 메커나이즈(Mechanize) 인수를 최종 완료했다는 소식도 주가에 모멘텀이 됐다.이는 구글 클라우드 및 풀스택 AI 모델 파이프라인의 연산 능력을 크게 강화할 것으로 보인다. 이날 미국 증시를 조정으로 몰아넣은 AI 속도 조절론이 반도체주엔 악재였지만 알파벳엔 호재로 작용했다.",
+          "id": "fbca6336b80434a0fd817471",
+          "text": "반도체 호황으로 성장률 3.3% 전망했지만… 고유가·고금리 ‘이중압박’으로 韓경제 충격",
           "kind": "author_opinion",
-          "author": "김종현",
+          "author": "문화일보",
           "source_ids": [
-            "d92a8cc6aa8ebc74be5885be"
+            "a916223bd07293386411bf11"
           ],
           "evidence": [
             {
-              "source_id": "d92a8cc6aa8ebc74be5885be",
-              "source_version_id": "63e8edf889b46c482636afb3",
-              "start": 430,
-              "end": 621,
-              "text": "알파벳이 최근, 15억 달러 이상을 투자한 AI 핵심 스타트업 메커나이즈(Mechanize) 인수를 최종 완료했다는 소식도 주가에 모멘텀이 됐다.이는 구글 클라우드 및 풀스택 AI 모델 파이프라인의 연산 능력을 크게 강화할 것으로 보인다. 이날 미국 증시를 조정으로 몰아넣은 AI 속도 조절론이 반도체주엔 악재였지만 알파벳엔 호재로 작용했다.",
+              "source_id": "a916223bd07293386411bf11",
+              "source_version_id": "c9ea9c969ea9a9901b14baf1",
+              "start": 32,
+              "end": 80,
+              "text": "반도체 호황으로 성장률 3.3% 전망했지만… 고유가·고금리 ‘이중압박’으로 韓경제 충격",
               "source_excerpt_truncated": false,
               "excerpt_truncated": false,
               "location": "본문",
-              "display_text": "알파벳이 최근, 15억 달러 이상을 투자한 AI 핵심 스타트업 메커나이즈(Mechanize) 인수를 최종 완료했다는 소식도 주가에 모멘텀이 됐다.이는 구글 클라우드 및 풀스택 AI 모델 파이프라인의 연산 능력을 크게 강화할 것으로 보인다. 이날 미국 증시를 조정으로 몰아넣은 AI 속도 조절론이 반도체주엔 악재였지만 알파벳엔 호재로 작용했다.",
-              "is_translation": false
-            }
-          ],
-          "rationale": "",
-          "conditions": "",
-          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
-          "validation": {
-            "semantic_support": "source_quote_only",
-            "human_review": "not_reviewed",
-            "status": "source_checked",
-            "source_linkage": "passed",
-            "content_check": "exact_quote",
-            "assertion_type": "interpretation"
-          },
-          "numbers": []
-        }
-      ],
-      "event_schedules": [],
-      "document_ids": [
-        "d92a8cc6aa8ebc74be5885be"
-      ],
-      "source_versions": [
-        "63e8edf889b46c482636afb3"
-      ],
-      "entities": [],
-      "selection_reason": [
-        "수집 범위 내 독립 발행자 1개",
-        "자료 기준 경과 1.4시간",
-        "이전 입력 대비 신규 문서",
-        "수치가 확인되는 금융시장 급변·기록 경신"
-      ],
-      "follow_up": [
-        "원문과 기간·단위·작성 주체를 확인하고 해석을 검토하세요."
-      ],
-      "confidence": "source_checked",
-      "related_issue_id": null,
-      "late_discovered": false,
-      "analysis_provider": "extractive",
-      "model_status": "not_needed_source_korean",
-      "analysis_label": "한국어 원문에서 핵심 문장 선별",
-      "evidence_expired": false,
-      "evidence_partially_expired": false,
-      "has_full_text": true,
-      "has_message_text": false,
-      "prior_day_follow_up": false,
-      "original_title": "[美증시 특징주] 구글 알파벳 급등…AI경쟁 속도조절+분기배당금 지급 효과",
-      "source_title_ko": "[美증시 특징주] 구글 알파벳 급등…AI경쟁 속도조절+분기배당금 지급 효과",
-      "korean_required": true
-    },
-    {
-      "id": "c98ec71729d16382dec54d3d",
-      "anchor": "issue-70aab17b6c638b20",
-      "editorial_scope": "market",
-      "event_type": "market_update",
-      "title": "'고유가·고금리' 덮친 코스피 3.26% 급락…삼성전자·SK하이닉스 동반 하락 - 조세일보",
-      "section": "investment",
-      "category": "research",
-      "summary": [
-        "코스피가 국제유가 급등과 미국 장기금리 상승, 외국인의 대규모 매도세가 겹치며 3% 넘게 급락했다.",
-        "외국인은 유가증권시장에서 3조2000억원 넘게 순매도했고 기관도 1조원 안팎의 매물을 내놨다.",
-        "서부텍사스원유(WTI)는 배럴당 102달러를 웃돌았고 브렌트유도 106달러대로 올라섰다.",
-        "미국 10년 만기 국채금리는 4.96%대로 상승해 5%선에 바짝 다가섰다."
-      ],
-      "change": "비교 가능한 과거 자료 없음 — 상향·하향·전망 변경 여부 미판정",
-      "claims": [
-        {
-          "id": "331c40e448cf915ce17aee5d",
-          "text": "코스피가 국제유가 급등과 미국 장기금리 상승, 외국인의 대규모 매도세가 겹치며 3% 넘게 급락했다.",
-          "kind": "fact",
-          "author": "www.joseilbo.com",
-          "source_ids": [
-            "bf7e0b52c2fbcd33b0817012"
-          ],
-          "evidence": [
-            {
-              "source_id": "bf7e0b52c2fbcd33b0817012",
-              "source_version_id": "8de8a9111a8f232faa7aac57",
-              "start": 14,
-              "end": 69,
-              "text": "코스피가 국제유가 급등과 미국 장기금리 상승, 외국인의 대규모 매도세가 겹치며 3% 넘게 급락했다.",
-              "source_excerpt_truncated": false,
-              "excerpt_truncated": false,
-              "location": "본문",
-              "display_text": "코스피가 국제유가 급등과 미국 장기금리 상승, 외국인의 대규모 매도세가 겹치며 3% 넘게 급락했다.",
-              "is_translation": false
-            }
-          ],
-          "rationale": "",
-          "conditions": "",
-          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
-          "validation": {
-            "semantic_support": "source_quote_only",
-            "human_review": "not_reviewed",
-            "status": "source_checked",
-            "source_linkage": "passed",
-            "content_check": "exact_quote",
-            "assertion_type": "observation"
-          },
-          "numbers": []
-        },
-        {
-          "id": "f9a7022a1d6b4d885ddb9fac",
-          "text": "외국인은 유가증권시장에서 3조2000억원 넘게 순매도했고 기관도 1조원 안팎의 매물을 내놨다.",
-          "kind": "fact",
-          "author": "www.joseilbo.com",
-          "source_ids": [
-            "bf7e0b52c2fbcd33b0817012"
-          ],
-          "evidence": [
-            {
-              "source_id": "bf7e0b52c2fbcd33b0817012",
-              "source_version_id": "8de8a9111a8f232faa7aac57",
-              "start": 287,
-              "end": 339,
-              "text": "외국인은 유가증권시장에서 3조2000억원 넘게 순매도했고 기관도 1조원 안팎의 매물을 내놨다.",
-              "source_excerpt_truncated": false,
-              "excerpt_truncated": false,
-              "location": "본문",
-              "display_text": "외국인은 유가증권시장에서 3조2000억원 넘게 순매도했고 기관도 1조원 안팎의 매물을 내놨다.",
-              "is_translation": false
-            }
-          ],
-          "rationale": "",
-          "conditions": "",
-          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
-          "validation": {
-            "semantic_support": "source_quote_only",
-            "human_review": "not_reviewed",
-            "status": "source_checked",
-            "source_linkage": "passed",
-            "content_check": "exact_quote",
-            "assertion_type": "observation"
-          },
-          "numbers": []
-        },
-        {
-          "id": "69a2126e1352071d73f0e210",
-          "text": "서부텍사스원유(WTI)는 배럴당 102달러를 웃돌았고 브렌트유도 106달러대로 올라섰다.",
-          "kind": "fact",
-          "author": "www.joseilbo.com",
-          "source_ids": [
-            "bf7e0b52c2fbcd33b0817012"
-          ],
-          "evidence": [
-            {
-              "source_id": "bf7e0b52c2fbcd33b0817012",
-              "source_version_id": "8de8a9111a8f232faa7aac57",
-              "start": 524,
-              "end": 573,
-              "text": "서부텍사스원유(WTI)는 배럴당 102달러를 웃돌았고 브렌트유도 106달러대로 올라섰다.",
-              "source_excerpt_truncated": false,
-              "excerpt_truncated": false,
-              "location": "본문",
-              "display_text": "서부텍사스원유(WTI)는 배럴당 102달러를 웃돌았고 브렌트유도 106달러대로 올라섰다.",
-              "is_translation": false
-            }
-          ],
-          "rationale": "",
-          "conditions": "",
-          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
-          "validation": {
-            "semantic_support": "source_quote_only",
-            "human_review": "not_reviewed",
-            "status": "source_checked",
-            "source_linkage": "passed",
-            "content_check": "exact_quote",
-            "assertion_type": "observation"
-          },
-          "numbers": []
-        },
-        {
-          "id": "1b3ea61e88b493a6046316d2",
-          "text": "미국 10년 만기 국채금리는 4.96%대로 상승해 5%선에 바짝 다가섰다.",
-          "kind": "fact",
-          "author": "www.joseilbo.com",
-          "source_ids": [
-            "bf7e0b52c2fbcd33b0817012"
-          ],
-          "evidence": [
-            {
-              "source_id": "bf7e0b52c2fbcd33b0817012",
-              "source_version_id": "8de8a9111a8f232faa7aac57",
-              "start": 574,
-              "end": 615,
-              "text": "미국 10년 만기 국채금리는 4.96%대로 상승해 5%선에 바짝 다가섰다.",
-              "source_excerpt_truncated": false,
-              "excerpt_truncated": false,
-              "location": "본문",
-              "display_text": "미국 10년 만기 국채금리는 4.96%대로 상승해 5%선에 바짝 다가섰다.",
-              "is_translation": false
-            }
-          ],
-          "rationale": "",
-          "conditions": "",
-          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
-          "validation": {
-            "semantic_support": "source_quote_only",
-            "human_review": "not_reviewed",
-            "status": "source_checked",
-            "source_linkage": "passed",
-            "content_check": "exact_quote",
-            "assertion_type": "observation"
-          },
-          "numbers": []
-        }
-      ],
-      "event_schedules": [],
-      "document_ids": [
-        "bf7e0b52c2fbcd33b0817012"
-      ],
-      "source_versions": [
-        "8de8a9111a8f232faa7aac57"
-      ],
-      "entities": [],
-      "selection_reason": [
-        "수집 범위 내 독립 발행자 1개",
-        "자료 기준 경과 16.8시간",
-        "이전 입력과 중복 내용",
-        "수치가 확인되는 금융시장 급변·기록 경신"
-      ],
-      "follow_up": [
-        "원문과 기간·단위·작성 주체를 확인하고 해석을 검토하세요."
-      ],
-      "confidence": "source_checked",
-      "related_issue_id": null,
-      "late_discovered": false,
-      "analysis_provider": "extractive",
-      "model_status": "not_needed_source_korean",
-      "analysis_label": "한국어 원문에서 핵심 문장 선별",
-      "evidence_expired": false,
-      "evidence_partially_expired": false,
-      "has_full_text": true,
-      "has_message_text": false,
-      "prior_day_follow_up": false,
-      "original_title": "'고유가·고금리' 덮친 코스피 3.26% 급락…삼성전자·SK하이닉스 동반 하락 - 조세일보",
-      "source_title_ko": "'고유가·고금리' 덮친 코스피 3.26% 급락…삼성전자·SK하이닉스 동반 하락 - 조세일보",
-      "korean_required": true
-    },
-    {
-      "id": "d5008057e68356ea9ab78eef",
-      "anchor": "issue-6a73ef0286b53bfe",
-      "editorial_scope": "market",
-      "event_type": "market_update",
-      "title": "유가 요동, AI 의구심 속...일본증시 '장중 뚝', 소프트뱅크 '급락'",
-      "section": "investment",
-      "category": "research",
-      "summary": [
-        "각 거래소에 따르면 오후 1시 42분 현재 일본 닛케이225 지수는 전일 대비 2.13% 급락한 6만3878.17에서 움직이는 중이다.",
-        "국제유가는 아시아시장에서 다시 상승하고 있다. 한국시간 오후 1시 34분 블룸버그 집계 기준 10월 물 미국 서부텍사스산원유(WTI) 가격은 배럴당 102.61달러로 2.56%, 11월물 브렌트유 가격은 107.24달러로 2.51% 각각 급등세를 기록 중이다.",
-        "앞서 지난 11일(현지시간) 미국증시에서 다우존스(+0.98%), S&P500(+0.86%), 나스닥(+0.96%) 등 3대 지수는 상승했다. 국제유가 하락과 예상치를 크게 벗어나지 않은 미국의 8월 소비자물가지수(CPI) 발표 속에 증시 투자심리가 회복되면서 4거래일 만에 급반등했다고 미국 경제방송 CNBC는 전했다.",
-        "주요 기술주 가운데 엔비디아 주가가 0.03% 하락하며 약보합으로 마감한 것을 제외하면 애플(+1.74%), 마이크로소프트(+0.66%), 아마존(+1.92%), 브로드컴(+0.29%) 등이 상승했다."
-      ],
-      "change": "비교 가능한 과거 자료 없음 — 상향·하향·전망 변경 여부 미판정",
-      "claims": [
-        {
-          "id": "a9ba80ebfe8b05e8faaf7900",
-          "text": "각 거래소에 따르면 오후 1시 42분 현재 일본 닛케이225 지수는 전일 대비 2.13% 급락한 6만3878.17에서 움직이는 중이다.",
-          "kind": "fact",
-          "author": "초이스경제",
-          "source_ids": [
-            "f6d74ef1a47ebdb83b40fdf7"
-          ],
-          "evidence": [
-            {
-              "source_id": "f6d74ef1a47ebdb83b40fdf7",
-              "source_version_id": "5d3934a131135045a2a19010",
-              "start": 126,
-              "end": 201,
-              "text": "각 거래소에 따르면 오후 1시 42분 현재 일본 닛케이225 지수는 전일 대비 2.13% 급락한 6만3878.17에서 움직이는 중이다.",
-              "source_excerpt_truncated": false,
-              "excerpt_truncated": false,
-              "location": "본문",
-              "display_text": "각 거래소에 따르면 오후 1시 42분 현재 일본 닛케이225 지수는 전일 대비 2.13% 급락한 6만3878.17에서 움직이는 중이다.",
-              "is_translation": false
-            }
-          ],
-          "rationale": "",
-          "conditions": "",
-          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
-          "validation": {
-            "semantic_support": "source_quote_only",
-            "human_review": "not_reviewed",
-            "status": "source_checked",
-            "source_linkage": "passed",
-            "content_check": "exact_quote",
-            "assertion_type": "observation"
-          },
-          "numbers": []
-        },
-        {
-          "id": "142b057f9a1f93a52473bcd8",
-          "text": "국제유가는 아시아시장에서 다시 상승하고 있다. 한국시간 오후 1시 34분 블룸버그 집계 기준 10월 물 미국 서부텍사스산원유(WTI) 가격은 배럴당 102.61달러로 2.56%, 11월물 브렌트유 가격은 107.24달러로 2.51% 각각 급등세를 기록 중이다.",
-          "kind": "fact",
-          "author": "초이스경제",
-          "source_ids": [
-            "f6d74ef1a47ebdb83b40fdf7"
-          ],
-          "evidence": [
-            {
-              "source_id": "f6d74ef1a47ebdb83b40fdf7",
-              "source_version_id": "5d3934a131135045a2a19010",
-              "start": 460,
-              "end": 605,
-              "text": "국제유가는 아시아시장에서 다시 상승하고 있다. 한국시간 오후 1시 34분 블룸버그 집계 기준 10월 물 미국 서부텍사스산원유(WTI) 가격은 배럴당 102.61달러로 2.56%, 11월물 브렌트유 가격은 107.24달러로 2.51% 각각 급등세를 기록 중이다.",
-              "source_excerpt_truncated": false,
-              "excerpt_truncated": false,
-              "location": "본문",
-              "display_text": "국제유가는 아시아시장에서 다시 상승하고 있다. 한국시간 오후 1시 34분 블룸버그 집계 기준 10월 물 미국 서부텍사스산원유(WTI) 가격은 배럴당 102.61달러로 2.56%, 11월물 브렌트유 가격은 107.24달러로 2.51% 각각 급등세를 기록 중이다.",
-              "is_translation": false
-            }
-          ],
-          "rationale": "",
-          "conditions": "",
-          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
-          "validation": {
-            "semantic_support": "source_quote_only",
-            "human_review": "not_reviewed",
-            "status": "source_checked",
-            "source_linkage": "passed",
-            "content_check": "exact_quote",
-            "assertion_type": "observation"
-          },
-          "numbers": []
-        },
-        {
-          "id": "4cbf0ae79288319055f4d304",
-          "text": "앞서 지난 11일(현지시간) 미국증시에서 다우존스(+0.98%), S&P500(+0.86%), 나스닥(+0.96%) 등 3대 지수는 상승했다. 국제유가 하락과 예상치를 크게 벗어나지 않은 미국의 8월 소비자물가지수(CPI) 발표 속에 증시 투자심리가 회복되면서 4거래일 만에 급반등했다고 미국 경제방송 CNBC는 전했다.",
-          "kind": "author_opinion",
-          "author": "초이스경제",
-          "source_ids": [
-            "f6d74ef1a47ebdb83b40fdf7"
-          ],
-          "evidence": [
-            {
-              "source_id": "f6d74ef1a47ebdb83b40fdf7",
-              "source_version_id": "5d3934a131135045a2a19010",
-              "start": 967,
-              "end": 1146,
-              "text": "앞서 지난 11일(현지시간) 미국증시에서 다우존스(+0.98%), S&P500(+0.86%), 나스닥(+0.96%) 등 3대 지수는 상승했다. 국제유가 하락과 예상치를 크게 벗어나지 않은 미국의 8월 소비자물가지수(CPI) 발표 속에 증시 투자심리가 회복되면서 4거래일 만에 급반등했다고 미국 경제방송 CNBC는 전했다.",
-              "source_excerpt_truncated": false,
-              "excerpt_truncated": false,
-              "location": "본문",
-              "display_text": "앞서 지난 11일(현지시간) 미국증시에서 다우존스(+0.98%), S&P500(+0.86%), 나스닥(+0.96%) 등 3대 지수는 상승했다. 국제유가 하락과 예상치를 크게 벗어나지 않은 미국의 8월 소비자물가지수(CPI) 발표 속에 증시 투자심리가 회복되면서 4거래일 만에 급반등했다고 미국 경제방송 CNBC는 전했다.",
+              "display_text": "반도체 호황으로 성장률 3.3% 전망했지만… 고유가·고금리 ‘이중압박’으로 韓경제 충격",
               "is_translation": false
             }
           ],
@@ -3508,24 +3102,94 @@
           "numbers": []
         },
         {
-          "id": "fdff038ae51574c70e75b275",
-          "text": "주요 기술주 가운데 엔비디아 주가가 0.03% 하락하며 약보합으로 마감한 것을 제외하면 애플(+1.74%), 마이크로소프트(+0.66%), 아마존(+1.92%), 브로드컴(+0.29%) 등이 상승했다.",
-          "kind": "fact",
-          "author": "초이스경제",
+          "id": "529934a9bbba4cb7f70371d0",
+          "text": "다만 한국은행의 8월 전망에는 국제유가가 이전 전망치보다 낮다는 전제가 있었다. 총수요 확대에 따른 물가 압력이 커지더라도 국제유가 하락이 이를 일부 상쇄해 소비자물가 상승률을 2.7% 수준으로 유지할 수 있다는 판단이었다.",
+          "kind": "author_opinion",
+          "author": "문화일보",
           "source_ids": [
-            "f6d74ef1a47ebdb83b40fdf7"
+            "a916223bd07293386411bf11"
           ],
           "evidence": [
             {
-              "source_id": "f6d74ef1a47ebdb83b40fdf7",
-              "source_version_id": "5d3934a131135045a2a19010",
-              "start": 1147,
-              "end": 1259,
-              "text": "주요 기술주 가운데 엔비디아 주가가 0.03% 하락하며 약보합으로 마감한 것을 제외하면 애플(+1.74%), 마이크로소프트(+0.66%), 아마존(+1.92%), 브로드컴(+0.29%) 등이 상승했다.",
+              "source_id": "a916223bd07293386411bf11",
+              "source_version_id": "c9ea9c969ea9a9901b14baf1",
+              "start": 453,
+              "end": 578,
+              "text": "다만 한국은행의 8월 전망에는 국제유가가 이전 전망치보다 낮다는 전제가 있었다. 총수요 확대에 따른 물가 압력이 커지더라도 국제유가 하락이 이를 일부 상쇄해 소비자물가 상승률을 2.7% 수준으로 유지할 수 있다는 판단이었다.",
               "source_excerpt_truncated": false,
               "excerpt_truncated": false,
               "location": "본문",
-              "display_text": "주요 기술주 가운데 엔비디아 주가가 0.03% 하락하며 약보합으로 마감한 것을 제외하면 애플(+1.74%), 마이크로소프트(+0.66%), 아마존(+1.92%), 브로드컴(+0.29%) 등이 상승했다.",
+              "display_text": "다만 한국은행의 8월 전망에는 국제유가가 이전 전망치보다 낮다는 전제가 있었다. 총수요 확대에 따른 물가 압력이 커지더라도 국제유가 하락이 이를 일부 상쇄해 소비자물가 상승률을 2.7% 수준으로 유지할 수 있다는 판단이었다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "forecast"
+          },
+          "numbers": []
+        },
+        {
+          "id": "c1df58322c5cf15442819fc9",
+          "text": "국제유가는 배럴당 100달러를 넘었고, 미국 10년물 국채금리는 5%에 근접했다. 8월 말까지 한국 경제의 대외여건은 AI 붐에 따른 수출 확대, 기업 투자와 소득 증가, 내수 회복의 경로로 작용했다.",
+          "kind": "fact",
+          "author": "문화일보",
+          "source_ids": [
+            "a916223bd07293386411bf11"
+          ],
+          "evidence": [
+            {
+              "source_id": "a916223bd07293386411bf11",
+              "source_version_id": "c9ea9c969ea9a9901b14baf1",
+              "start": 598,
+              "end": 710,
+              "text": "국제유가는 배럴당 100달러를 넘었고, 미국 10년물 국채금리는 5%에 근접했다. 8월 말까지 한국 경제의 대외여건은 AI 붐에 따른 수출 확대, 기업 투자와 소득 증가, 내수 회복의 경로로 작용했다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "국제유가는 배럴당 100달러를 넘었고, 미국 10년물 국채금리는 5%에 근접했다. 8월 말까지 한국 경제의 대외여건은 AI 붐에 따른 수출 확대, 기업 투자와 소득 증가, 내수 회복의 경로로 작용했다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "d57261c57b1dc6e28dc43043",
+          "text": "미국 장기금리 상승은 한국의 장기 금융 여건과 직결된다. 한국 10년물 국채금리는 8월 말 4.31%에서 9월 11일 4.54%로 상승했다.",
+          "kind": "fact",
+          "author": "문화일보",
+          "source_ids": [
+            "a916223bd07293386411bf11"
+          ],
+          "evidence": [
+            {
+              "source_id": "a916223bd07293386411bf11",
+              "source_version_id": "c9ea9c969ea9a9901b14baf1",
+              "start": 962,
+              "end": 1040,
+              "text": "미국 장기금리 상승은 한국의 장기 금융 여건과 직결된다. 한국 10년물 국채금리는 8월 말 4.31%에서 9월 11일 4.54%로 상승했다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "미국 장기금리 상승은 한국의 장기 금융 여건과 직결된다. 한국 10년물 국채금리는 8월 말 4.31%에서 9월 11일 4.54%로 상승했다.",
               "is_translation": false
             }
           ],
@@ -3545,16 +3209,394 @@
       ],
       "event_schedules": [],
       "document_ids": [
-        "f6d74ef1a47ebdb83b40fdf7"
+        "a916223bd07293386411bf11"
       ],
       "source_versions": [
-        "5d3934a131135045a2a19010"
+        "c9ea9c969ea9a9901b14baf1"
       ],
       "entities": [],
       "selection_reason": [
         "수집 범위 내 독립 발행자 1개",
-        "자료 기준 경과 18.3시간",
-        "이전 입력과 중복 내용",
+        "자료 기준 경과 0.8시간",
+        "이전 입력 대비 신규 문서",
+        "수치가 명시된 전망 변경; 관측 사실과 구분"
+      ],
+      "follow_up": [
+        "원문과 기간·단위·작성 주체를 확인하고 해석을 검토하세요."
+      ],
+      "confidence": "source_checked",
+      "related_issue_id": null,
+      "late_discovered": false,
+      "analysis_provider": "extractive",
+      "model_status": "not_needed_source_korean",
+      "analysis_label": "한국어 원문에서 핵심 문장 선별",
+      "evidence_expired": false,
+      "evidence_partially_expired": false,
+      "has_full_text": true,
+      "has_message_text": false,
+      "prior_day_follow_up": false,
+      "original_title": "AI가 막아온 미국발 '고금리' 충격… 이제 '고유가'까지 덮친다[Deep Read]",
+      "source_title_ko": "AI가 막아온 미국발 '고금리' 충격… 이제 '고유가'까지 덮친다[Deep Read]",
+      "korean_required": true
+    },
+    {
+      "id": "6fcbda620863202bf0589277",
+      "anchor": "issue-c4e2303421bfd98b",
+      "editorial_scope": "company",
+      "event_type": "company_regulation",
+      "title": "LS에코에너지, 가온전선 손잡고 美 태양광 전력망 시장 공략 가속",
+      "section": "investment",
+      "category": "research",
+      "summary": [
+        "LS에코에너지가 가온전선 미국 법인과 협력을 강화하며 북미 배전시장 공략에 속도를 낸다.",
+        "LS에코에너지는 최근 미국 태양광 발전단지에 중전압(MV)급 지중 케이블을 공급했다고 15일 밝혔다.",
+        "이번 공급은 가온전선의 미국 자회사 LSCUS가 현지 계약을 수주하고 LS에코에너지의 베트남 생산법인 LS비나가 제품을 생산하는 방식으로 진행됐다.",
+        "해당 케이블은 태양광 발전단지 내부에서 생산된 전력을 모아 변전설비로 보내는 데 사용된다."
+      ],
+      "change": "비교 가능한 과거 자료 없음 — 상향·하향·전망 변경 여부 미판정",
+      "claims": [
+        {
+          "id": "315421d76ad649af671e131e",
+          "text": "LS에코에너지가 가온전선 미국 법인과 협력을 강화하며 북미 배전시장 공략에 속도를 낸다.",
+          "kind": "fact",
+          "author": "아이뉴스24",
+          "source_ids": [
+            "9e276ae8f32f0b4a6709dcbc"
+          ],
+          "evidence": [
+            {
+              "source_id": "9e276ae8f32f0b4a6709dcbc",
+              "source_version_id": "d17b48e3adae9037b2f87a45",
+              "start": 16,
+              "end": 65,
+              "text": "LS에코에너지가 가온전선 미국 법인과 협력을 강화하며 북미 배전시장 공략에 속도를 낸다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "LS에코에너지가 가온전선 미국 법인과 협력을 강화하며 북미 배전시장 공략에 속도를 낸다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "9c9f16afb9ab17ed76fbf86d",
+          "text": "LS에코에너지는 최근 미국 태양광 발전단지에 중전압(MV)급 지중 케이블을 공급했다고 15일 밝혔다.",
+          "kind": "fact",
+          "author": "아이뉴스24",
+          "source_ids": [
+            "9e276ae8f32f0b4a6709dcbc"
+          ],
+          "evidence": [
+            {
+              "source_id": "9e276ae8f32f0b4a6709dcbc",
+              "source_version_id": "d17b48e3adae9037b2f87a45",
+              "start": 67,
+              "end": 123,
+              "text": "LS에코에너지는 최근 미국 태양광 발전단지에 중전압(MV)급 지중 케이블을 공급했다고 15일 밝혔다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "LS에코에너지는 최근 미국 태양광 발전단지에 중전압(MV)급 지중 케이블을 공급했다고 15일 밝혔다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "304d7c27757a635b00467815",
+          "text": "이번 공급은 가온전선의 미국 자회사 LSCUS가 현지 계약을 수주하고 LS에코에너지의 베트남 생산법인 LS비나가 제품을 생산하는 방식으로 진행됐다.",
+          "kind": "fact",
+          "author": "아이뉴스24",
+          "source_ids": [
+            "9e276ae8f32f0b4a6709dcbc"
+          ],
+          "evidence": [
+            {
+              "source_id": "9e276ae8f32f0b4a6709dcbc",
+              "source_version_id": "d17b48e3adae9037b2f87a45",
+              "start": 125,
+              "end": 207,
+              "text": "이번 공급은 가온전선의 미국 자회사 LSCUS가 현지 계약을 수주하고 LS에코에너지의 베트남 생산법인 LS비나가 제품을 생산하는 방식으로 진행됐다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "이번 공급은 가온전선의 미국 자회사 LSCUS가 현지 계약을 수주하고 LS에코에너지의 베트남 생산법인 LS비나가 제품을 생산하는 방식으로 진행됐다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "a0250c5bc272ad13f039bf5b",
+          "text": "해당 케이블은 태양광 발전단지 내부에서 생산된 전력을 모아 변전설비로 보내는 데 사용된다.",
+          "kind": "fact",
+          "author": "아이뉴스24",
+          "source_ids": [
+            "9e276ae8f32f0b4a6709dcbc"
+          ],
+          "evidence": [
+            {
+              "source_id": "9e276ae8f32f0b4a6709dcbc",
+              "source_version_id": "d17b48e3adae9037b2f87a45",
+              "start": 209,
+              "end": 259,
+              "text": "해당 케이블은 태양광 발전단지 내부에서 생산된 전력을 모아 변전설비로 보내는 데 사용된다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "해당 케이블은 태양광 발전단지 내부에서 생산된 전력을 모아 변전설비로 보내는 데 사용된다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        }
+      ],
+      "event_schedules": [],
+      "document_ids": [
+        "9e276ae8f32f0b4a6709dcbc"
+      ],
+      "source_versions": [
+        "d17b48e3adae9037b2f87a45"
+      ],
+      "entities": [],
+      "selection_reason": [
+        "수집 범위 내 독립 발행자 1개",
+        "자료 기준 경과 1.0시간",
+        "이전 입력 대비 신규 문서",
+        "원문에 실행·결정 근거가 있는 기업 계약·제품·자본거래·승인"
+      ],
+      "follow_up": [
+        "원문과 기간·단위·작성 주체를 확인하고 해석을 검토하세요."
+      ],
+      "confidence": "source_checked",
+      "related_issue_id": null,
+      "late_discovered": false,
+      "analysis_provider": "extractive",
+      "model_status": "not_needed_source_korean",
+      "analysis_label": "한국어 원문에서 핵심 문장 선별",
+      "evidence_expired": false,
+      "evidence_partially_expired": false,
+      "has_full_text": true,
+      "has_message_text": false,
+      "prior_day_follow_up": false,
+      "original_title": "LS에코에너지, 가온전선 손잡고 美 태양광 전력망 시장 공략 가속",
+      "source_title_ko": "LS에코에너지, 가온전선 손잡고 美 태양광 전력망 시장 공략 가속",
+      "korean_required": true
+    },
+    {
+      "id": "de707da4c905cc21030fe3a7",
+      "anchor": "issue-4e75531f11eb7799",
+      "editorial_scope": "market",
+      "event_type": "market_update",
+      "title": "[개장 시황] 코스피, 하락 출발…미국 AI 속도조절론에 반도체 급락",
+      "section": "investment",
+      "category": "research",
+      "summary": [
+        "전일 미국 증시가 AI 속도조절론으로 약세를 보인 가운데 국내 증시도 동반 하락 출발했다.",
+        "15일 오전 9시 5분 기준 코스피는 전일 종가 대비 45.82포인트(0.69%) 내린 6638.55를 기록 중이며, 코스닥은 2.47포인트(0.31%) 내린 804.32선에서 거래되고 있다.",
+        "어제 뉴욕 증시는 AI 수장들의 속도 늦춤 발언에 반도체 업종이 급락하면서 약세를 맞이했다.",
+        "관련 뉴스에 따르면 AI 속도조절론과 함께 유가와 금리 상승까지 겹치면서 시장 약세를 가중시켰다."
+      ],
+      "change": "비교 가능한 과거 자료 없음 — 상향·하향·전망 변경 여부 미판정",
+      "claims": [
+        {
+          "id": "58fa259a71fae6ee205cdc6e",
+          "text": "전일 미국 증시가 AI 속도조절론으로 약세를 보인 가운데 국내 증시도 동반 하락 출발했다.",
+          "kind": "fact",
+          "author": "강현창 기자",
+          "source_ids": [
+            "3f1d61a5f1808a4f57a5307b"
+          ],
+          "evidence": [
+            {
+              "source_id": "3f1d61a5f1808a4f57a5307b",
+              "source_version_id": "e0b9d6d1c4602b6f4e1d57ba",
+              "start": 0,
+              "end": 50,
+              "text": "전일 미국 증시가 AI 속도조절론으로 약세를 보인 가운데 국내 증시도 동반 하락 출발했다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "전일 미국 증시가 AI 속도조절론으로 약세를 보인 가운데 국내 증시도 동반 하락 출발했다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "f59842a9ee419e77cd5ee629",
+          "text": "15일 오전 9시 5분 기준 코스피는 전일 종가 대비 45.82포인트(0.69%) 내린 6638.55를 기록 중이며, 코스닥은 2.47포인트(0.31%) 내린 804.32선에서 거래되고 있다.",
+          "kind": "fact",
+          "author": "강현창 기자",
+          "source_ids": [
+            "3f1d61a5f1808a4f57a5307b"
+          ],
+          "evidence": [
+            {
+              "source_id": "3f1d61a5f1808a4f57a5307b",
+              "source_version_id": "e0b9d6d1c4602b6f4e1d57ba",
+              "start": 51,
+              "end": 158,
+              "text": "15일 오전 9시 5분 기준 코스피는 전일 종가 대비 45.82포인트(0.69%) 내린 6638.55를 기록 중이며, 코스닥은 2.47포인트(0.31%) 내린 804.32선에서 거래되고 있다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "15일 오전 9시 5분 기준 코스피는 전일 종가 대비 45.82포인트(0.69%) 내린 6638.55를 기록 중이며, 코스닥은 2.47포인트(0.31%) 내린 804.32선에서 거래되고 있다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "b37d8f6bc6150c4c8c044d74",
+          "text": "어제 뉴욕 증시는 AI 수장들의 속도 늦춤 발언에 반도체 업종이 급락하면서 약세를 맞이했다.",
+          "kind": "fact",
+          "author": "강현창 기자",
+          "source_ids": [
+            "3f1d61a5f1808a4f57a5307b"
+          ],
+          "evidence": [
+            {
+              "source_id": "3f1d61a5f1808a4f57a5307b",
+              "source_version_id": "e0b9d6d1c4602b6f4e1d57ba",
+              "start": 160,
+              "end": 211,
+              "text": "어제 뉴욕 증시는 AI 수장들의 속도 늦춤 발언에 반도체 업종이 급락하면서 약세를 맞이했다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "어제 뉴욕 증시는 AI 수장들의 속도 늦춤 발언에 반도체 업종이 급락하면서 약세를 맞이했다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "268333bbec6b8a38810b5a9b",
+          "text": "관련 뉴스에 따르면 AI 속도조절론과 함께 유가와 금리 상승까지 겹치면서 시장 약세를 가중시켰다.",
+          "kind": "fact",
+          "author": "강현창 기자",
+          "source_ids": [
+            "3f1d61a5f1808a4f57a5307b"
+          ],
+          "evidence": [
+            {
+              "source_id": "3f1d61a5f1808a4f57a5307b",
+              "source_version_id": "e0b9d6d1c4602b6f4e1d57ba",
+              "start": 212,
+              "end": 266,
+              "text": "관련 뉴스에 따르면 AI 속도조절론과 함께 유가와 금리 상승까지 겹치면서 시장 약세를 가중시켰다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "관련 뉴스에 따르면 AI 속도조절론과 함께 유가와 금리 상승까지 겹치면서 시장 약세를 가중시켰다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        }
+      ],
+      "event_schedules": [],
+      "document_ids": [
+        "3f1d61a5f1808a4f57a5307b"
+      ],
+      "source_versions": [
+        "e0b9d6d1c4602b6f4e1d57ba"
+      ],
+      "entities": [],
+      "selection_reason": [
+        "수집 범위 내 독립 발행자 1개",
+        "자료 기준 경과 1.2시간",
+        "이전 입력 대비 신규 문서",
         "수치가 확인되는 금융시장 급변·기록 경신"
       ],
       "follow_up": [
@@ -3571,8 +3613,575 @@
       "has_full_text": true,
       "has_message_text": false,
       "prior_day_follow_up": false,
-      "original_title": "유가 요동, AI 의구심 속...일본증시 '장중 뚝', 소프트뱅크 '급락'",
-      "source_title_ko": "유가 요동, AI 의구심 속...일본증시 '장중 뚝', 소프트뱅크 '급락'",
+      "original_title": "[개장 시황] 코스피, 하락 출발…미국 AI 속도조절론에 반도체 급락",
+      "source_title_ko": "[개장 시황] 코스피, 하락 출발…미국 AI 속도조절론에 반도체 급락",
+      "korean_required": true
+    },
+    {
+      "id": "3590875f79402a530682b64a",
+      "anchor": "issue-3974ac93bc4e44a9",
+      "editorial_scope": "company",
+      "event_type": "contract",
+      "title": "앤트로픽, 친트럼프 럼그룹과 18조원대 컴퓨팅 계약",
+      "section": "investment",
+      "category": "research",
+      "summary": [
+        "인공지능(AI) 기업 앤트로픽이 럼그룹과 6년간 총 137억달러(약 18조4000억원) 규모의 컴퓨팅 계약을 체결했다고 정보기술 전문 매체 디인포메이션이 13일(현지 시각) 복수의 소식통을 인용해 보도했다.",
+        "앤트로픽은 최근 1년간 구글, 스페이스X, 엔스케일 등과 잇따라 대규모 컴퓨팅 계약을 체결하며 AI 인프라 확보에 나서고 있다. 이들 계약을 모두 합하면 최소 14.8기가와트(GW) 규모로, 향후 10년간 최대 5170억달러(약 700조원)의 비용이 들어갈 것으로 추산된다.",
+        "럼그룹은 지난달 23일 공시를 통해 137억달러 규모의 계약을 체결했다고 밝혔지만 당시 계약 상대방은 공개하지 않았다.",
+        "럼그룹 주가는 지난 11일 7.17달러로 마감해 시가총액은 약 28억달러에 달한다. 만약 앤트로픽이 옵션을 모두 행사할 경우 현재 주가 기준으로 3억6000만달러가 넘는 평가차익을 얻을 수 있다."
+      ],
+      "change": "비교 가능한 과거 자료 없음 — 상향·하향·전망 변경 여부 미판정",
+      "claims": [
+        {
+          "id": "041ce48a2d70ca3a5c5982bd",
+          "text": "인공지능(AI) 기업 앤트로픽이 럼그룹과 6년간 총 137억달러(약 18조4000억원) 규모의 컴퓨팅 계약을 체결했다고 정보기술 전문 매체 디인포메이션이 13일(현지 시각) 복수의 소식통을 인용해 보도했다.",
+          "kind": "fact",
+          "author": "이호준 기자",
+          "source_ids": [
+            "428a68775c949433d1cd015d"
+          ],
+          "evidence": [
+            {
+              "source_id": "428a68775c949433d1cd015d",
+              "source_version_id": "c60b0a66466e0fce65ae4d0f",
+              "start": 0,
+              "end": 112,
+              "text": "인공지능(AI) 기업 앤트로픽이 럼그룹과 6년간 총 137억달러(약 18조4000억원) 규모의 컴퓨팅 계약을 체결했다고 IT 전문매체 디인포메이션이 13일(현지 시각) 복수의 소식통을 인용해 보도했다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "인공지능(AI) 기업 앤트로픽이 럼그룹과 6년간 총 137억달러(약 18조4000억원) 규모의 컴퓨팅 계약을 체결했다고 정보기술 전문 매체 디인포메이션이 13일(현지 시각) 복수의 소식통을 인용해 보도했다.",
+              "is_translation": true
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "not_verified",
+            "human_review": "not_reviewed",
+            "status": "needs_review",
+            "source_linkage": "passed",
+            "content_check": "unverified_paraphrase",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "e0ae8292ceab91465d9de8ef",
+          "text": "앤트로픽은 최근 1년간 구글, 스페이스X, 엔스케일 등과 잇따라 대규모 컴퓨팅 계약을 체결하며 AI 인프라 확보에 나서고 있다. 이들 계약을 모두 합하면 최소 14.8기가와트(GW) 규모로, 향후 10년간 최대 5170억달러(약 700조원)의 비용이 들어갈 것으로 추산된다.",
+          "kind": "fact",
+          "author": "이호준 기자",
+          "source_ids": [
+            "428a68775c949433d1cd015d"
+          ],
+          "evidence": [
+            {
+              "source_id": "428a68775c949433d1cd015d",
+              "source_version_id": "c60b0a66466e0fce65ae4d0f",
+              "start": 272,
+              "end": 425,
+              "text": "앤트로픽은 최근 1년간 구글, 스페이스X, 엔스케일 등과 잇따라 대규모 컴퓨팅 계약을 체결하며 AI 인프라 확보에 나서고 있다. 이들 계약을 모두 합하면 최소 14.8기가와트(GW) 규모로, 향후 10년간 최대 5170억달러(약 700조원)의 비용이 들어갈 것으로 추산된다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "앤트로픽은 최근 1년간 구글, 스페이스X, 엔스케일 등과 잇따라 대규모 컴퓨팅 계약을 체결하며 AI 인프라 확보에 나서고 있다. 이들 계약을 모두 합하면 최소 14.8기가와트(GW) 규모로, 향후 10년간 최대 5170억달러(약 700조원)의 비용이 들어갈 것으로 추산된다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "25da9816387f84c29fc6fc73",
+          "text": "럼그룹은 지난달 23일 공시를 통해 137억달러 규모의 계약을 체결했다고 밝혔지만 당시 계약 상대방은 공개하지 않았다.",
+          "kind": "fact",
+          "author": "이호준 기자",
+          "source_ids": [
+            "428a68775c949433d1cd015d"
+          ],
+          "evidence": [
+            {
+              "source_id": "428a68775c949433d1cd015d",
+              "source_version_id": "c60b0a66466e0fce65ae4d0f",
+              "start": 427,
+              "end": 493,
+              "text": "럼그룹은 지난달 23일 공시를 통해 137억달러 규모의 계약을 체결했다고 밝혔지만 당시 계약 상대방은 공개하지 않았다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "럼그룹은 지난달 23일 공시를 통해 137억달러 규모의 계약을 체결했다고 밝혔지만 당시 계약 상대방은 공개하지 않았다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "a61f822a3510aa90be1488ec",
+          "text": "럼그룹 주가는 지난 11일 7.17달러로 마감해 시가총액은 약 28억달러에 달한다. 만약 앤트로픽이 옵션을 모두 행사할 경우 현재 주가 기준으로 3억6000만달러가 넘는 평가차익을 얻을 수 있다.",
+          "kind": "fact",
+          "author": "이호준 기자",
+          "source_ids": [
+            "428a68775c949433d1cd015d"
+          ],
+          "evidence": [
+            {
+              "source_id": "428a68775c949433d1cd015d",
+              "source_version_id": "c60b0a66466e0fce65ae4d0f",
+              "start": 936,
+              "end": 1045,
+              "text": "럼그룹 주가는 지난 11일 7.17달러로 마감해 시가총액은 약 28억달러에 달한다. 만약 앤트로픽이 옵션을 모두 행사할 경우 현재 주가 기준으로 3억6000만달러가 넘는 평가차익을 얻을 수 있다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "럼그룹 주가는 지난 11일 7.17달러로 마감해 시가총액은 약 28억달러에 달한다. 만약 앤트로픽이 옵션을 모두 행사할 경우 현재 주가 기준으로 3억6000만달러가 넘는 평가차익을 얻을 수 있다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        }
+      ],
+      "event_schedules": [],
+      "document_ids": [
+        "428a68775c949433d1cd015d"
+      ],
+      "source_versions": [
+        "c60b0a66466e0fce65ae4d0f"
+      ],
+      "entities": [],
+      "selection_reason": [
+        "수집 범위 내 독립 발행자 1개",
+        "자료 기준 경과 18.5시간",
+        "이전 입력 대비 신규 문서",
+        "원문에 실행·결정 근거가 있는 기업 계약·제품·자본거래·승인"
+      ],
+      "follow_up": [
+        "원문과 기간·단위·작성 주체를 확인하고 해석을 검토하세요."
+      ],
+      "confidence": "source_checked",
+      "related_issue_id": null,
+      "late_discovered": false,
+      "analysis_provider": "extractive",
+      "model_status": "not_needed_source_korean",
+      "analysis_label": "한국어 원문 · 용어 번역",
+      "evidence_expired": false,
+      "evidence_partially_expired": false,
+      "has_full_text": true,
+      "has_message_text": false,
+      "prior_day_follow_up": false,
+      "original_title": "앤트로픽, 친트럼프 럼그룹과 18조원대 컴퓨팅 계약",
+      "source_title_ko": "앤트로픽, 친트럼프 럼그룹과 18조원대 컴퓨팅 계약",
+      "korean_required": true
+    },
+    {
+      "id": "d6b61a0040bd2acab7045fb3",
+      "anchor": "issue-91f077ff2aa349ec",
+      "editorial_scope": "company",
+      "event_type": "capital_transaction",
+      "title": "오픈AI가 스마트폰 카메라 제조사 글래스 이미징을 $3억에 인수했다고 보도가 나왔다.",
+      "section": "investment",
+      "category": "research",
+      "summary": [
+        "오픈AI는 월스트리트저널 보도에 따르면 스마트폰 카메라 제조사 글래스 이미징을 3억 달러가 넘는 금액으로 인수했다.",
+        "2019년에 설립된 이 회사는 캘리포니아주 로스앨토스에 본사를 두고 있으며, 이전까지 투자자로부터 약 $3000만의 자금을 유치했다.",
+        "글래스 이미징은 애플의 인물 사진 모드를 개발한 팀을 이끌었던 애플 출신 엔지니어인 지브 아타르와 톰 비숍이 설립했다.",
+        "이 배경은 글래스 이미징에서 현재 수행하는 업무에 직접적인 영향을 미치며, 이 회사는 AI를 활용해 스마트폰 카메라의 물리적 크기 제한을 극복하고 있다."
+      ],
+      "change": "비교 가능한 과거 자료 없음 — 상향·하향·전망 변경 여부 미판정",
+      "claims": [
+        {
+          "id": "514fe0ae38e53288d4943299",
+          "text": "오픈AI는 월스트리트저널 보도에 따르면 스마트폰 카메라 제조사 글래스 이미징을 3억 달러가 넘는 금액으로 인수했다.",
+          "kind": "fact",
+          "author": "Amanda Silberling",
+          "source_ids": [
+            "0d95dde32ff77561662debc3"
+          ],
+          "evidence": [
+            {
+              "source_id": "0d95dde32ff77561662debc3",
+              "source_version_id": "84652b19d9ee9e8630096f21",
+              "start": 0,
+              "end": 143,
+              "text": "OpenAI has bought smartphone camera maker Glass Imaging in a deal worth over $300 million, according to a report from The Wall Street Journal .",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "오픈AI는 월스트리트저널 보도에 따르면 스마트폰 카메라 제조사 글래스 이미징을 3억 달러가 넘는 금액으로 인수했다.",
+              "is_translation": true
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "",
+          "validation": {
+            "semantic_support": "not_verified",
+            "human_review": "not_reviewed",
+            "status": "needs_review",
+            "source_linkage": "passed",
+            "content_check": "unverified_paraphrase",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "c92e78abe9933a4bf8248b34",
+          "text": "2019년에 설립된 이 회사는 캘리포니아주 로스앨토스에 본사를 두고 있으며, 이전까지 투자자로부터 약 $3000만의 자금을 유치했다.",
+          "kind": "fact",
+          "author": "Amanda Silberling",
+          "source_ids": [
+            "0d95dde32ff77561662debc3"
+          ],
+          "evidence": [
+            {
+              "source_id": "0d95dde32ff77561662debc3",
+              "source_version_id": "84652b19d9ee9e8630096f21",
+              "start": 144,
+              "end": 275,
+              "text": "The company, founded in 2019 and based in Los Altos, California, had previously raised about $30 million in funding from investors.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "2019년에 설립된 이 회사는 캘리포니아주 로스앨토스에 본사를 두고 있으며, 이전까지 투자자로부터 약 $3000만의 자금을 유치했다.",
+              "is_translation": true
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "",
+          "validation": {
+            "semantic_support": "not_verified",
+            "human_review": "not_reviewed",
+            "status": "needs_review",
+            "source_linkage": "passed",
+            "content_check": "unverified_paraphrase",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "da7d4b6d6951e554d93f3585",
+          "text": "글래스 이미징은 애플의 인물 사진 모드를 개발한 팀을 이끌었던 애플 출신 엔지니어인 지브 아타르와 톰 비숍이 설립했다.",
+          "kind": "fact",
+          "author": "Amanda Silberling",
+          "source_ids": [
+            "0d95dde32ff77561662debc3"
+          ],
+          "evidence": [
+            {
+              "source_id": "0d95dde32ff77561662debc3",
+              "source_version_id": "84652b19d9ee9e8630096f21",
+              "start": 277,
+              "end": 430,
+              "text": "Glass Imaging was founded by Ziv Attar and Tom Bishop, a pair of former Apple engineers who previously led the team that developed Apple’s Portrait Mode.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "글래스 이미징은 애플의 인물 사진 모드를 개발한 팀을 이끌었던 애플 출신 엔지니어인 지브 아타르와 톰 비숍이 설립했다.",
+              "is_translation": true
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "",
+          "validation": {
+            "semantic_support": "not_verified",
+            "human_review": "not_reviewed",
+            "status": "needs_review",
+            "source_linkage": "passed",
+            "content_check": "unverified_paraphrase",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "0d42f9937080011ac9fa90c4",
+          "text": "이 배경은 글래스 이미징에서 현재 수행하는 업무에 직접적인 영향을 미치며, 이 회사는 AI를 활용해 스마트폰 카메라의 물리적 크기 제한을 극복하고 있다.",
+          "kind": "fact",
+          "author": "Amanda Silberling",
+          "source_ids": [
+            "0d95dde32ff77561662debc3"
+          ],
+          "evidence": [
+            {
+              "source_id": "0d95dde32ff77561662debc3",
+              "source_version_id": "84652b19d9ee9e8630096f21",
+              "start": 431,
+              "end": 585,
+              "text": "This background directly informs the work they now do at Glass Imaging, where they use AI to overcome the physical size constraints of smartphone cameras.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "이 배경은 글래스 이미징에서 현재 수행하는 업무에 직접적인 영향을 미치며, 이 회사는 AI를 활용해 스마트폰 카메라의 물리적 크기 제한을 극복하고 있다.",
+              "is_translation": true
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "",
+          "validation": {
+            "semantic_support": "not_verified",
+            "human_review": "not_reviewed",
+            "status": "needs_review",
+            "source_linkage": "passed",
+            "content_check": "unverified_paraphrase",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        }
+      ],
+      "event_schedules": [],
+      "document_ids": [
+        "0d95dde32ff77561662debc3"
+      ],
+      "source_versions": [
+        "84652b19d9ee9e8630096f21"
+      ],
+      "entities": [],
+      "selection_reason": [
+        "수집 범위 내 독립 발행자 1개",
+        "자료 기준 경과 4.6시간",
+        "이전 입력 대비 신규 문서",
+        "원문에 실행·결정 근거가 있는 기업 계약·제품·자본거래·승인"
+      ],
+      "follow_up": [
+        "원문과 기간·단위·작성 주체를 확인하고 해석을 검토하세요."
+      ],
+      "confidence": "needs_review",
+      "related_issue_id": null,
+      "late_discovered": false,
+      "analysis_provider": "mlx",
+      "model_status": "cached_model_output",
+      "analysis_label": "한국어 번역 · 수치·출처 자동 대조",
+      "evidence_expired": false,
+      "evidence_partially_expired": false,
+      "has_full_text": true,
+      "has_message_text": false,
+      "prior_day_follow_up": false,
+      "original_title": "OpenAI buys smartphone camera maker Glass Imaging for $300 million, report says",
+      "source_title_ko": "오픈AI가 스마트폰 카메라 제조사 글래스 이미징을 $3억에 인수했다고 보도가 나왔다.",
+      "korean_required": true
+    },
+    {
+      "id": "0ddcf310ca55c8ed9f69c8be",
+      "anchor": "issue-39149f17dbead882",
+      "editorial_scope": "company",
+      "event_type": "capital_transaction",
+      "title": "Z.ai 주가가 50억 달러 자금 조달 이후 10% 이상 급락, 2개월간 두 번째 대규모 자금 조달",
+      "section": "investment",
+      "category": "research",
+      "summary": [
+        "중국 인공지능 기업 Z.ai의 주가는 월요일, 약 $50억을 신규 주식 배정 및 전환사채 발행을 통해 조달할 계획이라고 발표하면서 10% 이상 급락했다. 이는 2개월 내 두 번째 대규모 자금 조달이다.",
+        "베이징에 본사를 둔 Z.ai는 주당 HK$714에 최대 2,197만주의 신주를 발행해 총조달액 약 HK$156.8억($20억)을 조달할 계획이다. 이번 배정 가격은 Z.ai의 금요일 종가 HK$793 대비 10% 할인된 수준이다.",
+        "Z.ai는 2027년 만기인 201억4천만 위안($30억) 규모의 무이표 전환사채를 발행할 계획이다. 이 사채는 주당 HK$892.50으로 최초 전환되며, 이는 금요일 종가 대비 12.5%의 프리미엄이 적용된 가격이다.",
+        "회사는 이번 자금 조달로 확보한 자금이 차세대 AI 모델 개발, 연구개발, 학습 및 추론 인프라 구축, 그리고 상용화에 사용될 것이라고 밝혔다."
+      ],
+      "change": "비교 가능한 과거 자료 없음 — 상향·하향·전망 변경 여부 미판정",
+      "claims": [
+        {
+          "id": "ba40d7481dab661c535afaeb",
+          "text": "중국 인공지능 기업 Z.ai의 주가는 월요일, 약 $50억을 신규 주식 배정 및 전환사채 발행을 통해 조달할 계획이라고 발표하면서 10% 이상 급락했다. 이는 2개월 내 두 번째 대규모 자금 조달이다.",
+          "kind": "fact",
+          "author": "Jenny Lee",
+          "source_ids": [
+            "d0a3b1481067f105f31c8b82"
+          ],
+          "evidence": [
+            {
+              "source_id": "d0a3b1481067f105f31c8b82",
+              "source_version_id": "f28376315479d31539e68bd4",
+              "start": 40,
+              "end": 295,
+              "text": "Shares of Chinese artificial intelligence company Z.ai tumbled more than 10% on Monday after the company announced plans to raise about $5 billion through a new share placement and convertible bond sale, marking its second major fundraising in two months.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "중국 인공지능 기업 Z.ai의 주가는 월요일, 약 $50억을 신규 주식 배정 및 전환사채 발행을 통해 조달할 계획이라고 발표하면서 10% 이상 급락했다. 이는 2개월 내 두 번째 대규모 자금 조달이다.",
+              "is_translation": true
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "",
+          "validation": {
+            "semantic_support": "not_verified",
+            "human_review": "not_reviewed",
+            "status": "needs_review",
+            "source_linkage": "passed",
+            "content_check": "unverified_paraphrase",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "2b1a19b6ce84515f0e7ce6d8",
+          "text": "베이징에 본사를 둔 Z.ai는 주당 HK$714에 최대 2,197만주의 신주를 발행해 총조달액 약 HK$156.8억($20억)을 조달할 계획이다. 이번 배정 가격은 Z.ai의 금요일 종가 HK$793 대비 10% 할인된 수준이다.",
+          "kind": "fact",
+          "author": "Jenny Lee",
+          "source_ids": [
+            "d0a3b1481067f105f31c8b82"
+          ],
+          "evidence": [
+            {
+              "source_id": "d0a3b1481067f105f31c8b82",
+              "source_version_id": "f28376315479d31539e68bd4",
+              "start": 297,
+              "end": 535,
+              "text": "The Beijing-based company plans to issue up to 21.97 million new shares at HK$714 each, raising gross proceeds of about HK$15.68 billion ($2 billion). The placement price represents a 10% discount to Z.ai's Friday closing price of HK$793.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "베이징에 본사를 둔 Z.ai는 주당 HK$714에 최대 2,197만주의 신주를 발행해 총조달액 약 HK$156.8억($20억)을 조달할 계획이다. 이번 배정 가격은 Z.ai의 금요일 종가 HK$793 대비 10% 할인된 수준이다.",
+              "is_translation": true
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "",
+          "validation": {
+            "semantic_support": "not_verified",
+            "human_review": "not_reviewed",
+            "status": "needs_review",
+            "source_linkage": "passed",
+            "content_check": "unverified_paraphrase",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "4e2bd5c2df0e9da8e5db412b",
+          "text": "Z.ai는 2027년 만기인 201억4천만 위안($30억) 규모의 무이표 전환사채를 발행할 계획이다. 이 사채는 주당 HK$892.50으로 최초 전환되며, 이는 금요일 종가 대비 12.5%의 프리미엄이 적용된 가격이다.",
+          "kind": "fact",
+          "author": "Jenny Lee",
+          "source_ids": [
+            "d0a3b1481067f105f31c8b82"
+          ],
+          "evidence": [
+            {
+              "source_id": "d0a3b1481067f105f31c8b82",
+              "source_version_id": "f28376315479d31539e68bd4",
+              "start": 537,
+              "end": 753,
+              "text": "Separately, Z.ai plans to issue 20.14 billion yuan ($3 billion) in zero-coupon convertible bonds due in 2027. The bonds will initially be convertible at HK$892.50 per share, a 12.5% premium to Friday's closing price.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "Z.ai는 2027년 만기인 201억4천만 위안($30억) 규모의 무이표 전환사채를 발행할 계획이다. 이 사채는 주당 HK$892.50으로 최초 전환되며, 이는 금요일 종가 대비 12.5%의 프리미엄이 적용된 가격이다.",
+              "is_translation": true
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "",
+          "validation": {
+            "semantic_support": "not_verified",
+            "human_review": "not_reviewed",
+            "status": "needs_review",
+            "source_linkage": "passed",
+            "content_check": "unverified_paraphrase",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "048408d62240c9925b6d7b62",
+          "text": "회사는 이번 자금 조달로 확보한 자금이 차세대 AI 모델 개발, 연구개발, 학습 및 추론 인프라 구축, 그리고 상용화에 사용될 것이라고 밝혔다.",
+          "kind": "fact",
+          "author": "Jenny Lee",
+          "source_ids": [
+            "d0a3b1481067f105f31c8b82"
+          ],
+          "evidence": [
+            {
+              "source_id": "d0a3b1481067f105f31c8b82",
+              "source_version_id": "f28376315479d31539e68bd4",
+              "start": 755,
+              "end": 962,
+              "text": "The company said proceeds from the fundraising will support the development of its next-generation AI models, including research and development, training and inference infrastructure, and commercialization.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "회사는 이번 자금 조달로 확보한 자금이 차세대 AI 모델 개발, 연구개발, 학습 및 추론 인프라 구축, 그리고 상용화에 사용될 것이라고 밝혔다.",
+              "is_translation": true
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "",
+          "validation": {
+            "semantic_support": "not_verified",
+            "human_review": "not_reviewed",
+            "status": "needs_review",
+            "source_linkage": "passed",
+            "content_check": "unverified_paraphrase",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        }
+      ],
+      "event_schedules": [],
+      "document_ids": [
+        "d0a3b1481067f105f31c8b82"
+      ],
+      "source_versions": [
+        "f28376315479d31539e68bd4"
+      ],
+      "entities": [],
+      "selection_reason": [
+        "수집 범위 내 독립 발행자 1개",
+        "자료 기준 경과 22.3시간",
+        "이전 입력 대비 신규 문서",
+        "원문에 실행·결정 근거가 있는 기업 계약·제품·자본거래·승인"
+      ],
+      "follow_up": [
+        "원문과 기간·단위·작성 주체를 확인하고 해석을 검토하세요."
+      ],
+      "confidence": "needs_review",
+      "related_issue_id": null,
+      "late_discovered": false,
+      "analysis_provider": "mlx",
+      "model_status": "cached_model_output",
+      "analysis_label": "한국어 번역 · 수치·출처 자동 대조",
+      "evidence_expired": false,
+      "evidence_partially_expired": false,
+      "has_full_text": true,
+      "has_message_text": false,
+      "prior_day_follow_up": false,
+      "original_title": "Z.ai shares tumble over 10% after $5 billion fundraising, its second major raise in two months",
+      "source_title_ko": "Z.ai 주가가 50억 달러 자금 조달 이후 10% 이상 급락, 2개월간 두 번째 대규모 자금 조달",
       "korean_required": true
     },
     {
@@ -3742,7 +4351,7 @@
       "entities": [],
       "selection_reason": [
         "수집 범위 내 독립 발행자 1개",
-        "자료 기준 경과 22.7시간",
+        "자료 기준 경과 24.4시간",
         "이전 입력과 중복 내용",
         "원문에 실행·결정 근거가 있는 기업 계약·제품·자본거래·승인"
       ],
@@ -3931,7 +4540,7 @@
       "entities": [],
       "selection_reason": [
         "수집 범위 내 독립 발행자 1개",
-        "자료 기준 경과 14.8시간",
+        "자료 기준 경과 16.5시간",
         "이전 입력과 중복 내용",
         "원문에 실행·결정 근거가 있는 기업 계약·제품·자본거래·승인"
       ],
@@ -4120,7 +4729,7 @@
       "entities": [],
       "selection_reason": [
         "수집 범위 내 독립 발행자 1개",
-        "자료 기준 경과 15.1시간",
+        "자료 기준 경과 16.8시간",
         "이전 입력과 중복 내용",
         "원문에 실행·결정 근거가 있는 기업 계약·제품·자본거래·승인"
       ],
@@ -4140,195 +4749,6 @@
       "prior_day_follow_up": false,
       "original_title": "삼성重, 1.6조 수주 '잭팟' 작년 실적도 이미 넘었네",
       "source_title_ko": "삼성重, 1.6조 수주 '잭팟' 작년 실적도 이미 넘었네",
-      "korean_required": true
-    },
-    {
-      "id": "643ac9e9ced275ade0f5a0a2",
-      "anchor": "issue-5d64572f0fdcf033",
-      "editorial_scope": "company",
-      "event_type": "market_update",
-      "title": "소프트뱅크 650억달러 AI 베팅…시장은 '13% 급락'으로 답했다 - 조세일보",
-      "section": "investment",
-      "category": "research",
-      "summary": [
-        "7월 17일 이후 최대 낙폭…52주 고점보다 36% 아래로 내려와 상장이 미뤄지면 지분 값을 확인할 시점도 함께 밀려 \"인공지능 개발 속도를 늦추자\"는 발언에 관련 업종들이 흔들렸다.",
-        "크게 상관이 없는 것 같은 소프트뱅크는 14일 10% 이상 하락하고 있다.",
-        "이 회사는 오픈AI 한 곳에 650억달러를 넣기로 했고 상당 부분을 부채로 조달하고 있다.",
-        "소프트뱅크그룹의 주가가 이날 장중 13%까지 빠졌다."
-      ],
-      "change": "이전 사건과 동일한 정보를 재확인. 전망 변경 여부는 미판정",
-      "claims": [
-        {
-          "id": "15631555f73c47af0bd0c698",
-          "text": "7월 17일 이후 최대 낙폭…52주 고점보다 36% 아래로 내려와 상장이 미뤄지면 지분 값을 확인할 시점도 함께 밀려 \"인공지능 개발 속도를 늦추자\"는 발언에 관련 업종들이 흔들렸다.",
-          "kind": "fact",
-          "author": "www.joseilbo.com",
-          "source_ids": [
-            "6481d04a30a7a2de0426345c"
-          ],
-          "evidence": [
-            {
-              "source_id": "6481d04a30a7a2de0426345c",
-              "source_version_id": "7fc4d63cab6061a038d1b179",
-              "start": 0,
-              "end": 102,
-              "text": "7월 17일 이후 최대 낙폭…52주 고점보다 36% 아래로 내려와 상장이 미뤄지면 지분 값을 확인할 시점도 함께 밀려 \"인공지능 개발 속도를 늦추자\"는 발언에 관련 업종들이 흔들렸다.",
-              "source_excerpt_truncated": false,
-              "excerpt_truncated": false,
-              "location": "본문",
-              "display_text": "7월 17일 이후 최대 낙폭…52주 고점보다 36% 아래로 내려와 상장이 미뤄지면 지분 값을 확인할 시점도 함께 밀려 \"인공지능 개발 속도를 늦추자\"는 발언에 관련 업종들이 흔들렸다.",
-              "is_translation": false
-            }
-          ],
-          "rationale": "",
-          "conditions": "",
-          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
-          "validation": {
-            "semantic_support": "source_quote_only",
-            "human_review": "not_reviewed",
-            "status": "source_checked",
-            "source_linkage": "passed",
-            "content_check": "exact_quote",
-            "assertion_type": "observation"
-          },
-          "numbers": []
-        },
-        {
-          "id": "94279c936c94874c69780976",
-          "text": "크게 상관이 없는 것 같은 소프트뱅크는 14일 10% 이상 하락하고 있다.",
-          "kind": "fact",
-          "author": "www.joseilbo.com",
-          "source_ids": [
-            "6481d04a30a7a2de0426345c"
-          ],
-          "evidence": [
-            {
-              "source_id": "6481d04a30a7a2de0426345c",
-              "source_version_id": "7fc4d63cab6061a038d1b179",
-              "start": 103,
-              "end": 144,
-              "text": "크게 상관이 없는 것 같은 소프트뱅크는 14일 10% 이상 하락하고 있다.",
-              "source_excerpt_truncated": false,
-              "excerpt_truncated": false,
-              "location": "본문",
-              "display_text": "크게 상관이 없는 것 같은 소프트뱅크는 14일 10% 이상 하락하고 있다.",
-              "is_translation": false
-            }
-          ],
-          "rationale": "",
-          "conditions": "",
-          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
-          "validation": {
-            "semantic_support": "source_quote_only",
-            "human_review": "not_reviewed",
-            "status": "source_checked",
-            "source_linkage": "passed",
-            "content_check": "exact_quote",
-            "assertion_type": "observation"
-          },
-          "numbers": []
-        },
-        {
-          "id": "608e771ec5deb70b6bc28cb1",
-          "text": "이 회사는 오픈AI 한 곳에 650억달러를 넣기로 했고 상당 부분을 부채로 조달하고 있다.",
-          "kind": "fact",
-          "author": "www.joseilbo.com",
-          "source_ids": [
-            "6481d04a30a7a2de0426345c"
-          ],
-          "evidence": [
-            {
-              "source_id": "6481d04a30a7a2de0426345c",
-              "source_version_id": "7fc4d63cab6061a038d1b179",
-              "start": 145,
-              "end": 195,
-              "text": "이 회사는 오픈AI 한 곳에 650억달러를 넣기로 했고 상당 부분을 부채로 조달하고 있다.",
-              "source_excerpt_truncated": false,
-              "excerpt_truncated": false,
-              "location": "본문",
-              "display_text": "이 회사는 오픈AI 한 곳에 650억달러를 넣기로 했고 상당 부분을 부채로 조달하고 있다.",
-              "is_translation": false
-            }
-          ],
-          "rationale": "",
-          "conditions": "",
-          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
-          "validation": {
-            "semantic_support": "source_quote_only",
-            "human_review": "not_reviewed",
-            "status": "source_checked",
-            "source_linkage": "passed",
-            "content_check": "exact_quote",
-            "assertion_type": "observation"
-          },
-          "numbers": []
-        },
-        {
-          "id": "7dc72e4a6515e9ecf57b36ec",
-          "text": "소프트뱅크그룹의 주가가 이날 장중 13%까지 빠졌다.",
-          "kind": "fact",
-          "author": "www.joseilbo.com",
-          "source_ids": [
-            "6481d04a30a7a2de0426345c"
-          ],
-          "evidence": [
-            {
-              "source_id": "6481d04a30a7a2de0426345c",
-              "source_version_id": "7fc4d63cab6061a038d1b179",
-              "start": 196,
-              "end": 225,
-              "text": "소프트뱅크그룹의 주가가 이날 장중 13%까지 빠졌다.",
-              "source_excerpt_truncated": false,
-              "excerpt_truncated": false,
-              "location": "본문",
-              "display_text": "소프트뱅크그룹의 주가가 이날 장중 13%까지 빠졌다.",
-              "is_translation": false
-            }
-          ],
-          "rationale": "",
-          "conditions": "",
-          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
-          "validation": {
-            "semantic_support": "source_quote_only",
-            "human_review": "not_reviewed",
-            "status": "source_checked",
-            "source_linkage": "passed",
-            "content_check": "exact_quote",
-            "assertion_type": "observation"
-          },
-          "numbers": []
-        }
-      ],
-      "event_schedules": [],
-      "document_ids": [
-        "6481d04a30a7a2de0426345c"
-      ],
-      "source_versions": [
-        "7fc4d63cab6061a038d1b179"
-      ],
-      "entities": [],
-      "selection_reason": [
-        "수집 범위 내 독립 발행자 1개",
-        "자료 기준 경과 17.3시간",
-        "이전 입력과 중복 내용",
-        "수치가 확인되는 금융시장 급변·기록 경신"
-      ],
-      "follow_up": [
-        "원문과 기간·단위·작성 주체를 확인하고 해석을 검토하세요."
-      ],
-      "confidence": "source_checked",
-      "related_issue_id": null,
-      "late_discovered": false,
-      "analysis_provider": "extractive",
-      "model_status": "not_needed_source_korean",
-      "analysis_label": "한국어 원문에서 핵심 문장 선별",
-      "evidence_expired": false,
-      "evidence_partially_expired": false,
-      "has_full_text": true,
-      "has_message_text": false,
-      "prior_day_follow_up": false,
-      "original_title": "소프트뱅크 650억달러 AI 베팅…시장은 '13% 급락'으로 답했다 - 조세일보",
-      "source_title_ko": "소프트뱅크 650억달러 AI 베팅…시장은 '13% 급락'으로 답했다 - 조세일보",
       "korean_required": true
     },
     {
@@ -4498,7 +4918,7 @@
       "entities": [],
       "selection_reason": [
         "수집 범위 내 독립 발행자 1개",
-        "자료 기준 경과 44.7시간",
+        "자료 기준 경과 46.4시간",
         "이전 입력과 중복 내용",
         "원문에 실행·결정 근거가 있는 기업 계약·제품·자본거래·승인"
       ],
@@ -4521,40 +4941,40 @@
       "korean_required": true
     },
     {
-      "id": "22be61b891aaa518f8488206",
-      "anchor": "issue-e0cc651a5d8c545c",
-      "editorial_scope": "industry",
-      "event_type": "outlook",
-      "title": "유로 지역 성장 전망 상향…내년 물가 전망도 높아졌다",
-      "section": "investment",
-      "category": "research",
+      "id": "9641185f3eae64c2a79ec417",
+      "anchor": "issue-7e832e295c7584bb",
+      "editorial_scope": "company",
+      "event_type": "capital_transaction",
+      "title": "링크솔루션, 300억 투자 유치…전환사채 발행 결정",
+      "section": "overnight",
+      "category": "economy",
       "summary": [
-        "자료는 중동 분쟁의 충격이 심해지거나 완화되는 경우를 나눠 성장과 물가의 예상 경로도 비교했다 . 성장 전망 상향 속 물가 부담 레인 발표 자료에 담긴 ECB 실무진의 9 월 전망에서 올해 성장률은 6 월 예상보다 0.1% 포인트 높아졌다 .",
-        "내년 물가 전망은 6 월보다 0.2% 포인트 높아졌다 . 2028 년 물가 상승률 전망은 2.1% 다 .",
-        "전체 소비자물가의 올해 4 분기 상승률 전망은 전년 동기 대비 3.6% 다 .",
-        "같은 조건에서 내년 물가 상승률은 5.4% 로 예상했다 ."
+        "3D프린팅 기반 스마트제조 전문기업 링크솔루션(474650)이 항공·우주, 방산, 휴머노이드, AI(인공지능) 데이터센터 열관리 등 첨단부품 파운드리 사업 확대를 위해 300억원 규모의 제1회 사모 전환사채(CB) 발행을 결정했다고 15일 공시했다.",
+        "이번 CB는 전환가액이 기준주가 대비 30% 할증된 주당 3만 2823원이며, 표면 및 만기 이자율은 모두 0%다.",
+        "특히 주가 하락에 따른 리픽싱(전환가액 조정) 조건 없이 발행되어, 금융비용 절감과 기존 주주들의 지분 희석 부담을 최대로 줄인 조건으로 성장 투자 재원을 확보하게 됐다.",
+        "링크솔루션은 이번에 조달한 자금을 통해 고부가가치 산업군에 대응하는 신규 파운드리 공장 구축을 추진한다."
       ],
-      "change": "이전 사건과 동일한 정보를 재확인. 전망 변경 여부는 미판정",
+      "change": "비교 가능한 과거 자료 없음 — 상향·하향·전망 변경 여부 미판정",
       "claims": [
         {
-          "id": "37472ff1b1ff0411b0798486",
-          "text": "자료는 중동 분쟁의 충격이 심해지거나 완화되는 경우를 나눠 성장과 물가의 예상 경로도 비교했다 . 성장 전망 상향 속 물가 부담 레인 발표 자료에 담긴 ECB 실무진의 9 월 전망에서 올해 성장률은 6 월 예상보다 0.1% 포인트 높아졌다 .",
-          "kind": "author_opinion",
-          "author": "김주원",
+          "id": "487c3ce08f41a319752a66e7",
+          "text": "3D프린팅 기반 스마트제조 전문기업 링크솔루션(474650)이 항공·우주, 방산, 휴머노이드, AI(인공지능) 데이터센터 열관리 등 첨단부품 파운드리 사업 확대를 위해 300억원 규모의 제1회 사모 전환사채(CB) 발행을 결정했다고 15일 공시했다.",
+          "kind": "fact",
+          "author": "이데일리",
           "source_ids": [
-            "bf7bb10e3875c0b108d3cca3"
+            "7598ea151afb82b8cde93a5f"
           ],
           "evidence": [
             {
-              "source_id": "bf7bb10e3875c0b108d3cca3",
-              "source_version_id": "7815efc79e6fa78536c92025",
-              "start": 292,
-              "end": 427,
-              "text": "자료는 중동 분쟁의 충격이 심해지거나 완화되는 경우를 나눠 성장과 물가의 예상 경로도 비교했다 . 성장 전망 상향 속 물가 부담 레인 발표 자료에 담긴 ECB 실무진의 9 월 전망에서 올해 성장률은 6 월 예상보다 0.1% 포인트 높아졌다 .",
+              "source_id": "7598ea151afb82b8cde93a5f",
+              "source_version_id": "92de727b790878c093de339e",
+              "start": 14,
+              "end": 153,
+              "text": "3D프린팅 기반 스마트제조 전문기업 링크솔루션(474650)이 항공·우주, 방산, 휴머노이드, AI(인공지능) 데이터센터 열관리 등 첨단부품 파운드리 사업 확대를 위해 300억원 규모의 제1회 사모 전환사채(CB) 발행을 결정했다고 15일 공시했다.",
               "source_excerpt_truncated": false,
               "excerpt_truncated": false,
               "location": "본문",
-              "display_text": "자료는 중동 분쟁의 충격이 심해지거나 완화되는 경우를 나눠 성장과 물가의 예상 경로도 비교했다 . 성장 전망 상향 속 물가 부담 레인 발표 자료에 담긴 ECB 실무진의 9 월 전망에서 올해 성장률은 6 월 예상보다 0.1% 포인트 높아졌다 .",
+              "display_text": "3D프린팅 기반 스마트제조 전문기업 링크솔루션(474650)이 항공·우주, 방산, 휴머노이드, AI(인공지능) 데이터센터 열관리 등 첨단부품 파운드리 사업 확대를 위해 300억원 규모의 제1회 사모 전환사채(CB) 발행을 결정했다고 15일 공시했다.",
               "is_translation": false
             }
           ],
@@ -4567,29 +4987,29 @@
             "status": "source_checked",
             "source_linkage": "passed",
             "content_check": "exact_quote",
-            "assertion_type": "forecast"
+            "assertion_type": "observation"
           },
           "numbers": []
         },
         {
-          "id": "480eaabec0ed224c186a72f3",
-          "text": "내년 물가 전망은 6 월보다 0.2% 포인트 높아졌다 . 2028 년 물가 상승률 전망은 2.1% 다 .",
-          "kind": "author_opinion",
-          "author": "김주원",
+          "id": "5881028a7277971296da1d30",
+          "text": "이번 CB는 전환가액이 기준주가 대비 30% 할증된 주당 3만 2823원이며, 표면 및 만기 이자율은 모두 0%다.",
+          "kind": "fact",
+          "author": "이데일리",
           "source_ids": [
-            "bf7bb10e3875c0b108d3cca3"
+            "7598ea151afb82b8cde93a5f"
           ],
           "evidence": [
             {
-              "source_id": "bf7bb10e3875c0b108d3cca3",
-              "source_version_id": "7815efc79e6fa78536c92025",
-              "start": 644,
-              "end": 702,
-              "text": "내년 물가 전망은 6 월보다 0.2% 포인트 높아졌다 . 2028 년 물가 상승률 전망은 2.1% 다 .",
+              "source_id": "7598ea151afb82b8cde93a5f",
+              "source_version_id": "92de727b790878c093de339e",
+              "start": 155,
+              "end": 219,
+              "text": "이번 CB는 전환가액이 기준주가 대비 30% 할증된 주당 3만 2823원이며, 표면 및 만기 이자율은 모두 0%다.",
               "source_excerpt_truncated": false,
               "excerpt_truncated": false,
               "location": "본문",
-              "display_text": "내년 물가 전망은 6 월보다 0.2% 포인트 높아졌다 . 2028 년 물가 상승률 전망은 2.1% 다 .",
+              "display_text": "이번 CB는 전환가액이 기준주가 대비 30% 할증된 주당 3만 2823원이며, 표면 및 만기 이자율은 모두 0%다.",
               "is_translation": false
             }
           ],
@@ -4602,29 +5022,29 @@
             "status": "source_checked",
             "source_linkage": "passed",
             "content_check": "exact_quote",
-            "assertion_type": "forecast"
+            "assertion_type": "observation"
           },
           "numbers": []
         },
         {
-          "id": "67a5d0b284a2d4efd0cab91c",
-          "text": "전체 소비자물가의 올해 4 분기 상승률 전망은 전년 동기 대비 3.6% 다 .",
-          "kind": "author_opinion",
-          "author": "김주원",
+          "id": "e39fb794b179173662d19fe3",
+          "text": "특히 주가 하락에 따른 리픽싱(전환가액 조정) 조건 없이 발행되어, 금융비용 절감과 기존 주주들의 지분 희석 부담을 최대로 줄인 조건으로 성장 투자 재원을 확보하게 됐다.",
+          "kind": "fact",
+          "author": "이데일리",
           "source_ids": [
-            "bf7bb10e3875c0b108d3cca3"
+            "7598ea151afb82b8cde93a5f"
           ],
           "evidence": [
             {
-              "source_id": "bf7bb10e3875c0b108d3cca3",
-              "source_version_id": "7815efc79e6fa78536c92025",
-              "start": 942,
-              "end": 985,
-              "text": "전체 소비자물가의 올해 4 분기 상승률 전망은 전년 동기 대비 3.6% 다 .",
+              "source_id": "7598ea151afb82b8cde93a5f",
+              "source_version_id": "92de727b790878c093de339e",
+              "start": 220,
+              "end": 315,
+              "text": "특히 주가 하락에 따른 리픽싱(전환가액 조정) 조건 없이 발행되어, 금융비용 절감과 기존 주주들의 지분 희석 부담을 최대로 줄인 조건으로 성장 투자 재원을 확보하게 됐다.",
               "source_excerpt_truncated": false,
               "excerpt_truncated": false,
               "location": "본문",
-              "display_text": "전체 소비자물가의 올해 4 분기 상승률 전망은 전년 동기 대비 3.6% 다 .",
+              "display_text": "특히 주가 하락에 따른 리픽싱(전환가액 조정) 조건 없이 발행되어, 금융비용 절감과 기존 주주들의 지분 희석 부담을 최대로 줄인 조건으로 성장 투자 재원을 확보하게 됐다.",
               "is_translation": false
             }
           ],
@@ -4637,29 +5057,29 @@
             "status": "source_checked",
             "source_linkage": "passed",
             "content_check": "exact_quote",
-            "assertion_type": "forecast"
+            "assertion_type": "observation"
           },
           "numbers": []
         },
         {
-          "id": "6c5ed5e28d3fe7cd3ada6496",
-          "text": "같은 조건에서 내년 물가 상승률은 5.4% 로 예상했다 .",
-          "kind": "author_opinion",
-          "author": "김주원",
+          "id": "2a09a7ad48d1e772b76a973c",
+          "text": "링크솔루션은 이번에 조달한 자금을 통해 고부가가치 산업군에 대응하는 신규 파운드리 공장 구축을 추진한다.",
+          "kind": "fact",
+          "author": "이데일리",
           "source_ids": [
-            "bf7bb10e3875c0b108d3cca3"
+            "7598ea151afb82b8cde93a5f"
           ],
           "evidence": [
             {
-              "source_id": "bf7bb10e3875c0b108d3cca3",
-              "source_version_id": "7815efc79e6fa78536c92025",
-              "start": 1287,
-              "end": 1319,
-              "text": "같은 조건에서 내년 물가 상승률은 5.4% 로 예상했다 .",
+              "source_id": "7598ea151afb82b8cde93a5f",
+              "source_version_id": "92de727b790878c093de339e",
+              "start": 317,
+              "end": 375,
+              "text": "링크솔루션은 이번에 조달한 자금을 통해 고부가가치 산업군에 대응하는 신규 파운드리 공장 구축을 추진한다.",
               "source_excerpt_truncated": false,
               "excerpt_truncated": false,
               "location": "본문",
-              "display_text": "같은 조건에서 내년 물가 상승률은 5.4% 로 예상했다 .",
+              "display_text": "링크솔루션은 이번에 조달한 자금을 통해 고부가가치 산업군에 대응하는 신규 파운드리 공장 구축을 추진한다.",
               "is_translation": false
             }
           ],
@@ -4672,24 +5092,24 @@
             "status": "source_checked",
             "source_linkage": "passed",
             "content_check": "exact_quote",
-            "assertion_type": "forecast"
+            "assertion_type": "observation"
           },
           "numbers": []
         }
       ],
       "event_schedules": [],
       "document_ids": [
-        "bf7bb10e3875c0b108d3cca3"
+        "7598ea151afb82b8cde93a5f"
       ],
       "source_versions": [
-        "7815efc79e6fa78536c92025"
+        "92de727b790878c093de339e"
       ],
       "entities": [],
       "selection_reason": [
         "수집 범위 내 독립 발행자 1개",
-        "자료 기준 경과 28.7시간",
-        "이전 입력과 중복 내용",
-        "수치가 명시된 전망 변경; 관측 사실과 구분"
+        "자료 기준 경과 0.9시간",
+        "이전 입력 대비 신규 문서",
+        "원문에 실행·결정 근거가 있는 기업 계약·제품·자본거래·승인"
       ],
       "follow_up": [
         "원문과 기간·단위·작성 주체를 확인하고 해석을 검토하세요."
@@ -4705,8 +5125,197 @@
       "has_full_text": true,
       "has_message_text": false,
       "prior_day_follow_up": false,
-      "original_title": "유로 지역 성장 전망 상향…내년 물가 전망도 높아졌다",
-      "source_title_ko": "유로 지역 성장 전망 상향…내년 물가 전망도 높아졌다",
+      "original_title": "링크솔루션, 300억 투자 유치…전환사채 발행 결정",
+      "source_title_ko": "링크솔루션, 300억 투자 유치…전환사채 발행 결정",
+      "korean_required": true
+    },
+    {
+      "id": "331995b14040a102b5d8cdc9",
+      "anchor": "issue-fe9ec16d9bdac550",
+      "editorial_scope": "company",
+      "event_type": "company_regulation",
+      "title": "[단독] \"조사한 곳 0%인데 왜 우린 4.32%냐\"…효성·LS, 美 관세 불복소송",
+      "section": "overnight",
+      "category": "economy",
+      "summary": [
+        "HD현대·일진 덤핑마진 0% 판정…미조사 업체에 자의적 부과 반발 대형변압기 수출보증금 부담직결…국제무역법원 산정 적법성 다퉈",
+        "미국 전력망 투자 확대의 수혜를 받아 수출을 늘리고 있는 효성중공업과 LS일렉트릭이 미국 정부를 상대로 법정 싸움에 들어갔다.",
+        "미 상무부가 한국산 대형 전력용 변압기 반덤핑 행정재심에서 두 회사에 각각 4.32%의 덤핑마진을 부과하자 이에 불복해 미국 국제무역법원(CIT)에 소송을 제기했다.",
+        "특히 이번 재심에서 상무부가 직접 조사한 HD현대일렉트릭과 일진전기의 덤핑마진은 모두 0%로 판정됐다."
+      ],
+      "change": "비교 가능한 과거 자료 없음 — 상향·하향·전망 변경 여부 미판정",
+      "claims": [
+        {
+          "id": "3d0921b8b32ec6390bddc31b",
+          "text": "HD현대·일진 덤핑마진 0% 판정…미조사 업체에 자의적 부과 반발 대형변압기 수출보증금 부담직결…국제무역법원 산정 적법성 다퉈",
+          "kind": "fact",
+          "author": "김현호 기자",
+          "source_ids": [
+            "91c9da52d2c94a06e11fc7b4"
+          ],
+          "evidence": [
+            {
+              "source_id": "91c9da52d2c94a06e11fc7b4",
+              "source_version_id": "15181d4dae7f7a42c229c480",
+              "start": 0,
+              "end": 70,
+              "text": "HD현대·일진 덤핑마진 0% 판정…미조사 업체에 자의적 부과 반발 대형변압기 수출보증금 부담직결…국제무역법원 산정 적법성 다퉈",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "HD현대·일진 덤핑마진 0% 판정…미조사 업체에 자의적 부과 반발 대형변압기 수출보증금 부담직결…국제무역법원 산정 적법성 다퉈",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "dc9354e5cf174fc034b7de7e",
+          "text": "미국 전력망 투자 확대의 수혜를 받아 수출을 늘리고 있는 효성중공업과 LS일렉트릭이 미국 정부를 상대로 법정 싸움에 들어갔다.",
+          "kind": "fact",
+          "author": "김현호 기자",
+          "source_ids": [
+            "91c9da52d2c94a06e11fc7b4"
+          ],
+          "evidence": [
+            {
+              "source_id": "91c9da52d2c94a06e11fc7b4",
+              "source_version_id": "15181d4dae7f7a42c229c480",
+              "start": 72,
+              "end": 142,
+              "text": "미국 전력망 투자 확대의 수혜를 받아 수출을 늘리고 있는 효성중공업과 LS일렉트릭이 미국 정부를 상대로 법정 싸움에 들어갔다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "미국 전력망 투자 확대의 수혜를 받아 수출을 늘리고 있는 효성중공업과 LS일렉트릭이 미국 정부를 상대로 법정 싸움에 들어갔다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "a8896cc6fb6b8e6fe7007c83",
+          "text": "미 상무부가 한국산 대형 전력용 변압기 반덤핑 행정재심에서 두 회사에 각각 4.32%의 덤핑마진을 부과하자 이에 불복해 미국 국제무역법원(CIT)에 소송을 제기했다.",
+          "kind": "fact",
+          "author": "김현호 기자",
+          "source_ids": [
+            "91c9da52d2c94a06e11fc7b4"
+          ],
+          "evidence": [
+            {
+              "source_id": "91c9da52d2c94a06e11fc7b4",
+              "source_version_id": "15181d4dae7f7a42c229c480",
+              "start": 143,
+              "end": 235,
+              "text": "미 상무부가 한국산 대형 전력용 변압기 반덤핑 행정재심에서 두 회사에 각각 4.32%의 덤핑마진을 부과하자 이에 불복해 미국 국제무역법원(CIT)에 소송을 제기했다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "미 상무부가 한국산 대형 전력용 변압기 반덤핑 행정재심에서 두 회사에 각각 4.32%의 덤핑마진을 부과하자 이에 불복해 미국 국제무역법원(CIT)에 소송을 제기했다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "fdc93af6f1ae2eaadef1736c",
+          "text": "특히 이번 재심에서 상무부가 직접 조사한 HD현대일렉트릭과 일진전기의 덤핑마진은 모두 0%로 판정됐다.",
+          "kind": "fact",
+          "author": "김현호 기자",
+          "source_ids": [
+            "91c9da52d2c94a06e11fc7b4"
+          ],
+          "evidence": [
+            {
+              "source_id": "91c9da52d2c94a06e11fc7b4",
+              "source_version_id": "15181d4dae7f7a42c229c480",
+              "start": 237,
+              "end": 294,
+              "text": "특히 이번 재심에서 상무부가 직접 조사한 HD현대일렉트릭과 일진전기의 덤핑마진은 모두 0%로 판정됐다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "특히 이번 재심에서 상무부가 직접 조사한 HD현대일렉트릭과 일진전기의 덤핑마진은 모두 0%로 판정됐다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        }
+      ],
+      "event_schedules": [],
+      "document_ids": [
+        "91c9da52d2c94a06e11fc7b4"
+      ],
+      "source_versions": [
+        "15181d4dae7f7a42c229c480"
+      ],
+      "entities": [],
+      "selection_reason": [
+        "수집 범위 내 독립 발행자 1개",
+        "자료 기준 경과 2.8시간",
+        "이전 입력과 중복 내용",
+        "기존 관세·정책에 대한 법적 불복 절차 개시; 제도 변경과 구분"
+      ],
+      "follow_up": [
+        "원문과 기간·단위·작성 주체를 확인하고 해석을 검토하세요."
+      ],
+      "confidence": "source_checked",
+      "related_issue_id": null,
+      "late_discovered": false,
+      "analysis_provider": "extractive",
+      "model_status": "not_needed_source_korean",
+      "analysis_label": "한국어 원문에서 핵심 문장 선별",
+      "evidence_expired": false,
+      "evidence_partially_expired": false,
+      "has_full_text": true,
+      "has_message_text": false,
+      "prior_day_follow_up": false,
+      "original_title": "[단독] \"조사한 곳 0%인데 왜 우린 4.32%냐\"…효성·LS, 美 관세 불복소송",
+      "source_title_ko": "[단독] \"조사한 곳 0%인데 왜 우린 4.32%냐\"…효성·LS, 美 관세 불복소송",
       "korean_required": true
     },
     {
@@ -4876,8 +5485,8 @@
       "entities": [],
       "selection_reason": [
         "수집 범위 내 독립 발행자 1개",
-        "자료 기준 경과 5.6시간",
-        "이전 입력 대비 신규 문서",
+        "자료 기준 경과 7.3시간",
+        "이전 입력과 중복 내용",
         "원문에 실행·결정 근거가 있는 기업 계약·제품·자본거래·승인"
       ],
       "follow_up": [
@@ -4904,37 +5513,37 @@
       "source_id": "naver_general",
       "name": "네이버 종합 뉴스",
       "status": "ok",
-      "document_count": 308
+      "document_count": 404
     },
     {
       "source_id": "naver_investment",
       "name": "네이버 투자 뉴스",
       "status": "ok",
-      "document_count": 230
+      "document_count": 315
     },
     {
       "source_id": "naver_blog",
       "name": "네이버 블로그",
       "status": "ok",
-      "document_count": 4
+      "document_count": 37
     },
     {
       "source_id": "naver_einfomax",
       "name": "연합인포맥스 · 네이버 검색",
       "status": "ok",
-      "document_count": 11
+      "document_count": 12
     },
     {
       "source_id": "einfomax",
       "name": "연합인포맥스",
-      "status": "ok",
+      "status": "partial",
       "document_count": 20
     },
     {
       "source_id": "telegram_joined",
       "name": "가입 텔레그램 채널·그룹",
       "status": "ok",
-      "document_count": 111
+      "document_count": 52
     },
     {
       "source_id": "hani_general",
@@ -4975,8 +5584,8 @@
     {
       "source_id": "nvidia_ir",
       "name": "엔비디아 기업 발표",
-      "status": "ok",
-      "document_count": 2
+      "status": "no_news",
+      "document_count": 0
     },
     {
       "source_id": "sec_press",
@@ -5018,19 +5627,19 @@
       "source_id": "hani_economy",
       "name": "한겨레 경제",
       "status": "ok",
-      "document_count": 3
+      "document_count": 2
     },
     {
       "source_id": "bbc_business",
       "name": "비비시 경제",
       "status": "ok",
-      "document_count": 6
+      "document_count": 1
     },
     {
       "source_id": "cnbc_finance",
       "name": "시엔비시 금융",
-      "status": "ok",
-      "document_count": 3
+      "status": "no_news",
+      "document_count": 0
     },
     {
       "source_id": "cnbc_economy",
@@ -5047,32 +5656,11 @@
     {
       "source_id": "guardian_business",
       "name": "가디언 경제",
-      "status": "ok",
-      "document_count": 3
+      "status": "no_news",
+      "document_count": 0
     }
   ],
   "documents": [
-    {
-      "id": "81980aba84249f6660fcbb0e",
-      "version_id": "069016548615e5eab82c2cdc",
-      "source_id": "naver_general",
-      "source_kind": "news",
-      "title": "NH證 \"삼성SDI, 각형·원통형 선호로 수주 경쟁력 강화…목표가 73만원\" | 아주경제",
-      "publisher": "아주경제",
-      "author": "신동근",
-      "url": "https://www.ajunews.com/view/20260915081201632",
-      "published_at": "2026-09-14T23:13:23+00:00",
-      "provided_at": "2026-09-14T23:14:00+00:00",
-      "modified_at": "2026-09-14T23:13:23+00:00",
-      "collected_at": "2026-09-14T23:16:02.550576+00:00",
-      "event_at": null,
-      "time_basis": "original_published_at",
-      "full_text": true,
-      "text_scope": "기사·문서 본문 확보",
-      "evidence_expired": false,
-      "extraction_quality": "article_text",
-      "synthetic": false
-    },
     {
       "id": "1463afdb6e605976216d467b",
       "version_id": "107b24a942cc54f80436fc06",
@@ -5107,6 +5695,27 @@
       "provided_at": "2026-09-14T22:34:00+00:00",
       "modified_at": "2026-09-14T22:34:01+00:00",
       "collected_at": "2026-09-14T23:14:43.954168+00:00",
+      "event_at": null,
+      "time_basis": "original_published_at",
+      "full_text": true,
+      "text_scope": "기사·문서 본문 확보",
+      "evidence_expired": false,
+      "extraction_quality": "article_text",
+      "synthetic": false
+    },
+    {
+      "id": "2b33630ebf23b7011394c391",
+      "version_id": "1a0dec8d8ac314850b5f624a",
+      "source_id": "naver_general",
+      "source_kind": "news",
+      "title": "美 10년물 국채금리 '심리적 저항선' 5% 돌파…2023년 10월 이후 처음",
+      "publisher": "뉴시스",
+      "author": "고재은",
+      "url": "https://www.newsis.com/view/NISX20260914_0003789288",
+      "published_at": "2026-09-14T15:07:31+00:00",
+      "provided_at": "2026-09-14T15:07:00+00:00",
+      "modified_at": "2026-09-14T15:19:36+00:00",
+      "collected_at": "2026-09-14T20:04:21.974846+00:00",
       "event_at": null,
       "time_basis": "original_published_at",
       "full_text": true,
@@ -5158,6 +5767,27 @@
       "synthetic": false
     },
     {
+      "id": "7440d10a3ef8dae59841c120",
+      "version_id": "22299e73a7b3c91634f990f2",
+      "source_id": "naver_general",
+      "source_kind": "news",
+      "title": "조현준 승부수 통했다…효성重, 美빅테크서 3865억원 수주",
+      "publisher": "ETODAY",
+      "author": "김민서",
+      "url": "https://www.etoday.co.kr/news/view/2625573",
+      "published_at": "2026-09-15T00:25:00+00:00",
+      "provided_at": "2026-09-15T00:26:00+00:00",
+      "modified_at": "2026-09-15T00:28:00+00:00",
+      "collected_at": "2026-09-15T00:41:37.363093+00:00",
+      "event_at": null,
+      "time_basis": "original_published_at",
+      "full_text": true,
+      "text_scope": "기사·문서 본문 확보",
+      "evidence_expired": false,
+      "extraction_quality": "article_text",
+      "synthetic": false
+    },
+    {
       "id": "37effc2379ccd9466e1729c9",
       "version_id": "2269c333dacd38ff638cda58",
       "source_id": "naver_general",
@@ -5170,6 +5800,48 @@
       "provided_at": "2026-09-14T05:16:00+00:00",
       "modified_at": null,
       "collected_at": "2026-09-14T12:07:08.170141+00:00",
+      "event_at": null,
+      "time_basis": "original_published_at",
+      "full_text": true,
+      "text_scope": "기사·문서 본문 확보",
+      "evidence_expired": false,
+      "extraction_quality": "article_text",
+      "synthetic": false
+    },
+    {
+      "id": "162b86fc2753b1b2e77b9339",
+      "version_id": "2d4743a9e155433defa9230c",
+      "source_id": "naver_investment",
+      "source_kind": "news",
+      "title": "효성 조현준 AI 승부수 통했다…美 빅테크서 3865억원 수주",
+      "publisher": "대한경제",
+      "author": "",
+      "url": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202609150938122500042",
+      "published_at": null,
+      "provided_at": "2026-09-15T00:42:00+00:00",
+      "modified_at": null,
+      "collected_at": "2026-09-15T00:47:05.520208+00:00",
+      "event_at": null,
+      "time_basis": "naver_provided_at",
+      "full_text": false,
+      "text_scope": "검색 요약·발췌만 확인",
+      "evidence_expired": false,
+      "extraction_quality": "snippet_only",
+      "synthetic": false
+    },
+    {
+      "id": "a0c3faa90efc46f01c18a1df",
+      "version_id": "2dfa6ec69762a99acb71226d",
+      "source_id": "naver_general",
+      "source_kind": "news",
+      "title": "뉴욕증시, 국채금리·유가 상승에 일제히 하락…나스닥 0.56%↓",
+      "publisher": "이슈앤비즈",
+      "author": "",
+      "url": "http://www.issuenbiz.com/news/articleView.html?idxno=79749",
+      "published_at": "2026-09-14T23:06:56+00:00",
+      "provided_at": "2026-09-14T23:08:00+00:00",
+      "modified_at": null,
+      "collected_at": "2026-09-14T23:16:16.393794+00:00",
       "event_at": null,
       "time_basis": "original_published_at",
       "full_text": true,
@@ -5197,27 +5869,6 @@
       "text_scope": "기사·문서 본문 확보",
       "evidence_expired": false,
       "extraction_quality": "article_text",
-      "synthetic": false
-    },
-    {
-      "id": "09d222337f70a224f7053ce9",
-      "version_id": "34c076b458462dc990fa1e09",
-      "source_id": "naver_general",
-      "source_kind": "news",
-      "title": "美10년물 국채금리 '심리적 저항선' 5% 돌파…2023년 후 처음(종합)",
-      "publisher": "www.yna.co.kr",
-      "author": "",
-      "url": "https://www.yna.co.kr/view/AKR20260914175352072?input=1195m",
-      "published_at": null,
-      "provided_at": "2026-09-14T15:46:00+00:00",
-      "modified_at": null,
-      "collected_at": "2026-09-14T23:13:18.649488+00:00",
-      "event_at": null,
-      "time_basis": "naver_provided_at",
-      "full_text": false,
-      "text_scope": "검색 요약·발췌만 확인",
-      "evidence_expired": false,
-      "extraction_quality": "snippet_only",
       "synthetic": false
     },
     {
@@ -5263,41 +5914,20 @@
       "synthetic": false
     },
     {
-      "id": "f6d74ef1a47ebdb83b40fdf7",
-      "version_id": "5d3934a131135045a2a19010",
-      "source_id": "naver_investment",
+      "id": "a57a30b041162376c7f8cbd3",
+      "version_id": "6041d4886948ceba03db0ae8",
+      "source_id": "naver_general",
       "source_kind": "news",
-      "title": "유가 요동, AI 의구심 속...일본증시 '장중 뚝', 소프트뱅크 '급락'",
-      "publisher": "초이스경제",
-      "author": "",
-      "url": "http://www.choicenews.co.kr/news/articleView.html?idxno=171268",
-      "published_at": "2026-09-14T05:20:32+00:00",
-      "provided_at": "2026-09-14T05:22:00+00:00",
+      "title": "美10년물 국채금리 ‘심리적 저항선’ 5% 돌파…2023년 이후 처음",
+      "publisher": "쿠키뉴스",
+      "author": "쿠키뉴스",
+      "url": "https://www.kukinews.com/article/view/kuk202609150002",
+      "published_at": null,
+      "provided_at": "2026-09-14T21:06:00+00:00",
       "modified_at": null,
-      "collected_at": "2026-09-14T12:02:25.143492+00:00",
+      "collected_at": "2026-09-14T23:17:56.757931+00:00",
       "event_at": null,
-      "time_basis": "original_published_at",
-      "full_text": true,
-      "text_scope": "기사·문서 본문 확보",
-      "evidence_expired": false,
-      "extraction_quality": "article_text",
-      "synthetic": false
-    },
-    {
-      "id": "d92a8cc6aa8ebc74be5885be",
-      "version_id": "63e8edf889b46c482636afb3",
-      "source_id": "naver_investment",
-      "source_kind": "news",
-      "title": "[美증시 특징주] 구글 알파벳 급등…AI경쟁 속도조절+분기배당금 지급 효과",
-      "publisher": "미디어펜",
-      "author": "김종현",
-      "url": "https://www.mediapen.com/news/view/1123494",
-      "published_at": "2026-09-14T22:15:26+00:00",
-      "provided_at": "2026-09-14T22:16:00+00:00",
-      "modified_at": "2026-09-14T22:15:26+00:00",
-      "collected_at": "2026-09-14T23:21:08.885494+00:00",
-      "event_at": null,
-      "time_basis": "original_published_at",
+      "time_basis": "naver_provided_at",
       "full_text": true,
       "text_scope": "기사·문서 본문 확보",
       "evidence_expired": false,
@@ -5326,18 +5956,18 @@
       "synthetic": false
     },
     {
-      "id": "b9dd2141cd3a1948dd09e2ca",
-      "version_id": "713d408a438f6ced9804cdaa",
-      "source_id": "naver_investment",
+      "id": "0d95dde32ff77561662debc3",
+      "version_id": "84652b19d9ee9e8630096f21",
+      "source_id": "telegram_joined",
       "source_kind": "news",
-      "title": "[뉴욕마켓워치] 사우디 송유관 가동 중단에 다급해진 트럼프…주식↓채권·달러↑",
-      "publisher": "연합인포맥스",
-      "author": "",
-      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434828",
-      "published_at": "2026-09-14T23:18:48+00:00",
-      "provided_at": "2026-09-14T23:20:00+00:00",
-      "modified_at": null,
-      "collected_at": "2026-09-14T23:25:47.826340+00:00",
+      "title": "오픈AI가 스마트폰 카메라 제조사 글래스 이미징을 $3억에 인수했다고 보도가 나왔다.",
+      "publisher": "TechCrunch",
+      "author": "Amanda Silberling",
+      "url": "https://da.gd/hxC0Jj",
+      "published_at": "2026-09-14T20:44:14+00:00",
+      "provided_at": null,
+      "modified_at": "2026-09-14T21:04:35+00:00",
+      "collected_at": "2026-09-15T01:19:59.460116+00:00",
       "event_at": null,
       "time_basis": "original_published_at",
       "full_text": true,
@@ -5347,102 +5977,18 @@
       "synthetic": false
     },
     {
-      "id": "7c6b92caf6db523d7738a655",
-      "version_id": "74ddb07642e7bf6bee45887b",
+      "id": "7598ea151afb82b8cde93a5f",
+      "version_id": "92de727b790878c093de339e",
       "source_id": "naver_general",
       "source_kind": "news",
-      "title": "美10년물 국채금리 '심리적 저항선' 5% 돌파…2023년 후 처음",
-      "publisher": "컨슈머타임스(Consumertimes)",
+      "title": "링크솔루션, 300억 투자 유치…전환사채 발행 결정",
+      "publisher": "이데일리",
       "author": "",
-      "url": "https://www.cstimes.com/news/articleView.html?idxno=720631",
-      "published_at": "2026-09-14T23:11:53+00:00",
-      "provided_at": "2026-09-14T23:12:00+00:00",
+      "url": "https://www.edaily.co.kr/News/Read?newsId=02788006645580448&mediaCodeNo=257",
+      "published_at": "2026-09-15T00:28:04+00:00",
+      "provided_at": "2026-09-15T00:30:00+00:00",
       "modified_at": null,
-      "collected_at": "2026-09-14T23:17:32.390347+00:00",
-      "event_at": null,
-      "time_basis": "original_published_at",
-      "full_text": true,
-      "text_scope": "기사·문서 본문 확보",
-      "evidence_expired": false,
-      "extraction_quality": "article_text",
-      "synthetic": false
-    },
-    {
-      "id": "bf7bb10e3875c0b108d3cca3",
-      "version_id": "7815efc79e6fa78536c92025",
-      "source_id": "naver_investment",
-      "source_kind": "news",
-      "title": "유로 지역 성장 전망 상향…내년 물가 전망도 높아졌다",
-      "publisher": "글로벌이코노믹",
-      "author": "김주원",
-      "url": "https://www.g-enews.com/view.php?ud=202609131712312732fbbec65dfb_1",
-      "published_at": "2026-09-13T19:00:00+00:00",
-      "provided_at": "2026-09-13T19:02:00+00:00",
-      "modified_at": "2026-09-13T19:00:00+00:00",
-      "collected_at": "2026-09-14T12:03:12.851093+00:00",
-      "event_at": null,
-      "time_basis": "original_published_at",
-      "full_text": true,
-      "text_scope": "기사·문서 본문 확보",
-      "evidence_expired": false,
-      "extraction_quality": "article_text",
-      "synthetic": false
-    },
-    {
-      "id": "6481d04a30a7a2de0426345c",
-      "version_id": "7fc4d63cab6061a038d1b179",
-      "source_id": "naver_investment",
-      "source_kind": "news",
-      "title": "소프트뱅크 650억달러 AI 베팅…시장은 '13% 급락'으로 답했다 - 조세일보",
-      "publisher": "www.joseilbo.com",
-      "author": "",
-      "url": "http://www.joseilbo.com/news/news_read.php?uid=575634&class=78&grp=",
-      "published_at": "2026-09-14T06:21:17+00:00",
-      "provided_at": "2026-09-14T06:22:00+00:00",
-      "modified_at": null,
-      "collected_at": "2026-09-14T10:12:36.394991+00:00",
-      "event_at": null,
-      "time_basis": "original_published_at",
-      "full_text": true,
-      "text_scope": "기사·문서 본문 확보",
-      "evidence_expired": false,
-      "extraction_quality": "article_text",
-      "synthetic": false
-    },
-    {
-      "id": "9bb7f8a56f73ed7376ab9e93",
-      "version_id": "81ae4daa0fbecb7ead810343",
-      "source_id": "naver_investment",
-      "source_kind": "news",
-      "title": "[美증시 특징주] 트럼프와'동맹' 럼그룹 11% 급등…앤트로픽 137억 달러 투자 호재",
-      "publisher": "미디어펜",
-      "author": "김종현",
-      "url": "https://www.mediapen.com/news/view/1123501",
-      "published_at": "2026-09-14T22:40:31+00:00",
-      "provided_at": "2026-09-14T22:42:00+00:00",
-      "modified_at": "2026-09-14T22:40:31+00:00",
-      "collected_at": "2026-09-14T23:22:20.279455+00:00",
-      "event_at": null,
-      "time_basis": "original_published_at",
-      "full_text": true,
-      "text_scope": "기사·문서 본문 확보",
-      "evidence_expired": false,
-      "extraction_quality": "article_text",
-      "synthetic": false
-    },
-    {
-      "id": "bf7e0b52c2fbcd33b0817012",
-      "version_id": "8de8a9111a8f232faa7aac57",
-      "source_id": "naver_investment",
-      "source_kind": "news",
-      "title": "'고유가·고금리' 덮친 코스피 3.26% 급락…삼성전자·SK하이닉스 동반 하락 - 조세일보",
-      "publisher": "www.joseilbo.com",
-      "author": "",
-      "url": "http://www.joseilbo.com/news/news_read.php?uid=575643&class=53&grp=",
-      "published_at": "2026-09-14T06:50:00+00:00",
-      "provided_at": "2026-09-14T06:51:00+00:00",
-      "modified_at": null,
-      "collected_at": "2026-09-14T12:04:21.363280+00:00",
+      "collected_at": "2026-09-15T00:39:08.832991+00:00",
       "event_at": null,
       "time_basis": "original_published_at",
       "full_text": true,
@@ -5557,6 +6103,153 @@
       "synthetic": false
     },
     {
+      "id": "8fb41fda45740d0b8b509cf1",
+      "version_id": "b45e006a74909c5485874513",
+      "source_id": "naver_investment",
+      "source_kind": "news",
+      "title": "美 국채금리·유가 상승에 뉴욕증시 하락…나스닥 0.56%↓",
+      "publisher": "직썰",
+      "author": "",
+      "url": "https://www.ziksir.com/news/articleView.html?idxno=146405",
+      "published_at": "2026-09-14T23:16:47+00:00",
+      "provided_at": "2026-09-14T23:18:00+00:00",
+      "modified_at": null,
+      "collected_at": "2026-09-15T00:45:50.115436+00:00",
+      "event_at": null,
+      "time_basis": "original_published_at",
+      "full_text": true,
+      "text_scope": "기사·문서 본문 확보",
+      "evidence_expired": false,
+      "extraction_quality": "article_text",
+      "synthetic": false
+    },
+    {
+      "id": "2eb699113dfd45f2bb31c449",
+      "version_id": "b709d8077f5e5156c1fc8493",
+      "source_id": "naver_general",
+      "source_kind": "news",
+      "title": "반도체 호조 속 8월 수출 983억달러 역대 최대",
+      "publisher": "충청일보",
+      "author": "",
+      "url": "https://www.ccdailynews.com/news/articleView.html?idxno=2440778",
+      "published_at": "2026-09-15T00:23:31+00:00",
+      "provided_at": "2026-09-15T00:24:00+00:00",
+      "modified_at": null,
+      "collected_at": "2026-09-15T00:36:56.024696+00:00",
+      "event_at": null,
+      "time_basis": "original_published_at",
+      "full_text": true,
+      "text_scope": "기사·문서 본문 확보",
+      "evidence_expired": false,
+      "extraction_quality": "article_text",
+      "synthetic": false
+    },
+    {
+      "id": "428a68775c949433d1cd015d",
+      "version_id": "c60b0a66466e0fce65ae4d0f",
+      "source_id": "naver_investment",
+      "source_kind": "news",
+      "title": "앤트로픽, 친트럼프 럼그룹과 18조원대 컴퓨팅 계약",
+      "publisher": "조선비즈",
+      "author": "이호준 기자",
+      "url": "https://biz.chosun.com/it-science/ict/2026/09/14/D3XZVE3DCNFOPPIC5WSWKM4CQA/",
+      "published_at": "2026-09-14T06:51:57.775000+00:00",
+      "provided_at": "2026-09-14T06:53:00+00:00",
+      "modified_at": "2026-09-14T06:52:38.465000+00:00",
+      "collected_at": "2026-09-15T00:50:50.287419+00:00",
+      "event_at": null,
+      "time_basis": "original_published_at",
+      "full_text": true,
+      "text_scope": "기사·문서 본문 확보",
+      "evidence_expired": false,
+      "extraction_quality": "article_text",
+      "synthetic": false
+    },
+    {
+      "id": "a916223bd07293386411bf11",
+      "version_id": "c9ea9c969ea9a9901b14baf1",
+      "source_id": "naver_investment",
+      "source_kind": "news",
+      "title": "AI가 막아온 미국발 '고금리' 충격… 이제 '고유가'까지 덮친다[Deep Read]",
+      "publisher": "문화일보",
+      "author": "문화일보",
+      "url": "https://www.munhwa.com/article/11617039?ref=naver",
+      "published_at": "2026-09-15T00:30:50+00:00",
+      "provided_at": "2026-09-15T00:31:00+00:00",
+      "modified_at": "2026-09-15T00:37:43+00:00",
+      "collected_at": "2026-09-15T00:46:14.453511+00:00",
+      "event_at": null,
+      "time_basis": "original_published_at",
+      "full_text": true,
+      "text_scope": "기사·문서 본문 확보",
+      "evidence_expired": false,
+      "extraction_quality": "article_text",
+      "synthetic": false
+    },
+    {
+      "id": "60c20fd58f3a974bf8affe6f",
+      "version_id": "cf9e6194018b5843168984bd",
+      "source_id": "naver_investment",
+      "source_kind": "news",
+      "title": "[단독] 국내 은행 14곳, 대출 기준금리 0.72퍼센트포인트 내릴 때 실제 금리는 0.15퍼센트포인트 내려",
+      "publisher": "조선일보",
+      "author": "이준우 기자",
+      "url": "https://www.chosun.com/economy/stock-finance/2026/09/15/XA3GCRZVHVA6FBF2DNQXXLN3YI/",
+      "published_at": "2026-09-14T02:19:24.323000+00:00",
+      "provided_at": "2026-09-14T05:05:00+00:00",
+      "modified_at": "2026-09-14T05:47:56.156000+00:00",
+      "collected_at": "2026-09-15T00:48:34.775366+00:00",
+      "event_at": null,
+      "time_basis": "original_published_at",
+      "full_text": true,
+      "text_scope": "기사·문서 본문 확보",
+      "evidence_expired": false,
+      "extraction_quality": "article_text",
+      "synthetic": false
+    },
+    {
+      "id": "9e276ae8f32f0b4a6709dcbc",
+      "version_id": "d17b48e3adae9037b2f87a45",
+      "source_id": "naver_investment",
+      "source_kind": "news",
+      "title": "LS에코에너지, 가온전선 손잡고 美 태양광 전력망 시장 공략 가속",
+      "publisher": "아이뉴스24",
+      "author": "",
+      "url": "http://www.inews24.com/view/2005599",
+      "published_at": "2026-09-15T00:18:44+00:00",
+      "provided_at": "2026-09-15T00:19:00+00:00",
+      "modified_at": null,
+      "collected_at": "2026-09-15T00:47:23.555641+00:00",
+      "event_at": null,
+      "time_basis": "original_published_at",
+      "full_text": true,
+      "text_scope": "기사·문서 본문 확보",
+      "evidence_expired": false,
+      "extraction_quality": "article_text",
+      "synthetic": false
+    },
+    {
+      "id": "3f1d61a5f1808a4f57a5307b",
+      "version_id": "e0b9d6d1c4602b6f4e1d57ba",
+      "source_id": "naver_investment",
+      "source_kind": "news",
+      "title": "[개장 시황] 코스피, 하락 출발…미국 AI 속도조절론에 반도체 급락",
+      "publisher": "필드뉴스",
+      "author": "강현창 기자",
+      "url": "http://www.fieldnews.kr/news/articleView.html?idxno=31529",
+      "published_at": "2026-09-15T00:07:35+00:00",
+      "provided_at": "2026-09-15T00:08:00+00:00",
+      "modified_at": null,
+      "collected_at": "2026-09-15T00:45:31.476994+00:00",
+      "event_at": null,
+      "time_basis": "original_published_at",
+      "full_text": true,
+      "text_scope": "기사·문서 본문 확보",
+      "evidence_expired": false,
+      "extraction_quality": "article_text",
+      "synthetic": false
+    },
+    {
       "id": "9ca1909c4e8da368c5f4f6bc",
       "version_id": "e88b79ed454785da8585842b",
       "source_id": "naver_investment",
@@ -5599,6 +6292,27 @@
       "synthetic": false
     },
     {
+      "id": "d0a3b1481067f105f31c8b82",
+      "version_id": "f28376315479d31539e68bd4",
+      "source_id": "telegram_joined",
+      "source_kind": "news",
+      "title": "Z.ai 주가가 50억 달러 자금 조달 이후 10% 이상 급락, 2개월간 두 번째 대규모 자금 조달",
+      "publisher": "시엔비시",
+      "author": "Jenny Lee",
+      "url": "https://da.gd/kmH4dh",
+      "published_at": "2026-09-14T03:03:58+00:00",
+      "provided_at": null,
+      "modified_at": "2026-09-14T03:03:58+00:00",
+      "collected_at": "2026-09-15T01:19:59.420981+00:00",
+      "event_at": null,
+      "time_basis": "original_published_at",
+      "full_text": true,
+      "text_scope": "기사·문서 본문 확보",
+      "evidence_expired": false,
+      "extraction_quality": "article_text",
+      "synthetic": false
+    },
+    {
       "id": "54b6b7ac7cf9ee48ff217cae",
       "version_id": "f5c71f1bced46aed4caacee2",
       "source_id": "naver_general",
@@ -5618,36 +6332,54 @@
       "evidence_expired": false,
       "extraction_quality": "article_text",
       "synthetic": false
+    },
+    {
+      "id": "6a5d37c7a4e4faaf7af8b86a",
+      "version_id": "f67fc7d311f04df7b377ca14",
+      "source_id": "naver_general",
+      "source_kind": "news",
+      "title": "미국 10년물 국채금리, 심리적 저항선 ‘5%’ 돌파…2023년 이후 처음",
+      "publisher": "KyungHyangSinmun",
+      "author": "이보라",
+      "url": "https://www.khan.co.kr/article/202609150742001",
+      "published_at": "2026-09-14T22:42:00+00:00",
+      "provided_at": "2026-09-14T22:42:00+00:00",
+      "modified_at": "2026-09-14T23:27:00+00:00",
+      "collected_at": "2026-09-15T00:33:27.276033+00:00",
+      "event_at": null,
+      "time_basis": "original_published_at",
+      "full_text": true,
+      "text_scope": "기사·문서 본문 확보",
+      "evidence_expired": false,
+      "extraction_quality": "article_text",
+      "synthetic": false
     }
   ],
   "coverage": {
-    "window_start": "2026-09-08T08:39:20.969370+09:00",
+    "window_start": "2026-09-08T10:21:24.887750+09:00",
     "us_market_status": "거래일",
     "us_last_completed_session": "2026-09-14",
     "sectors": [],
     "countries": [
       "US"
     ],
-    "window_end_exclusive": "2026-09-15T08:39:20.969370+09:00",
-    "documents": 5440,
-    "full_text": 4709,
+    "window_end_exclusive": "2026-09-15T10:21:24.887750+09:00",
+    "documents": 5943,
+    "full_text": 5159,
     "missing_sources": [
       "bls_statistics"
     ],
-    "us_market_time": "2026-09-14T19:39:20.969370-04:00",
+    "us_market_time": "2026-09-14T21:21:24.887750-04:00",
     "exclusions": {
-      "older_than_window": 278,
+      "older_than_window": 287,
       "unknown_time": 418,
-      "published_after_cutoff": 418,
-      "collected_after_cutoff": 249,
-      "modified_after_cutoff": 27,
-      "superseded_versions": 563,
+      "superseded_versions": 745,
       "late_discovered": 0,
-      "selected": 5440
+      "selected": 5943
     },
     "categories": {
-      "economy": 2541,
-      "research": 2602,
+      "economy": 2867,
+      "research": 2779,
       "finance": 12,
       "general": 238,
       "international": 20,
@@ -5661,12 +6393,12 @@
   "korean_required": true,
   "translation": {
     "status": "complete",
-    "issues_completed": 26,
+    "issues_completed": 29,
     "issues_pending": 0,
-    "foreign_issues_completed": 3
+    "foreign_issues_completed": 5
   },
   "publication": {
-    "withheld_private_documents": 1439,
+    "withheld_private_documents": 1456,
     "full_text_included": false,
     "withheld_private_quote_issues": 0,
     "withheld_full_text_issues": 0,
