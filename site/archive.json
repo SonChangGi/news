@@ -3,12 +3,27 @@
   "visibility": "public",
   "base_path": "/news/",
   "timezone": "Asia/Seoul",
-  "latest_date": "2026-09-14",
-  "updated_at": "2026-09-14T14:46:41.571235+00:00",
+  "latest_date": "2026-09-15",
+  "updated_at": "2026-09-15T03:58:10.273923+00:00",
   "latest_url": "/news/",
   "archive_url": "/news/?archive=1",
   "manifest_url": "/news/archive.json",
   "entries": [
+    {
+      "date": "2026-09-15",
+      "url": "/news/daily/2026-09-15/index.html",
+      "report_url": "/news/daily/2026-09-15/index.html",
+      "mode": "on_time",
+      "generated_at": "2026-09-15T03:58:10.273923+00:00",
+      "cutoff": "2026-09-15T08:39:20.969370+09:00",
+      "issue_count": 26,
+      "status": "partial",
+      "sha256": {
+        "json": "0d5f7750ed136e816747b1a4eb5aed8287221d53e210928492d11f7d90390cb3",
+        "markdown": "7f38fd6b129b449576b627f1cc0aaf5564d4474f96fd82c7976cdf8b5d2388a1",
+        "html": "84b53d6ba8e3d036dcea4c049134693ded0fa4b28697507278815296df02bcdf"
+      }
+    },
     {
       "date": "2026-09-14",
       "url": "/news/daily/2026-09-14/index.html",
@@ -21,7 +36,7 @@
       "sha256": {
         "json": "e3f5e3bbb7936f1ec766ee149b78e52c4e6aee4f8c990442defc9f0bb7efd369",
         "markdown": "1df5ca5c89d0cc36ba324c710c45ca4e3b5031e3957ff07b4d1bb7545a6dfe72",
-        "html": "d7641ec10c7542183a87a5b0b7bfcf62ab5d1b20c1ee3f131db5aab658a69b40"
+        "html": "032a3ae7e57ed2bd505af5f8cfc60c05ca6836abdc40581428a12ba6edc47408"
       }
     },
     {
@@ -36,7 +51,7 @@
       "sha256": {
         "json": "ef5d3659fe82393d22825ede836b9cb02e7717ec09a282eacd2f09ac08c7ccb2",
         "markdown": "959b3725125a06aa0c93937d1d96d7cabde6fa1a66aa9b843a41ef6b19770e5b",
-        "html": "70d5d11e3f29882b292b3958df8d87e2ab6f2b2232790792142bd00bc5b316e4"
+        "html": "1028f03e8b7d7ab1bd12ab4fc7cd2098923ced1cceef7b73cabd957f55a5fe9d"
       }
     },
     {
@@ -51,7 +66,7 @@
       "sha256": {
         "json": "a1347bda08a527af245228c18909e6208c36d3f4b1fecba8be0fe33f0c61c23e",
         "markdown": "7e24482492f998d9be9397b65e54a99338db8ce464d05cf61f76e38cff79ff02",
-        "html": "7cec6c17bb978c7306b50e124bf9389173435cf6752264e43a2bbd7304dc0f17"
+        "html": "69d44fb567e657a292ab3bdbfd1f3d9f4a294259192f95ed965346d012aee208"
       }
     }
   ]

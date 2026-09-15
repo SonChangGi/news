@@ -297,6 +297,7 @@ body.has-quant-shared-nav .skip-link {
   .weekly-outlook__watch strong{color:var(--primary);font-weight:600;margin-right:5px}
   .weekly-outlook__date{font-weight:600}.weekly-outlook__basis{color:var(--muted);font-size:11px}
   .weekly-outlook__empty{color:var(--muted);font-size:12px}
+  .weekly-evidence{margin-top:8px;font-size:11px;line-height:1.7}.weekly-evidence>summary{cursor:pointer;color:var(--primary);font-weight:600}.weekly-evidence__source{padding:8px 0}.weekly-evidence__source+.weekly-evidence__source{border-top:1px solid var(--line)}.weekly-evidence__source blockquote{margin:6px 0 0;padding-left:10px;border-left:2px solid var(--line);font-size:12px;color:var(--ink)}.weekly-evidence__stamp{color:var(--muted)}
   .weekly-outlook__table tbody:last-child tr:last-child>*{border-bottom:0;padding-bottom:0}
   @media(max-width:600px){
     .weekly-outlook{padding:16px;margin-bottom:12px}
@@ -1061,7 +1062,7 @@ body.has-quant-shared-nav .skip-link {
   const measureNavigation=()=>{document.documentElement.style.setProperty('--masthead-height',document.querySelector('.masthead').getBoundingClientRect().height+'px');document.documentElement.style.setProperty('--toolbar-height',document.querySelector('.toolbar').getBoundingClientRect().height+'px');};
   measureNavigation();if(location.hash)revealIssue(location.hash);if(typeof ResizeObserver!=='undefined'){const observer=new ResizeObserver(measureNavigation);observer.observe(document.querySelector('.masthead'));observer.observe(document.querySelector('.toolbar'));}else window.addEventListener('resize',measureNavigation);
 
-  const archiveContext={"archive_url": "/news/?archive=1", "base_path": "/news/", "current_date": "2026-09-12", "entries": [{"date": "2026-09-14", "issue_count": 28, "mode": "reconstruction", "url": "/news/daily/2026-09-14/index.html"}, {"date": "2026-09-13", "issue_count": 20, "mode": "reconstruction", "url": "/news/daily/2026-09-13/index.html"}, {"date": "2026-09-12", "issue_count": 20, "mode": "reconstruction", "url": "/news/daily/2026-09-12/index.html"}], "latest_url": "/news/", "manifest_url": "/news/archive.json"};
+  const archiveContext={"archive_url": "/news/?archive=1", "base_path": "/news/", "current_date": "2026-09-12", "entries": [{"date": "2026-09-15", "issue_count": 26, "mode": "on_time", "url": "/news/daily/2026-09-15/index.html"}, {"date": "2026-09-14", "issue_count": 28, "mode": "reconstruction", "url": "/news/daily/2026-09-14/index.html"}, {"date": "2026-09-13", "issue_count": 20, "mode": "reconstruction", "url": "/news/daily/2026-09-13/index.html"}, {"date": "2026-09-12", "issue_count": 20, "mode": "reconstruction", "url": "/news/daily/2026-09-12/index.html"}], "latest_url": "/news/", "manifest_url": "/news/archive.json"};
   const currentDate=archiveContext.current_date||"2026-09-12";
   const dialog=document.getElementById('archive-dialog'),openCalendar=document.getElementById('archive-open');
   const daysBody=document.getElementById('calendar-days'),monthLabel=document.getElementById('calendar-month-label');
