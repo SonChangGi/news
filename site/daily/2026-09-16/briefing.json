@@ -1,9 +1,9 @@
 {
   "schema_version": "1",
-  "run_id": "f313060e0eb8e138fd854285",
+  "run_id": "bb40efc3ea57c2ffd60e42a1",
   "report_date": "2026-09-16",
   "cutoff": "2026-09-16T08:10:00+09:00",
-  "generated_at": "2026-09-17T06:55:00.421612+00:00",
+  "generated_at": "2026-09-17T16:13:02.766844+00:00",
   "mode": "reconstruction",
   "status": "partial",
   "language": "ko",
@@ -1174,6 +1174,205 @@
       "korean_required": true
     },
     {
+      "id": "f0f069509596cd47b3daa89c",
+      "anchor": "issue-f9102ce377f33c3f",
+      "editorial_scope": "market",
+      "event_type": "market_update",
+      "title": "미 10년물 국채 금리 5% 재돌파…2007년 이후 최고치",
+      "section": "yesterday",
+      "category": "economy",
+      "summary": [
+        "▲ 미국 달러화 미국 10년 만기 국채 금리가 다시 심리적 저항선인 5% 선을 넘어서며 2007년 이후 최고치를 기록했습니다. 블룸버그 통신에 따르면 현지시간 15일 10년물 금리는 장중 6bp(1bp=0.01%포인트) 상승한 5.026%를 나타냈습니다.",
+        "전날에도 10년물 금리는 장중 5.012%를 찍으며 2023년 10월 19일 이후 처음으로 5%를 다시 돌파했습니다.",
+        "하지만 이번에는 5% 금리가 지속될 가능성이 제기되고 있습니다. 채권 시장의 긴장은 16일 예정된 연방준비제도(Fed·연준) 금리 결정을 앞두고 고조되고 있습니다.",
+        "투자자들은 연준이 2023년 7월 이후 처음으로 단기 금리를 올릴 것으로 보고 있습니다. 시카고상품거래소(CME 그룹) 페드워치에 따르면 금리선물 시장은 연준이 15∼16일 연방공개시장위원회(FOMC)에서 기준금리를 0.25%포인트 인상할 확률을 92.3%로 반영하고 있습니다."
+      ],
+      "change": "비교 가능한 과거 자료 없음 — 상향·하향·전망 변경 여부 미판정",
+      "claims": [
+        {
+          "id": "06aaa3bcce1398b18bac2816",
+          "text": "▲ 미국 달러화 미국 10년 만기 국채 금리가 다시 심리적 저항선인 5% 선을 넘어서며 2007년 이후 최고치를 기록했습니다. 블룸버그 통신에 따르면 현지시간 15일 10년물 금리는 장중 6bp(1bp=0.01%포인트) 상승한 5.026%를 나타냈습니다.",
+          "kind": "fact",
+          "author": "곽상은 기자",
+          "source_ids": [
+            "1a1f1c9133229b5c851ef29a"
+          ],
+          "evidence": [
+            {
+              "source_id": "1a1f1c9133229b5c851ef29a",
+              "source_version_id": "6ae9107c3041cd462755cb87",
+              "start": 0,
+              "end": 142,
+              "text": "▲ 미국 달러화 미국 10년 만기 국채 금리가 다시 심리적 저항선인 5% 선을 넘어서며 2007년 이후 최고치를 기록했습니다. 블룸버그 통신에 따르면 현지시간 15일 10년물 금리는 장중 6bp(1bp=0.01%포인트) 상승한 5.026%를 나타냈습니다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "▲ 미국 달러화 미국 10년 만기 국채 금리가 다시 심리적 저항선인 5% 선을 넘어서며 2007년 이후 최고치를 기록했습니다. 블룸버그 통신에 따르면 현지시간 15일 10년물 금리는 장중 6bp(1bp=0.01%포인트) 상승한 5.026%를 나타냈습니다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "b4dfdc29a13acb665d47508d",
+          "text": "전날에도 10년물 금리는 장중 5.012%를 찍으며 2023년 10월 19일 이후 처음으로 5%를 다시 돌파했습니다.",
+          "kind": "fact",
+          "author": "곽상은 기자",
+          "source_ids": [
+            "1a1f1c9133229b5c851ef29a"
+          ],
+          "evidence": [
+            {
+              "source_id": "1a1f1c9133229b5c851ef29a",
+              "source_version_id": "6ae9107c3041cd462755cb87",
+              "start": 168,
+              "end": 233,
+              "text": "전날에도 10년물 금리는 장중 5.012%를 찍으며 2023년 10월 19일 이후 처음으로 5%를 다시 돌파했습니다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "전날에도 10년물 금리는 장중 5.012%를 찍으며 2023년 10월 19일 이후 처음으로 5%를 다시 돌파했습니다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "ab8d06f55f2a15bf89f7a45c",
+          "text": "하지만 이번에는 5% 금리가 지속될 가능성이 제기되고 있습니다. 채권 시장의 긴장은 16일 예정된 연방준비제도(Fed·연준) 금리 결정을 앞두고 고조되고 있습니다.",
+          "kind": "author_opinion",
+          "author": "곽상은 기자",
+          "source_ids": [
+            "1a1f1c9133229b5c851ef29a"
+          ],
+          "evidence": [
+            {
+              "source_id": "1a1f1c9133229b5c851ef29a",
+              "source_version_id": "6ae9107c3041cd462755cb87",
+              "start": 382,
+              "end": 473,
+              "text": "하지만 이번에는 5% 금리가 지속될 가능성이 제기되고 있습니다. 채권 시장의 긴장은 16일 예정된 연방준비제도(Fed·연준) 금리 결정을 앞두고 고조되고 있습니다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "하지만 이번에는 5% 금리가 지속될 가능성이 제기되고 있습니다. 채권 시장의 긴장은 16일 예정된 연방준비제도(Fed·연준) 금리 결정을 앞두고 고조되고 있습니다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "forecast"
+          },
+          "numbers": []
+        },
+        {
+          "id": "72813c951e05d07086fca508",
+          "text": "투자자들은 연준이 2023년 7월 이후 처음으로 단기 금리를 올릴 것으로 보고 있습니다. 시카고상품거래소(CME 그룹) 페드워치에 따르면 금리선물 시장은 연준이 15∼16일 연방공개시장위원회(FOMC)에서 기준금리를 0.25%포인트 인상할 확률을 92.3%로 반영하고 있습니다.",
+          "kind": "author_opinion",
+          "author": "곽상은 기자",
+          "source_ids": [
+            "1a1f1c9133229b5c851ef29a"
+          ],
+          "evidence": [
+            {
+              "source_id": "1a1f1c9133229b5c851ef29a",
+              "source_version_id": "6ae9107c3041cd462755cb87",
+              "start": 474,
+              "end": 626,
+              "text": "투자자들은 연준이 2023년 7월 이후 처음으로 단기 금리를 올릴 것으로 보고 있습니다. 시카고상품거래소(CME) 페드워치에 따르면 금리선물 시장은 연준이 15∼16일 연방공개시장위원회(FOMC)에서 기준금리를 0.25%포인트 인상할 확률을 92.3%로 반영하고 있습니다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "투자자들은 연준이 2023년 7월 이후 처음으로 단기 금리를 올릴 것으로 보고 있습니다. 시카고상품거래소(CME 그룹) 페드워치에 따르면 금리선물 시장은 연준이 15∼16일 연방공개시장위원회(FOMC)에서 기준금리를 0.25%포인트 인상할 확률을 92.3%로 반영하고 있습니다.",
+              "is_translation": true
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "not_verified",
+            "human_review": "not_reviewed",
+            "status": "needs_review",
+            "source_linkage": "passed",
+            "content_check": "unverified_paraphrase",
+            "assertion_type": "forecast"
+          },
+          "numbers": []
+        }
+      ],
+      "event_schedules": [
+        {
+          "event_start": "2026-09-16",
+          "event_end": "2026-09-16",
+          "date_label": "9/16",
+          "action": "금리 결정",
+          "status": "scheduled"
+        }
+      ],
+      "document_ids": [
+        "1a1f1c9133229b5c851ef29a",
+        "9afa2c4cecbfdc1ce4e4f228"
+      ],
+      "source_versions": [
+        "6ae9107c3041cd462755cb87",
+        "728ab20f7072b482063849a8"
+      ],
+      "entities": [],
+      "selection_reason": [
+        "수집 범위 내 독립 발행자 2개",
+        "자료 기준 경과 16.4시간",
+        "이전 입력과 중복 내용",
+        "수치가 확인되는 금융시장 급변·기록 경신"
+      ],
+      "follow_up": [
+        "원문과 기간·단위·작성 주체를 확인하고 해석을 검토하세요."
+      ],
+      "confidence": "source_checked",
+      "related_issue_id": null,
+      "late_discovered": false,
+      "analysis_provider": "extractive",
+      "model_status": "not_needed_source_korean",
+      "analysis_label": "한국어 번역 · 수치·출처 자동 대조",
+      "evidence_expired": false,
+      "evidence_partially_expired": false,
+      "has_full_text": true,
+      "has_message_text": false,
+      "prior_day_follow_up": false,
+      "original_title": "미 10년물 국채 금리 5% 재돌파…2007년 이후 최고치",
+      "source_title_ko": "미 10년물 국채 금리 5% 재돌파…2007년 이후 최고치",
+      "korean_required": true
+    },
+    {
       "id": "548c14fb217b3187a3011688",
       "anchor": "issue-7d5617b45bda8223",
       "editorial_scope": "industry",
@@ -1297,7 +1496,7 @@
         {
           "id": "ab66c1955f797bdc9a082c48",
           "text": "수도권 기업의 AI 활용이 비수도권 기업보다 활발한데다, IT 관련 인적·물적 기반이 수도권에 집중되면서 향후 지역별 고용·임금 격차가 더 커질 수 있다는 지적이다.",
-          "kind": "fact",
+          "kind": "author_opinion",
           "author": "김혜민",
           "source_ids": [
             "1bc30e7ecc2c7c96c7a5ce12"
@@ -1325,7 +1524,7 @@
             "status": "source_checked",
             "source_linkage": "passed",
             "content_check": "exact_quote",
-            "assertion_type": "observation"
+            "assertion_type": "forecast"
           },
           "numbers": []
         }
@@ -1360,6 +1559,573 @@
       "prior_day_follow_up": false,
       "original_title": "AI가 늘린 일자리 80%는 '수도권 쏠림'…\"고용·임금 격차 확대 위험\"",
       "source_title_ko": "AI가 늘린 일자리 80%는 '수도권 쏠림'…\"고용·임금 격차 확대 위험\"",
+      "korean_required": true
+    },
+    {
+      "id": "048ca317fe5234832f816a5e",
+      "anchor": "issue-f8f8e5c6bac7b3cc",
+      "editorial_scope": "market",
+      "event_type": "market_update",
+      "title": "[라온신문] 두 달여 만에 208원 급락한 환율…경제지표·기업 실적 해석 바꿨다",
+      "section": "investment",
+      "category": "research",
+      "summary": [
+        "한국은행이 15일 발표한 8월 수출입물가지수에 환율의 영향이 가장 먼저 반영됐다. 수출물가는 원화 기준으로 전월보다 3.7% 내렸지만 실제 계약에 쓰인 통화를 기준으로 하면 2.2% 올랐다.",
+        "SK하이닉스는 반기보고서에서 6월 말 기준 외화자산·부채 규모가 유지된다는 가정 아래 원·달러 환율이 10% 내리면 법인세비용차감전순이익이 4조 7500억원 감소한다고 분석했다.",
+        "한화투자증권이 공시를 활용해 추정한 결과 SK하이닉스와 삼성전자, 현대차는 해외매출에서 해외 비용을 제외한 순영업노출 비중이 높아 환율 하락 시 영업이익률 하락폭이 컸다. 반면 삼성SDI는 해외매출 비중이 90%를 넘는데도 현지 생산과 비용이 이를 상쇄해 순영업노출이 거의 남지 않았다. 환율이 5% 내릴 때 순영업노출 비중이 10%포인트 높은 기업은 영업이익률 하락폭이 0.15%포인트 더 컸다.",
+        "한화투자증권 분석에서 환율이 5% 내릴 때 영업이익률은 다른 조건이 그대로인 경우 1.67%포인트 낮아졌지만, 수요가 함께 개선되는 경우에는 1.43%포인트 올라갔다. 2010년 이후 자료에서도 원·달러 환율이 1% 오를 때 달러표시 수출액은 12개월 누적 1.45% 줄어, 원화가 약해지면 수출이 늘어난다는 통념과 반대로 나타났다."
+      ],
+      "change": "비교 가능한 과거 자료 없음 — 상향·하향·전망 변경 여부 미판정",
+      "claims": [
+        {
+          "id": "714158be11939dd114332e8c",
+          "text": "한국은행이 15일 발표한 8월 수출입물가지수에 환율의 영향이 가장 먼저 반영됐다. 수출물가는 원화 기준으로 전월보다 3.7% 내렸지만 실제 계약에 쓰인 통화를 기준으로 하면 2.2% 올랐다.",
+          "kind": "fact",
+          "author": "이성태",
+          "source_ids": [
+            "1c7abed637b1940243228e0d"
+          ],
+          "evidence": [
+            {
+              "source_id": "1c7abed637b1940243228e0d",
+              "source_version_id": "3e86ccdc265ce0f22275c61d",
+              "start": 375,
+              "end": 481,
+              "text": "한국은행이 15일 발표한 8월 수출입물가지수에 환율의 영향이 가장 먼저 반영됐다. 수출물가는 원화 기준으로 전월보다 3.7% 내렸지만 실제 계약에 쓰인 통화를 기준으로 하면 2.2% 올랐다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "한국은행이 15일 발표한 8월 수출입물가지수에 환율의 영향이 가장 먼저 반영됐다. 수출물가는 원화 기준으로 전월보다 3.7% 내렸지만 실제 계약에 쓰인 통화를 기준으로 하면 2.2% 올랐다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "a79e778bfe3b845d251cea71",
+          "text": "SK하이닉스는 반기보고서에서 6월 말 기준 외화자산·부채 규모가 유지된다는 가정 아래 원·달러 환율이 10% 내리면 법인세비용차감전순이익이 4조 7500억원 감소한다고 분석했다.",
+          "kind": "fact",
+          "author": "이성태",
+          "source_ids": [
+            "1c7abed637b1940243228e0d"
+          ],
+          "evidence": [
+            {
+              "source_id": "1c7abed637b1940243228e0d",
+              "source_version_id": "3e86ccdc265ce0f22275c61d",
+              "start": 2564,
+              "end": 2663,
+              "text": "SK하이닉스는 반기보고서에서 6월 말 기준 외화자산·부채 규모가 유지된다는 가정 아래 원·달러 환율이 10% 내리면 법인세비용차감전순이익이 4조 7500억원 감소한다고 분석했다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "SK하이닉스는 반기보고서에서 6월 말 기준 외화자산·부채 규모가 유지된다는 가정 아래 원·달러 환율이 10% 내리면 법인세비용차감전순이익이 4조 7500억원 감소한다고 분석했다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "0b71123eb796f2ea31423bab",
+          "text": "한화투자증권이 공시를 활용해 추정한 결과 SK하이닉스와 삼성전자, 현대차는 해외매출에서 해외 비용을 제외한 순영업노출 비중이 높아 환율 하락 시 영업이익률 하락폭이 컸다. 반면 삼성SDI는 해외매출 비중이 90%를 넘는데도 현지 생산과 비용이 이를 상쇄해 순영업노출이 거의 남지 않았다. 환율이 5% 내릴 때 순영업노출 비중이 10%포인트 높은 기업은 영업이익률 하락폭이 0.15%포인트 더 컸다.",
+          "kind": "fact",
+          "author": "이성태",
+          "source_ids": [
+            "1c7abed637b1940243228e0d"
+          ],
+          "evidence": [
+            {
+              "source_id": "1c7abed637b1940243228e0d",
+              "source_version_id": "3e86ccdc265ce0f22275c61d",
+              "start": 2708,
+              "end": 2930,
+              "text": "한화투자증권이 공시를 활용해 추정한 결과 SK하이닉스와 삼성전자, 현대차는 해외매출에서 해외 비용을 제외한 순영업노출 비중이 높아 환율 하락 시 영업이익률 하락폭이 컸다. 반면 삼성SDI는 해외매출 비중이 90%를 넘는데도 현지 생산과 비용이 이를 상쇄해 순영업노출이 거의 남지 않았다. 환율이 5% 내릴 때 순영업노출 비중이 10%포인트 높은 기업은 영업이익률 하락폭이 0.15%포인트 더 컸다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "한화투자증권이 공시를 활용해 추정한 결과 SK하이닉스와 삼성전자, 현대차는 해외매출에서 해외 비용을 제외한 순영업노출 비중이 높아 환율 하락 시 영업이익률 하락폭이 컸다. 반면 삼성SDI는 해외매출 비중이 90%를 넘는데도 현지 생산과 비용이 이를 상쇄해 순영업노출이 거의 남지 않았다. 환율이 5% 내릴 때 순영업노출 비중이 10%포인트 높은 기업은 영업이익률 하락폭이 0.15%포인트 더 컸다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "216e53cf35ec48eca117658b",
+          "text": "한화투자증권 분석에서 환율이 5% 내릴 때 영업이익률은 다른 조건이 그대로인 경우 1.67%포인트 낮아졌지만, 수요가 함께 개선되는 경우에는 1.43%포인트 올라갔다. 2010년 이후 자료에서도 원·달러 환율이 1% 오를 때 달러표시 수출액은 12개월 누적 1.45% 줄어, 원화가 약해지면 수출이 늘어난다는 통념과 반대로 나타났다.",
+          "kind": "fact",
+          "author": "이성태",
+          "source_ids": [
+            "1c7abed637b1940243228e0d"
+          ],
+          "evidence": [
+            {
+              "source_id": "1c7abed637b1940243228e0d",
+              "source_version_id": "3e86ccdc265ce0f22275c61d",
+              "start": 3644,
+              "end": 3830,
+              "text": "한화투자증권 분석에서 환율이 5% 내릴 때 영업이익률은 다른 조건이 그대로인 경우 1.67%포인트 낮아졌지만, 수요가 함께 개선되는 경우에는 1.43%포인트 올라갔다. 2010년 이후 자료에서도 원·달러 환율이 1% 오를 때 달러표시 수출액은 12개월 누적 1.45% 줄어, 원화가 약해지면 수출이 늘어난다는 통념과 반대로 나타났다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "한화투자증권 분석에서 환율이 5% 내릴 때 영업이익률은 다른 조건이 그대로인 경우 1.67%포인트 낮아졌지만, 수요가 함께 개선되는 경우에는 1.43%포인트 올라갔다. 2010년 이후 자료에서도 원·달러 환율이 1% 오를 때 달러표시 수출액은 12개월 누적 1.45% 줄어, 원화가 약해지면 수출이 늘어난다는 통념과 반대로 나타났다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        }
+      ],
+      "event_schedules": [],
+      "document_ids": [
+        "1c7abed637b1940243228e0d"
+      ],
+      "source_versions": [
+        "3e86ccdc265ce0f22275c61d"
+      ],
+      "entities": [],
+      "selection_reason": [
+        "수집 범위 내 독립 발행자 1개",
+        "자료 기준 경과 20.7시간",
+        "이전 입력과 중복 내용",
+        "수치가 확인되는 금융시장 급변·기록 경신"
+      ],
+      "follow_up": [
+        "원문과 기간·단위·작성 주체를 확인하고 해석을 검토하세요."
+      ],
+      "confidence": "source_checked",
+      "related_issue_id": null,
+      "late_discovered": false,
+      "analysis_provider": "extractive",
+      "model_status": "not_needed_source_korean",
+      "analysis_label": "한국어 원문에서 핵심 문장 선별",
+      "evidence_expired": false,
+      "evidence_partially_expired": false,
+      "has_full_text": true,
+      "has_message_text": false,
+      "prior_day_follow_up": false,
+      "original_title": "[라온신문] 두 달여 만에 208원 급락한 환율…경제지표·기업 실적 해석 바꿨다",
+      "source_title_ko": "[라온신문] 두 달여 만에 208원 급락한 환율…경제지표·기업 실적 해석 바꿨다",
+      "korean_required": true
+    },
+    {
+      "id": "5abe59ddf2ccf4bc90dd1d52",
+      "anchor": "issue-330fdda994664911",
+      "editorial_scope": "market",
+      "event_type": "market_update",
+      "title": "WTI 102달러 돌파… 유가 폭등에 금값 1개월만 최저",
+      "section": "investment",
+      "category": "research",
+      "summary": [
+        "원유 가격 상승과 미국 고금리 충격의 동시 발생은 에너지 수입 의존도가 매우 높은 한국 정유와 석유화학 산업에 직접 연결된다. 중동 지정학 불안과 유가 폭등 15일 아침 일본 상품선물시장에서 원유 중심 한정월인 2027년 2월물은 1킬로리터당 8만 1700엔(약 73만 5300원, 100엔 900원 기준)으로 전날보다 480엔 오른 가격에 첫 거래를 텄다.",
+        "뉴욕상업거래소에서 미국 기준 유종인 서부텍사스산원유(WTI) 10월물은 일본 시간 15일 이른 아침 1배럴당 102달러 선을 넘나들며 전날 청산 가격인 101.39달러를 가볍게 웃돌았다. WTI가 5월 중순 이후 최고치에 도달하자 단기 차익 실현 매물이 일부 흘러나왔으나 배럴당 105달러 돌파를 향한 시장의 매수 의지는 꺾이지 않고 있다.",
+        "유가 급등이 몰고 온 인플레이션 공포와 미 연방준비제도의 추가 금리 인상 전망이 맞물리며, 14일 미국 10년물 국채 수익률이 2년 11개월 만에 5%대를 돌파한 여파다. 채권 금리가 치솟자 이자를 지급하지 않는 금과 백금 선물의 보유 매력이 빠르게 반감되며 매도 물량이 쏟아졌다.",
+        "나아가 중동 외교 협상이 진전되고 유류 공급망이 정상화되면 배럴당 90달러대로의 안정화 시나리오가 안착할 수 있다. 다만 사우디 정유 설비에 대한 추가 폭격이 터지거나 이란의 봉쇄 조치가 가시화되면 이 가격 안정 시나리오는 성립하지 않을 수 있다."
+      ],
+      "change": "비교 가능한 과거 자료 없음 — 상향·하향·전망 변경 여부 미판정",
+      "claims": [
+        {
+          "id": "243feac129457482f6857e4c",
+          "text": "원유 가격 상승과 미국 고금리 충격의 동시 발생은 에너지 수입 의존도가 매우 높은 한국 정유와 석유화학 산업에 직접 연결된다. 중동 지정학 불안과 유가 폭등 15일 아침 일본 상품선물시장에서 원유 중심 한정월인 2027년 2월물은 1킬로리터당 8만 1700엔(약 73만 5300원, 100엔 900원 기준)으로 전날보다 480엔 오른 가격에 첫 거래를 텄다.",
+          "kind": "fact",
+          "author": "이용수",
+          "source_ids": [
+            "0a3f97a0661791d71956761d"
+          ],
+          "evidence": [
+            {
+              "source_id": "0a3f97a0661791d71956761d",
+              "source_version_id": "9fe7d9425e05ef3088bc2770",
+              "start": 364,
+              "end": 564,
+              "text": "원유 가격 상승과 미국 고금리 충격의 동시 발생은 에너지 수입 의존도가 매우 높은 한국 정유와 석유화학 산업에 직접 연결된다. 중동 지정학 불안과 유가 폭등 15일 아침 일본 상품선물시장에서 원유 중심 한정월인 2027년 2월물은 1킬로리터당 8만 1700엔(약 73만 5300원, 100엔 900원 기준)으로 전날보다 480엔 오른 가격에 첫 거래를 텄다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "원유 가격 상승과 미국 고금리 충격의 동시 발생은 에너지 수입 의존도가 매우 높은 한국 정유와 석유화학 산업에 직접 연결된다. 중동 지정학 불안과 유가 폭등 15일 아침 일본 상품선물시장에서 원유 중심 한정월인 2027년 2월물은 1킬로리터당 8만 1700엔(약 73만 5300원, 100엔 900원 기준)으로 전날보다 480엔 오른 가격에 첫 거래를 텄다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "9e1d5fba4d3ea5ce7cff826a",
+          "text": "뉴욕상업거래소에서 미국 기준 유종인 서부텍사스산원유(WTI) 10월물은 일본 시간 15일 이른 아침 1배럴당 102달러 선을 넘나들며 전날 청산 가격인 101.39달러를 가볍게 웃돌았다. WTI가 5월 중순 이후 최고치에 도달하자 단기 차익 실현 매물이 일부 흘러나왔으나 배럴당 105달러 돌파를 향한 시장의 매수 의지는 꺾이지 않고 있다.",
+          "kind": "fact",
+          "author": "이용수",
+          "source_ids": [
+            "0a3f97a0661791d71956761d"
+          ],
+          "evidence": [
+            {
+              "source_id": "0a3f97a0661791d71956761d",
+              "source_version_id": "9fe7d9425e05ef3088bc2770",
+              "start": 917,
+              "end": 1107,
+              "text": "뉴욕상업거래소에서 미국 기준 유종인 서부텍사스산원유(WTI) 10월물은 일본 시간 15일 이른 아침 1배럴당 102달러 선을 넘나들며 전날 청산 가격인 101.39달러를 가볍게 웃돌았다. WTI가 5월 중순 이후 최고치에 도달하자 단기 차익 실현 매물이 일부 흘러나왔으나 배럴당 105달러 돌파를 향한 시장의 매수 의지는 꺾이지 않고 있다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "뉴욕상업거래소에서 미국 기준 유종인 서부텍사스산원유(WTI) 10월물은 일본 시간 15일 이른 아침 1배럴당 102달러 선을 넘나들며 전날 청산 가격인 101.39달러를 가볍게 웃돌았다. WTI가 5월 중순 이후 최고치에 도달하자 단기 차익 실현 매물이 일부 흘러나왔으나 배럴당 105달러 돌파를 향한 시장의 매수 의지는 꺾이지 않고 있다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "354fd499727123581143f6cc",
+          "text": "유가 급등이 몰고 온 인플레이션 공포와 미 연방준비제도의 추가 금리 인상 전망이 맞물리며, 14일 미국 10년물 국채 수익률이 2년 11개월 만에 5%대를 돌파한 여파다. 채권 금리가 치솟자 이자를 지급하지 않는 금과 백금 선물의 보유 매력이 빠르게 반감되며 매도 물량이 쏟아졌다.",
+          "kind": "author_opinion",
+          "author": "이용수",
+          "source_ids": [
+            "0a3f97a0661791d71956761d"
+          ],
+          "evidence": [
+            {
+              "source_id": "0a3f97a0661791d71956761d",
+              "source_version_id": "9fe7d9425e05ef3088bc2770",
+              "start": 1363,
+              "end": 1520,
+              "text": "유가 급등이 몰고 온 인플레이션 공포와 미 연방준비제도의 추가 금리 인상 전망이 맞물리며, 14일 미국 10년물 국채 수익률이 2년 11개월 만에 5%대를 돌파한 여파다. 채권 금리가 치솟자 이자를 지급하지 않는 금과 백금 선물의 보유 매력이 빠르게 반감되며 매도 물량이 쏟아졌다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "유가 급등이 몰고 온 인플레이션 공포와 미 연방준비제도의 추가 금리 인상 전망이 맞물리며, 14일 미국 10년물 국채 수익률이 2년 11개월 만에 5%대를 돌파한 여파다. 채권 금리가 치솟자 이자를 지급하지 않는 금과 백금 선물의 보유 매력이 빠르게 반감되며 매도 물량이 쏟아졌다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "forecast"
+          },
+          "numbers": []
+        },
+        {
+          "id": "9d0bdac8573ef19e4f7c1c5f",
+          "text": "나아가 중동 외교 협상이 진전되고 유류 공급망이 정상화되면 배럴당 90달러대로의 안정화 시나리오가 안착할 수 있다. 다만 사우디 정유 설비에 대한 추가 폭격이 터지거나 이란의 봉쇄 조치가 가시화되면 이 가격 안정 시나리오는 성립하지 않을 수 있다.",
+          "kind": "author_opinion",
+          "author": "이용수",
+          "source_ids": [
+            "0a3f97a0661791d71956761d"
+          ],
+          "evidence": [
+            {
+              "source_id": "0a3f97a0661791d71956761d",
+              "source_version_id": "9fe7d9425e05ef3088bc2770",
+              "start": 1847,
+              "end": 1985,
+              "text": "나아가 중동 외교 협상이 진전되고 유류 공급망이 정상화되면 배럴당 90달러대로의 안정화 시나리오가 안착할 수 있다. 다만 사우디 정유 설비에 대한 추가 폭격이 터지거나 이란의 봉쇄 조치가 가시화되면 이 가격 안정 시나리오는 성립하지 않을 수 있다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "나아가 중동 외교 협상이 진전되고 유류 공급망이 정상화되면 배럴당 90달러대로의 안정화 시나리오가 안착할 수 있다. 다만 사우디 정유 설비에 대한 추가 폭격이 터지거나 이란의 봉쇄 조치가 가시화되면 이 가격 안정 시나리오는 성립하지 않을 수 있다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "forecast"
+          },
+          "numbers": []
+        }
+      ],
+      "event_schedules": [],
+      "document_ids": [
+        "0a3f97a0661791d71956761d"
+      ],
+      "source_versions": [
+        "9fe7d9425e05ef3088bc2770"
+      ],
+      "entities": [],
+      "selection_reason": [
+        "수집 범위 내 독립 발행자 1개",
+        "자료 기준 경과 20.7시간",
+        "이전 입력과 중복 내용",
+        "수치가 확인되는 금융시장 급변·기록 경신"
+      ],
+      "follow_up": [
+        "원문과 기간·단위·작성 주체를 확인하고 해석을 검토하세요."
+      ],
+      "confidence": "source_checked",
+      "related_issue_id": null,
+      "late_discovered": false,
+      "analysis_provider": "extractive",
+      "model_status": "not_needed_source_korean",
+      "analysis_label": "한국어 원문에서 핵심 문장 선별",
+      "evidence_expired": false,
+      "evidence_partially_expired": false,
+      "has_full_text": true,
+      "has_message_text": false,
+      "prior_day_follow_up": false,
+      "original_title": "WTI 102달러 돌파… 유가 폭등에 금값 1개월만 최저",
+      "source_title_ko": "WTI 102달러 돌파… 유가 폭등에 금값 1개월만 최저",
+      "korean_required": true
+    },
+    {
+      "id": "fb1c371ef5ac8291a7cf5c5d",
+      "anchor": "issue-c03d1f8c3ccdfd97",
+      "editorial_scope": "market",
+      "event_type": "market_update",
+      "title": "[특징주] 제조AI 확산·中 로봇 규제 기대…로봇株 줄줄이 급등",
+      "section": "investment",
+      "category": "research",
+      "summary": [
+        "로봇 관련주가 장 초반 일제히 강세를 보이고 있다.",
+        "정부가 제조업 인공지능(AI) 전환과 로봇산업 육성에 속도를 내는 가운데 미국의 중국산 로봇 규제 강화 움직임까지 맞물리면서 관련 종목에 매수세가 몰리는 모습이다.",
+        "15일 한국거래소에 따르면 오전 10시 11분 기준 삼현은 전 거래일보다 1만2100원(29.80%) 오른 5만2700원에 거래되고 있다.",
+        "하이젠알앤엠은 26.68% 급등한 2만5400원을 기록하고 있다."
+      ],
+      "change": "비교 가능한 과거 자료 없음 — 상향·하향·전망 변경 여부 미판정",
+      "claims": [
+        {
+          "id": "587e53ea82c23679788b9105",
+          "text": "로봇 관련주가 장 초반 일제히 강세를 보이고 있다.",
+          "kind": "fact",
+          "author": "이정아",
+          "source_ids": [
+            "58598578d5cf2ffe96ec6432"
+          ],
+          "evidence": [
+            {
+              "source_id": "58598578d5cf2ffe96ec6432",
+              "source_version_id": "44b8367956e3f2b240c2532d",
+              "start": 18,
+              "end": 46,
+              "text": "로봇 관련주가 장 초반 일제히 강세를 보이고 있다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "로봇 관련주가 장 초반 일제히 강세를 보이고 있다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "5b7850798bc2d2910c66ce02",
+          "text": "정부가 제조업 인공지능(AI) 전환과 로봇산업 육성에 속도를 내는 가운데 미국의 중국산 로봇 규제 강화 움직임까지 맞물리면서 관련 종목에 매수세가 몰리는 모습이다.",
+          "kind": "fact",
+          "author": "이정아",
+          "source_ids": [
+            "58598578d5cf2ffe96ec6432"
+          ],
+          "evidence": [
+            {
+              "source_id": "58598578d5cf2ffe96ec6432",
+              "source_version_id": "44b8367956e3f2b240c2532d",
+              "start": 47,
+              "end": 138,
+              "text": "정부가 제조업 인공지능(AI) 전환과 로봇산업 육성에 속도를 내는 가운데 미국의 중국산 로봇 규제 강화 움직임까지 맞물리면서 관련 종목에 매수세가 몰리는 모습이다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "정부가 제조업 인공지능(AI) 전환과 로봇산업 육성에 속도를 내는 가운데 미국의 중국산 로봇 규제 강화 움직임까지 맞물리면서 관련 종목에 매수세가 몰리는 모습이다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "da05a742d1e4c5cf9ceb34e5",
+          "text": "15일 한국거래소에 따르면 오전 10시 11분 기준 삼현은 전 거래일보다 1만2100원(29.80%) 오른 5만2700원에 거래되고 있다.",
+          "kind": "fact",
+          "author": "이정아",
+          "source_ids": [
+            "58598578d5cf2ffe96ec6432"
+          ],
+          "evidence": [
+            {
+              "source_id": "58598578d5cf2ffe96ec6432",
+              "source_version_id": "44b8367956e3f2b240c2532d",
+              "start": 140,
+              "end": 217,
+              "text": "15일 한국거래소에 따르면 오전 10시 11분 기준 삼현은 전 거래일보다 1만2100원(29.80%) 오른 5만2700원에 거래되고 있다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "15일 한국거래소에 따르면 오전 10시 11분 기준 삼현은 전 거래일보다 1만2100원(29.80%) 오른 5만2700원에 거래되고 있다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "7eeb4aabbb8cf80d3c6d34a3",
+          "text": "하이젠알앤엠은 26.68% 급등한 2만5400원을 기록하고 있다.",
+          "kind": "fact",
+          "author": "이정아",
+          "source_ids": [
+            "58598578d5cf2ffe96ec6432"
+          ],
+          "evidence": [
+            {
+              "source_id": "58598578d5cf2ffe96ec6432",
+              "source_version_id": "44b8367956e3f2b240c2532d",
+              "start": 218,
+              "end": 254,
+              "text": "하이젠알앤엠은 26.68% 급등한 2만5400원을 기록하고 있다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "하이젠알앤엠은 26.68% 급등한 2만5400원을 기록하고 있다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        }
+      ],
+      "event_schedules": [],
+      "document_ids": [
+        "58598578d5cf2ffe96ec6432"
+      ],
+      "source_versions": [
+        "44b8367956e3f2b240c2532d"
+      ],
+      "entities": [],
+      "selection_reason": [
+        "수집 범위 내 독립 발행자 1개",
+        "자료 기준 경과 21.8시간",
+        "이전 입력과 중복 내용",
+        "수치가 확인되는 금융시장 급변·기록 경신"
+      ],
+      "follow_up": [
+        "원문과 기간·단위·작성 주체를 확인하고 해석을 검토하세요."
+      ],
+      "confidence": "source_checked",
+      "related_issue_id": null,
+      "late_discovered": false,
+      "analysis_provider": "extractive",
+      "model_status": "not_needed_source_korean",
+      "analysis_label": "한국어 원문에서 핵심 문장 선별",
+      "evidence_expired": false,
+      "evidence_partially_expired": false,
+      "has_full_text": true,
+      "has_message_text": false,
+      "prior_day_follow_up": false,
+      "original_title": "[특징주] 제조AI 확산·中 로봇 규제 기대…로봇株 줄줄이 급등",
+      "source_title_ko": "[특징주] 제조AI 확산·中 로봇 규제 기대…로봇株 줄줄이 급등",
       "korean_required": true
     },
     {
@@ -1416,7 +2182,7 @@
         {
           "id": "dce6ccda70c0c23cd74b9778",
           "text": "막대한 인공지능(AI) 투자로 인한 손실과 에이전틱 AI 업무 활용 등이 원인으로 지목된다.",
-          "kind": "fact",
+          "kind": "author_opinion",
           "author": "www.etnews.com",
           "source_ids": [
             "59d6f2708c7ff5a63a3e789f"
@@ -1444,7 +2210,7 @@
             "status": "source_checked",
             "source_linkage": "passed",
             "content_check": "exact_quote",
-            "assertion_type": "observation"
+            "assertion_type": "interpretation"
           },
           "numbers": []
         },
@@ -1552,110 +2318,39 @@
       "korean_required": true
     },
     {
-      "id": "39c5a90293707941f0236bc1",
-      "anchor": "issue-652e443ef1352edb",
-      "editorial_scope": "company",
-      "event_type": "outlook",
-      "title": "[뉴스락 주식네비] 삼성SDI, ESS·소형전지로 반등 채비… \"합당한 리레이팅\"",
+      "id": "2629b5cb6ead3a3e6bc9ae35",
+      "anchor": "issue-0d24903afb0df487",
+      "editorial_scope": "market",
+      "event_type": "market_update",
+      "title": "[美증시 특징주] 구글 알파벳 급등…AI경쟁 속도조절+분기배당금 지급 효과",
       "section": "investment",
       "category": "research",
       "summary": [
-        "[뉴스락] 삼성SDI(006400)가 에너지저장장치(ESS) 수주 확대와 소형전지 수익성 개선을 바탕으로 기업가치 재평가 국면에 진입했다는 분석이 나왔다.",
-        "전기차용 배터리 판매 둔화는 이어지고 있지만 각형·원통형 배터리에 대한 고객 선호가 높아지고 있고, ESS 수주 가시성과 미국 생산능력 확보 가능성이 커지면서 중장기 성장 기대가 높아지고 있다는 평가다.",
-        "15일 주민우 NH투자증권 연구원은 삼성SDI에 대한 투자의견 '매수(Buy)'를 유지하고 목표주가를 기존 60만원에서 73만원으로 22% 상향했다.",
-        "지난 14일 종가 53만2000원 대비 상승여력은 37.2%다."
+        "14일(현지시간) 나스닥시장에서 핵심 기술주 가운데 구글 알파벳이 가장 돋보인 상승률을 보였다.",
+        "이날 알파벳은 3.22% 오른 349.39 달러에 마감했다.",
+        "알파벳이 최근, 15억 달러 이상을 투자한 AI 핵심 스타트업 메커나이즈(Mechanize) 인수를 최종 완료했다는 소식도 주가에 모멘텀이 됐다.이는 구글 클라우드 및 풀스택 AI 모델 파이프라인의 연산 능력을 크게 강화할 것으로 보인다. 이날 미국 증시를 조정으로 몰아넣은 AI 속도 조절론이 반도체주엔 악재였지만 알파벳엔 호재로 작용했다."
       ],
       "change": "비교 가능한 과거 자료 없음 — 상향·하향·전망 변경 여부 미판정",
       "claims": [
         {
-          "id": "0a58bacc57959fadd7ecc816",
-          "text": "[뉴스락] 삼성SDI(006400)가 에너지저장장치(ESS) 수주 확대와 소형전지 수익성 개선을 바탕으로 기업가치 재평가 국면에 진입했다는 분석이 나왔다.",
-          "kind": "author_opinion",
-          "author": "뉴스락",
-          "source_ids": [
-            "e48318822c7e7f2180fa4089"
-          ],
-          "evidence": [
-            {
-              "source_id": "e48318822c7e7f2180fa4089",
-              "source_version_id": "1de1ba133f597433251f0e16",
-              "start": 0,
-              "end": 86,
-              "text": "[뉴스락] 삼성SDI(006400)가 에너지저장장치(ESS) 수주 확대와 소형전지 수익성 개선을 바탕으로 기업가치 재평가 국면에 진입했다는 분석이 나왔다.",
-              "source_excerpt_truncated": false,
-              "excerpt_truncated": false,
-              "location": "본문",
-              "display_text": "[뉴스락] 삼성SDI(006400)가 에너지저장장치(ESS) 수주 확대와 소형전지 수익성 개선을 바탕으로 기업가치 재평가 국면에 진입했다는 분석이 나왔다.",
-              "is_translation": false
-            }
-          ],
-          "rationale": "",
-          "conditions": "",
-          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
-          "validation": {
-            "semantic_support": "source_quote_only",
-            "human_review": "not_reviewed",
-            "status": "source_checked",
-            "source_linkage": "passed",
-            "content_check": "exact_quote",
-            "assertion_type": "interpretation"
-          },
-          "numbers": []
-        },
-        {
-          "id": "5530993caffa1caf82e2ca99",
-          "text": "전기차용 배터리 판매 둔화는 이어지고 있지만 각형·원통형 배터리에 대한 고객 선호가 높아지고 있고, ESS 수주 가시성과 미국 생산능력 확보 가능성이 커지면서 중장기 성장 기대가 높아지고 있다는 평가다.",
-          "kind": "author_opinion",
-          "author": "뉴스락",
-          "source_ids": [
-            "e48318822c7e7f2180fa4089"
-          ],
-          "evidence": [
-            {
-              "source_id": "e48318822c7e7f2180fa4089",
-              "source_version_id": "1de1ba133f597433251f0e16",
-              "start": 88,
-              "end": 201,
-              "text": "전기차용 배터리 판매 둔화는 이어지고 있지만 각형·원통형 배터리에 대한 고객 선호가 높아지고 있고, ESS 수주 가시성과 미국 생산능력 확보 가능성이 커지면서 중장기 성장 기대가 높아지고 있다는 평가다.",
-              "source_excerpt_truncated": false,
-              "excerpt_truncated": false,
-              "location": "본문",
-              "display_text": "전기차용 배터리 판매 둔화는 이어지고 있지만 각형·원통형 배터리에 대한 고객 선호가 높아지고 있고, ESS 수주 가시성과 미국 생산능력 확보 가능성이 커지면서 중장기 성장 기대가 높아지고 있다는 평가다.",
-              "is_translation": false
-            }
-          ],
-          "rationale": "",
-          "conditions": "",
-          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
-          "validation": {
-            "semantic_support": "source_quote_only",
-            "human_review": "not_reviewed",
-            "status": "source_checked",
-            "source_linkage": "passed",
-            "content_check": "exact_quote",
-            "assertion_type": "forecast"
-          },
-          "numbers": []
-        },
-        {
-          "id": "36d78fdd9a1971e74ecfb259",
-          "text": "15일 주민우 NH투자증권 연구원은 삼성SDI에 대한 투자의견 '매수(Buy)'를 유지하고 목표주가를 기존 60만원에서 73만원으로 22% 상향했다.",
+          "id": "3ffb715db050ac71f0022802",
+          "text": "14일(현지시간) 나스닥시장에서 핵심 기술주 가운데 구글 알파벳이 가장 돋보인 상승률을 보였다.",
           "kind": "fact",
-          "author": "뉴스락",
+          "author": "김종현",
           "source_ids": [
-            "e48318822c7e7f2180fa4089"
+            "d92a8cc6aa8ebc74be5885be"
           ],
           "evidence": [
             {
-              "source_id": "e48318822c7e7f2180fa4089",
-              "source_version_id": "1de1ba133f597433251f0e16",
-              "start": 203,
-              "end": 286,
-              "text": "15일 주민우 NH투자증권 연구원은 삼성SDI에 대한 투자의견 '매수(Buy)'를 유지하고 목표주가를 기존 60만원에서 73만원으로 22% 상향했다.",
+              "source_id": "d92a8cc6aa8ebc74be5885be",
+              "source_version_id": "63e8edf889b46c482636afb3",
+              "start": 87,
+              "end": 140,
+              "text": "14일(현지시간) 나스닥시장에서 핵심 기술주 가운데 구글 알파벳이 가장 돋보인 상승률을 보였다.",
               "source_excerpt_truncated": false,
               "excerpt_truncated": false,
               "location": "본문",
-              "display_text": "15일 주민우 NH투자증권 연구원은 삼성SDI에 대한 투자의견 '매수(Buy)'를 유지하고 목표주가를 기존 60만원에서 73만원으로 22% 상향했다.",
+              "display_text": "14일(현지시간) 나스닥시장에서 핵심 기술주 가운데 구글 알파벳이 가장 돋보인 상승률을 보였다.",
               "is_translation": false
             }
           ],
@@ -1673,24 +2368,59 @@
           "numbers": []
         },
         {
-          "id": "b56503ae185823a2f797b274",
-          "text": "지난 14일 종가 53만2000원 대비 상승여력은 37.2%다.",
-          "kind": "author_opinion",
-          "author": "뉴스락",
+          "id": "a61665ff5af381e9099be0b9",
+          "text": "이날 알파벳은 3.22% 오른 349.39 달러에 마감했다.",
+          "kind": "fact",
+          "author": "김종현",
           "source_ids": [
-            "e48318822c7e7f2180fa4089"
+            "d92a8cc6aa8ebc74be5885be"
           ],
           "evidence": [
             {
-              "source_id": "e48318822c7e7f2180fa4089",
-              "source_version_id": "1de1ba133f597433251f0e16",
-              "start": 287,
-              "end": 322,
-              "text": "지난 14일 종가 53만2000원 대비 상승여력은 37.2%다.",
+              "source_id": "d92a8cc6aa8ebc74be5885be",
+              "source_version_id": "63e8edf889b46c482636afb3",
+              "start": 141,
+              "end": 174,
+              "text": "이날 알파벳은 3.22% 오른 349.39 달러에 마감했다.",
               "source_excerpt_truncated": false,
               "excerpt_truncated": false,
               "location": "본문",
-              "display_text": "지난 14일 종가 53만2000원 대비 상승여력은 37.2%다.",
+              "display_text": "이날 알파벳은 3.22% 오른 349.39 달러에 마감했다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "b18fb6d3a990c8c0102319c4",
+          "text": "알파벳이 최근, 15억 달러 이상을 투자한 AI 핵심 스타트업 메커나이즈(Mechanize) 인수를 최종 완료했다는 소식도 주가에 모멘텀이 됐다.이는 구글 클라우드 및 풀스택 AI 모델 파이프라인의 연산 능력을 크게 강화할 것으로 보인다. 이날 미국 증시를 조정으로 몰아넣은 AI 속도 조절론이 반도체주엔 악재였지만 알파벳엔 호재로 작용했다.",
+          "kind": "author_opinion",
+          "author": "김종현",
+          "source_ids": [
+            "d92a8cc6aa8ebc74be5885be"
+          ],
+          "evidence": [
+            {
+              "source_id": "d92a8cc6aa8ebc74be5885be",
+              "source_version_id": "63e8edf889b46c482636afb3",
+              "start": 430,
+              "end": 621,
+              "text": "알파벳이 최근, 15억 달러 이상을 투자한 AI 핵심 스타트업 메커나이즈(Mechanize) 인수를 최종 완료했다는 소식도 주가에 모멘텀이 됐다.이는 구글 클라우드 및 풀스택 AI 모델 파이프라인의 연산 능력을 크게 강화할 것으로 보인다. 이날 미국 증시를 조정으로 몰아넣은 AI 속도 조절론이 반도체주엔 악재였지만 알파벳엔 호재로 작용했다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "알파벳이 최근, 15억 달러 이상을 투자한 AI 핵심 스타트업 메커나이즈(Mechanize) 인수를 최종 완료했다는 소식도 주가에 모멘텀이 됐다.이는 구글 클라우드 및 풀스택 AI 모델 파이프라인의 연산 능력을 크게 강화할 것으로 보인다. 이날 미국 증시를 조정으로 몰아넣은 AI 속도 조절론이 반도체주엔 악재였지만 알파벳엔 호재로 작용했다.",
               "is_translation": false
             }
           ],
@@ -1710,17 +2440,17 @@
       ],
       "event_schedules": [],
       "document_ids": [
-        "e48318822c7e7f2180fa4089"
+        "d92a8cc6aa8ebc74be5885be"
       ],
       "source_versions": [
-        "1de1ba133f597433251f0e16"
+        "63e8edf889b46c482636afb3"
       ],
       "entities": [],
       "selection_reason": [
         "수집 범위 내 독립 발행자 1개",
-        "자료 기준 경과 21.4시간",
+        "자료 기준 경과 24.9시간",
         "이전 입력과 중복 내용",
-        "수치가 명시된 전망 변경; 관측 사실과 구분"
+        "수치가 확인되는 금융시장 급변·기록 경신"
       ],
       "follow_up": [
         "원문과 기간·단위·작성 주체를 확인하고 해석을 검토하세요."
@@ -1736,197 +2466,8 @@
       "has_full_text": true,
       "has_message_text": false,
       "prior_day_follow_up": false,
-      "original_title": "[뉴스락 주식네비] 삼성SDI, ESS·소형전지로 반등 채비… \"합당한 리레이팅\"",
-      "source_title_ko": "[뉴스락 주식네비] 삼성SDI, ESS·소형전지로 반등 채비… \"합당한 리레이팅\"",
-      "korean_required": true
-    },
-    {
-      "id": "eca3e0b9bf7bc4a3625e4fac",
-      "anchor": "issue-f937cb01d1f84f6f",
-      "editorial_scope": "company",
-      "event_type": "outlook",
-      "title": "NH證 \"삼성SDI, 각형·원통형 선호로 수주 경쟁력 강화…목표가 73만원\" | 아주경제",
-      "section": "investment",
-      "category": "research",
-      "summary": [
-        "NH투자증권은 15일 삼성SDI에 대해 투자의견 '매수'를 유지하고 목표주가를 기존보다 22% 높인 73만원으로 상향했다. 선그로우 수주 가시성이 높아진 점을 반영해 ESS 실적 전망치를 상향하고 2027년 소형전지 믹스 개선을 고려해 수익성 전망을 높인 점이 목표주가 상향의 배경이다.",
-        "NH투자증권은 선그로우 수주가 가시화되면서 ESS 연간 수주 규모를 10GWh로 전망했다. 이에 따른 매출액은 약 1조1000억원, 영업이익은 약 5400억원으로 추정했다. 2027년에는 소형전지 믹스 개선을 반영해 영업이익률 전망을 기존 5%에서 6%로 상향했다.",
-        "미국 신규 생산능력 확보와 ESS 수주 가시성 개선을 반영해 할인율도 기존 20%에서 10%로 낮췄다.",
-        "삼성SDI의 3분기 매출액은 3조9000억원으로 전년 동기 대비 30% 증가하고 영업이익은 2603억원으로 추정했다."
-      ],
-      "change": "비교 가능한 과거 자료 없음 — 상향·하향·전망 변경 여부 미판정",
-      "claims": [
-        {
-          "id": "024be2847e3dea1ad5bb2fe6",
-          "text": "NH투자증권은 15일 삼성SDI에 대해 투자의견 '매수'를 유지하고 목표주가를 기존보다 22% 높인 73만원으로 상향했다. 선그로우 수주 가시성이 높아진 점을 반영해 ESS 실적 전망치를 상향하고 2027년 소형전지 믹스 개선을 고려해 수익성 전망을 높인 점이 목표주가 상향의 배경이다.",
-          "kind": "author_opinion",
-          "author": "신동근",
-          "source_ids": [
-            "81980aba84249f6660fcbb0e"
-          ],
-          "evidence": [
-            {
-              "source_id": "81980aba84249f6660fcbb0e",
-              "source_version_id": "f9160e5a5be2255b51bc8a61",
-              "start": 80,
-              "end": 240,
-              "text": "NH투자증권은 15일 삼성SDI에 대해 투자의견 '매수'를 유지하고 목표주가를 기존보다 22% 높인 73만원으로 상향했다. 선그로우 수주 가시성이 높아진 점을 반영해 ESS 실적 전망치를 상향하고 2027년 소형전지 믹스 개선을 고려해 수익성 전망을 높인 점이 목표주가 상향의 배경이다.",
-              "source_excerpt_truncated": false,
-              "excerpt_truncated": false,
-              "location": "본문",
-              "display_text": "NH투자증권은 15일 삼성SDI에 대해 투자의견 '매수'를 유지하고 목표주가를 기존보다 22% 높인 73만원으로 상향했다. 선그로우 수주 가시성이 높아진 점을 반영해 ESS 실적 전망치를 상향하고 2027년 소형전지 믹스 개선을 고려해 수익성 전망을 높인 점이 목표주가 상향의 배경이다.",
-              "is_translation": false
-            }
-          ],
-          "rationale": "",
-          "conditions": "",
-          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
-          "validation": {
-            "semantic_support": "source_quote_only",
-            "human_review": "not_reviewed",
-            "status": "source_checked",
-            "source_linkage": "passed",
-            "content_check": "exact_quote",
-            "assertion_type": "forecast"
-          },
-          "numbers": []
-        },
-        {
-          "id": "7948af4d94ead1223aa8619c",
-          "text": "NH투자증권은 선그로우 수주가 가시화되면서 ESS 연간 수주 규모를 10GWh로 전망했다. 이에 따른 매출액은 약 1조1000억원, 영업이익은 약 5400억원으로 추정했다. 2027년에는 소형전지 믹스 개선을 반영해 영업이익률 전망을 기존 5%에서 6%로 상향했다.",
-          "kind": "author_opinion",
-          "author": "신동근",
-          "source_ids": [
-            "81980aba84249f6660fcbb0e"
-          ],
-          "evidence": [
-            {
-              "source_id": "81980aba84249f6660fcbb0e",
-              "source_version_id": "f9160e5a5be2255b51bc8a61",
-              "start": 373,
-              "end": 521,
-              "text": "NH투자증권은 선그로우 수주가 가시화되면서 ESS 연간 수주 규모를 10GWh로 전망했다. 이에 따른 매출액은 약 1조1000억원, 영업이익은 약 5400억원으로 추정했다. 2027년에는 소형전지 믹스 개선을 반영해 영업이익률 전망을 기존 5%에서 6%로 상향했다.",
-              "source_excerpt_truncated": false,
-              "excerpt_truncated": false,
-              "location": "본문",
-              "display_text": "NH투자증권은 선그로우 수주가 가시화되면서 ESS 연간 수주 규모를 10GWh로 전망했다. 이에 따른 매출액은 약 1조1000억원, 영업이익은 약 5400억원으로 추정했다. 2027년에는 소형전지 믹스 개선을 반영해 영업이익률 전망을 기존 5%에서 6%로 상향했다.",
-              "is_translation": false
-            }
-          ],
-          "rationale": "",
-          "conditions": "",
-          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
-          "validation": {
-            "semantic_support": "source_quote_only",
-            "human_review": "not_reviewed",
-            "status": "source_checked",
-            "source_linkage": "passed",
-            "content_check": "exact_quote",
-            "assertion_type": "forecast"
-          },
-          "numbers": []
-        },
-        {
-          "id": "0340d5e1233a20b5ac245cf3",
-          "text": "미국 신규 생산능력 확보와 ESS 수주 가시성 개선을 반영해 할인율도 기존 20%에서 10%로 낮췄다.",
-          "kind": "fact",
-          "author": "신동근",
-          "source_ids": [
-            "81980aba84249f6660fcbb0e"
-          ],
-          "evidence": [
-            {
-              "source_id": "81980aba84249f6660fcbb0e",
-              "source_version_id": "f9160e5a5be2255b51bc8a61",
-              "start": 523,
-              "end": 580,
-              "text": "미국 신규 생산능력 확보와 ESS 수주 가시성 개선을 반영해 할인율도 기존 20%에서 10%로 낮췄다.",
-              "source_excerpt_truncated": false,
-              "excerpt_truncated": false,
-              "location": "본문",
-              "display_text": "미국 신규 생산능력 확보와 ESS 수주 가시성 개선을 반영해 할인율도 기존 20%에서 10%로 낮췄다.",
-              "is_translation": false
-            }
-          ],
-          "rationale": "",
-          "conditions": "",
-          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
-          "validation": {
-            "semantic_support": "source_quote_only",
-            "human_review": "not_reviewed",
-            "status": "source_checked",
-            "source_linkage": "passed",
-            "content_check": "exact_quote",
-            "assertion_type": "observation"
-          },
-          "numbers": []
-        },
-        {
-          "id": "7ea67ad69554ec13212cdd9f",
-          "text": "삼성SDI의 3분기 매출액은 3조9000억원으로 전년 동기 대비 30% 증가하고 영업이익은 2603억원으로 추정했다.",
-          "kind": "author_opinion",
-          "author": "신동근",
-          "source_ids": [
-            "81980aba84249f6660fcbb0e"
-          ],
-          "evidence": [
-            {
-              "source_id": "81980aba84249f6660fcbb0e",
-              "source_version_id": "f9160e5a5be2255b51bc8a61",
-              "start": 780,
-              "end": 845,
-              "text": "삼성SDI의 3분기 매출액은 3조9000억원으로 전년 동기 대비 30% 증가하고 영업이익은 2603억원으로 추정했다.",
-              "source_excerpt_truncated": false,
-              "excerpt_truncated": false,
-              "location": "본문",
-              "display_text": "삼성SDI의 3분기 매출액은 3조9000억원으로 전년 동기 대비 30% 증가하고 영업이익은 2603억원으로 추정했다.",
-              "is_translation": false
-            }
-          ],
-          "rationale": "",
-          "conditions": "",
-          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
-          "validation": {
-            "semantic_support": "source_quote_only",
-            "human_review": "not_reviewed",
-            "status": "source_checked",
-            "source_linkage": "passed",
-            "content_check": "exact_quote",
-            "assertion_type": "forecast"
-          },
-          "numbers": []
-        }
-      ],
-      "event_schedules": [],
-      "document_ids": [
-        "81980aba84249f6660fcbb0e"
-      ],
-      "source_versions": [
-        "f9160e5a5be2255b51bc8a61"
-      ],
-      "entities": [],
-      "selection_reason": [
-        "수집 범위 내 독립 발행자 1개",
-        "자료 기준 경과 23.9시간",
-        "이전 입력과 중복 내용",
-        "수치가 명시된 전망 변경; 관측 사실과 구분"
-      ],
-      "follow_up": [
-        "원문과 기간·단위·작성 주체를 확인하고 해석을 검토하세요."
-      ],
-      "confidence": "source_checked",
-      "related_issue_id": null,
-      "late_discovered": false,
-      "analysis_provider": "extractive",
-      "model_status": "not_needed_source_korean",
-      "analysis_label": "한국어 원문에서 핵심 문장 선별",
-      "evidence_expired": false,
-      "evidence_partially_expired": false,
-      "has_full_text": true,
-      "has_message_text": false,
-      "prior_day_follow_up": false,
-      "original_title": "NH證 \"삼성SDI, 각형·원통형 선호로 수주 경쟁력 강화…목표가 73만원\" | 아주경제",
-      "source_title_ko": "NH證 \"삼성SDI, 각형·원통형 선호로 수주 경쟁력 강화…목표가 73만원\" | 아주경제",
+      "original_title": "[美증시 특징주] 구글 알파벳 급등…AI경쟁 속도조절+분기배당금 지급 효과",
+      "source_title_ko": "[美증시 특징주] 구글 알파벳 급등…AI경쟁 속도조절+분기배당금 지급 효과",
       "korean_required": true
     },
     {
@@ -2098,7 +2639,7 @@
         "수집 범위 내 독립 발행자 1개",
         "자료 기준 경과 26.2시간",
         "이전 입력과 중복 내용",
-        "산업 수출입 실적"
+        "발표 시점과 관측 기간이 확인된 수출입 통계"
       ],
       "follow_up": [
         "원문과 기간·단위·작성 주체를 확인하고 해석을 검토하세요."
@@ -2119,40 +2660,40 @@
       "korean_required": true
     },
     {
-      "id": "419d5e5abaf778f3caf4b533",
-      "anchor": "issue-ce9362168f1761fa",
-      "editorial_scope": "company",
-      "event_type": "contract",
-      "title": "삼성중공업, 대형 LNG운반선 등 1.6조원 수주",
+      "id": "ce9081353fceb6d2d6fe7e76",
+      "anchor": "issue-66cc20d00398a67d",
+      "editorial_scope": "market",
+      "event_type": "market_update",
+      "title": "AI 속도조절론에 亞증시 약세…소프트뱅크 10%대 급락[Asia마감] - 머니투데이",
       "section": "investment",
       "category": "research",
       "summary": [
-        "삼성중공업이 총 1조 6476억 원 규모의 선박 6척을 연이어 수주하며 작년 상선 수주 실적을 넘어섰다. 삼성중공업은 오세아니아 지역 선주와 대형 LNG운반선 4척을 10억 달러, 원유 운반선 2척을 2억 달러에 계약하는 등 총 6척 12억 달러를 수주했다고 14일 밝혔다.",
-        "LNG운반선 시장에서 수주고를 늘리고 있는 삼성중공업은 올해 들어 총 18척을 수주했다. 특히 이번에 수주한 대형 LNG운반선 4척은 표준형 모델인 17만 4000㎥급보다 화물창 용적이 큰 20만㎥급으로, 같은 물량을 운송할 때 항차 수를 줄여 단위 수송량 당 운항 효율을 높이는 효과가 있다.",
-        "삼성중공업의 올해 상선 부문 수주 실적은 73억 달러로, 지난해 상선 부문 수주 실적 71억 달러를 이미 넘어섰다. 이는 올해 수주 목표 57억 달러 대비 28% 초과 달성한 결과다.",
-        "삼성중공업 관계자는 “이번 대형 LNG운반선 수주는 선주의 장거리 수송 목적에 적극적으로 부응한 결과”라며 “앞으로도 고객 니즈와 편의성에 부합하고 수익성 중심의 선별 수주를 지속해 나가겠다”고 말했다."
+        "14일 아시아 증시는 인공지능(AI) 신중론에 따른 반도체 관련 종목 부진으로 대체로 약세를 보였다.\n\n\n\n이날 일본 도쿄 닛케이225지수는 전거래일 대비 0.81% 내린 6만 3492.99에 종가를 기록했다. AI 개발 속도조절론이 퍼지고 오픈AI가 연내 상장을 미루겠다고 발표하면서 AI·반도체 관련주가 일제히 하락해 평균을 끌어내렸다.",
+        "도쿄 증권시장에서는 오픈AI에 투자한 소프트뱅크에서 매도 물량이 속출하며 주가가 10% 넘게 떨어졌다. 소프트뱅크 주가는 장중 13%까지 떨어졌지만 일부 저점 매수 물량이 나오며 하락폭을 일부 만회했다.",
+        "중국 상하이종합지수는 전거래일 대비 0.07% 하락했다. 중동 정세와 에너지 수송을 둘러싼 불확실성이 증시를 끌어내렸다.",
+        "대만 가권지수는 전거래일보다 0.7% 내린 반면 홍콩 항셍지수는 0.35% 올랐다."
       ],
       "change": "비교 가능한 과거 자료 없음 — 상향·하향·전망 변경 여부 미판정",
       "claims": [
         {
-          "id": "de4b5b731fc4aa7c2f8d92e4",
-          "text": "삼성중공업이 총 1조 6476억 원 규모의 선박 6척을 연이어 수주하며 작년 상선 수주 실적을 넘어섰다. 삼성중공업은 오세아니아 지역 선주와 대형 LNG운반선 4척을 10억 달러, 원유 운반선 2척을 2억 달러에 계약하는 등 총 6척 12억 달러를 수주했다고 14일 밝혔다.",
+          "id": "e7f43c4ab455d18ad9b6b693",
+          "text": "14일 아시아 증시는 인공지능(AI) 신중론에 따른 반도체 관련 종목 부진으로 대체로 약세를 보였다.\n\n\n\n이날 일본 도쿄 닛케이225지수는 전거래일 대비 0.81% 내린 6만 3492.99에 종가를 기록했다. AI 개발 속도조절론이 퍼지고 오픈AI가 연내 상장을 미루겠다고 발표하면서 AI·반도체 관련주가 일제히 하락해 평균을 끌어내렸다.",
           "kind": "fact",
-          "author": "배창일",
+          "author": "백소희",
           "source_ids": [
-            "c5e0a6ca00fe1987b05297b5"
+            "2a6590967a81b9b5004a6975"
           ],
           "evidence": [
             {
-              "source_id": "c5e0a6ca00fe1987b05297b5",
-              "source_version_id": "a425e594420a6bb36f797161",
-              "start": 0,
-              "end": 153,
-              "text": "삼성중공업이 총 1조 6476억 원 규모의 선박 6척을 연이어 수주하며 작년 상선 수주 실적을 넘어섰다. 삼성중공업은 오세아니아 지역 선주와 대형 LNG운반선 4척을 10억 달러, 원유 운반선 2척을 2억 달러에 계약하는 등 총 6척 12억 달러를 수주했다고 14일 밝혔다.",
+              "source_id": "2a6590967a81b9b5004a6975",
+              "source_version_id": "58de972e192949b3c19c2ba9",
+              "start": 2,
+              "end": 192,
+              "text": "14일 아시아 증시는 인공지능(AI) 신중론에 따른 반도체 관련 종목 부진으로 대체로 약세를 보였다.\n\n\n\n이날 일본 도쿄 닛케이225지수는 전거래일 대비 0.81% 내린 6만 3492.99에 종가를 기록했다. AI 개발 속도조절론이 퍼지고 오픈AI가 연내 상장을 미루겠다고 발표하면서 AI·반도체 관련주가 일제히 하락해 평균을 끌어내렸다.",
               "source_excerpt_truncated": false,
               "excerpt_truncated": false,
               "location": "본문",
-              "display_text": "삼성중공업이 총 1조 6476억 원 규모의 선박 6척을 연이어 수주하며 작년 상선 수주 실적을 넘어섰다. 삼성중공업은 오세아니아 지역 선주와 대형 LNG운반선 4척을 10억 달러, 원유 운반선 2척을 2억 달러에 계약하는 등 총 6척 12억 달러를 수주했다고 14일 밝혔다.",
+              "display_text": "14일 아시아 증시는 인공지능(AI) 신중론에 따른 반도체 관련 종목 부진으로 대체로 약세를 보였다.\n\n\n\n이날 일본 도쿄 닛케이225지수는 전거래일 대비 0.81% 내린 6만 3492.99에 종가를 기록했다. AI 개발 속도조절론이 퍼지고 오픈AI가 연내 상장을 미루겠다고 발표하면서 AI·반도체 관련주가 일제히 하락해 평균을 끌어내렸다.",
               "is_translation": false
             }
           ],
@@ -2170,24 +2711,24 @@
           "numbers": []
         },
         {
-          "id": "c4753af57133773b4845198d",
-          "text": "LNG운반선 시장에서 수주고를 늘리고 있는 삼성중공업은 올해 들어 총 18척을 수주했다. 특히 이번에 수주한 대형 LNG운반선 4척은 표준형 모델인 17만 4000㎥급보다 화물창 용적이 큰 20만㎥급으로, 같은 물량을 운송할 때 항차 수를 줄여 단위 수송량 당 운항 효율을 높이는 효과가 있다.",
+          "id": "b25d40e372c4421e71ad876b",
+          "text": "도쿄 증권시장에서는 오픈AI에 투자한 소프트뱅크에서 매도 물량이 속출하며 주가가 10% 넘게 떨어졌다. 소프트뱅크 주가는 장중 13%까지 떨어졌지만 일부 저점 매수 물량이 나오며 하락폭을 일부 만회했다.",
           "kind": "fact",
-          "author": "배창일",
+          "author": "백소희",
           "source_ids": [
-            "c5e0a6ca00fe1987b05297b5"
+            "2a6590967a81b9b5004a6975"
           ],
           "evidence": [
             {
-              "source_id": "c5e0a6ca00fe1987b05297b5",
-              "source_version_id": "a425e594420a6bb36f797161",
-              "start": 381,
-              "end": 545,
-              "text": "LNG운반선 시장에서 수주고를 늘리고 있는 삼성중공업은 올해 들어 총 18척을 수주했다. 특히 이번에 수주한 대형 LNG운반선 4척은 표준형 모델인 17만 4000㎥급보다 화물창 용적이 큰 20만㎥급으로, 같은 물량을 운송할 때 항차 수를 줄여 단위 수송량 당 운항 효율을 높이는 효과가 있다.",
+              "source_id": "2a6590967a81b9b5004a6975",
+              "source_version_id": "58de972e192949b3c19c2ba9",
+              "start": 446,
+              "end": 559,
+              "text": "도쿄 증권시장에서는 오픈AI에 투자한 소프트뱅크에서 매도 물량이 속출하며 주가가 10% 넘게 떨어졌다. 소프트뱅크 주가는 장중 13%까지 떨어졌지만 일부 저점 매수 물량이 나오며 하락폭을 일부 만회했다.",
               "source_excerpt_truncated": false,
               "excerpt_truncated": false,
               "location": "본문",
-              "display_text": "LNG운반선 시장에서 수주고를 늘리고 있는 삼성중공업은 올해 들어 총 18척을 수주했다. 특히 이번에 수주한 대형 LNG운반선 4척은 표준형 모델인 17만 4000㎥급보다 화물창 용적이 큰 20만㎥급으로, 같은 물량을 운송할 때 항차 수를 줄여 단위 수송량 당 운항 효율을 높이는 효과가 있다.",
+              "display_text": "도쿄 증권시장에서는 오픈AI에 투자한 소프트뱅크에서 매도 물량이 속출하며 주가가 10% 넘게 떨어졌다. 소프트뱅크 주가는 장중 13%까지 떨어졌지만 일부 저점 매수 물량이 나오며 하락폭을 일부 만회했다.",
               "is_translation": false
             }
           ],
@@ -2205,24 +2746,24 @@
           "numbers": []
         },
         {
-          "id": "1d62373d8d4cc303f8879e39",
-          "text": "삼성중공업의 올해 상선 부문 수주 실적은 73억 달러로, 지난해 상선 부문 수주 실적 71억 달러를 이미 넘어섰다. 이는 올해 수주 목표 57억 달러 대비 28% 초과 달성한 결과다.",
+          "id": "d64a8e1bb7c56fb79a54ca80",
+          "text": "중국 상하이종합지수는 전거래일 대비 0.07% 하락했다. 중동 정세와 에너지 수송을 둘러싼 불확실성이 증시를 끌어내렸다.",
           "kind": "fact",
-          "author": "배창일",
+          "author": "백소희",
           "source_ids": [
-            "c5e0a6ca00fe1987b05297b5"
+            "2a6590967a81b9b5004a6975"
           ],
           "evidence": [
             {
-              "source_id": "c5e0a6ca00fe1987b05297b5",
-              "source_version_id": "a425e594420a6bb36f797161",
-              "start": 546,
-              "end": 648,
-              "text": "삼성중공업의 올해 상선 부문 수주 실적은 73억 달러로, 지난해 상선 부문 수주 실적 71억 달러를 이미 넘어섰다. 이는 올해 수주 목표 57억 달러 대비 28% 초과 달성한 결과다.",
+              "source_id": "2a6590967a81b9b5004a6975",
+              "source_version_id": "58de972e192949b3c19c2ba9",
+              "start": 961,
+              "end": 1028,
+              "text": "중국 상하이종합지수는 전거래일 대비 0.07% 하락했다. 중동 정세와 에너지 수송을 둘러싼 불확실성이 증시를 끌어내렸다.",
               "source_excerpt_truncated": false,
               "excerpt_truncated": false,
               "location": "본문",
-              "display_text": "삼성중공업의 올해 상선 부문 수주 실적은 73억 달러로, 지난해 상선 부문 수주 실적 71억 달러를 이미 넘어섰다. 이는 올해 수주 목표 57억 달러 대비 28% 초과 달성한 결과다.",
+              "display_text": "중국 상하이종합지수는 전거래일 대비 0.07% 하락했다. 중동 정세와 에너지 수송을 둘러싼 불확실성이 증시를 끌어내렸다.",
               "is_translation": false
             }
           ],
@@ -2240,24 +2781,24 @@
           "numbers": []
         },
         {
-          "id": "12dbcf29d3928dadaac9f66f",
-          "text": "삼성중공업 관계자는 “이번 대형 LNG운반선 수주는 선주의 장거리 수송 목적에 적극적으로 부응한 결과”라며 “앞으로도 고객 니즈와 편의성에 부합하고 수익성 중심의 선별 수주를 지속해 나가겠다”고 말했다.",
+          "id": "6734bb5ef495955021101bfa",
+          "text": "대만 가권지수는 전거래일보다 0.7% 내린 반면 홍콩 항셍지수는 0.35% 올랐다.",
           "kind": "fact",
-          "author": "배창일",
+          "author": "백소희",
           "source_ids": [
-            "c5e0a6ca00fe1987b05297b5"
+            "2a6590967a81b9b5004a6975"
           ],
           "evidence": [
             {
-              "source_id": "c5e0a6ca00fe1987b05297b5",
-              "source_version_id": "a425e594420a6bb36f797161",
-              "start": 649,
-              "end": 762,
-              "text": "삼성중공업 관계자는 “이번 대형 LNG운반선 수주는 선주의 장거리 수송 목적에 적극적으로 부응한 결과”라며 “앞으로도 고객 니즈와 편의성에 부합하고 수익성 중심의 선별 수주를 지속해 나가겠다”고 말했다.",
+              "source_id": "2a6590967a81b9b5004a6975",
+              "source_version_id": "58de972e192949b3c19c2ba9",
+              "start": 1107,
+              "end": 1153,
+              "text": "대만 가권지수는 전거래일보다 0.7% 내린 반면 홍콩 항셍지수는 0.35% 올랐다.",
               "source_excerpt_truncated": false,
               "excerpt_truncated": false,
               "location": "본문",
-              "display_text": "삼성중공업 관계자는 “이번 대형 LNG운반선 수주는 선주의 장거리 수송 목적에 적극적으로 부응한 결과”라며 “앞으로도 고객 니즈와 편의성에 부합하고 수익성 중심의 선별 수주를 지속해 나가겠다”고 말했다.",
+              "display_text": "대만 가권지수는 전거래일보다 0.7% 내린 반면 홍콩 항셍지수는 0.35% 올랐다.",
               "is_translation": false
             }
           ],
@@ -2277,17 +2818,17 @@
       ],
       "event_schedules": [],
       "document_ids": [
-        "c5e0a6ca00fe1987b05297b5"
+        "2a6590967a81b9b5004a6975"
       ],
       "source_versions": [
-        "a425e594420a6bb36f797161"
+        "58de972e192949b3c19c2ba9"
       ],
       "entities": [],
       "selection_reason": [
         "수집 범위 내 독립 발행자 1개",
-        "자료 기준 경과 37.5시간",
+        "자료 기준 경과 38.8시간",
         "이전 입력과 중복 내용",
-        "원문에 실행·결정 근거가 있는 기업 계약·제품·자본거래·승인"
+        "수치가 확인되는 금융시장 급변·기록 경신"
       ],
       "follow_up": [
         "원문과 기간·단위·작성 주체를 확인하고 해석을 검토하세요."
@@ -2303,45 +2844,80 @@
       "has_full_text": true,
       "has_message_text": false,
       "prior_day_follow_up": false,
-      "original_title": "삼성중공업, 대형 LNG운반선 등 1.6조원 수주",
-      "source_title_ko": "삼성중공업, 대형 LNG운반선 등 1.6조원 수주",
+      "original_title": "AI 속도조절론에 亞증시 약세…소프트뱅크 10%대 급락[Asia마감] - 머니투데이",
+      "source_title_ko": "AI 속도조절론에 亞증시 약세…소프트뱅크 10%대 급락[Asia마감] - 머니투데이",
       "korean_required": true
     },
     {
-      "id": "d43fc5752c6ef9e3af6f06e9",
-      "anchor": "issue-9348789404ab5ede",
-      "editorial_scope": "company",
-      "event_type": "operating_update",
-      "title": "현대차·기아 친환경차 수출 22%↑…‘미국 HEV·유럽 EV 주축’",
+      "id": "6da83ca058ec9e27d8ca906d",
+      "anchor": "issue-f3a6d4b72817b46e",
+      "editorial_scope": "market",
+      "event_type": "market_update",
+      "title": "AI 개발 '속도조절론'에 美선물 급락…유가는 107달러 돌파",
       "section": "investment",
       "category": "research",
       "summary": [
-        "14일 한국자동차모빌리티산업협회(KAMA)에 따르면 현대차·기아의 올해 1~7월 친환경차 수출은 59만1471대로 전년 동기보다 22.3% 증가했다.",
-        "현대차의 하이브리드 수출 증가세는 미국에서 특히 두드러졌다. 대미 수출은 12만1027대로 70.1% 급증했으며 전체 현대차 하이브리드 수출에서 미국이 차지하는 비중도 지난해 40.2%에서 올해 49.4%로 높아졌다.",
-        "1~7월 기아의 전기차 수출은 10만3823대로 지난해 같은 기간보다 34.3% 늘었다.",
-        "유럽으로 보낸 물량은 8만428대로 44.7% 증가했으며 기아 전체 전기차 수출에서 유럽이 차지하는 비중도 지난해 71.9%에서 77.5%까지 높아졌다."
+        "반면 중동 긴장 고조로 국제유가는 배럴당 107달러를 넘어섰다. AI 투자 둔화 가능성과 고금리·고유가가 동시에 부각되면서 글로벌 증시의 변동성이 다시 커질 수 있다는 경계감이 확산하고 있다.",
+        "블룸버그통신에 따르면 14일 아시아 시장 초반 나스닥100지수 선물은 1.2% 하락했다.",
+        "지난 11일 나스닥100 현물지수가 0.9% 상승한 것과 대조적이다.",
+        "사우디아라비아가 드론 공격 이후 주요 송유관을 폐쇄하고 이란과 걸프 국가 간 회의까지 연기되면서 브렌트유는 2.8% 오른 배럴당 107.55달러를 기록했다."
       ],
       "change": "비교 가능한 과거 자료 없음 — 상향·하향·전망 변경 여부 미판정",
       "claims": [
         {
-          "id": "ee51d93e05588138c96804c1",
-          "text": "14일 한국자동차모빌리티산업협회(KAMA)에 따르면 현대차·기아의 올해 1~7월 친환경차 수출은 59만1471대로 전년 동기보다 22.3% 증가했다.",
-          "kind": "fact",
-          "author": "ER 이코노믹리뷰",
+          "id": "fd36f4bccadbf4950c982625",
+          "text": "반면 중동 긴장 고조로 국제유가는 배럴당 107달러를 넘어섰다. AI 투자 둔화 가능성과 고금리·고유가가 동시에 부각되면서 글로벌 증시의 변동성이 다시 커질 수 있다는 경계감이 확산하고 있다.",
+          "kind": "author_opinion",
+          "author": "이윤형 기자",
           "source_ids": [
-            "24a8b1e1bb95f8daff44a27c"
+            "0a32a0f0c9acd90d7d94b41d"
           ],
           "evidence": [
             {
-              "source_id": "24a8b1e1bb95f8daff44a27c",
-              "source_version_id": "b8e10e36b44aa9ff369dad13",
-              "start": 120,
-              "end": 203,
-              "text": "14일 한국자동차모빌리티산업협회(KAMA)에 따르면 현대차·기아의 올해 1~7월 친환경차 수출은 59만1471대로 전년 동기보다 22.3% 증가했다.",
+              "source_id": "0a32a0f0c9acd90d7d94b41d",
+              "source_version_id": "adc4bb54454bcc03f9711c79",
+              "start": 53,
+              "end": 160,
+              "text": "반면 중동 긴장 고조로 국제유가는 배럴당 107달러를 넘어섰다. AI 투자 둔화 가능성과 고금리·고유가가 동시에 부각되면서 글로벌 증시의 변동성이 다시 커질 수 있다는 경계감이 확산하고 있다.",
               "source_excerpt_truncated": false,
               "excerpt_truncated": false,
               "location": "본문",
-              "display_text": "14일 한국자동차모빌리티산업협회(KAMA)에 따르면 현대차·기아의 올해 1~7월 친환경차 수출은 59만1471대로 전년 동기보다 22.3% 증가했다.",
+              "display_text": "반면 중동 긴장 고조로 국제유가는 배럴당 107달러를 넘어섰다. AI 투자 둔화 가능성과 고금리·고유가가 동시에 부각되면서 글로벌 증시의 변동성이 다시 커질 수 있다는 경계감이 확산하고 있다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "forecast"
+          },
+          "numbers": []
+        },
+        {
+          "id": "85197cd1d38dfdb093b2b89c",
+          "text": "블룸버그통신에 따르면 14일 아시아 시장 초반 나스닥100지수 선물은 1.2% 하락했다.",
+          "kind": "fact",
+          "author": "이윤형 기자",
+          "source_ids": [
+            "0a32a0f0c9acd90d7d94b41d"
+          ],
+          "evidence": [
+            {
+              "source_id": "0a32a0f0c9acd90d7d94b41d",
+              "source_version_id": "adc4bb54454bcc03f9711c79",
+              "start": 162,
+              "end": 211,
+              "text": "블룸버그통신에 따르면 14일 아시아 시장 초반 나스닥100지수 선물은 1.2% 하락했다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "블룸버그통신에 따르면 14일 아시아 시장 초반 나스닥100지수 선물은 1.2% 하락했다.",
               "is_translation": false
             }
           ],
@@ -2359,24 +2935,24 @@
           "numbers": []
         },
         {
-          "id": "1ef0031317587c263b17e00c",
-          "text": "현대차의 하이브리드 수출 증가세는 미국에서 특히 두드러졌다. 대미 수출은 12만1027대로 70.1% 급증했으며 전체 현대차 하이브리드 수출에서 미국이 차지하는 비중도 지난해 40.2%에서 올해 49.4%로 높아졌다.",
+          "id": "a781e7751744cae67f79f204",
+          "text": "지난 11일 나스닥100 현물지수가 0.9% 상승한 것과 대조적이다.",
           "kind": "fact",
-          "author": "ER 이코노믹리뷰",
+          "author": "이윤형 기자",
           "source_ids": [
-            "24a8b1e1bb95f8daff44a27c"
+            "0a32a0f0c9acd90d7d94b41d"
           ],
           "evidence": [
             {
-              "source_id": "24a8b1e1bb95f8daff44a27c",
-              "source_version_id": "b8e10e36b44aa9ff369dad13",
-              "start": 357,
-              "end": 478,
-              "text": "현대차의 하이브리드 수출 증가세는 미국에서 특히 두드러졌다. 대미 수출은 12만1027대로 70.1% 급증했으며 전체 현대차 하이브리드 수출에서 미국이 차지하는 비중도 지난해 40.2%에서 올해 49.4%로 높아졌다.",
+              "source_id": "0a32a0f0c9acd90d7d94b41d",
+              "source_version_id": "adc4bb54454bcc03f9711c79",
+              "start": 234,
+              "end": 272,
+              "text": "지난 11일 나스닥100 현물지수가 0.9% 상승한 것과 대조적이다.",
               "source_excerpt_truncated": false,
               "excerpt_truncated": false,
               "location": "본문",
-              "display_text": "현대차의 하이브리드 수출 증가세는 미국에서 특히 두드러졌다. 대미 수출은 12만1027대로 70.1% 급증했으며 전체 현대차 하이브리드 수출에서 미국이 차지하는 비중도 지난해 40.2%에서 올해 49.4%로 높아졌다.",
+              "display_text": "지난 11일 나스닥100 현물지수가 0.9% 상승한 것과 대조적이다.",
               "is_translation": false
             }
           ],
@@ -2394,59 +2970,24 @@
           "numbers": []
         },
         {
-          "id": "8638744f316ee596daef2dca",
-          "text": "1~7월 기아의 전기차 수출은 10만3823대로 지난해 같은 기간보다 34.3% 늘었다.",
+          "id": "3f9ecb46a1c7e4ad5b5ed2a8",
+          "text": "사우디아라비아가 드론 공격 이후 주요 송유관을 폐쇄하고 이란과 걸프 국가 간 회의까지 연기되면서 브렌트유는 2.8% 오른 배럴당 107.55달러를 기록했다.",
           "kind": "fact",
-          "author": "ER 이코노믹리뷰",
+          "author": "이윤형 기자",
           "source_ids": [
-            "24a8b1e1bb95f8daff44a27c"
+            "0a32a0f0c9acd90d7d94b41d"
           ],
           "evidence": [
             {
-              "source_id": "24a8b1e1bb95f8daff44a27c",
-              "source_version_id": "b8e10e36b44aa9ff369dad13",
-              "start": 647,
-              "end": 696,
-              "text": "1~7월 기아의 전기차 수출은 10만3823대로 지난해 같은 기간보다 34.3% 늘었다.",
+              "source_id": "0a32a0f0c9acd90d7d94b41d",
+              "source_version_id": "adc4bb54454bcc03f9711c79",
+              "start": 968,
+              "end": 1055,
+              "text": "사우디아라비아가 드론 공격 이후 주요 송유관을 폐쇄하고 이란과 걸프 국가 간 회의까지 연기되면서 브렌트유는 2.8% 오른 배럴당 107.55달러를 기록했다.",
               "source_excerpt_truncated": false,
               "excerpt_truncated": false,
               "location": "본문",
-              "display_text": "1~7월 기아의 전기차 수출은 10만3823대로 지난해 같은 기간보다 34.3% 늘었다.",
-              "is_translation": false
-            }
-          ],
-          "rationale": "",
-          "conditions": "",
-          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
-          "validation": {
-            "semantic_support": "source_quote_only",
-            "human_review": "not_reviewed",
-            "status": "source_checked",
-            "source_linkage": "passed",
-            "content_check": "exact_quote",
-            "assertion_type": "observation"
-          },
-          "numbers": []
-        },
-        {
-          "id": "19c912849ef961f92465851f",
-          "text": "유럽으로 보낸 물량은 8만428대로 44.7% 증가했으며 기아 전체 전기차 수출에서 유럽이 차지하는 비중도 지난해 71.9%에서 77.5%까지 높아졌다.",
-          "kind": "fact",
-          "author": "ER 이코노믹리뷰",
-          "source_ids": [
-            "24a8b1e1bb95f8daff44a27c"
-          ],
-          "evidence": [
-            {
-              "source_id": "24a8b1e1bb95f8daff44a27c",
-              "source_version_id": "b8e10e36b44aa9ff369dad13",
-              "start": 736,
-              "end": 821,
-              "text": "유럽으로 보낸 물량은 8만428대로 44.7% 증가했으며 기아 전체 전기차 수출에서 유럽이 차지하는 비중도 지난해 71.9%에서 77.5%까지 높아졌다.",
-              "source_excerpt_truncated": false,
-              "excerpt_truncated": false,
-              "location": "본문",
-              "display_text": "유럽으로 보낸 물량은 8만428대로 44.7% 증가했으며 기아 전체 전기차 수출에서 유럽이 차지하는 비중도 지난해 71.9%에서 77.5%까지 높아졌다.",
+              "display_text": "사우디아라비아가 드론 공격 이후 주요 송유관을 폐쇄하고 이란과 걸프 국가 간 회의까지 연기되면서 브렌트유는 2.8% 오른 배럴당 107.55달러를 기록했다.",
               "is_translation": false
             }
           ],
@@ -2466,17 +3007,17 @@
       ],
       "event_schedules": [],
       "document_ids": [
-        "24a8b1e1bb95f8daff44a27c"
+        "0a32a0f0c9acd90d7d94b41d"
       ],
       "source_versions": [
-        "b8e10e36b44aa9ff369dad13"
+        "adc4bb54454bcc03f9711c79"
       ],
       "entities": [],
       "selection_reason": [
         "수집 범위 내 독립 발행자 1개",
-        "자료 기준 경과 38.0시간",
+        "자료 기준 경과 47.8시간",
         "이전 입력과 중복 내용",
-        "기업의 수출 실적"
+        "수치가 확인되는 금융시장 급변·기록 경신"
       ],
       "follow_up": [
         "원문과 기간·단위·작성 주체를 확인하고 해석을 검토하세요."
@@ -2492,234 +3033,45 @@
       "has_full_text": true,
       "has_message_text": false,
       "prior_day_follow_up": false,
-      "original_title": "현대차·기아 친환경차 수출 22%↑…‘미국 HEV·유럽 EV 주축’",
-      "source_title_ko": "현대차·기아 친환경차 수출 22%↑…‘미국 HEV·유럽 EV 주축’",
+      "original_title": "AI 개발 '속도조절론'에 美선물 급락…유가는 107달러 돌파",
+      "source_title_ko": "AI 개발 '속도조절론'에 美선물 급락…유가는 107달러 돌파",
       "korean_required": true
     },
     {
-      "id": "cca4a5cc702a2ca880d65b04",
-      "anchor": "issue-b14107e9ec58ef0c",
+      "id": "bbdb539a68627c217efcd571",
+      "anchor": "issue-cf183ad7c3c67a3d",
       "editorial_scope": "industry",
-      "event_type": "industry_release",
-      "title": "AI 훈풍 탄 ICT 수출 163%↑ 600억달러 육박 … 역대 최대 찍었다",
+      "event_type": "industry_regulation",
+      "title": "대한항공-아시아나 마일리지 통합 최종 승인…10년간 기존 마일리지 그대로",
       "section": "investment",
       "category": "research",
       "summary": [
-        "▲ 산업통상부 청사 ⓒ연합뉴스 8월 국내 정보통신기술(ICT) 수출이 전 세계적인 인공지능(AI) 투자 확대에 힘입어 사상 촤대치를 기록했다. 과학기술정보통신부와 산업통상부가 14일 발표한 '2026년 8월 ICT 수출입 동향'에 따르면 지난달 ICT 수출액은 599억8000만 달러로 전년 동월(228억4000만 달러) 대비 162.6% 증가했다.",
-        "이에 무역수지는 413억7000만 달러 흑자를 기록했다. 8월 ICT 수출은 전세계 AI 투자 확대에 힘입어 지난 6월 572억8000만 달러를 넘어 역대 최대 실적을 경신했다.",
-        "ICT 수출은 3개월 연속 500억 달러 이상을 지속하고 있다. 특히 ICT 수출은 같은 달 국가 전체 수출액(982억5000만 달러)에서 차지한 비중은 61.0%로 나타나며 사상 처음으로 60%를 돌파했다.",
-        "컴퓨터·주변기기는 AI 데이터 처리 확대에 따른 기업용 솔리드스테이트드라이브(SSD) 수출 증가 등으로 지난해 같은 기간보다 383.1% 증가한 64억 달러를 기록해 역대 최대 실적을 달성했다. 휴대전화는 고부가 프리미엄 신제품 판매량 증가에 힘입은 완제품 수출과 부분품 수출이 함께 늘면서 16억4000만 달러로 23.2% 증가했다."
-      ],
-      "change": "이전 사건의 새로운 후속 근거를 추가 확인. 전망 변경 여부는 미판정",
-      "claims": [
-        {
-          "id": "ba3fe059ab1c53ed69168552",
-          "text": "▲ 산업통상부 청사 ⓒ연합뉴스 8월 국내 정보통신기술(ICT) 수출이 전 세계적인 인공지능(AI) 투자 확대에 힘입어 사상 촤대치를 기록했다. 과학기술정보통신부와 산업통상부가 14일 발표한 '2026년 8월 ICT 수출입 동향'에 따르면 지난달 ICT 수출액은 599억8000만 달러로 전년 동월(228억4000만 달러) 대비 162.6% 증가했다.",
-          "kind": "author_opinion",
-          "author": "박철호 기자",
-          "source_ids": [
-            "eb415a26fc0d3257d5a85567"
-          ],
-          "evidence": [
-            {
-              "source_id": "eb415a26fc0d3257d5a85567",
-              "source_version_id": "e0c494ead2f00c6d5f9812ec",
-              "start": 0,
-              "end": 195,
-              "text": "▲ 산업통상부 청사 ⓒ연합뉴스 8월 국내 정보통신기술(ICT) 수출이 전 세계적인 인공지능(AI) 투자 확대에 힘입어 사상 촤대치를 기록했다. 과학기술정보통신부와 산업통상부가 14일 발표한 '2026년 8월 ICT 수출입 동향'에 따르면 지난달 ICT 수출액은 599억8000만 달러로 전년 동월(228억4000만 달러) 대비 162.6% 증가했다.",
-              "source_excerpt_truncated": false,
-              "excerpt_truncated": false,
-              "location": "본문",
-              "display_text": "▲ 산업통상부 청사 ⓒ연합뉴스 8월 국내 정보통신기술(ICT) 수출이 전 세계적인 인공지능(AI) 투자 확대에 힘입어 사상 촤대치를 기록했다. 과학기술정보통신부와 산업통상부가 14일 발표한 '2026년 8월 ICT 수출입 동향'에 따르면 지난달 ICT 수출액은 599억8000만 달러로 전년 동월(228억4000만 달러) 대비 162.6% 증가했다.",
-              "is_translation": false
-            }
-          ],
-          "rationale": "",
-          "conditions": "",
-          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
-          "validation": {
-            "semantic_support": "source_quote_only",
-            "human_review": "not_reviewed",
-            "status": "source_checked",
-            "source_linkage": "passed",
-            "content_check": "exact_quote",
-            "assertion_type": "interpretation"
-          },
-          "numbers": []
-        },
-        {
-          "id": "7f69ff54e01c4444022eb788",
-          "text": "이에 무역수지는 413억7000만 달러 흑자를 기록했다. 8월 ICT 수출은 전세계 AI 투자 확대에 힘입어 지난 6월 572억8000만 달러를 넘어 역대 최대 실적을 경신했다.",
-          "kind": "author_opinion",
-          "author": "박철호 기자",
-          "source_ids": [
-            "eb415a26fc0d3257d5a85567"
-          ],
-          "evidence": [
-            {
-              "source_id": "eb415a26fc0d3257d5a85567",
-              "source_version_id": "e0c494ead2f00c6d5f9812ec",
-              "start": 250,
-              "end": 349,
-              "text": "이에 무역수지는 413억7000만 달러 흑자를 기록했다. 8월 ICT 수출은 전세계 AI 투자 확대에 힘입어 지난 6월 572억8000만 달러를 넘어 역대 최대 실적을 경신했다.",
-              "source_excerpt_truncated": false,
-              "excerpt_truncated": false,
-              "location": "본문",
-              "display_text": "이에 무역수지는 413억7000만 달러 흑자를 기록했다. 8월 ICT 수출은 전세계 AI 투자 확대에 힘입어 지난 6월 572억8000만 달러를 넘어 역대 최대 실적을 경신했다.",
-              "is_translation": false
-            }
-          ],
-          "rationale": "",
-          "conditions": "",
-          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
-          "validation": {
-            "semantic_support": "source_quote_only",
-            "human_review": "not_reviewed",
-            "status": "source_checked",
-            "source_linkage": "passed",
-            "content_check": "exact_quote",
-            "assertion_type": "interpretation"
-          },
-          "numbers": []
-        },
-        {
-          "id": "956f396cd4c6787253d7baa0",
-          "text": "ICT 수출은 3개월 연속 500억 달러 이상을 지속하고 있다. 특히 ICT 수출은 같은 달 국가 전체 수출액(982억5000만 달러)에서 차지한 비중은 61.0%로 나타나며 사상 처음으로 60%를 돌파했다.",
-          "kind": "fact",
-          "author": "박철호 기자",
-          "source_ids": [
-            "eb415a26fc0d3257d5a85567"
-          ],
-          "evidence": [
-            {
-              "source_id": "eb415a26fc0d3257d5a85567",
-              "source_version_id": "e0c494ead2f00c6d5f9812ec",
-              "start": 350,
-              "end": 466,
-              "text": "ICT 수출은 3개월 연속 500억 달러 이상을 지속하고 있다. 특히 ICT 수출은 같은 달 국가 전체 수출액(982억5000만 달러)에서 차지한 비중은 61.0%로 나타나며 사상 처음으로 60%를 돌파했다.",
-              "source_excerpt_truncated": false,
-              "excerpt_truncated": false,
-              "location": "본문",
-              "display_text": "ICT 수출은 3개월 연속 500억 달러 이상을 지속하고 있다. 특히 ICT 수출은 같은 달 국가 전체 수출액(982억5000만 달러)에서 차지한 비중은 61.0%로 나타나며 사상 처음으로 60%를 돌파했다.",
-              "is_translation": false
-            }
-          ],
-          "rationale": "",
-          "conditions": "",
-          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
-          "validation": {
-            "semantic_support": "source_quote_only",
-            "human_review": "not_reviewed",
-            "status": "source_checked",
-            "source_linkage": "passed",
-            "content_check": "exact_quote",
-            "assertion_type": "observation"
-          },
-          "numbers": []
-        },
-        {
-          "id": "c6745c95cc3a0a27b13e5290",
-          "text": "컴퓨터·주변기기는 AI 데이터 처리 확대에 따른 기업용 솔리드스테이트드라이브(SSD) 수출 증가 등으로 지난해 같은 기간보다 383.1% 증가한 64억 달러를 기록해 역대 최대 실적을 달성했다. 휴대전화는 고부가 프리미엄 신제품 판매량 증가에 힘입은 완제품 수출과 부분품 수출이 함께 늘면서 16억4000만 달러로 23.2% 증가했다.",
-          "kind": "fact",
-          "author": "박철호 기자",
-          "source_ids": [
-            "eb415a26fc0d3257d5a85567"
-          ],
-          "evidence": [
-            {
-              "source_id": "eb415a26fc0d3257d5a85567",
-              "source_version_id": "e0c494ead2f00c6d5f9812ec",
-              "start": 589,
-              "end": 776,
-              "text": "컴퓨터·주변기기는 AI 데이터 처리 확대에 따른 기업용 솔리드스테이트드라이브(SSD) 수출 증가 등으로 지난해 같은 기간보다 383.1% 증가한 64억 달러를 기록해 역대 최대 실적을 달성했다. 휴대전화는 고부가 프리미엄 신제품 판매량 증가에 힘입은 완제품 수출과 부분품 수출이 함께 늘면서 16억4000만 달러로 23.2% 증가했다.",
-              "source_excerpt_truncated": false,
-              "excerpt_truncated": false,
-              "location": "본문",
-              "display_text": "컴퓨터·주변기기는 AI 데이터 처리 확대에 따른 기업용 솔리드스테이트드라이브(SSD) 수출 증가 등으로 지난해 같은 기간보다 383.1% 증가한 64억 달러를 기록해 역대 최대 실적을 달성했다. 휴대전화는 고부가 프리미엄 신제품 판매량 증가에 힘입은 완제품 수출과 부분품 수출이 함께 늘면서 16억4000만 달러로 23.2% 증가했다.",
-              "is_translation": false
-            }
-          ],
-          "rationale": "",
-          "conditions": "",
-          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
-          "validation": {
-            "semantic_support": "source_quote_only",
-            "human_review": "not_reviewed",
-            "status": "source_checked",
-            "source_linkage": "passed",
-            "content_check": "exact_quote",
-            "assertion_type": "observation"
-          },
-          "numbers": []
-        }
-      ],
-      "event_schedules": [],
-      "document_ids": [
-        "eb415a26fc0d3257d5a85567"
-      ],
-      "source_versions": [
-        "e0c494ead2f00c6d5f9812ec"
-      ],
-      "entities": [],
-      "selection_reason": [
-        "수집 범위 내 독립 발행자 1개",
-        "자료 기준 경과 43.8시간",
-        "이전 입력과 중복 내용",
-        "발표 시점과 관측 기간이 확인된 수출입 통계"
-      ],
-      "follow_up": [
-        "원문과 기간·단위·작성 주체를 확인하고 해석을 검토하세요."
-      ],
-      "confidence": "source_checked",
-      "related_issue_id": "e40342eb38ffd9f405346e69",
-      "late_discovered": false,
-      "analysis_provider": "extractive",
-      "model_status": "not_needed_source_korean",
-      "analysis_label": "한국어 원문에서 핵심 문장 선별",
-      "evidence_expired": false,
-      "evidence_partially_expired": false,
-      "has_full_text": true,
-      "has_message_text": false,
-      "prior_day_follow_up": false,
-      "original_title": "AI 훈풍 탄 ICT 수출 163%↑ 600억달러 육박 … 역대 최대 찍었다",
-      "source_title_ko": "AI 훈풍 탄 ICT 수출 163%↑ 600억달러 육박 … 역대 최대 찍었다",
-      "korean_required": true
-    },
-    {
-      "id": "fe781a01058f7bc51c2b5644",
-      "anchor": "issue-2c378202af98e913",
-      "editorial_scope": "company",
-      "event_type": "company_regulation",
-      "title": "[단독] LS일렉트릭·효성중공업, 미국 정부 나란히 제소…변압기 관세 불복 < 에디터 Pick! < Society < 기사본문 - 뉴스저널리즘",
-      "section": "investment",
-      "category": "research",
-      "summary": [
-        "LS일렉트릭과 효성중공업이 한국산 대형 전력변압기에 부과된 반덤핑 관세에 불복해 미국 정부를 나란히 제소했다.",
-        "미국 상무부가 지난달 확정한 4.32%의 덤핑마진을 두고 법적 대응에 나선 것이다.",
-        "14일 미국 국제무역법원(CIT)에 따르면 LS일렉트릭과 효성중공업은 지난 11일 미국 정부를 상대로 각각 소송을 제기했다.",
-        "두 회사가 같은 날 소송에 나서면서 지난달 확정된 반덤핑 관세가 법원의 판단을 받게 됐다."
+        "공정거래위원회가 대한항공과 아시아나항공의 마일리지 통합방안을 최종 승인했다.",
+        "아시아나 마일리지는 양사 합병 이후에도 10년간 별도로 유지돼 기존 공제기준과 유효기간을 그대로 적용받는다.",
+        "대한항공 마일리지로 바꾸면 탑승 적립분은 1대1, 신용카드 등 제휴 적립분은 1대0.82 비율로 전환된다.",
+        "장거리·인기 노선의 보너스 좌석과 실제 마일리지 사용량을 일정 수준 이상 유지하도록 하는 소비자 보호 장치도 마련했다."
       ],
       "change": "비교 가능한 과거 자료 없음 — 상향·하향·전망 변경 여부 미판정",
       "claims": [
         {
-          "id": "0710ce319d4f5576393ede24",
-          "text": "LS일렉트릭과 효성중공업이 한국산 대형 전력변압기에 부과된 반덤핑 관세에 불복해 미국 정부를 나란히 제소했다.",
+          "id": "381aff66e93b942e6b1c9e71",
+          "text": "공정거래위원회가 대한항공과 아시아나항공의 마일리지 통합방안을 최종 승인했다.",
           "kind": "fact",
-          "author": "한수빈",
+          "author": "www.etnews.com",
           "source_ids": [
-            "42c4cb01bfb2dcf8c169a3af"
+            "e43c8ad683ffd290cd971ea9"
           ],
           "evidence": [
             {
-              "source_id": "42c4cb01bfb2dcf8c169a3af",
-              "source_version_id": "a93994b9358b3c57dc423b0f",
+              "source_id": "e43c8ad683ffd290cd971ea9",
+              "source_version_id": "9a1e0e150fc9ca75d43dbda2",
               "start": 0,
-              "end": 61,
-              "text": "LS일렉트릭과 효성중공업이 한국산 대형 전력변압기에 부과된 반덤핑 관세에 불복해 미국 정부를 나란히 제소했다.",
+              "end": 42,
+              "text": "공정거래위원회가 대한항공과 아시아나항공의 마일리지 통합방안을 최종 승인했다.",
               "source_excerpt_truncated": false,
               "excerpt_truncated": false,
               "location": "본문",
-              "display_text": "LS일렉트릭과 효성중공업이 한국산 대형 전력변압기에 부과된 반덤핑 관세에 불복해 미국 정부를 나란히 제소했다.",
+              "display_text": "공정거래위원회가 대한항공과 아시아나항공의 마일리지 통합방안을 최종 승인했다.",
               "is_translation": false
             }
           ],
@@ -2737,24 +3089,24 @@
           "numbers": []
         },
         {
-          "id": "4f8ddd63288d515c72f2c924",
-          "text": "미국 상무부가 지난달 확정한 4.32%의 덤핑마진을 두고 법적 대응에 나선 것이다.",
+          "id": "d0ce2b718f016bddeb65d0fc",
+          "text": "아시아나 마일리지는 양사 합병 이후에도 10년간 별도로 유지돼 기존 공제기준과 유효기간을 그대로 적용받는다.",
           "kind": "fact",
-          "author": "한수빈",
+          "author": "www.etnews.com",
           "source_ids": [
-            "42c4cb01bfb2dcf8c169a3af"
+            "e43c8ad683ffd290cd971ea9"
           ],
           "evidence": [
             {
-              "source_id": "42c4cb01bfb2dcf8c169a3af",
-              "source_version_id": "a93994b9358b3c57dc423b0f",
-              "start": 62,
-              "end": 108,
-              "text": "미국 상무부가 지난달 확정한 4.32%의 덤핑마진을 두고 법적 대응에 나선 것이다.",
+              "source_id": "e43c8ad683ffd290cd971ea9",
+              "source_version_id": "9a1e0e150fc9ca75d43dbda2",
+              "start": 43,
+              "end": 103,
+              "text": "아시아나 마일리지는 양사 합병 이후에도 10년간 별도로 유지돼 기존 공제기준과 유효기간을 그대로 적용받는다.",
               "source_excerpt_truncated": false,
               "excerpt_truncated": false,
               "location": "본문",
-              "display_text": "미국 상무부가 지난달 확정한 4.32%의 덤핑마진을 두고 법적 대응에 나선 것이다.",
+              "display_text": "아시아나 마일리지는 양사 합병 이후에도 10년간 별도로 유지돼 기존 공제기준과 유효기간을 그대로 적용받는다.",
               "is_translation": false
             }
           ],
@@ -2772,24 +3124,24 @@
           "numbers": []
         },
         {
-          "id": "e95375f308de884b7dc37543",
-          "text": "14일 미국 국제무역법원(CIT)에 따르면 LS일렉트릭과 효성중공업은 지난 11일 미국 정부를 상대로 각각 소송을 제기했다.",
+          "id": "815405ec4b2fbcdfe6f96201",
+          "text": "대한항공 마일리지로 바꾸면 탑승 적립분은 1대1, 신용카드 등 제휴 적립분은 1대0.82 비율로 전환된다.",
           "kind": "fact",
-          "author": "한수빈",
+          "author": "www.etnews.com",
           "source_ids": [
-            "42c4cb01bfb2dcf8c169a3af"
+            "e43c8ad683ffd290cd971ea9"
           ],
           "evidence": [
             {
-              "source_id": "42c4cb01bfb2dcf8c169a3af",
-              "source_version_id": "a93994b9358b3c57dc423b0f",
-              "start": 110,
-              "end": 179,
-              "text": "14일 미국 국제무역법원(CIT)에 따르면 LS일렉트릭과 효성중공업은 지난 11일 미국 정부를 상대로 각각 소송을 제기했다.",
+              "source_id": "e43c8ad683ffd290cd971ea9",
+              "source_version_id": "9a1e0e150fc9ca75d43dbda2",
+              "start": 104,
+              "end": 163,
+              "text": "대한항공 마일리지로 바꾸면 탑승 적립분은 1대1, 신용카드 등 제휴 적립분은 1대0.82 비율로 전환된다.",
               "source_excerpt_truncated": false,
               "excerpt_truncated": false,
               "location": "본문",
-              "display_text": "14일 미국 국제무역법원(CIT)에 따르면 LS일렉트릭과 효성중공업은 지난 11일 미국 정부를 상대로 각각 소송을 제기했다.",
+              "display_text": "대한항공 마일리지로 바꾸면 탑승 적립분은 1대1, 신용카드 등 제휴 적립분은 1대0.82 비율로 전환된다.",
               "is_translation": false
             }
           ],
@@ -2807,24 +3159,24 @@
           "numbers": []
         },
         {
-          "id": "1404b78b858ee71a64339f91",
-          "text": "두 회사가 같은 날 소송에 나서면서 지난달 확정된 반덤핑 관세가 법원의 판단을 받게 됐다.",
+          "id": "1855022a90bb7a91a36116e6",
+          "text": "장거리·인기 노선의 보너스 좌석과 실제 마일리지 사용량을 일정 수준 이상 유지하도록 하는 소비자 보호 장치도 마련했다.",
           "kind": "fact",
-          "author": "한수빈",
+          "author": "www.etnews.com",
           "source_ids": [
-            "42c4cb01bfb2dcf8c169a3af"
+            "e43c8ad683ffd290cd971ea9"
           ],
           "evidence": [
             {
-              "source_id": "42c4cb01bfb2dcf8c169a3af",
-              "source_version_id": "a93994b9358b3c57dc423b0f",
-              "start": 180,
+              "source_id": "e43c8ad683ffd290cd971ea9",
+              "source_version_id": "9a1e0e150fc9ca75d43dbda2",
+              "start": 164,
               "end": 230,
-              "text": "두 회사가 같은 날 소송에 나서면서 지난달 확정된 반덤핑 관세가 법원의 판단을 받게 됐다.",
+              "text": "장거리·인기 노선의 보너스 좌석과 실제 마일리지 사용량을 일정 수준 이상 유지하도록 하는 소비자 보호 장치도 마련했다.",
               "source_excerpt_truncated": false,
               "excerpt_truncated": false,
               "location": "본문",
-              "display_text": "두 회사가 같은 날 소송에 나서면서 지난달 확정된 반덤핑 관세가 법원의 판단을 받게 됐다.",
+              "display_text": "장거리·인기 노선의 보너스 좌석과 실제 마일리지 사용량을 일정 수준 이상 유지하도록 하는 소비자 보호 장치도 마련했다.",
               "is_translation": false
             }
           ],
@@ -2844,17 +3196,17 @@
       ],
       "event_schedules": [],
       "document_ids": [
-        "42c4cb01bfb2dcf8c169a3af"
+        "e43c8ad683ffd290cd971ea9"
       ],
       "source_versions": [
-        "a93994b9358b3c57dc423b0f"
+        "9a1e0e150fc9ca75d43dbda2"
       ],
       "entities": [],
       "selection_reason": [
         "수집 범위 내 독립 발행자 1개",
-        "자료 기준 경과 44.7시간",
+        "자료 기준 경과 19.3시간",
         "이전 입력과 중복 내용",
-        "기업의 관세 불복 소송 제기"
+        "기업·금융에 직접 연결되는 제도·감독 변경"
       ],
       "follow_up": [
         "원문과 기간·단위·작성 주체를 확인하고 해석을 검토하세요."
@@ -2870,197 +3222,8 @@
       "has_full_text": true,
       "has_message_text": false,
       "prior_day_follow_up": false,
-      "original_title": "[단독] LS일렉트릭·효성중공업, 미국 정부 나란히 제소…변압기 관세 불복 < 에디터 Pick! < Society < 기사본문 - 뉴스저널리즘",
-      "source_title_ko": "[단독] LS일렉트릭·효성중공업, 미국 정부 나란히 제소…변압기 관세 불복 < 에디터 Pick! < Society < 기사본문 - 뉴스저널리즘",
-      "korean_required": true
-    },
-    {
-      "id": "e7c7117c761f540b92289ac1",
-      "anchor": "issue-c2e659c41baef419",
-      "editorial_scope": "company",
-      "event_type": "contract",
-      "title": "삼성重 1.6조원 LNG·원유운반선 수주..벌써 작년 실적 넘었다",
-      "section": "investment",
-      "category": "research",
-      "summary": [
-        "[파이낸셜뉴스]삼성중공업이 1조6000억원 규모 LNG(액화천연가스) 운반선과 원유 운반선을 수주했다고 14일 밝혔다.",
-        "삼성중공업은 이날 오세아니아 지역 선주와 대형 LNG 운반선 4척을 10억달러, 원유 운반선 2척을 2억달러에 계약했다고 전했다.",
-        "삼성중공업은 이로써 올해만 LNG 운반선 18척을 수주했다. 특히 이번에 수주한 대형 LNG 운반선 4척의 경우 표준형인 17만4000㎥급보다 화물창 용적이 큰 20만㎥급이다.",
-        "올해 수주 목표 57억달러를 훨씬 상회하는 것은 물론, 지난해 상선 부문 수주 실적 71억달러를 벌써 넘어섰다."
-      ],
-      "change": "비교 가능한 과거 자료 없음 — 상향·하향·전망 변경 여부 미판정",
-      "claims": [
-        {
-          "id": "027a5ee4444d075e49e49f02",
-          "text": "[파이낸셜뉴스]삼성중공업이 1조6000억원 규모 LNG(액화천연가스) 운반선과 원유 운반선을 수주했다고 14일 밝혔다.",
-          "kind": "fact",
-          "author": "김윤호",
-          "source_ids": [
-            "beec8219b8b8070d8c8395cb"
-          ],
-          "evidence": [
-            {
-              "source_id": "beec8219b8b8070d8c8395cb",
-              "source_version_id": "ea84bc76c6cd19b545d26509",
-              "start": 0,
-              "end": 66,
-              "text": "[파이낸셜뉴스]삼성중공업이 1조6000억원 규모 LNG(액화천연가스) 운반선과 원유 운반선을 수주했다고 14일 밝혔다.",
-              "source_excerpt_truncated": false,
-              "excerpt_truncated": false,
-              "location": "본문",
-              "display_text": "[파이낸셜뉴스]삼성중공업이 1조6000억원 규모 LNG(액화천연가스) 운반선과 원유 운반선을 수주했다고 14일 밝혔다.",
-              "is_translation": false
-            }
-          ],
-          "rationale": "",
-          "conditions": "",
-          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
-          "validation": {
-            "semantic_support": "source_quote_only",
-            "human_review": "not_reviewed",
-            "status": "source_checked",
-            "source_linkage": "passed",
-            "content_check": "exact_quote",
-            "assertion_type": "observation"
-          },
-          "numbers": []
-        },
-        {
-          "id": "fdd9ce6c8adda3b90669f9ea",
-          "text": "삼성중공업은 이날 오세아니아 지역 선주와 대형 LNG 운반선 4척을 10억달러, 원유 운반선 2척을 2억달러에 계약했다고 전했다.",
-          "kind": "fact",
-          "author": "김윤호",
-          "source_ids": [
-            "beec8219b8b8070d8c8395cb"
-          ],
-          "evidence": [
-            {
-              "source_id": "beec8219b8b8070d8c8395cb",
-              "source_version_id": "ea84bc76c6cd19b545d26509",
-              "start": 68,
-              "end": 140,
-              "text": "삼성중공업은 이날 오세아니아 지역 선주와 대형 LNG 운반선 4척을 10억달러, 원유 운반선 2척을 2억달러에 계약했다고 전했다.",
-              "source_excerpt_truncated": false,
-              "excerpt_truncated": false,
-              "location": "본문",
-              "display_text": "삼성중공업은 이날 오세아니아 지역 선주와 대형 LNG 운반선 4척을 10억달러, 원유 운반선 2척을 2억달러에 계약했다고 전했다.",
-              "is_translation": false
-            }
-          ],
-          "rationale": "",
-          "conditions": "",
-          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
-          "validation": {
-            "semantic_support": "source_quote_only",
-            "human_review": "not_reviewed",
-            "status": "source_checked",
-            "source_linkage": "passed",
-            "content_check": "exact_quote",
-            "assertion_type": "observation"
-          },
-          "numbers": []
-        },
-        {
-          "id": "570126d78ed7028364d29c6d",
-          "text": "삼성중공업은 이로써 올해만 LNG 운반선 18척을 수주했다. 특히 이번에 수주한 대형 LNG 운반선 4척의 경우 표준형인 17만4000㎥급보다 화물창 용적이 큰 20만㎥급이다.",
-          "kind": "fact",
-          "author": "김윤호",
-          "source_ids": [
-            "beec8219b8b8070d8c8395cb"
-          ],
-          "evidence": [
-            {
-              "source_id": "beec8219b8b8070d8c8395cb",
-              "source_version_id": "ea84bc76c6cd19b545d26509",
-              "start": 168,
-              "end": 266,
-              "text": "삼성중공업은 이로써 올해만 LNG 운반선 18척을 수주했다. 특히 이번에 수주한 대형 LNG 운반선 4척의 경우 표준형인 17만4000㎥급보다 화물창 용적이 큰 20만㎥급이다.",
-              "source_excerpt_truncated": false,
-              "excerpt_truncated": false,
-              "location": "본문",
-              "display_text": "삼성중공업은 이로써 올해만 LNG 운반선 18척을 수주했다. 특히 이번에 수주한 대형 LNG 운반선 4척의 경우 표준형인 17만4000㎥급보다 화물창 용적이 큰 20만㎥급이다.",
-              "is_translation": false
-            }
-          ],
-          "rationale": "",
-          "conditions": "",
-          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
-          "validation": {
-            "semantic_support": "source_quote_only",
-            "human_review": "not_reviewed",
-            "status": "source_checked",
-            "source_linkage": "passed",
-            "content_check": "exact_quote",
-            "assertion_type": "observation"
-          },
-          "numbers": []
-        },
-        {
-          "id": "9f7874154544a78b7cc9eb05",
-          "text": "올해 수주 목표 57억달러를 훨씬 상회하는 것은 물론, 지난해 상선 부문 수주 실적 71억달러를 벌써 넘어섰다.",
-          "kind": "fact",
-          "author": "김윤호",
-          "source_ids": [
-            "beec8219b8b8070d8c8395cb"
-          ],
-          "evidence": [
-            {
-              "source_id": "beec8219b8b8070d8c8395cb",
-              "source_version_id": "ea84bc76c6cd19b545d26509",
-              "start": 466,
-              "end": 528,
-              "text": "올해 수주 목표 57억달러를 훨씬 상회하는 것은 물론, 지난해 상선 부문 수주 실적 71억달러를 벌써 넘어섰다.",
-              "source_excerpt_truncated": false,
-              "excerpt_truncated": false,
-              "location": "본문",
-              "display_text": "올해 수주 목표 57억달러를 훨씬 상회하는 것은 물론, 지난해 상선 부문 수주 실적 71억달러를 벌써 넘어섰다.",
-              "is_translation": false
-            }
-          ],
-          "rationale": "",
-          "conditions": "",
-          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
-          "validation": {
-            "semantic_support": "source_quote_only",
-            "human_review": "not_reviewed",
-            "status": "source_checked",
-            "source_linkage": "passed",
-            "content_check": "exact_quote",
-            "assertion_type": "observation"
-          },
-          "numbers": []
-        }
-      ],
-      "event_schedules": [],
-      "document_ids": [
-        "beec8219b8b8070d8c8395cb"
-      ],
-      "source_versions": [
-        "ea84bc76c6cd19b545d26509"
-      ],
-      "entities": [],
-      "selection_reason": [
-        "수집 범위 내 독립 발행자 1개",
-        "자료 기준 경과 45.0시간",
-        "이전 입력과 중복 내용",
-        "원문에 실행·결정 근거가 있는 기업 계약·제품·자본거래·승인"
-      ],
-      "follow_up": [
-        "원문과 기간·단위·작성 주체를 확인하고 해석을 검토하세요."
-      ],
-      "confidence": "source_checked",
-      "related_issue_id": null,
-      "late_discovered": false,
-      "analysis_provider": "extractive",
-      "model_status": "not_needed_source_korean",
-      "analysis_label": "한국어 원문에서 핵심 문장 선별",
-      "evidence_expired": false,
-      "evidence_partially_expired": false,
-      "has_full_text": true,
-      "has_message_text": false,
-      "prior_day_follow_up": false,
-      "original_title": "삼성重 1.6조원 LNG·원유운반선 수주..벌써 작년 실적 넘었다",
-      "source_title_ko": "삼성重 1.6조원 LNG·원유운반선 수주..벌써 작년 실적 넘었다",
+      "original_title": "대한항공-아시아나 마일리지 통합 최종 승인…10년간 기존 마일리지 그대로",
+      "source_title_ko": "대한항공-아시아나 마일리지 통합 최종 승인…10년간 기존 마일리지 그대로",
       "korean_required": true
     },
     {
@@ -3253,629 +3416,75 @@
       "korean_required": true
     },
     {
-      "id": "b87e84358a62af2eb7004b64",
-      "anchor": "issue-440512500aa65572",
-      "editorial_scope": "company",
-      "event_type": "product_production",
-      "title": "핸들·페달 없는 금빛 테슬라 무인택시 '사이버캡' 유료 운행 시작",
-      "section": "investment",
-      "category": "research",
-      "summary": [
-        "운전대와 페달을 없앤 자동차가 시험 주행을 넘어 승객을 태우는 유료 서비스에 투입됐다.",
-        "테슬라가 자율주행 전용 차량 '사이버캡(Cybercab)'의 상용 운행에 나서면서 운전자의 조작을 전제로 했던 자동차의 구조와 이용 방식에도 변화가 본격화하고 있다.",
-        "뉴욕타임스(NYT) 등에 따르면 테슬라는 최근 미국 텍사스주 오스틴에서 열린 '사이버캡 출시 행사'에서 유료 승차 서비스 개시를 발표했다.",
-        "차량 가격 정책과 생산 현황, 자율주행 기술 등도 함께 소개됐다."
-      ],
-      "change": "이전 사건과 동일한 정보를 재확인. 전망 변경 여부는 미판정",
-      "claims": [
-        {
-          "id": "bb2525bf223b0ef25a8addba",
-          "text": "운전대와 페달을 없앤 자동차가 시험 주행을 넘어 승객을 태우는 유료 서비스에 투입됐다.",
-          "kind": "fact",
-          "author": "임재환",
-          "source_ids": [
-            "1aed544f2753398d690d2bc3"
-          ],
-          "evidence": [
-            {
-              "source_id": "1aed544f2753398d690d2bc3",
-              "source_version_id": "b4e100386087d609ccc85cd8",
-              "start": 0,
-              "end": 48,
-              "text": "운전대와 페달을 없앤 자동차가 시험 주행을 넘어 승객을 태우는 유료 서비스에 투입됐다.",
-              "source_excerpt_truncated": false,
-              "excerpt_truncated": false,
-              "location": "본문",
-              "display_text": "운전대와 페달을 없앤 자동차가 시험 주행을 넘어 승객을 태우는 유료 서비스에 투입됐다.",
-              "is_translation": false
-            }
-          ],
-          "rationale": "",
-          "conditions": "",
-          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
-          "validation": {
-            "semantic_support": "source_quote_only",
-            "human_review": "not_reviewed",
-            "status": "source_checked",
-            "source_linkage": "passed",
-            "content_check": "exact_quote",
-            "assertion_type": "observation"
-          },
-          "numbers": []
-        },
-        {
-          "id": "28656ed251ce06ded4ec3138",
-          "text": "테슬라가 자율주행 전용 차량 '사이버캡(Cybercab)'의 상용 운행에 나서면서 운전자의 조작을 전제로 했던 자동차의 구조와 이용 방식에도 변화가 본격화하고 있다.",
-          "kind": "fact",
-          "author": "임재환",
-          "source_ids": [
-            "1aed544f2753398d690d2bc3"
-          ],
-          "evidence": [
-            {
-              "source_id": "1aed544f2753398d690d2bc3",
-              "source_version_id": "b4e100386087d609ccc85cd8",
-              "start": 49,
-              "end": 141,
-              "text": "테슬라가 자율주행 전용 차량 '사이버캡(Cybercab)'의 상용 운행에 나서면서 운전자의 조작을 전제로 했던 자동차의 구조와 이용 방식에도 변화가 본격화하고 있다.",
-              "source_excerpt_truncated": false,
-              "excerpt_truncated": false,
-              "location": "본문",
-              "display_text": "테슬라가 자율주행 전용 차량 '사이버캡(Cybercab)'의 상용 운행에 나서면서 운전자의 조작을 전제로 했던 자동차의 구조와 이용 방식에도 변화가 본격화하고 있다.",
-              "is_translation": false
-            }
-          ],
-          "rationale": "",
-          "conditions": "",
-          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
-          "validation": {
-            "semantic_support": "source_quote_only",
-            "human_review": "not_reviewed",
-            "status": "source_checked",
-            "source_linkage": "passed",
-            "content_check": "exact_quote",
-            "assertion_type": "observation"
-          },
-          "numbers": []
-        },
-        {
-          "id": "112c6208359ba9ac000c8ddf",
-          "text": "뉴욕타임스(NYT) 등에 따르면 테슬라는 최근 미국 텍사스주 오스틴에서 열린 '사이버캡 출시 행사'에서 유료 승차 서비스 개시를 발표했다.",
-          "kind": "fact",
-          "author": "임재환",
-          "source_ids": [
-            "1aed544f2753398d690d2bc3"
-          ],
-          "evidence": [
-            {
-              "source_id": "1aed544f2753398d690d2bc3",
-              "source_version_id": "b4e100386087d609ccc85cd8",
-              "start": 142,
-              "end": 219,
-              "text": "뉴욕타임스(NYT) 등에 따르면 테슬라는 최근 미국 텍사스주 오스틴에서 열린 '사이버캡 출시 행사'에서 유료 승차 서비스 개시를 발표했다.",
-              "source_excerpt_truncated": false,
-              "excerpt_truncated": false,
-              "location": "본문",
-              "display_text": "뉴욕타임스(NYT) 등에 따르면 테슬라는 최근 미국 텍사스주 오스틴에서 열린 '사이버캡 출시 행사'에서 유료 승차 서비스 개시를 발표했다.",
-              "is_translation": false
-            }
-          ],
-          "rationale": "",
-          "conditions": "",
-          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
-          "validation": {
-            "semantic_support": "source_quote_only",
-            "human_review": "not_reviewed",
-            "status": "source_checked",
-            "source_linkage": "passed",
-            "content_check": "exact_quote",
-            "assertion_type": "observation"
-          },
-          "numbers": []
-        },
-        {
-          "id": "b17c9ecb4b925ff43489c886",
-          "text": "차량 가격 정책과 생산 현황, 자율주행 기술 등도 함께 소개됐다.",
-          "kind": "fact",
-          "author": "임재환",
-          "source_ids": [
-            "1aed544f2753398d690d2bc3"
-          ],
-          "evidence": [
-            {
-              "source_id": "1aed544f2753398d690d2bc3",
-              "source_version_id": "b4e100386087d609ccc85cd8",
-              "start": 220,
-              "end": 256,
-              "text": "차량 가격 정책과 생산 현황, 자율주행 기술 등도 함께 소개됐다.",
-              "source_excerpt_truncated": false,
-              "excerpt_truncated": false,
-              "location": "본문",
-              "display_text": "차량 가격 정책과 생산 현황, 자율주행 기술 등도 함께 소개됐다.",
-              "is_translation": false
-            }
-          ],
-          "rationale": "",
-          "conditions": "",
-          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
-          "validation": {
-            "semantic_support": "source_quote_only",
-            "human_review": "not_reviewed",
-            "status": "source_checked",
-            "source_linkage": "passed",
-            "content_check": "exact_quote",
-            "assertion_type": "observation"
-          },
-          "numbers": []
-        }
-      ],
-      "event_schedules": [],
-      "document_ids": [
-        "1aed544f2753398d690d2bc3"
-      ],
-      "source_versions": [
-        "b4e100386087d609ccc85cd8"
-      ],
-      "entities": [],
-      "selection_reason": [
-        "수집 범위 내 독립 발행자 1개",
-        "자료 기준 경과 18.5시간",
-        "이전 입력과 중복 내용",
-        "유료 서비스의 실제 개시와 적용 범위"
-      ],
-      "follow_up": [
-        "원문과 기간·단위·작성 주체를 확인하고 해석을 검토하세요."
-      ],
-      "confidence": "source_checked",
-      "related_issue_id": null,
-      "late_discovered": false,
-      "analysis_provider": "extractive",
-      "model_status": "not_needed_source_korean",
-      "analysis_label": "한국어 원문에서 핵심 문장 선별",
-      "evidence_expired": false,
-      "evidence_partially_expired": false,
-      "has_full_text": true,
-      "has_message_text": false,
-      "prior_day_follow_up": false,
-      "original_title": "핸들·페달 없는 금빛 테슬라 무인택시 '사이버캡' 유료 운행 시작",
-      "source_title_ko": "핸들·페달 없는 금빛 테슬라 무인택시 '사이버캡' 유료 운행 시작",
-      "korean_required": true
-    },
-    {
-      "id": "f2793f61170dceaf91144581",
-      "anchor": "issue-ae248ff957e7366f",
-      "editorial_scope": "company",
-      "event_type": "product_production",
-      "title": "TSMC 첨단칩 생산 70% 늘린다",
-      "section": "investment",
-      "category": "research",
-      "summary": [
-        "세계 최대 파운드리(반도체 위탁 생산) 업체인 대만 TSMC의 3㎚(나노미터·10억분의 1미터) 공정 제품 월 생산량이 1년 6개월 사이 약 70% 늘어날 것으로 보인다.",
-        "2029년부터 2030년까지 수주가 대략 확보된 만큼 생산 설비 공장도 빠르게 늘리는 모습이다.",
-        "14일 연합보 등 대만 언론은 소식통을 인용해 TSMC가 글로벌 인공지능(AI) 칩 수요의 폭증에 힘입어 2나노와 3나노 공정 제품의 생산 확대에 나섰다고 보도했다.",
-        "해당 소식통은 TSMC가 반도체 공급을 위한 고객사에 내년도 증산 목표를 공개했다고 전했다."
-      ],
-      "change": "이전 사건과 동일한 정보를 재확인. 전망 변경 여부는 미판정",
-      "claims": [
-        {
-          "id": "0198f4a94b49359ddf779e80",
-          "text": "세계 최대 파운드리(반도체 위탁 생산) 업체인 대만 TSMC의 3㎚(나노미터·10억분의 1미터) 공정 제품 월 생산량이 1년 6개월 사이 약 70% 늘어날 것으로 보인다.",
-          "kind": "author_opinion",
-          "author": "박시진 기자",
-          "source_ids": [
-            "909094c3498b93e4644dda23"
-          ],
-          "evidence": [
-            {
-              "source_id": "909094c3498b93e4644dda23",
-              "source_version_id": "1d373d6f92aa0f93b10131c7",
-              "start": 0,
-              "end": 94,
-              "text": "세계 최대 파운드리(반도체 위탁 생산) 업체인 대만 TSMC의 3㎚(나노미터·10억분의 1m) 공정 제품 월 생산량이 1년 6개월 사이 약 70% 늘어날 것으로 보인다.",
-              "source_excerpt_truncated": false,
-              "excerpt_truncated": false,
-              "location": "본문",
-              "display_text": "세계 최대 파운드리(반도체 위탁 생산) 업체인 대만 TSMC의 3㎚(나노미터·10억분의 1미터) 공정 제품 월 생산량이 1년 6개월 사이 약 70% 늘어날 것으로 보인다.",
-              "is_translation": true
-            }
-          ],
-          "rationale": "",
-          "conditions": "",
-          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
-          "validation": {
-            "semantic_support": "not_verified",
-            "human_review": "not_reviewed",
-            "status": "needs_review",
-            "source_linkage": "passed",
-            "content_check": "unverified_paraphrase",
-            "assertion_type": "forecast"
-          },
-          "numbers": []
-        },
-        {
-          "id": "68464dbb3aee6426b0d2c884",
-          "text": "2029년부터 2030년까지 수주가 대략 확보된 만큼 생산 설비 공장도 빠르게 늘리는 모습이다.",
-          "kind": "fact",
-          "author": "박시진 기자",
-          "source_ids": [
-            "909094c3498b93e4644dda23"
-          ],
-          "evidence": [
-            {
-              "source_id": "909094c3498b93e4644dda23",
-              "source_version_id": "1d373d6f92aa0f93b10131c7",
-              "start": 95,
-              "end": 148,
-              "text": "2029년부터 2030년까지 수주가 대략 확보된 만큼 생산 설비 공장도 빠르게 늘리는 모습이다.",
-              "source_excerpt_truncated": false,
-              "excerpt_truncated": false,
-              "location": "본문",
-              "display_text": "2029년부터 2030년까지 수주가 대략 확보된 만큼 생산 설비 공장도 빠르게 늘리는 모습이다.",
-              "is_translation": false
-            }
-          ],
-          "rationale": "",
-          "conditions": "",
-          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
-          "validation": {
-            "semantic_support": "source_quote_only",
-            "human_review": "not_reviewed",
-            "status": "source_checked",
-            "source_linkage": "passed",
-            "content_check": "exact_quote",
-            "assertion_type": "observation"
-          },
-          "numbers": []
-        },
-        {
-          "id": "fd834ce36aeffbdcb1cf0b21",
-          "text": "14일 연합보 등 대만 언론은 소식통을 인용해 TSMC가 글로벌 인공지능(AI) 칩 수요의 폭증에 힘입어 2나노와 3나노 공정 제품의 생산 확대에 나섰다고 보도했다.",
-          "kind": "author_opinion",
-          "author": "박시진 기자",
-          "source_ids": [
-            "909094c3498b93e4644dda23"
-          ],
-          "evidence": [
-            {
-              "source_id": "909094c3498b93e4644dda23",
-              "source_version_id": "1d373d6f92aa0f93b10131c7",
-              "start": 150,
-              "end": 242,
-              "text": "14일 연합보 등 대만 언론은 소식통을 인용해 TSMC가 글로벌 인공지능(AI) 칩 수요의 폭증에 힘입어 2나노와 3나노 공정 제품의 생산 확대에 나섰다고 보도했다.",
-              "source_excerpt_truncated": false,
-              "excerpt_truncated": false,
-              "location": "본문",
-              "display_text": "14일 연합보 등 대만 언론은 소식통을 인용해 TSMC가 글로벌 인공지능(AI) 칩 수요의 폭증에 힘입어 2나노와 3나노 공정 제품의 생산 확대에 나섰다고 보도했다.",
-              "is_translation": false
-            }
-          ],
-          "rationale": "",
-          "conditions": "",
-          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
-          "validation": {
-            "semantic_support": "source_quote_only",
-            "human_review": "not_reviewed",
-            "status": "source_checked",
-            "source_linkage": "passed",
-            "content_check": "exact_quote",
-            "assertion_type": "interpretation"
-          },
-          "numbers": []
-        },
-        {
-          "id": "6c2c53ec4650f9b1dc56c1e5",
-          "text": "해당 소식통은 TSMC가 반도체 공급을 위한 고객사에 내년도 증산 목표를 공개했다고 전했다.",
-          "kind": "fact",
-          "author": "박시진 기자",
-          "source_ids": [
-            "909094c3498b93e4644dda23"
-          ],
-          "evidence": [
-            {
-              "source_id": "909094c3498b93e4644dda23",
-              "source_version_id": "1d373d6f92aa0f93b10131c7",
-              "start": 243,
-              "end": 294,
-              "text": "해당 소식통은 TSMC가 반도체 공급을 위한 고객사에 내년도 증산 목표를 공개했다고 전했다.",
-              "source_excerpt_truncated": false,
-              "excerpt_truncated": false,
-              "location": "본문",
-              "display_text": "해당 소식통은 TSMC가 반도체 공급을 위한 고객사에 내년도 증산 목표를 공개했다고 전했다.",
-              "is_translation": false
-            }
-          ],
-          "rationale": "",
-          "conditions": "",
-          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
-          "validation": {
-            "semantic_support": "source_quote_only",
-            "human_review": "not_reviewed",
-            "status": "source_checked",
-            "source_linkage": "passed",
-            "content_check": "exact_quote",
-            "assertion_type": "observation"
-          },
-          "numbers": []
-        }
-      ],
-      "event_schedules": [],
-      "document_ids": [
-        "909094c3498b93e4644dda23"
-      ],
-      "source_versions": [
-        "1d373d6f92aa0f93b10131c7"
-      ],
-      "entities": [],
-      "selection_reason": [
-        "수집 범위 내 독립 발행자 1개",
-        "자료 기준 경과 38.3시간",
-        "이전 입력과 중복 내용",
-        "원문에 실행·결정 근거가 있는 기업 계약·제품·자본거래·승인"
-      ],
-      "follow_up": [
-        "원문과 기간·단위·작성 주체를 확인하고 해석을 검토하세요."
-      ],
-      "confidence": "source_checked",
-      "related_issue_id": null,
-      "late_discovered": false,
-      "analysis_provider": "extractive",
-      "model_status": "not_needed_source_korean",
-      "analysis_label": "한국어 원문 · 용어 번역",
-      "evidence_expired": false,
-      "evidence_partially_expired": false,
-      "has_full_text": true,
-      "has_message_text": false,
-      "prior_day_follow_up": false,
-      "original_title": "TSMC 첨단칩 생산 70% 늘린다",
-      "source_title_ko": "TSMC 첨단칩 생산 70% 늘린다",
-      "korean_required": true
-    },
-    {
-      "id": "3590875f79402a530682b64a",
-      "anchor": "issue-3974ac93bc4e44a9",
-      "editorial_scope": "company",
-      "event_type": "contract",
-      "title": "앤트로픽, 친트럼프 럼그룹과 18조원대 컴퓨팅 계약",
-      "section": "investment",
-      "category": "research",
-      "summary": [
-        "인공지능(AI) 기업 앤트로픽이 럼그룹과 6년간 총 137억달러 규모의 컴퓨팅 계약을 체결했다고 정보기술 전문 매체 디인포메이션이 13일(현지 시각) 복수의 소식통을 인용해 보도했다.",
-        "앤트로픽은 최근 1년간 구글, 스페이스X, 엔스케일 등과 잇따라 대규모 컴퓨팅 계약을 체결하며 AI 인프라 확보에 나서고 있다. 이들 계약을 모두 합하면 최소 14.8기가와트(GW) 규모로, 향후 10년간 최대 5170억달러의 비용이 들어갈 것으로 추산된다.",
-        "럼그룹은 지난달 23일 공시를 통해 137억달러 규모의 계약을 체결했다고 밝혔지만 당시 계약 상대방은 공개하지 않았다.",
-        "럼그룹 주가는 지난 11일 7.17달러로 마감해 시가총액은 약 28억달러에 달한다. 만약 앤트로픽이 옵션을 모두 행사할 경우 현재 주가 기준으로 3억6000만달러가 넘는 평가차익을 얻을 수 있다."
-      ],
-      "change": "이전 사건과 동일한 정보를 재확인. 전망 변경 여부는 미판정",
-      "claims": [
-        {
-          "id": "f783f7b7b03a115fa3805cd8",
-          "text": "인공지능(AI) 기업 앤트로픽이 럼그룹과 6년간 총 137억달러 규모의 컴퓨팅 계약을 체결했다고 정보기술 전문 매체 디인포메이션이 13일(현지 시각) 복수의 소식통을 인용해 보도했다.",
-          "kind": "fact",
-          "author": "이호준 기자",
-          "source_ids": [
-            "428a68775c949433d1cd015d"
-          ],
-          "evidence": [
-            {
-              "source_id": "428a68775c949433d1cd015d",
-              "source_version_id": "c60b0a66466e0fce65ae4d0f",
-              "start": 0,
-              "end": 112,
-              "text": "인공지능(AI) 기업 앤트로픽이 럼그룹과 6년간 총 137억달러(약 18조4000억원) 규모의 컴퓨팅 계약을 체결했다고 IT 전문매체 디인포메이션이 13일(현지 시각) 복수의 소식통을 인용해 보도했다.",
-              "source_excerpt_truncated": false,
-              "excerpt_truncated": false,
-              "location": "본문",
-              "source_display_omissions": [
-                {
-                  "source_version_id": "c60b0a66466e0fce65ae4d0f",
-                  "location": "body",
-                  "start": 35,
-                  "end": 48,
-                  "text": "(약 18조4000억원)",
-                  "reason": "secondary_currency_conversion"
-                }
-              ],
-              "projected_source_text": "인공지능(AI) 기업 앤트로픽이 럼그룹과 6년간 총 137억달러 규모의 컴퓨팅 계약을 체결했다고 IT 전문매체 디인포메이션이 13일(현지 시각) 복수의 소식통을 인용해 보도했다.",
-              "display_text": "인공지능(AI) 기업 앤트로픽이 럼그룹과 6년간 총 137억달러 규모의 컴퓨팅 계약을 체결했다고 정보기술 전문 매체 디인포메이션이 13일(현지 시각) 복수의 소식통을 인용해 보도했다.",
-              "is_translation": true
-            }
-          ],
-          "rationale": "",
-          "conditions": "",
-          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
-          "validation": {
-            "semantic_support": "not_verified",
-            "human_review": "not_reviewed",
-            "status": "needs_review",
-            "source_linkage": "passed",
-            "content_check": "unverified_paraphrase",
-            "assertion_type": "observation"
-          },
-          "numbers": []
-        },
-        {
-          "id": "779d104e31b3745e3d466f21",
-          "text": "앤트로픽은 최근 1년간 구글, 스페이스X, 엔스케일 등과 잇따라 대규모 컴퓨팅 계약을 체결하며 AI 인프라 확보에 나서고 있다. 이들 계약을 모두 합하면 최소 14.8기가와트(GW) 규모로, 향후 10년간 최대 5170억달러의 비용이 들어갈 것으로 추산된다.",
-          "kind": "author_opinion",
-          "author": "이호준 기자",
-          "source_ids": [
-            "428a68775c949433d1cd015d"
-          ],
-          "evidence": [
-            {
-              "source_id": "428a68775c949433d1cd015d",
-              "source_version_id": "c60b0a66466e0fce65ae4d0f",
-              "start": 272,
-              "end": 425,
-              "text": "앤트로픽은 최근 1년간 구글, 스페이스X, 엔스케일 등과 잇따라 대규모 컴퓨팅 계약을 체결하며 AI 인프라 확보에 나서고 있다. 이들 계약을 모두 합하면 최소 14.8기가와트(GW) 규모로, 향후 10년간 최대 5170억달러(약 700조원)의 비용이 들어갈 것으로 추산된다.",
-              "source_excerpt_truncated": false,
-              "excerpt_truncated": false,
-              "location": "본문",
-              "source_display_omissions": [
-                {
-                  "source_version_id": "c60b0a66466e0fce65ae4d0f",
-                  "location": "body",
-                  "start": 397,
-                  "end": 406,
-                  "text": "(약 700조원)",
-                  "reason": "secondary_currency_conversion"
-                }
-              ],
-              "projected_source_text": "앤트로픽은 최근 1년간 구글, 스페이스X, 엔스케일 등과 잇따라 대규모 컴퓨팅 계약을 체결하며 AI 인프라 확보에 나서고 있다. 이들 계약을 모두 합하면 최소 14.8기가와트(GW) 규모로, 향후 10년간 최대 5170억달러의 비용이 들어갈 것으로 추산된다.",
-              "display_text": "앤트로픽은 최근 1년간 구글, 스페이스X, 엔스케일 등과 잇따라 대규모 컴퓨팅 계약을 체결하며 AI 인프라 확보에 나서고 있다. 이들 계약을 모두 합하면 최소 14.8기가와트(GW) 규모로, 향후 10년간 최대 5170억달러의 비용이 들어갈 것으로 추산된다.",
-              "is_translation": false
-            }
-          ],
-          "rationale": "",
-          "conditions": "",
-          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
-          "validation": {
-            "semantic_support": "source_quote_only",
-            "human_review": "not_reviewed",
-            "status": "source_checked",
-            "source_linkage": "passed",
-            "content_check": "source_projection",
-            "assertion_type": "forecast"
-          },
-          "numbers": []
-        },
-        {
-          "id": "25da9816387f84c29fc6fc73",
-          "text": "럼그룹은 지난달 23일 공시를 통해 137억달러 규모의 계약을 체결했다고 밝혔지만 당시 계약 상대방은 공개하지 않았다.",
-          "kind": "fact",
-          "author": "이호준 기자",
-          "source_ids": [
-            "428a68775c949433d1cd015d"
-          ],
-          "evidence": [
-            {
-              "source_id": "428a68775c949433d1cd015d",
-              "source_version_id": "c60b0a66466e0fce65ae4d0f",
-              "start": 427,
-              "end": 493,
-              "text": "럼그룹은 지난달 23일 공시를 통해 137억달러 규모의 계약을 체결했다고 밝혔지만 당시 계약 상대방은 공개하지 않았다.",
-              "source_excerpt_truncated": false,
-              "excerpt_truncated": false,
-              "location": "본문",
-              "display_text": "럼그룹은 지난달 23일 공시를 통해 137억달러 규모의 계약을 체결했다고 밝혔지만 당시 계약 상대방은 공개하지 않았다.",
-              "is_translation": false
-            }
-          ],
-          "rationale": "",
-          "conditions": "",
-          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
-          "validation": {
-            "semantic_support": "source_quote_only",
-            "human_review": "not_reviewed",
-            "status": "source_checked",
-            "source_linkage": "passed",
-            "content_check": "exact_quote",
-            "assertion_type": "observation"
-          },
-          "numbers": []
-        },
-        {
-          "id": "a61f822a3510aa90be1488ec",
-          "text": "럼그룹 주가는 지난 11일 7.17달러로 마감해 시가총액은 약 28억달러에 달한다. 만약 앤트로픽이 옵션을 모두 행사할 경우 현재 주가 기준으로 3억6000만달러가 넘는 평가차익을 얻을 수 있다.",
-          "kind": "author_opinion",
-          "author": "이호준 기자",
-          "source_ids": [
-            "428a68775c949433d1cd015d"
-          ],
-          "evidence": [
-            {
-              "source_id": "428a68775c949433d1cd015d",
-              "source_version_id": "c60b0a66466e0fce65ae4d0f",
-              "start": 936,
-              "end": 1045,
-              "text": "럼그룹 주가는 지난 11일 7.17달러로 마감해 시가총액은 약 28억달러에 달한다. 만약 앤트로픽이 옵션을 모두 행사할 경우 현재 주가 기준으로 3억6000만달러가 넘는 평가차익을 얻을 수 있다.",
-              "source_excerpt_truncated": false,
-              "excerpt_truncated": false,
-              "location": "본문",
-              "display_text": "럼그룹 주가는 지난 11일 7.17달러로 마감해 시가총액은 약 28억달러에 달한다. 만약 앤트로픽이 옵션을 모두 행사할 경우 현재 주가 기준으로 3억6000만달러가 넘는 평가차익을 얻을 수 있다.",
-              "is_translation": false
-            }
-          ],
-          "rationale": "",
-          "conditions": "",
-          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
-          "validation": {
-            "semantic_support": "source_quote_only",
-            "human_review": "not_reviewed",
-            "status": "source_checked",
-            "source_linkage": "passed",
-            "content_check": "exact_quote",
-            "assertion_type": "interpretation"
-          },
-          "numbers": []
-        }
-      ],
-      "event_schedules": [],
-      "document_ids": [
-        "428a68775c949433d1cd015d"
-      ],
-      "source_versions": [
-        "c60b0a66466e0fce65ae4d0f"
-      ],
-      "entities": [],
-      "selection_reason": [
-        "수집 범위 내 독립 발행자 1개",
-        "자료 기준 경과 40.3시간",
-        "이전 입력과 중복 내용",
-        "원문에 실행·결정 근거가 있는 기업 계약·제품·자본거래·승인"
-      ],
-      "follow_up": [
-        "원문과 기간·단위·작성 주체를 확인하고 해석을 검토하세요."
-      ],
-      "confidence": "source_checked",
-      "related_issue_id": null,
-      "late_discovered": false,
-      "analysis_provider": "extractive",
-      "model_status": "not_needed_source_korean",
-      "analysis_label": "한국어 원문 · 용어 번역",
-      "evidence_expired": false,
-      "evidence_partially_expired": false,
-      "has_full_text": true,
-      "has_message_text": false,
-      "prior_day_follow_up": false,
-      "original_title": "앤트로픽, 친트럼프 럼그룹과 18조원대 컴퓨팅 계약",
-      "source_title_ko": "앤트로픽, 친트럼프 럼그룹과 18조원대 컴퓨팅 계약",
-      "korean_required": true
-    },
-    {
-      "id": "15941076bc8459457734d0fe",
-      "anchor": "issue-36960b89f389fc5b",
+      "id": "39c5a90293707941f0236bc1",
+      "anchor": "issue-652e443ef1352edb",
       "editorial_scope": "company",
       "event_type": "outlook",
-      "title": "브룩하트는 앤트로픽의 올해말 연환산 매출이 1200억달러에 이를 것이라는 투자자들의 전망도 전했다.",
+      "title": "[뉴스락 주식네비] 삼성SDI, ESS·소형전지로 반등 채비… \"합당한 리레이팅\"",
       "section": "investment",
       "category": "research",
       "summary": [
-        "영국 일간 파이낸셜타임스(FT)는 13일(현지시간) 앤트로픽이 투자자들에게 “주식 보상 등 비용을 제외한 조정 영업이익이 2개 분기 연속 흑자를 낼 것”이라고 알렸다고 보도했다.",
-        "앤트로픽은 서한에서 투자자들에게 “매출총이익률은 아마존 등 파트너사와의 수익 배분과 AI 모델 학습 비용을 제외하기 전 기준으로 80%를 넘는다”고 말했다 전해진다.",
-        "앤트로픽은 지난 2분기 매출액이 115억달러로 지난해 2분기보다 14배 급증하면서 조정 영업이익이 처음으로 흑자로 돌아섰다. 연환산 매출은 지난해 말 90억달러였던 것이 지난 7월말 기준 650억달러로 뛰었다.",
-        "세미애널리시스의 조이 브룩하트 애널리스트는 “앤트로픽이 이러한 마진율과 성장세를 유지한다면 (경쟁사들이) 방대한 컴퓨팅 자원을 보유한 앤트로픽을 따라잡기 매우 힘들 것”이라는 평가를 내놨다.브룩하트는 앤트로픽의 올해말 연환산 매출이 1200억달러에 이를 것이라는 투자자들의 전망도 전했다."
+        "15일 주민우 NH투자증권 연구원은 삼성SDI에 대한 투자의견 '매수(Buy)'를 유지하고 목표주가를 기존 60만원에서 73만원으로 22% 상향했다.",
+        "연간 10GWh 규모의 ESS 공급이 현실화할 경우 매출액 약 1조1000억원, 영업이익 약 5400억원의 기여가 가능할 것으로 추정했다.",
+        "실제 삼성SDI의 ESS 매출은 지난해 2조9730억원에서 올해 4조7400억원, 2027년 7조340억원으로 확대될 전망이다.",
+        "NH투자증권은 삼성SDI의 3분기 매출액을 3조9580억원, 영업이익을 2603억원으로 전망했다. 영업이익은 시장 컨센서스 1070억원을 크게 웃도는 수준이지만 GM 합작법인 청산에 따른 약 1500억원의 보상금이 반영되는 것이 주요 원인이다."
       ],
-      "change": "이전 사건과 동일한 정보를 재확인. 전망 변경 여부는 미판정",
+      "change": "비교 가능한 과거 자료 없음 — 상향·하향·전망 변경 여부 미판정",
       "claims": [
         {
-          "id": "dc77695626a209cbfd0153b9",
-          "text": "영국 일간 파이낸셜타임스(FT)는 13일(현지시간) 앤트로픽이 투자자들에게 “주식 보상 등 비용을 제외한 조정 영업이익이 2개 분기 연속 흑자를 낼 것”이라고 알렸다고 보도했다.",
-          "kind": "author_opinion",
-          "author": "도현정",
+          "id": "36d78fdd9a1971e74ecfb259",
+          "text": "15일 주민우 NH투자증권 연구원은 삼성SDI에 대한 투자의견 '매수(Buy)'를 유지하고 목표주가를 기존 60만원에서 73만원으로 22% 상향했다.",
+          "kind": "fact",
+          "author": "뉴스락",
           "source_ids": [
-            "f5cac1e46a0811d47391b945"
+            "e48318822c7e7f2180fa4089"
           ],
           "evidence": [
             {
-              "source_id": "f5cac1e46a0811d47391b945",
-              "source_version_id": "8b845639be373779f7defbfb",
-              "start": 92,
-              "end": 191,
-              "text": "영국 일간 파이낸셜타임스(FT)는 13일(현지시간) 앤트로픽이 투자자들에게 “주식 보상 등 비용을 제외한 조정 영업이익이 2개 분기 연속 흑자를 낼 것”이라고 알렸다고 보도했다.",
+              "source_id": "e48318822c7e7f2180fa4089",
+              "source_version_id": "1de1ba133f597433251f0e16",
+              "start": 203,
+              "end": 286,
+              "text": "15일 주민우 NH투자증권 연구원은 삼성SDI에 대한 투자의견 '매수(Buy)'를 유지하고 목표주가를 기존 60만원에서 73만원으로 22% 상향했다.",
               "source_excerpt_truncated": false,
               "excerpt_truncated": false,
               "location": "본문",
-              "display_text": "영국 일간 파이낸셜타임스(FT)는 13일(현지시간) 앤트로픽이 투자자들에게 “주식 보상 등 비용을 제외한 조정 영업이익이 2개 분기 연속 흑자를 낼 것”이라고 알렸다고 보도했다.",
+              "display_text": "15일 주민우 NH투자증권 연구원은 삼성SDI에 대한 투자의견 '매수(Buy)'를 유지하고 목표주가를 기존 60만원에서 73만원으로 22% 상향했다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "be1ef384f5387fe3568b9989",
+          "text": "연간 10GWh 규모의 ESS 공급이 현실화할 경우 매출액 약 1조1000억원, 영업이익 약 5400억원의 기여가 가능할 것으로 추정했다.",
+          "kind": "author_opinion",
+          "author": "뉴스락",
+          "source_ids": [
+            "e48318822c7e7f2180fa4089"
+          ],
+          "evidence": [
+            {
+              "source_id": "e48318822c7e7f2180fa4089",
+              "source_version_id": "1de1ba133f597433251f0e16",
+              "start": 400,
+              "end": 477,
+              "text": "연간 10GWh 규모의 ESS 공급이 현실화할 경우 매출액 약 1조1000억원, 영업이익 약 5400억원의 기여가 가능할 것으로 추정했다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "연간 10GWh 규모의 ESS 공급이 현실화할 경우 매출액 약 1조1000억원, 영업이익 약 5400억원의 기여가 가능할 것으로 추정했다.",
               "is_translation": false
             }
           ],
@@ -3893,24 +3502,24 @@
           "numbers": []
         },
         {
-          "id": "6995a4e0b073dacfa3b345bd",
-          "text": "앤트로픽은 서한에서 투자자들에게 “매출총이익률은 아마존 등 파트너사와의 수익 배분과 AI 모델 학습 비용을 제외하기 전 기준으로 80%를 넘는다”고 말했다 전해진다.",
-          "kind": "fact",
-          "author": "도현정",
+          "id": "9252451c407df6f5062e126c",
+          "text": "실제 삼성SDI의 ESS 매출은 지난해 2조9730억원에서 올해 4조7400억원, 2027년 7조340억원으로 확대될 전망이다.",
+          "kind": "author_opinion",
+          "author": "뉴스락",
           "source_ids": [
-            "f5cac1e46a0811d47391b945"
+            "e48318822c7e7f2180fa4089"
           ],
           "evidence": [
             {
-              "source_id": "f5cac1e46a0811d47391b945",
-              "source_version_id": "8b845639be373779f7defbfb",
-              "start": 260,
-              "end": 352,
-              "text": "앤트로픽은 서한에서 투자자들에게 “매출총이익률은 아마존 등 파트너사와의 수익 배분과 AI 모델 학습 비용을 제외하기 전 기준으로 80%를 넘는다”고 말했다 전해진다.",
+              "source_id": "e48318822c7e7f2180fa4089",
+              "source_version_id": "1de1ba133f597433251f0e16",
+              "start": 479,
+              "end": 550,
+              "text": "실제 삼성SDI의 ESS 매출은 지난해 2조9730억원에서 올해 4조7400억원, 2027년 7조340억원으로 확대될 전망이다.",
               "source_excerpt_truncated": false,
               "excerpt_truncated": false,
               "location": "본문",
-              "display_text": "앤트로픽은 서한에서 투자자들에게 “매출총이익률은 아마존 등 파트너사와의 수익 배분과 AI 모델 학습 비용을 제외하기 전 기준으로 80%를 넘는다”고 말했다 전해진다.",
+              "display_text": "실제 삼성SDI의 ESS 매출은 지난해 2조9730억원에서 올해 4조7400억원, 2027년 7조340억원으로 확대될 전망이다.",
               "is_translation": false
             }
           ],
@@ -3923,86 +3532,29 @@
             "status": "source_checked",
             "source_linkage": "passed",
             "content_check": "exact_quote",
-            "assertion_type": "observation"
+            "assertion_type": "forecast"
           },
           "numbers": []
         },
         {
-          "id": "f9150ff768c14986d66579e5",
-          "text": "앤트로픽은 지난 2분기 매출액이 115억달러로 지난해 2분기보다 14배 급증하면서 조정 영업이익이 처음으로 흑자로 돌아섰다. 연환산 매출은 지난해 말 90억달러였던 것이 지난 7월말 기준 650억달러로 뛰었다.",
-          "kind": "fact",
-          "author": "도현정",
-          "source_ids": [
-            "f5cac1e46a0811d47391b945"
-          ],
-          "evidence": [
-            {
-              "source_id": "f5cac1e46a0811d47391b945",
-              "source_version_id": "8b845639be373779f7defbfb",
-              "start": 354,
-              "end": 484,
-              "text": "앤트로픽은 지난 2분기 매출액이 115억달러(약 15조5000억원)로 지난해 2분기보다 14배 급증하면서 조정 영업이익이 처음으로 흑자로 돌아섰다. 연환산 매출은 지난해 말 90억달러였던 것이 지난 7월말 기준 650억달러로 뛰었다.",
-              "source_excerpt_truncated": false,
-              "excerpt_truncated": false,
-              "location": "본문",
-              "source_display_omissions": [
-                {
-                  "source_version_id": "8b845639be373779f7defbfb",
-                  "location": "body",
-                  "start": 378,
-                  "end": 391,
-                  "text": "(약 15조5000억원)",
-                  "reason": "secondary_currency_conversion"
-                }
-              ],
-              "projected_source_text": "앤트로픽은 지난 2분기 매출액이 115억달러로 지난해 2분기보다 14배 급증하면서 조정 영업이익이 처음으로 흑자로 돌아섰다. 연환산 매출은 지난해 말 90억달러였던 것이 지난 7월말 기준 650억달러로 뛰었다.",
-              "display_text": "앤트로픽은 지난 2분기 매출액이 115억달러로 지난해 2분기보다 14배 급증하면서 조정 영업이익이 처음으로 흑자로 돌아섰다. 연환산 매출은 지난해 말 90억달러였던 것이 지난 7월말 기준 650억달러로 뛰었다.",
-              "is_translation": false
-            }
-          ],
-          "rationale": "",
-          "conditions": "",
-          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
-          "validation": {
-            "semantic_support": "source_quote_only",
-            "human_review": "not_reviewed",
-            "status": "source_checked",
-            "source_linkage": "passed",
-            "content_check": "source_projection",
-            "assertion_type": "observation"
-          },
-          "numbers": []
-        },
-        {
-          "id": "ae9d7948b93e580933701d63",
-          "text": "세미애널리시스의 조이 브룩하트 애널리스트는 “앤트로픽이 이러한 마진율과 성장세를 유지한다면 (경쟁사들이) 방대한 컴퓨팅 자원을 보유한 앤트로픽을 따라잡기 매우 힘들 것”이라는 평가를 내놨다.브룩하트는 앤트로픽의 올해말 연환산 매출이 1200억달러에 이를 것이라는 투자자들의 전망도 전했다.",
+          "id": "87f92221f075025c78ef2e5c",
+          "text": "NH투자증권은 삼성SDI의 3분기 매출액을 3조9580억원, 영업이익을 2603억원으로 전망했다. 영업이익은 시장 컨센서스 1070억원을 크게 웃도는 수준이지만 GM 합작법인 청산에 따른 약 1500억원의 보상금이 반영되는 것이 주요 원인이다.",
           "kind": "author_opinion",
-          "author": "도현정",
+          "author": "뉴스락",
           "source_ids": [
-            "f5cac1e46a0811d47391b945"
+            "e48318822c7e7f2180fa4089"
           ],
           "evidence": [
             {
-              "source_id": "f5cac1e46a0811d47391b945",
-              "source_version_id": "8b845639be373779f7defbfb",
-              "start": 486,
-              "end": 656,
-              "text": "세미애널리시스의 조이 브룩하트 애널리스트는 “앤트로픽이 이러한 마진율과 성장세를 유지한다면 (경쟁사들이) 방대한 컴퓨팅 자원을 보유한 앤트로픽을 따라잡기 매우 힘들 것”이라는 평가를 내놨다.브룩하트는 앤트로픽의 올해말 연환산 매출이 1200억달러(약 161조원)에 이를 것이라는 투자자들의 전망도 전했다.",
+              "source_id": "e48318822c7e7f2180fa4089",
+              "source_version_id": "1de1ba133f597433251f0e16",
+              "start": 870,
+              "end": 1006,
+              "text": "NH투자증권은 삼성SDI의 3분기 매출액을 3조9580억원, 영업이익을 2603억원으로 전망했다. 영업이익은 시장 컨센서스 1070억원을 크게 웃도는 수준이지만 GM 합작법인 청산에 따른 약 1500억원의 보상금이 반영되는 것이 주요 원인이다.",
               "source_excerpt_truncated": false,
               "excerpt_truncated": false,
               "location": "본문",
-              "source_display_omissions": [
-                {
-                  "source_version_id": "8b845639be373779f7defbfb",
-                  "location": "body",
-                  "start": 623,
-                  "end": 632,
-                  "text": "(약 161조원)",
-                  "reason": "secondary_currency_conversion"
-                }
-              ],
-              "projected_source_text": "세미애널리시스의 조이 브룩하트 애널리스트는 “앤트로픽이 이러한 마진율과 성장세를 유지한다면 (경쟁사들이) 방대한 컴퓨팅 자원을 보유한 앤트로픽을 따라잡기 매우 힘들 것”이라는 평가를 내놨다.브룩하트는 앤트로픽의 올해말 연환산 매출이 1200억달러에 이를 것이라는 투자자들의 전망도 전했다.",
-              "display_text": "세미애널리시스의 조이 브룩하트 애널리스트는 “앤트로픽이 이러한 마진율과 성장세를 유지한다면 (경쟁사들이) 방대한 컴퓨팅 자원을 보유한 앤트로픽을 따라잡기 매우 힘들 것”이라는 평가를 내놨다.브룩하트는 앤트로픽의 올해말 연환산 매출이 1200억달러에 이를 것이라는 투자자들의 전망도 전했다.",
+              "display_text": "NH투자증권은 삼성SDI의 3분기 매출액을 3조9580억원, 영업이익을 2603억원으로 전망했다. 영업이익은 시장 컨센서스 1070억원을 크게 웃도는 수준이지만 GM 합작법인 청산에 따른 약 1500억원의 보상금이 반영되는 것이 주요 원인이다.",
               "is_translation": false
             }
           ],
@@ -4014,7 +3566,7 @@
             "human_review": "not_reviewed",
             "status": "source_checked",
             "source_linkage": "passed",
-            "content_check": "source_projection",
+            "content_check": "exact_quote",
             "assertion_type": "forecast"
           },
           "numbers": []
@@ -4022,17 +3574,17 @@
       ],
       "event_schedules": [],
       "document_ids": [
-        "f5cac1e46a0811d47391b945"
+        "e48318822c7e7f2180fa4089"
       ],
       "source_versions": [
-        "8b845639be373779f7defbfb"
+        "1de1ba133f597433251f0e16"
       ],
       "entities": [],
       "selection_reason": [
         "수집 범위 내 독립 발행자 1개",
-        "자료 기준 경과 35.2시간",
+        "자료 기준 경과 21.4시간",
         "이전 입력과 중복 내용",
-        "투자자에게 전달한 실적 가이던스"
+        "수치가 명시된 전망 변경; 관측 사실과 구분"
       ],
       "follow_up": [
         "원문과 기간·단위·작성 주체를 확인하고 해석을 검토하세요."
@@ -4048,56 +3600,45 @@
       "has_full_text": true,
       "has_message_text": false,
       "prior_day_follow_up": false,
-      "original_title": "“연말 매출만 160조 전망”…앤트로픽, 자금 고갈설 잠재운 깜짝 실적 - 헤럴드경제",
-      "source_title_ko": "“연말 매출만 160조 전망”…앤트로픽, 자금 고갈설 잠재운 깜짝 실적 - 헤럴드경제",
+      "original_title": "[뉴스락 주식네비] 삼성SDI, ESS·소형전지로 반등 채비… \"합당한 리레이팅\"",
+      "source_title_ko": "[뉴스락 주식네비] 삼성SDI, ESS·소형전지로 반등 채비… \"합당한 리레이팅\"",
       "korean_required": true
     },
     {
-      "id": "28760774dc29183a8cad94d3",
-      "anchor": "issue-56c40e9bcd71e568",
+      "id": "d43fc5752c6ef9e3af6f06e9",
+      "anchor": "issue-9348789404ab5ede",
       "editorial_scope": "company",
-      "event_type": "earnings",
-      "title": "14일 업계에 따르면 최근 TSMC는 지난 10일 2026년 8월 연결 기준 매출액이 5148억 600만 대만달러로 집계됐다고 발표했다.",
+      "event_type": "operating_update",
+      "title": "현대차·기아 친환경차 수출 22%↑…‘미국 HEV·유럽 EV 주축’",
       "section": "investment",
       "category": "research",
       "summary": [
-        "대만 반도체 위탁생산(파운드리) 업체 TSMC가 인공지능(AI)과 고성능컴퓨팅(HPC) 수요 확대에 힘입어 2026년 8월 사상 최대 월간 매출을 기록했다. 월 매출이 단일 월 기준 처음으로 5000억 대만달러를 넘어선 가운데 첨단 공정 수요 증가와 생산능력 확대에 대한 투자도 더욱 가속화되고 있다.",
-        "14일 업계에 따르면 최근 TSMC는 지난 10일 2026년 8월 연결 기준 매출액이 5148억 600만 대만달러로 집계됐다고 발표했다. 이는 전월 대비 10.1%, 전년 동월 대비 53.3% 증가한 수치로 월 매출이 5000억 대만달러를 돌파한 것은 이번이 처음이다.",
-        "올해 1월부터 8월까지 누적 매출은 3조 3868억 7000만 대만달러로 전년 동기 대비 39.3% 증가했다. 이는 AI 관련 반도체와 첨단 공정 제품 출하 확대가 실적 성장의 주요 배경으로 분석된다.",
-        "TSMC는 지난 7월 실적 설명회에서 올해 3분기 연결 매출 전망치를 446억~458억 달러로 제시했다."
+        "14일 한국자동차모빌리티산업협회(KAMA)에 따르면 현대차·기아의 올해 1~7월 친환경차 수출은 59만1471대로 전년 동기보다 22.3% 증가했다.",
+        "현대차의 하이브리드 수출 증가세는 미국에서 특히 두드러졌다. 대미 수출은 12만1027대로 70.1% 급증했으며 전체 현대차 하이브리드 수출에서 미국이 차지하는 비중도 지난해 40.2%에서 올해 49.4%로 높아졌다.",
+        "1~7월 기아의 전기차 수출은 10만3823대로 지난해 같은 기간보다 34.3% 늘었다.",
+        "유럽으로 보낸 물량은 8만428대로 44.7% 증가했으며 기아 전체 전기차 수출에서 유럽이 차지하는 비중도 지난해 71.9%에서 77.5%까지 높아졌다."
       ],
-      "change": "이전 사건과 동일한 정보를 재확인. 전망 변경 여부는 미판정",
+      "change": "비교 가능한 과거 자료 없음 — 상향·하향·전망 변경 여부 미판정",
       "claims": [
         {
-          "id": "57ea52d6aaa637299c42629d",
-          "text": "대만 반도체 위탁생산(파운드리) 업체 TSMC가 인공지능(AI)과 고성능컴퓨팅(HPC) 수요 확대에 힘입어 2026년 8월 사상 최대 월간 매출을 기록했다. 월 매출이 단일 월 기준 처음으로 5000억 대만달러를 넘어선 가운데 첨단 공정 수요 증가와 생산능력 확대에 대한 투자도 더욱 가속화되고 있다.",
-          "kind": "author_opinion",
-          "author": "박규찬 기자",
+          "id": "ee51d93e05588138c96804c1",
+          "text": "14일 한국자동차모빌리티산업협회(KAMA)에 따르면 현대차·기아의 올해 1~7월 친환경차 수출은 59만1471대로 전년 동기보다 22.3% 증가했다.",
+          "kind": "fact",
+          "author": "ER 이코노믹리뷰",
           "source_ids": [
-            "10b448a2d1d464e3f4b8b44d"
+            "24a8b1e1bb95f8daff44a27c"
           ],
           "evidence": [
             {
-              "source_id": "10b448a2d1d464e3f4b8b44d",
-              "source_version_id": "c66a682e82442fa1493eac1c",
-              "start": 14,
-              "end": 197,
-              "text": "대만 반도체 위탁생산(파운드리) 업체 TSMC가 인공지능(AI)과 고성능컴퓨팅(HPC) 수요 확대에 힘입어 2026년 8월 사상 최대 월간 매출을 기록했다. 월 매출이 단일 월 기준 처음으로 5000억 대만달러(약 21조 1941억 원)를 넘어선 가운데 첨단 공정 수요 증가와 생산능력 확대에 대한 투자도 더욱 가속화되고 있다.",
+              "source_id": "24a8b1e1bb95f8daff44a27c",
+              "source_version_id": "b8e10e36b44aa9ff369dad13",
+              "start": 120,
+              "end": 203,
+              "text": "14일 한국자동차모빌리티산업협회(KAMA)에 따르면 현대차·기아의 올해 1~7월 친환경차 수출은 59만1471대로 전년 동기보다 22.3% 증가했다.",
               "source_excerpt_truncated": false,
               "excerpt_truncated": false,
               "location": "본문",
-              "source_display_omissions": [
-                {
-                  "source_version_id": "c66a682e82442fa1493eac1c",
-                  "location": "body",
-                  "start": 131,
-                  "end": 146,
-                  "text": "(약 21조 1941억 원)",
-                  "reason": "secondary_currency_conversion"
-                }
-              ],
-              "projected_source_text": "대만 반도체 위탁생산(파운드리) 업체 TSMC가 인공지능(AI)과 고성능컴퓨팅(HPC) 수요 확대에 힘입어 2026년 8월 사상 최대 월간 매출을 기록했다. 월 매출이 단일 월 기준 처음으로 5000억 대만달러를 넘어선 가운데 첨단 공정 수요 증가와 생산능력 확대에 대한 투자도 더욱 가속화되고 있다.",
-              "display_text": "대만 반도체 위탁생산(파운드리) 업체 TSMC가 인공지능(AI)과 고성능컴퓨팅(HPC) 수요 확대에 힘입어 2026년 8월 사상 최대 월간 매출을 기록했다. 월 매출이 단일 월 기준 처음으로 5000억 대만달러를 넘어선 가운데 첨단 공정 수요 증가와 생산능력 확대에 대한 투자도 더욱 가속화되고 있다.",
+              "display_text": "14일 한국자동차모빌리티산업협회(KAMA)에 따르면 현대차·기아의 올해 1~7월 친환경차 수출은 59만1471대로 전년 동기보다 22.3% 증가했다.",
               "is_translation": false
             }
           ],
@@ -4109,41 +3650,632 @@
             "human_review": "not_reviewed",
             "status": "source_checked",
             "source_linkage": "passed",
-            "content_check": "source_projection",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "1ef0031317587c263b17e00c",
+          "text": "현대차의 하이브리드 수출 증가세는 미국에서 특히 두드러졌다. 대미 수출은 12만1027대로 70.1% 급증했으며 전체 현대차 하이브리드 수출에서 미국이 차지하는 비중도 지난해 40.2%에서 올해 49.4%로 높아졌다.",
+          "kind": "fact",
+          "author": "ER 이코노믹리뷰",
+          "source_ids": [
+            "24a8b1e1bb95f8daff44a27c"
+          ],
+          "evidence": [
+            {
+              "source_id": "24a8b1e1bb95f8daff44a27c",
+              "source_version_id": "b8e10e36b44aa9ff369dad13",
+              "start": 357,
+              "end": 478,
+              "text": "현대차의 하이브리드 수출 증가세는 미국에서 특히 두드러졌다. 대미 수출은 12만1027대로 70.1% 급증했으며 전체 현대차 하이브리드 수출에서 미국이 차지하는 비중도 지난해 40.2%에서 올해 49.4%로 높아졌다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "현대차의 하이브리드 수출 증가세는 미국에서 특히 두드러졌다. 대미 수출은 12만1027대로 70.1% 급증했으며 전체 현대차 하이브리드 수출에서 미국이 차지하는 비중도 지난해 40.2%에서 올해 49.4%로 높아졌다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "8638744f316ee596daef2dca",
+          "text": "1~7월 기아의 전기차 수출은 10만3823대로 지난해 같은 기간보다 34.3% 늘었다.",
+          "kind": "fact",
+          "author": "ER 이코노믹리뷰",
+          "source_ids": [
+            "24a8b1e1bb95f8daff44a27c"
+          ],
+          "evidence": [
+            {
+              "source_id": "24a8b1e1bb95f8daff44a27c",
+              "source_version_id": "b8e10e36b44aa9ff369dad13",
+              "start": 647,
+              "end": 696,
+              "text": "1~7월 기아의 전기차 수출은 10만3823대로 지난해 같은 기간보다 34.3% 늘었다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "1~7월 기아의 전기차 수출은 10만3823대로 지난해 같은 기간보다 34.3% 늘었다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "19c912849ef961f92465851f",
+          "text": "유럽으로 보낸 물량은 8만428대로 44.7% 증가했으며 기아 전체 전기차 수출에서 유럽이 차지하는 비중도 지난해 71.9%에서 77.5%까지 높아졌다.",
+          "kind": "fact",
+          "author": "ER 이코노믹리뷰",
+          "source_ids": [
+            "24a8b1e1bb95f8daff44a27c"
+          ],
+          "evidence": [
+            {
+              "source_id": "24a8b1e1bb95f8daff44a27c",
+              "source_version_id": "b8e10e36b44aa9ff369dad13",
+              "start": 736,
+              "end": 821,
+              "text": "유럽으로 보낸 물량은 8만428대로 44.7% 증가했으며 기아 전체 전기차 수출에서 유럽이 차지하는 비중도 지난해 71.9%에서 77.5%까지 높아졌다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "유럽으로 보낸 물량은 8만428대로 44.7% 증가했으며 기아 전체 전기차 수출에서 유럽이 차지하는 비중도 지난해 71.9%에서 77.5%까지 높아졌다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        }
+      ],
+      "event_schedules": [],
+      "document_ids": [
+        "24a8b1e1bb95f8daff44a27c"
+      ],
+      "source_versions": [
+        "b8e10e36b44aa9ff369dad13"
+      ],
+      "entities": [],
+      "selection_reason": [
+        "수집 범위 내 독립 발행자 1개",
+        "자료 기준 경과 38.0시간",
+        "이전 입력과 중복 내용",
+        "기업의 수출 실적"
+      ],
+      "follow_up": [
+        "원문과 기간·단위·작성 주체를 확인하고 해석을 검토하세요."
+      ],
+      "confidence": "source_checked",
+      "related_issue_id": null,
+      "late_discovered": false,
+      "analysis_provider": "extractive",
+      "model_status": "not_needed_source_korean",
+      "analysis_label": "한국어 원문에서 핵심 문장 선별",
+      "evidence_expired": false,
+      "evidence_partially_expired": false,
+      "has_full_text": true,
+      "has_message_text": false,
+      "prior_day_follow_up": false,
+      "original_title": "현대차·기아 친환경차 수출 22%↑…‘미국 HEV·유럽 EV 주축’",
+      "source_title_ko": "현대차·기아 친환경차 수출 22%↑…‘미국 HEV·유럽 EV 주축’",
+      "korean_required": true
+    },
+    {
+      "id": "9a4a07ef28949e55f1e3df09",
+      "anchor": "issue-1065cd358eed55eb",
+      "editorial_scope": "company",
+      "event_type": "outlook",
+      "title": "[모닝 리포트] \"KB금융, 3분기 순익 2조원 돌파 전망…목표가 상향\"",
+      "section": "investment",
+      "category": "research",
+      "summary": [
+        "하나증권은 14일 KB금융에 대해 올해 3분기 순이익이 2조원을 넘어 역대 최대치를 다시 경신할 것으로 전망하며 투자의견 '매수(BUY)'를 유지하고 목표주가를 기존 '22만원'에서 '23만5000원'으로 상향했다.",
+        "올 3분기 실적이 시장 우려와 달리 양호할 것으로 예상돼 연간 이익 추정치를 높였다는 설명이다.",
+        "하나증권이 예상한 KB금융의 올 3분기 순이익은 2조600억원으로 전분기 1조9920억원보다 3.4%, 지난해 3분기 1조6860억원보다 22.2% 증가한 수준이다. 3분기 총영업이익은 5조250억원, 충전영업이익은 3조2560억원으로 각각 전년 동기 대비 15.5%, 20.6% 증가할 것으로 추정했다.",
+        "홍콩 주가연계증권(ELS) 관련 과징금 환입 여부도 올해 3분기 순이익 추정치에 반영된 변수다. 하나증권은 올 3분기 영업외손익에 약 1100억원의 과징금 환입이 발생할 것으로 가정했다.\n\n최 연구원은 \"만약 3분기에도 금융위에서 최종 결론이 나지 않을 경우 3분기 실제 순익은 2분기와 유사한 2조원 내외일 것으로 추정된다\"고 밝혔다."
+      ],
+      "change": "비교 가능한 과거 자료 없음 — 상향·하향·전망 변경 여부 미판정",
+      "claims": [
+        {
+          "id": "3ba2defbc84672138e7f900f",
+          "text": "하나증권은 14일 KB금융에 대해 올해 3분기 순이익이 2조원을 넘어 역대 최대치를 다시 경신할 것으로 전망하며 투자의견 '매수(BUY)'를 유지하고 목표주가를 기존 '22만원'에서 '23만5000원'으로 상향했다.",
+          "kind": "author_opinion",
+          "author": "양태훈",
+          "source_ids": [
+            "2227234124a75a834f9b2b09"
+          ],
+          "evidence": [
+            {
+              "source_id": "2227234124a75a834f9b2b09",
+              "source_version_id": "675aeeef55a02ddf90534f25",
+              "start": 18,
+              "end": 138,
+              "text": "하나증권은 14일 KB금융에 대해 올해 3분기 순이익이 2조원을 넘어 역대 최대치를 다시 경신할 것으로 전망하며 투자의견 '매수(BUY)'를 유지하고 목표주가를 기존 '22만원'에서 '23만5000원'으로 상향했다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "하나증권은 14일 KB금융에 대해 올해 3분기 순이익이 2조원을 넘어 역대 최대치를 다시 경신할 것으로 전망하며 투자의견 '매수(BUY)'를 유지하고 목표주가를 기존 '22만원'에서 '23만5000원'으로 상향했다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "forecast"
+          },
+          "numbers": []
+        },
+        {
+          "id": "876bbff5d9ee417a83fe0265",
+          "text": "올 3분기 실적이 시장 우려와 달리 양호할 것으로 예상돼 연간 이익 추정치를 높였다는 설명이다.",
+          "kind": "author_opinion",
+          "author": "양태훈",
+          "source_ids": [
+            "2227234124a75a834f9b2b09"
+          ],
+          "evidence": [
+            {
+              "source_id": "2227234124a75a834f9b2b09",
+              "source_version_id": "675aeeef55a02ddf90534f25",
+              "start": 140,
+              "end": 193,
+              "text": "올 3분기 실적이 시장 우려와 달리 양호할 것으로 예상돼 연간 이익 추정치를 높였다는 설명이다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "올 3분기 실적이 시장 우려와 달리 양호할 것으로 예상돼 연간 이익 추정치를 높였다는 설명이다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "forecast"
+          },
+          "numbers": []
+        },
+        {
+          "id": "46a05b7a860f55ba282db75a",
+          "text": "하나증권이 예상한 KB금융의 올 3분기 순이익은 2조600억원으로 전분기 1조9920억원보다 3.4%, 지난해 3분기 1조6860억원보다 22.2% 증가한 수준이다. 3분기 총영업이익은 5조250억원, 충전영업이익은 3조2560억원으로 각각 전년 동기 대비 15.5%, 20.6% 증가할 것으로 추정했다.",
+          "kind": "author_opinion",
+          "author": "양태훈",
+          "source_ids": [
+            "2227234124a75a834f9b2b09"
+          ],
+          "evidence": [
+            {
+              "source_id": "2227234124a75a834f9b2b09",
+              "source_version_id": "675aeeef55a02ddf90534f25",
+              "start": 406,
+              "end": 576,
+              "text": "하나증권이 예상한 KB금융의 올 3분기 순이익은 2조600억원으로 전분기 1조9920억원보다 3.4%, 지난해 3분기 1조6860억원보다 22.2% 증가한 수준이다. 3분기 총영업이익은 5조250억원, 충전영업이익은 3조2560억원으로 각각 전년 동기 대비 15.5%, 20.6% 증가할 것으로 추정했다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "하나증권이 예상한 KB금융의 올 3분기 순이익은 2조600억원으로 전분기 1조9920억원보다 3.4%, 지난해 3분기 1조6860억원보다 22.2% 증가한 수준이다. 3분기 총영업이익은 5조250억원, 충전영업이익은 3조2560억원으로 각각 전년 동기 대비 15.5%, 20.6% 증가할 것으로 추정했다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "forecast"
+          },
+          "numbers": []
+        },
+        {
+          "id": "554c7a3a56d6ad319fad0cba",
+          "text": "홍콩 주가연계증권(ELS) 관련 과징금 환입 여부도 올해 3분기 순이익 추정치에 반영된 변수다. 하나증권은 올 3분기 영업외손익에 약 1100억원의 과징금 환입이 발생할 것으로 가정했다.\n\n최 연구원은 \"만약 3분기에도 금융위에서 최종 결론이 나지 않을 경우 3분기 실제 순익은 2분기와 유사한 2조원 내외일 것으로 추정된다\"고 밝혔다.",
+          "kind": "author_opinion",
+          "author": "양태훈",
+          "source_ids": [
+            "2227234124a75a834f9b2b09"
+          ],
+          "evidence": [
+            {
+              "source_id": "2227234124a75a834f9b2b09",
+              "source_version_id": "675aeeef55a02ddf90534f25",
+              "start": 1166,
+              "end": 1354,
+              "text": "홍콩 주가연계증권(ELS) 관련 과징금 환입 여부도 올해 3분기 순이익 추정치에 반영된 변수다. 하나증권은 올 3분기 영업외손익에 약 1100억원의 과징금 환입이 발생할 것으로 가정했다.\n\n최 연구원은 \"만약 3분기에도 금융위에서 최종 결론이 나지 않을 경우 3분기 실제 순익은 2분기와 유사한 2조원 내외일 것으로 추정된다\"고 밝혔다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "홍콩 주가연계증권(ELS) 관련 과징금 환입 여부도 올해 3분기 순이익 추정치에 반영된 변수다. 하나증권은 올 3분기 영업외손익에 약 1100억원의 과징금 환입이 발생할 것으로 가정했다.\n\n최 연구원은 \"만약 3분기에도 금융위에서 최종 결론이 나지 않을 경우 3분기 실제 순익은 2분기와 유사한 2조원 내외일 것으로 추정된다\"고 밝혔다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "forecast"
+          },
+          "numbers": []
+        }
+      ],
+      "event_schedules": [],
+      "document_ids": [
+        "2227234124a75a834f9b2b09"
+      ],
+      "source_versions": [
+        "675aeeef55a02ddf90534f25"
+      ],
+      "entities": [],
+      "selection_reason": [
+        "수집 범위 내 독립 발행자 1개",
+        "자료 기준 경과 46.9시간",
+        "이전 입력과 중복 내용",
+        "수치가 명시된 전망 변경; 관측 사실과 구분"
+      ],
+      "follow_up": [
+        "원문과 기간·단위·작성 주체를 확인하고 해석을 검토하세요."
+      ],
+      "confidence": "source_checked",
+      "related_issue_id": null,
+      "late_discovered": false,
+      "analysis_provider": "extractive",
+      "model_status": "not_needed_source_korean",
+      "analysis_label": "한국어 원문에서 핵심 문장 선별",
+      "evidence_expired": false,
+      "evidence_partially_expired": false,
+      "has_full_text": true,
+      "has_message_text": false,
+      "prior_day_follow_up": false,
+      "original_title": "[모닝 리포트] \"KB금융, 3분기 순익 2조원 돌파 전망…목표가 상향\"",
+      "source_title_ko": "[모닝 리포트] \"KB금융, 3분기 순익 2조원 돌파 전망…목표가 상향\"",
+      "korean_required": true
+    },
+    {
+      "id": "5cb93935669729a82cf8a4c2",
+      "anchor": "issue-a8709ec32cd7fb53",
+      "editorial_scope": "industry",
+      "event_type": "credit_conditions",
+      "title": "[단독] 국내 은행 14곳, 대출 기준금리 0.72퍼센트포인트 내릴 때 실제 금리는 0.15퍼센트포인트 내려",
+      "section": "investment",
+      "category": "research",
+      "summary": [
+        "국회 정무위원회 소속 박대출 국민의힘 의원실이 5대 은행을 포함한 국내 14개 은행(KB국민·신한·하나·우리·NH농협·IBK기업·SC제일·Sh수협·iM·부산·경남·광주·전북·제주은행)에서 입수한 자료에 따르면 이들 은행의 대출 기준금리는 2023년 8월 평균 3.82%에서 지난달 3.10%로 0.72%포인트 떨어졌다.",
+        "가산금리에서 가감조정금리를 뺀 실질 가산금리는 2023년 8월 평균 1.86%에서 지난달 2.43%로 0.57%포인트 올랐다. 대출 기준금리 하락 폭의 약 80%가 은행이 자체적으로 결정하는 금리 영역에서 상쇄된 셈이다.",
+        "최근 1년 동안에도 5대 은행의 평균 실질 가산금리는 1.38%에서 1.61%로 0.23%포인트 상승했다. 같은 기간 대출 기준금리가 2.72%에서 3.11%로 0.39%포인트 오르면서 실제 대출금리는 4.10%에서 4.71%로 0.61%포인트 뛰었다.",
+        "실질 가산금리가 눈에 띄게 오른 시점은 금융 당국이 가계대출 총량 규제를 강화한 지난 4월이다. 금융위원회가 올해 은행권 가계대출 증가율 관리 목표를 전년 1.7%보다 낮은 1.5%로 정하자 5대 은행의 평균 실질 가산금리는 3월 1.48%에서 4월 1.63%로 한 달 만에 0.15%포인트 상승했다."
+      ],
+      "change": "비교 가능한 과거 자료 없음 — 상향·하향·전망 변경 여부 미판정",
+      "claims": [
+        {
+          "id": "cd64d59a6f19a022078ba842",
+          "text": "국회 정무위원회 소속 박대출 국민의힘 의원실이 5대 은행을 포함한 국내 14개 은행(KB국민·신한·하나·우리·NH농협·IBK기업·SC제일·Sh수협·iM·부산·경남·광주·전북·제주은행)에서 입수한 자료에 따르면 이들 은행의 대출 기준금리는 2023년 8월 평균 3.82%에서 지난달 3.10%로 0.72%포인트 떨어졌다.",
+          "kind": "fact",
+          "author": "이준우 기자",
+          "source_ids": [
+            "60c20fd58f3a974bf8affe6f"
+          ],
+          "evidence": [
+            {
+              "source_id": "60c20fd58f3a974bf8affe6f",
+              "source_version_id": "cf9e6194018b5843168984bd",
+              "start": 328,
+              "end": 506,
+              "text": "국회 정무위원회 소속 박대출 국민의힘 의원실이 5대 은행을 포함한 국내 14개 은행(KB국민·신한·하나·우리·NH농협·IBK기업·SC제일·Sh수협·iM·부산·경남·광주·전북·제주은행)에서 입수한 자료에 따르면 이들 은행의 대출 기준금리는 2023년 8월 평균 3.82%에서 지난달 3.10%로 0.72%포인트 떨어졌다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "국회 정무위원회 소속 박대출 국민의힘 의원실이 5대 은행을 포함한 국내 14개 은행(KB국민·신한·하나·우리·NH농협·IBK기업·SC제일·Sh수협·iM·부산·경남·광주·전북·제주은행)에서 입수한 자료에 따르면 이들 은행의 대출 기준금리는 2023년 8월 평균 3.82%에서 지난달 3.10%로 0.72%포인트 떨어졌다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "b91fd8ccab74c57bdd072947",
+          "text": "가산금리에서 가감조정금리를 뺀 실질 가산금리는 2023년 8월 평균 1.86%에서 지난달 2.43%로 0.57%포인트 올랐다. 대출 기준금리 하락 폭의 약 80%가 은행이 자체적으로 결정하는 금리 영역에서 상쇄된 셈이다.",
+          "kind": "fact",
+          "author": "이준우 기자",
+          "source_ids": [
+            "60c20fd58f3a974bf8affe6f"
+          ],
+          "evidence": [
+            {
+              "source_id": "60c20fd58f3a974bf8affe6f",
+              "source_version_id": "cf9e6194018b5843168984bd",
+              "start": 873,
+              "end": 996,
+              "text": "가산금리에서 가감조정금리를 뺀 실질 가산금리는 2023년 8월 평균 1.86%에서 지난달 2.43%로 0.57%포인트 올랐다. 대출 기준금리 하락 폭의 약 80%가 은행이 자체적으로 결정하는 금리 영역에서 상쇄된 셈이다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "가산금리에서 가감조정금리를 뺀 실질 가산금리는 2023년 8월 평균 1.86%에서 지난달 2.43%로 0.57%포인트 올랐다. 대출 기준금리 하락 폭의 약 80%가 은행이 자체적으로 결정하는 금리 영역에서 상쇄된 셈이다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "43c8350d505b29178c6a0679",
+          "text": "최근 1년 동안에도 5대 은행의 평균 실질 가산금리는 1.38%에서 1.61%로 0.23%포인트 상승했다. 같은 기간 대출 기준금리가 2.72%에서 3.11%로 0.39%포인트 오르면서 실제 대출금리는 4.10%에서 4.71%로 0.61%포인트 뛰었다.",
+          "kind": "fact",
+          "author": "이준우 기자",
+          "source_ids": [
+            "60c20fd58f3a974bf8affe6f"
+          ],
+          "evidence": [
+            {
+              "source_id": "60c20fd58f3a974bf8affe6f",
+              "source_version_id": "cf9e6194018b5843168984bd",
+              "start": 1734,
+              "end": 1875,
+              "text": "최근 1년 동안에도 5대 은행의 평균 실질 가산금리는 1.38%에서 1.61%로 0.23%포인트 상승했다. 같은 기간 대출 기준금리가 2.72%에서 3.11%로 0.39%포인트 오르면서 실제 대출금리는 4.10%에서 4.71%로 0.61%포인트 뛰었다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "최근 1년 동안에도 5대 은행의 평균 실질 가산금리는 1.38%에서 1.61%로 0.23%포인트 상승했다. 같은 기간 대출 기준금리가 2.72%에서 3.11%로 0.39%포인트 오르면서 실제 대출금리는 4.10%에서 4.71%로 0.61%포인트 뛰었다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "2ee059703dd1fb1361677820",
+          "text": "실질 가산금리가 눈에 띄게 오른 시점은 금융 당국이 가계대출 총량 규제를 강화한 지난 4월이다. 금융위원회가 올해 은행권 가계대출 증가율 관리 목표를 전년 1.7%보다 낮은 1.5%로 정하자 5대 은행의 평균 실질 가산금리는 3월 1.48%에서 4월 1.63%로 한 달 만에 0.15%포인트 상승했다.",
+          "kind": "fact",
+          "author": "이준우 기자",
+          "source_ids": [
+            "60c20fd58f3a974bf8affe6f"
+          ],
+          "evidence": [
+            {
+              "source_id": "60c20fd58f3a974bf8affe6f",
+              "source_version_id": "cf9e6194018b5843168984bd",
+              "start": 1877,
+              "end": 2045,
+              "text": "실질 가산금리가 눈에 띄게 오른 시점은 금융 당국이 가계대출 총량 규제를 강화한 지난 4월이다. 금융위원회가 올해 은행권 가계대출 증가율 관리 목표를 전년 1.7%보다 낮은 1.5%로 정하자 5대 은행의 평균 실질 가산금리는 3월 1.48%에서 4월 1.63%로 한 달 만에 0.15%포인트 상승했다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "실질 가산금리가 눈에 띄게 오른 시점은 금융 당국이 가계대출 총량 규제를 강화한 지난 4월이다. 금융위원회가 올해 은행권 가계대출 증가율 관리 목표를 전년 1.7%보다 낮은 1.5%로 정하자 5대 은행의 평균 실질 가산금리는 3월 1.48%에서 4월 1.63%로 한 달 만에 0.15%포인트 상승했다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        }
+      ],
+      "event_schedules": [],
+      "document_ids": [
+        "60c20fd58f3a974bf8affe6f"
+      ],
+      "source_versions": [
+        "cf9e6194018b5843168984bd"
+      ],
+      "entities": [],
+      "selection_reason": [
+        "수집 범위 내 독립 발행자 1개",
+        "자료 기준 경과 44.8시간",
+        "이전 입력과 중복 내용",
+        "은행 대출금리와 가산금리 관측"
+      ],
+      "follow_up": [
+        "원문과 기간·단위·작성 주체를 확인하고 해석을 검토하세요."
+      ],
+      "confidence": "source_checked",
+      "related_issue_id": null,
+      "late_discovered": false,
+      "analysis_provider": "extractive",
+      "model_status": "not_needed_source_korean",
+      "analysis_label": "한국어 원문에서 핵심 문장 선별",
+      "evidence_expired": false,
+      "evidence_partially_expired": false,
+      "has_full_text": true,
+      "has_message_text": false,
+      "prior_day_follow_up": false,
+      "original_title": "[단독] 국내 은행 14곳, 대출 기준금리 0.72%p 내릴 때 실제 금리는 0.15%p 내려",
+      "source_title_ko": "[단독] 국내 은행 14곳, 대출 기준금리 0.72퍼센트포인트 내릴 때 실제 금리는 0.15퍼센트포인트 내려",
+      "korean_required": true
+    },
+    {
+      "id": "6e633b06c8521df87273b8ae",
+      "anchor": "issue-46b2fbbfe90c4020",
+      "editorial_scope": "industry",
+      "event_type": "outlook",
+      "title": "휴머노이드 시대 점 찍은 골드만삭스 \"2035년 648만대, 시장 3배 판 커진다\"",
+      "section": "investment",
+      "category": "research",
+      "summary": [
+        "골드만삭스가 글로벌 휴머노이드 로봇 시장 전망을 대폭 상향했다.",
+        "피지컬 인공지능(AI) 기술 발전으로 휴머노이드가 시제품 개발 단계를 넘어 대규모 프로토타입과 상업 생산 단계로 빠르게 이동하고 있다는 판단이다.",
+        "골드만삭스가 최근 발간한 '휴머노이드와 자동차-함께 구축하는 피지컬 AI' 보고서에 따르면 2035년 글로벌 휴머노이드 로봇 판매량은 648만대로 전망됐다.",
+        "기존 전망치 138만대보다 약 4.7배 늘어난 규모다."
+      ],
+      "change": "비교 가능한 과거 자료 없음 — 상향·하향·전망 변경 여부 미판정",
+      "claims": [
+        {
+          "id": "4c6e52d0d9830622e2d630f3",
+          "text": "골드만삭스가 글로벌 휴머노이드 로봇 시장 전망을 대폭 상향했다.",
+          "kind": "author_opinion",
+          "author": "www.etnews.com",
+          "source_ids": [
+            "3e0a4f8cd426ab483b1fb8e6"
+          ],
+          "evidence": [
+            {
+              "source_id": "3e0a4f8cd426ab483b1fb8e6",
+              "source_version_id": "a3dfbb1c2eb283b2a86869d9",
+              "start": 0,
+              "end": 35,
+              "text": "골드만삭스가 글로벌 휴머노이드 로봇 시장 전망을 대폭 상향했다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "골드만삭스가 글로벌 휴머노이드 로봇 시장 전망을 대폭 상향했다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "forecast"
+          },
+          "numbers": []
+        },
+        {
+          "id": "611f2053f03053b76d24c8af",
+          "text": "피지컬 인공지능(AI) 기술 발전으로 휴머노이드가 시제품 개발 단계를 넘어 대규모 프로토타입과 상업 생산 단계로 빠르게 이동하고 있다는 판단이다.",
+          "kind": "author_opinion",
+          "author": "www.etnews.com",
+          "source_ids": [
+            "3e0a4f8cd426ab483b1fb8e6"
+          ],
+          "evidence": [
+            {
+              "source_id": "3e0a4f8cd426ab483b1fb8e6",
+              "source_version_id": "a3dfbb1c2eb283b2a86869d9",
+              "start": 36,
+              "end": 117,
+              "text": "피지컬 인공지능(AI) 기술 발전으로 휴머노이드가 시제품 개발 단계를 넘어 대규모 프로토타입과 상업 생산 단계로 빠르게 이동하고 있다는 판단이다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "피지컬 인공지능(AI) 기술 발전으로 휴머노이드가 시제품 개발 단계를 넘어 대규모 프로토타입과 상업 생산 단계로 빠르게 이동하고 있다는 판단이다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
             "assertion_type": "interpretation"
           },
           "numbers": []
         },
         {
-          "id": "0042f84b5f3b1e94af3e0d0e",
-          "text": "14일 업계에 따르면 최근 TSMC는 지난 10일 2026년 8월 연결 기준 매출액이 5148억 600만 대만달러로 집계됐다고 발표했다. 이는 전월 대비 10.1%, 전년 동월 대비 53.3% 증가한 수치로 월 매출이 5000억 대만달러를 돌파한 것은 이번이 처음이다.",
-          "kind": "fact",
-          "author": "박규찬 기자",
+          "id": "14743646ddbd09644e6796d0",
+          "text": "골드만삭스가 최근 발간한 '휴머노이드와 자동차-함께 구축하는 피지컬 AI' 보고서에 따르면 2035년 글로벌 휴머노이드 로봇 판매량은 648만대로 전망됐다.",
+          "kind": "author_opinion",
+          "author": "www.etnews.com",
           "source_ids": [
-            "10b448a2d1d464e3f4b8b44d"
+            "3e0a4f8cd426ab483b1fb8e6"
           ],
           "evidence": [
             {
-              "source_id": "10b448a2d1d464e3f4b8b44d",
-              "source_version_id": "c66a682e82442fa1493eac1c",
-              "start": 199,
-              "end": 358,
-              "text": "14일 업계에 따르면 최근 TSMC는 지난 10일 2026년 8월 연결 기준 매출액이 5148억 600만 대만달러(약 25조 원)로 집계됐다고 발표했다. 이는 전월 대비 10.1%, 전년 동월 대비 53.3% 증가한 수치로 월 매출이 5000억 대만달러를 돌파한 것은 이번이 처음이다.",
+              "source_id": "3e0a4f8cd426ab483b1fb8e6",
+              "source_version_id": "a3dfbb1c2eb283b2a86869d9",
+              "start": 118,
+              "end": 205,
+              "text": "골드만삭스가 최근 발간한 '휴머노이드와 자동차-함께 구축하는 피지컬 AI' 보고서에 따르면 2035년 글로벌 휴머노이드 로봇 판매량은 648만대로 전망됐다.",
               "source_excerpt_truncated": false,
               "excerpt_truncated": false,
               "location": "본문",
-              "source_display_omissions": [
-                {
-                  "source_version_id": "c66a682e82442fa1493eac1c",
-                  "location": "body",
-                  "start": 262,
-                  "end": 271,
-                  "text": "(약 25조 원)",
-                  "reason": "secondary_currency_conversion"
-                }
-              ],
-              "projected_source_text": "14일 업계에 따르면 최근 TSMC는 지난 10일 2026년 8월 연결 기준 매출액이 5148억 600만 대만달러로 집계됐다고 발표했다. 이는 전월 대비 10.1%, 전년 동월 대비 53.3% 증가한 수치로 월 매출이 5000억 대만달러를 돌파한 것은 이번이 처음이다.",
-              "display_text": "14일 업계에 따르면 최근 TSMC는 지난 10일 2026년 8월 연결 기준 매출액이 5148억 600만 대만달러로 집계됐다고 발표했다. 이는 전월 대비 10.1%, 전년 동월 대비 53.3% 증가한 수치로 월 매출이 5000억 대만달러를 돌파한 것은 이번이 처음이다.",
+              "display_text": "골드만삭스가 최근 발간한 '휴머노이드와 자동차-함께 구축하는 피지컬 AI' 보고서에 따르면 2035년 글로벌 휴머노이드 로봇 판매량은 648만대로 전망됐다.",
               "is_translation": false
             }
           ],
@@ -4155,76 +4287,30 @@
             "human_review": "not_reviewed",
             "status": "source_checked",
             "source_linkage": "passed",
-            "content_check": "source_projection",
-            "assertion_type": "observation"
+            "content_check": "exact_quote",
+            "assertion_type": "forecast"
           },
           "numbers": []
         },
         {
-          "id": "59e6eb4c4738bbb28a51b92f",
-          "text": "올해 1월부터 8월까지 누적 매출은 3조 3868억 7000만 대만달러로 전년 동기 대비 39.3% 증가했다. 이는 AI 관련 반도체와 첨단 공정 제품 출하 확대가 실적 성장의 주요 배경으로 분석된다.",
+          "id": "4c51f8686231fdeb66251c3b",
+          "text": "기존 전망치 138만대보다 약 4.7배 늘어난 규모다.",
           "kind": "author_opinion",
-          "author": "박규찬 기자",
+          "author": "www.etnews.com",
           "source_ids": [
-            "10b448a2d1d464e3f4b8b44d"
+            "3e0a4f8cd426ab483b1fb8e6"
           ],
           "evidence": [
             {
-              "source_id": "10b448a2d1d464e3f4b8b44d",
-              "source_version_id": "c66a682e82442fa1493eac1c",
-              "start": 458,
-              "end": 580,
-              "text": "올해 1월부터 8월까지 누적 매출은 3조 3868억 7000만 대만달러(약 164조 원)로 전년 동기 대비 39.3% 증가했다. 이는 AI 관련 반도체와 첨단 공정 제품 출하 확대가 실적 성장의 주요 배경으로 분석된다.",
+              "source_id": "3e0a4f8cd426ab483b1fb8e6",
+              "source_version_id": "a3dfbb1c2eb283b2a86869d9",
+              "start": 206,
+              "end": 236,
+              "text": "기존 전망치 138만대보다 약 4.7배 늘어난 규모다.",
               "source_excerpt_truncated": false,
               "excerpt_truncated": false,
               "location": "본문",
-              "source_display_omissions": [
-                {
-                  "source_version_id": "c66a682e82442fa1493eac1c",
-                  "location": "body",
-                  "start": 497,
-                  "end": 507,
-                  "text": "(약 164조 원)",
-                  "reason": "secondary_currency_conversion"
-                }
-              ],
-              "projected_source_text": "올해 1월부터 8월까지 누적 매출은 3조 3868억 7000만 대만달러로 전년 동기 대비 39.3% 증가했다. 이는 AI 관련 반도체와 첨단 공정 제품 출하 확대가 실적 성장의 주요 배경으로 분석된다.",
-              "display_text": "올해 1월부터 8월까지 누적 매출은 3조 3868억 7000만 대만달러로 전년 동기 대비 39.3% 증가했다. 이는 AI 관련 반도체와 첨단 공정 제품 출하 확대가 실적 성장의 주요 배경으로 분석된다.",
-              "is_translation": false
-            }
-          ],
-          "rationale": "",
-          "conditions": "",
-          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
-          "validation": {
-            "semantic_support": "source_quote_only",
-            "human_review": "not_reviewed",
-            "status": "source_checked",
-            "source_linkage": "passed",
-            "content_check": "source_projection",
-            "assertion_type": "interpretation"
-          },
-          "numbers": []
-        },
-        {
-          "id": "471fcc637420b112ea801dc0",
-          "text": "TSMC는 지난 7월 실적 설명회에서 올해 3분기 연결 매출 전망치를 446억~458억 달러로 제시했다.",
-          "kind": "author_opinion",
-          "author": "박규찬 기자",
-          "source_ids": [
-            "10b448a2d1d464e3f4b8b44d"
-          ],
-          "evidence": [
-            {
-              "source_id": "10b448a2d1d464e3f4b8b44d",
-              "source_version_id": "c66a682e82442fa1493eac1c",
-              "start": 707,
-              "end": 765,
-              "text": "TSMC는 지난 7월 실적 설명회에서 올해 3분기 연결 매출 전망치를 446억~458억 달러로 제시했다.",
-              "source_excerpt_truncated": false,
-              "excerpt_truncated": false,
-              "location": "본문",
-              "display_text": "TSMC는 지난 7월 실적 설명회에서 올해 3분기 연결 매출 전망치를 446억~458억 달러로 제시했다.",
+              "display_text": "기존 전망치 138만대보다 약 4.7배 늘어난 규모다.",
               "is_translation": false
             }
           ],
@@ -4244,17 +4330,17 @@
       ],
       "event_schedules": [],
       "document_ids": [
-        "10b448a2d1d464e3f4b8b44d"
+        "3e0a4f8cd426ab483b1fb8e6"
       ],
       "source_versions": [
-        "c66a682e82442fa1493eac1c"
+        "a3dfbb1c2eb283b2a86869d9"
       ],
       "entities": [],
       "selection_reason": [
         "수집 범위 내 독립 발행자 1개",
-        "자료 기준 경과 40.2시간",
+        "자료 기준 경과 42.5시간",
         "이전 입력과 중복 내용",
-        "원문에 수치와 관측·보고 근거가 있는 기업 실적"
+        "수치가 명시된 전망 변경; 관측 사실과 구분"
       ],
       "follow_up": [
         "원문과 기간·단위·작성 주체를 확인하고 해석을 검토하세요."
@@ -4270,197 +4356,8 @@
       "has_full_text": true,
       "has_message_text": false,
       "prior_day_follow_up": false,
-      "original_title": "TSMC, 8월 매출 25조원…AI 시대 파운드리 독주 더 굳힌다",
-      "source_title_ko": "TSMC, 8월 매출 25조원…AI 시대 파운드리 독주 더 굳힌다",
-      "korean_required": true
-    },
-    {
-      "id": "b3454adc29fae0c83dde17b9",
-      "anchor": "issue-67b138e26692e59d",
-      "editorial_scope": "company",
-      "event_type": "capital_transaction",
-      "title": "오라클 공동창업자 래리 엘리슨이 최대 75억달러 규모의 오라클 주식 매각 계획을 공개 하루 만에 철회했다.",
-      "section": "investment",
-      "category": "research",
-      "summary": [
-        "오라클 공동창업자 래리 엘리슨이 최대 75억달러 규모의 오라클 주식 매각 계획을 공개 하루 만에 철회했다.",
-        "12일(이하 현지시간) 블록체인 매체 크립토폴리탄 등 주요 외신에 따르면, 오라클은 래리 엘리슨이 해당 계획에 따라 주식을 전혀 매각하지 않았으며, 다른 오라클 주식 매각 계획도 없다고 밝혔다.",
-        "이번 계획은 오라클의 최신 분기 보고서에서 처음 드러났다.",
-        "래리 엘리슨은 10월 말까지 최대 5000만주의 오라클 주식을 매각할 수 있도록 승인받았지만, 회사는 하루 만에 이를 없던 일로 돌렸다."
-      ],
-      "change": "이전 사건과 동일한 정보를 재확인. 전망 변경 여부는 미판정",
-      "claims": [
-        {
-          "id": "eb7896ccbabeda0443f22c8b",
-          "text": "오라클 공동창업자 래리 엘리슨이 최대 75억달러 규모의 오라클 주식 매각 계획을 공개 하루 만에 철회했다.",
-          "kind": "fact",
-          "author": "디지털투데이 (DigitalToday)",
-          "source_ids": [
-            "add606b3b624fd68bf5675bb"
-          ],
-          "evidence": [
-            {
-              "source_id": "add606b3b624fd68bf5675bb",
-              "source_version_id": "aca3ed464ae988f719d7d563",
-              "start": 16,
-              "end": 75,
-              "text": "오라클 공동창업자 래리 엘리슨이 최대 75억달러 규모의 오라클 주식 매각 계획을 공개 하루 만에 철회했다.",
-              "source_excerpt_truncated": false,
-              "excerpt_truncated": false,
-              "location": "본문",
-              "display_text": "오라클 공동창업자 래리 엘리슨이 최대 75억달러 규모의 오라클 주식 매각 계획을 공개 하루 만에 철회했다.",
-              "is_translation": false
-            }
-          ],
-          "rationale": "",
-          "conditions": "",
-          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
-          "validation": {
-            "semantic_support": "source_quote_only",
-            "human_review": "not_reviewed",
-            "status": "source_checked",
-            "source_linkage": "passed",
-            "content_check": "exact_quote",
-            "assertion_type": "observation"
-          },
-          "numbers": []
-        },
-        {
-          "id": "2c3132cef103fc59f357239b",
-          "text": "12일(이하 현지시간) 블록체인 매체 크립토폴리탄 등 주요 외신에 따르면, 오라클은 래리 엘리슨이 해당 계획에 따라 주식을 전혀 매각하지 않았으며, 다른 오라클 주식 매각 계획도 없다고 밝혔다.",
-          "kind": "fact",
-          "author": "디지털투데이 (DigitalToday)",
-          "source_ids": [
-            "add606b3b624fd68bf5675bb"
-          ],
-          "evidence": [
-            {
-              "source_id": "add606b3b624fd68bf5675bb",
-              "source_version_id": "aca3ed464ae988f719d7d563",
-              "start": 77,
-              "end": 185,
-              "text": "12일(이하 현지시간) 블록체인 매체 크립토폴리탄 등 주요 외신에 따르면, 오라클은 래리 엘리슨이 해당 계획에 따라 주식을 전혀 매각하지 않았으며, 다른 오라클 주식 매각 계획도 없다고 밝혔다.",
-              "source_excerpt_truncated": false,
-              "excerpt_truncated": false,
-              "location": "본문",
-              "display_text": "12일(이하 현지시간) 블록체인 매체 크립토폴리탄 등 주요 외신에 따르면, 오라클은 래리 엘리슨이 해당 계획에 따라 주식을 전혀 매각하지 않았으며, 다른 오라클 주식 매각 계획도 없다고 밝혔다.",
-              "is_translation": false
-            }
-          ],
-          "rationale": "",
-          "conditions": "",
-          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
-          "validation": {
-            "semantic_support": "source_quote_only",
-            "human_review": "not_reviewed",
-            "status": "source_checked",
-            "source_linkage": "passed",
-            "content_check": "exact_quote",
-            "assertion_type": "observation"
-          },
-          "numbers": []
-        },
-        {
-          "id": "96813a18781dbbb166782f6d",
-          "text": "이번 계획은 오라클의 최신 분기 보고서에서 처음 드러났다.",
-          "kind": "fact",
-          "author": "디지털투데이 (DigitalToday)",
-          "source_ids": [
-            "add606b3b624fd68bf5675bb"
-          ],
-          "evidence": [
-            {
-              "source_id": "add606b3b624fd68bf5675bb",
-              "source_version_id": "aca3ed464ae988f719d7d563",
-              "start": 187,
-              "end": 219,
-              "text": "이번 계획은 오라클의 최신 분기 보고서에서 처음 드러났다.",
-              "source_excerpt_truncated": false,
-              "excerpt_truncated": false,
-              "location": "본문",
-              "display_text": "이번 계획은 오라클의 최신 분기 보고서에서 처음 드러났다.",
-              "is_translation": false
-            }
-          ],
-          "rationale": "",
-          "conditions": "",
-          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
-          "validation": {
-            "semantic_support": "source_quote_only",
-            "human_review": "not_reviewed",
-            "status": "source_checked",
-            "source_linkage": "passed",
-            "content_check": "exact_quote",
-            "assertion_type": "observation"
-          },
-          "numbers": []
-        },
-        {
-          "id": "218af39aa16e1fbe2ce9bc77",
-          "text": "래리 엘리슨은 10월 말까지 최대 5000만주의 오라클 주식을 매각할 수 있도록 승인받았지만, 회사는 하루 만에 이를 없던 일로 돌렸다.",
-          "kind": "fact",
-          "author": "디지털투데이 (DigitalToday)",
-          "source_ids": [
-            "add606b3b624fd68bf5675bb"
-          ],
-          "evidence": [
-            {
-              "source_id": "add606b3b624fd68bf5675bb",
-              "source_version_id": "aca3ed464ae988f719d7d563",
-              "start": 220,
-              "end": 296,
-              "text": "래리 엘리슨은 10월 말까지 최대 5000만주의 오라클 주식을 매각할 수 있도록 승인받았지만, 회사는 하루 만에 이를 없던 일로 돌렸다.",
-              "source_excerpt_truncated": false,
-              "excerpt_truncated": false,
-              "location": "본문",
-              "display_text": "래리 엘리슨은 10월 말까지 최대 5000만주의 오라클 주식을 매각할 수 있도록 승인받았지만, 회사는 하루 만에 이를 없던 일로 돌렸다.",
-              "is_translation": false
-            }
-          ],
-          "rationale": "",
-          "conditions": "",
-          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
-          "validation": {
-            "semantic_support": "source_quote_only",
-            "human_review": "not_reviewed",
-            "status": "source_checked",
-            "source_linkage": "passed",
-            "content_check": "exact_quote",
-            "assertion_type": "observation"
-          },
-          "numbers": []
-        }
-      ],
-      "event_schedules": [],
-      "document_ids": [
-        "add606b3b624fd68bf5675bb"
-      ],
-      "source_versions": [
-        "aca3ed464ae988f719d7d563"
-      ],
-      "entities": [],
-      "selection_reason": [
-        "수집 범위 내 독립 발행자 1개",
-        "자료 기준 경과 46.2시간",
-        "이전 입력과 중복 내용",
-        "원문에 실행·결정 근거가 있는 기업 계약·제품·자본거래·승인"
-      ],
-      "follow_up": [
-        "원문과 기간·단위·작성 주체를 확인하고 해석을 검토하세요."
-      ],
-      "confidence": "source_checked",
-      "related_issue_id": null,
-      "late_discovered": false,
-      "analysis_provider": "extractive",
-      "model_status": "not_needed_source_korean",
-      "analysis_label": "한국어 원문에서 핵심 문장 선별",
-      "evidence_expired": false,
-      "evidence_partially_expired": false,
-      "has_full_text": true,
-      "has_message_text": false,
-      "prior_day_follow_up": false,
-      "original_title": "래리 엘리슨 오라클 회장, 75억달러 자사주 매각 계획 돌연 철회…\"추가 처분도 없다\"",
-      "source_title_ko": "오라클 공동창업자 래리 엘리슨이 최대 75억달러 규모의 오라클 주식 매각 계획을 공개 하루 만에 철회했다.",
+      "original_title": "휴머노이드 시대 점 찍은 골드만삭스 \"2035년 648만대, 시장 3배 판 커진다\"",
+      "source_title_ko": "휴머노이드 시대 점 찍은 골드만삭스 \"2035년 648만대, 시장 3배 판 커진다\"",
       "korean_required": true
     }
   ],
@@ -4723,27 +4620,6 @@
       "synthetic": false
     },
     {
-      "id": "909094c3498b93e4644dda23",
-      "version_id": "1d373d6f92aa0f93b10131c7",
-      "source_id": "naver_investment",
-      "source_kind": "news",
-      "title": "TSMC 첨단칩 생산 70% 늘린다",
-      "publisher": "서울경제",
-      "author": "박시진 기자",
-      "url": "https://www.sedaily.com/article/20090765?ref=naver",
-      "published_at": "2026-09-14T08:52:04+00:00",
-      "provided_at": "2026-09-14T08:53:00+00:00",
-      "modified_at": null,
-      "collected_at": "2026-09-14T12:04:04.097884+00:00",
-      "event_at": null,
-      "time_basis": "original_published_at",
-      "full_text": true,
-      "text_scope": "기사·문서 본문 확보",
-      "evidence_expired": false,
-      "extraction_quality": "article_text",
-      "synthetic": false
-    },
-    {
       "id": "e48318822c7e7f2180fa4089",
       "version_id": "1de1ba133f597433251f0e16",
       "source_id": "naver_investment",
@@ -4798,6 +4674,48 @@
       "provided_at": "2026-09-15T00:41:00+00:00",
       "modified_at": null,
       "collected_at": "2026-09-15T00:47:05.864350+00:00",
+      "event_at": null,
+      "time_basis": "original_published_at",
+      "full_text": true,
+      "text_scope": "기사·문서 본문 확보",
+      "evidence_expired": false,
+      "extraction_quality": "article_text",
+      "synthetic": false
+    },
+    {
+      "id": "1c7abed637b1940243228e0d",
+      "version_id": "3e86ccdc265ce0f22275c61d",
+      "source_id": "naver_investment",
+      "source_kind": "news",
+      "title": "[라온신문] 두 달여 만에 208원 급락한 환율…경제지표·기업 실적 해석 바꿨다",
+      "publisher": "www.raonnews.com",
+      "author": "이성태",
+      "url": "https://www.raonnews.com/news/article.html?no=61126",
+      "published_at": "2026-09-15T02:29:09+00:00",
+      "provided_at": "2026-09-15T02:30:00+00:00",
+      "modified_at": "2026-09-15T02:29:36+00:00",
+      "collected_at": "2026-09-15T05:50:21.393217+00:00",
+      "event_at": null,
+      "time_basis": "original_published_at",
+      "full_text": true,
+      "text_scope": "기사·문서 본문 확보",
+      "evidence_expired": false,
+      "extraction_quality": "article_text",
+      "synthetic": false
+    },
+    {
+      "id": "58598578d5cf2ffe96ec6432",
+      "version_id": "44b8367956e3f2b240c2532d",
+      "source_id": "naver_investment",
+      "source_kind": "news",
+      "title": "[특징주] 제조AI 확산·中 로봇 규제 기대…로봇株 줄줄이 급등",
+      "publisher": "뉴스핌",
+      "author": "이정아",
+      "url": "https://www.newspim.com/news/view/20260915000409",
+      "published_at": "2026-09-15T01:25:00+00:00",
+      "provided_at": "2026-09-15T01:25:00+00:00",
+      "modified_at": "2026-09-15T01:25:00+00:00",
+      "collected_at": "2026-09-15T06:29:33.123327+00:00",
       "event_at": null,
       "time_basis": "original_published_at",
       "full_text": true,
@@ -4870,6 +4788,90 @@
       "synthetic": false
     },
     {
+      "id": "2a6590967a81b9b5004a6975",
+      "version_id": "58de972e192949b3c19c2ba9",
+      "source_id": "naver_investment",
+      "source_kind": "news",
+      "title": "AI 속도조절론에 亞증시 약세…소프트뱅크 10%대 급락[Asia마감] - 머니투데이",
+      "publisher": "머니투데이",
+      "author": "백소희",
+      "url": "https://www.mt.co.kr/world/2026/09/14/2026091416242169041",
+      "published_at": "2026-09-14T08:22:23+00:00",
+      "provided_at": "2026-09-14T08:22:00+00:00",
+      "modified_at": "2026-09-14T08:22:29+00:00",
+      "collected_at": "2026-09-15T06:19:38.219573+00:00",
+      "event_at": null,
+      "time_basis": "original_published_at",
+      "full_text": true,
+      "text_scope": "기사·문서 본문 확보",
+      "evidence_expired": false,
+      "extraction_quality": "article_text",
+      "synthetic": false
+    },
+    {
+      "id": "d92a8cc6aa8ebc74be5885be",
+      "version_id": "63e8edf889b46c482636afb3",
+      "source_id": "naver_investment",
+      "source_kind": "news",
+      "title": "[美증시 특징주] 구글 알파벳 급등…AI경쟁 속도조절+분기배당금 지급 효과",
+      "publisher": "미디어펜",
+      "author": "김종현",
+      "url": "https://www.mediapen.com/news/view/1123494",
+      "published_at": "2026-09-14T22:15:26+00:00",
+      "provided_at": "2026-09-14T22:16:00+00:00",
+      "modified_at": "2026-09-14T22:15:26+00:00",
+      "collected_at": "2026-09-14T23:21:08.885494+00:00",
+      "event_at": null,
+      "time_basis": "original_published_at",
+      "full_text": true,
+      "text_scope": "기사·문서 본문 확보",
+      "evidence_expired": false,
+      "extraction_quality": "article_text",
+      "synthetic": false
+    },
+    {
+      "id": "2227234124a75a834f9b2b09",
+      "version_id": "675aeeef55a02ddf90534f25",
+      "source_id": "naver_investment",
+      "source_kind": "news",
+      "title": "[모닝 리포트] \"KB금융, 3분기 순익 2조원 돌파 전망…목표가 상향\"",
+      "publisher": "뉴스핌",
+      "author": "양태훈",
+      "url": "https://www.newspim.com/news/view/20260914000077",
+      "published_at": "2026-09-14T00:17:00+00:00",
+      "provided_at": "2026-09-14T00:17:00+00:00",
+      "modified_at": "2026-09-14T00:17:00+00:00",
+      "collected_at": "2026-09-15T06:25:09.307793+00:00",
+      "event_at": null,
+      "time_basis": "original_published_at",
+      "full_text": true,
+      "text_scope": "기사·문서 본문 확보",
+      "evidence_expired": false,
+      "extraction_quality": "article_text",
+      "synthetic": false
+    },
+    {
+      "id": "1a1f1c9133229b5c851ef29a",
+      "version_id": "6ae9107c3041cd462755cb87",
+      "source_id": "naver_general",
+      "source_kind": "news",
+      "title": "미 10년물 국채 금리 5% 재돌파…2007년 이후 최고치",
+      "publisher": "SBS 뉴스",
+      "author": "곽상은 기자",
+      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008754294&plink=ORI&cooper=NAVER",
+      "published_at": "2026-09-15T06:48:35+00:00",
+      "provided_at": "2026-09-15T06:48:00+00:00",
+      "modified_at": "2026-09-15T06:48:35+00:00",
+      "collected_at": "2026-09-15T07:06:48.277943+00:00",
+      "event_at": null,
+      "time_basis": "original_published_at",
+      "full_text": true,
+      "text_scope": "기사·문서 본문 확보",
+      "evidence_expired": false,
+      "extraction_quality": "article_text",
+      "synthetic": false
+    },
+    {
       "id": "ea33f1003dc3c173ddb7d4a3",
       "version_id": "72147628dfca712e147185a1",
       "source_id": "naver_investment",
@@ -4888,6 +4890,27 @@
       "text_scope": "기사·문서 본문 확보",
       "evidence_expired": false,
       "extraction_quality": "article_text",
+      "synthetic": false
+    },
+    {
+      "id": "9afa2c4cecbfdc1ce4e4f228",
+      "version_id": "728ab20f7072b482063849a8",
+      "source_id": "naver_general",
+      "source_kind": "news",
+      "title": "美 10년물 국채 금리 5% 재돌파…2007년 이후 최고치",
+      "publisher": "www.yna.co.kr",
+      "author": "",
+      "url": "https://www.yna.co.kr/view/AKR20260915123200009?input=1195m",
+      "published_at": null,
+      "provided_at": "2026-09-15T06:21:00+00:00",
+      "modified_at": null,
+      "collected_at": "2026-09-15T07:02:27.527314+00:00",
+      "event_at": null,
+      "time_basis": "naver_provided_at",
+      "full_text": false,
+      "text_scope": "검색 요약·발췌만 확인",
+      "evidence_expired": false,
+      "extraction_quality": "snippet_only",
       "synthetic": false
     },
     {
@@ -4924,27 +4947,6 @@
       "provided_at": "2026-09-15T02:12:00+00:00",
       "modified_at": null,
       "collected_at": "2026-09-15T05:48:31.803197+00:00",
-      "event_at": null,
-      "time_basis": "original_published_at",
-      "full_text": true,
-      "text_scope": "기사·문서 본문 확보",
-      "evidence_expired": false,
-      "extraction_quality": "article_text",
-      "synthetic": false
-    },
-    {
-      "id": "f5cac1e46a0811d47391b945",
-      "version_id": "8b845639be373779f7defbfb",
-      "source_id": "naver_investment",
-      "source_kind": "news",
-      "title": "“연말 매출만 160조 전망”…앤트로픽, 자금 고갈설 잠재운 깜짝 실적 - 헤럴드경제",
-      "publisher": "헤럴드경제",
-      "author": "도현정",
-      "url": "https://biz.heraldcorp.com/article/10873182?ref=naver",
-      "published_at": "2026-09-14T12:00:00+00:00",
-      "provided_at": "2026-09-14T12:00:00+00:00",
-      "modified_at": null,
-      "collected_at": "2026-09-15T06:53:11.232653+00:00",
       "event_at": null,
       "time_basis": "original_published_at",
       "full_text": true,
@@ -4996,6 +4998,27 @@
       "synthetic": false
     },
     {
+      "id": "e43c8ad683ffd290cd971ea9",
+      "version_id": "9a1e0e150fc9ca75d43dbda2",
+      "source_id": "naver_investment",
+      "source_kind": "news",
+      "title": "대한항공-아시아나 마일리지 통합 최종 승인…10년간 기존 마일리지 그대로",
+      "publisher": "미래를 보는 창 - 전자신문",
+      "author": "www.etnews.com",
+      "url": "https://www.etnews.com/20260915000218",
+      "published_at": "2026-09-15T03:49:33+00:00",
+      "provided_at": "2026-09-15T03:50:00+00:00",
+      "modified_at": null,
+      "collected_at": "2026-09-15T05:58:25.038696+00:00",
+      "event_at": null,
+      "time_basis": "original_published_at",
+      "full_text": true,
+      "text_scope": "기사·문서 본문 확보",
+      "evidence_expired": false,
+      "extraction_quality": "article_text",
+      "synthetic": false
+    },
+    {
       "id": "41102af7b988ec58636c4f10",
       "version_id": "9b140883b282f325ec4a54c5",
       "source_id": "naver_investment",
@@ -5008,6 +5031,27 @@
       "provided_at": "2026-09-14T21:04:00+00:00",
       "modified_at": "2026-09-14T21:00:00+00:00",
       "collected_at": "2026-09-14T23:21:42.543686+00:00",
+      "event_at": null,
+      "time_basis": "original_published_at",
+      "full_text": true,
+      "text_scope": "기사·문서 본문 확보",
+      "evidence_expired": false,
+      "extraction_quality": "article_text",
+      "synthetic": false
+    },
+    {
+      "id": "0a3f97a0661791d71956761d",
+      "version_id": "9fe7d9425e05ef3088bc2770",
+      "source_id": "naver_investment",
+      "source_kind": "news",
+      "title": "WTI 102달러 돌파… 유가 폭등에 금값 1개월만 최저",
+      "publisher": "글로벌이코노믹",
+      "author": "이용수",
+      "url": "https://www.g-enews.com/view.php?ud=202609151123289658e7e8286d56_1",
+      "published_at": "2026-09-15T02:25:35+00:00",
+      "provided_at": "2026-09-15T02:26:00+00:00",
+      "modified_at": "2026-09-15T02:25:35+00:00",
+      "collected_at": "2026-09-15T05:53:31.419901+00:00",
       "event_at": null,
       "time_basis": "original_published_at",
       "full_text": true,
@@ -5059,39 +5103,18 @@
       "synthetic": false
     },
     {
-      "id": "c5e0a6ca00fe1987b05297b5",
-      "version_id": "a425e594420a6bb36f797161",
+      "id": "3e0a4f8cd426ab483b1fb8e6",
+      "version_id": "a3dfbb1c2eb283b2a86869d9",
       "source_id": "naver_investment",
       "source_kind": "news",
-      "title": "삼성중공업, 대형 LNG운반선 등 1.6조원 수주",
-      "publisher": "경남일보",
-      "author": "배창일",
-      "url": "https://www.gnnews.co.kr/news/articleView.html?idxno=645476",
-      "published_at": "2026-09-14T09:38:20+00:00",
-      "provided_at": "2026-09-14T10:38:00+00:00",
-      "modified_at": "2026-09-14T10:38:07+00:00",
-      "collected_at": "2026-09-14T12:04:01.721025+00:00",
-      "event_at": null,
-      "time_basis": "original_published_at",
-      "full_text": true,
-      "text_scope": "기사·문서 본문 확보",
-      "evidence_expired": false,
-      "extraction_quality": "article_text",
-      "synthetic": false
-    },
-    {
-      "id": "42c4cb01bfb2dcf8c169a3af",
-      "version_id": "a93994b9358b3c57dc423b0f",
-      "source_id": "naver_investment",
-      "source_kind": "news",
-      "title": "[단독] LS일렉트릭·효성중공업, 미국 정부 나란히 제소…변압기 관세 불복 < 에디터 Pick! < Society < 기사본문 - 뉴스저널리즘",
-      "publisher": "뉴스저널리즘",
-      "author": "한수빈",
-      "url": "https://www.ngetnews.com/news/articleView.html?idxno=553261",
-      "published_at": "2026-09-14T02:30:49+00:00",
-      "provided_at": "2026-09-14T02:32:00+00:00",
-      "modified_at": "2026-09-14T02:30:49+00:00",
-      "collected_at": "2026-09-15T06:22:22.179352+00:00",
+      "title": "휴머노이드 시대 점 찍은 골드만삭스 \"2035년 648만대, 시장 3배 판 커진다\"",
+      "publisher": "미래를 보는 창 - 전자신문",
+      "author": "www.etnews.com",
+      "url": "https://www.etnews.com/20260914000236",
+      "published_at": "2026-09-14T04:39:32+00:00",
+      "provided_at": "2026-09-14T04:40:00+00:00",
+      "modified_at": null,
+      "collected_at": "2026-09-15T06:08:24.363234+00:00",
       "event_at": null,
       "time_basis": "original_published_at",
       "full_text": true,
@@ -5122,39 +5145,18 @@
       "synthetic": false
     },
     {
-      "id": "add606b3b624fd68bf5675bb",
-      "version_id": "aca3ed464ae988f719d7d563",
+      "id": "0a32a0f0c9acd90d7d94b41d",
+      "version_id": "adc4bb54454bcc03f9711c79",
       "source_id": "naver_investment",
       "source_kind": "news",
-      "title": "오라클 공동창업자 래리 엘리슨이 최대 75억달러 규모의 오라클 주식 매각 계획을 공개 하루 만에 철회했다.",
-      "publisher": "디지털투데이 (DigitalToday)",
-      "author": "",
-      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=700250",
-      "published_at": "2026-09-14T00:59:14+00:00",
-      "provided_at": "2026-09-14T01:00:00+00:00",
-      "modified_at": null,
-      "collected_at": "2026-09-14T01:02:44.976831+00:00",
-      "event_at": null,
-      "time_basis": "original_published_at",
-      "full_text": true,
-      "text_scope": "기사·문서 본문 확보",
-      "evidence_expired": false,
-      "extraction_quality": "article_text",
-      "synthetic": false
-    },
-    {
-      "id": "1aed544f2753398d690d2bc3",
-      "version_id": "b4e100386087d609ccc85cd8",
-      "source_id": "naver_investment",
-      "source_kind": "news",
-      "title": "핸들·페달 없는 금빛 테슬라 무인택시 '사이버캡' 유료 운행 시작",
-      "publisher": "매일신문",
-      "author": "임재환",
-      "url": "https://www.imaeil.com/page/view/2026091318312109778",
-      "published_at": "2026-09-15T04:41:56+00:00",
-      "provided_at": "2026-09-15T04:42:00+00:00",
-      "modified_at": null,
-      "collected_at": "2026-09-15T05:45:09.120819+00:00",
+      "title": "AI 개발 '속도조절론'에 美선물 급락…유가는 107달러 돌파",
+      "publisher": "이비엔(EBN)뉴스센터",
+      "author": "이윤형 기자",
+      "url": "https://www.ebn.co.kr/news/articleView.html?idxno=1724063",
+      "published_at": "2026-09-13T23:20:10+00:00",
+      "provided_at": "2026-09-13T23:22:00+00:00",
+      "modified_at": "2026-09-13T23:20:10+00:00",
+      "collected_at": "2026-09-15T06:29:15.724242+00:00",
       "event_at": null,
       "time_basis": "original_published_at",
       "full_text": true,
@@ -5206,102 +5208,18 @@
       "synthetic": false
     },
     {
-      "id": "428a68775c949433d1cd015d",
-      "version_id": "c60b0a66466e0fce65ae4d0f",
+      "id": "60c20fd58f3a974bf8affe6f",
+      "version_id": "cf9e6194018b5843168984bd",
       "source_id": "naver_investment",
       "source_kind": "news",
-      "title": "앤트로픽, 친트럼프 럼그룹과 18조원대 컴퓨팅 계약",
-      "publisher": "조선비즈",
-      "author": "이호준 기자",
-      "url": "https://biz.chosun.com/it-science/ict/2026/09/14/D3XZVE3DCNFOPPIC5WSWKM4CQA/",
-      "published_at": "2026-09-14T06:51:57.775000+00:00",
-      "provided_at": "2026-09-14T06:53:00+00:00",
-      "modified_at": "2026-09-14T06:52:38.465000+00:00",
-      "collected_at": "2026-09-15T00:50:50.287419+00:00",
-      "event_at": null,
-      "time_basis": "original_published_at",
-      "full_text": true,
-      "text_scope": "기사·문서 본문 확보",
-      "evidence_expired": false,
-      "extraction_quality": "article_text",
-      "synthetic": false
-    },
-    {
-      "id": "10b448a2d1d464e3f4b8b44d",
-      "version_id": "c66a682e82442fa1493eac1c",
-      "source_id": "naver_investment",
-      "source_kind": "news",
-      "title": "TSMC, 8월 매출 25조원…AI 시대 파운드리 독주 더 굳힌다",
-      "publisher": "테크월드",
-      "author": "박규찬 기자",
-      "url": "https://www.epnc.co.kr/news/articleView.html?idxno=406892",
-      "published_at": "2026-09-14T07:00:00+00:00",
-      "provided_at": "2026-09-14T07:00:00+00:00",
-      "modified_at": "2026-09-14T07:00:00+00:00",
-      "collected_at": "2026-09-15T06:04:29.039080+00:00",
-      "event_at": null,
-      "time_basis": "original_published_at",
-      "full_text": true,
-      "text_scope": "기사·문서 본문 확보",
-      "evidence_expired": false,
-      "extraction_quality": "article_text",
-      "synthetic": false
-    },
-    {
-      "id": "eb415a26fc0d3257d5a85567",
-      "version_id": "e0c494ead2f00c6d5f9812ec",
-      "source_id": "naver_investment",
-      "source_kind": "news",
-      "title": "AI 훈풍 탄 ICT 수출 163%↑ 600억달러 육박 … 역대 최대 찍었다",
-      "publisher": "뉴데일리 경제",
-      "author": "박철호 기자",
-      "url": "https://biz.newdaily.co.kr/site/data/html/2026/09/14/2026091400189.html",
-      "published_at": "2026-09-14T03:24:39+00:00",
-      "provided_at": "2026-09-14T04:46:00+00:00",
-      "modified_at": "2026-09-14T04:44:48+00:00",
-      "collected_at": "2026-09-15T06:15:33.479085+00:00",
-      "event_at": null,
-      "time_basis": "original_published_at",
-      "full_text": true,
-      "text_scope": "기사·문서 본문 확보",
-      "evidence_expired": false,
-      "extraction_quality": "article_text",
-      "synthetic": false
-    },
-    {
-      "id": "beec8219b8b8070d8c8395cb",
-      "version_id": "ea84bc76c6cd19b545d26509",
-      "source_id": "naver_investment",
-      "source_kind": "news",
-      "title": "삼성重 1.6조원 LNG·원유운반선 수주..벌써 작년 실적 넘었다",
-      "publisher": "파이낸셜뉴스",
-      "author": "김윤호",
-      "url": "https://www.fnnews.com/news/202609141106431919",
-      "published_at": "2026-09-14T02:11:15+00:00",
-      "provided_at": "2026-09-14T02:12:00+00:00",
-      "modified_at": "2026-09-14T02:11:39+00:00",
-      "collected_at": "2026-09-15T06:45:29.252429+00:00",
-      "event_at": null,
-      "time_basis": "original_published_at",
-      "full_text": true,
-      "text_scope": "기사·문서 본문 확보",
-      "evidence_expired": false,
-      "extraction_quality": "article_text",
-      "synthetic": false
-    },
-    {
-      "id": "81980aba84249f6660fcbb0e",
-      "version_id": "f9160e5a5be2255b51bc8a61",
-      "source_id": "naver_investment",
-      "source_kind": "news",
-      "title": "NH證 \"삼성SDI, 각형·원통형 선호로 수주 경쟁력 강화…목표가 73만원\" | 아주경제",
-      "publisher": "아주경제",
-      "author": "신동근",
-      "url": "https://www.ajunews.com/view/20260915081201632",
-      "published_at": "2026-09-14T23:13:23+00:00",
-      "provided_at": "2026-09-14T23:14:00+00:00",
-      "modified_at": "2026-09-14T23:13:23+00:00",
-      "collected_at": "2026-09-15T06:29:52.336423+00:00",
+      "title": "[단독] 국내 은행 14곳, 대출 기준금리 0.72퍼센트포인트 내릴 때 실제 금리는 0.15퍼센트포인트 내려",
+      "publisher": "조선일보",
+      "author": "이준우 기자",
+      "url": "https://www.chosun.com/economy/stock-finance/2026/09/15/XA3GCRZVHVA6FBF2DNQXXLN3YI/",
+      "published_at": "2026-09-14T02:19:24.323000+00:00",
+      "provided_at": "2026-09-14T05:05:00+00:00",
+      "modified_at": "2026-09-14T05:47:56.156000+00:00",
+      "collected_at": "2026-09-15T00:48:34.775366+00:00",
       "event_at": null,
       "time_basis": "original_published_at",
       "full_text": true,
@@ -5356,7 +5274,7 @@
     "status": "complete",
     "issues_completed": 23,
     "issues_pending": 0,
-    "foreign_issues_completed": 3
+    "foreign_issues_completed": 1
   },
   "publication": {
     "withheld_private_documents": 1333,
