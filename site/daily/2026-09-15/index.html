@@ -1487,5 +1487,467 @@ body.has-quant-shared-nav .skip-link {
   if(new URLSearchParams(location.search).get('archive')==='1')showCalendar();
 })();
 </script>
+<style>
+  #automation-settings{max-width:1272px;margin:12px auto 32px;padding:16px 20px;border:1px solid var(--line,#e5e8eb);border-radius:8px;background:var(--panel,#fff);color:var(--ink,#191f28);font:13px/1.65 Inter,Pretendard,-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans KR',sans-serif;box-sizing:border-box;overflow-wrap:anywhere}
+  #automation-settings *{box-sizing:border-box}
+  #automation-settings>summary{cursor:pointer;font-weight:650;min-height:28px;align-content:center}
+  #automation-settings .as-caption{font-size:12px;font-weight:400;color:var(--muted,#626e7d);margin-left:8px}
+  #automation-settings .as-content{padding-top:20px}
+  #automation-settings .as-columns{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:28px}
+  #automation-settings h2{font-size:15px;line-height:1.5;margin:0 0 4px;font-weight:700}
+  #automation-settings p{margin:6px 0 12px}
+  #automation-settings .as-muted{font-size:12px;color:var(--muted,#626e7d)}
+  #automation-settings fieldset{padding:0;margin:18px 0;border:0;min-width:0}
+  #automation-settings legend{padding:0;margin-bottom:8px;font-size:13px;font-weight:650}
+  #automation-settings label{display:block;font-size:12px}
+  #automation-settings input{max-width:100%;min-width:0;min-height:40px;padding:7px 10px;border:1px solid var(--line,#e5e8eb);border-radius:6px;background:var(--panel,#fff);color:var(--ink,#191f28);font:inherit}
+  #automation-settings input[type=time]{width:126px}
+  #automation-settings input[type=password],#automation-settings input[type=text]{display:block;width:100%;margin-top:6px}
+  #automation-settings input[type=checkbox]{width:18px;height:18px;min-height:18px;accent-color:var(--primary,#1b64da);flex-shrink:0}
+  #automation-settings button{min-height:40px;border:1px solid var(--line,#e5e8eb);border-radius:6px;background:var(--panel,#fff);color:var(--ink,#191f28);padding:7px 12px;font:inherit;font-size:12px;cursor:pointer}
+  #automation-settings button:hover:not(:disabled){background:var(--surface,#f2f4f6)}
+  #automation-settings button.as-primary{border-color:var(--primary,#1b64da);background:var(--soft,#eaf3ff);color:var(--primary,#1b64da);font-weight:650}
+  #automation-settings button:disabled,#automation-settings input:disabled{opacity:.5;cursor:default}
+  #automation-settings :is(button,input,summary,a):focus-visible{outline:3px solid var(--primary,#1b64da);outline-offset:3px}
+  #automation-settings .as-rows{display:grid;gap:8px;margin-bottom:8px}
+  #automation-settings .as-row{display:flex;align-items:center;gap:8px;min-width:0;flex-wrap:wrap}
+  #automation-settings .as-row label{display:flex;align-items:center;gap:6px}
+  #automation-settings .as-blackout-row{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr) auto;gap:8px;align-items:end}
+  #automation-settings .as-blackout-row label{min-width:0}
+  #automation-settings .as-blackout-row input{display:block;width:100%;margin-top:4px}
+  #automation-settings .as-remove{padding:7px 10px;color:var(--muted,#626e7d)}
+  #automation-settings .as-actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
+  #automation-settings .as-toggle{display:flex;gap:8px;align-items:center;font-size:13px;margin:16px 0}
+  #automation-settings .as-field{display:block;margin:14px 0}
+  #automation-settings .as-status{font-size:12px;min-height:20px;margin:10px 0 0}
+  #automation-settings .as-status[data-tone=error]{color:var(--warning,#966000)}
+  #automation-settings .as-status[data-tone=success]{color:var(--primary,#1b64da)}
+  #automation-settings .as-setup{font-size:12px;color:var(--muted,#626e7d);margin:14px 0}
+  #automation-settings .as-setup summary{cursor:pointer;min-height:32px;align-content:center}
+  #automation-settings .as-setup ol{padding-left:20px;margin:8px 0}
+  #automation-settings .as-setup li+li{margin-top:6px}
+  #automation-settings a{color:var(--primary,#1b64da)}
+  #automation-settings [hidden]{display:none!important}
+  @media(max-width:1320px){#automation-settings{margin-left:24px;margin-right:24px}}
+  @media(max-width:760px){#automation-settings{margin-left:16px;margin-right:16px;padding:14px 16px}#automation-settings .as-columns{grid-template-columns:minmax(0,1fr);gap:24px}#automation-settings .as-notifications{border-top:1px solid var(--line,#e5e8eb);padding-top:22px}#automation-settings .as-caption{display:block;margin:2px 0 0 19px}#automation-settings input{font-size:16px}#automation-settings input[type=time]{width:168px}#automation-settings .as-blackout-row{grid-template-columns:minmax(0,1fr) auto;gap:6px}#automation-settings .as-blackout-row label{display:grid;grid-template-columns:34px minmax(0,1fr);gap:6px;align-items:center;grid-column:1}#automation-settings .as-blackout-row label:first-child{grid-row:1}#automation-settings .as-blackout-row label:nth-child(2){grid-row:2}#automation-settings .as-blackout-row input{width:100%;min-width:0;margin-top:0;padding:7px 5px}#automation-settings .as-blackout-row .as-remove{grid-column:2;grid-row:1 / span 2;align-self:center}#automation-settings .as-remove{padding:7px 8px}}
+</style>
+<details id="automation-settings" data-automation-mode="public" data-preview-port="8876">
+  <summary>자동화 설정 <span class="as-caption">내일 일정 · Telegram 알림</span></summary>
+  <div class="as-content">
+    <div id="as-connection" hidden>
+      <p class="as-muted">설정할 맥북에서 이 페이지를 열어 주세요. 설정과 알림 정보는 해당 맥북에만 저장됩니다.</p>
+      <div class="as-actions"><button id="as-connect" class="as-primary" type="button">이 맥북 연결</button><button id="as-disconnect" type="button" hidden>연결 해제</button></div>
+      <p id="as-connection-status" class="as-status" role="status" aria-live="polite"></p>
+    </div>
+    <p id="as-load-status" class="as-status" role="status" aria-live="polite"></p>
+    <button id="as-reload" type="button" hidden>다시 불러오기</button>
+    <div id="as-forms" class="as-columns" hidden>
+      <form id="as-schedule-form">
+        <h2>내일 일정</h2>
+        <p class="as-muted"><strong id="as-date"></strong> · 한국 시간 · <span id="as-schedule-mode"></span></p>
+        <p id="as-schedule-note" class="as-muted">저장한 일정은 내일 하루에만 적용됩니다. 그다음 날은 기본 일정으로 돌아갑니다.</p>
+        <p id="as-completion-target" class="as-muted" hidden></p>
+        <fieldset>
+          <legend>본실행 시작</legend>
+          <label for="as-run-time">자료 수집부터 시작하는 시각입니다.</label>
+          <input id="as-run-time" name="run_time" type="time" step="60" required aria-describedby="as-schedule-note">
+        </fieldset>
+        <fieldset>
+          <legend>보조수집</legend>
+          <div id="as-collection-rows" class="as-rows"></div>
+          <p id="as-collection-empty" class="as-muted" hidden>내일 보조수집 없음</p>
+          <button id="as-add-collection" type="button">수집 시각 추가</button>
+        </fieldset>
+        <fieldset>
+          <legend>네트워크 중단 시간</legend>
+          <div id="as-blackout-rows" class="as-rows"></div>
+          <p id="as-blackout-empty" class="as-muted" hidden>내일 중단 시간 없음</p>
+          <p class="as-muted">종료가 시작보다 이르면 다음 날까지 중단합니다.</p>
+          <button id="as-add-blackout" type="button">중단 시간 추가</button>
+        </fieldset>
+        <div class="as-actions">
+          <button class="as-primary" type="submit">내일 일정 저장</button>
+          <button id="as-reset-schedule" type="button">기본 일정으로 되돌리기</button>
+        </div>
+        <p id="as-schedule-status" class="as-status" role="status" aria-live="polite"></p>
+      </form>
+      <form id="as-notification-form" class="as-notifications" autocomplete="off">
+        <h2>Telegram 알림</h2>
+        <p class="as-muted">모든 단계가 완료되거나 오류가 생기면 개인 대화로 알려드립니다.</p>
+        <label class="as-toggle" for="as-notifications-enabled"><input id="as-notifications-enabled" type="checkbox">완료·오류 알림 받기</label>
+        <p id="as-notification-configured" class="as-muted"></p>
+        <label class="as-field" for="as-bot-token">봇 토큰
+          <input id="as-bot-token" name="bot_token" type="password" autocomplete="new-password" spellcheck="false" autocapitalize="none" aria-describedby="as-token-note">
+        </label>
+        <p id="as-token-note" class="as-muted">새 토큰을 입력할 때만 변경됩니다. 비워 두면 기존 설정을 유지합니다.</p>
+        <label class="as-field" for="as-chat-id">개인 chat ID
+          <input id="as-chat-id" name="chat_id" type="text" inputmode="numeric" autocomplete="off" spellcheck="false" autocapitalize="none" aria-describedby="as-chat-note">
+        </label>
+        <p id="as-chat-note" class="as-muted">비워 두면 기존 수신자를 유지합니다.</p>
+        <button id="as-discover-recipient" type="button">수신처 찾기</button>
+        <details class="as-setup">
+          <summary>처음 연결하는 방법</summary>
+          <ol>
+            <li>Telegram의 <a href="https://t.me/BotFather" target="_blank" rel="noopener noreferrer">@BotFather</a>에서 <code>/newbot</code>으로 봇을 만들고 발급받은 토큰을 입력하세요.</li>
+            <li>만든 봇과 개인 대화를 열어 <code>/start</code>를 보낸 뒤 ‘수신처 찾기’를 누르세요. 본인의 chat ID를 직접 입력할 수도 있습니다.</li>
+            <li>알림 설정을 저장한 뒤 ‘테스트 알림 보내기’로 수신을 확인하세요.</li>
+          </ol>
+        </details>
+        <div class="as-actions">
+          <button class="as-primary" type="submit">알림 설정 저장</button>
+          <button id="as-test-notification" type="button">테스트 알림 보내기</button>
+        </div>
+        <p id="as-notification-status" class="as-status" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+    <noscript><p class="as-muted">설정을 변경하려면 JavaScript를 켜 주세요.</p></noscript>
+  </div>
+</details>
+<script id="automation-controls">
+(() => {
+  'use strict';
+  const root = document.getElementById('automation-settings');
+  if (!root || root.dataset.initialized) return;
+  root.dataset.initialized = 'true';
+  const find = id => root.querySelector('#' + id);
+  const scheduleForm = find('as-schedule-form');
+  const notificationForm = find('as-notification-form');
+  const publicMode = root.dataset.automationMode === 'public';
+  const port = Number(root.dataset.previewPort);
+  const bridgeOrigin = 'http://127.0.0.1:' + port;
+  const bridgeUrl = bridgeOrigin + '/automation/connect';
+  let bridge = null, channel = null, connected = false, connectionTimer = null, closeTimer = null;
+  const pending = new Map();
+  let current = null;
+  let loading = false;
+  let busy = false;
+  let rowNumber = 0;
+
+  function status(id, message, tone = '') {
+    const node = find(id);
+    node.textContent = message;
+    node.dataset.tone = tone;
+  }
+
+  async function request(path, payload) {
+    if (publicMode) {
+      if (!connected || !bridge || bridge.closed) throw new Error('‘이 맥북 연결’을 눌러 다시 연결해 주세요.');
+      const id = crypto.randomUUID();
+      return new Promise((resolve, reject) => {
+        const timer = setTimeout(() => {
+          pending.delete(id);
+          reject(new Error('응답을 기다리는 시간이 지났습니다. 저장 여부를 다시 불러와 확인해 주세요.'));
+        }, 30000);
+        pending.set(id, {resolve, reject, timer});
+        bridge.postMessage({type: 'news-automation-request', channel, id, path, payload}, bridgeOrigin);
+      });
+    }
+    const options = {method: payload === undefined ? 'GET' : 'POST', credentials: 'same-origin', cache: 'no-store'};
+    if (payload !== undefined) {
+      options.headers = {'Content-Type': 'application/json', 'X-Research-CSRF': current.csrf_token};
+      options.body = JSON.stringify(payload);
+    }
+    let response;
+    try {
+      response = await fetch('/api/automation/' + path, options);
+    } catch (_) {
+      throw new Error('로컬 서버에 연결하지 못했습니다. 연결 상태를 확인한 뒤 다시 시도해 주세요.');
+    }
+    let data;
+    try { data = await response.json(); }
+    catch (_) { throw new Error('서버 응답을 확인하지 못했습니다. 다시 시도해 주세요.'); }
+    if (!response.ok || data.error) throw new Error(data.error || '설정을 처리하지 못했습니다. 다시 시도해 주세요.');
+    return data;
+  }
+
+  function updateEmptyRows() {
+    find('as-collection-empty').hidden = !!find('as-collection-rows').children.length;
+    find('as-blackout-empty').hidden = !!find('as-blackout-rows').children.length;
+  }
+
+  function timeInput(value, labelText) {
+    const label = document.createElement('label');
+    const input = document.createElement('input');
+    input.type = 'time';
+    input.step = '60';
+    input.required = true;
+    input.value = value || '';
+    input.id = 'as-clock-' + (++rowNumber);
+    label.htmlFor = input.id;
+    label.append(document.createTextNode(labelText), input);
+    return {label, input};
+  }
+
+  function removeButton(row, description) {
+    const button = document.createElement('button');
+    button.type = 'button';
+    button.className = 'as-remove';
+    button.textContent = '삭제';
+    button.setAttribute('aria-label', description + ' 삭제');
+    button.addEventListener('click', () => {
+      const next = row.nextElementSibling || row.previousElementSibling;
+      const addId = row.parentElement.id === 'as-collection-rows' ? 'as-add-collection' : 'as-add-blackout';
+      row.remove();
+      updateEmptyRows();
+      (next ? next.querySelector('input') : find(addId)).focus();
+    });
+    return button;
+  }
+
+  function collectionRow(value, focus = false) {
+    const row = document.createElement('div');
+    row.className = 'as-row';
+    const clock = timeInput(value, '시각');
+    row.append(clock.label, removeButton(row, '보조수집 시각'));
+    find('as-collection-rows').append(row);
+    updateEmptyRows();
+    if (focus) clock.input.focus();
+  }
+
+  function blackoutRow(value = {}, focus = false) {
+    const row = document.createElement('div');
+    row.className = 'as-blackout-row';
+    const start = timeInput(value.start, '시작');
+    const end = timeInput(value.end, '종료');
+    start.input.dataset.clock = 'start';
+    end.input.dataset.clock = 'end';
+    row.append(start.label, end.label, removeButton(row, '네트워크 중단 시간'));
+    find('as-blackout-rows').append(row);
+    updateEmptyRows();
+    if (focus) start.input.focus();
+  }
+
+  function renderSchedule() {
+    const day = current.tomorrow;
+    find('as-date').textContent = day.date;
+    find('as-schedule-mode').textContent = day.is_override ? '내일만 변경됨' : '기본 일정';
+    find('as-run-time').value = day.run_time;
+    const target = find('as-completion-target');
+    target.hidden = !day.completion_target;
+    target.textContent = day.completion_target
+      ? '배포 목표 ' + day.completion_target + ' · 검증을 통과한 결과만 게시합니다.' : '';
+    find('as-collection-rows').replaceChildren();
+    find('as-blackout-rows').replaceChildren();
+    day.collection_times.forEach(value => collectionRow(value));
+    day.network_blackout.forEach(value => blackoutRow(value));
+    updateEmptyRows();
+    find('as-reset-schedule').disabled = busy || !day.is_override;
+  }
+
+  function renderNotifications() {
+    const notifications = current.notifications;
+    find('as-notifications-enabled').checked = !!notifications.enabled;
+    const token = notifications.token_configured ? '토큰 저장됨' : '토큰 미설정';
+    const recipient = notifications.recipient_configured
+      ? '수신자 ' + (notifications.chat_id_masked || '연결됨') : '수신자 미설정';
+    find('as-notification-configured').textContent = token + ' · ' + recipient;
+  }
+
+  function setBusy(value) {
+    busy = value;
+    root.querySelectorAll('form button,form input').forEach(node => { node.disabled = value; });
+    if (!value && current) find('as-reset-schedule').disabled = !current.tomorrow.is_override;
+    scheduleForm.setAttribute('aria-busy', String(value));
+    notificationForm.setAttribute('aria-busy', String(value));
+  }
+
+  async function refresh(section) {
+    const settings = await request('settings');
+    if (!settings.tomorrow || !settings.notifications || (!publicMode && !settings.csrf_token)) {
+      throw new Error('설정 정보를 확인하지 못했습니다. 다시 불러와 주세요.');
+    }
+    // Refresh only the saved section, preserving unsaved edits in the other form.
+    if (current && section === 'notifications') settings.tomorrow = current.tomorrow;
+    current = settings;
+    if (!section || section === 'schedule') renderSchedule();
+    if (!section || section === 'notifications') renderNotifications();
+  }
+
+  async function load() {
+    if (loading || busy) return;
+    if (publicMode && !connected) {
+      status('as-connection-status', '‘이 맥북 연결’을 누르면 현재 설정을 불러옵니다.');
+      return;
+    }
+    loading = true;
+    find('as-reload').hidden = true;
+    status('as-load-status', '설정을 불러오는 중…');
+    try {
+      await refresh();
+      find('as-forms').hidden = false;
+      find('as-load-status').hidden = true;
+    } catch (error) {
+      find('as-load-status').hidden = false;
+      status('as-load-status', error.message, 'error');
+      find('as-reload').hidden = false;
+    } finally { loading = false; }
+  }
+
+  async function save(path, payload, section, successMessage) {
+    if (busy || !current) return;
+    const statusId = section === 'schedule' ? 'as-schedule-status' : 'as-notification-status';
+    setBusy(true);
+    status(statusId, '저장 중…');
+    let saved = false;
+    try {
+      await request(path, payload);
+      saved = true;
+      if (section === 'notifications') {
+        find('as-bot-token').value = '';
+        find('as-chat-id').value = '';
+      }
+      await refresh(section);
+      status(statusId, successMessage, 'success');
+    } catch (error) {
+      status(statusId, saved ? '저장 요청은 처리됐지만 설정을 다시 확인하지 못했습니다. 페이지를 새로 열어 확인해 주세요.' : error.message, 'error');
+    } finally { setBusy(false); }
+  }
+
+  find('as-add-collection').addEventListener('click', () => collectionRow('', true));
+  find('as-add-blackout').addEventListener('click', () => blackoutRow({}, true));
+  find('as-reload').addEventListener('click', load);
+  root.addEventListener('toggle', () => { if (root.open && !current) load(); });
+
+  function disconnect(message = '연결이 해제되었습니다. 다시 연결할 수 있습니다.') {
+    connected = false;
+    clearTimeout(connectionTimer); clearInterval(closeTimer);
+    if (bridge && !bridge.closed) bridge.close();
+    bridge = null; channel = null; current = null;
+    for (const request of pending.values()) { clearTimeout(request.timer); request.reject(new Error('연결이 해제되었습니다. 저장 여부를 다시 불러와 확인해 주세요.')); }
+    pending.clear();
+    find('as-forms').hidden = true;
+    find('as-connect').disabled = false;
+    find('as-disconnect').hidden = true;
+    find('as-bot-token').value = ''; find('as-chat-id').value = '';
+    status('as-connection-status', message);
+  }
+
+  if (publicMode) {
+    find('as-connection').hidden = false;
+    find('as-connect').addEventListener('click', () => {
+      disconnect('이 맥북에 연결하는 중입니다.');
+      channel = crypto.randomUUID();
+      bridge = window.open(bridgeUrl + '#' + channel, '_blank', 'popup,width=480,height=360');
+      if (!bridge) { disconnect('연결 창을 열지 못했습니다. 브라우저의 팝업 허용을 확인해 주세요.'); return; }
+      find('as-connect').disabled = true;
+      status('as-connection-status', '연결 창을 확인하는 중입니다. 열린 창을 유지해 주세요.');
+      connectionTimer = setTimeout(() => disconnect('이 맥북에 연결하지 못했습니다. 뉴스 로컬 서비스가 켜져 있는지 확인한 뒤 다시 시도해 주세요.'), 15000);
+      closeTimer = setInterval(() => { if (bridge && bridge.closed) disconnect(); }, 1000);
+    });
+    find('as-disconnect').addEventListener('click', () => disconnect());
+    window.addEventListener('message', event => {
+      if (event.origin !== bridgeOrigin || event.source !== bridge || !channel) return;
+      const data = event.data;
+      if (!data || data.channel !== channel) return;
+      if (data.type === 'news-automation-ready') {
+        clearTimeout(connectionTimer); connected = true;
+        find('as-disconnect').hidden = false;
+        status('as-connection-status', '이 맥북에 연결됐습니다. 연결 창을 열어둔 채 아래에서 설정하세요.', 'success');
+        load();
+      } else if (data.type === 'news-automation-disconnected') {
+        disconnect();
+      } else if (data.type === 'news-automation-response' && pending.has(data.id)) {
+        const request = pending.get(data.id); clearTimeout(request.timer); pending.delete(data.id);
+        if (data.error) request.reject(new Error(data.error)); else request.resolve(data.result);
+      }
+    });
+    window.addEventListener('pagehide', () => disconnect());
+  }
+  if (location.hash === '#automation-settings') { root.open = true; load(); }
+
+  scheduleForm.addEventListener('submit', event => {
+    event.preventDefault();
+    if (!current || !scheduleForm.reportValidity()) return;
+    const collection = Array.from(find('as-collection-rows').querySelectorAll('input'), input => input.value);
+    const blackout = Array.from(find('as-blackout-rows').children, row => ({
+      start: row.querySelector('[data-clock=start]').value,
+      end: row.querySelector('[data-clock=end]').value
+    }));
+    save('schedule', {
+      date: current.tomorrow.date,
+      run_time: find('as-run-time').value,
+      collection_times: collection,
+      network_blackout: blackout,
+      expected_revision: current.tomorrow.revision
+    }, 'schedule', current.tomorrow.date + ' 일정이 저장되었습니다.');
+  });
+
+  find('as-reset-schedule').addEventListener('click', () => {
+    if (!current) return;
+    save('schedule/reset', {date: current.tomorrow.date, expected_revision: current.tomorrow.revision},
+      'schedule', current.tomorrow.date + ' 일정을 기본값으로 되돌렸습니다.');
+  });
+
+  notificationForm.addEventListener('submit', event => {
+    event.preventDefault();
+    save('notifications', {
+      enabled: find('as-notifications-enabled').checked,
+      bot_token: find('as-bot-token').value.trim(),
+      chat_id: find('as-chat-id').value.trim()
+    }, 'notifications', '알림 설정이 저장되었습니다.');
+  });
+
+  find('as-discover-recipient').addEventListener('click', async () => {
+    if (busy || !current) return;
+    const token = find('as-bot-token').value.trim();
+    if (!token && !current.notifications.token_configured) {
+      status('as-notification-status', '먼저 봇 토큰을 입력해 주세요.', 'error');
+      find('as-bot-token').focus();
+      return;
+    }
+    setBusy(true);
+    status('as-notification-status', '개인 대화 수신처를 확인하는 중…');
+    try {
+      const result = await request('notifications/discover', {bot_token: token});
+      const state = result.status || result.state;
+      if (state === 'found' && result.chat_id) {
+        find('as-chat-id').value = String(result.chat_id);
+        status('as-notification-status', '수신처를 찾았습니다. 알림 설정을 저장해 주세요.', 'success');
+      } else if (state === 'ambiguous') {
+        status('as-notification-status', '여러 개인 대화가 확인되었습니다. 사용할 개인 chat ID를 직접 입력해 주세요.', 'error');
+      } else if (state === 'not_found') {
+        status('as-notification-status', '만든 봇과의 개인 대화에 /start를 보낸 뒤 다시 찾아 주세요.');
+      } else if (['deferred', 'network_wait', 'retry_wait', 'retry_pending', 'busy'].includes(state)) {
+        status('as-notification-status', '지금은 수신처를 확인할 수 없습니다. 잠시 후 다시 시도해 주세요.');
+      } else {
+        status('as-notification-status', '수신처를 확인하지 못했습니다. 봇과의 개인 대화를 확인한 뒤 다시 찾아 주세요.', 'error');
+      }
+    } catch (error) { status('as-notification-status', error.message, 'error'); }
+    finally { setBusy(false); }
+  });
+
+  find('as-test-notification').addEventListener('click', async () => {
+    if (busy || !current) return;
+    if (find('as-bot-token').value || find('as-chat-id').value ||
+        find('as-notifications-enabled').checked !== !!current.notifications.enabled) {
+      status('as-notification-status', '입력한 알림 설정을 먼저 저장해 주세요.', 'error');
+      return;
+    }
+    setBusy(true);
+    status('as-notification-status', '테스트 알림 전송 확인 중…');
+    try {
+      const result = await request('notifications/test', {});
+      const state = result.test_status;
+      const delivery = result.status || result.state;
+      if (state === 'sent') {
+        status('as-notification-status', '테스트 알림을 보냈습니다. Telegram에서 수신을 확인해 주세요.', 'success');
+      } else if (state === 'unknown') {
+        status('as-notification-status', '테스트 알림의 전송 완료 여부가 불확실합니다. 자동으로 다시 보내지 않으므로 Telegram 대화를 확인해 주세요.', 'error');
+      } else if (delivery === 'disabled') {
+        status('as-notification-status', '‘완료·오류 알림 받기’를 켜고 설정을 저장해 주세요.', 'error');
+      } else if (delivery === 'not_configured' || delivery === 'action_required' || state === 'blocked') {
+        status('as-notification-status', '봇 토큰과 개인 수신처 설정을 확인해 주세요. 테스트 알림 전송이 완료되지 않았습니다.', 'error');
+      } else if (['queued', 'retry_pending'].includes(state) ||
+                 ['deferred', 'network_wait', 'retry_wait', 'retry_pending', 'busy'].includes(delivery)) {
+        status('as-notification-status', '테스트 알림이 전송 대기 중입니다. 아직 발송 완료가 확인되지 않았습니다.');
+      } else {
+        status('as-notification-status', '테스트 알림의 전송 완료 여부를 확인하지 못했습니다. Telegram 대화를 확인해 주세요.', 'error');
+      }
+    } catch (error) { status('as-notification-status', error.message, 'error'); }
+    finally { setBusy(false); }
+  });
+})();
+</script>
+
 </body>
 </html>
