@@ -1,9 +1,9 @@
 {
   "schema_version": "1",
-  "run_id": "6bfa1cddfe3ecd2777d26324",
+  "run_id": "70bc3d8a7bd77693e9b5e4f1",
   "report_date": "2026-09-18",
   "cutoff": "2026-09-18T23:46:57.172706+09:00",
-  "generated_at": "2026-09-19T04:07:00.876653+00:00",
+  "generated_at": "2026-09-19T20:11:12.515552+00:00",
   "mode": "reconstruction",
   "status": "partial",
   "language": "ko",
@@ -12,8 +12,8 @@
   "highlights": [
     "일본은행, 기준금리 1.25%로 인상…31년 만에 최고",
     "美 고용상황 괜찮다지만 주담대 금리는 7% 육박....주택시장 압박 심화",
-    "[경제 이슈] 미 연준, 물가 제동 걸기 위해 0.25퍼센트포인트 기준금리 인상…“연내 추가 인상 시사”",
-    "美기준금리 0.25%P 인상 발표…뉴욕증시 사흘째↓"
+    "美기준금리 0.25%P 인상 발표…뉴욕증시 사흘째↓",
+    "일본, 중앙은행의 물가안정 노력 속 31년 만의 최고 수준으로 금리 인상; 그레이트브리튼 소매판매 증가 – 비즈니스 라이브"
   ],
   "delivery_target": null,
   "generation_delayed": false,
@@ -27,8 +27,8 @@
       "section": "yesterday",
       "category": "economy",
       "summary": [
-        "연방공개시장위원회는 12대 0의 찬성으로 다음 성명의 발표를 승인했다:",
         "위원회는 연방준비제도의 이중 책무를 지원하기 위해 연방기금금리 목표 범위를 1/4%포인트 인상하여 3-3/4~4%로 설정하기로 결정했다.",
+        "연방공개시장위원회는 12대 0의 찬성으로 다음 성명의 발표를 승인했다:",
         "위원회는 은행 시스템에 충분한 준비금을 유지하는 정책을 계속하고 있다.",
         "경제 활동이 견조한 속도로 확장되고 있다."
       ],
@@ -2860,195 +2860,6 @@
       "korean_required": true
     },
     {
-      "id": "9fffd4e148331fb6975a4dae",
-      "anchor": "issue-8eb638fc137fda51",
-      "editorial_scope": "macro",
-      "event_type": "policy",
-      "title": "[경제 이슈] 미 연준, 물가 제동 걸기 위해 0.25퍼센트포인트 기준금리 인상…“연내 추가 인상 시사”",
-      "section": "investment",
-      "category": "research",
-      "summary": [
-        "(시사캐스트, SISACAST=송현아 기자) 17일 국제금융센터에 의하면, 미국 연방준비제도가 기준 금리를 0.25퍼센트포인트 인상하기로 결정했다. 12명 연준위원 만장일치로 0.25퍼센트포인트 기준 금리 인상에 의견을 모았다.",
-        "미 연준은 금번 정책 조치가 인플레이션이 2% 목표로 더 조속히 복귀하는 데 기여할 것이라는 입장을 표명하면서 물가안정 의지를 재차 강조했다.",
-        "인플레이션 평가를 “2% 목표에 비해 높은 수준을 유지”한다고 했던 것을 “높은 수준을 유지”로 수정하고, 부분적으로 공급충격을 반영한 결과라는 문구를 삭제했다.",
-        "미국 개인소비지출(PCE) 물가지수는 지난 6월 3.6%에서 9월 3.7%, 근원 PCE는 3.3%에서 3.4%로 상승했다."
-      ],
-      "change": "비교 가능한 과거 자료 없음 — 상향·하향·전망 변경 여부 미판정",
-      "claims": [
-        {
-          "id": "aee020bd666fa379acb098dd",
-          "text": "(시사캐스트, SISACAST=송현아 기자) 17일 국제금융센터에 의하면, 미국 연방준비제도가 기준 금리를 0.25퍼센트포인트 인상하기로 결정했다. 12명 연준위원 만장일치로 0.25퍼센트포인트 기준 금리 인상에 의견을 모았다.",
-          "kind": "fact",
-          "author": "시사캐스트",
-          "source_ids": [
-            "09ebf9ad4bc50cf0389aa388"
-          ],
-          "evidence": [
-            {
-              "source_id": "09ebf9ad4bc50cf0389aa388",
-              "source_version_id": "6e438af449982f9a2039e518",
-              "start": 0,
-              "end": 119,
-              "text": "(시사캐스트, SISACAST=송현아 기자) 17일 국제금융센터에 의하면, 미국 연방준비제도가 기준 금리를 0.25%p 인상하기로 결정했다. 12명 연준위원 만장일치로 0.25%p 기준 금리 인상에 의견을 모았다.",
-              "source_excerpt_truncated": false,
-              "excerpt_truncated": false,
-              "location": "본문",
-              "display_text": "(시사캐스트, SISACAST=송현아 기자) 17일 국제금융센터에 의하면, 미국 연방준비제도가 기준 금리를 0.25퍼센트포인트 인상하기로 결정했다. 12명 연준위원 만장일치로 0.25퍼센트포인트 기준 금리 인상에 의견을 모았다.",
-              "is_translation": true
-            }
-          ],
-          "rationale": "",
-          "conditions": "",
-          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
-          "validation": {
-            "semantic_support": "not_verified",
-            "human_review": "not_reviewed",
-            "status": "needs_review",
-            "source_linkage": "passed",
-            "content_check": "unverified_paraphrase",
-            "assertion_type": "observation"
-          },
-          "numbers": []
-        },
-        {
-          "id": "f56556e2a3d184f7edb0acf0",
-          "text": "미 연준은 금번 정책 조치가 인플레이션이 2% 목표로 더 조속히 복귀하는 데 기여할 것이라는 입장을 표명하면서 물가안정 의지를 재차 강조했다.",
-          "kind": "fact",
-          "author": "시사캐스트",
-          "source_ids": [
-            "09ebf9ad4bc50cf0389aa388"
-          ],
-          "evidence": [
-            {
-              "source_id": "09ebf9ad4bc50cf0389aa388",
-              "source_version_id": "6e438af449982f9a2039e518",
-              "start": 556,
-              "end": 635,
-              "text": "미 연준은 금번 정책 조치가 인플레이션이 2% 목표로 더 조속히 복귀하는 데 기여할 것이라는 입장을 표명하면서 물가안정 의지를 재차 강조했다.",
-              "source_excerpt_truncated": false,
-              "excerpt_truncated": false,
-              "location": "본문",
-              "display_text": "미 연준은 금번 정책 조치가 인플레이션이 2% 목표로 더 조속히 복귀하는 데 기여할 것이라는 입장을 표명하면서 물가안정 의지를 재차 강조했다.",
-              "is_translation": false
-            }
-          ],
-          "rationale": "",
-          "conditions": "",
-          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
-          "validation": {
-            "semantic_support": "source_quote_only",
-            "human_review": "not_reviewed",
-            "status": "source_checked",
-            "source_linkage": "passed",
-            "content_check": "exact_quote",
-            "assertion_type": "observation"
-          },
-          "numbers": []
-        },
-        {
-          "id": "1ff41bf3693925f9bab4cb68",
-          "text": "인플레이션 평가를 “2% 목표에 비해 높은 수준을 유지”한다고 했던 것을 “높은 수준을 유지”로 수정하고, 부분적으로 공급충격을 반영한 결과라는 문구를 삭제했다.",
-          "kind": "fact",
-          "author": "시사캐스트",
-          "source_ids": [
-            "09ebf9ad4bc50cf0389aa388"
-          ],
-          "evidence": [
-            {
-              "source_id": "09ebf9ad4bc50cf0389aa388",
-              "source_version_id": "6e438af449982f9a2039e518",
-              "start": 637,
-              "end": 727,
-              "text": "인플레이션 평가를 “2% 목표에 비해 높은 수준을 유지”한다고 했던 것을 “높은 수준을 유지”로 수정하고, 부분적으로 공급충격을 반영한 결과라는 문구를 삭제했다.",
-              "source_excerpt_truncated": false,
-              "excerpt_truncated": false,
-              "location": "본문",
-              "display_text": "인플레이션 평가를 “2% 목표에 비해 높은 수준을 유지”한다고 했던 것을 “높은 수준을 유지”로 수정하고, 부분적으로 공급충격을 반영한 결과라는 문구를 삭제했다.",
-              "is_translation": false
-            }
-          ],
-          "rationale": "",
-          "conditions": "",
-          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
-          "validation": {
-            "semantic_support": "source_quote_only",
-            "human_review": "not_reviewed",
-            "status": "source_checked",
-            "source_linkage": "passed",
-            "content_check": "exact_quote",
-            "assertion_type": "observation"
-          },
-          "numbers": []
-        },
-        {
-          "id": "8c8b4e47142ed5e806b7cda0",
-          "text": "미국 개인소비지출(PCE) 물가지수는 지난 6월 3.6%에서 9월 3.7%, 근원 PCE는 3.3%에서 3.4%로 상승했다.",
-          "kind": "fact",
-          "author": "시사캐스트",
-          "source_ids": [
-            "09ebf9ad4bc50cf0389aa388"
-          ],
-          "evidence": [
-            {
-              "source_id": "09ebf9ad4bc50cf0389aa388",
-              "source_version_id": "6e438af449982f9a2039e518",
-              "start": 729,
-              "end": 798,
-              "text": "미국 개인소비지출(PCE) 물가지수는 지난 6월 3.6%에서 9월 3.7%, 근원 PCE는 3.3%에서 3.4%로 상승했다.",
-              "source_excerpt_truncated": false,
-              "excerpt_truncated": false,
-              "location": "본문",
-              "display_text": "미국 개인소비지출(PCE) 물가지수는 지난 6월 3.6%에서 9월 3.7%, 근원 PCE는 3.3%에서 3.4%로 상승했다.",
-              "is_translation": false
-            }
-          ],
-          "rationale": "",
-          "conditions": "",
-          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
-          "validation": {
-            "semantic_support": "source_quote_only",
-            "human_review": "not_reviewed",
-            "status": "source_checked",
-            "source_linkage": "passed",
-            "content_check": "exact_quote",
-            "assertion_type": "observation"
-          },
-          "numbers": []
-        }
-      ],
-      "event_schedules": [],
-      "document_ids": [
-        "09ebf9ad4bc50cf0389aa388"
-      ],
-      "source_versions": [
-        "6e438af449982f9a2039e518"
-      ],
-      "entities": [],
-      "selection_reason": [
-        "수집 범위 내 독립 발행자 1개",
-        "자료 기준 경과 14.7시간",
-        "이전 입력 대비 신규 문서",
-        "수치가 명시된 거시 지표 발표 또는 확정된 통화·무역 정책 변경"
-      ],
-      "follow_up": [
-        "원문과 기간·단위·작성 주체를 확인하고 해석을 검토하세요."
-      ],
-      "confidence": "source_checked",
-      "related_issue_id": null,
-      "late_discovered": false,
-      "analysis_provider": "extractive",
-      "model_status": "not_needed_source_korean",
-      "analysis_label": "한국어 번역 · 수치·출처 자동 대조",
-      "evidence_expired": false,
-      "evidence_partially_expired": false,
-      "has_full_text": true,
-      "has_message_text": false,
-      "prior_day_follow_up": false,
-      "original_title": "[경제 이슈] 미 연준, 물가 제동 걸기 위해 0.25%p 기준금리 인상…“연내 추가 인상 시사”",
-      "source_title_ko": "[경제 이슈] 미 연준, 물가 제동 걸기 위해 0.25퍼센트포인트 기준금리 인상…“연내 추가 인상 시사”",
-      "korean_required": true
-    },
-    {
       "id": "fcfb378363be60c985f9ebf2",
       "anchor": "issue-1615990082b3abdc",
       "editorial_scope": "macro",
@@ -3057,8 +2868,8 @@
       "section": "investment",
       "category": "research",
       "summary": [
-        "미국 연방준비제도(Fed)가 16일(현지시간) 기준금리를 0.25%P 올린다고 발표하자, 뉴욕증시 3대 지수가 사흘 연속 동반 하락했다. 연준이 금리를 올린 것은 지난 2023년 7월 이후 3년만이다.",
         "이날 다우존스30산업평균지수는 전 거래일 대비 1.21% 내렸고, S&P500지수는 0.45% 하락했다. 나스닥종합지수는 0.01% 내리는 데 그쳐 사실상 보합 수준까지 낙폭을 줄였다.",
+        "미국 연방준비제도(Fed)가 16일(현지시간) 기준금리를 0.25%P 올린다고 발표하자, 뉴욕증시 3대 지수가 사흘 연속 동반 하락했다. 연준이 금리를 올린 것은 지난 2023년 7월 이후 3년만이다.",
         "필라델피아반도체지수는 0.63% 상승했다. 인텔이 SK하이닉스와 반도체 공동 개발을 타진하고 있다는 소식이 전해지면서 인텔 주가가 4% 오른 것이 지수를 끌어올렸다.",
         "미 국채 10년물 금리는 전 거래일 오후 3시 기준가 대비 0.70bp 상승한 5.0030%로 마감했다. 10년물과 2년물 금리 차이는 27.60bp로 축소되며 베어 플래트닝이 나타났다."
       ],
@@ -3235,386 +3046,6 @@
       "prior_day_follow_up": false,
       "original_title": "美기준금리 0.25%P 인상 발표…뉴욕증시 사흘째↓",
       "source_title_ko": "美기준금리 0.25%P 인상 발표…뉴욕증시 사흘째↓",
-      "korean_required": true
-    },
-    {
-      "id": "38251853b09e505555a468c1",
-      "anchor": "issue-622e4c97421b45cd",
-      "editorial_scope": "macro",
-      "event_type": "policy",
-      "title": "[국제금융리포트] 美 기준금리 0.25퍼센트포인트 인상…달러 뛰고 증시는 하락 | 아주경제",
-      "section": "investment",
-      "category": "research",
-      "summary": [
-        "17일 국제금융센터에 따르면 연준은 9월 연방공개시장위원회(FOMC)에서 연방기금금리 목표 범위를 기존보다 0.25%포인트 높인 연 3.75~4.00%로 결정했다. 연준은 지정학적 요인으로 일부 불확실성이 있지만 미국 경제가 견조한 속도로 확장되고 있는 반면 인플레이션은 여전히 높은 수준이라고 금리 인상 배경을 설명했다.",
-        "연준 위원들의 금리 전망을 담은 점도표에서 올해 말 기준금리 중간값은 기존 3.8%에서 4.1%로 0.3%포인트 상향됐다. 전체 위원 18명 가운데 12명은 연말 금리를 4.00~4.25%로 예상했다.",
-        "16일(현지시간) 미국 10년 만기 국채금리는 2bp(1bp=0.01%포인트) 오른 연 5.02%를 기록했다.",
-        "반면 유럽 Stoxx600지수는 유가 하락에 따른 고물가 우려 완화 영향으로 0.46% 상승했다. 일본 닛케이225지수도 0.69%, 코스피는 1.37% 올랐다."
-      ],
-      "change": "비교 가능한 과거 자료 없음 — 상향·하향·전망 변경 여부 미판정",
-      "claims": [
-        {
-          "id": "6b28c45412996bd73023f6c3",
-          "text": "17일 국제금융센터에 따르면 연준은 9월 연방공개시장위원회(FOMC)에서 연방기금금리 목표 범위를 기존보다 0.25%포인트 높인 연 3.75~4.00%로 결정했다. 연준은 지정학적 요인으로 일부 불확실성이 있지만 미국 경제가 견조한 속도로 확장되고 있는 반면 인플레이션은 여전히 높은 수준이라고 금리 인상 배경을 설명했다.",
-          "kind": "fact",
-          "author": "김윤섭",
-          "source_ids": [
-            "53ff4ca40bc888b601356a4f"
-          ],
-          "evidence": [
-            {
-              "source_id": "53ff4ca40bc888b601356a4f",
-              "source_version_id": "89e8a6c9076871c7b3655dee",
-              "start": 163,
-              "end": 343,
-              "text": "17일 국제금융센터에 따르면 연준은 9월 연방공개시장위원회(FOMC)에서 연방기금금리 목표 범위를 기존보다 0.25%포인트 높인 연 3.75~4.00%로 결정했다. 연준은 지정학적 요인으로 일부 불확실성이 있지만 미국 경제가 견조한 속도로 확장되고 있는 반면 인플레이션은 여전히 높은 수준이라고 금리 인상 배경을 설명했다.",
-              "source_excerpt_truncated": false,
-              "excerpt_truncated": false,
-              "location": "본문",
-              "display_text": "17일 국제금융센터에 따르면 연준은 9월 연방공개시장위원회(FOMC)에서 연방기금금리 목표 범위를 기존보다 0.25%포인트 높인 연 3.75~4.00%로 결정했다. 연준은 지정학적 요인으로 일부 불확실성이 있지만 미국 경제가 견조한 속도로 확장되고 있는 반면 인플레이션은 여전히 높은 수준이라고 금리 인상 배경을 설명했다.",
-              "is_translation": false
-            }
-          ],
-          "rationale": "",
-          "conditions": "",
-          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
-          "validation": {
-            "semantic_support": "source_quote_only",
-            "human_review": "not_reviewed",
-            "status": "source_checked",
-            "source_linkage": "passed",
-            "content_check": "exact_quote",
-            "assertion_type": "observation"
-          },
-          "numbers": []
-        },
-        {
-          "id": "b5657684ffdd3faf8e6540dd",
-          "text": "연준 위원들의 금리 전망을 담은 점도표에서 올해 말 기준금리 중간값은 기존 3.8%에서 4.1%로 0.3%포인트 상향됐다. 전체 위원 18명 가운데 12명은 연말 금리를 4.00~4.25%로 예상했다.",
-          "kind": "author_opinion",
-          "author": "김윤섭",
-          "source_ids": [
-            "53ff4ca40bc888b601356a4f"
-          ],
-          "evidence": [
-            {
-              "source_id": "53ff4ca40bc888b601356a4f",
-              "source_version_id": "89e8a6c9076871c7b3655dee",
-              "start": 361,
-              "end": 473,
-              "text": "연준 위원들의 금리 전망을 담은 점도표에서 올해 말 기준금리 중간값은 기존 3.8%에서 4.1%로 0.3%포인트 상향됐다. 전체 위원 18명 가운데 12명은 연말 금리를 4.00~4.25%로 예상했다.",
-              "source_excerpt_truncated": false,
-              "excerpt_truncated": false,
-              "location": "본문",
-              "display_text": "연준 위원들의 금리 전망을 담은 점도표에서 올해 말 기준금리 중간값은 기존 3.8%에서 4.1%로 0.3%포인트 상향됐다. 전체 위원 18명 가운데 12명은 연말 금리를 4.00~4.25%로 예상했다.",
-              "is_translation": false
-            }
-          ],
-          "rationale": "",
-          "conditions": "",
-          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
-          "validation": {
-            "semantic_support": "source_quote_only",
-            "human_review": "not_reviewed",
-            "status": "source_checked",
-            "source_linkage": "passed",
-            "content_check": "exact_quote",
-            "assertion_type": "forecast"
-          },
-          "numbers": []
-        },
-        {
-          "id": "68a3a8e397a7136438330076",
-          "text": "16일(현지시간) 미국 10년 만기 국채금리는 2bp(1bp=0.01%포인트) 오른 연 5.02%를 기록했다.",
-          "kind": "fact",
-          "author": "김윤섭",
-          "source_ids": [
-            "53ff4ca40bc888b601356a4f"
-          ],
-          "evidence": [
-            {
-              "source_id": "53ff4ca40bc888b601356a4f",
-              "source_version_id": "89e8a6c9076871c7b3655dee",
-              "start": 567,
-              "end": 628,
-              "text": "16일(현지시간) 미국 10년 만기 국채금리는 2bp(1bp=0.01%포인트) 오른 연 5.02%를 기록했다.",
-              "source_excerpt_truncated": false,
-              "excerpt_truncated": false,
-              "location": "본문",
-              "display_text": "16일(현지시간) 미국 10년 만기 국채금리는 2bp(1bp=0.01%포인트) 오른 연 5.02%를 기록했다.",
-              "is_translation": false
-            }
-          ],
-          "rationale": "",
-          "conditions": "",
-          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
-          "validation": {
-            "semantic_support": "source_quote_only",
-            "human_review": "not_reviewed",
-            "status": "source_checked",
-            "source_linkage": "passed",
-            "content_check": "exact_quote",
-            "assertion_type": "observation"
-          },
-          "numbers": []
-        },
-        {
-          "id": "932dbcaa057c88224965b717",
-          "text": "반면 유럽 Stoxx600지수는 유가 하락에 따른 고물가 우려 완화 영향으로 0.46% 상승했다. 일본 닛케이225지수도 0.69%, 코스피는 1.37% 올랐다.",
-          "kind": "fact",
-          "author": "김윤섭",
-          "source_ids": [
-            "53ff4ca40bc888b601356a4f"
-          ],
-          "evidence": [
-            {
-              "source_id": "53ff4ca40bc888b601356a4f",
-              "source_version_id": "89e8a6c9076871c7b3655dee",
-              "start": 830,
-              "end": 920,
-              "text": "반면 유럽 Stoxx600지수는 유가 하락에 따른 고물가 우려 완화 영향으로 0.46% 상승했다. 일본 닛케이225지수도 0.69%, 코스피는 1.37% 올랐다.",
-              "source_excerpt_truncated": false,
-              "excerpt_truncated": false,
-              "location": "본문",
-              "display_text": "반면 유럽 Stoxx600지수는 유가 하락에 따른 고물가 우려 완화 영향으로 0.46% 상승했다. 일본 닛케이225지수도 0.69%, 코스피는 1.37% 올랐다.",
-              "is_translation": false
-            }
-          ],
-          "rationale": "",
-          "conditions": "",
-          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
-          "validation": {
-            "semantic_support": "source_quote_only",
-            "human_review": "not_reviewed",
-            "status": "source_checked",
-            "source_linkage": "passed",
-            "content_check": "exact_quote",
-            "assertion_type": "observation"
-          },
-          "numbers": []
-        }
-      ],
-      "event_schedules": [],
-      "document_ids": [
-        "53ff4ca40bc888b601356a4f"
-      ],
-      "source_versions": [
-        "89e8a6c9076871c7b3655dee"
-      ],
-      "entities": [],
-      "selection_reason": [
-        "수집 범위 내 독립 발행자 1개",
-        "자료 기준 경과 38.6시간",
-        "이전 입력 대비 신규 문서",
-        "수치가 명시된 거시 지표 발표 또는 확정된 통화·무역 정책 변경"
-      ],
-      "follow_up": [
-        "원문과 기간·단위·작성 주체를 확인하고 해석을 검토하세요."
-      ],
-      "confidence": "source_checked",
-      "related_issue_id": null,
-      "late_discovered": false,
-      "analysis_provider": "extractive",
-      "model_status": "not_needed_source_korean",
-      "analysis_label": "한국어 원문에서 핵심 문장 선별",
-      "evidence_expired": false,
-      "evidence_partially_expired": false,
-      "has_full_text": true,
-      "has_message_text": false,
-      "prior_day_follow_up": false,
-      "original_title": "[국제금융리포트] 美 기준금리 0.25%p 인상…달러 뛰고 증시는 하락 | 아주경제",
-      "source_title_ko": "[국제금융리포트] 美 기준금리 0.25퍼센트포인트 인상…달러 뛰고 증시는 하락 | 아주경제",
-      "korean_required": true
-    },
-    {
-      "id": "84b3ec5b1dff7cd821e43702",
-      "anchor": "issue-f50c46eae0b95d1a",
-      "editorial_scope": "macro",
-      "event_type": "policy",
-      "title": "'물가 압박'에 기준금리 0.25퍼센트포인트↑…추가 인상 시사",
-      "section": "investment",
-      "category": "research",
-      "summary": [
-        "<앵커> 조금 전 미국 중앙은행 연준이 기준 금리를 0.25퍼센트포인트 올리면서 3년 2개월 만에 인상 기조로 돌아섰습니다. 19명의 연방공개시장위원회 위원 가운데 16명이 연말에는 금리가 지금보다 높을 거라고 예상했기 때문에 올해 안에 또 올릴 가능성이 큽니다.",
-        "<기자> 미국 중앙은행 연방준비제도가 시장 예상대로 기준 금리를 0.25퍼센트포인트 올렸습니다. 연준은 오늘(17일) 회의에서 만장일치로 기준금리를 3.75~4% 사이로 결정했다고 밝혔습니다.",
-        "올 들어 5차례 연속 금리를 동결한 연준은 케빈 워시 연준 의장 취임 이후 처음이자 약 3년 만에 금리 인상 카드를 꺼냈습니다. 워시 의장은 미국 경제 성장률과 실업률은 탄탄하지만, 인플레이션이 문제라며 물가 안정이 최우선이라고 금리 인상의 배경을 설명했습니다.",
-        "미국의 금리 인상으로 한국과 금리 차이는 1퍼센트포인트로 벌어졌습니다. 평소 금리 인하를 압박해왔던 트럼프 대통령은 SNS를 통해 금리를 서둘러 낮춰야 한다며, 자신이 임명한 케빈 워시 의장의 결정을 비판했습니다."
-      ],
-      "change": "비교 가능한 과거 자료 없음 — 상향·하향·전망 변경 여부 미판정",
-      "claims": [
-        {
-          "id": "99a91286a0abf4a1d6aa0eda",
-          "text": "<앵커> 조금 전 미국 중앙은행 연준이 기준 금리를 0.25퍼센트포인트 올리면서 3년 2개월 만에 인상 기조로 돌아섰습니다. 19명의 연방공개시장위원회 위원 가운데 16명이 연말에는 금리가 지금보다 높을 거라고 예상했기 때문에 올해 안에 또 올릴 가능성이 큽니다.",
-          "kind": "author_opinion",
-          "author": "김현우",
-          "source_ids": [
-            "cf8e9544454f53b3f4442b55"
-          ],
-          "evidence": [
-            {
-              "source_id": "cf8e9544454f53b3f4442b55",
-              "source_version_id": "bca0d227349c1e73eae33516",
-              "start": 0,
-              "end": 138,
-              "text": "<앵커> 조금 전 미국 중앙은행 연준이 기준 금리를 0.25%p 올리면서 3년 2개월 만에 인상 기조로 돌아섰습니다. 19명의 FOMC 위원 가운데 16명이 연말에는 금리가 지금보다 높을 거라고 예상했기 때문에 올해 안에 또 올릴 가능성이 큽니다.",
-              "source_excerpt_truncated": false,
-              "excerpt_truncated": false,
-              "location": "본문",
-              "display_text": "<앵커> 조금 전 미국 중앙은행 연준이 기준 금리를 0.25퍼센트포인트 올리면서 3년 2개월 만에 인상 기조로 돌아섰습니다. 19명의 연방공개시장위원회 위원 가운데 16명이 연말에는 금리가 지금보다 높을 거라고 예상했기 때문에 올해 안에 또 올릴 가능성이 큽니다.",
-              "is_translation": true
-            }
-          ],
-          "rationale": "",
-          "conditions": "",
-          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
-          "validation": {
-            "semantic_support": "not_verified",
-            "human_review": "not_reviewed",
-            "status": "needs_review",
-            "source_linkage": "passed",
-            "content_check": "unverified_paraphrase",
-            "assertion_type": "forecast"
-          },
-          "numbers": []
-        },
-        {
-          "id": "59ff56544fe80cdc8ac8bf86",
-          "text": "<기자> 미국 중앙은행 연방준비제도가 시장 예상대로 기준 금리를 0.25퍼센트포인트 올렸습니다. 연준은 오늘(17일) 회의에서 만장일치로 기준금리를 3.75~4% 사이로 결정했다고 밝혔습니다.",
-          "kind": "author_opinion",
-          "author": "김현우",
-          "source_ids": [
-            "cf8e9544454f53b3f4442b55"
-          ],
-          "evidence": [
-            {
-              "source_id": "cf8e9544454f53b3f4442b55",
-              "source_version_id": "bca0d227349c1e73eae33516",
-              "start": 156,
-              "end": 259,
-              "text": "<기자> 미국 중앙은행 연방준비제도가 시장 예상대로 기준 금리를 0.25%p 올렸습니다. 연준은 오늘(17일) 회의에서 만장일치로 기준금리를 3.75~4% 사이로 결정했다고 밝혔습니다.",
-              "source_excerpt_truncated": false,
-              "excerpt_truncated": false,
-              "location": "본문",
-              "display_text": "<기자> 미국 중앙은행 연방준비제도가 시장 예상대로 기준 금리를 0.25퍼센트포인트 올렸습니다. 연준은 오늘(17일) 회의에서 만장일치로 기준금리를 3.75~4% 사이로 결정했다고 밝혔습니다.",
-              "is_translation": true
-            }
-          ],
-          "rationale": "",
-          "conditions": "",
-          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
-          "validation": {
-            "semantic_support": "not_verified",
-            "human_review": "not_reviewed",
-            "status": "needs_review",
-            "source_linkage": "passed",
-            "content_check": "unverified_paraphrase",
-            "assertion_type": "forecast"
-          },
-          "numbers": []
-        },
-        {
-          "id": "257f62f40f4a3488b5a3637a",
-          "text": "올 들어 5차례 연속 금리를 동결한 연준은 케빈 워시 연준 의장 취임 이후 처음이자 약 3년 만에 금리 인상 카드를 꺼냈습니다. 워시 의장은 미국 경제 성장률과 실업률은 탄탄하지만, 인플레이션이 문제라며 물가 안정이 최우선이라고 금리 인상의 배경을 설명했습니다.",
-          "kind": "fact",
-          "author": "김현우",
-          "source_ids": [
-            "cf8e9544454f53b3f4442b55"
-          ],
-          "evidence": [
-            {
-              "source_id": "cf8e9544454f53b3f4442b55",
-              "source_version_id": "bca0d227349c1e73eae33516",
-              "start": 260,
-              "end": 406,
-              "text": "올 들어 5차례 연속 금리를 동결한 연준은 케빈 워시 연준 의장 취임 이후 처음이자 약 3년 만에 금리 인상 카드를 꺼냈습니다. 워시 의장은 미국 경제 성장률과 실업률은 탄탄하지만, 인플레이션이 문제라며 물가 안정이 최우선이라고 금리 인상의 배경을 설명했습니다.",
-              "source_excerpt_truncated": false,
-              "excerpt_truncated": false,
-              "location": "본문",
-              "display_text": "올 들어 5차례 연속 금리를 동결한 연준은 케빈 워시 연준 의장 취임 이후 처음이자 약 3년 만에 금리 인상 카드를 꺼냈습니다. 워시 의장은 미국 경제 성장률과 실업률은 탄탄하지만, 인플레이션이 문제라며 물가 안정이 최우선이라고 금리 인상의 배경을 설명했습니다.",
-              "is_translation": false
-            }
-          ],
-          "rationale": "",
-          "conditions": "",
-          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
-          "validation": {
-            "semantic_support": "source_quote_only",
-            "human_review": "not_reviewed",
-            "status": "source_checked",
-            "source_linkage": "passed",
-            "content_check": "exact_quote",
-            "assertion_type": "observation"
-          },
-          "numbers": []
-        },
-        {
-          "id": "12c901a09d975edd542e7a04",
-          "text": "미국의 금리 인상으로 한국과 금리 차이는 1퍼센트포인트로 벌어졌습니다. 평소 금리 인하를 압박해왔던 트럼프 대통령은 SNS를 통해 금리를 서둘러 낮춰야 한다며, 자신이 임명한 케빈 워시 의장의 결정을 비판했습니다.",
-          "kind": "fact",
-          "author": "김현우",
-          "source_ids": [
-            "cf8e9544454f53b3f4442b55"
-          ],
-          "evidence": [
-            {
-              "source_id": "cf8e9544454f53b3f4442b55",
-              "source_version_id": "bca0d227349c1e73eae33516",
-              "start": 599,
-              "end": 714,
-              "text": "미국의 금리 인상으로 한국과 금리 차이는 1%p로 벌어졌습니다. 평소 금리 인하를 압박해왔던 트럼프 대통령은 SNS를 통해 금리를 서둘러 낮춰야 한다며, 자신이 임명한 케빈 워시 의장의 결정을 비판했습니다.",
-              "source_excerpt_truncated": false,
-              "excerpt_truncated": false,
-              "location": "본문",
-              "display_text": "미국의 금리 인상으로 한국과 금리 차이는 1퍼센트포인트로 벌어졌습니다. 평소 금리 인하를 압박해왔던 트럼프 대통령은 SNS를 통해 금리를 서둘러 낮춰야 한다며, 자신이 임명한 케빈 워시 의장의 결정을 비판했습니다.",
-              "is_translation": true
-            }
-          ],
-          "rationale": "",
-          "conditions": "",
-          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
-          "validation": {
-            "semantic_support": "not_verified",
-            "human_review": "not_reviewed",
-            "status": "needs_review",
-            "source_linkage": "passed",
-            "content_check": "unverified_paraphrase",
-            "assertion_type": "observation"
-          },
-          "numbers": []
-        }
-      ],
-      "event_schedules": [],
-      "document_ids": [
-        "cf8e9544454f53b3f4442b55",
-        "2e3a07eafefa6bce5fee57ec"
-      ],
-      "source_versions": [
-        "bca0d227349c1e73eae33516",
-        "115a59f462427f4ba98cb51a"
-      ],
-      "entities": [],
-      "selection_reason": [
-        "수집 범위 내 독립 발행자 1개",
-        "자료 기준 경과 40.2시간",
-        "이전 입력 대비 신규 문서",
-        "수치가 명시된 거시 지표 발표 또는 확정된 통화·무역 정책 변경"
-      ],
-      "follow_up": [
-        "원문과 기간·단위·작성 주체를 확인하고 해석을 검토하세요."
-      ],
-      "confidence": "source_checked",
-      "related_issue_id": null,
-      "late_discovered": false,
-      "analysis_provider": "extractive",
-      "model_status": "not_needed_source_korean",
-      "analysis_label": "한국어 번역 · 수치·출처 자동 대조",
-      "evidence_expired": false,
-      "evidence_partially_expired": false,
-      "has_full_text": true,
-      "has_message_text": false,
-      "prior_day_follow_up": false,
-      "original_title": "'물가 압박'에 기준금리 0.25%p↑…추가 인상 시사",
-      "source_title_ko": "'물가 압박'에 기준금리 0.25퍼센트포인트↑…추가 인상 시사",
       "korean_required": true
     },
     {
@@ -4216,7 +3647,7 @@
         "수집 범위 내 독립 발행자 1개",
         "자료 기준 경과 6.5시간",
         "이전 입력 대비 신규 문서",
-        "수치가 명시된 전망 변경; 관측 사실과 구분"
+        "발언 주체·시점·대상 기간과 수량 근거가 확인된 기업의 미래 물량 전망"
       ],
       "follow_up": [
         "원문과 기간·단위·작성 주체를 확인하고 해석을 검토하세요."
@@ -5524,6 +4955,573 @@
       "korean_required": true
     },
     {
+      "id": "87c6502876fcbe6c11275884",
+      "anchor": "issue-02d4476ec5eb75e9",
+      "editorial_scope": "industry",
+      "event_type": "industry_regulation",
+      "title": "모잠비크, 코랄 FLNG 프로젝트 자금 조달 구조 승인…가스공사·삼성중공업 '안도'",
+      "section": "investment",
+      "category": "research",
+      "summary": [
+        "모잠비크의 코랄 노르테(Coral Norte) 부유식 액화천연가스(FLNG) 프로젝트에 참여하고 있는 모잠비크 국영 탄화수소공사(ENH)가 자회사(SPV)를 통한 리스크 분리 방식으로 프로젝트 자금을 조달한다.",
+        "복잡한 금융 구조를 가진 대규모 프로젝트에서 모회사인 ENH가 직접 위험을 부담하지 않도록 투자 리스크를 격리시키기 위함이다.",
+        "18일 모잠비크 국영 뉴스 통신사 아임뉴스(aimnews)에 따르면 모잠비크 정부는 북부 카보델가도(Cabo Delgado) 주 해안 로부마 분지(Rovuma Basin)의 '4광구(Area 4)'에 위치한 코랄 노르테(Coral Norte) FLNG 프로젝트의 자금 조달 구조를 승인했다.",
+        "모잠비크 정부는 프로젝트를 대표하는 국영 기업 ENH가 직접 참여하는 대신 유한회사 형태의 자회사인 'ENH 로부마 4광구(Rovuma Área 4)'를 통해 프로젝트 자금 조달 및 투자에 참여하도록 했다."
+      ],
+      "change": "비교 가능한 과거 자료 없음 — 상향·하향·전망 변경 여부 미판정",
+      "claims": [
+        {
+          "id": "6edd630cadf161a8857366a4",
+          "text": "모잠비크의 코랄 노르테(Coral Norte) 부유식 액화천연가스(FLNG) 프로젝트에 참여하고 있는 모잠비크 국영 탄화수소공사(ENH)가 자회사(SPV)를 통한 리스크 분리 방식으로 프로젝트 자금을 조달한다.",
+          "kind": "fact",
+          "author": "길소연 기자",
+          "source_ids": [
+            "82f26beff9c431efc8962f43"
+          ],
+          "evidence": [
+            {
+              "source_id": "82f26beff9c431efc8962f43",
+              "source_version_id": "bc12d9e13db9df13036469c6",
+              "start": 15,
+              "end": 132,
+              "text": "모잠비크의 코랄 노르테(Coral Norte) 부유식 액화천연가스(FLNG) 프로젝트에 참여하고 있는 모잠비크 국영 탄화수소공사(ENH)가 자회사(SPV)를 통한 리스크 분리 방식으로 프로젝트 자금을 조달한다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "모잠비크의 코랄 노르테(Coral Norte) 부유식 액화천연가스(FLNG) 프로젝트에 참여하고 있는 모잠비크 국영 탄화수소공사(ENH)가 자회사(SPV)를 통한 리스크 분리 방식으로 프로젝트 자금을 조달한다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "49020d8499ac7fec297212f3",
+          "text": "복잡한 금융 구조를 가진 대규모 프로젝트에서 모회사인 ENH가 직접 위험을 부담하지 않도록 투자 리스크를 격리시키기 위함이다.",
+          "kind": "fact",
+          "author": "길소연 기자",
+          "source_ids": [
+            "82f26beff9c431efc8962f43"
+          ],
+          "evidence": [
+            {
+              "source_id": "82f26beff9c431efc8962f43",
+              "source_version_id": "bc12d9e13db9df13036469c6",
+              "start": 133,
+              "end": 203,
+              "text": "복잡한 금융 구조를 가진 대규모 프로젝트에서 모회사인 ENH가 직접 위험을 부담하지 않도록 투자 리스크를 격리시키기 위함이다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "복잡한 금융 구조를 가진 대규모 프로젝트에서 모회사인 ENH가 직접 위험을 부담하지 않도록 투자 리스크를 격리시키기 위함이다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "b4ea91d37f298f742e70aa2c",
+          "text": "18일 모잠비크 국영 뉴스 통신사 아임뉴스(aimnews)에 따르면 모잠비크 정부는 북부 카보델가도(Cabo Delgado) 주 해안 로부마 분지(Rovuma Basin)의 '4광구(Area 4)'에 위치한 코랄 노르테(Coral Norte) FLNG 프로젝트의 자금 조달 구조를 승인했다.",
+          "kind": "fact",
+          "author": "길소연 기자",
+          "source_ids": [
+            "82f26beff9c431efc8962f43"
+          ],
+          "evidence": [
+            {
+              "source_id": "82f26beff9c431efc8962f43",
+              "source_version_id": "bc12d9e13db9df13036469c6",
+              "start": 207,
+              "end": 369,
+              "text": "18일 모잠비크 국영 뉴스 통신사 아임뉴스(aimnews)에 따르면 모잠비크 정부는 북부 카보델가도(Cabo Delgado) 주 해안 로부마 분지(Rovuma Basin)의 '4광구(Area 4)'에 위치한 코랄 노르테(Coral Norte) FLNG 프로젝트의 자금 조달 구조를 승인했다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "18일 모잠비크 국영 뉴스 통신사 아임뉴스(aimnews)에 따르면 모잠비크 정부는 북부 카보델가도(Cabo Delgado) 주 해안 로부마 분지(Rovuma Basin)의 '4광구(Area 4)'에 위치한 코랄 노르테(Coral Norte) FLNG 프로젝트의 자금 조달 구조를 승인했다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "3eb5b5bbad330c6c3cd186b2",
+          "text": "모잠비크 정부는 프로젝트를 대표하는 국영 기업 ENH가 직접 참여하는 대신 유한회사 형태의 자회사인 'ENH 로부마 4광구(Rovuma Área 4)'를 통해 프로젝트 자금 조달 및 투자에 참여하도록 했다.",
+          "kind": "fact",
+          "author": "길소연 기자",
+          "source_ids": [
+            "82f26beff9c431efc8962f43"
+          ],
+          "evidence": [
+            {
+              "source_id": "82f26beff9c431efc8962f43",
+              "source_version_id": "bc12d9e13db9df13036469c6",
+              "start": 373,
+              "end": 488,
+              "text": "모잠비크 정부는 프로젝트를 대표하는 국영 기업 ENH가 직접 참여하는 대신 유한회사 형태의 자회사인 'ENH 로부마 4광구(Rovuma Área 4)'를 통해 프로젝트 자금 조달 및 투자에 참여하도록 했다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "모잠비크 정부는 프로젝트를 대표하는 국영 기업 ENH가 직접 참여하는 대신 유한회사 형태의 자회사인 'ENH 로부마 4광구(Rovuma Área 4)'를 통해 프로젝트 자금 조달 및 투자에 참여하도록 했다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        }
+      ],
+      "event_schedules": [],
+      "document_ids": [
+        "82f26beff9c431efc8962f43"
+      ],
+      "source_versions": [
+        "bc12d9e13db9df13036469c6"
+      ],
+      "entities": [],
+      "selection_reason": [
+        "수집 범위 내 독립 발행자 1개",
+        "자료 기준 경과 13.2시간",
+        "이전 입력 대비 신규 문서",
+        "기업·금융에 직접 연결되는 제도·감독 변경"
+      ],
+      "follow_up": [
+        "원문과 기간·단위·작성 주체를 확인하고 해석을 검토하세요."
+      ],
+      "confidence": "source_checked",
+      "related_issue_id": null,
+      "late_discovered": false,
+      "analysis_provider": "extractive",
+      "model_status": "not_needed_source_korean",
+      "analysis_label": "한국어 원문에서 핵심 문장 선별",
+      "evidence_expired": false,
+      "evidence_partially_expired": false,
+      "has_full_text": true,
+      "has_message_text": false,
+      "prior_day_follow_up": false,
+      "original_title": "모잠비크, 코랄 FLNG 프로젝트 자금 조달 구조 승인…가스공사·삼성중공업 '안도'",
+      "source_title_ko": "모잠비크, 코랄 FLNG 프로젝트 자금 조달 구조 승인…가스공사·삼성중공업 '안도'",
+      "korean_required": true
+    },
+    {
+      "id": "bc10be35dd98069b907a1958",
+      "anchor": "issue-b02d7a9e33711114",
+      "editorial_scope": "company",
+      "event_type": "market_update",
+      "title": "코인베이스, 매출 18.5% 급감했지만 목표주가 212달러…비트코인 탈피가 승부수",
+      "section": "investment",
+      "category": "research",
+      "summary": [
+        "2026년 2분기 매출은 12억 2000만 달러(약 1조 6,714억원, 1달러 1,370원 기준)로 전년 동기 대비 18.5% 줄었고, GAAP 기준 주당순손실은 1.36달러를 기록했다.",
+        "그럼에도 투자분석기관 24/7 월스트리트는 코인베이스에 목표주가 212.94달러(매수 등급, 상승여력 23.73%)를 제시했다.",
+        "소비자 거래 수수료 매출은 전년 대비 20%, 기관 거래 수수료 매출은 26% 줄었다.",
+        "2분기 구독·서비스 매출은 전체 순매출의 48%까지 늘었다. 조정 EBITDA는 2억 780만 달러로 14개 분기 연속 흑자를 이어갔다."
+      ],
+      "change": "비교 가능한 과거 자료 없음 — 상향·하향·전망 변경 여부 미판정",
+      "claims": [
+        {
+          "id": "90609ac4173fe086cfe306a5",
+          "text": "2026년 2분기 매출은 12억 2000만 달러(약 1조 6,714억원, 1달러 1,370원 기준)로 전년 동기 대비 18.5% 줄었고, GAAP 기준 주당순손실은 1.36달러를 기록했다.",
+          "kind": "fact",
+          "author": "채동수 기자",
+          "source_ids": [
+            "964eee958c5aab34fea37f56"
+          ],
+          "evidence": [
+            {
+              "source_id": "964eee958c5aab34fea37f56",
+              "source_version_id": "48e489500688428000e5651a",
+              "start": 121,
+              "end": 226,
+              "text": "2026년 2분기 매출은 12억 2000만 달러(약 1조 6,714억원, 1달러 1,370원 기준)로 전년 동기 대비 18.5% 줄었고, GAAP 기준 주당순손실은 1.36달러를 기록했다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "2026년 2분기 매출은 12억 2000만 달러(약 1조 6,714억원, 1달러 1,370원 기준)로 전년 동기 대비 18.5% 줄었고, GAAP 기준 주당순손실은 1.36달러를 기록했다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "98bfdd918570bb43ec352b87",
+          "text": "그럼에도 투자분석기관 24/7 월스트리트는 코인베이스에 목표주가 212.94달러(매수 등급, 상승여력 23.73%)를 제시했다.",
+          "kind": "author_opinion",
+          "author": "채동수 기자",
+          "source_ids": [
+            "964eee958c5aab34fea37f56"
+          ],
+          "evidence": [
+            {
+              "source_id": "964eee958c5aab34fea37f56",
+              "source_version_id": "48e489500688428000e5651a",
+              "start": 246,
+              "end": 317,
+              "text": "그럼에도 투자분석기관 24/7 월스트리트는 코인베이스에 목표주가 212.94달러(매수 등급, 상승여력 23.73%)를 제시했다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "그럼에도 투자분석기관 24/7 월스트리트는 코인베이스에 목표주가 212.94달러(매수 등급, 상승여력 23.73%)를 제시했다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "interpretation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "7f25d0c9ac041351f9deea98",
+          "text": "소비자 거래 수수료 매출은 전년 대비 20%, 기관 거래 수수료 매출은 26% 줄었다.",
+          "kind": "fact",
+          "author": "채동수 기자",
+          "source_ids": [
+            "964eee958c5aab34fea37f56"
+          ],
+          "evidence": [
+            {
+              "source_id": "964eee958c5aab34fea37f56",
+              "source_version_id": "48e489500688428000e5651a",
+              "start": 505,
+              "end": 553,
+              "text": "소비자 거래 수수료 매출은 전년 대비 20%, 기관 거래 수수료 매출은 26% 줄었다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "소비자 거래 수수료 매출은 전년 대비 20%, 기관 거래 수수료 매출은 26% 줄었다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "e0c68fd5ecdec58da2b02013",
+          "text": "2분기 구독·서비스 매출은 전체 순매출의 48%까지 늘었다. 조정 EBITDA는 2억 780만 달러로 14개 분기 연속 흑자를 이어갔다.",
+          "kind": "fact",
+          "author": "채동수 기자",
+          "source_ids": [
+            "964eee958c5aab34fea37f56"
+          ],
+          "evidence": [
+            {
+              "source_id": "964eee958c5aab34fea37f56",
+              "source_version_id": "48e489500688428000e5651a",
+              "start": 1295,
+              "end": 1371,
+              "text": "2분기 구독·서비스 매출은 전체 순매출의 48%까지 늘었다. 조정 EBITDA는 2억 780만 달러로 14개 분기 연속 흑자를 이어갔다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "2분기 구독·서비스 매출은 전체 순매출의 48%까지 늘었다. 조정 EBITDA는 2억 780만 달러로 14개 분기 연속 흑자를 이어갔다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        }
+      ],
+      "event_schedules": [],
+      "document_ids": [
+        "964eee958c5aab34fea37f56"
+      ],
+      "source_versions": [
+        "48e489500688428000e5651a"
+      ],
+      "entities": [],
+      "selection_reason": [
+        "수집 범위 내 독립 발행자 1개",
+        "자료 기준 경과 21.7시간",
+        "이전 입력 대비 신규 문서",
+        "원문에 수치와 관측·보고 근거가 있는 기업 실적"
+      ],
+      "follow_up": [
+        "원문과 기간·단위·작성 주체를 확인하고 해석을 검토하세요."
+      ],
+      "confidence": "source_checked",
+      "related_issue_id": null,
+      "late_discovered": false,
+      "analysis_provider": "extractive",
+      "model_status": "not_needed_source_korean",
+      "analysis_label": "한국어 원문에서 핵심 문장 선별",
+      "evidence_expired": false,
+      "evidence_partially_expired": false,
+      "has_full_text": true,
+      "has_message_text": false,
+      "prior_day_follow_up": false,
+      "original_title": "코인베이스, 매출 18.5% 급감했지만 목표주가 212달러…비트코인 탈피가 승부수",
+      "source_title_ko": "코인베이스, 매출 18.5% 급감했지만 목표주가 212달러…비트코인 탈피가 승부수",
+      "korean_required": true
+    },
+    {
+      "id": "e27a561ca9273673082de696",
+      "anchor": "issue-e18b1eb83b7d2d9c",
+      "editorial_scope": "industry",
+      "event_type": "outlook",
+      "title": "[고금리 시대] ② 상반기 최고수익 증권사…분산에 하반기 달렸다",
+      "section": "investment",
+      "category": "research",
+      "summary": [
+        "미국 연방준비제도(Fed·연준)가 3년여 만에 기준금리를 인상하면서 올해 상반기 증시 활황으로 역대급 실적을 거둔 증권업계의 하반기 셈법이 복잡해지고 있다.",
+        "올해 2분기 국내 주식 일평균 거래대금(ETF 포함)은 118조1000억원으로 전 분기보다 39.8% 증가했다.",
+        "이에 미래에셋증권·한국투자증권·키움증권·NH투자증권·삼성증권 등 5대 증권사의 2분기 영업이익은 총 5조8461억원, 순이익은 4조5098억원으로 분기 기준 최대치를 기록했다.",
+        "반면 지난달 일평균 거래대금은 67조2000억원으로 7월 99조5000억원보다 32% 감소했다."
+      ],
+      "change": "비교 가능한 과거 자료 없음 — 상향·하향·전망 변경 여부 미판정",
+      "claims": [
+        {
+          "id": "fd8b0b341b8b5d80ec2f7450",
+          "text": "미국 연방준비제도(Fed·연준)가 3년여 만에 기준금리를 인상하면서 올해 상반기 증시 활황으로 역대급 실적을 거둔 증권업계의 하반기 셈법이 복잡해지고 있다.",
+          "kind": "fact",
+          "author": "김가희",
+          "source_ids": [
+            "5a53d8915e6f55dab06f49c1"
+          ],
+          "evidence": [
+            {
+              "source_id": "5a53d8915e6f55dab06f49c1",
+              "source_version_id": "406a005178d5d8c1d575fb6b",
+              "start": 18,
+              "end": 105,
+              "text": "미국 연방준비제도(Fed·연준)가 3년여 만에 기준금리를 인상하면서 올해 상반기 증시 활황으로 역대급 실적을 거둔 증권업계의 하반기 셈법이 복잡해지고 있다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "미국 연방준비제도(Fed·연준)가 3년여 만에 기준금리를 인상하면서 올해 상반기 증시 활황으로 역대급 실적을 거둔 증권업계의 하반기 셈법이 복잡해지고 있다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "eeb1869ff0f898f775b08f14",
+          "text": "올해 2분기 국내 주식 일평균 거래대금(ETF 포함)은 118조1000억원으로 전 분기보다 39.8% 증가했다.",
+          "kind": "fact",
+          "author": "김가희",
+          "source_ids": [
+            "5a53d8915e6f55dab06f49c1"
+          ],
+          "evidence": [
+            {
+              "source_id": "5a53d8915e6f55dab06f49c1",
+              "source_version_id": "406a005178d5d8c1d575fb6b",
+              "start": 621,
+              "end": 683,
+              "text": "올해 2분기 국내 주식 일평균 거래대금(ETF 포함)은 118조1000억원으로 전 분기보다 39.8% 증가했다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "올해 2분기 국내 주식 일평균 거래대금(ETF 포함)은 118조1000억원으로 전 분기보다 39.8% 증가했다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "d8a59af792ad18df4fdc66da",
+          "text": "이에 미래에셋증권·한국투자증권·키움증권·NH투자증권·삼성증권 등 5대 증권사의 2분기 영업이익은 총 5조8461억원, 순이익은 4조5098억원으로 분기 기준 최대치를 기록했다.",
+          "kind": "fact",
+          "author": "김가희",
+          "source_ids": [
+            "5a53d8915e6f55dab06f49c1"
+          ],
+          "evidence": [
+            {
+              "source_id": "5a53d8915e6f55dab06f49c1",
+              "source_version_id": "406a005178d5d8c1d575fb6b",
+              "start": 684,
+              "end": 782,
+              "text": "이에 미래에셋증권·한국투자증권·키움증권·NH투자증권·삼성증권 등 5대 증권사의 2분기 영업이익은 총 5조8461억원, 순이익은 4조5098억원으로 분기 기준 최대치를 기록했다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "이에 미래에셋증권·한국투자증권·키움증권·NH투자증권·삼성증권 등 5대 증권사의 2분기 영업이익은 총 5조8461억원, 순이익은 4조5098억원으로 분기 기준 최대치를 기록했다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "4d78bc2d3fd140e3011547d1",
+          "text": "반면 지난달 일평균 거래대금은 67조2000억원으로 7월 99조5000억원보다 32% 감소했다.",
+          "kind": "fact",
+          "author": "김가희",
+          "source_ids": [
+            "5a53d8915e6f55dab06f49c1"
+          ],
+          "evidence": [
+            {
+              "source_id": "5a53d8915e6f55dab06f49c1",
+              "source_version_id": "406a005178d5d8c1d575fb6b",
+              "start": 784,
+              "end": 837,
+              "text": "반면 지난달 일평균 거래대금은 67조2000억원으로 7월 99조5000억원보다 32% 감소했다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "반면 지난달 일평균 거래대금은 67조2000억원으로 7월 99조5000억원보다 32% 감소했다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        }
+      ],
+      "event_schedules": [],
+      "document_ids": [
+        "5a53d8915e6f55dab06f49c1"
+      ],
+      "source_versions": [
+        "406a005178d5d8c1d575fb6b"
+      ],
+      "entities": [],
+      "selection_reason": [
+        "수집 범위 내 독립 발행자 1개",
+        "자료 기준 경과 17.8시간",
+        "이전 입력 대비 신규 문서",
+        "수치가 명시된 전망 변경; 관측 사실과 구분"
+      ],
+      "follow_up": [
+        "원문과 기간·단위·작성 주체를 확인하고 해석을 검토하세요."
+      ],
+      "confidence": "source_checked",
+      "related_issue_id": null,
+      "late_discovered": false,
+      "analysis_provider": "extractive",
+      "model_status": "not_needed_source_korean",
+      "analysis_label": "한국어 원문에서 핵심 문장 선별",
+      "evidence_expired": false,
+      "evidence_partially_expired": false,
+      "has_full_text": true,
+      "has_message_text": false,
+      "prior_day_follow_up": false,
+      "original_title": "[고금리 시대] ② 상반기 최고수익 증권사…분산에 하반기 달렸다",
+      "source_title_ko": "[고금리 시대] ② 상반기 최고수익 증권사…분산에 하반기 달렸다",
+      "korean_required": true
+    },
+    {
       "id": "5125f40b40e9d09f8f8f0a5d",
       "anchor": "issue-538ee0347a00049e",
       "editorial_scope": "macro",
@@ -5942,27 +5940,6 @@
       "synthetic": false
     },
     {
-      "id": "2e3a07eafefa6bce5fee57ec",
-      "version_id": "115a59f462427f4ba98cb51a",
-      "source_id": "naver_investment",
-      "source_kind": "news",
-      "title": "'물가 압박'에 기준금리 0.25퍼센트포인트↑…추가 인상 시사",
-      "publisher": "SBS 뉴스",
-      "author": "김현우 기자",
-      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008757119&plink=ORI&cooper=NAVER",
-      "published_at": "2026-09-16T21:17:19+00:00",
-      "provided_at": "2026-09-16T21:17:00+00:00",
-      "modified_at": "2026-09-17T01:40:19+00:00",
-      "collected_at": "2026-09-18T05:27:53.029370+00:00",
-      "event_at": null,
-      "time_basis": "original_published_at",
-      "full_text": true,
-      "text_scope": "기사·문서 본문 확보",
-      "evidence_expired": false,
-      "extraction_quality": "article_text",
-      "synthetic": false
-    },
-    {
       "id": "cb256d79223405cd0102b491",
       "version_id": "1429297202b0dbe0c4a8255a",
       "source_id": "naver_general",
@@ -6068,6 +6045,27 @@
       "synthetic": false
     },
     {
+      "id": "5a53d8915e6f55dab06f49c1",
+      "version_id": "406a005178d5d8c1d575fb6b",
+      "source_id": "naver_investment",
+      "source_kind": "news",
+      "title": "[고금리 시대] ② 상반기 최고수익 증권사…분산에 하반기 달렸다",
+      "publisher": "뉴스핌",
+      "author": "김가희",
+      "url": "https://www.newspim.com/news/view/20260917000777",
+      "published_at": "2026-09-17T21:00:00+00:00",
+      "provided_at": "2026-09-17T21:00:00+00:00",
+      "modified_at": "2026-09-17T21:00:00+00:00",
+      "collected_at": "2026-09-18T04:40:12.581770+00:00",
+      "event_at": null,
+      "time_basis": "original_published_at",
+      "full_text": true,
+      "text_scope": "기사·문서 본문 확보",
+      "evidence_expired": false,
+      "extraction_quality": "article_text",
+      "synthetic": false
+    },
+    {
       "id": "8f3b7c3bb36ecd31c6611323",
       "version_id": "46ead755d17d47c922b42366",
       "source_id": "naver_investment",
@@ -6080,6 +6078,27 @@
       "provided_at": "2026-09-18T07:00:00+00:00",
       "modified_at": null,
       "collected_at": "2026-09-18T11:38:44.467892+00:00",
+      "event_at": null,
+      "time_basis": "original_published_at",
+      "full_text": true,
+      "text_scope": "기사·문서 본문 확보",
+      "evidence_expired": false,
+      "extraction_quality": "article_text",
+      "synthetic": false
+    },
+    {
+      "id": "964eee958c5aab34fea37f56",
+      "version_id": "48e489500688428000e5651a",
+      "source_id": "naver_investment",
+      "source_kind": "news",
+      "title": "코인베이스, 매출 18.5% 급감했지만 목표주가 212달러…비트코인 탈피가 승부수",
+      "publisher": "위키트리",
+      "author": "채동수 기자",
+      "url": "https://www.wikitree.co.kr/articles/1160342",
+      "published_at": "2026-09-17T17:02:00+00:00",
+      "provided_at": "2026-09-17T17:12:00+00:00",
+      "modified_at": "2026-09-17T17:02:00+00:00",
+      "collected_at": "2026-09-18T05:08:06.539282+00:00",
       "event_at": null,
       "time_basis": "original_published_at",
       "full_text": true,
@@ -6383,27 +6402,6 @@
       "synthetic": false
     },
     {
-      "id": "09ebf9ad4bc50cf0389aa388",
-      "version_id": "6e438af449982f9a2039e518",
-      "source_id": "naver_investment",
-      "source_kind": "news",
-      "title": "[경제 이슈] 미 연준, 물가 제동 걸기 위해 0.25퍼센트포인트 기준금리 인상…“연내 추가 인상 시사”",
-      "publisher": "시사캐스트",
-      "author": "",
-      "url": "http://www.sisacast.kr/news/articleView.html?idxno=100189",
-      "published_at": "2026-09-18T00:06:15+00:00",
-      "provided_at": "2026-09-18T00:08:00+00:00",
-      "modified_at": null,
-      "collected_at": "2026-09-18T05:05:56.260685+00:00",
-      "event_at": null,
-      "time_basis": "original_published_at",
-      "full_text": true,
-      "text_scope": "기사·문서 본문 확보",
-      "evidence_expired": false,
-      "extraction_quality": "article_text",
-      "synthetic": false
-    },
-    {
       "id": "12b009dc51c7be29f19d2ca4",
       "version_id": "702606052177c4be3f626445",
       "source_id": "guardian_business",
@@ -6521,27 +6519,6 @@
       "provided_at": "2026-09-18T10:02:00+00:00",
       "modified_at": "2026-09-18T10:02:15+00:00",
       "collected_at": "2026-09-18T11:57:02.912412+00:00",
-      "event_at": null,
-      "time_basis": "original_published_at",
-      "full_text": true,
-      "text_scope": "기사·문서 본문 확보",
-      "evidence_expired": false,
-      "extraction_quality": "article_text",
-      "synthetic": false
-    },
-    {
-      "id": "53ff4ca40bc888b601356a4f",
-      "version_id": "89e8a6c9076871c7b3655dee",
-      "source_id": "naver_investment",
-      "source_kind": "news",
-      "title": "[국제금융리포트] 美 기준금리 0.25퍼센트포인트 인상…달러 뛰고 증시는 하락 | 아주경제",
-      "publisher": "아주경제",
-      "author": "김윤섭",
-      "url": "https://www.ajunews.com/view/20260917082608909",
-      "published_at": "2026-09-17T00:11:18+00:00",
-      "provided_at": "2026-09-17T00:12:00+00:00",
-      "modified_at": "2026-09-17T00:11:18+00:00",
-      "collected_at": "2026-09-18T10:12:20.298932+00:00",
       "event_at": null,
       "time_basis": "original_published_at",
       "full_text": true,
@@ -6719,18 +6696,18 @@
       "synthetic": false
     },
     {
-      "id": "cf8e9544454f53b3f4442b55",
-      "version_id": "bca0d227349c1e73eae33516",
+      "id": "82f26beff9c431efc8962f43",
+      "version_id": "bc12d9e13db9df13036469c6",
       "source_id": "naver_investment",
       "source_kind": "news",
-      "title": "'물가 압박'에 기준금리 0.25퍼센트포인트↑…추가 인상 시사",
-      "publisher": "SBS 뉴스",
-      "author": "김현우",
-      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008757224&plink=ORI&cooper=NAVER",
-      "published_at": "2026-09-16T22:32:18+00:00",
-      "provided_at": "2026-09-16T22:32:00+00:00",
-      "modified_at": "2026-09-16T22:32:00+00:00",
-      "collected_at": "2026-09-17T01:15:21.435401+00:00",
+      "title": "모잠비크, 코랄 FLNG 프로젝트 자금 조달 구조 승인…가스공사·삼성중공업 '안도'",
+      "publisher": "www.theguru.co.kr",
+      "author": "길소연 기자",
+      "url": "https://www.theguru.co.kr/news/article.html?no=107280",
+      "published_at": "2026-09-18T01:37:51+00:00",
+      "provided_at": "2026-09-18T01:38:00+00:00",
+      "modified_at": "2026-09-18T01:41:57+00:00",
+      "collected_at": "2026-09-18T05:00:50.047115+00:00",
       "event_at": null,
       "time_basis": "original_published_at",
       "full_text": true,
