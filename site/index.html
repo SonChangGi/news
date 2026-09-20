@@ -1,11 +1,11 @@
 <!doctype html><html lang="ko"><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="referrer" content="no-referrer"><title>리서치 브리핑</title>
-<p><a id="open-report" href="/news/daily/2026-09-18/index.html">브리핑 열기</a></p>
+<p><a id="open-report" href="/news/weekend/2026-09-14/index.html">브리핑 열기</a></p>
 <script>(async()=>{const base="/news/";try{
 const response=await fetch(base+'archive.json',{cache:'no-store'});if(!response.ok)throw new Error();
 const index=await response.json(),entry=index.entries[0];if(!entry)throw new Error();
 const target=new URL(entry.report_url,location.origin);
-if(target.origin!==location.origin||!target.pathname.startsWith(base+'daily/')||!target.pathname.endsWith('/index.html'))throw new Error();
+if(target.origin!==location.origin||!['daily/','weekend/'].some(p=>target.pathname.startsWith(base+p))||!target.pathname.endsWith('/index.html'))throw new Error();
 target.search=location.search;target.hash=location.hash;location.replace(target.href);
 }catch{document.getElementById('open-report').textContent='저장된 브리핑 열기';}})();</script></html>
