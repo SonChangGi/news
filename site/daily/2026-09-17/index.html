@@ -1168,7 +1168,7 @@ body.has-quant-shared-nav .skip-link {
   const measureNavigation=()=>{document.documentElement.style.setProperty('--masthead-height',document.querySelector('.masthead').getBoundingClientRect().height+'px');document.documentElement.style.setProperty('--toolbar-height',document.querySelector('.toolbar').getBoundingClientRect().height+'px');};
   measureNavigation();if(location.hash)revealIssue(location.hash);if(typeof ResizeObserver!=='undefined'){const observer=new ResizeObserver(measureNavigation);observer.observe(document.querySelector('.masthead'));observer.observe(document.querySelector('.toolbar'));}else window.addEventListener('resize',measureNavigation);
 
-  const archiveContext={"archive_url": "/news/?archive=1", "base_path": "/news/", "current_date": "2026-09-17", "entries": [{"date": "2026-09-20", "edition_kind": "weekend", "issue_count": 38, "mode": "on_time", "period_id": "weekend:2026-09-14", "url": "/news/weekend/2026-09-14/index.html"}, {"date": "2026-09-18", "issue_count": 30, "mode": "reconstruction", "url": "/news/daily/2026-09-18/index.html"}, {"date": "2026-09-17", "issue_count": 23, "mode": "reconstruction", "url": "/news/daily/2026-09-17/index.html"}, {"date": "2026-09-16", "issue_count": 23, "mode": "reconstruction", "url": "/news/daily/2026-09-16/index.html"}, {"date": "2026-09-15", "issue_count": 30, "mode": "reconstruction", "url": "/news/daily/2026-09-15/index.html"}, {"date": "2026-09-14", "issue_count": 28, "mode": "reconstruction", "url": "/news/daily/2026-09-14/index.html"}, {"date": "2026-09-13", "issue_count": 20, "mode": "reconstruction", "url": "/news/daily/2026-09-13/index.html"}, {"date": "2026-09-12", "issue_count": 20, "mode": "reconstruction", "url": "/news/daily/2026-09-12/index.html"}], "latest_url": "/news/", "manifest_url": "/news/archive.json"};
+  const archiveContext={"archive_url": "/news/?archive=1", "base_path": "/news/", "current_date": "2026-09-17", "entries": [{"date": "2026-09-21", "issue_count": 27, "mode": "on_time", "url": "/news/daily/2026-09-21/index.html"}, {"date": "2026-09-20", "edition_kind": "weekend", "issue_count": 38, "mode": "on_time", "period_id": "weekend:2026-09-14", "url": "/news/weekend/2026-09-14/index.html"}, {"date": "2026-09-18", "issue_count": 30, "mode": "reconstruction", "url": "/news/daily/2026-09-18/index.html"}, {"date": "2026-09-17", "issue_count": 23, "mode": "reconstruction", "url": "/news/daily/2026-09-17/index.html"}, {"date": "2026-09-16", "issue_count": 23, "mode": "reconstruction", "url": "/news/daily/2026-09-16/index.html"}, {"date": "2026-09-15", "issue_count": 30, "mode": "reconstruction", "url": "/news/daily/2026-09-15/index.html"}, {"date": "2026-09-14", "issue_count": 28, "mode": "reconstruction", "url": "/news/daily/2026-09-14/index.html"}, {"date": "2026-09-13", "issue_count": 20, "mode": "reconstruction", "url": "/news/daily/2026-09-13/index.html"}, {"date": "2026-09-12", "issue_count": 20, "mode": "reconstruction", "url": "/news/daily/2026-09-12/index.html"}], "latest_url": "/news/", "manifest_url": "/news/archive.json"};
   const currentDate=archiveContext.current_date||"2026-09-17";
   const dialog=document.getElementById('archive-dialog'),openCalendar=document.getElementById('archive-open');
   const daysBody=document.getElementById('calendar-days'),monthLabel=document.getElementById('calendar-month-label');
@@ -1277,6 +1277,8 @@ body.has-quant-shared-nav .skip-link {
   #automation-settings .as-blackout-row input{display:block;width:100%;margin-top:4px}
   #automation-settings .as-remove{padding:7px 10px;color:var(--muted,#626e7d)}
   #automation-settings .as-actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
+  #automation-settings .as-day-picker{display:flex;gap:8px;margin:0 0 12px}
+  #automation-settings .as-day-picker button[aria-pressed=true]{border-color:var(--primary,#1b64da);background:var(--soft,#eaf3ff);color:var(--primary,#1b64da);font-weight:650}
   #automation-settings .as-toggle{display:flex;gap:8px;align-items:center;font-size:13px;margin:16px 0}
   #automation-settings .as-field{display:block;margin:14px 0}
   #automation-settings .as-status{font-size:12px;min-height:20px;margin:10px 0 0}
@@ -1292,7 +1294,7 @@ body.has-quant-shared-nav .skip-link {
   @media(max-width:760px){#automation-settings{margin-left:16px;margin-right:16px;padding:14px 16px}#automation-settings .as-columns{grid-template-columns:minmax(0,1fr);gap:24px}#automation-settings .as-notifications{border-top:1px solid var(--line,#e5e8eb);padding-top:22px}#automation-settings .as-caption{display:block;margin:2px 0 0 19px}#automation-settings input{font-size:16px}#automation-settings input[type=time]{width:168px}#automation-settings .as-blackout-row{grid-template-columns:minmax(0,1fr) auto;gap:6px}#automation-settings .as-blackout-row label{display:grid;grid-template-columns:34px minmax(0,1fr);gap:6px;align-items:center;grid-column:1}#automation-settings .as-blackout-row label:first-child{grid-row:1}#automation-settings .as-blackout-row label:nth-child(2){grid-row:2}#automation-settings .as-blackout-row input{width:100%;min-width:0;margin-top:0;padding:7px 5px}#automation-settings .as-blackout-row .as-remove{grid-column:2;grid-row:1 / span 2;align-self:center}#automation-settings .as-remove{padding:7px 8px}}
 </style>
 <details id="automation-settings" data-automation-mode="public" data-preview-port="8876">
-  <summary>자동화 설정 <span class="as-caption">내일 일정 · Telegram 알림</span></summary>
+  <summary>자동화 설정 <span class="as-caption">오늘·내일 일정 · 기본값 · Telegram 알림</span></summary>
   <div class="as-content">
     <div id="as-connection" hidden>
       <p class="as-muted">설정할 맥북에서 이 페이지를 열어 주세요. 설정과 알림 정보는 해당 맥북에만 저장됩니다.</p>
@@ -1303,9 +1305,14 @@ body.has-quant-shared-nav .skip-link {
     <button id="as-reload" type="button" hidden>다시 불러오기</button>
     <div id="as-forms" class="as-columns" hidden>
       <form id="as-schedule-form">
-        <h2>내일 사용할 수 있는 시간</h2>
+        <div class="as-day-picker" role="group" aria-label="설정할 날짜">
+          <button id="as-select-today" type="button" aria-pressed="false">오늘</button>
+          <button id="as-select-tomorrow" type="button" aria-pressed="true">내일</button>
+        </div>
+        <h2 id="as-schedule-title">내일 사용할 수 있는 시간</h2>
         <p class="as-muted"><strong id="as-date"></strong> · 한국 시간 · <span id="as-schedule-mode"></span></p>
-        <p id="as-schedule-note" class="as-muted">저장한 일정은 내일 하루에만 적용됩니다. 그다음 날은 기본 일정으로 돌아갑니다.</p>
+        <p id="as-schedule-note" class="as-muted"></p>
+        <p id="as-draft-note" class="as-muted" hidden>이 날짜의 일정에는 아직 저장하지 않은 입력입니다. 오늘·내일을 전환해도 입력은 유지됩니다.</p>
         <p id="as-completion-target" class="as-muted" hidden></p>
         <fieldset>
           <legend>분석 시작 희망 시각</legend>
@@ -1321,10 +1328,13 @@ body.has-quant-shared-nav .skip-link {
           <p id="as-window-summary" class="as-muted" aria-live="polite"></p>
         </fieldset>
         <div class="as-actions">
-          <button class="as-primary" type="submit">내일 일정 저장</button>
+          <button id="as-save-schedule" class="as-primary" type="submit">내일 일정 저장</button>
           <button id="as-reset-schedule" type="button">기본 일정으로 되돌리기</button>
+          <button id="as-reload-schedule" type="button">입력 취소·다시 불러오기</button>
         </div>
         <p id="as-schedule-status" class="as-status" role="status" aria-live="polite"></p>
+        <div class="as-actions"><button id="as-save-defaults" type="button">이 설정을 기본값으로 저장</button></div>
+        <p id="as-defaults-note" class="as-muted">입력한 시간을 내일부터 매일(주말 포함) 기본으로 사용합니다. 날짜별로 저장한 일정이 우선하며, 오늘 일정은 바뀌지 않습니다.</p>
       </form>
       <form id="as-notification-form" class="as-notifications" autocomplete="off">
         <h2>Telegram 알림</h2>
@@ -1374,6 +1384,8 @@ body.has-quant-shared-nav .skip-link {
   let bridge = null, channel = null, connected = false, connectionTimer = null, closeTimer = null;
   const pending = new Map();
   let current = null;
+  let selectedDay = 'tomorrow';
+  const drafts = new Map();
   let loading = false;
   let busy = false;
   let rowNumber = 0;
@@ -1446,6 +1458,7 @@ body.has-quant-shared-nav .skip-link {
       const next = row.nextElementSibling || row.previousElementSibling;
       row.remove();
       updateEmptyRows();
+      rememberSchedule();
       (next ? next.querySelector('input') : find('as-add-window')).focus();
     });
     return button;
@@ -1472,20 +1485,61 @@ body.has-quant-shared-nav .skip-link {
     if (focus) start.input.focus();
   }
 
+  function scheduleValues() {
+    return {
+      run_time: find('as-run-time').value,
+      available_windows: Array.from(find('as-window-rows').children, row => ({
+        start: row.querySelector('[data-clock=start]').value,
+        end: row.querySelector('[data-clock=end]').value
+      }))
+    };
+  }
+
+  function rememberSchedule() {
+    if (!current) return;
+    const day = current[selectedDay];
+    const draft = drafts.get(day.date);
+    if (!draft) return;
+    Object.assign(draft, scheduleValues());
+    draft.dirty = draft.run_time !== day.run_time ||
+      JSON.stringify(draft.available_windows) !== JSON.stringify(day.available_windows);
+    find('as-draft-note').hidden = !draft.dirty;
+  }
+
   function renderSchedule() {
-    const day = current.tomorrow;
+    const day = current[selectedDay];
+    const label = selectedDay === 'today' ? '오늘' : '내일';
+    if (!drafts.has(day.date)) drafts.set(day.date, {
+      date: day.date, run_time: day.run_time,
+      available_windows: day.available_windows.map(value => ({...value})),
+      expected_revision: day.revision,
+      expected_defaults_revision: current.defaults.revision,
+      dirty: false
+    });
+    const draft = drafts.get(day.date);
+    find('as-select-today').setAttribute('aria-pressed', String(selectedDay === 'today'));
+    find('as-select-tomorrow').setAttribute('aria-pressed', String(selectedDay === 'tomorrow'));
+    find('as-schedule-title').textContent = label + ' 사용할 수 있는 시간';
+    find('as-save-schedule').textContent = label + ' 일정 저장';
+    find('as-no-time').textContent = label + ' 사용 불가';
+    find('as-window-empty').textContent = label + '은 자동화를 진행하지 않습니다.';
+    find('as-schedule-note').textContent = selectedDay === 'today'
+      ? '저장한 일정은 오늘 남은 자동화에 적용됩니다. 완료한 작업은 다시 실행하지 않으며, 진행 중인 작업도 변경한 가능 시간대를 따릅니다.'
+      : '저장한 일정은 내일 하루에만 적용됩니다. 다른 날짜는 각 날짜의 별도 일정 또는 기본 일정을 따릅니다.';
     find('as-date').textContent = day.date;
-    find('as-schedule-mode').textContent = day.is_override ? '내일만 변경됨' : '기본 일정';
-    find('as-run-time').value = day.run_time;
+    find('as-schedule-mode').textContent = day.is_override ? label + '만 변경됨' : '기본 일정';
+    find('as-run-time').value = draft.run_time;
     const target = find('as-completion-target');
     target.hidden = !day.completion_target;
     target.textContent = day.completion_target
       ? '배포 목표 ' + day.completion_target + ' · 검증을 통과한 결과만 게시합니다.' : '';
-    if (!Array.isArray(day.available_windows)) throw new Error('자동화 서비스를 업데이트한 뒤 설정을 다시 불러와 주세요.');
     find('as-window-rows').replaceChildren();
-    day.available_windows.forEach(value => windowRow(value));
+    draft.available_windows.forEach(value => windowRow(value));
     updateEmptyRows();
     find('as-reset-schedule').disabled = busy || !day.is_override;
+    find('as-draft-note').hidden = !draft.dirty;
+    const effective = current.tomorrow.date;
+    find('as-defaults-note').textContent = '입력한 시간을 내일(' + effective + ')부터 매일(주말 포함) 기본으로 사용합니다. 날짜별로 저장한 일정이 우선하며, 오늘 일정은 바뀌지 않습니다.';
   }
 
   function renderNotifications() {
@@ -1500,21 +1554,38 @@ body.has-quant-shared-nav .skip-link {
   function setBusy(value) {
     busy = value;
     root.querySelectorAll('form button,form input').forEach(node => { node.disabled = value; });
-    if (!value && current) find('as-reset-schedule').disabled = !current.tomorrow.is_override;
+    if (!value && current) find('as-reset-schedule').disabled = !current[selectedDay].is_override;
     scheduleForm.setAttribute('aria-busy', String(value));
     notificationForm.setAttribute('aria-busy', String(value));
   }
 
-  async function refresh(section) {
-    const settings = await request('settings');
-    if (!settings.tomorrow || !settings.notifications || (!publicMode && !settings.csrf_token)) {
-      throw new Error('설정 정보를 확인하지 못했습니다. 다시 불러와 주세요.');
+  function applySettings(settings, section, discardedDate, rebaseDate) {
+    if (!settings.today || !settings.tomorrow || !settings.defaults || !settings.notifications ||
+        !Array.isArray(settings.today.available_windows) || !Array.isArray(settings.tomorrow.available_windows) ||
+        (!publicMode && !settings.csrf_token)) {
+      throw new Error('자동화 서비스를 업데이트한 뒤 설정을 다시 불러와 주세요.');
     }
-    // Refresh only the saved section, preserving unsaved edits in the other form.
-    if (current && section === 'notifications') settings.tomorrow = current.tomorrow;
+    if (discardedDate) drafts.delete(discardedDate);
+    for (const day of [settings.today, settings.tomorrow]) {
+      const draft = drafts.get(day.date);
+      if (draft && !draft.dirty) drafts.delete(day.date);
+    }
+    if (rebaseDate && drafts.has(rebaseDate)) {
+      const day = [settings.today, settings.tomorrow].find(value => value.date === rebaseDate);
+      if (day) Object.assign(drafts.get(rebaseDate), {
+        expected_revision: day.revision, expected_defaults_revision: settings.defaults.revision
+      });
+    }
     current = settings;
-    if (!section || section === 'schedule') renderSchedule();
+    // Schedule drafts are keyed by date; refreshing notifications never replaces them.
+    renderSchedule();
+    rememberSchedule();
     if (!section || section === 'notifications') renderNotifications();
+  }
+
+  async function refresh(section) {
+    rememberSchedule();
+    applySettings(await request('settings'), section);
   }
 
   async function load() {
@@ -1544,30 +1615,53 @@ body.has-quant-shared-nav .skip-link {
     status(statusId, '저장 중…');
     let saved = false;
     try {
-      await request(path, payload);
+      rememberSchedule();
+      const result = await request(path, payload);
       saved = true;
       if (section === 'notifications') {
         find('as-bot-token').value = '';
         find('as-chat-id').value = '';
       }
-      await refresh(section);
+      const settings = result.today ? result : await request('settings');
+      applySettings(settings, section,
+        section === 'schedule' && path !== 'schedule/defaults' ? payload.date : null,
+        path === 'schedule/defaults' ? payload.date : null);
       status(statusId, successMessage, 'success');
     } catch (error) {
       status(statusId, saved ? '저장 요청은 처리됐지만 설정을 다시 확인하지 못했습니다. 페이지를 새로 열어 확인해 주세요.' : error.message, 'error');
     } finally { setBusy(false); }
   }
 
-  find('as-add-window').addEventListener('click', () => windowRow({}, true));
+  scheduleForm.addEventListener('input', rememberSchedule);
+  for (const key of ['today', 'tomorrow']) find('as-select-' + key).addEventListener('click', () => {
+    if (!current || busy || selectedDay === key) return;
+    rememberSchedule(); selectedDay = key; renderSchedule();
+    status('as-schedule-status', '');
+  });
+  find('as-add-window').addEventListener('click', () => { windowRow({}, true); rememberSchedule(); });
   find('as-all-day').addEventListener('click', () => {
     find('as-window-rows').replaceChildren(); windowRow({start: '00:00', end: '24:00'});
+    rememberSchedule();
   });
   find('as-no-time').addEventListener('click', () => {
     find('as-window-rows').replaceChildren(); updateEmptyRows();
+    rememberSchedule();
+  });
+  find('as-reload-schedule').addEventListener('click', async () => {
+    if (!current || busy) return;
+    const date = current[selectedDay].date;
+    setBusy(true); status('as-schedule-status', '저장된 일정을 불러오는 중…');
+    try {
+      applySettings(await request('settings'), 'schedule', date);
+      status('as-schedule-status', '입력을 취소하고 저장된 일정을 불러왔습니다.');
+    } catch (error) { status('as-schedule-status', error.message, 'error'); }
+    finally { setBusy(false); }
   });
   find('as-reload').addEventListener('click', load);
   root.addEventListener('toggle', () => { if (root.open && !current) load(); });
 
   function disconnect(message = '연결이 해제되었습니다. 다시 연결할 수 있습니다.') {
+    rememberSchedule();
     connected = false;
     clearTimeout(connectionTimer); clearInterval(closeTimer);
     if (bridge && !bridge.closed) bridge.close();
@@ -1617,22 +1711,30 @@ body.has-quant-shared-nav .skip-link {
   scheduleForm.addEventListener('submit', event => {
     event.preventDefault();
     if (!current || !scheduleForm.reportValidity()) return;
-    const windows = Array.from(find('as-window-rows').children, row => ({
-      start: row.querySelector('[data-clock=start]').value,
-      end: row.querySelector('[data-clock=end]').value
-    }));
+    rememberSchedule();
+    const draft = drafts.get(current[selectedDay].date);
     save('schedule', {
-      date: current.tomorrow.date,
-      run_time: find('as-run-time').value,
-      available_windows: windows,
-      expected_revision: current.tomorrow.revision
-    }, 'schedule', current.tomorrow.date + ' 일정이 저장되었습니다.');
+      date: draft.date, run_time: draft.run_time, available_windows: draft.available_windows,
+      expected_revision: draft.expected_revision
+    }, 'schedule', draft.date + ' 일정이 저장되었습니다.');
   });
 
   find('as-reset-schedule').addEventListener('click', () => {
     if (!current) return;
-    save('schedule/reset', {date: current.tomorrow.date, expected_revision: current.tomorrow.revision},
-      'schedule', current.tomorrow.date + ' 일정을 기본값으로 되돌렸습니다.');
+    const draft = drafts.get(current[selectedDay].date);
+    save('schedule/reset', {date: draft.date, expected_revision: draft.expected_revision},
+      'schedule', draft.date + ' 일정을 기본값으로 되돌렸습니다.');
+  });
+
+  find('as-save-defaults').addEventListener('click', () => {
+    if (!current || !scheduleForm.reportValidity()) return;
+    rememberSchedule();
+    const draft = drafts.get(current[selectedDay].date);
+    save('schedule/defaults', {
+      date: draft.date, run_time: draft.run_time, available_windows: draft.available_windows,
+      expected_revision: draft.expected_revision,
+      expected_defaults_revision: draft.expected_defaults_revision
+    }, 'schedule', '내일(' + current.tomorrow.date + ')부터 사용할 기본값이 저장되었습니다. 날짜별 별도 일정과 오늘 일정은 유지됩니다.');
   });
 
   notificationForm.addEventListener('submit', event => {
