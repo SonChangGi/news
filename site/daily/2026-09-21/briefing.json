@@ -1,10 +1,10 @@
 {
   "schema_version": "1",
-  "run_id": "8a7f6eb5364ae7e6247683bd",
+  "run_id": "c70bb92bd3943d9aa5bfcfcf",
   "report_date": "2026-09-21",
   "cutoff": "2026-09-21T09:54:49.505513+09:00",
-  "generated_at": "2026-09-21T01:55:50.825901+00:00",
-  "mode": "on_time",
+  "generated_at": "2026-09-21T06:00:53.502945+00:00",
+  "mode": "reconstruction",
   "status": "partial",
   "language": "ko",
   "timezone": "Asia/Seoul",
@@ -18,6 +18,195 @@
   "delivery_target": null,
   "generation_delayed": false,
   "issues": [
+    {
+      "id": "dd13814de924ea8c577dcbf0",
+      "anchor": "issue-562b67e0c9e2ee17",
+      "editorial_scope": "macro",
+      "event_type": "policy",
+      "title": "中 인민은행, 16개월 연속 LPR 동결",
+      "section": "yesterday",
+      "category": "economy",
+      "summary": [
+        "1년물 3.0%·5년물 3.5%…추가 통화완화 여력 제한",
+        "중국 인민은행이 사실상 기준금리 역할을 하는 대출우대금리(LPR)를 16개월 연속 동결했다.",
+        "중국 인민은행은 20일 일반 대출의 기준 역할을 하는 1년물 LPR을 3.00%, 주택담보대출 기준이 되는 5년물 LPR을 3.50%로 각각 유지한다고 발표했다.",
+        "이번 LPR 동결은 미국 등 주요 경제권이 인플레이션 압력을 억제하기 위해 긴축적인 통화정책을 이어가는 가운데 나왔다."
+      ],
+      "change": "비교 가능한 과거 자료 없음 — 상향·하향·전망 변경 여부 미판정",
+      "claims": [
+        {
+          "id": "458cf388e9db53d1d8ce5856",
+          "text": "1년물 3.0%·5년물 3.5%…추가 통화완화 여력 제한",
+          "kind": "fact",
+          "author": "연합인포맥스",
+          "source_ids": [
+            "4b3059ffb6e880b5057bbc6b"
+          ],
+          "evidence": [
+            {
+              "source_id": "4b3059ffb6e880b5057bbc6b",
+              "source_version_id": "3cd0b5a7307783e349d5a511",
+              "start": 0,
+              "end": 31,
+              "text": "1년물 3.0%·5년물 3.5%…추가 통화완화 여력 제한",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "1년물 3.0%·5년물 3.5%…추가 통화완화 여력 제한",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "ef979153f93f25bd25583238",
+          "text": "중국 인민은행이 사실상 기준금리 역할을 하는 대출우대금리(LPR)를 16개월 연속 동결했다.",
+          "kind": "fact",
+          "author": "연합인포맥스",
+          "source_ids": [
+            "4b3059ffb6e880b5057bbc6b"
+          ],
+          "evidence": [
+            {
+              "source_id": "4b3059ffb6e880b5057bbc6b",
+              "source_version_id": "3cd0b5a7307783e349d5a511",
+              "start": 54,
+              "end": 105,
+              "text": "중국 인민은행이 사실상 기준금리 역할을 하는 대출우대금리(LPR)를 16개월 연속 동결했다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "중국 인민은행이 사실상 기준금리 역할을 하는 대출우대금리(LPR)를 16개월 연속 동결했다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "47af889a27809953410ac6f8",
+          "text": "중국 인민은행은 20일 일반 대출의 기준 역할을 하는 1년물 LPR을 3.00%, 주택담보대출 기준이 되는 5년물 LPR을 3.50%로 각각 유지한다고 발표했다.",
+          "kind": "fact",
+          "author": "연합인포맥스",
+          "source_ids": [
+            "4b3059ffb6e880b5057bbc6b"
+          ],
+          "evidence": [
+            {
+              "source_id": "4b3059ffb6e880b5057bbc6b",
+              "source_version_id": "3cd0b5a7307783e349d5a511",
+              "start": 107,
+              "end": 197,
+              "text": "중국 인민은행은 20일 일반 대출의 기준 역할을 하는 1년물 LPR을 3.00%, 주택담보대출 기준이 되는 5년물 LPR을 3.50%로 각각 유지한다고 발표했다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "중국 인민은행은 20일 일반 대출의 기준 역할을 하는 1년물 LPR을 3.00%, 주택담보대출 기준이 되는 5년물 LPR을 3.50%로 각각 유지한다고 발표했다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "15ecdc8a7c2e99d139e5cd1d",
+          "text": "이번 LPR 동결은 미국 등 주요 경제권이 인플레이션 압력을 억제하기 위해 긴축적인 통화정책을 이어가는 가운데 나왔다.",
+          "kind": "fact",
+          "author": "연합인포맥스",
+          "source_ids": [
+            "4b3059ffb6e880b5057bbc6b"
+          ],
+          "evidence": [
+            {
+              "source_id": "4b3059ffb6e880b5057bbc6b",
+              "source_version_id": "3cd0b5a7307783e349d5a511",
+              "start": 219,
+              "end": 285,
+              "text": "이번 LPR 동결은 미국 등 주요 경제권이 인플레이션 압력을 억제하기 위해 긴축적인 통화정책을 이어가는 가운데 나왔다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "이번 LPR 동결은 미국 등 주요 경제권이 인플레이션 압력을 억제하기 위해 긴축적인 통화정책을 이어가는 가운데 나왔다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        }
+      ],
+      "event_schedules": [],
+      "document_ids": [
+        "4b3059ffb6e880b5057bbc6b"
+      ],
+      "source_versions": [
+        "3cd0b5a7307783e349d5a511"
+      ],
+      "entities": [],
+      "selection_reason": [
+        "수집 범위 내 독립 발행자 1개",
+        "자료 기준 경과 18.4시간",
+        "이전 입력 대비 신규 문서",
+        "수치가 명시된 거시 지표 발표 또는 확정된 통화·무역 정책 변경"
+      ],
+      "follow_up": [
+        "원문과 기간·단위·작성 주체를 확인하고 해석을 검토하세요."
+      ],
+      "confidence": "source_checked",
+      "related_issue_id": null,
+      "late_discovered": false,
+      "analysis_provider": "extractive",
+      "model_status": "not_needed_source_korean",
+      "analysis_label": "한국어 원문에서 핵심 문장 선별",
+      "evidence_expired": false,
+      "evidence_partially_expired": false,
+      "has_full_text": true,
+      "has_message_text": false,
+      "prior_day_follow_up": false,
+      "original_title": "中 인민은행, 16개월 연속 LPR 동결",
+      "source_title_ko": "中 인민은행, 16개월 연속 LPR 동결",
+      "korean_required": true
+    },
     {
       "id": "a5dee617be767695c40611ea",
       "anchor": "issue-f462bd7a569738ed",
@@ -583,6 +772,195 @@
       "prior_day_follow_up": false,
       "original_title": "국내은행, ‘순이익 감소-부실 위험 상승’…이자이익 늘어도 건전성 경고음",
       "source_title_ko": "국내은행, ‘순이익 감소-부실 위험 상승’…이자이익 늘어도 건전성 경고음",
+      "korean_required": true
+    },
+    {
+      "id": "eb8e760e3edb1bdef0b42743",
+      "anchor": "issue-f4e04fd75932bce5",
+      "editorial_scope": "industry",
+      "event_type": "credit_conditions",
+      "title": "고금리에 깊어진 자영업 양극화…5대 은행 저신용 자영업자 연체율 5년새 4∼5배로 늘어",
+      "section": "yesterday",
+      "category": "economy",
+      "summary": [
+        "20일 금융권에 따르면 5대 은행의 9등급 자영업자 대출 연체율은 2021년 말 4.56%에서 올해 8월 말 23.58%로 뛰었다.",
+        "고금리 부담이 취약 대출자에게 집중되면서 자영업자 대출의 건전성 양극화가 뚜렷해지고 있는 것이다.",
+        "한국은행이 기준금리를 잇달아 올린 시기와 맞물려 취약 자영업자의 상환 부담이 커지는 모습이다.",
+        "문제는 앞으로 대출 금리 부담이 더 커질 수 있다는 점이다. 신용대출과 기업대출 금리에 영향을 주는 은행채 1년물 금리는 지난 17일 연 4.008%로 올라 2023년 11월 28일(4.028%) 이후 2년 10개월 만에 처음 4%를 넘어섰다."
+      ],
+      "change": "비교 가능한 과거 자료 없음 — 상향·하향·전망 변경 여부 미판정",
+      "claims": [
+        {
+          "id": "83853e7b064a146e7352c725",
+          "text": "20일 금융권에 따르면 5대 은행의 9등급 자영업자 대출 연체율은 2021년 말 4.56%에서 올해 8월 말 23.58%로 뛰었다.",
+          "kind": "fact",
+          "author": "유준호 기자",
+          "source_ids": [
+            "95790e5144e9314ce5e2600e"
+          ],
+          "evidence": [
+            {
+              "source_id": "95790e5144e9314ce5e2600e",
+              "source_version_id": "dc6e6c423444ae4ee77163f2",
+              "start": 199,
+              "end": 272,
+              "text": "20일 금융권에 따르면 5대 은행의 9등급 자영업자 대출 연체율은 2021년 말 4.56%에서 올해 8월 말 23.58%로 뛰었다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "20일 금융권에 따르면 5대 은행의 9등급 자영업자 대출 연체율은 2021년 말 4.56%에서 올해 8월 말 23.58%로 뛰었다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "361ee35bc538017f312bcc7a",
+          "text": "고금리 부담이 취약 대출자에게 집중되면서 자영업자 대출의 건전성 양극화가 뚜렷해지고 있는 것이다.",
+          "kind": "fact",
+          "author": "유준호 기자",
+          "source_ids": [
+            "95790e5144e9314ce5e2600e"
+          ],
+          "evidence": [
+            {
+              "source_id": "95790e5144e9314ce5e2600e",
+              "source_version_id": "dc6e6c423444ae4ee77163f2",
+              "start": 143,
+              "end": 197,
+              "text": "고금리 부담이 취약 대출자에게 집중되면서 자영업자 대출의 건전성 양극화가 뚜렷해지고 있는 것이다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "고금리 부담이 취약 대출자에게 집중되면서 자영업자 대출의 건전성 양극화가 뚜렷해지고 있는 것이다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "5faa6c19c8d39632b865fbe1",
+          "text": "한국은행이 기준금리를 잇달아 올린 시기와 맞물려 취약 자영업자의 상환 부담이 커지는 모습이다.",
+          "kind": "fact",
+          "author": "유준호 기자",
+          "source_ids": [
+            "95790e5144e9314ce5e2600e"
+          ],
+          "evidence": [
+            {
+              "source_id": "95790e5144e9314ce5e2600e",
+              "source_version_id": "dc6e6c423444ae4ee77163f2",
+              "start": 853,
+              "end": 905,
+              "text": "한국은행이 기준금리를 잇달아 올린 시기와 맞물려 취약 자영업자의 상환 부담이 커지는 모습이다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "한국은행이 기준금리를 잇달아 올린 시기와 맞물려 취약 자영업자의 상환 부담이 커지는 모습이다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "b64524bc3a2f0dbd87b9c8ee",
+          "text": "문제는 앞으로 대출 금리 부담이 더 커질 수 있다는 점이다. 신용대출과 기업대출 금리에 영향을 주는 은행채 1년물 금리는 지난 17일 연 4.008%로 올라 2023년 11월 28일(4.028%) 이후 2년 10개월 만에 처음 4%를 넘어섰다.",
+          "kind": "author_opinion",
+          "author": "유준호 기자",
+          "source_ids": [
+            "95790e5144e9314ce5e2600e"
+          ],
+          "evidence": [
+            {
+              "source_id": "95790e5144e9314ce5e2600e",
+              "source_version_id": "dc6e6c423444ae4ee77163f2",
+              "start": 907,
+              "end": 1043,
+              "text": "문제는 앞으로 대출 금리 부담이 더 커질 수 있다는 점이다. 신용대출과 기업대출 금리에 영향을 주는 은행채 1년물 금리는 지난 17일 연 4.008%로 올라 2023년 11월 28일(4.028%) 이후 2년 10개월 만에 처음 4%를 넘어섰다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "문제는 앞으로 대출 금리 부담이 더 커질 수 있다는 점이다. 신용대출과 기업대출 금리에 영향을 주는 은행채 1년물 금리는 지난 17일 연 4.008%로 올라 2023년 11월 28일(4.028%) 이후 2년 10개월 만에 처음 4%를 넘어섰다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "forecast"
+          },
+          "numbers": []
+        }
+      ],
+      "event_schedules": [],
+      "document_ids": [
+        "95790e5144e9314ce5e2600e"
+      ],
+      "source_versions": [
+        "dc6e6c423444ae4ee77163f2"
+      ],
+      "entities": [],
+      "selection_reason": [
+        "수집 범위 내 독립 발행자 1개",
+        "자료 기준 경과 24.3시간",
+        "이전 입력 대비 신규 문서",
+        "여러 은행의 최근 차주별 연체율 변화; 확정 정책·거시 지표 발표와 구분"
+      ],
+      "follow_up": [
+        "원문과 기간·단위·작성 주체를 확인하고 해석을 검토하세요."
+      ],
+      "confidence": "source_checked",
+      "related_issue_id": null,
+      "late_discovered": false,
+      "analysis_provider": "extractive",
+      "model_status": "not_needed_source_korean",
+      "analysis_label": "한국어 원문에서 핵심 문장 선별",
+      "evidence_expired": false,
+      "evidence_partially_expired": false,
+      "has_full_text": true,
+      "has_message_text": false,
+      "prior_day_follow_up": false,
+      "original_title": "고금리에 깊어진 자영업 양극화…5대 은행 저신용 자영업자 연체율 5년새 4∼5배로 늘어",
+      "source_title_ko": "고금리에 깊어진 자영업 양극화…5대 은행 저신용 자영업자 연체율 5년새 4∼5배로 늘어",
       "korean_required": true
     },
     {
@@ -1550,384 +1928,6 @@
       "prior_day_follow_up": false,
       "original_title": "IPO 이후 주가 80% 폭락…제미니, M&A설 '솔솔'",
       "source_title_ko": "IPO 이후 주가 80% 폭락…제미니, M&A설 '솔솔'",
-      "korean_required": true
-    },
-    {
-      "id": "09bda81fde267a048d1f3e20",
-      "anchor": "issue-7ce6aefcf9d32cac",
-      "editorial_scope": "company",
-      "event_type": "company_regulation",
-      "title": "경남에너지, 인적자원개발 우수기관 재인증",
-      "section": "overnight",
-      "category": "economy",
-      "summary": [
-        "경남에너지가 정부 4개 부처가 공동 주최하는 ‘2026년 인적자원개발 우수기관 인증사업’에서 민간부문 대기업 분야 우수기관(Best HRD)으로 재인증을 받았다.",
-        "21일 경남에너지에 따르면 이달 17일 인증을 획득했다.",
-        "인적자원개발 우수기관 인증사업은 고용노동부와 교육부, 산업통상자원부, 중소벤처기업부 등 4개 부처가 공동 주최하고 한국산업인력공단이 주관한다.",
-        "능력 중심의 공정한 인사관리와 재직자 역량개발 지원 등 인적자원개발 성과가 우수한 기관과 기업을 선정해 인증하는 사업이다."
-      ],
-      "change": "비교 가능한 과거 자료 없음 — 상향·하향·전망 변경 여부 미판정",
-      "claims": [
-        {
-          "id": "bdd08bbc2ecebb8a753f33b8",
-          "text": "경남에너지가 정부 4개 부처가 공동 주최하는 ‘2026년 인적자원개발 우수기관 인증사업’에서 민간부문 대기업 분야 우수기관(Best HRD)으로 재인증을 받았다.",
-          "kind": "fact",
-          "author": "창원=박종완 기자",
-          "source_ids": [
-            "58d90abc23518998d24afbe0"
-          ],
-          "evidence": [
-            {
-              "source_id": "58d90abc23518998d24afbe0",
-              "source_version_id": "0761b365b5999af8895ca46b",
-              "start": 0,
-              "end": 90,
-              "text": "경남에너지가 정부 4개 부처가 공동 주최하는 ‘2026년 인적자원개발 우수기관 인증사업’에서 민간부문 대기업 분야 우수기관(Best HRD)으로 재인증을 받았다.",
-              "source_excerpt_truncated": false,
-              "excerpt_truncated": false,
-              "location": "본문",
-              "display_text": "경남에너지가 정부 4개 부처가 공동 주최하는 ‘2026년 인적자원개발 우수기관 인증사업’에서 민간부문 대기업 분야 우수기관(Best HRD)으로 재인증을 받았다.",
-              "is_translation": false
-            }
-          ],
-          "rationale": "",
-          "conditions": "",
-          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
-          "validation": {
-            "semantic_support": "source_quote_only",
-            "human_review": "not_reviewed",
-            "status": "source_checked",
-            "source_linkage": "passed",
-            "content_check": "exact_quote",
-            "assertion_type": "observation"
-          },
-          "numbers": []
-        },
-        {
-          "id": "794b642d5a4ccd386b0c7781",
-          "text": "21일 경남에너지에 따르면 이달 17일 인증을 획득했다.",
-          "kind": "fact",
-          "author": "창원=박종완 기자",
-          "source_ids": [
-            "58d90abc23518998d24afbe0"
-          ],
-          "evidence": [
-            {
-              "source_id": "58d90abc23518998d24afbe0",
-              "source_version_id": "0761b365b5999af8895ca46b",
-              "start": 115,
-              "end": 146,
-              "text": "21일 경남에너지에 따르면 이달 17일 인증을 획득했다.",
-              "source_excerpt_truncated": false,
-              "excerpt_truncated": false,
-              "location": "본문",
-              "display_text": "21일 경남에너지에 따르면 이달 17일 인증을 획득했다.",
-              "is_translation": false
-            }
-          ],
-          "rationale": "",
-          "conditions": "",
-          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
-          "validation": {
-            "semantic_support": "source_quote_only",
-            "human_review": "not_reviewed",
-            "status": "source_checked",
-            "source_linkage": "passed",
-            "content_check": "exact_quote",
-            "assertion_type": "observation"
-          },
-          "numbers": []
-        },
-        {
-          "id": "1e2c489289133a7acabc0cca",
-          "text": "인적자원개발 우수기관 인증사업은 고용노동부와 교육부, 산업통상자원부, 중소벤처기업부 등 4개 부처가 공동 주최하고 한국산업인력공단이 주관한다.",
-          "kind": "fact",
-          "author": "창원=박종완 기자",
-          "source_ids": [
-            "58d90abc23518998d24afbe0"
-          ],
-          "evidence": [
-            {
-              "source_id": "58d90abc23518998d24afbe0",
-              "source_version_id": "0761b365b5999af8895ca46b",
-              "start": 147,
-              "end": 226,
-              "text": "인적자원개발 우수기관 인증사업은 고용노동부와 교육부, 산업통상자원부, 중소벤처기업부 등 4개 부처가 공동 주최하고 한국산업인력공단이 주관한다.",
-              "source_excerpt_truncated": false,
-              "excerpt_truncated": false,
-              "location": "본문",
-              "display_text": "인적자원개발 우수기관 인증사업은 고용노동부와 교육부, 산업통상자원부, 중소벤처기업부 등 4개 부처가 공동 주최하고 한국산업인력공단이 주관한다.",
-              "is_translation": false
-            }
-          ],
-          "rationale": "",
-          "conditions": "",
-          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
-          "validation": {
-            "semantic_support": "source_quote_only",
-            "human_review": "not_reviewed",
-            "status": "source_checked",
-            "source_linkage": "passed",
-            "content_check": "exact_quote",
-            "assertion_type": "observation"
-          },
-          "numbers": []
-        },
-        {
-          "id": "5e52f341a519d938571a239a",
-          "text": "능력 중심의 공정한 인사관리와 재직자 역량개발 지원 등 인적자원개발 성과가 우수한 기관과 기업을 선정해 인증하는 사업이다.",
-          "kind": "fact",
-          "author": "창원=박종완 기자",
-          "source_ids": [
-            "58d90abc23518998d24afbe0"
-          ],
-          "evidence": [
-            {
-              "source_id": "58d90abc23518998d24afbe0",
-              "source_version_id": "0761b365b5999af8895ca46b",
-              "start": 227,
-              "end": 295,
-              "text": "능력 중심의 공정한 인사관리와 재직자 역량개발 지원 등 인적자원개발 성과가 우수한 기관과 기업을 선정해 인증하는 사업이다.",
-              "source_excerpt_truncated": false,
-              "excerpt_truncated": false,
-              "location": "본문",
-              "display_text": "능력 중심의 공정한 인사관리와 재직자 역량개발 지원 등 인적자원개발 성과가 우수한 기관과 기업을 선정해 인증하는 사업이다.",
-              "is_translation": false
-            }
-          ],
-          "rationale": "",
-          "conditions": "",
-          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
-          "validation": {
-            "semantic_support": "source_quote_only",
-            "human_review": "not_reviewed",
-            "status": "source_checked",
-            "source_linkage": "passed",
-            "content_check": "exact_quote",
-            "assertion_type": "observation"
-          },
-          "numbers": []
-        }
-      ],
-      "event_schedules": [],
-      "document_ids": [
-        "58d90abc23518998d24afbe0"
-      ],
-      "source_versions": [
-        "0761b365b5999af8895ca46b"
-      ],
-      "entities": [],
-      "selection_reason": [
-        "수집 범위 내 독립 발행자 1개",
-        "자료 기준 경과 0.5시간",
-        "이전 입력 대비 신규 문서",
-        "원문에 실행·결정 근거가 있는 기업 계약·제품·자본거래·승인"
-      ],
-      "follow_up": [
-        "원문과 기간·단위·작성 주체를 확인하고 해석을 검토하세요."
-      ],
-      "confidence": "source_checked",
-      "related_issue_id": null,
-      "late_discovered": false,
-      "analysis_provider": "extractive",
-      "model_status": "not_needed_source_korean",
-      "analysis_label": "한국어 원문에서 핵심 문장 선별",
-      "evidence_expired": false,
-      "evidence_partially_expired": false,
-      "has_full_text": true,
-      "has_message_text": false,
-      "prior_day_follow_up": false,
-      "original_title": "경남에너지, 인적자원개발 우수기관 재인증",
-      "source_title_ko": "경남에너지, 인적자원개발 우수기관 재인증",
-      "korean_required": true
-    },
-    {
-      "id": "fe1b082746bcd18df60a8930",
-      "anchor": "issue-c00553ca77746b5c",
-      "editorial_scope": "company",
-      "event_type": "product_production",
-      "title": "삼현, 북미 휴머노이드 로봇 액추에이터 수주…12월부터 초도 양산 공급",
-      "section": "overnight",
-      "category": "economy",
-      "summary": [
-        "글로벌 휴머노이드 로봇 고객사의 초도 양산 물량을 수주하면서 창원 2공장 자동화 생산라인을 조기 가동하고 오는 12월부터 공급을 시작한다.",
-        "이번 수주를 통해 삼현은 오는 12월부터 북미 시장을 대상으로 초도 양산 공급에 돌입한다.",
-        "삼현은 초도 공급 이후 고객사의 사업 확대에 따라 후속 발주가 이어질 것으로 기대하고 있다.",
-        "박기원 삼현 대표이사는 \"이번 수주는 삼현의 독자 브랜드 AXLON의 기술력과 자동화 양산 경쟁력이 글로벌 시장에서 인정받은 성과\"라며 \"북미향 초도 양산 공급을 시작으로 AXLON 브랜드 중심의 글로벌 휴머노이드 액추에이터 시장 공략을 확대해 나가겠다\"고 말했다."
-      ],
-      "change": "비교 가능한 과거 자료 없음 — 상향·하향·전망 변경 여부 미판정",
-      "claims": [
-        {
-          "id": "a25b3ebd977d7369e31d049e",
-          "text": "글로벌 휴머노이드 로봇 고객사의 초도 양산 물량을 수주하면서 창원 2공장 자동화 생산라인을 조기 가동하고 오는 12월부터 공급을 시작한다.",
-          "kind": "fact",
-          "author": "윤남웅 기자",
-          "source_ids": [
-            "423fad0bf7baf3a872b47edd"
-          ],
-          "evidence": [
-            {
-              "source_id": "423fad0bf7baf3a872b47edd",
-              "source_version_id": "ffede32f1e431414661ddf6a",
-              "start": 76,
-              "end": 153,
-              "text": "글로벌 휴머노이드 로봇 고객사의 초도 양산 물량을 수주하면서 창원 2공장 자동화 생산라인을 조기 가동하고 오는 12월부터 공급을 시작한다.",
-              "source_excerpt_truncated": false,
-              "excerpt_truncated": false,
-              "location": "본문",
-              "display_text": "글로벌 휴머노이드 로봇 고객사의 초도 양산 물량을 수주하면서 창원 2공장 자동화 생산라인을 조기 가동하고 오는 12월부터 공급을 시작한다.",
-              "is_translation": false
-            }
-          ],
-          "rationale": "",
-          "conditions": "",
-          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
-          "validation": {
-            "semantic_support": "source_quote_only",
-            "human_review": "not_reviewed",
-            "status": "source_checked",
-            "source_linkage": "passed",
-            "content_check": "exact_quote",
-            "assertion_type": "observation"
-          },
-          "numbers": []
-        },
-        {
-          "id": "f2712d3547a709236c46d329",
-          "text": "이번 수주를 통해 삼현은 오는 12월부터 북미 시장을 대상으로 초도 양산 공급에 돌입한다.",
-          "kind": "fact",
-          "author": "윤남웅 기자",
-          "source_ids": [
-            "423fad0bf7baf3a872b47edd"
-          ],
-          "evidence": [
-            {
-              "source_id": "423fad0bf7baf3a872b47edd",
-              "source_version_id": "ffede32f1e431414661ddf6a",
-              "start": 590,
-              "end": 640,
-              "text": "이번 수주를 통해 삼현은 오는 12월부터 북미 시장을 대상으로 초도 양산 공급에 돌입한다.",
-              "source_excerpt_truncated": false,
-              "excerpt_truncated": false,
-              "location": "본문",
-              "display_text": "이번 수주를 통해 삼현은 오는 12월부터 북미 시장을 대상으로 초도 양산 공급에 돌입한다.",
-              "is_translation": false
-            }
-          ],
-          "rationale": "",
-          "conditions": "",
-          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
-          "validation": {
-            "semantic_support": "source_quote_only",
-            "human_review": "not_reviewed",
-            "status": "source_checked",
-            "source_linkage": "passed",
-            "content_check": "exact_quote",
-            "assertion_type": "observation"
-          },
-          "numbers": []
-        },
-        {
-          "id": "8abbdd254dc6bc2bc598d015",
-          "text": "삼현은 초도 공급 이후 고객사의 사업 확대에 따라 후속 발주가 이어질 것으로 기대하고 있다.",
-          "kind": "fact",
-          "author": "윤남웅 기자",
-          "source_ids": [
-            "423fad0bf7baf3a872b47edd"
-          ],
-          "evidence": [
-            {
-              "source_id": "423fad0bf7baf3a872b47edd",
-              "source_version_id": "ffede32f1e431414661ddf6a",
-              "start": 697,
-              "end": 748,
-              "text": "삼현은 초도 공급 이후 고객사의 사업 확대에 따라 후속 발주가 이어질 것으로 기대하고 있다.",
-              "source_excerpt_truncated": false,
-              "excerpt_truncated": false,
-              "location": "본문",
-              "display_text": "삼현은 초도 공급 이후 고객사의 사업 확대에 따라 후속 발주가 이어질 것으로 기대하고 있다.",
-              "is_translation": false
-            }
-          ],
-          "rationale": "",
-          "conditions": "",
-          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
-          "validation": {
-            "semantic_support": "source_quote_only",
-            "human_review": "not_reviewed",
-            "status": "source_checked",
-            "source_linkage": "passed",
-            "content_check": "exact_quote",
-            "assertion_type": "observation"
-          },
-          "numbers": []
-        },
-        {
-          "id": "675845934251bae980076ab9",
-          "text": "박기원 삼현 대표이사는 \"이번 수주는 삼현의 독자 브랜드 AXLON의 기술력과 자동화 양산 경쟁력이 글로벌 시장에서 인정받은 성과\"라며 \"북미향 초도 양산 공급을 시작으로 AXLON 브랜드 중심의 글로벌 휴머노이드 액추에이터 시장 공략을 확대해 나가겠다\"고 말했다.",
-          "kind": "fact",
-          "author": "윤남웅 기자",
-          "source_ids": [
-            "423fad0bf7baf3a872b47edd"
-          ],
-          "evidence": [
-            {
-              "source_id": "423fad0bf7baf3a872b47edd",
-              "source_version_id": "ffede32f1e431414661ddf6a",
-              "start": 1069,
-              "end": 1217,
-              "text": "박기원 삼현 대표이사는 \"이번 수주는 삼현의 독자 브랜드 AXLON의 기술력과 자동화 양산 경쟁력이 글로벌 시장에서 인정받은 성과\"라며 \"북미향 초도 양산 공급을 시작으로 AXLON 브랜드 중심의 글로벌 휴머노이드 액추에이터 시장 공략을 확대해 나가겠다\"고 말했다.",
-              "source_excerpt_truncated": false,
-              "excerpt_truncated": false,
-              "location": "본문",
-              "display_text": "박기원 삼현 대표이사는 \"이번 수주는 삼현의 독자 브랜드 AXLON의 기술력과 자동화 양산 경쟁력이 글로벌 시장에서 인정받은 성과\"라며 \"북미향 초도 양산 공급을 시작으로 AXLON 브랜드 중심의 글로벌 휴머노이드 액추에이터 시장 공략을 확대해 나가겠다\"고 말했다.",
-              "is_translation": false
-            }
-          ],
-          "rationale": "",
-          "conditions": "",
-          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
-          "validation": {
-            "semantic_support": "source_quote_only",
-            "human_review": "not_reviewed",
-            "status": "source_checked",
-            "source_linkage": "passed",
-            "content_check": "exact_quote",
-            "assertion_type": "observation"
-          },
-          "numbers": []
-        }
-      ],
-      "event_schedules": [],
-      "document_ids": [
-        "423fad0bf7baf3a872b47edd"
-      ],
-      "source_versions": [
-        "ffede32f1e431414661ddf6a"
-      ],
-      "entities": [],
-      "selection_reason": [
-        "수집 범위 내 독립 발행자 1개",
-        "자료 기준 경과 0.5시간",
-        "이전 입력 대비 신규 문서",
-        "원문에 실행·결정 근거가 있는 기업 계약·제품·자본거래·승인"
-      ],
-      "follow_up": [
-        "원문과 기간·단위·작성 주체를 확인하고 해석을 검토하세요."
-      ],
-      "confidence": "source_checked",
-      "related_issue_id": null,
-      "late_discovered": false,
-      "analysis_provider": "extractive",
-      "model_status": "not_needed_source_korean",
-      "analysis_label": "한국어 원문에서 핵심 문장 선별",
-      "evidence_expired": false,
-      "evidence_partially_expired": false,
-      "has_full_text": true,
-      "has_message_text": false,
-      "prior_day_follow_up": false,
-      "original_title": "삼현, 북미 휴머노이드 로봇 액추에이터 수주…12월부터 초도 양산 공급",
-      "source_title_ko": "삼현, 북미 휴머노이드 로봇 액추에이터 수주…12월부터 초도 양산 공급",
       "korean_required": true
     },
     {
@@ -4963,195 +4963,6 @@
       "original_title": "[굿모닝! AI 리포트] 오픈AI, '금융서비스용 챗GPT' 선봬…MS, 'AI 통제' 행동강령 발표",
       "source_title_ko": "[굿모닝! AI 리포트] 오픈AI, '금융서비스용 챗GPT' 선봬…MS, 'AI 통제' 행동강령 발표",
       "korean_required": true
-    },
-    {
-      "id": "5edb04123be9790c63437834",
-      "anchor": "issue-6f4e7833c7464aae",
-      "editorial_scope": "company",
-      "event_type": "contract",
-      "title": "삼성물산, ‘1.8조 규모’ 성수3지구 재개발 따냈다",
-      "section": "investment",
-      "category": "research",
-      "summary": [
-        "삼성물산(028260) 건설부문이 공사비 1조 8275억원 규모의 서울 성동구 성수3지구 재개발 사업을 수주했다.",
-        "삼성물산은 성수3지구 재개발 조합이 지난 19일 총회를 열고 삼성물산을 시공사로 선정하는 안건을 가결했다고 21일 밝혔다.",
-        "성수3지구 재개발은 서울 성동구 성수2가1동 572-7번지 일대에 공동주택과 업무·근린생활시설 등을 조성하는 사업이다.",
-        "공동주택은 최고 72층, 11개동, 2203가구 규모로 계획됐다."
-      ],
-      "change": "비교 가능한 과거 자료 없음 — 상향·하향·전망 변경 여부 미판정",
-      "claims": [
-        {
-          "id": "6cded13ff705b67e1706ad56",
-          "text": "삼성물산(028260) 건설부문이 공사비 1조 8275억원 규모의 서울 성동구 성수3지구 재개발 사업을 수주했다.",
-          "kind": "fact",
-          "author": "이데일리",
-          "source_ids": [
-            "fa5106fbbb96f954be9f229b"
-          ],
-          "evidence": [
-            {
-              "source_id": "fa5106fbbb96f954be9f229b",
-              "source_version_id": "caad866012aa369226fea975",
-              "start": 13,
-              "end": 76,
-              "text": "삼성물산(028260) 건설부문이 공사비 1조 8275억원 규모의 서울 성동구 성수3지구 재개발 사업을 수주했다.",
-              "source_excerpt_truncated": false,
-              "excerpt_truncated": false,
-              "location": "본문",
-              "display_text": "삼성물산(028260) 건설부문이 공사비 1조 8275억원 규모의 서울 성동구 성수3지구 재개발 사업을 수주했다.",
-              "is_translation": false
-            }
-          ],
-          "rationale": "",
-          "conditions": "",
-          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
-          "validation": {
-            "semantic_support": "source_quote_only",
-            "human_review": "not_reviewed",
-            "status": "source_checked",
-            "source_linkage": "passed",
-            "content_check": "exact_quote",
-            "assertion_type": "observation"
-          },
-          "numbers": []
-        },
-        {
-          "id": "c633625bc9342b0bd0c982d7",
-          "text": "삼성물산은 성수3지구 재개발 조합이 지난 19일 총회를 열고 삼성물산을 시공사로 선정하는 안건을 가결했다고 21일 밝혔다.",
-          "kind": "fact",
-          "author": "이데일리",
-          "source_ids": [
-            "fa5106fbbb96f954be9f229b"
-          ],
-          "evidence": [
-            {
-              "source_id": "fa5106fbbb96f954be9f229b",
-              "source_version_id": "caad866012aa369226fea975",
-              "start": 78,
-              "end": 146,
-              "text": "삼성물산은 성수3지구 재개발 조합이 지난 19일 총회를 열고 삼성물산을 시공사로 선정하는 안건을 가결했다고 21일 밝혔다.",
-              "source_excerpt_truncated": false,
-              "excerpt_truncated": false,
-              "location": "본문",
-              "display_text": "삼성물산은 성수3지구 재개발 조합이 지난 19일 총회를 열고 삼성물산을 시공사로 선정하는 안건을 가결했다고 21일 밝혔다.",
-              "is_translation": false
-            }
-          ],
-          "rationale": "",
-          "conditions": "",
-          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
-          "validation": {
-            "semantic_support": "source_quote_only",
-            "human_review": "not_reviewed",
-            "status": "source_checked",
-            "source_linkage": "passed",
-            "content_check": "exact_quote",
-            "assertion_type": "observation"
-          },
-          "numbers": []
-        },
-        {
-          "id": "a2840c82b81fbad54adacb76",
-          "text": "성수3지구 재개발은 서울 성동구 성수2가1동 572-7번지 일대에 공동주택과 업무·근린생활시설 등을 조성하는 사업이다.",
-          "kind": "fact",
-          "author": "이데일리",
-          "source_ids": [
-            "fa5106fbbb96f954be9f229b"
-          ],
-          "evidence": [
-            {
-              "source_id": "fa5106fbbb96f954be9f229b",
-              "source_version_id": "caad866012aa369226fea975",
-              "start": 148,
-              "end": 214,
-              "text": "성수3지구 재개발은 서울 성동구 성수2가1동 572-7번지 일대에 공동주택과 업무·근린생활시설 등을 조성하는 사업이다.",
-              "source_excerpt_truncated": false,
-              "excerpt_truncated": false,
-              "location": "본문",
-              "display_text": "성수3지구 재개발은 서울 성동구 성수2가1동 572-7번지 일대에 공동주택과 업무·근린생활시설 등을 조성하는 사업이다.",
-              "is_translation": false
-            }
-          ],
-          "rationale": "",
-          "conditions": "",
-          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
-          "validation": {
-            "semantic_support": "source_quote_only",
-            "human_review": "not_reviewed",
-            "status": "source_checked",
-            "source_linkage": "passed",
-            "content_check": "exact_quote",
-            "assertion_type": "observation"
-          },
-          "numbers": []
-        },
-        {
-          "id": "ae6c0d6ca7f5e95c736786fc",
-          "text": "공동주택은 최고 72층, 11개동, 2203가구 규모로 계획됐다.",
-          "kind": "fact",
-          "author": "이데일리",
-          "source_ids": [
-            "fa5106fbbb96f954be9f229b"
-          ],
-          "evidence": [
-            {
-              "source_id": "fa5106fbbb96f954be9f229b",
-              "source_version_id": "caad866012aa369226fea975",
-              "start": 215,
-              "end": 251,
-              "text": "공동주택은 최고 72층, 11개동, 2203가구 규모로 계획됐다.",
-              "source_excerpt_truncated": false,
-              "excerpt_truncated": false,
-              "location": "본문",
-              "display_text": "공동주택은 최고 72층, 11개동, 2203가구 규모로 계획됐다.",
-              "is_translation": false
-            }
-          ],
-          "rationale": "",
-          "conditions": "",
-          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
-          "validation": {
-            "semantic_support": "source_quote_only",
-            "human_review": "not_reviewed",
-            "status": "source_checked",
-            "source_linkage": "passed",
-            "content_check": "exact_quote",
-            "assertion_type": "observation"
-          },
-          "numbers": []
-        }
-      ],
-      "event_schedules": [],
-      "document_ids": [
-        "fa5106fbbb96f954be9f229b"
-      ],
-      "source_versions": [
-        "caad866012aa369226fea975"
-      ],
-      "entities": [],
-      "selection_reason": [
-        "수집 범위 내 독립 발행자 1개",
-        "자료 기준 경과 1.0시간",
-        "이전 입력 대비 신규 문서",
-        "원문에 실행·결정 근거가 있는 기업 계약·제품·자본거래·승인"
-      ],
-      "follow_up": [
-        "원문과 기간·단위·작성 주체를 확인하고 해석을 검토하세요."
-      ],
-      "confidence": "source_checked",
-      "related_issue_id": null,
-      "late_discovered": false,
-      "analysis_provider": "extractive",
-      "model_status": "not_needed_source_korean",
-      "analysis_label": "한국어 원문에서 핵심 문장 선별",
-      "evidence_expired": false,
-      "evidence_partially_expired": false,
-      "has_full_text": true,
-      "has_message_text": false,
-      "prior_day_follow_up": false,
-      "original_title": "삼성물산, ‘1.8조 규모’ 성수3지구 재개발 따냈다",
-      "source_title_ko": "삼성물산, ‘1.8조 규모’ 성수3지구 재개발 따냈다",
-      "korean_required": true
     }
   ],
   "sources": [
@@ -5329,27 +5140,6 @@
       "synthetic": false
     },
     {
-      "id": "58d90abc23518998d24afbe0",
-      "version_id": "0761b365b5999af8895ca46b",
-      "source_id": "naver_general",
-      "source_kind": "news",
-      "title": "경남에너지, 인적자원개발 우수기관 재인증",
-      "publisher": "서울경제",
-      "author": "창원=박종완 기자",
-      "url": "https://www.sedaily.com/article/20093265?ref=naver",
-      "published_at": "2026-09-21T00:25:22+00:00",
-      "provided_at": "2026-09-21T00:26:00+00:00",
-      "modified_at": null,
-      "collected_at": "2026-09-21T00:51:23.441216+00:00",
-      "event_at": null,
-      "time_basis": "original_published_at",
-      "full_text": true,
-      "text_scope": "기사·문서 본문 확보",
-      "evidence_expired": false,
-      "extraction_quality": "article_text",
-      "synthetic": false
-    },
-    {
       "id": "8fe0711563e955d4505f4a2f",
       "version_id": "07e43c85be18560cd781a51d",
       "source_id": "naver_general",
@@ -5425,6 +5215,27 @@
       "provided_at": "2026-09-20T09:13:00+00:00",
       "modified_at": "2026-09-20T11:04:00+00:00",
       "collected_at": "2026-09-20T11:25:31.382757+00:00",
+      "event_at": null,
+      "time_basis": "original_published_at",
+      "full_text": true,
+      "text_scope": "기사·문서 본문 확보",
+      "evidence_expired": false,
+      "extraction_quality": "article_text",
+      "synthetic": false
+    },
+    {
+      "id": "4b3059ffb6e880b5057bbc6b",
+      "version_id": "3cd0b5a7307783e349d5a511",
+      "source_id": "einfomax",
+      "source_kind": "news",
+      "title": "中 인민은행, 16개월 연속 LPR 동결",
+      "publisher": "연합인포맥스",
+      "author": "",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4435799",
+      "published_at": "2026-09-20T06:30:09+00:00",
+      "provided_at": null,
+      "modified_at": null,
+      "collected_at": "2026-09-20T06:40:52.094301+00:00",
       "event_at": null,
       "time_basis": "original_published_at",
       "full_text": true,
@@ -5770,27 +5581,6 @@
       "synthetic": false
     },
     {
-      "id": "fa5106fbbb96f954be9f229b",
-      "version_id": "caad866012aa369226fea975",
-      "source_id": "naver_investment",
-      "source_kind": "news",
-      "title": "삼성물산, ‘1.8조 규모’ 성수3지구 재개발 따냈다",
-      "publisher": "이데일리",
-      "author": "",
-      "url": "https://www.edaily.co.kr/News/Read?newsId=02128726645582416&mediaCodeNo=257",
-      "published_at": "2026-09-20T23:54:36+00:00",
-      "provided_at": "2026-09-20T23:56:00+00:00",
-      "modified_at": null,
-      "collected_at": "2026-09-21T00:43:48.937471+00:00",
-      "event_at": null,
-      "time_basis": "original_published_at",
-      "full_text": true,
-      "text_scope": "기사·문서 본문 확보",
-      "evidence_expired": false,
-      "extraction_quality": "article_text",
-      "synthetic": false
-    },
-    {
       "id": "c28b791b7aa25e7bd7385537",
       "version_id": "d97085be1e0d7ea9c9c7eb4f",
       "source_id": "naver_investment",
@@ -5803,6 +5593,27 @@
       "provided_at": "2026-09-19T04:19:00+00:00",
       "modified_at": null,
       "collected_at": "2026-09-19T05:11:42.971726+00:00",
+      "event_at": null,
+      "time_basis": "original_published_at",
+      "full_text": true,
+      "text_scope": "기사·문서 본문 확보",
+      "evidence_expired": false,
+      "extraction_quality": "article_text",
+      "synthetic": false
+    },
+    {
+      "id": "95790e5144e9314ce5e2600e",
+      "version_id": "dc6e6c423444ae4ee77163f2",
+      "source_id": "naver_general",
+      "source_kind": "news",
+      "title": "고금리에 깊어진 자영업 양극화…5대 은행 저신용 자영업자 연체율 5년새 4∼5배로 늘어",
+      "publisher": "조선일보",
+      "author": "유준호 기자",
+      "url": "https://www.chosun.com/economy/economy_general/2026/09/20/6YW7YVWZA5BNZBK6SKKYCPNK4U/",
+      "published_at": "2026-09-20T00:38:14.759000+00:00",
+      "provided_at": "2026-09-20T00:40:00+00:00",
+      "modified_at": "2026-09-20T05:37:02.958000+00:00",
+      "collected_at": "2026-09-20T06:10:44.560623+00:00",
       "event_at": null,
       "time_basis": "original_published_at",
       "full_text": true,
@@ -5873,27 +5684,6 @@
       "evidence_expired": false,
       "extraction_quality": "article_text",
       "synthetic": false
-    },
-    {
-      "id": "423fad0bf7baf3a872b47edd",
-      "version_id": "ffede32f1e431414661ddf6a",
-      "source_id": "naver_general",
-      "source_kind": "news",
-      "title": "삼현, 북미 휴머노이드 로봇 액추에이터 수주…12월부터 초도 양산 공급",
-      "publisher": "중앙이코노미뉴스",
-      "author": "윤남웅 기자",
-      "url": "https://www.joongangenews.com/news/articleView.html?idxno=549486",
-      "published_at": "2026-09-21T00:27:39+00:00",
-      "provided_at": "2026-09-21T00:28:00+00:00",
-      "modified_at": "2026-09-21T00:27:39+00:00",
-      "collected_at": "2026-09-21T00:48:47.998129+00:00",
-      "event_at": null,
-      "time_basis": "original_published_at",
-      "full_text": true,
-      "text_scope": "기사·문서 본문 확보",
-      "evidence_expired": false,
-      "extraction_quality": "article_text",
-      "synthetic": false
     }
   ],
   "coverage": {
@@ -5930,7 +5720,7 @@
   "korean_required": true,
   "translation": {
     "status": "complete",
-    "issues_completed": 27,
+    "issues_completed": 26,
     "issues_pending": 0,
     "foreign_issues_completed": 0
   },
