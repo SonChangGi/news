@@ -8602,7 +8602,6 @@
     }
   ],
   "coverage": {},
-  "editorial_focus": "general",
   "korean_required": true,
   "translation": {
     "issues_pending": 0
@@ -8617,6 +8616,7 @@
   },
   "synthetic": false,
   "notice": "본 프로젝트는 비상업적 개인 학습·연구를 위한 리서치 자동화 도구입니다. 자료의 출처를 표시하며 원문 권리는 각 권리자에게 있습니다.",
+  "editorial_focus": "general",
   "edition_kind": "weekend",
   "period_id": "weekend:2026-09-14",
   "previous_revision_run_id": "",
