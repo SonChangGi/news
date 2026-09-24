@@ -3,12 +3,27 @@
   "visibility": "public",
   "base_path": "/news/",
   "timezone": "Asia/Seoul",
-  "latest_date": "2026-09-23",
-  "updated_at": "2026-09-23T16:07:09.812541+00:00",
+  "latest_date": "2026-09-24",
+  "updated_at": "2026-09-24T09:44:36.189557+00:00",
   "latest_url": "/news/",
   "archive_url": "/news/?archive=1",
   "manifest_url": "/news/archive.json",
   "entries": [
+    {
+      "date": "2026-09-24",
+      "mode": "on_time",
+      "generated_at": "2026-09-24T09:44:36.189557+00:00",
+      "cutoff": "2026-09-24T18:20:39.246089+09:00",
+      "issue_count": 32,
+      "status": "partial",
+      "url": "/news/daily/2026-09-24/index.html",
+      "report_url": "/news/daily/2026-09-24/index.html",
+      "sha256": {
+        "json": "9b572f5c907dd9661484923153596a882e1eb06b5a49a71f70662933bee1869d",
+        "markdown": "9386e69116c5c9c7c75a2564f0161b3f48cbacae131bdb5a644d457ed68d40e0",
+        "html": "f49fb644dc0917890d9e4289f5accf43d83c3bd047d24310e60ed3c818bf9ad1"
+      }
+    },
     {
       "date": "2026-09-23",
       "mode": "on_time",
@@ -20,8 +35,8 @@
       "report_url": "/news/daily/2026-09-23/index.html",
       "sha256": {
         "json": "d2b132e6627e3900442c0cb20e012ff0ae9d46edf6bef82934bd484f28409e2d",
-        "markdown": "fa90d402f528e7f4151ffe1f69c6c5169ffa7bd4b82f8e87385bcfdf2afce075",
-        "html": "ee4363ba3aa4f823f28cb0511a61fa2664ae63bb3302ab9c10d82e6a0ea08e1f"
+        "markdown": "e5edeefc3563f7aa76486d97b11af00a3449cd907fe02a04627c8b50697af319",
+        "html": "be05ab3c1a76e1b3d73bf82c1030109cc8411ae8c6dd12aefaf1dd67fd93a05a"
       }
     },
     {
@@ -35,8 +50,8 @@
       "report_url": "/news/daily/2026-09-22/index.html",
       "sha256": {
         "json": "a48fcf9a5a54c7aabc8b197f99aba0ef568914ae9da921e47a5957f31a45dc90",
-        "markdown": "81583d0427503e3767034dca888e0bec51ad359d899295141c229390103c0050",
-        "html": "cf59bb43471aa3bd9ce28d3a3835a96ea01b9fb74bfde2de6c61c8408a4562f9"
+        "markdown": "61e7e95e2d4119221d378715aeb994c83c8d6e9ddc2fb7d8fbb189fe781848e6",
+        "html": "45fad41300ba826e93633e5ea651422103c02b6597e98ab5a4e975a35a57eac1"
       }
     },
     {
@@ -50,8 +65,8 @@
       "report_url": "/news/daily/2026-09-21/index.html",
       "sha256": {
         "json": "8715e2b1c4ef6740e82d425930fdc628f84ffaf9caaa07a27aea66dce3c83770",
-        "markdown": "bc72602b1ed11fd3fd58f739cdf15b130e81aa6c3ef57e9c7494ae4f73d9c2d4",
-        "html": "b0ad7a5e302695dec6fd19b037caefcbfe88bf48cb715aaac9bd0e481c90f0b3"
+        "markdown": "8709ce9557d31b92b9e5ce22f831b8ab565f57ead5bf207fa1c118cc0d665052",
+        "html": "6e4ea3ad024265bf696dfacd95030619efde57548a54f47352c5c9620da0c1d0"
       }
     },
     {
@@ -72,9 +87,9 @@
       "url": "/news/weekend/2026-09-14/index.html",
       "report_url": "/news/weekend/2026-09-14/index.html",
       "sha256": {
-        "json": "1a9e3349dcdc8d59e96c9732cff576df884490cdab589d53b292378d8da2447a",
+        "json": "dd9d0c17cd75dd5b00d3de9c30d665f36963a9cb193018d978c829123e6df789",
         "markdown": "0e85e3c513267e9b96a628248b294c636f5b9c15e9db54cb7f05bac84733046b",
-        "html": "113ad7c4a9e841b335e104a68571a8cae7f02ff90c26b8965129f5bf5249cfe6"
+        "html": "fdd964b53ef532a47bbedb455827ef0b5a88f5ed794a0ec5d347fa009dd817e3"
       }
     },
     {
@@ -88,8 +103,8 @@
       "report_url": "/news/daily/2026-09-18/index.html",
       "sha256": {
         "json": "9951d95a02820153a48b9138fe7165bd8d4a98b0fda2b146d06133d8504a4c5e",
-        "markdown": "5f75f741b71d7528a922b190e14433db8910d84a7e882f3c08427e19245c5ba3",
-        "html": "1781c118101a0fe171174bcce62b2adc9ed7df237a3ea117764aca4cb81a3a0b"
+        "markdown": "10c6afc5e12256683f9b74d71799c94486795dbd3b78047f28bd584dd04cd5d0",
+        "html": "eafa894cbff21a82c957d04f671efce38b5dc4da19ed2e3df65213420711341b"
       }
     },
     {
@@ -103,8 +118,8 @@
       "report_url": "/news/daily/2026-09-17/index.html",
       "sha256": {
         "json": "2ee00ab1fc39a688051e9f979f7e453be5292adeefc3ec13ef6090c0ad70497e",
-        "markdown": "8baf7f2ae29d9a9136c2bb21aa5701b1ddf1a68821c389f846eafc23c7e51069",
-        "html": "0ef417276dc2970e8bbc01de5b8e11eaba472fa3254a29431b03f3c6895c6140"
+        "markdown": "5543c7a6902de54cead09649e987a6da83fba183c27d8bb31c14d397df945af3",
+        "html": "663a3b9a1bc6b6d854e81e85f9ae631939f8ab667076132a273600a5ee91df79"
       }
     },
     {
@@ -118,8 +133,8 @@
       "report_url": "/news/daily/2026-09-16/index.html",
       "sha256": {
         "json": "d35679f6bb16b1f889747c01366ae9ef6c9674a300397c800a3a8aef0ad1ff11",
-        "markdown": "a0882f8c1126cc76e6305c8c85fe25246b472afd8f2309555f835848db7efd5b",
-        "html": "880fda633b29c84f9ef26b1e0f7ed5caadda4c2036689316113d42360cb7e42c"
+        "markdown": "342ae360ae55aafff558cbd6346078234ed993a71bfcb3e155d888d4df3e7783",
+        "html": "69ea58e8a8b6aecb0bc0b616cd18cbe0f4455aa38ecf0613f9e35f712005cfea"
       }
     },
     {
@@ -133,8 +148,8 @@
       "report_url": "/news/daily/2026-09-15/index.html",
       "sha256": {
         "json": "f297103eddd388584c7c2f0942a8a55a38dbee42592898a11478d65f767bc397",
-        "markdown": "8e342f442ac9f12a18bf1bfaf22ea8f486ff4f80fb30162f249a49e5b96b3fd4",
-        "html": "b756a4b3b2f45ca48f397b9c09282965bb81cf63c1c261e03c07795835aecc81"
+        "markdown": "0f73b2812107f023a92dcc25f3df7875115c07f4b9f2b17c7461bbb145b69640",
+        "html": "b611d5f64de8a38c507910f058dfb6788a2c7bfaaa1ea3b01cfbc5dd88b62d0f"
       }
     },
     {
@@ -148,8 +163,8 @@
       "report_url": "/news/daily/2026-09-14/index.html",
       "sha256": {
         "json": "e3f5e3bbb7936f1ec766ee149b78e52c4e6aee4f8c990442defc9f0bb7efd369",
-        "markdown": "1df5ca5c89d0cc36ba324c710c45ca4e3b5031e3957ff07b4d1bb7545a6dfe72",
-        "html": "3d45322051c03cd334b488d20131538b67970e58e67b7cc322d0b524a09a3561"
+        "markdown": "4a293be8c8361ccc584ef55dfc663aadd9b1f79185d28cac08f22e48e8f7058a",
+        "html": "b00c126568c6725fdb3fad7e37a3e29ce1798b209ae5173be968fa809d9ae6db"
       }
     },
     {
@@ -163,8 +178,8 @@
       "report_url": "/news/daily/2026-09-13/index.html",
       "sha256": {
         "json": "ef5d3659fe82393d22825ede836b9cb02e7717ec09a282eacd2f09ac08c7ccb2",
-        "markdown": "959b3725125a06aa0c93937d1d96d7cabde6fa1a66aa9b843a41ef6b19770e5b",
-        "html": "f530509f11a122dfa45e2cbe82e195d5bbc403d5d6daeba3d093758b7ef3d9cc"
+        "markdown": "71fb32d292c3fd110e263b3f56cae80d11528f591f8472ba24151b402137c448",
+        "html": "0781251bf2b6025835b11bb83ffa4b47f04e031e1d9b52c2a4d263e320ee8839"
       }
     },
     {
@@ -178,8 +193,8 @@
       "report_url": "/news/daily/2026-09-12/index.html",
       "sha256": {
         "json": "a1347bda08a527af245228c18909e6208c36d3f4b1fecba8be0fe33f0c61c23e",
-        "markdown": "7e24482492f998d9be9397b65e54a99338db8ce464d05cf61f76e38cff79ff02",
-        "html": "4606651d84826a34c231ee30fc12654b30984e7794d59bfde7525e11951e9e61"
+        "markdown": "4edcf970305f08b33b9890ff722ba3cdae7b52bf1ae3881d25696ccc7f24305d",
+        "html": "0eb26fe979511de5b58b14d622d4e1cd916fec54a66266945af5d5c91d40e12e"
       }
     }
   ]
