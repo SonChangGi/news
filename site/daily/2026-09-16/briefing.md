@@ -84,7 +84,7 @@
 
 **출처**
 - [8월 수출 983억달러 역대 최대...15개월 연속 증가](<https://www.newsinside.kr/news/articleView.html?idxno=5000821>) · 뉴스인사이드 · 발행 09.15 13:35 KST · 수집 09.15 16:08 KST · 기사·문서 본문 확보 · 시간 기준 원문 발행
-- [8월 수출 983억 달러....15개월 연속 증가](<http://www.intn.co.kr/news/articleView.html?idxno=2053339>) · 日刊 NTN\(일간NTN\)  · 발행 09.15 11:07 KST · 수집 09.15 14:48 KST · 기사·문서 본문 확보 · 시간 기준 원문 발행
+- [8월 수출 983억 달러....15개월 연속 증가](<http://www.intn.co.kr/news/articleView.html?idxno=2053339>) · 日刊 NTN\(일간NTN\) · 발행 09.15 11:07 KST · 수집 09.15 14:48 KST · 기사·문서 본문 확보 · 시간 기준 원문 발행
 - [반도체 수출 호조에 8월 348억 달러 무역흑자](<https://www.junggi.co.kr/news/articleView.html?idxno=37779>) · 중기이코노미 · 발행 09.15 10:55 KST · 수집 09.15 14:49 KST · 기사·문서 본문 확보 · 시간 기준 원문 발행
 - [반도체 호조에 8월 수출 983억달러, 15개월 연속 증가](<https://news.bbsi.co.kr/news/articleView.html?idxno=4106604>) · 불교방송 · 발행 09.15 10:37 KST · 수집 09.15 14:50 KST · 기사·문서 본문 확보 · 시간 기준 원문 발행
 - [8월 수출 983억달러 ‘역대 최대’…반도체 3배 뛰며 15개월째 증가](<https://www.kukinews.com/article/view/kuk202609150041>) · 쿠키뉴스 · 발행 확인되지 않음 · 수집 09.15 14:52 KST · 기사·문서 본문 확보 · 시간 기준 검색 결과 제공
