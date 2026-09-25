@@ -48,7 +48,7 @@
 
 **출처**
 - [반도체 회복이 바꾼 한국 경제…수출·제조업 비중 확대](<https://www.ebn.co.kr/news/articleView.html?idxno=1725171>) · 이비엔\(EBN\)뉴스센터 · 발행 09.21 16:14 KST · 수집 09.22 01:18 KST · 기사·문서 본문 확보 · 시간 기준 원문 발행
-- [반도체 회복에 한국경제 수출 비중 확대…수출률 19%로 상승](<https://www.ppss.kr/news/articleView.html?idxno=311819>) · ㅍㅍㅅㅅ PPSS  · 발행 09.21 16:10 KST · 수집 09.22 01:43 KST · 기사·문서 본문 확보 · 시간 기준 원문 발행
+- [반도체 회복에 한국경제 수출 비중 확대…수출률 19%로 상승](<https://www.ppss.kr/news/articleView.html?idxno=311819>) · ㅍㅍㅅㅅ PPSS · 발행 09.21 16:10 KST · 수집 09.22 01:43 KST · 기사·문서 본문 확보 · 시간 기준 원문 발행
 - [2024년 한국 경제, 수출 비중 커지고 부가가치율 상승](<https://news.sbs.co.kr/news/endPage.do?news_id=N1008763838&plink=ORI&cooper=NAVER>) · SBS 뉴스 · 발행 09.21 14:41 KST · 수집 09.21 14:57 KST · 기사·문서 본문 확보 · 시간 기준 원문 발행
 - [반도체 부가가치율 1년 새 2.7배↑⋯고용효과 하락](<http://www.newsfc.co.kr/news/articleView.html?idxno=81286>) · 금융소비자뉴스 · 발행 09.21 14:27 KST · 수집 09.21 14:57 KST · 기사·문서 본문 확보 · 시간 기준 원문 발행
 - [2024년 반도체 수출 증가에 공산품 부가가치 비중 확대···수출 유발 생산도 늘어](<https://www.todaykorea.co.kr/news/articleView.html?idxno=406365>) · 투데이코리아 · 발행 09.21 14:10 KST · 수집 09.21 14:56 KST · 기사·문서 본문 확보 · 시간 기준 원문 발행
