@@ -2,16 +2,6 @@
 
 자료 마감 **09.25 13:38 KST** · 생성 09.25 13:53 KST · 일부 자료로 생성
 
-> 비핵심 이슈 2개는 번역 검증을 통과하지 못해 제외했습니다. 게시된 이슈는 검증을 통과했습니다.
-
-> 원문 재확인 제외 5건 · 출처 요청 한도 도달
-
-- **주요 후보 확인 필요** · The Guardian · UK interest rate rise ‘increasingly likely’ with high energy prices; inflation fears hit bonds – as it happened
-- arXiv.org · Surface-Driven Stochastic Volatility for Commodity Options: Identification of Stochastic Vol-of-Vol and Leverage from Smile Dynamics
-- arXiv.org · Active Portfolio Management in Concentrated Equity Markets
-- arXiv.org · Loss Choice or Model Choice? The Role of Forecast Level in Cryptocurrency Volatility Forecasting
-- arXiv.org · Rule-Based Pricing Algorithms and Market Outcomes: An Experimental Study
-
 수집 누락·제한: 가입 텔레그램 채널·그룹 (일부 수집), 미국 연방준비제도 발표 (일부 수집), 엔비디아 기업 발표 (일부 수집), 미국 노동통계국 (접근 제한), 미국 경제분석국 (설정 한도 도달), 코카콜라 기업 발표 (설정 한도 도달), 한겨레 경제 (설정 한도 도달), 비비시 경제 (설정 한도 도달), 가디언 경제 (설정 한도 도달), GeekNews · AI (설정 한도 도달), OpenAI 공식 소식 (설정 한도 도달), Anthropic 공식 소식 (설정 한도 도달), 금융위원회 (설정 한도 도달), arXiv 금융 논문 (설정 한도 도달), 미국 노동통계국 일정 (접근 제한)
 
 수집 범위: 대상 구간 시작: 2026-09-18T13:38:19.516160\+09:00 · 미국장 거래일 여부: 거래일 · 최근 마감한 미국 거래일: 2026-09-24 · 관심 섹터:  · 관심 국가: 미국 · 대상 구간 끝 \(미포함\): 2026-09-25T13:38:19.516160\+09:00 · 확정 입력 자료: 3615 · 원문 텍스트 확보 \(메시지 포함\): 2777 · 누락 소스: 미국 노동통계국, 미국 경제분석국, 코카콜라 기업 발표, 한겨레 경제, 비비시 경제, 가디언 경제, GeekNews · AI, OpenAI 공식 소식, Anthropic 공식 소식, 금융위원회, arXiv 금융 논문, 미국 노동통계국 일정 · 미국 동부 기준 마감: 2026-09-25T00:38:19.516160-04:00 · 입력 제외·발견 기록: 시각 미확인 103 · 대상 기간 이전 650 · 이전 버전 1764 · 마감 후 발견 0 · 선정 입력 3615 · 확보 분야별 자료 수: 경제 1236 · 리서치 2319 · 금융 27 · 기업 3 · 기술 24 · calendar 3 · 규제 3
