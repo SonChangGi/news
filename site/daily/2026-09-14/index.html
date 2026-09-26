@@ -1457,19 +1457,22 @@ body.has-quant-shared-nav .skip-link {
         </div>
         <h2 id="as-schedule-title">내일 사용할 수 있는 시간</h2>
         <p class="as-muted"><strong id="as-date"></strong> · 한국 시간 · <span id="as-schedule-mode"></span></p>
-        <p id="as-schedule-note" class="as-muted"></p>
-        <p id="as-draft-note" class="as-muted" hidden>이 날짜의 일정에는 아직 저장하지 않은 입력입니다. 오늘·내일을 전환해도 입력은 유지됩니다.</p>
-        <p id="as-completion-target" class="as-muted" hidden></p>
+        <p id="as-draft-note" class="as-muted" hidden>저장하지 않은 입력입니다.</p>
         <fieldset>
           <legend>분석 시작 희망 시각</legend>
-          <label for="as-run-time">수집은 가능한 시간에 이어서 진행하고, 이 시각부터 분석을 우선합니다.</label>
-          <input id="as-run-time" name="run_time" type="time" step="60" required aria-describedby="as-schedule-note">
+          <label for="as-run-time">이 시각부터 분석을 우선합니다.</label>
+          <input id="as-run-time" name="run_time" type="time" step="60" required>
+        </fieldset>
+        <fieldset>
+          <legend>배포 목표 시각</legend>
+          <label for="as-completion-target">완료를 목표로 하는 시각입니다.</label>
+          <input id="as-completion-target" name="completion_target" type="time" step="60">
         </fieldset>
         <fieldset>
           <legend>가능한 시간대</legend>
           <div id="as-window-rows" class="as-rows"></div>
           <p id="as-window-empty" class="as-muted" hidden>내일은 자동화를 진행하지 않습니다.</p>
-          <p class="as-muted">수집·분석·배포는 아래 시간 안에서 진행합니다. 종료에 24:00을 입력하면 자정까지 가능합니다. 다음 날의 시간은 그날 설정을 따릅니다.</p>
+          <p class="as-muted">종료 24:00은 자정까지입니다.</p>
           <div class="as-actions"><button id="as-add-window" type="button">가능 시간 추가</button><button id="as-all-day" type="button">하루 종일 가능</button><button id="as-no-time" type="button">내일 사용 불가</button></div>
           <p id="as-window-summary" class="as-muted" aria-live="polite"></p>
         </fieldset>
@@ -1480,7 +1483,7 @@ body.has-quant-shared-nav .skip-link {
         </div>
         <p id="as-schedule-status" class="as-status" role="status" aria-live="polite"></p>
         <div class="as-actions"><button id="as-save-defaults" type="button">이 설정을 기본값으로 저장</button></div>
-        <p id="as-defaults-note" class="as-muted">입력한 시간을 내일부터 매일(주말 포함) 기본으로 사용합니다. 날짜별로 저장한 일정이 우선하며, 오늘 일정은 바뀌지 않습니다.</p>
+        <p id="as-defaults-note" class="as-muted">기본값은 내일부터 적용됩니다.</p>
       </form>
       <form id="as-notification-form" class="as-notifications" autocomplete="off">
         <h2>Telegram 알림</h2>
@@ -1634,6 +1637,7 @@ body.has-quant-shared-nav .skip-link {
   function scheduleValues() {
     return {
       run_time: find('as-run-time').value,
+      completion_target: find('as-completion-target').value || null,
       available_windows: Array.from(find('as-window-rows').children, row => ({
         start: row.querySelector('[data-clock=start]').value,
         end: row.querySelector('[data-clock=end]').value
@@ -1648,6 +1652,7 @@ body.has-quant-shared-nav .skip-link {
     if (!draft) return;
     Object.assign(draft, scheduleValues());
     draft.dirty = draft.run_time !== day.run_time ||
+      (draft.completion_target || '') !== (day.completion_target || '') ||
       JSON.stringify(draft.available_windows) !== JSON.stringify(day.available_windows);
     find('as-draft-note').hidden = !draft.dirty;
   }
@@ -1656,7 +1661,7 @@ body.has-quant-shared-nav .skip-link {
     const day = current[selectedDay];
     const label = selectedDay === 'today' ? '오늘' : '내일';
     if (!drafts.has(day.date)) drafts.set(day.date, {
-      date: day.date, run_time: day.run_time,
+      date: day.date, run_time: day.run_time, completion_target: day.completion_target || null,
       available_windows: day.available_windows.map(value => ({...value})),
       expected_revision: day.revision,
       expected_defaults_revision: current.defaults.revision,
@@ -1669,23 +1674,17 @@ body.has-quant-shared-nav .skip-link {
     find('as-save-schedule').textContent = label + ' 일정 저장';
     find('as-no-time').textContent = label + ' 사용 불가';
     find('as-window-empty').textContent = label + '은 자동화를 진행하지 않습니다.';
-    find('as-schedule-note').textContent = selectedDay === 'today'
-      ? '저장한 일정은 오늘 남은 자동화에 적용됩니다. 완료한 작업은 다시 실행하지 않으며, 진행 중인 작업도 변경한 가능 시간대를 따릅니다.'
-      : '저장한 일정은 내일 하루에만 적용됩니다. 다른 날짜는 각 날짜의 별도 일정 또는 기본 일정을 따릅니다.';
     find('as-date').textContent = day.date;
     find('as-schedule-mode').textContent = day.is_override ? label + '만 변경됨' : '기본 일정';
     find('as-run-time').value = draft.run_time;
-    const target = find('as-completion-target');
-    target.hidden = !day.completion_target;
-    target.textContent = day.completion_target
-      ? '배포 목표 ' + day.completion_target + ' · 검증을 통과한 결과만 게시합니다.' : '';
+    find('as-completion-target').value = draft.completion_target || '';
     find('as-window-rows').replaceChildren();
     draft.available_windows.forEach(value => windowRow(value));
     updateEmptyRows();
     find('as-reset-schedule').disabled = busy || !day.is_override;
     find('as-draft-note').hidden = !draft.dirty;
     const effective = current.tomorrow.date;
-    find('as-defaults-note').textContent = '입력한 시간을 내일(' + effective + ')부터 매일(주말 포함) 기본으로 사용합니다. 날짜별로 저장한 일정이 우선하며, 오늘 일정은 바뀌지 않습니다.';
+    find('as-defaults-note').textContent = '내일(' + effective + ')부터 기본값으로 사용합니다.';
   }
 
   function renderNotifications() {
@@ -1860,7 +1859,8 @@ body.has-quant-shared-nav .skip-link {
     rememberSchedule();
     const draft = drafts.get(current[selectedDay].date);
     save('schedule', {
-      date: draft.date, run_time: draft.run_time, available_windows: draft.available_windows,
+      date: draft.date, run_time: draft.run_time, completion_target: draft.completion_target,
+      available_windows: draft.available_windows,
       expected_revision: draft.expected_revision
     }, 'schedule', draft.date + ' 일정이 저장되었습니다.');
   });
@@ -1877,7 +1877,8 @@ body.has-quant-shared-nav .skip-link {
     rememberSchedule();
     const draft = drafts.get(current[selectedDay].date);
     save('schedule/defaults', {
-      date: draft.date, run_time: draft.run_time, available_windows: draft.available_windows,
+      date: draft.date, run_time: draft.run_time, completion_target: draft.completion_target,
+      available_windows: draft.available_windows,
       expected_revision: draft.expected_revision,
       expected_defaults_revision: draft.expected_defaults_revision
     }, 'schedule', '내일(' + current.tomorrow.date + ')부터 사용할 기본값이 저장되었습니다. 날짜별 별도 일정과 오늘 일정은 유지됩니다.');
