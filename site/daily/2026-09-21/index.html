@@ -1255,7 +1255,8 @@ body.has-quant-shared-nav .skip-link {
   const measureNavigation=()=>{document.documentElement.style.setProperty('--masthead-height',document.querySelector('.masthead').getBoundingClientRect().height+'px');document.documentElement.style.setProperty('--toolbar-height',document.querySelector('.toolbar').getBoundingClientRect().height+'px');};
   measureNavigation();if(location.hash)revealIssue(location.hash);if(typeof ResizeObserver!=='undefined'){const observer=new ResizeObserver(measureNavigation);observer.observe(document.querySelector('.masthead'));observer.observe(document.querySelector('.toolbar'));}else window.addEventListener('resize',measureNavigation);
 
-  const archiveContext={"archive_url": "/news/?archive=1", "base_path": "/news/", "current_date": "2026-09-21", "entries": [{"date": "2026-09-27", "edition_kind": "weekend", "issue_count": 39, "mode": "on_time", "period_id": "weekend:2026-09-21", "url": "/news/weekend/2026-09-21/index.html"}, {"date": "2026-09-25", "issue_count": 32, "mode": "on_time", "url": "/news/daily/2026-09-25/index.html"}, {"date": "2026-09-24", "issue_count": 32, "mode": "on_time", "url": "/news/daily/2026-09-24/index.html"}, {"date": "2026-09-23", "issue_count": 30, "mode": "on_time", "url": "/news/daily/2026-09-23/index.html"}, {"date": "2026-09-22", "issue_count": 17, "mode": "reconstruction", "url": "/news/daily/2026-09-22/index.html"}, {"date": "2026-09-21", "issue_count": 26, "mode": "reconstruction", "url": "/news/daily/2026-09-21/index.html"}, {"date": "2026-09-20", "edition_kind": "weekend", "issue_count": 38, "mode": "on_time", "period_id": "weekend:2026-09-14", "url": "/news/weekend/2026-09-14/index.html"}, {"date": "2026-09-18", "issue_count": 30, "mode": "reconstruction", "url": "/news/daily/2026-09-18/index.html"}, {"date": "2026-09-17", "issue_count": 23, "mode": "reconstruction", "url": "/news/daily/2026-09-17/index.html"}, {"date": "2026-09-16", "issue_count": 23, "mode": "reconstruction", "url": "/news/daily/2026-09-16/index.html"}, {"date": "2026-09-15", "issue_count": 30, "mode": "reconstruction", "url": "/news/daily/2026-09-15/index.html"}, {"date": "2026-09-14", "issue_count": 28, "mode": "reconstruction", "url": "/news/daily/2026-09-14/index.html"}, {"date": "2026-09-13", "issue_count": 20, "mode": "reconstruction", "url": "/news/daily/2026-09-13/index.html"}, {"date": "2026-09-12", "issue_count": 20, "mode": "reconstruction", "url": "/news/daily/2026-09-12/index.html"}], "latest_url": "/news/", "manifest_url": "/news/archive.json"};
+  const uiTimePolicy={"archive_fetch_seconds": 15, "connection_wait_seconds": 30, "request_poll_seconds": 2, "response_wait_seconds": 30, "socket_idle_seconds": 30};
+  const archiveContext={"archive_url": "/news/?archive=1", "base_path": "/news/", "current_date": "2026-09-21", "entries": [{"date": "2026-09-28", "issue_count": 30, "mode": "reconstruction", "url": "/news/daily/2026-09-28/index.html"}, {"date": "2026-09-27", "edition_kind": "weekend", "issue_count": 39, "mode": "on_time", "period_id": "weekend:2026-09-21", "url": "/news/weekend/2026-09-21/index.html"}, {"date": "2026-09-25", "issue_count": 32, "mode": "on_time", "url": "/news/daily/2026-09-25/index.html"}, {"date": "2026-09-24", "issue_count": 32, "mode": "on_time", "url": "/news/daily/2026-09-24/index.html"}, {"date": "2026-09-23", "issue_count": 30, "mode": "on_time", "url": "/news/daily/2026-09-23/index.html"}, {"date": "2026-09-22", "issue_count": 17, "mode": "reconstruction", "url": "/news/daily/2026-09-22/index.html"}, {"date": "2026-09-21", "issue_count": 26, "mode": "reconstruction", "url": "/news/daily/2026-09-21/index.html"}, {"date": "2026-09-20", "edition_kind": "weekend", "issue_count": 38, "mode": "on_time", "period_id": "weekend:2026-09-14", "url": "/news/weekend/2026-09-14/index.html"}, {"date": "2026-09-18", "issue_count": 30, "mode": "reconstruction", "url": "/news/daily/2026-09-18/index.html"}, {"date": "2026-09-17", "issue_count": 23, "mode": "reconstruction", "url": "/news/daily/2026-09-17/index.html"}, {"date": "2026-09-16", "issue_count": 23, "mode": "reconstruction", "url": "/news/daily/2026-09-16/index.html"}, {"date": "2026-09-15", "issue_count": 30, "mode": "reconstruction", "url": "/news/daily/2026-09-15/index.html"}, {"date": "2026-09-14", "issue_count": 28, "mode": "reconstruction", "url": "/news/daily/2026-09-14/index.html"}, {"date": "2026-09-13", "issue_count": 20, "mode": "reconstruction", "url": "/news/daily/2026-09-13/index.html"}, {"date": "2026-09-12", "issue_count": 20, "mode": "reconstruction", "url": "/news/daily/2026-09-12/index.html"}], "latest_url": "/news/", "manifest_url": "/news/archive.json"};
   const currentDate=archiveContext.current_date||"2026-09-21";
   const dialog=document.getElementById('archive-dialog'),openCalendar=document.getElementById('archive-open');
   const daysBody=document.getElementById('calendar-days'),monthLabel=document.getElementById('calendar-month-label');
@@ -1322,7 +1323,7 @@ body.has-quant-shared-nav .skip-link {
   async function refreshArchive(){
     if(refreshing||!['http:','https:'].includes(location.protocol))return;
     const manifest=safeArchiveUrl(archiveContext.manifest_url||'/archive.json');if(!manifest)return;
-    refreshing=true;const controller=new AbortController(),timeout=setTimeout(()=>controller.abort(),4000);
+    refreshing=true;const controller=new AbortController(),timeout=setTimeout(()=>controller.abort(),(uiTimePolicy.archive_fetch_seconds||15)*1000);
     try{const response=await fetch(manifest,{cache:'no-store',credentials:'same-origin',signal:controller.signal});if(!response.ok)throw new Error('archive unavailable');const data=await response.json();if(!setEntries(data))throw new Error('invalid archive');settleInitialCalendarFocus();}
     catch(e){if(dialog.open)status.textContent=entries.length?'새 날짜를 불러오지 못했습니다. 저장된 목록을 표시합니다.':'날짜 목록을 불러오지 못했습니다.';}
     finally{clearTimeout(timeout);refreshing=false;}
@@ -1393,6 +1394,7 @@ body.has-quant-shared-nav .skip-link {
     </div>
     <p id="as-load-status" class="as-status" role="status" aria-live="polite"></p>
     <button id="as-reload" type="button" hidden>다시 불러오기</button>
+    <details class="as-setup"><summary>시간 제한 자세히</summary><p id="as-timing-details">연결하면 현재 적용되는 정책을 확인할 수 있습니다.</p></details>
     <div id="as-forms" class="as-columns" hidden>
       <form id="as-schedule-form">
         <div class="as-day-picker" role="group" aria-label="설정할 날짜">
@@ -1411,6 +1413,7 @@ body.has-quant-shared-nav .skip-link {
           <legend>배포 목표 시각</legend>
           <label for="as-completion-target">완료를 목표로 하는 시각입니다.</label>
           <input id="as-completion-target" name="completion_target" type="time" step="60">
+          <p id="as-time-budget" class="as-muted">목표 시각을 넘겨도 검증을 생략하지 않으며, 가능한 시간 안에서 작업을 이어갑니다.</p>
         </fieldset>
         <fieldset>
           <legend>가능한 시간대</legend>
@@ -1482,6 +1485,18 @@ body.has-quant-shared-nav .skip-link {
   let loading = false;
   let busy = false;
   let rowNumber = 0;
+  const receiptKey = 'news-automation-pending:' + port;
+  const pause = ms => new Promise(resolve => setTimeout(resolve, ms));
+  const initialTimePolicy = {"response_wait_seconds": 30, "request_poll_seconds": 2, "connection_wait_seconds": 30, "archive_fetch_seconds": 15, "socket_idle_seconds": 30};
+  const policy = (name, fallback) => Number(current && current.time_policy && current.time_policy[name] || initialTimePolicy[name]) || fallback;
+  function rememberedRequest(value) {
+    try {
+      if (value === undefined) return JSON.parse(sessionStorage.getItem(receiptKey) || 'null');
+      if (value === null) sessionStorage.removeItem(receiptKey);
+      else sessionStorage.setItem(receiptKey, JSON.stringify(value));
+    } catch (_) { /* The in-flight promise still prevents duplicate clicks. */ }
+    return null;
+  }
 
   function status(id, message, tone = '') {
     const node = find(id);
@@ -1489,35 +1504,118 @@ body.has-quant-shared-nav .skip-link {
     node.dataset.tone = tone;
   }
 
-  async function request(path, payload) {
+  async function transport(path, payload, requestId) {
     if (publicMode) {
       if (!connected || !bridge || bridge.closed) throw new Error('‘이 맥북 연결’을 눌러 다시 연결해 주세요.');
-      const id = crypto.randomUUID();
+      const id = requestId || crypto.randomUUID();
       return new Promise((resolve, reject) => {
         const timer = setTimeout(() => {
-          pending.delete(id);
-          reject(new Error('응답을 기다리는 시간이 지났습니다. 저장 여부를 다시 불러와 확인해 주세요.'));
-        }, 30000);
+          if (payload !== undefined) {
+            resolve({_request: {id, status: 'processing', done: false}});
+          } else {
+            pending.delete(id);
+            reject(new Error('요청 상태를 확인하지 못했습니다. 다시 연결하면 같은 요청을 확인합니다.'));
+          }
+        }, policy('response_wait_seconds', 30) * 1000);
         pending.set(id, {resolve, reject, timer});
         bridge.postMessage({type: 'news-automation-request', channel, id, path, payload}, bridgeOrigin);
       });
     }
     const options = {method: payload === undefined ? 'GET' : 'POST', credentials: 'same-origin', cache: 'no-store'};
     if (payload !== undefined) {
-      options.headers = {'Content-Type': 'application/json', 'X-Research-CSRF': current.csrf_token};
+      options.headers = {'Content-Type': 'application/json', 'X-Research-CSRF': current.csrf_token,
+                         'X-Research-Request-ID': requestId};
       options.body = JSON.stringify(payload);
+    } else if (path.startsWith('requests/')) {
+      options.headers = {'X-Research-CSRF': current.csrf_token};
     }
-    let response;
+    let response, data, readTimer;
+    // Only reads are abortable. Cancelling a POST cannot undo its side effect.
+    const controller = payload === undefined ? new AbortController() : null;
+    if (controller) {
+      options.signal = controller.signal;
+      readTimer = setTimeout(() => controller.abort(), policy('response_wait_seconds', 30) * 1000);
+    }
     try {
       response = await fetch('/api/automation/' + path, options);
+      data = await response.json();
     } catch (_) {
-      throw new Error('로컬 서버에 연결하지 못했습니다. 연결 상태를 확인한 뒤 다시 시도해 주세요.');
+      throw new Error('로컬 서버 응답을 확인하지 못했습니다. 다시 연결하거나 설정을 불러오면 같은 요청의 상태를 확인합니다.');
+    } finally { clearTimeout(readTimer); }
+    if (!response.ok || data.error) {
+      const error = new Error(data.error || '설정을 처리하지 못했습니다. 다시 시도해 주세요.');
+      error.receipt = data._request;
+      throw error;
     }
-    let data;
-    try { data = await response.json(); }
-    catch (_) { throw new Error('서버 응답을 확인하지 못했습니다. 다시 시도해 주세요.'); }
-    if (!response.ok || data.error) throw new Error(data.error || '설정을 처리하지 못했습니다. 다시 시도해 주세요.');
     return data;
+  }
+
+  async function awaitReceipt(item) {
+    const statusId = item.path.startsWith('schedule') ? 'as-schedule-status' : 'as-notification-status';
+    status(statusId, '처리가 계속되고 있습니다. 같은 요청의 완료 상태를 확인 중이며 다시 저장하지 않습니다.');
+    while (true) {
+      let result;
+      try { result = await transport('requests/' + item.id); }
+      catch (error) {
+        if (error.receipt && error.receipt.done) rememberedRequest(null);
+        throw error;
+      }
+      if (result._request && result._request.done) return result;
+      await pause(policy('request_poll_seconds', 2) * 1000);
+    }
+  }
+
+  async function request(path, payload) {
+    if (payload === undefined) return transport(path);
+    if (rememberedRequest()) throw new Error('이전 요청의 완료 상태를 먼저 확인해 주세요. 다시 연결하거나 설정을 다시 불러오면 확인합니다.');
+    const item = {id: crypto.randomUUID(), path, ...(path.startsWith('schedule') && typeof payload.date === 'string' ? {date: payload.date} : {})};
+    rememberedRequest(item);
+    try {
+      const first = transport(path, payload, item.id);
+      // A response wait is a UI transition, never cancellation or a second POST.
+      let result, responseTimer;
+      try {
+        result = await Promise.race([first, new Promise(resolve => {
+          responseTimer = setTimeout(() => resolve({_request: {id: item.id, done: false}}), policy('response_wait_seconds', 30) * 1000);
+        })]);
+      } catch (error) {
+        if (error.receipt && error.receipt.done) { rememberedRequest(null); throw error; }
+        result = {_request: {id: item.id, done: false}};
+      } finally { clearTimeout(responseTimer); }
+      if (result._request && !result._request.done) result = await awaitReceipt(item);
+      rememberedRequest(null);
+      return result;
+    } catch (error) {
+      // Keep only request identity/date, never settings, a token or a recipient, for reconnection.
+      throw error;
+    }
+  }
+
+  async function resumeRequest() {
+    const item = rememberedRequest();
+    if (!item) return;
+    setBusy(true);
+    const statusId = item.path.startsWith('schedule') ? 'as-schedule-status' : 'as-notification-status';
+    try {
+      const result = await awaitReceipt(item);
+      // A receipt proves the outcome. Its settings snapshot may predate another
+      // tab's edit or midnight, so reconcile drafts against a fresh GET only.
+      const date = item.date || (result._request && result._request.date);
+      const section = item.path.startsWith('schedule') ? 'schedule' : 'notifications';
+      applySettings(await transport('settings'), section,
+        section === 'schedule' && item.path !== 'schedule/defaults' ? date : null,
+        item.path === 'schedule/defaults' ? date : null);
+      rememberedRequest(null);
+      if (item.path === 'notifications') {
+        find('as-bot-token').value = ''; find('as-chat-id').value = '';
+      }
+      if (item.path === 'notifications/discover' && result.chat_id) find('as-chat-id').value = String(result.chat_id);
+      const message = item.path === 'notifications/test' ?
+        (result.test_status === 'sent' ? '이전 테스트 알림의 전송 완료를 확인했습니다.' : '이전 테스트 요청의 상태를 확인했습니다. 전송 여부는 Telegram 대화에서도 확인해 주세요.') :
+        '이전 요청의 처리가 완료되었습니다. 현재 저장된 설정을 확인했습니다.';
+      status(statusId, message, 'success');
+    } catch (error) { status(statusId, error.message, 'error'); }
+    finally { setBusy(false); }
   }
 
   function updateEmptyRows() {
@@ -1622,6 +1720,11 @@ body.has-quant-shared-nav .skip-link {
     find('as-schedule-mode').textContent = day.is_override ? label + '만 변경됨' : '기본 일정';
     find('as-run-time').value = draft.run_time;
     find('as-completion-target').value = draft.completion_target || '';
+    const budget = selectedDay === 'today' ? current.completion_budget : null;
+    find('as-time-budget').textContent = budget ?
+      (budget.target_missed ? '목표 시각을 지났습니다. ' : '오늘 목표까지 사용 가능한 시간: 약 ' + Math.floor(budget.remaining_available_seconds / 60) + '분. ') +
+      '검증을 생략하지 않으며, 가능한 시간 안에서 이어갑니다.' :
+      '목표 시각을 넘겨도 검증을 생략하지 않으며, 가능한 시간 안에서 작업을 이어갑니다.';
     find('as-window-rows').replaceChildren();
     draft.available_windows.forEach(value => windowRow(value));
     updateEmptyRows();
@@ -1666,6 +1769,13 @@ body.has-quant-shared-nav .skip-link {
       });
     }
     current = settings;
+    if (settings.timing_details) {
+      const timing = settings.timing_details.effective;
+      find('as-timing-details').textContent = '가능한 시간 종료 시 작업을 멈추고 완료된 자료에서 재개합니다. ' +
+        '설정 응답은 ' + timing.ui.response_wait_seconds + '초 후에도 같은 요청의 완료 상태를 확인하며 다시 보내지 않습니다. ' +
+        '일시적 오류 재시도는 ' + Math.round(timing.scheduler.retry_initial_seconds / 60) + '분부터 최대 ' +
+        Math.round(timing.scheduler.retry_max_seconds / 60) + '분 간격입니다.';
+    }
     // Schedule drafts are keyed by date; refreshing notifications never replaces them.
     renderSchedule();
     rememberSchedule();
@@ -1690,6 +1800,7 @@ body.has-quant-shared-nav .skip-link {
       await refresh();
       find('as-forms').hidden = false;
       find('as-load-status').hidden = true;
+      await resumeRequest();
     } catch (error) {
       find('as-load-status').hidden = false;
       status('as-load-status', error.message, 'error');
@@ -1702,21 +1813,23 @@ body.has-quant-shared-nav .skip-link {
     const statusId = section === 'schedule' ? 'as-schedule-status' : 'as-notification-status';
     setBusy(true);
     status(statusId, '저장 중…');
-    let saved = false;
+    let saved = false, completedReceipt = null;
     try {
       rememberSchedule();
       const result = await request(path, payload);
+      completedReceipt = result._request;
       saved = true;
       if (section === 'notifications') {
         find('as-bot-token').value = '';
         find('as-chat-id').value = '';
       }
-      const settings = result.today ? result : await request('settings');
+      const settings = await request('settings');
       applySettings(settings, section,
         section === 'schedule' && path !== 'schedule/defaults' ? payload.date : null,
         path === 'schedule/defaults' ? payload.date : null);
       status(statusId, successMessage, 'success');
     } catch (error) {
+      if (saved && completedReceipt && completedReceipt.id) rememberedRequest({id: completedReceipt.id, path, ...(payload.date ? {date: payload.date} : {})});
       status(statusId, saved ? '저장 요청은 처리됐지만 설정을 다시 확인하지 못했습니다. 페이지를 새로 열어 확인해 주세요.' : error.message, 'error');
     } finally { setBusy(false); }
   }
@@ -1773,7 +1886,7 @@ body.has-quant-shared-nav .skip-link {
       if (!bridge) { disconnect('연결 창을 열지 못했습니다. 브라우저의 팝업 허용을 확인해 주세요.'); return; }
       find('as-connect').disabled = true;
       status('as-connection-status', '연결 창을 확인하는 중입니다. 열린 창을 유지해 주세요.');
-      connectionTimer = setTimeout(() => disconnect('이 맥북에 연결하지 못했습니다. 뉴스 로컬 서비스가 켜져 있는지 확인한 뒤 다시 시도해 주세요.'), 15000);
+      connectionTimer = setTimeout(() => disconnect('이 맥북에 연결하지 못했습니다. 뉴스 로컬 서비스가 켜져 있는지 확인한 뒤 다시 시도해 주세요.'), policy('connection_wait_seconds', 30) * 1000);
       closeTimer = setInterval(() => { if (bridge && bridge.closed) disconnect(); }, 1000);
     });
     find('as-disconnect').addEventListener('click', () => disconnect());
@@ -1790,7 +1903,10 @@ body.has-quant-shared-nav .skip-link {
         disconnect();
       } else if (data.type === 'news-automation-response' && pending.has(data.id)) {
         const request = pending.get(data.id); clearTimeout(request.timer); pending.delete(data.id);
-        if (data.error) request.reject(new Error(data.error)); else request.resolve(data.result);
+        if (data.error) {
+          const error = new Error(data.error); error.receipt = data.receipt;
+          request.reject(error);
+        } else request.resolve(data.result);
       }
     });
     window.addEventListener('pagehide', () => disconnect());
