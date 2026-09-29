@@ -255,9 +255,8 @@ body.has-quant-shared-nav .skip-link {
     .issue-grid{align-items:stretch}.issue{display:flex;flex-direction:column;cursor:pointer}.issue-detail:not([open]){margin-top:auto}
     /* Expanded articles keep source order and use the full reading width. */
     .issue:has(.issue-detail[open]),.issue:only-child{grid-column:1/-1}
-    .discovery-panel{margin:26px 0}.discovery-grid{display:grid;grid-template-columns:minmax(0,1fr);gap:16px;list-style:none;padding:0;margin:0}.discovery-grid li{min-width:0}.discovery-card{display:flex;flex-direction:column;gap:10px;height:100%;padding:18px 20px;background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);color:var(--ink);text-decoration:none}.discovery-card:hover{border-color:var(--primary)}.discovery-meta{display:flex;justify-content:space-between;font-size:11px;color:var(--primary)}.discovery-title{font-size:15px;font-weight:600;line-height:1.7}
-    @media(min-width:820px){.issue-grid,.discovery-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
-    @media(min-width:1280px){.issue-grid,.discovery-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.issue{padding:20px 22px}.issue h3{font-size:19px}.issue:has(.issue-detail[open]){padding:24px 28px}.issue:has(.issue-detail[open]) h3{font-size:22px}}
+    @media(min-width:820px){.issue-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+    @media(min-width:1280px){.issue-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.issue{padding:20px 22px}.issue h3{font-size:19px}.issue:has(.issue-detail[open]){padding:24px 28px}.issue:has(.issue-detail[open]) h3{font-size:22px}}
     @media(max-width:600px){.headline-panel{padding:16px}.highlight-list li{font-size:14px}.highlight-lead{font-size:12px;-webkit-line-clamp:1}.issue{padding:18px 17px}.issue h3{font-size:18px}.issue-lead{font-size:14px}.issue-summary p{font-size:15px;line-height:1.9}.reading-controls{gap:7px}.reading-toggle{padding:4px 7px;font-size:11px}.toolbar-bottom{align-items:center;flex-wrap:wrap}.results{font-size:11px}.issue-reading{padding-top:12px}}
     @media print{.issue-lead,.issue-detail>summary,.reading-toggle{display:none!important}.issue-detail>.issue-reading{display:block!important}.issue{display:block;padding:14px 0}.issue-grid{border:0}.issue-summary p{font-size:11px}}
     @media print{.quant-shared-nav{display:none!important}html{color-scheme:light}body{background:white;color:black}.masthead,.toolbar,.downloads,.theme-toggle,.operations-panel,.evidence-panel>summary,.date-navigation,.page-jump-nav,.archive-dialog{display:none}body{padding-top:0}.shell{max-width:none;padding:0}.issue-grid,.highlight-list{display:block}.issue{break-inside:avoid;margin-bottom:12px}.evidence-panel:not([open])>*{display:block}.page-header{padding:12px 0}.issue-summary p{font-size:11px}}
@@ -351,7 +350,7 @@ body.has-quant-shared-nav .skip-link {
 
   <nav class="toolbar" aria-label="브리핑 필터">
     <div class="toolbar-top"><div class="search"><input id="search" type="search" aria-label="검색" placeholder="기업 · 키워드 · 출처 검색" autocomplete="off"></div><select id="section-filter" aria-label="브리핑 구간"><option value="all">모든 구간</option><option value="yesterday">전일 경제·금융 이슈</option><option value="overnight">당일 시장·기업 업데이트</option><option value="investment">종목·산업 리서치</option></select><select id="evidence-filter" aria-label="확보한 원문 범위"><option value="all">모든 자료</option><option value="full">기사·문서 본문</option><option value="limited">메시지·요약</option></select></div>
-    <div class="toolbar-bottom"><div class="scope-nav" aria-label="이슈 분야"><button type="button" data-scope="all" aria-pressed="true">전체</button><button type="button" data-scope="company" aria-pressed="false">기업</button><button type="button" data-scope="market" aria-pressed="false">시장</button><button type="button" data-scope="economy" aria-pressed="false">경제·산업</button></div><div class="reading-controls"><span class="results" id="result-count" aria-live="polite">28개 이슈</span><button type="button" id="reading-toggle" class="reading-toggle" aria-pressed="false">모두 펼치기</button></div></div>
+    <div class="toolbar-bottom"><div class="scope-nav" aria-label="이슈 분야"><button type="button" data-scope="all" aria-pressed="true">전체</button><button type="button" data-scope="company" aria-pressed="false">기업</button><button type="button" data-scope="market" aria-pressed="false">시장</button><button type="button" data-scope="economy" aria-pressed="false">경제·산업</button></div><div class="reading-controls"><span class="results" id="result-count" aria-live="polite">28개 항목</span><button type="button" id="reading-toggle" class="reading-toggle" aria-pressed="false">모두 펼치기</button></div></div>
   </nav>
   <noscript><p>검색·필터를 사용하려면 JavaScript를 켜세요.</p></noscript>
   <main id="report-content" tabindex="-1">
@@ -360,7 +359,6 @@ body.has-quant-shared-nav .skip-link {
       <article class="issue" id="issue-ecbc4ff15d5c8efb" data-issue-section="yesterday" data-scope="macro" data-full-text="true">
         <div class="issue-top"><span class="pill accent">경제지표</span><span class="source-caption">연합인포맥스 · 09.13 14:48 KST</span></div>
         <h3><a href="#issue-ecbc4ff15d5c8efb">美 CPI 발표 후 커지는 연준 인상론…&#34;동결하려면 설득력 있는 명분 있어야&#34;</a></h3>
-        
         <p class="issue-lead">11일(현지시간) 미국 노동부에 따르면 8월 전 품목(헤드라인) CPI는 계절 조정 기준으로 전달 대비 0.4%, 전년 대비 3.4% 상승해 시장 전망과 일치했다.</p>
         
         
@@ -391,7 +389,6 @@ body.has-quant-shared-nav .skip-link {
       </article><article class="issue" id="issue-a1b61de32ab65ba3" data-issue-section="yesterday" data-scope="macro" data-full-text="true">
         <div class="issue-top"><span class="pill accent">경제지표</span><span class="source-caption">헤럴드경제 · 09.13 11:28 KST</span></div>
         <h3><a href="#issue-a1b61de32ab65ba3">반도체 수출·재정 확대에…현대연, 올해 성장률 2.7%→3.5% - 헤럴드경제</a></h3>
-        
         <p class="issue-lead">현대경제연구원이 올해 한국 경제 성장률 전망치를 기존 2.7%에서 3.5%로 상향 조정했다. 인공지능(AI) 투자 확대에 따른 반도체 수출 호조와 설비투자 회복, 정부 재정지출 확대 등이 성장세를 이끌 것으로 봤다.</p>
         
         
@@ -422,7 +419,6 @@ body.has-quant-shared-nav .skip-link {
       </article><article class="issue" id="issue-da8e292716425331" data-issue-section="yesterday" data-scope="other_economic" data-full-text="true">
         <div class="issue-top"><span class="pill accent">경제</span><span class="source-caption">파이낸셜뉴스 · 09.13 18:57 KST</span></div>
         <h3><a href="#issue-da8e292716425331">호르무즈 이어 홍해도 막히나… 새로운 화약고 부상한 바브엘만데브 해협</a></h3>
-        
         <p class="issue-lead">후티, 사우디 원유 수출길 빠르게 장악 亞·유럽 잇는 에너지 공급망에 치명타</p>
         
         
@@ -453,7 +449,6 @@ body.has-quant-shared-nav .skip-link {
       </article><article class="issue" id="issue-380b698e0d7ea696" data-issue-section="yesterday" data-scope="industry" data-full-text="true">
         <div class="issue-top"><span class="pill accent">전망</span><span class="source-caption">한국경제 · 09.13 18:28 KST</span></div>
         <h3><a href="#issue-380b698e0d7ea696">고물가·폭염 이중고…佛, 성장 전망 하향</a></h3>
-        
         <p class="issue-lead">프랑스 정부가 재정 불안에 폭염까지 덮치자 올해 경제성장률 전망치를 0.5%로 하향 조정했다. 성장률 하락과 국채 금리 상승이 겹쳐 국가 재정 부담이 다시 국채 금리를 밀어 올리는 악순환 우려가 커질 것이라는 우려가 나온다. 12일(현지시간) 파이낸셜타임스(FT) 등에 따르면 롤랑 레스퀴르 프랑스 경제재정부 장관은 올해 경제성장률(GDP 증가율)을 0.5%, 내년 1.0%로 예상한다고 밝혔다. 올해 성장률 전망치는 지난 7월 0.7%에서 0.2%포인트 낮춘 것이다.</p>
         
         
@@ -484,7 +479,6 @@ body.has-quant-shared-nav .skip-link {
       </article><article class="issue" id="issue-3d5709cdbf206631" data-issue-section="yesterday" data-scope="other_economic" data-full-text="true">
         <div class="issue-top"><span class="pill accent">경제</span><span class="source-caption">금강일보 · 09.13 16:40 KST</span></div>
         <h3><a href="#issue-3d5709cdbf206631">반도체가 끌어올린 기업 실적… 영업이익률 &#39;16.9%&#39; 역대 최고</a></h3>
-        
         <p class="issue-lead">지난 9일 한국은행이 발표한 ‘2026년 2분기 기업경영분석 결과’에 따르면 외부감사 대상 법인기업의 올해 2분기 매출액영업이익률은 16.9%로 지난해 같은 기간 5.1%보다 11.8%포인트 상승했다.
 
 이는 지난 2015년 관련 통계 편제 이후 가장 높은 수준이다. 직전 최고치였던 올해 1분기 13.2%도 한 분기 만에 넘어섰다.</p>
@@ -521,7 +515,6 @@ body.has-quant-shared-nav .skip-link {
       </article><article class="issue" id="issue-b9685f3ec77ec001" data-issue-section="yesterday" data-scope="company" data-full-text="true">
         <div class="issue-top"><span class="pill accent">실적</span><span class="source-caption">토큰포스트 · 09.13 16:10 KST</span></div>
         <h3><a href="#issue-b9685f3ec77ec001">AMD, 2분기 매출 115억달러로 팹리스 3위</a></h3>
-        
         <p class="issue-lead">트렌드포스는 2026년 2분기 글로벌 상위 10개 팹리스 반도체 기업의 합산 매출이 1414억5000만달러(약 189조9000억원)를 넘어섰다고 11일 밝혔다. 전년 동기보다 73% 증가한 규모다.</p>
         
         
@@ -552,7 +545,6 @@ body.has-quant-shared-nav .skip-link {
       </article><article class="issue" id="issue-eab1aae7b6a7d63c" data-issue-section="yesterday" data-scope="market" data-full-text="true">
         <div class="issue-top"><span class="pill accent">시장 동향</span><span class="source-caption">THE Biz(더비즈) · 09.13 16:00 KST</span></div>
         <h3><a href="#issue-eab1aae7b6a7d63c">[위클리 뱅크이슈] 환율 급락·금리 인상에 숨통 튼 금융지주들… 변수는 &#39;RWA&#39;</a></h3>
-        
         <p class="issue-lead">환율 하락은 금융지주의 장부상 손익과 자본비율을 동시에 개선하는 요인이다. 금융사가 보유한 외화 부채가 외화 자산보다 많은 경우 원화 가치 상승에 따라 외화환산이익이 발생한다. 상반기 1098억원의 외화환산손실을 낸 하나금융지주와 1266억원의 환평가손을 기록한 IBK기업은행 등은 3분기 중 손실 상쇄와 이익 전환이 점쳐진다.</p>
         
         
@@ -583,7 +575,6 @@ body.has-quant-shared-nav .skip-link {
       </article><article class="issue" id="issue-9cd96ab7471d4bb3" data-issue-section="yesterday" data-scope="industry" data-full-text="true">
         <div class="issue-top"><span class="pill accent">전망</span><span class="source-caption">토큰포스트 · 09.13 02:12 KST</span></div>
         <h3><a href="#issue-9cd96ab7471d4bb3">은행들 8월 근원 PCE 전망 상향, FOMC 전 CPI 주시</a></h3>
-        
         <p class="issue-lead">전망 상향의 배경으로는 8월 물가 지표가 거론된다. 미국 노동통계국(BLS)은 8월 최종수요 PPI가 전월보다 0.4% 올랐고, 상품 가격은 1.1%, 서비스 가격은 0.1% 상승했다고 발표했다.</p>
         
         
@@ -620,7 +611,6 @@ body.has-quant-shared-nav .skip-link {
       <article class="issue" id="issue-461b10512fe06dfc" data-issue-section="overnight" data-scope="macro" data-full-text="true">
         <div class="issue-top"><span class="pill accent">경제지표</span><span class="source-caption">서울신문 · 09.14 17:30 KST</span></div>
         <h3><a href="#issue-461b10512fe06dfc">AI 특수에 ICT 수출 600억弗 최대…대미 수출 4배 급증</a></h3>
-        
         <p class="issue-lead">정부 ‘8월 ICT 수출입 동향’ 발표… 月 역대 최대·무역수지 첫 400억 달러 돌파</p>
         
         
@@ -652,7 +642,6 @@ body.has-quant-shared-nav .skip-link {
       </article><article class="issue" id="issue-538e57dccd52abc1" data-issue-section="overnight" data-scope="macro" data-full-text="true">
         <div class="issue-top"><span class="pill accent">정책</span><span class="source-caption">서울경제 · 09.14 16:59 KST</span></div>
         <h3><a href="#issue-538e57dccd52abc1">반도체 가스 압력조절기 관세 0% 적용…품목분류 불확실성 해소</a></h3>
-        
         <p class="issue-lead">반도체 제조공정에서 가스 압력을 자동으로 조절하는 장비에 관세 0%가 적용된다.</p>
         
         
@@ -683,7 +672,6 @@ body.has-quant-shared-nav .skip-link {
       </article><article class="issue" id="issue-dbd5d370cd63618a" data-issue-section="overnight" data-scope="macro" data-full-text="true">
         <div class="issue-top"><span class="pill accent">경제지표</span><span class="source-caption">한국경제 · 09.14 17:41 KST</span></div>
         <h3><a href="#issue-dbd5d370cd63618a">WEF 직업교육 늘리면…세계 GDP 6.5조弗 증가</a></h3>
-        
         <p class="issue-lead">세계 주요국은 직업교육(리스킬링) 투자를 대대적으로 늘리고 있다.</p>
         
         
@@ -714,7 +702,6 @@ body.has-quant-shared-nav .skip-link {
       </article><article class="issue" id="issue-85ac55e4166764e9" data-issue-section="overnight" data-scope="macro" data-full-text="true">
         <div class="issue-top"><span class="pill accent">정책</span><span class="source-caption">이데일리 · 09.14 08:23 KST</span></div>
         <h3><a href="#issue-85ac55e4166764e9">트럼프, 아일랜드 위스키 10% 관세 철폐 선언</a></h3>
-        
         <p class="issue-lead">도널드 트럼프 미국 대통령이 아일랜드산 위스키에 적용하는 10% 관세를 없애겠다고 밝혔다.</p>
         
         
@@ -745,7 +732,6 @@ body.has-quant-shared-nav .skip-link {
       </article><article class="issue" id="issue-e7847372b3e2fdee" data-issue-section="overnight" data-scope="other_economic" data-full-text="true">
         <div class="issue-top"><span class="pill accent">경제</span><span class="source-caption">국민일보 · 09.14 09:46 KST</span></div>
         <h3><a href="#issue-e7847372b3e2fdee">식재료비+인건비가 매출 7할… ‘사장님의 눈물’</a></h3>
-        
         <p class="issue-lead">외식업의 기초 원가인 식재료비와 인건비가 국내 일반음식점 매출에서 차지하는 비중이 70%를 넘어섰다.</p>
         
         
@@ -776,7 +762,6 @@ body.has-quant-shared-nav .skip-link {
       </article><article class="issue" id="issue-c9fa29a438178b94" data-issue-section="overnight" data-scope="industry" data-full-text="true">
         <div class="issue-top"><span class="pill accent">전망</span><span class="source-caption">한스경제 · 09.14 20:20 KST</span></div>
         <h3><a href="#issue-c9fa29a438178b94">휴머노이드 시장, 예상보다 더 성장한다</a></h3>
-        
         <p class="issue-lead">| 서울=한스경제 김근현 기자 | 골드만삭스가 피지컬 인공지능(AI) 기술 발전에 힘입어 글로벌 휴머노이드 로봇 시장 전망치를 대폭 상향 조정했다.</p>
         
         
@@ -807,7 +792,6 @@ body.has-quant-shared-nav .skip-link {
       </article><article class="issue" id="issue-72e5f92dc2f6b681" data-issue-section="overnight" data-scope="market" data-full-text="true">
         <div class="issue-top"><span class="pill accent">시장 동향</span><span class="source-caption">뉴스핌 · 09.14 19:33 KST</span></div>
         <h3><a href="#issue-72e5f92dc2f6b681">[코인 시황] 기술주 급락에도, 유가가 100달러를 기록하는 가운데 비트코인은 &#39;견조한&#39; 흐름을 유지… 시선은 클리어티법으로</a></h3>
-        
         <p class="issue-lead">비트코인이 14일 미국 기술주 급락과 국제유가 상승, 미 연방준비제도(Fed·연준)의 금리 인상 우려에도 반등하고 있다.</p>
         
         
@@ -838,7 +822,6 @@ body.has-quant-shared-nav .skip-link {
       </article><article class="issue" id="issue-7b9795537dfcfeed" data-issue-section="overnight" data-scope="company" data-full-text="true">
         <div class="issue-top"><span class="pill accent">인수·자본거래</span><span class="source-caption">연합인포맥스 · 09.14 17:39 KST</span></div>
         <h3><a href="#issue-7b9795537dfcfeed">포스코인터, 美 셰일가스 자산 인수…8천억 투입·1조 보증(종합)</a></h3>
-        
         <p class="issue-lead">포스코인터내셔널[047050]이 미국 셰일가스 자산 인수를 위해 대규모 자금을 투입한다.</p>
         
         
@@ -871,7 +854,6 @@ body.has-quant-shared-nav .skip-link {
       <article class="issue" id="issue-e9e0e3e62b424671" data-issue-section="investment" data-scope="market" data-full-text="true">
         <div class="issue-top"><span class="pill accent">시장 동향</span><span class="source-caption">폴리뉴스 Polinews · 09.14 19:42 KST</span></div>
         <h3><a href="#issue-e9e0e3e62b424671">[마감시황] AI 속도조절론에 반도체 급락...코스피 6684선 후퇴</a></h3>
-        
         <p class="issue-lead">코스피가 인공지능(AI) 개발 속도 조절론과 국제유가·금리 상승 부담이 겹치며 3% 넘게 급락했다.</p>
         
         
@@ -902,7 +884,6 @@ body.has-quant-shared-nav .skip-link {
       </article><article class="issue" id="issue-ae248ff957e7366f" data-issue-section="investment" data-scope="company" data-full-text="true">
         <div class="issue-top"><span class="pill accent">제품·생산</span><span class="source-caption">서울경제 · 09.14 17:52 KST</span></div>
         <h3><a href="#issue-ae248ff957e7366f">TSMC 첨단칩 생산 70% 늘린다</a></h3>
-        
         <p class="issue-lead">세계 최대 파운드리(반도체 위탁 생산) 업체인 대만 TSMC의 3㎚(나노미터·10억분의 1미터) 공정 제품 월 생산량이 1년 6개월 사이 약 70% 늘어날 것으로 보인다.</p>
         
         
@@ -933,7 +914,6 @@ body.has-quant-shared-nav .skip-link {
       </article><article class="issue" id="issue-92d7b68b5aa4d312" data-issue-section="investment" data-scope="market" data-full-text="true">
         <div class="issue-top"><span class="pill accent">시장 동향</span><span class="source-caption">AI타임스 · 09.14 17:41 KST</span></div>
         <h3><a href="#issue-92d7b68b5aa4d312">아시아 반도체 공급망 일제히 흔들…&#39;AI 속도조절론&#39;에 주가 급락</a></h3>
-        
         <p class="issue-lead">일본 도쿄 증시에서는 오픈AI의 핵심 투자사인 소프트뱅크 주가가 장중 13.2% 폭락한 뒤 11.3% 하락으로 마감했다. 반도체 장비업체 도쿄일렉트론은 장 초반 9.8% 급락한 끝에 3.7% 하락했고, 메모리 반도체 기업 키옥시아도 5.4% 떨어졌다.</p>
         
         
@@ -964,7 +944,6 @@ body.has-quant-shared-nav .skip-link {
       </article><article class="issue" id="issue-cae4fbf7607ffea8" data-issue-section="investment" data-scope="company" data-full-text="true">
         <div class="issue-top"><span class="pill accent">수주·계약</span><span class="source-caption">매일경제 · 09.14 17:30 KST</span></div>
         <h3><a href="#issue-cae4fbf7607ffea8">삼성重, 1.6조 수주 &#39;잭팟&#39; 작년 실적도 이미 넘었네</a></h3>
-        
         <p class="issue-lead">LNG·원유 운반선 6척 따내 올해 상선 수주액 73억달러 천연가스 액화 시스템 기술 주요 선급회사서 잇단 인증 삼성중공업이 대형 액화천연가스(LNG) 운반선 등 선박 6척을 1조6000억원대에 수주하며 올해 상선 수주가 지난해 연간 실적을 넘어섰다. 삼성중공업은 오세아니아 지역 선주로부터 대형 LNG 운반선 4척과 원유 운반선 2척 등 6척을 총 12억달러(약 1조6476억원)에 수주했다고 14일 밝혔다. LNG 운반선 4척이 10억달러, 원유 운반선 2척이 2억달러 규모다. 이번에 수주한 LNG 운반선은 표준형인 17만4000㎥급보다 화물창 용적이 큰 20만㎥급으로 같은 물량을 운송할 때 항차 수를 줄여 단위 수송량당 운항 효율을 높일 수 있다.</p>
         
         
@@ -995,7 +974,6 @@ body.has-quant-shared-nav .skip-link {
       </article><article class="issue" id="issue-5d64572f0fdcf033" data-issue-section="investment" data-scope="market" data-full-text="true">
         <div class="issue-top"><span class="pill accent">시장 동향</span><span class="source-caption">www.joseilbo.com · 09.14 15:21 KST</span></div>
         <h3><a href="#issue-5d64572f0fdcf033">소프트뱅크 650억달러 AI 베팅…시장은 &#39;13% 급락&#39;으로 답했다 - 조세일보</a></h3>
-        
         <p class="issue-lead">7월 17일 이후 최대 낙폭…52주 고점보다 36% 아래로 내려와 상장이 미뤄지면 지분 값을 확인할 시점도 함께 밀려 &#34;인공지능 개발 속도를 늦추자&#34;는 발언에 관련 업종들이 흔들렸다.</p>
         
         
@@ -1026,7 +1004,6 @@ body.has-quant-shared-nav .skip-link {
       </article><article class="issue" id="issue-cc1dd8d345437400" data-issue-section="investment" data-scope="market" data-full-text="true">
         <div class="issue-top"><span class="pill accent">시장 동향</span><span class="source-caption">아주경제 · 09.14 08:59 KST</span></div>
         <h3><a href="#issue-cc1dd8d345437400">[국제금융리포트] 유가 급등·美 국채금리 5% 임박…글로벌 금융시장 &#39;긴장&#39; | 아주경제</a></h3>
-        
         <p class="issue-lead">국제유가가 급등하는 가운데 미국 국채금리가 5%에 육박하면서 글로벌 금융시장의 긴장감이 커지고 있다. 중동발 에너지 가격 상승으로 인플레이션 우려가 다시 부각된 데다 미국 연방준비제도(Fed)의 금리 인상 가능성까지 높아지면서 주식시장 변동성 확대에 대한 경계도 커지는 모습이다.</p>
         
         
@@ -1057,7 +1034,6 @@ body.has-quant-shared-nav .skip-link {
       </article><article class="issue" id="issue-5729e59cfe807473" data-issue-section="investment" data-scope="industry" data-full-text="true">
         <div class="issue-top"><span class="pill accent">전망</span><span class="source-caption">글로벌이코노믹 · 09.14 06:04 KST</span></div>
         <h3><a href="#issue-5729e59cfe807473">에너지 트랜스퍼 등 3종목, 월가 톱 분석가들 일제히 매수 추천</a></h3>
-        
         <p class="issue-lead">금융정보 플랫폼 팁랭크스는 13일 월가 톱 분석가들의 종목 추천 리포트를 종합해 배당 지급 안정성을 조명했다.</p>
         
         
@@ -1088,7 +1064,6 @@ body.has-quant-shared-nav .skip-link {
       </article><article class="issue" id="issue-3c78635191d0ed45" data-issue-section="investment" data-scope="market" data-full-text="true">
         <div class="issue-top"><span class="pill accent">시장 동향</span><span class="source-caption">디지털타임스 · 09.13 17:28 KST</span></div>
         <h3><a href="#issue-3c78635191d0ed45">원화 강세·금리 급등…코스피 &#39;수급절벽&#39; 오나</a></h3>
-        
         <p class="issue-lead">거시경제(매크로)가 격하게 흔들리면서 코스피를 둘러싼 수급절벽 우려의 목소리가 나온다. 원·달러 환율이 가파르게 내리막을 타며 수출기업들의 실적 전망에 빨간불이 켜진 가운데 미국 10년 만기 국채 금리가 ‘심리적 마지노선’인 연 5% 돌파를 앞두는 등 매크로 위기가 커진 탓이다. 외국인에 이어 개인까지 매도세로 돌아서면서 국내 증시의 수급 부담이 커지는 모습이다.</p>
         
         
@@ -1119,7 +1094,6 @@ body.has-quant-shared-nav .skip-link {
       </article><article class="issue" id="issue-771d9c9b4a0d2253" data-issue-section="investment" data-scope="company" data-full-text="true">
         <div class="issue-top"><span class="pill accent">인수·자본거래</span><span class="source-caption">글로벌이코노믹 · 09.13 07:57 KST</span></div>
         <h3><a href="#issue-771d9c9b4a0d2253">삼성바이오, 유럽 제약사와 3500억 규모 위탁생산 체결</a></h3>
-        
         <p class="issue-lead">DMO뉴스는 11일(현지시각) 삼성바이오로직스가 2억 6200만 달러(약 3515억 원) 규모의 장기 위탁생산 계약을 확보했다고 보도했다.</p>
         
         
@@ -1150,7 +1124,6 @@ body.has-quant-shared-nav .skip-link {
       </article><article class="issue" id="issue-7c573a16b4224d2f" data-issue-section="investment" data-scope="company" data-full-text="true">
         <div class="issue-top"><span class="pill accent">수주·계약</span><span class="source-caption">AI타임스 · 09.13 11:55 KST</span></div>
         <h3><a href="#issue-7c573a16b4224d2f">스페이스X, 미공개 고객과 월 1.5조 규모 컴퓨팅 계약 체결</a></h3>
-        
         <p class="issue-lead">스페이스X가 AI 컴퓨팅 수요 급증에 힘입어 고객사 한 곳과 월 11억달러(약 1조5천억원) 규모의 대형 데이터센터 호스팅 계약을 체결했다고 밝혔다. 우주 항공 기업을 넘어 AI 클라우드 인프라 시장의 주요 사업자로 입지를 급격히 확장하고 있음을 보여준다.</p>
         
         
@@ -1181,7 +1154,6 @@ body.has-quant-shared-nav .skip-link {
       </article><article class="issue" id="issue-e0cc651a5d8c545c" data-issue-section="investment" data-scope="industry" data-full-text="true">
         <div class="issue-top"><span class="pill accent">전망</span><span class="source-caption">글로벌이코노믹 · 09.14 04:00 KST</span></div>
         <h3><a href="#issue-e0cc651a5d8c545c">유로 지역 성장 전망 상향…내년 물가 전망도 높아졌다</a></h3>
-        
         <p class="issue-lead">필립 레인 ECB 집행이사가 2026 년 9 월 11 일 ( 현지시간 ) 아일랜드 웩스퍼드에서 발표한 자료에는 올해 성장률 전망이 0.9% 로 제시됐다 . 자료는 중동 분쟁의 충격이 심해지거나 완화되는 경우를 나눠 성장과 물가의 예상 경로도 비교했다 . 성장 전망 상향 속 물가 부담 레인 발표 자료에 담긴 ECB 실무진의 9 월 전망에서 올해 성장률은 6 월 예상보다 0.1% 포인트 높아졌다 .</p>
         
         
@@ -1212,7 +1184,6 @@ body.has-quant-shared-nav .skip-link {
       </article><article class="issue" id="issue-871b09e40afb2810" data-issue-section="investment" data-scope="other_economic" data-full-text="true">
         <div class="issue-top"><span class="pill accent">경제</span><span class="source-caption">더투데이 · 09.13 06:29 KST</span></div>
         <h3><a href="#issue-871b09e40afb2810">&#34;인재·기술 싹쓸이 M&amp;A 회피?&#34;…美 법무부, 엔비디아 &#39;반독점 조사&#39;</a></h3>
-        
         <p class="issue-lead">그록에 170억弗 주고 인력영입…사전심사 우회 역인수 꼼수 정조준 상원 문제제기 이어 사법당국 칼날…향후 유사거래 사전통보 검토</p>
         
         
@@ -1274,7 +1245,7 @@ body.has-quant-shared-nav .skip-link {
       if(!issue.hidden)visible++;
     }
     for(const group of sections){const count=[...group.querySelectorAll('[data-issue-section]')].filter(i=>!i.hidden).length;group.hidden=count===0;group.querySelector('.count').textContent=String(count);}
-    document.getElementById('result-count').textContent=visible+' / '+issues.length+'개';
+    document.getElementById('result-count').textContent=visible+' / '+issues.length+'개 항목';
     document.getElementById('no-results').hidden=visible>0||issues.length===0;syncReading();
   }
   input.addEventListener('input',filter);evidence.addEventListener('change',filter);period.addEventListener('change',filter);
@@ -1394,7 +1365,6 @@ body.has-quant-shared-nav .skip-link {
   if(new URLSearchParams(location.search).get('archive')==='1')showCalendar();
 })();
 </script>
-
 <style>
   #automation-settings{max-width:1272px;margin:12px auto 32px;padding:16px 20px;border:1px solid var(--line,#e5e8eb);border-radius:8px;background:var(--panel,#fff);color:var(--ink,#191f28);font:13px/1.65 Inter,Pretendard,-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans KR',sans-serif;box-sizing:border-box;overflow-wrap:anywhere}
   #automation-settings *{box-sizing:border-box}

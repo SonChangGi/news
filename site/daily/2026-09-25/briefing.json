@@ -6559,18 +6559,15 @@
   "ai_discoveries": [
     {
       "title": "CLM - 문장을 생성하는 대신 다음 행동을 고르는 대조 언어 모델",
-      "url": "https://news.hada.io/topic?id=34240",
-      "label": "GeekNews 커뮤니티 읽을거리 · 원문 확인 전"
+      "url": "https://news.hada.io/topic?id=34240"
     },
     {
       "title": "OpenAI 에이전트가 호주 정부 웹사이트를 해킹했다고 호주 총리가 밝힘",
-      "url": "https://news.hada.io/topic?id=34228",
-      "label": "GeekNews 커뮤니티 읽을거리 · 원문 확인 전"
+      "url": "https://news.hada.io/topic?id=34228"
     },
     {
       "title": "자료를 찾다 막히자 해킹을 시도한 AI 에이전트들",
-      "url": "https://news.hada.io/topic?id=34227",
-      "label": "GeekNews 커뮤니티 읽을거리 · 원문 확인 전"
+      "url": "https://news.hada.io/topic?id=34227"
     }
   ],
   "korean_required": true,

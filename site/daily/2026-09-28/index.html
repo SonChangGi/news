@@ -256,9 +256,8 @@ body.has-quant-shared-nav .skip-link {
     .issue-grid{align-items:stretch}.issue{display:flex;flex-direction:column;cursor:pointer}.issue-detail:not([open]){margin-top:auto}
     /* Expanded articles keep source order and use the full reading width. */
     .issue:has(.issue-detail[open]),.issue:only-child{grid-column:1/-1}
-    .discovery-panel{margin:26px 0}.discovery-grid{display:grid;grid-template-columns:minmax(0,1fr);gap:16px;list-style:none;padding:0;margin:0}.discovery-grid li{min-width:0}.discovery-card{display:flex;flex-direction:column;gap:10px;height:100%;padding:18px 20px;background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);color:var(--ink);text-decoration:none}.discovery-card:hover{border-color:var(--primary)}.discovery-meta{display:flex;justify-content:space-between;font-size:11px;color:var(--primary)}.discovery-title{font-size:15px;font-weight:600;line-height:1.7}
-    @media(min-width:820px){.issue-grid,.discovery-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
-    @media(min-width:1280px){.issue-grid,.discovery-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.issue{padding:20px 22px}.issue h3{font-size:19px}.issue:has(.issue-detail[open]){padding:24px 28px}.issue:has(.issue-detail[open]) h3{font-size:22px}}
+    @media(min-width:820px){.issue-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+    @media(min-width:1280px){.issue-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.issue{padding:20px 22px}.issue h3{font-size:19px}.issue:has(.issue-detail[open]){padding:24px 28px}.issue:has(.issue-detail[open]) h3{font-size:22px}}
     @media(max-width:600px){.headline-panel{padding:16px}.highlight-list li{font-size:14px}.highlight-lead{font-size:12px;-webkit-line-clamp:1}.issue{padding:18px 17px}.issue h3{font-size:18px}.issue-lead{font-size:14px}.issue-summary p{font-size:15px;line-height:1.9}.reading-controls{gap:7px}.reading-toggle{padding:4px 7px;font-size:11px}.toolbar-bottom{align-items:center;flex-wrap:wrap}.results{font-size:11px}.issue-reading{padding-top:12px}}
     @media print{.issue-lead,.issue-detail>summary,.reading-toggle{display:none!important}.issue-detail>.issue-reading{display:block!important}.issue{display:block;padding:14px 0}.issue-grid{border:0}.issue-summary p{font-size:11px}}
     @media print{.quant-shared-nav{display:none!important}html{color-scheme:light}body{background:white;color:black}.masthead,.toolbar,.downloads,.theme-toggle,.operations-panel,.evidence-panel>summary,.date-navigation,.page-jump-nav,.archive-dialog{display:none}body{padding-top:0}.shell{max-width:none;padding:0}.issue-grid,.highlight-list{display:block}.issue{break-inside:avoid;margin-bottom:12px}.evidence-panel:not([open])>*{display:block}.page-header{padding:12px 0}.issue-summary p{font-size:11px}}
@@ -358,8 +357,8 @@ END:VEVENT</blockquote></div></div></details></td>
 </tbody></table></section>
 </div></details></section>
 <nav aria-label="브리핑 필터" class="toolbar">
-<div class="toolbar-top"><div class="search"><input aria-label="검색" autocomplete="off" id="search" placeholder="기업 · 키워드 · 출처 검색" type="search"/></div><select aria-label="브리핑 구간" id="section-filter"><option value="all">모든 구간</option><option value="yesterday">전일 경제·금융 이슈</option><option value="overnight">당일 시장·기업 업데이트</option><option value="investment">종목·산업 리서치</option></select><select aria-label="확보한 원문 범위" id="evidence-filter"><option value="all">모든 자료</option><option value="full">기사·문서 본문</option><option value="limited">메시지·요약</option></select></div>
-<div class="toolbar-bottom"><div aria-label="이슈 분야" class="scope-nav"><button aria-pressed="true" data-scope="all" type="button">전체</button><button aria-pressed="false" data-scope="company" type="button">기업</button><button aria-pressed="false" data-scope="market" type="button">시장</button><button aria-pressed="false" data-scope="economy" type="button">경제·산업</button></div><div class="reading-controls"><span aria-live="polite" class="results" id="result-count">30개 이슈</span><button aria-pressed="false" class="reading-toggle" id="reading-toggle" type="button">모두 펼치기</button></div></div>
+<div class="toolbar-top"><div class="search"><input aria-label="검색" autocomplete="off" id="search" placeholder="기업 · 키워드 · 출처 검색" type="search"/></div><select aria-label="브리핑 구간" id="section-filter"><option value="all">모든 구간</option><option value="yesterday">전일 경제·금융 이슈</option><option value="overnight">당일 시장·기업 업데이트</option><option value="investment">종목·산업 리서치</option><option value="geeknews">GeekNews 읽을거리</option></select><select aria-label="확보한 원문 범위" id="evidence-filter"><option value="all">모든 자료</option><option value="full">기사·문서 본문</option><option value="limited">메시지·요약</option></select></div>
+<div class="toolbar-bottom"><div aria-label="이슈 분야" class="scope-nav"><button aria-pressed="true" data-scope="all" type="button">전체</button><button aria-pressed="false" data-scope="company" type="button">기업</button><button aria-pressed="false" data-scope="market" type="button">시장</button><button aria-pressed="false" data-scope="economy" type="button">경제·산업</button></div><div class="reading-controls"><span aria-live="polite" class="results" id="result-count">39개 항목</span><button aria-pressed="false" class="reading-toggle" id="reading-toggle" type="button">모두 펼치기</button></div></div>
 </nav>
 <noscript><p>검색·필터를 사용하려면 JavaScript를 켜세요.</p></noscript>
 <main id="report-content" tabindex="-1">
@@ -890,73 +889,91 @@ END:VEVENT</blockquote></div></div></details></td>
 </div></details>
 </article>
 </div></section>
-<section aria-labelledby="ai-discovery-title" class="discovery-panel">
-<div class="panel-heading"><h2 id="ai-discovery-title">GeekNews 읽을거리</h2><span class="count">9</span></div>
-<ul class="discovery-grid">
-<li><article class="discovery-card">
-<div class="discovery-meta"><span>개발 · 인프라</span><span>GeekNews</span></div>
-<h3 class="discovery-title"><a href="https://news.hada.io/topic?id=34387" rel="noopener noreferrer" target="_blank">fakecloud - 통합 테스트를 위한 로컬 AWS 클라우드 에뮬레이터 ↗</a></h3>
-<p>fakecloud 는 기존 AWS SDK, CLI, IaC 도구를 그대로 사용하면서 애플리케이션과 AWS 서비스 간 동작을 로컬에서 테스트하는 환경임 애플리케이션은 일반 AWS API를 호출하고, 테스트는 전용 SDK 로 이메일, 메시지, Lambda 호출 결과를 검사하거나 비동기 처리를 직...</p>
-<p><strong>선정 이유</strong> 기술 이해·활용 검토</p>
-<p class="source-meta">GeekNews 소개 확인 · 연결 원문 확인 전</p>
-</article></li>
-<li><article class="discovery-card">
-<div class="discovery-meta"><span>AI · 개발</span><span>GeekNews</span></div>
-<h3 class="discovery-title"><a href="https://news.hada.io/topic?id=34399" rel="noopener noreferrer" target="_blank">바이브 코딩 현실: 셀프테스트는 통과했는데 실데이터는 261편 중 6편만 맞았다 ↗</a></h3>
-<p>AI 코딩 에이전트에게 블로그 운영 자동화를 맡기면서 셀프테스트가 통과(GATE_OK)했는데 실데이터에서는 틀린 도구 세 개를 겪은 기록입니다.</p><p>서치콘솔 수집기는 표 셀의 innerText 에 호버 버튼 문구가 딸려 와 글 261편 중 6편만 매칭했고, 광고 점검 도구는 산술 하나로 렌더 실패를 단정했다가 브라우저 확인에서...</p>
-<p><strong>선정 이유</strong> 리스크·검증 절차 검토</p>
-<p class="source-meta">GeekNews 소개 확인 · 연결 원문 확인 전</p>
-</article></li>
-<li><article class="discovery-card">
-<div class="discovery-meta"><span>보안 · 오픈소스</span><span>GeekNews</span></div>
-<h3 class="discovery-title"><a href="https://news.hada.io/topic?id=34425" rel="noopener noreferrer" target="_blank">Armada - Nostr 기반 암호화 오픈소스 Discord 대안 ↗</a></h3>
-<p>Armada 는 커뮤니티, 채널, 스레드, 음성/영상 통화와 운영 기능을 갖춘 Discord 대안으로, 모든 커뮤니티에 종단 간 암호화 를 적용함 메시지는 전송 전 기기에서 암호화되며 발신자와 커뮤니티 이름 도 보호함.</p><p>공개된 Concord 프로토콜을 사용해 ...</p>
-<p><strong>선정 이유</strong> 기술 이해·활용 검토</p>
-<p class="source-meta">GeekNews 소개 확인 · 연결 원문 확인 전</p>
-</article></li>
-<li><article class="discovery-card">
-<div class="discovery-meta"><span>인프라</span><span>GeekNews</span></div>
-<h3 class="discovery-title"><a href="https://news.hada.io/topic?id=34414" rel="noopener noreferrer" target="_blank">“ENIAC에도 BIOS가 있었을까?”에 대한 Alan Kay의 답변 ↗</a></h3>
-<p>ENIAC에는 BIOS나 그에 상응하는 기능이 없었을 것 으로 보며, 일부 기법만으로는 프로그램 내장식 컴퓨터로 분류하기에도 부족하다고 봄 기본 입출력 프로그램 을 BIOS로 인정하려면 반드시 펌웨어에 있어야 하는지가 쟁점이며, 기능적 취지에 따르면 ROM은...</p>
-<p><strong>선정 이유</strong> 기술 이해·활용 검토</p>
-<p class="source-meta">GeekNews 소개 확인 · 연결 원문 확인 전</p>
-</article></li>
-<li><article class="discovery-card">
-<div class="discovery-meta"><span>기술 산업</span><span>GeekNews</span></div>
-<h3 class="discovery-title"><a href="https://news.hada.io/topic?id=34397" rel="noopener noreferrer" target="_blank">계속 승진하는 것이 좋은 커리어일까? 엔지니어 Philip Su의 경험 [동영상] ↗</a></h3>
-<p>승진은 같은 일을 더 잘하는 것만을 뜻하지 않음 .</p><p>높은 레벨에서는 코딩보다 방향 설정과 조직 간 조율이 늘어나며, 잘할 수 있는 일과 하고 싶은 일이 달라질 수 있음 OpenAI 와 Meta에서 근무한 Philip Su는 높은 성과 기대와 압박에 지쳐 IC9에서 IC7로 자발적으로 내려왔...</p>
-<p><strong>선정 이유</strong> 기술 이해·활용 검토</p>
-<p class="source-meta">GeekNews 소개 확인 · 연결 원문 확인 전</p>
-</article></li>
-<li><article class="discovery-card">
-<div class="discovery-meta"><span>AI</span><span>GeekNews</span></div>
-<h3 class="discovery-title"><a href="https://news.hada.io/topic?id=34395" rel="noopener noreferrer" target="_blank">BrowserSkill - 로그인된 내 브라우저를 AI 에이전트가 사용하게 하는 도구 ↗</a></h3>
-<p>Tencent가 공개한 브라우저 확장 프로그램과 CLI 로, 이미 로그인된 Chrome이나 Edge를 AI 에이전트에 연결 별도 자동화 브라우저에 다시 로그인하지 않고 사내 사이트 검색, 문서 읽기, 양식 작성과 웹 업무 처리 에 활용 에이전트는 별도 창에서 ...</p>
-<p><strong>선정 이유</strong> 기술 이해·활용 검토</p>
-<p class="source-meta">GeekNews 소개 확인 · 연결 원문 확인 전</p>
-</article></li>
-<li><article class="discovery-card">
-<div class="discovery-meta"><span>개발 · 오픈소스</span><span>GeekNews</span></div>
-<h3 class="discovery-title"><a href="https://news.hada.io/topic?id=34405" rel="noopener noreferrer" target="_blank">Show GN: CalcMax – SymPy 엔진을 내장한 오픈소스 안드로이드 공학용/CAS 계산기 ↗</a></h3>
-<p>안드로이드에서 일반 공학용 계산기처럼 바로 사용할 수 있으면서, 필요할 때 CAS·그래프·Python·통계까지 사용할 수 있는 계산기를 만들었습니다.</p><p>SymPy 엔진을 앱에 직접 포함해서 인터넷 연결 없이 강력한 CAS 계산이 가능합니다.</p>
-<p><strong>선정 이유</strong> 기술 이해·활용 검토</p>
-<p class="source-meta">GeekNews 소개 확인 · 연결 원문 확인 전</p>
-</article></li>
-<li><article class="discovery-card">
-<div class="discovery-meta"><span>기술 산업</span><span>GeekNews</span></div>
-<h3 class="discovery-title"><a href="https://news.hada.io/topic?id=34409" rel="noopener noreferrer" target="_blank">받아야 할 Nvidia 주식 10억 달러어치 ↗</a></h3>
-<p>NVIDIA의 초기 자문위원 Eric Gullichsen은 1993년 받은 스톡옵션 계약 을 2024년 다시 확인한 뒤, 약 10억 달러어치 주식을 받지 못했다고 주장함 계약은 부여일부터 1년 안에 전량 베스팅 하도록 정했지만, 1996년 NVIDIA가 통지한 확정 수량은 4년 베스팅 일정으로...</p>
-<p><strong>선정 이유</strong> 연구 방법·자료 비교</p>
-<p class="source-meta">GeekNews 소개 확인 · 연결 원문 확인 전</p>
-</article></li>
-<li><article class="discovery-card">
-<div class="discovery-meta"><span>보안 · 인프라</span><span>GeekNews</span></div>
-<h3 class="discovery-title"><a href="https://news.hada.io/topic?id=34413" rel="noopener noreferrer" target="_blank">다크 웹에서 셀프 호스팅하기 ↗</a></h3>
-<p>개인 사이트를 Tor 숨김 서비스 로 공개해 Tor 네트워크 안에서만 접근할 수 있는 .onion 주소로 접속 가능하게 함 .onion 주소는 공개 키에서 직접 파생 되며, 인증 기관이나 DNS 없이 서버 IP를 노출하지 않고 Tor 자체의 종단 간 암호화...</p>
-<p><strong>선정 이유</strong> 기술 이해·활용 검토</p>
-<p class="source-meta">GeekNews 소개 확인 · 연결 원문 확인 전</p>
-</article></li>
-</ul>
+<section aria-labelledby="ai-discovery-title" class="section" data-report-section="geeknews">
+<div class="section-heading"><h2 id="ai-discovery-title">GeekNews 읽을거리</h2><span class="count">9</span></div>
+<div class="issue-grid">
+<article class="issue" data-full-text="false" data-issue-section="geeknews" data-scope="reading" id="geeknews-1">
+<div class="issue-top"><span class="pill accent">개발 · 인프라</span><span class="source-caption">GeekNews</span></div>
+<h3><a href="#geeknews-1">fakecloud - 통합 테스트를 위한 로컬 AWS 클라우드 에뮬레이터</a></h3>
+<p class="issue-lead">fakecloud 는 기존 AWS SDK, CLI, IaC 도구를 그대로 사용하면서 애플리케이션과 AWS 서비스 간 동작을 로컬에서 테스트하는 환경임 애플리케이션은 일반 AWS API를 호출하고, 테스트는 전용 SDK 로 이메일, 메시지, Lambda 호출 결과를 검사하거나 비동기 처리를 직...</p>
+<details class="issue-detail"><summary><span class="detail-open">상세 보기</span><span class="detail-close">접기</span></summary><div class="issue-reading">
+<div class="issue-summary"><p>fakecloud 는 기존 AWS SDK, CLI, IaC 도구를 그대로 사용하면서 애플리케이션과 AWS 서비스 간 동작을 로컬에서 테스트하는 환경임 애플리케이션은 일반 AWS API를 호출하고, 테스트는 전용 SDK 로 이메일, 메시지, Lambda 호출 결과를 검사하거나 비동기 처리를 직...</p></div>
+<ul class="source-list"><li><a href="https://news.hada.io/topic?id=34387" referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank">GeekNews에서 읽기 ↗</a></li></ul>
+</div></details>
+</article>
+<article class="issue" data-full-text="false" data-issue-section="geeknews" data-scope="reading" id="geeknews-2">
+<div class="issue-top"><span class="pill accent">AI · 개발</span><span class="source-caption">GeekNews</span></div>
+<h3><a href="#geeknews-2">바이브 코딩 현실: 셀프테스트는 통과했는데 실데이터는 261편 중 6편만 맞았다</a></h3>
+<p class="issue-lead">AI 코딩 에이전트에게 블로그 운영 자동화를 맡기면서 셀프테스트가 통과(GATE_OK)했는데 실데이터에서는 틀린 도구 세 개를 겪은 기록입니다.</p>
+<details class="issue-detail"><summary><span class="detail-open">상세 보기</span><span class="detail-close">접기</span></summary><div class="issue-reading">
+<div class="issue-summary"><p>AI 코딩 에이전트에게 블로그 운영 자동화를 맡기면서 셀프테스트가 통과(GATE_OK)했는데 실데이터에서는 틀린 도구 세 개를 겪은 기록입니다.</p><p>서치콘솔 수집기는 표 셀의 innerText 에 호버 버튼 문구가 딸려 와 글 261편 중 6편만 매칭했고, 광고 점검 도구는 산술 하나로 렌더 실패를 단정했다가 브라우저 확인에서...</p></div>
+<ul class="source-list"><li><a href="https://news.hada.io/topic?id=34399" referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank">GeekNews에서 읽기 ↗</a></li></ul>
+</div></details>
+</article>
+<article class="issue" data-full-text="false" data-issue-section="geeknews" data-scope="reading" id="geeknews-3">
+<div class="issue-top"><span class="pill accent">보안 · 오픈소스</span><span class="source-caption">GeekNews</span></div>
+<h3><a href="#geeknews-3">Armada - Nostr 기반 암호화 오픈소스 Discord 대안</a></h3>
+<p class="issue-lead">Armada 는 커뮤니티, 채널, 스레드, 음성/영상 통화와 운영 기능을 갖춘 Discord 대안으로, 모든 커뮤니티에 종단 간 암호화 를 적용함 메시지는 전송 전 기기에서 암호화되며 발신자와 커뮤니티 이름 도 보호함.</p>
+<details class="issue-detail"><summary><span class="detail-open">상세 보기</span><span class="detail-close">접기</span></summary><div class="issue-reading">
+<div class="issue-summary"><p>Armada 는 커뮤니티, 채널, 스레드, 음성/영상 통화와 운영 기능을 갖춘 Discord 대안으로, 모든 커뮤니티에 종단 간 암호화 를 적용함 메시지는 전송 전 기기에서 암호화되며 발신자와 커뮤니티 이름 도 보호함.</p><p>공개된 Concord 프로토콜을 사용해 ...</p></div>
+<ul class="source-list"><li><a href="https://news.hada.io/topic?id=34425" referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank">GeekNews에서 읽기 ↗</a></li></ul>
+</div></details>
+</article>
+<article class="issue" data-full-text="false" data-issue-section="geeknews" data-scope="reading" id="geeknews-4">
+<div class="issue-top"><span class="pill accent">인프라</span><span class="source-caption">GeekNews</span></div>
+<h3><a href="#geeknews-4">“ENIAC에도 BIOS가 있었을까?”에 대한 Alan Kay의 답변</a></h3>
+<p class="issue-lead">ENIAC에는 BIOS나 그에 상응하는 기능이 없었을 것 으로 보며, 일부 기법만으로는 프로그램 내장식 컴퓨터로 분류하기에도 부족하다고 봄 기본 입출력 프로그램 을 BIOS로 인정하려면 반드시 펌웨어에 있어야 하는지가 쟁점이며, 기능적 취지에 따르면 ROM은...</p>
+<details class="issue-detail"><summary><span class="detail-open">상세 보기</span><span class="detail-close">접기</span></summary><div class="issue-reading">
+<div class="issue-summary"><p>ENIAC에는 BIOS나 그에 상응하는 기능이 없었을 것 으로 보며, 일부 기법만으로는 프로그램 내장식 컴퓨터로 분류하기에도 부족하다고 봄 기본 입출력 프로그램 을 BIOS로 인정하려면 반드시 펌웨어에 있어야 하는지가 쟁점이며, 기능적 취지에 따르면 ROM은...</p></div>
+<ul class="source-list"><li><a href="https://news.hada.io/topic?id=34414" referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank">GeekNews에서 읽기 ↗</a></li></ul>
+</div></details>
+</article>
+<article class="issue" data-full-text="false" data-issue-section="geeknews" data-scope="reading" id="geeknews-5">
+<div class="issue-top"><span class="pill accent">기술 산업</span><span class="source-caption">GeekNews</span></div>
+<h3><a href="#geeknews-5">계속 승진하는 것이 좋은 커리어일까? 엔지니어 Philip Su의 경험 [동영상]</a></h3>
+<p class="issue-lead">승진은 같은 일을 더 잘하는 것만을 뜻하지 않음 .</p>
+<details class="issue-detail"><summary><span class="detail-open">상세 보기</span><span class="detail-close">접기</span></summary><div class="issue-reading">
+<div class="issue-summary"><p>승진은 같은 일을 더 잘하는 것만을 뜻하지 않음 .</p><p>높은 레벨에서는 코딩보다 방향 설정과 조직 간 조율이 늘어나며, 잘할 수 있는 일과 하고 싶은 일이 달라질 수 있음 OpenAI 와 Meta에서 근무한 Philip Su는 높은 성과 기대와 압박에 지쳐 IC9에서 IC7로 자발적으로 내려왔...</p></div>
+<ul class="source-list"><li><a href="https://news.hada.io/topic?id=34397" referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank">GeekNews에서 읽기 ↗</a></li></ul>
+</div></details>
+</article>
+<article class="issue" data-full-text="false" data-issue-section="geeknews" data-scope="reading" id="geeknews-6">
+<div class="issue-top"><span class="pill accent">AI</span><span class="source-caption">GeekNews</span></div>
+<h3><a href="#geeknews-6">BrowserSkill - 로그인된 내 브라우저를 AI 에이전트가 사용하게 하는 도구</a></h3>
+<p class="issue-lead">Tencent가 공개한 브라우저 확장 프로그램과 CLI 로, 이미 로그인된 Chrome이나 Edge를 AI 에이전트에 연결 별도 자동화 브라우저에 다시 로그인하지 않고 사내 사이트 검색, 문서 읽기, 양식 작성과 웹 업무 처리 에 활용 에이전트는 별도 창에서 ...</p>
+<details class="issue-detail"><summary><span class="detail-open">상세 보기</span><span class="detail-close">접기</span></summary><div class="issue-reading">
+<div class="issue-summary"><p>Tencent가 공개한 브라우저 확장 프로그램과 CLI 로, 이미 로그인된 Chrome이나 Edge를 AI 에이전트에 연결 별도 자동화 브라우저에 다시 로그인하지 않고 사내 사이트 검색, 문서 읽기, 양식 작성과 웹 업무 처리 에 활용 에이전트는 별도 창에서 ...</p></div>
+<ul class="source-list"><li><a href="https://news.hada.io/topic?id=34395" referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank">GeekNews에서 읽기 ↗</a></li></ul>
+</div></details>
+</article>
+<article class="issue" data-full-text="false" data-issue-section="geeknews" data-scope="reading" id="geeknews-7">
+<div class="issue-top"><span class="pill accent">개발 · 오픈소스</span><span class="source-caption">GeekNews</span></div>
+<h3><a href="#geeknews-7">Show GN: CalcMax – SymPy 엔진을 내장한 오픈소스 안드로이드 공학용/CAS 계산기</a></h3>
+<p class="issue-lead">안드로이드에서 일반 공학용 계산기처럼 바로 사용할 수 있으면서, 필요할 때 CAS·그래프·Python·통계까지 사용할 수 있는 계산기를 만들었습니다.</p>
+<details class="issue-detail"><summary><span class="detail-open">상세 보기</span><span class="detail-close">접기</span></summary><div class="issue-reading">
+<div class="issue-summary"><p>안드로이드에서 일반 공학용 계산기처럼 바로 사용할 수 있으면서, 필요할 때 CAS·그래프·Python·통계까지 사용할 수 있는 계산기를 만들었습니다.</p><p>SymPy 엔진을 앱에 직접 포함해서 인터넷 연결 없이 강력한 CAS 계산이 가능합니다.</p></div>
+<ul class="source-list"><li><a href="https://news.hada.io/topic?id=34405" referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank">GeekNews에서 읽기 ↗</a></li></ul>
+</div></details>
+</article>
+<article class="issue" data-full-text="false" data-issue-section="geeknews" data-scope="reading" id="geeknews-8">
+<div class="issue-top"><span class="pill accent">기술 산업</span><span class="source-caption">GeekNews</span></div>
+<h3><a href="#geeknews-8">받아야 할 Nvidia 주식 10억 달러어치</a></h3>
+<p class="issue-lead">NVIDIA의 초기 자문위원 Eric Gullichsen은 1993년 받은 스톡옵션 계약 을 2024년 다시 확인한 뒤, 약 10억 달러어치 주식을 받지 못했다고 주장함 계약은 부여일부터 1년 안에 전량 베스팅 하도록 정했지만, 1996년 NVIDIA가 통지한 확정 수량은 4년 베스팅 일정으로...</p>
+<details class="issue-detail"><summary><span class="detail-open">상세 보기</span><span class="detail-close">접기</span></summary><div class="issue-reading">
+<div class="issue-summary"><p>NVIDIA의 초기 자문위원 Eric Gullichsen은 1993년 받은 스톡옵션 계약 을 2024년 다시 확인한 뒤, 약 10억 달러어치 주식을 받지 못했다고 주장함 계약은 부여일부터 1년 안에 전량 베스팅 하도록 정했지만, 1996년 NVIDIA가 통지한 확정 수량은 4년 베스팅 일정으로...</p></div>
+<ul class="source-list"><li><a href="https://news.hada.io/topic?id=34409" referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank">GeekNews에서 읽기 ↗</a></li></ul>
+</div></details>
+</article>
+<article class="issue" data-full-text="false" data-issue-section="geeknews" data-scope="reading" id="geeknews-9">
+<div class="issue-top"><span class="pill accent">보안 · 인프라</span><span class="source-caption">GeekNews</span></div>
+<h3><a href="#geeknews-9">다크 웹에서 셀프 호스팅하기</a></h3>
+<p class="issue-lead">개인 사이트를 Tor 숨김 서비스 로 공개해 Tor 네트워크 안에서만 접근할 수 있는 .onion 주소로 접속 가능하게 함 .onion 주소는 공개 키에서 직접 파생 되며, 인증 기관이나 DNS 없이 서버 IP를 노출하지 않고 Tor 자체의 종단 간 암호화...</p>
+<details class="issue-detail"><summary><span class="detail-open">상세 보기</span><span class="detail-close">접기</span></summary><div class="issue-reading">
+<div class="issue-summary"><p>개인 사이트를 Tor 숨김 서비스 로 공개해 Tor 네트워크 안에서만 접근할 수 있는 .onion 주소로 접속 가능하게 함 .onion 주소는 공개 키에서 직접 파생 되며, 인증 기관이나 DNS 없이 서버 IP를 노출하지 않고 Tor 자체의 종단 간 암호화...</p></div>
+<ul class="source-list"><li><a href="https://news.hada.io/topic?id=34413" referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank">GeekNews에서 읽기 ↗</a></li></ul>
+</div></details>
+</article>
+</div>
 </section>
 
 </main>
@@ -991,7 +1008,7 @@ END:VEVENT</blockquote></div></div></details></td>
       if(!issue.hidden)visible++;
     }
     for(const group of sections){const count=[...group.querySelectorAll('[data-issue-section]')].filter(i=>!i.hidden).length;group.hidden=count===0;group.querySelector('.count').textContent=String(count);}
-    document.getElementById('result-count').textContent=visible+' / '+issues.length+'개';
+    document.getElementById('result-count').textContent=visible+' / '+issues.length+'개 항목';
     document.getElementById('no-results').hidden=visible>0||issues.length===0;syncReading();
   }
   input.addEventListener('input',filter);evidence.addEventListener('change',filter);period.addEventListener('change',filter);
@@ -1109,24 +1126,6 @@ END:VEVENT</blockquote></div></div></details></td>
   dialog.addEventListener('close',()=>{awaitingInitialCalendarFocus=false;openCalendar.focus();});
   setEntries({entries:[],...archiveContext});refreshArchive();
   if(new URLSearchParams(location.search).get('archive')==='1')showCalendar();
-})();
-</script>
-<script id="daily-reading-controls">
-(() => {
-  const panel=document.querySelector('.discovery-panel');if(!panel)return;
-  const input=document.getElementById('search'),period=document.getElementById('section-filter'),evidence=document.getElementById('evidence-filter');
-  const option=document.createElement('option');option.value='geeknews';option.textContent='GeekNews 읽을거리';period.append(option);
-  function filter(){
-    const query=input.value.trim().toLocaleLowerCase('ko'),scope=document.querySelector('button[data-scope="all"]').getAttribute('aria-pressed')==='true';
-    const allowed=scope&&(period.value==='all'||period.value==='geeknews')&&evidence.value!=='full';let count=0;
-    for(const item of panel.querySelectorAll('.discovery-grid > li')){item.hidden=!(allowed&&(!query||item.textContent.toLocaleLowerCase('ko').includes(query)));if(!item.hidden)count++;}
-    panel.hidden=!allowed||(!!query&&count===0);panel.querySelector('.count').textContent=String(count);
-    const issueCount=[...document.querySelectorAll('[data-issue-section]')].filter(item=>!item.hidden).length;
-    document.getElementById('no-results').hidden=issueCount+count>0;
-    document.getElementById('result-count').textContent=issueCount+'개 이슈 · '+count+'개 읽을거리';
-  }
-  input.addEventListener('input',filter);period.addEventListener('change',filter);evidence.addEventListener('change',filter);
-  for(const button of document.querySelectorAll('button[data-scope]'))button.addEventListener('click',filter);
 })();
 </script>
 <style>

@@ -255,9 +255,8 @@ body.has-quant-shared-nav .skip-link {
     .issue-grid{align-items:stretch}.issue{display:flex;flex-direction:column;cursor:pointer}.issue-detail:not([open]){margin-top:auto}
     /* Expanded articles keep source order and use the full reading width. */
     .issue:has(.issue-detail[open]),.issue:only-child{grid-column:1/-1}
-    .discovery-panel{margin:26px 0}.discovery-grid{display:grid;grid-template-columns:minmax(0,1fr);gap:16px;list-style:none;padding:0;margin:0}.discovery-grid li{min-width:0}.discovery-card{display:flex;flex-direction:column;gap:10px;height:100%;padding:18px 20px;background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);color:var(--ink);text-decoration:none}.discovery-card:hover{border-color:var(--primary)}.discovery-meta{display:flex;justify-content:space-between;font-size:11px;color:var(--primary)}.discovery-title{font-size:15px;font-weight:600;line-height:1.7}
-    @media(min-width:820px){.issue-grid,.discovery-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
-    @media(min-width:1280px){.issue-grid,.discovery-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.issue{padding:20px 22px}.issue h3{font-size:19px}.issue:has(.issue-detail[open]){padding:24px 28px}.issue:has(.issue-detail[open]) h3{font-size:22px}}
+    @media(min-width:820px){.issue-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+    @media(min-width:1280px){.issue-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.issue{padding:20px 22px}.issue h3{font-size:19px}.issue:has(.issue-detail[open]){padding:24px 28px}.issue:has(.issue-detail[open]) h3{font-size:22px}}
     @media(max-width:600px){.headline-panel{padding:16px}.highlight-list li{font-size:14px}.highlight-lead{font-size:12px;-webkit-line-clamp:1}.issue{padding:18px 17px}.issue h3{font-size:18px}.issue-lead{font-size:14px}.issue-summary p{font-size:15px;line-height:1.9}.reading-controls{gap:7px}.reading-toggle{padding:4px 7px;font-size:11px}.toolbar-bottom{align-items:center;flex-wrap:wrap}.results{font-size:11px}.issue-reading{padding-top:12px}}
     @media print{.issue-lead,.issue-detail>summary,.reading-toggle{display:none!important}.issue-detail>.issue-reading{display:block!important}.issue{display:block;padding:14px 0}.issue-grid{border:0}.issue-summary p{font-size:11px}}
     @media print{.quant-shared-nav{display:none!important}html{color-scheme:light}body{background:white;color:black}.masthead,.toolbar,.downloads,.theme-toggle,.operations-panel,.evidence-panel>summary,.date-navigation,.page-jump-nav,.archive-dialog{display:none}body{padding-top:0}.shell{max-width:none;padding:0}.issue-grid,.highlight-list{display:block}.issue{break-inside:avoid;margin-bottom:12px}.evidence-panel:not([open])>*{display:block}.page-header{padding:12px 0}.issue-summary p{font-size:11px}}
@@ -365,7 +364,7 @@ body.has-quant-shared-nav .skip-link {
 
   <nav class="toolbar" aria-label="브리핑 필터">
     <div class="toolbar-top"><div class="search"><input id="search" type="search" aria-label="검색" placeholder="기업 · 키워드 · 출처 검색" autocomplete="off"></div><select id="section-filter" aria-label="브리핑 구간"><option value="all">모든 구간</option><option value="yesterday">전일 경제·금융 이슈</option><option value="overnight">밤사이 시장·기업 업데이트</option><option value="investment">종목·산업 리서치</option></select><select id="evidence-filter" aria-label="확보한 원문 범위"><option value="all">모든 자료</option><option value="full">기사·문서 본문</option><option value="limited">메시지·요약</option></select></div>
-    <div class="toolbar-bottom"><div class="scope-nav" aria-label="이슈 분야"><button type="button" data-scope="all" aria-pressed="true">전체</button><button type="button" data-scope="company" aria-pressed="false">기업</button><button type="button" data-scope="market" aria-pressed="false">시장</button><button type="button" data-scope="economy" aria-pressed="false">경제·산업</button></div><div class="reading-controls"><span class="results" id="result-count" aria-live="polite">17개 이슈</span><button type="button" id="reading-toggle" class="reading-toggle" aria-pressed="false">모두 펼치기</button></div></div>
+    <div class="toolbar-bottom"><div class="scope-nav" aria-label="이슈 분야"><button type="button" data-scope="all" aria-pressed="true">전체</button><button type="button" data-scope="company" aria-pressed="false">기업</button><button type="button" data-scope="market" aria-pressed="false">시장</button><button type="button" data-scope="economy" aria-pressed="false">경제·산업</button></div><div class="reading-controls"><span class="results" id="result-count" aria-live="polite">17개 항목</span><button type="button" id="reading-toggle" class="reading-toggle" aria-pressed="false">모두 펼치기</button></div></div>
   </nav>
   <noscript><p>검색·필터를 사용하려면 JavaScript를 켜세요.</p></noscript>
   <main id="report-content" tabindex="-1">
@@ -374,7 +373,6 @@ body.has-quant-shared-nav .skip-link {
       <article class="issue" id="issue-9dace39e9073f18b" data-issue-section="yesterday" data-scope="macro" data-full-text="true">
         <div class="issue-top"><span class="pill accent">경제지표</span><span class="source-caption">이비엔(EBN)뉴스센터 · 09.21 16:14 KST</span></div>
         <h3><a href="#issue-9dace39e9073f18b">반도체 회복이 바꾼 한국 경제…수출·제조업 비중 확대</a></h3>
-        
         <p class="issue-lead">수출과 수입을 합친 대외거래가 전체 총공급에서 차지하는 비중은 2023년 29.6%에서 지난해 31.1%로 1.5%포인트 상승했다. 특히 수출률은 19.0%로 전년보다 1.7%p 높아졌다.</p>
         
         
@@ -405,7 +403,6 @@ body.has-quant-shared-nav .skip-link {
       </article><article class="issue" id="issue-3540448c22be758d" data-issue-section="yesterday" data-scope="macro" data-full-text="true">
         <div class="issue-top"><span class="pill accent">경제지표</span><span class="source-caption">직썰 · 09.21 16:13 KST</span></div>
         <h3><a href="#issue-3540448c22be758d">추석 앞두고 수출업체 달러 매도 확대…원·달러 1381원 마감</a></h3>
-        
         <p class="issue-lead">원·달러 환율이 추석 연휴를 앞두고 수출업체들의 달러 매도 물량이 늘면서 1380원대 초반으로 하락했다.</p>
         
         
@@ -436,7 +433,6 @@ body.has-quant-shared-nav .skip-link {
       </article><article class="issue" id="issue-c34cc40f60ef841e" data-issue-section="yesterday" data-scope="macro" data-full-text="true">
         <div class="issue-top"><span class="pill accent">경제지표</span><span class="source-caption">데일리한국 · 09.21 15:17 KST</span></div>
         <h3><a href="#issue-c34cc40f60ef841e">수출 68.7%↑·청년취업 46개월째↓…李, &#39;체감민생&#39; 다시 전면에</a></h3>
-        
         <p class="issue-lead">수출과 성장률 등 주요 경제지표는 빠르게 회복되고 있지만 국민이 이를 삶의 변화로 체감하지 못하고 있다는 판단에서다.</p>
         
         
@@ -467,7 +463,6 @@ body.has-quant-shared-nav .skip-link {
       </article><article class="issue" id="issue-38d66e45d3070da6" data-issue-section="yesterday" data-scope="macro" data-full-text="true">
         <div class="issue-top"><span class="pill accent">경제지표</span><span class="source-caption">글로벌경제신문 · 09.21 14:15 KST</span></div>
         <h3><a href="#issue-38d66e45d3070da6">반도체 수출 증가세 여전... 이달 중순 수출 비중 중 반도체는 48%</a></h3>
-        
         <p class="issue-lead">이달 중순 수출이 700억달러를 돌파하며 같은 기간 기준 역대 최대치를 기록했다.</p>
         
         
@@ -498,7 +493,6 @@ body.has-quant-shared-nav .skip-link {
       </article><article class="issue" id="issue-d9e03be396ebb8e8" data-issue-section="yesterday" data-scope="macro" data-full-text="true">
         <div class="issue-top"><span class="pill accent">경제지표</span><span class="source-caption">매일일보 · 09.21 12:00 KST</span></div>
         <h3><a href="#issue-d9e03be396ebb8e8">[기획] 수출 68.7% 늘었는데 물량은 9.8%↓…‘반도체 착시’ 커진 韓</a></h3>
-        
         <p class="issue-lead">21일 관세청에 따르면 지난 8월 수출은 982억8200만달러로 전년 동월 대비 68.7% 증가했다. 역대 8월 중 최대 규모로, 수출은 15개월 연속 증가세를 이어갔다.</p>
         
         
@@ -529,7 +523,6 @@ body.has-quant-shared-nav .skip-link {
       </article><article class="issue" id="issue-82b4cce165f4d6a6" data-issue-section="yesterday" data-scope="macro" data-full-text="true">
         <div class="issue-top"><span class="pill accent">경제지표</span><span class="source-caption">뷰티경제 · 09.21 10:15 KST</span></div>
         <h3><a href="#issue-82b4cce165f4d6a6">[K-뷰티 수출 3강 시장 분석③ 일본] 기초화장품, 수출액·단가 급상승</a></h3>
-        
         <p class="issue-lead">산업통상자원부에 따르면 2026년 8월 화장품 수출은 13억1,200만 달러로 전년 동기 대비 52.1% 증가하며 역대 8월 기준 최대 실적을 기록했다. 일본 역시 미국, 중국과 함께 K-뷰티의 핵심 수출시장으로 자리 잡고 있다.</p>
         
         
@@ -560,7 +553,6 @@ body.has-quant-shared-nav .skip-link {
       </article><article class="issue" id="issue-e2dde0cb96e0e093" data-issue-section="yesterday" data-scope="macro" data-full-text="true">
         <div class="issue-top"><span class="pill accent">경제지표</span><span class="source-caption">뉴스1 · 09.21 12:39 KST</span></div>
         <h3><a href="#issue-e2dde0cb96e0e093">韓 부가가치 창출력 개선돼도…수출 10억당 취업자 5.4→5명 &#39;감소&#39;</a></h3>
-        
         <p class="issue-lead">최종수요 1천원당 부가가치 759원…반도체 회복에 소폭 상승 수출, 부가가치 창출 비중↑…취업유발계수 5.4→5.0명 하락</p>
         
         
@@ -590,7 +582,6 @@ body.has-quant-shared-nav .skip-link {
       <article class="issue" id="issue-a7d7f01e91eaee4d" data-issue-section="overnight" data-scope="macro" data-full-text="true">
         <div class="issue-top"><span class="pill accent">경제지표</span><span class="source-caption">토큰포스트 · 09.22 00:26 KST 제공</span></div>
         <h3><a href="#issue-a7d7f01e91eaee4d">캐나다 GDP 0.8% 증가…美 관세에 투자·고용 지연 경고</a></h3>
-        
         <p class="issue-lead">캐나다 경제는 2026년 2분기 실질 국내총생산(GDP)이 전 분기보다 0.8% 증가하며 견조한 흐름을 보였다.</p>
         
         
@@ -621,7 +612,6 @@ body.has-quant-shared-nav .skip-link {
       </article><article class="issue" id="issue-847d4907ca4d89b0" data-issue-section="overnight" data-scope="market" data-full-text="true">
         <div class="issue-top"><span class="pill accent">시장 동향</span><span class="source-caption">디지털데일리 · 09.22 09:24 KST 제공</span></div>
         <h3><a href="#issue-847d4907ca4d89b0">코스피 2% 급등, 7150선 돌파…삼성전자·SK하이닉스 동반 강세</a></h3>
-        
         <p class="issue-lead">22일 한국거래소에 따르면 오전 9시 17분 현재 코스피는 전 거래일보다 143.12포인트(2.04%) 오른 7150.84를 기록하고 있다.</p>
         
         
@@ -652,7 +642,6 @@ body.has-quant-shared-nav .skip-link {
       </article><article class="issue" id="issue-6e64eac8ebf8daaa" data-issue-section="overnight" data-scope="industry" data-full-text="true">
         <div class="issue-top"><span class="pill accent">산업 규제</span><span class="source-caption">스마트투데이 · 09.22 09:23 KST</span></div>
         <h3><a href="#issue-6e64eac8ebf8daaa">LG전자 &#39;대용량 액체냉각 솔루션&#39; 엔비디아 AI 팩토리 규격 승인</a></h3>
-        
         <p class="issue-lead">|스마트투데이=김종현 기자| LG전자가 인공지능(AI) 데이터센터(이하 AI DC) 냉각 솔루션 시장의 핵심 제품인 대용량 냉각수 분배장치(Coolant Distribution Unit, 이하 CDU)의 엔비디아(NVIDIA) 규격 승인을 획득하며 글로벌 AI 데이터센터 시장 공략을 가속한다고 22일 밝혔다.</p>
         
         
@@ -685,7 +674,6 @@ body.has-quant-shared-nav .skip-link {
       <article class="issue" id="issue-59fdb5cfc472a4d3" data-issue-section="investment" data-scope="macro" data-full-text="true">
         <div class="issue-top"><span class="pill accent">경제지표</span><span class="source-caption">매일경제 · 09.21 18:30 KST</span></div>
         <h3><a href="#issue-59fdb5cfc472a4d3">‘7천피 탈환’ 구원투수 나선 삼전…수출 호조·배당 기대에 5% 급등</a></h3>
-        
         <p class="issue-lead">SK하이닉스가 0.59% 상승한 데 비해 삼성전자의 주가 상승률이 훨씬 컸던 것은 배당 기대감 때문이다.</p>
         
         
@@ -716,7 +704,6 @@ body.has-quant-shared-nav .skip-link {
       </article><article class="issue" id="issue-a45518bde01f96ef" data-issue-section="investment" data-scope="macro" data-full-text="true">
         <div class="issue-top"><span class="pill accent">경제지표</span><span class="source-caption">와이드경제 · 09.21 17:16 KST</span></div>
         <h3><a href="#issue-a45518bde01f96ef">[특징주] SFA반도체, “韓 반도체 수출 259% 사상 최대” 수요 확대에 반도체주 ‘일제히 강세’</a></h3>
-        
         <p class="issue-lead">21일 한국거래소에 따르면 SFA반도체의 주가는 오후 5시 12분 기준 전일 대비 15.63% 상승한 1만430원에 거래되고 있다.
 
 이는 반도체 수출이 폭증하면서 9월 중순까지 한국 수출액이 지난해 같은 기간보다 78.3% 늘어나면서 관련주로 매수세가 몰리는 것으로 풀이된다.</p>
@@ -753,7 +740,6 @@ body.has-quant-shared-nav .skip-link {
       </article><article class="issue" id="issue-c294b1a6dc3b53df" data-issue-section="investment" data-scope="macro" data-full-text="true">
         <div class="issue-top"><span class="pill accent">경제지표</span><span class="source-caption">폴리뉴스 Polinews · 09.21 14:07 KST</span></div>
         <h3><a href="#issue-c294b1a6dc3b53df">9월 수출 증가세 유지… 반도체 제외 시 주요 업종 둔화</a></h3>
-        
         <p class="issue-lead">반도체 수출이 전년 동기보다 270% 이상 늘면서 전체 수출 증가폭을 키웠고 석유제품과 승용차, 선박, 철강제품도 증가했다. 8월 수출에서 감소했던 자동차와 선박도 9월 초순에는 플러스로 돌아섰다.</p>
         
         
@@ -784,7 +770,6 @@ body.has-quant-shared-nav .skip-link {
       </article><article class="issue" id="issue-a238b46cf621435c" data-issue-section="investment" data-scope="macro" data-full-text="true">
         <div class="issue-top"><span class="pill accent">경제지표</span><span class="source-caption">중소기업신문 · 09.20 11:43 KST</span></div>
         <h3><a href="#issue-a238b46cf621435c">수출기업 70% &#34;바이어 발굴이 최대 애로&#34;</a></h3>
-        
         <p class="issue-lead">한국무역협회(KITA)가 20일 발표한 &#39;2026년 해외마케팅 지원사업 설문조사&#39;에 따르면 중소·중견 수출기업은 바이어 및 거래선 발굴의 어려움(70.3%·복수응답)을 가장 큰 애로사항으로 꼽았다.</p>
         
         
@@ -815,7 +800,6 @@ body.has-quant-shared-nav .skip-link {
       </article><article class="issue" id="issue-28eea5cb839cb8c9" data-issue-section="investment" data-scope="macro" data-full-text="true">
         <div class="issue-top"><span class="pill accent">경제지표</span><span class="source-caption">머니투데이 · 09.20 11:23 KST</span></div>
         <h3><a href="#issue-28eea5cb839cb8c9">수출 중소기업 70% &#34;바이어 및 거래선 발굴이 최대 애로&#34; - 머니투데이</a></h3>
-        
         <p class="issue-lead">한국무역협회가 20일 발표한 &#39;2026년 해외마케팅 지원사업 설문조사&#39; 결과에 따르면 중소·중견 수출기업은 &#39;바이어 및 거래선 발굴의 어려움(70.3%, 이하 복수응답)&#39;을 가장 큰 애로사항으로 꼽았다.</p>
         
         
@@ -846,7 +830,6 @@ body.has-quant-shared-nav .skip-link {
       </article><article class="issue" id="issue-355d770a7d56f1a3" data-issue-section="investment" data-scope="macro" data-full-text="true">
         <div class="issue-top"><span class="pill accent">경제지표</span><span class="source-caption">한국면세뉴스 · 09.20 11:17 KST</span></div>
         <h3><a href="#issue-355d770a7d56f1a3">유망시장은 중동, UAE 사우디 등... 수출 중기 70% &#39;바이어 발굴이 최대 애로&#39;</a></h3>
-        
         <p class="issue-lead">중소·중견 수출기업의 해외시장 진출 확대를 위해서는 구매력 높은 검증된 유망 바이어 발굴이 시급한 것으로 나타났다. 한국무역협회(KITA)가 20일 발표한 &#39;2026년 해외마케팅 지원사업 설문조사&#39;에 따르면 중소·중견 수출기업은 바이어 및 거래선 발굴의 어려움(70.3%·복수응답)을 가장 큰 애로사항으로 꼽았다.</p>
         
         
@@ -877,7 +860,6 @@ body.has-quant-shared-nav .skip-link {
       </article><article class="issue" id="issue-dc25de37e93058e0" data-issue-section="investment" data-scope="market" data-full-text="true">
         <div class="issue-top"><span class="pill accent">시장 동향</span><span class="source-caption">ZD넷 코리아 · 09.22 08:14 KST</span></div>
         <h3><a href="#issue-dc25de37e93058e0">어드밴스드 마이크로 디바이스, 시총 1조 달러 첫 돌파...서버용 에픽 CPU 기대감 ↑</a></h3>
-        
         <p class="issue-lead">CPU와 인공지능(AI) GPU 가속기 등을 공급하는 미국 대형 팹리스 어드밴스드 마이크로 디바이스의 시가총액이 사상 최초로 1조 달러를 넘어섰다.</p>
         
         
@@ -939,7 +921,7 @@ body.has-quant-shared-nav .skip-link {
       if(!issue.hidden)visible++;
     }
     for(const group of sections){const count=[...group.querySelectorAll('[data-issue-section]')].filter(i=>!i.hidden).length;group.hidden=count===0;group.querySelector('.count').textContent=String(count);}
-    document.getElementById('result-count').textContent=visible+' / '+issues.length+'개';
+    document.getElementById('result-count').textContent=visible+' / '+issues.length+'개 항목';
     document.getElementById('no-results').hidden=visible>0||issues.length===0;syncReading();
   }
   input.addEventListener('input',filter);evidence.addEventListener('change',filter);period.addEventListener('change',filter);
@@ -1059,7 +1041,6 @@ body.has-quant-shared-nav .skip-link {
   if(new URLSearchParams(location.search).get('archive')==='1')showCalendar();
 })();
 </script>
-
 <style>
   #automation-settings{max-width:1272px;margin:12px auto 32px;padding:16px 20px;border:1px solid var(--line,#e5e8eb);border-radius:8px;background:var(--panel,#fff);color:var(--ink,#191f28);font:13px/1.65 Inter,Pretendard,-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans KR',sans-serif;box-sizing:border-box;overflow-wrap:anywhere}
   #automation-settings *{box-sizing:border-box}

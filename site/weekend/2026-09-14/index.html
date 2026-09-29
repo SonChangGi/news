@@ -255,9 +255,8 @@ body.has-quant-shared-nav .skip-link {
     .issue-grid{align-items:stretch}.issue{display:flex;flex-direction:column;cursor:pointer}.issue-detail:not([open]){margin-top:auto}
     /* Expanded articles keep source order and use the full reading width. */
     .issue:has(.issue-detail[open]),.issue:only-child{grid-column:1/-1}
-    .discovery-panel{margin:26px 0}.discovery-grid{display:grid;grid-template-columns:minmax(0,1fr);gap:16px;list-style:none;padding:0;margin:0}.discovery-grid li{min-width:0}.discovery-card{display:flex;flex-direction:column;gap:10px;height:100%;padding:18px 20px;background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);color:var(--ink);text-decoration:none}.discovery-card:hover{border-color:var(--primary)}.discovery-meta{display:flex;justify-content:space-between;font-size:11px;color:var(--primary)}.discovery-title{font-size:15px;font-weight:600;line-height:1.7}
-    @media(min-width:820px){.issue-grid,.discovery-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
-    @media(min-width:1280px){.issue-grid,.discovery-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.issue{padding:20px 22px}.issue h3{font-size:19px}.issue:has(.issue-detail[open]){padding:24px 28px}.issue:has(.issue-detail[open]) h3{font-size:22px}}
+    @media(min-width:820px){.issue-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+    @media(min-width:1280px){.issue-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.issue{padding:20px 22px}.issue h3{font-size:19px}.issue:has(.issue-detail[open]){padding:24px 28px}.issue:has(.issue-detail[open]) h3{font-size:22px}}
     @media(max-width:600px){.headline-panel{padding:16px}.highlight-list li{font-size:14px}.highlight-lead{font-size:12px;-webkit-line-clamp:1}.issue{padding:18px 17px}.issue h3{font-size:18px}.issue-lead{font-size:14px}.issue-summary p{font-size:15px;line-height:1.9}.reading-controls{gap:7px}.reading-toggle{padding:4px 7px;font-size:11px}.toolbar-bottom{align-items:center;flex-wrap:wrap}.results{font-size:11px}.issue-reading{padding-top:12px}}
     @media print{.issue-lead,.issue-detail>summary,.reading-toggle{display:none!important}.issue-detail>.issue-reading{display:block!important}.issue{display:block;padding:14px 0}.issue-grid{border:0}.issue-summary p{font-size:11px}}
     @media print{.quant-shared-nav{display:none!important}html{color-scheme:light}body{background:white;color:black}.masthead,.toolbar,.downloads,.theme-toggle,.operations-panel,.evidence-panel>summary,.date-navigation,.page-jump-nav,.archive-dialog{display:none}body{padding-top:0}.shell{max-width:none;padding:0}.issue-grid,.highlight-list{display:block}.issue{break-inside:avoid;margin-bottom:12px}.evidence-panel:not([open])>*{display:block}.page-header{padding:12px 0}.issue-summary p{font-size:11px}}
@@ -1573,7 +1572,7 @@ body.has-quant-shared-nav .skip-link {
       if(!issue.hidden)visible++;
     }
     for(const group of sections){const count=[...group.querySelectorAll('[data-issue-section]')].filter(i=>!i.hidden).length;group.hidden=count===0;group.querySelector('.count').textContent=String(count);}
-    document.getElementById('result-count').textContent=visible+' / '+issues.length+'개';
+    document.getElementById('result-count').textContent=visible+' / '+issues.length+'개 항목';
     document.getElementById('no-results').hidden=visible>0||issues.length===0;syncReading();
   }
   input.addEventListener('input',filter);evidence.addEventListener('change',filter);period.addEventListener('change',filter);
