@@ -4,7 +4,7 @@
   "base_path": "/news/",
   "timezone": "Asia/Seoul",
   "latest_date": "2026-10-01",
-  "updated_at": "2026-10-01T10:45:49.195492+00:00",
+  "updated_at": "2026-10-01T16:47:11.825250+00:00",
   "latest_url": "/news/",
   "archive_url": "/news/?archive=1",
   "manifest_url": "/news/archive.json",
@@ -21,7 +21,7 @@
       "sha256": {
         "json": "7447016986857bb2c845bae85308dadce4c7297c718dcf41034bc412577e01c7",
         "markdown": "ab6afc07ddde50fb6b405ae70603ceb62a5b24ed3a98a8bf05f8f24e28d61947",
-        "html": "9429f434cd9b5afa5696826c48c51e72d39d5dbc4ea1028b9e195d0aa60ec121"
+        "html": "650d666daeb85ff34ef46802ef10bcdafddc79519fd1d753aa733e82110bfed7"
       }
     },
     {
@@ -36,22 +36,22 @@
       "sha256": {
         "json": "54ac32da755263490ff85728b02cdbed4df21dae0d74d2ea3acf788077bee170",
         "markdown": "1dfd18c08deba5dcdd2220934e2396577523529400f15ea25716f3822bac9cdd",
-        "html": "deee5f56cfa68303fe482f4821e0f4f5904bca7849e4135597fddfde7f0a125f"
+        "html": "cbff1859b6455c65d96c4d70fe059cdf419435810abd7ef7734e2a10b53d47d9"
       }
     },
     {
       "date": "2026-09-29",
       "mode": "reconstruction",
-      "generated_at": "2026-09-30T16:22:41.253378+00:00",
+      "generated_at": "2026-10-01T16:47:11.825250+00:00",
       "cutoff": "2026-09-29T23:28:11.727955+09:00",
       "issue_count": 52,
       "status": "partial",
       "url": "/news/daily/2026-09-29/index.html",
       "report_url": "/news/daily/2026-09-29/index.html",
       "sha256": {
-        "json": "6662b498fbeda3db31a972d1922417b232d8953e6eaec21444dabf144212b1ae",
-        "markdown": "0cd65af8deead7527882c80ed776a906aca49dcd49bcf7916608d1655a861f3d",
-        "html": "593178c8a04f32bd580e36bc2f4872b7afa281c7791518313962849849a0f659"
+        "json": "bbf3e54c9c52de887f82d382f55123780d3709c753e15a3d818bf886c5d69392",
+        "markdown": "9beb8279dabe036dd40fa012af4ef81908802b986499bb3d7fabbb5d061464f2",
+        "html": "993c2853d2935c7c12c1a65485c6c0d038f44f4f162d9ba959c00b55836cc152"
       }
     },
     {
