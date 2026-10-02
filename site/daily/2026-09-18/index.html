@@ -1448,8 +1448,8 @@ body.has-quant-shared-nav .skip-link {
   #automation-settings legend{padding:0;margin-bottom:8px;font-size:13px;font-weight:650}
   #automation-settings label{display:block;font-size:12px}
   #automation-settings input{max-width:100%;min-width:0;min-height:40px;padding:7px 10px;border:1px solid var(--line,#e5e8eb);border-radius:6px;background:var(--panel,#fff);color:var(--ink,#191f28);font:inherit}
-  #automation-settings input[type=time]{width:126px}
   #automation-settings input[type=password],#automation-settings input[type=text]{display:block;width:100%;margin-top:6px}
+  #automation-settings input.as-clock{width:126px;font-variant-numeric:tabular-nums}
   #automation-settings input[type=checkbox]{width:18px;height:18px;min-height:18px;accent-color:var(--primary,#1b64da);flex-shrink:0}
   #automation-settings button{min-height:40px;border:1px solid var(--line,#e5e8eb);border-radius:6px;background:var(--panel,#fff);color:var(--ink,#191f28);padding:7px 12px;font:inherit;font-size:12px;cursor:pointer}
   #automation-settings button:hover:not(:disabled){background:var(--surface,#f2f4f6)}
@@ -1478,7 +1478,7 @@ body.has-quant-shared-nav .skip-link {
   #automation-settings a{color:var(--primary,#1b64da)}
   #automation-settings [hidden]{display:none!important}
   @media(max-width:1320px){#automation-settings{margin-left:24px;margin-right:24px}}
-  @media(max-width:760px){#automation-settings{margin-left:16px;margin-right:16px;padding:14px 16px}#automation-settings .as-columns{grid-template-columns:minmax(0,1fr);gap:24px}#automation-settings .as-notifications{border-top:1px solid var(--line,#e5e8eb);padding-top:22px}#automation-settings .as-caption{display:block;margin:2px 0 0 19px}#automation-settings input{font-size:16px}#automation-settings input[type=time]{width:168px}#automation-settings .as-blackout-row{grid-template-columns:minmax(0,1fr) auto;gap:6px}#automation-settings .as-blackout-row label{display:grid;grid-template-columns:34px minmax(0,1fr);gap:6px;align-items:center;grid-column:1}#automation-settings .as-blackout-row label:first-child{grid-row:1}#automation-settings .as-blackout-row label:nth-child(2){grid-row:2}#automation-settings .as-blackout-row input{width:100%;min-width:0;margin-top:0;padding:7px 5px}#automation-settings .as-blackout-row .as-remove{grid-column:2;grid-row:1 / span 2;align-self:center}#automation-settings .as-remove{padding:7px 8px}}
+  @media(max-width:760px){#automation-settings{margin-left:16px;margin-right:16px;padding:14px 16px}#automation-settings .as-columns{grid-template-columns:minmax(0,1fr);gap:24px}#automation-settings .as-notifications{border-top:1px solid var(--line,#e5e8eb);padding-top:22px}#automation-settings .as-caption{display:block;margin:2px 0 0 19px}#automation-settings input{font-size:16px}#automation-settings input.as-clock{width:168px}#automation-settings .as-blackout-row{grid-template-columns:minmax(0,1fr) auto;gap:6px}#automation-settings .as-blackout-row label{display:grid;grid-template-columns:34px minmax(0,1fr);gap:6px;align-items:center;grid-column:1}#automation-settings .as-blackout-row label:first-child{grid-row:1}#automation-settings .as-blackout-row label:nth-child(2){grid-row:2}#automation-settings .as-blackout-row input{width:100%;min-width:0;margin-top:0;padding:7px 5px}#automation-settings .as-blackout-row .as-remove{grid-column:2;grid-row:1 / span 2;align-self:center}#automation-settings .as-remove{padding:7px 8px}}
 </style>
 <details id="automation-settings" data-automation-mode="public" data-preview-port="8876">
   <summary>자동화 설정 <span class="as-caption">오늘·내일 일정 · 기본값 · Telegram 알림</span></summary>
@@ -1502,20 +1502,22 @@ body.has-quant-shared-nav .skip-link {
         <p id="as-draft-note" class="as-muted" hidden>저장하지 않은 입력입니다.</p>
         <fieldset>
           <legend>분석 시작 희망 시각</legend>
-          <label for="as-run-time">이 시각부터 분석을 우선합니다.</label>
-          <input id="as-run-time" name="run_time" type="time" step="60" required>
+          <label for="as-run-time">비워 두면 가능한 시간과 수집 일정을 기준으로 자동으로 정합니다.</label>
+          <div class="as-row"><input id="as-run-time" class="as-clock" name="run_time" type="text" inputmode="text" pattern="([01][0-9]|2[0-3]):[0-5][0-9]" placeholder="자동" title="24시간 HH:MM 형식, 비워 두면 자동" autocomplete="off" spellcheck="false"><button id="as-auto-run-time" type="button">자동으로 결정</button></div>
+          <p id="as-run-time-decision" class="as-muted" aria-live="polite"></p>
         </fieldset>
         <fieldset>
           <legend>배포 목표 시각</legend>
-          <label for="as-completion-target">완료를 목표로 하는 시각입니다.</label>
-          <input id="as-completion-target" name="completion_target" type="time" step="60">
+          <label for="as-completion-target">비워 두면 가능한 시간과 배포 정책을 기준으로 자동으로 정합니다.</label>
+          <div class="as-row"><input id="as-completion-target" class="as-clock" name="completion_target" type="text" inputmode="text" pattern="([01][0-9]|2[0-3]):[0-5][0-9]" placeholder="자동" title="24시간 HH:MM 형식, 비워 두면 자동" autocomplete="off" spellcheck="false"><button id="as-auto-completion-target" type="button">자동으로 결정</button></div>
+          <p id="as-completion-target-decision" class="as-muted" aria-live="polite"></p>
           <p id="as-time-budget" class="as-muted">목표 시각을 넘겨도 검증을 생략하지 않으며, 가능한 시간 안에서 작업을 이어갑니다.</p>
         </fieldset>
         <fieldset>
           <legend>가능한 시간대</legend>
           <div id="as-window-rows" class="as-rows"></div>
           <p id="as-window-empty" class="as-muted" hidden>내일은 자동화를 진행하지 않습니다.</p>
-          <p class="as-muted">종료 24:00은 자정까지입니다.</p>
+          <p class="as-muted">24시간 HH:MM 형식으로 입력합니다. 종료 24:00은 자정까지입니다.</p>
           <div class="as-actions"><button id="as-add-window" type="button">가능 시간 추가</button><button id="as-all-day" type="button">하루 종일 가능</button><button id="as-no-time" type="button">내일 사용 불가</button></div>
           <p id="as-window-summary" class="as-muted" aria-live="polite"></p>
         </fieldset>
@@ -1725,8 +1727,14 @@ body.has-quant-shared-nav .skip-link {
   function timeInput(value, labelText) {
     const label = document.createElement('label');
     const input = document.createElement('input');
-    input.type = 'time';
-    input.step = '60';
+    input.type = 'text';
+    input.inputMode = 'text';
+    input.className = 'as-clock';
+    input.pattern = '([01][0-9]|2[0-3]):[0-5][0-9]';
+    input.placeholder = 'HH:MM';
+    input.title = '24시간 HH:MM 형식';
+    input.autocomplete = 'off';
+    input.spellcheck = false;
     input.required = true;
     input.value = value || '';
     input.id = 'as-clock-' + (++rowNumber);
@@ -1756,13 +1764,11 @@ body.has-quant-shared-nav .skip-link {
     row.className = 'as-blackout-row';
     const start = timeInput(value.start, '시작');
     const end = timeInput(value.end, '종료');
-    // Native time inputs reject 24:00, which is a valid exclusive day boundary.
-    end.input.type = 'text';
-    end.input.inputMode = 'text';
+    // Only the exclusive end boundary accepts 24:00.
     end.input.pattern = '([01][0-9]|2[0-3]):[0-5][0-9]|24:00';
     end.input.placeholder = '24:00';
     end.input.value = value.end || '';
-    end.input.title = 'HH:MM 형식, 자정까지는 24:00';
+    end.input.title = '24시간 HH:MM 형식, 자정까지는 24:00';
     start.input.dataset.clock = 'start';
     end.input.dataset.clock = 'end';
     row.append(start.label, end.label, removeButton(row, '가능 시간'));
@@ -1772,10 +1778,31 @@ body.has-quant-shared-nav .skip-link {
     if (focus) start.input.focus();
   }
 
+  function runPreference(day) { return day.run_time_mode === 'auto' ? null : day.run_time; }
+  function targetMode(day) { return day.completion_target_mode || (day.completion_target ? 'manual' : 'none'); }
+  function targetPreference(day) { return targetMode(day) === 'auto' ? null : day.completion_target; }
+
+  function updateClockDecisions() {
+    if (!current) return;
+    const day = current[selectedDay];
+    const saved = !drafts.get(day.date)?.dirty;
+    const automaticStart = !find('as-run-time').value;
+    const target = find('as-completion-target');
+    const automaticTarget = !target.value && target.dataset.mode !== 'none';
+    find('as-run-time-decision').textContent = automaticStart ?
+      (saved && day.run_time_mode === 'auto' ? '자동 결정: ' + (day.run_time || '가능한 시간이 생기면 시작') : '저장하면 가능한 시간과 수집 일정을 확인해 정합니다.') : '';
+    target.placeholder = target.dataset.mode === 'none' ? '목표 없음' : '자동';
+    find('as-completion-target-decision').textContent = target.value ? '' : automaticTarget ?
+      (saved && targetMode(day) === 'auto' ? '자동 결정: ' + (day.completion_target || '검증 완료 후 가능한 시간에 배포') :
+        '저장하면 배포 목표를 자동으로 정합니다.') : '현재는 배포 목표가 없습니다. ‘자동으로 결정’을 누르면 자동 목표를 사용합니다.';
+  }
+
   function scheduleValues() {
+    const target = find('as-completion-target');
     return {
-      run_time: find('as-run-time').value,
-      completion_target: find('as-completion-target').value || null,
+      run_time: find('as-run-time').value || null,
+      completion_target: target.value || null,
+      completion_target_mode: target.value ? 'manual' : target.dataset.mode === 'none' ? 'none' : 'auto',
       available_windows: Array.from(find('as-window-rows').children, row => ({
         start: row.querySelector('[data-clock=start]').value,
         end: row.querySelector('[data-clock=end]').value
@@ -1789,17 +1816,25 @@ body.has-quant-shared-nav .skip-link {
     const draft = drafts.get(day.date);
     if (!draft) return;
     Object.assign(draft, scheduleValues());
-    draft.dirty = draft.run_time !== day.run_time ||
-      (draft.completion_target || '') !== (day.completion_target || '') ||
+    draft.dirty = (draft.run_time || '') !== (runPreference(day) || '') ||
+      (draft.completion_target || '') !== (targetPreference(day) || '') ||
+      draft.completion_target_mode !== targetMode(day) ||
       JSON.stringify(draft.available_windows) !== JSON.stringify(day.available_windows);
     find('as-draft-note').hidden = !draft.dirty;
+    updateClockDecisions();
+  }
+
+  function defaultsScopeLabel() {
+    if (current.defaults.scope !== 'weekday_weekend') return '';
+    return new Date(current[selectedDay].date + 'T00:00:00Z').getUTCDay() % 6 === 0 ? '주말' : '평일';
   }
 
   function renderSchedule() {
     const day = current[selectedDay];
     const label = selectedDay === 'today' ? '오늘' : '내일';
     if (!drafts.has(day.date)) drafts.set(day.date, {
-      date: day.date, run_time: day.run_time, completion_target: day.completion_target || null,
+      date: day.date, run_time: runPreference(day), completion_target: targetPreference(day) || null,
+      completion_target_mode: targetMode(day),
       available_windows: day.available_windows.map(value => ({...value})),
       expected_revision: day.revision,
       expected_defaults_revision: current.defaults.revision,
@@ -1814,8 +1849,10 @@ body.has-quant-shared-nav .skip-link {
     find('as-window-empty').textContent = label + '은 자동화를 진행하지 않습니다.';
     find('as-date').textContent = day.date;
     find('as-schedule-mode').textContent = day.is_override ? label + '만 변경됨' : '기본 일정';
-    find('as-run-time').value = draft.run_time;
+    find('as-run-time').value = draft.run_time || '';
     find('as-completion-target').value = draft.completion_target || '';
+    find('as-completion-target').dataset.mode = draft.completion_target_mode;
+    updateClockDecisions();
     const budget = selectedDay === 'today' ? current.completion_budget : null;
     find('as-time-budget').textContent = budget ?
       (budget.target_missed ? '목표 시각을 지났습니다. ' : '오늘 목표까지 사용 가능한 시간: 약 ' + Math.floor(budget.remaining_available_seconds / 60) + '분. ') +
@@ -1827,7 +1864,11 @@ body.has-quant-shared-nav .skip-link {
     find('as-reset-schedule').disabled = busy || !day.is_override;
     find('as-draft-note').hidden = !draft.dirty;
     const effective = current.tomorrow.date;
-    find('as-defaults-note').textContent = '내일(' + effective + ')부터 기본값으로 사용합니다.';
+    const scope = defaultsScopeLabel();
+    find('as-save-defaults').textContent = '이 설정을 ' + (scope ? scope + ' ' : '') + '기본값으로 저장';
+    find('as-defaults-note').textContent = '내일(' + effective + ')부터 ' +
+      (scope ? scope + '에 적용합니다. ' + (scope === '주말' ? '평일' : '주말') + ' 기본값과 날짜별 별도 일정은 유지됩니다.' :
+        '기본값으로 사용합니다.');
   }
 
   function renderNotifications() {
@@ -1930,6 +1971,15 @@ body.has-quant-shared-nav .skip-link {
     } finally { setBusy(false); }
   }
 
+  find('as-completion-target').addEventListener('input', () => {
+    find('as-completion-target').dataset.mode = find('as-completion-target').value ? 'manual' : 'auto';
+    rememberSchedule();
+  });
+  for (const field of ['run-time', 'completion-target']) find('as-auto-' + field).addEventListener('click', () => {
+    find('as-' + field).value = '';
+    find('as-' + field).dataset.mode = 'auto';
+    rememberSchedule();
+  });
   scheduleForm.addEventListener('input', rememberSchedule);
   for (const key of ['today', 'tomorrow']) find('as-select-' + key).addEventListener('click', () => {
     if (!current || busy || selectedDay === key) return;
@@ -2016,6 +2066,7 @@ body.has-quant-shared-nav .skip-link {
     const draft = drafts.get(current[selectedDay].date);
     save('schedule', {
       date: draft.date, run_time: draft.run_time, completion_target: draft.completion_target,
+      ...(draft.completion_target_mode === 'manual' ? {} : {completion_target_mode: draft.completion_target_mode}),
       available_windows: draft.available_windows,
       expected_revision: draft.expected_revision
     }, 'schedule', draft.date + ' 일정이 저장되었습니다.');
@@ -2034,10 +2085,13 @@ body.has-quant-shared-nav .skip-link {
     const draft = drafts.get(current[selectedDay].date);
     save('schedule/defaults', {
       date: draft.date, run_time: draft.run_time, completion_target: draft.completion_target,
+      ...(draft.completion_target_mode === 'manual' ? {} : {completion_target_mode: draft.completion_target_mode}),
       available_windows: draft.available_windows,
       expected_revision: draft.expected_revision,
       expected_defaults_revision: draft.expected_defaults_revision
-    }, 'schedule', '내일(' + current.tomorrow.date + ')부터 사용할 기본값이 저장되었습니다. 날짜별 별도 일정과 오늘 일정은 유지됩니다.');
+    }, 'schedule', '내일(' + current.tomorrow.date + ')부터 사용할 ' +
+      (defaultsScopeLabel() ? defaultsScopeLabel() + ' ' : '') +
+      '기본값이 저장되었습니다. 날짜별 별도 일정과 오늘 일정은 유지됩니다.');
   });
 
   notificationForm.addEventListener('submit', event => {
