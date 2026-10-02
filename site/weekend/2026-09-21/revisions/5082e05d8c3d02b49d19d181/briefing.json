@@ -8,7 +8,7 @@
   "status": "partial",
   "language": "ko",
   "timezone": "Asia/Seoul",
-  "input_manifest_hash": "f6e5c54f5bfb52f319eedeea9215700b295c7a4caaee81c4c8e85bd5fe8e2d2f",
+  "input_manifest_hash": "f5bd0f608e79555ca69890286d542656c48033b5069e0d296a43712ca424d04a",
   "highlights": [],
   "delivery_target": "2026-09-25T17:43:35.693481+00:00",
   "generation_delayed": false,
@@ -5233,12 +5233,12 @@
               "location": "본문",
               "source_display_omissions": [
                 {
-                  "source_version_id": "b293a6e62f0da7a8d2c3f76a",
-                  "location": "body",
-                  "start": 165,
                   "end": 179,
-                  "text": "(약 5조5천300억 원)",
-                  "reason": "secondary_currency_conversion"
+                  "location": "body",
+                  "reason": "secondary_currency_conversion",
+                  "source_version_id": "b293a6e62f0da7a8d2c3f76a",
+                  "start": 165,
+                  "text": "(약 5조5천300억 원)"
                 }
               ],
               "projected_source_text": "20일(미국 현지 시각) 코인데스크에 따르면, 제미니의 시가총액은 최고점인 40억 달러에서 현재 7억5천300만 달러 수준으로 급감했다.",
@@ -5838,15 +5838,15 @@
       "korean_required": true,
       "metadata": {
         "period_comparison": {
-          "metric": "EFFR 금리",
-          "base_value": "3.63",
-          "latest_value": "3.88",
-          "delta": "0.25",
           "base_date": "2026-09-01",
-          "latest_date": "2026-09-24",
-          "unit": "%",
+          "base_value": "3.63",
+          "comparable": true,
+          "delta": "0.25",
           "delta_unit": "%p",
-          "comparable": true
+          "latest_date": "2026-09-24",
+          "latest_value": "3.88",
+          "metric": "EFFR 금리",
+          "unit": "%"
         }
       }
     },
@@ -5948,15 +5948,15 @@
       "korean_required": true,
       "metadata": {
         "period_comparison": {
-          "metric": "10년 Treasury 수익률",
-          "base_value": "4.79",
-          "latest_value": "5.18",
-          "delta": "0.39",
           "base_date": "2026-09-01",
-          "latest_date": "2026-09-24",
-          "unit": "%",
+          "base_value": "4.79",
+          "comparable": true,
+          "delta": "0.39",
           "delta_unit": "%p",
-          "comparable": true
+          "latest_date": "2026-09-24",
+          "latest_value": "5.18",
+          "metric": "10년 Treasury 수익률",
+          "unit": "%"
         }
       }
     },
@@ -6058,15 +6058,15 @@
       "korean_required": true,
       "metadata": {
         "period_comparison": {
-          "metric": "2년 Treasury 수익률",
-          "base_value": "4.39",
-          "latest_value": "4.87",
-          "delta": "0.48",
           "base_date": "2026-09-01",
-          "latest_date": "2026-09-24",
-          "unit": "%",
+          "base_value": "4.39",
+          "comparable": true,
+          "delta": "0.48",
           "delta_unit": "%p",
-          "comparable": true
+          "latest_date": "2026-09-24",
+          "latest_value": "4.87",
+          "metric": "2년 Treasury 수익률",
+          "unit": "%"
         }
       }
     },
@@ -6304,15 +6304,15 @@
       "korean_required": true,
       "metadata": {
         "period_comparison": {
-          "metric": "실업률",
-          "base_value": "4.3",
-          "latest_value": "4.1",
-          "delta": "-0.2",
           "base_date": "2026-01-01",
-          "latest_date": "2026-08-01",
-          "unit": "%",
+          "base_value": "4.3",
+          "comparable": true,
+          "delta": "-0.2",
           "delta_unit": "%p",
-          "comparable": true
+          "latest_date": "2026-08-01",
+          "latest_value": "4.1",
+          "metric": "실업률",
+          "unit": "%"
         }
       }
     },
@@ -6414,15 +6414,15 @@
       "korean_required": true,
       "metadata": {
         "period_comparison": {
-          "metric": "EFFR 금리",
-          "base_value": "3.64",
-          "latest_value": "3.88",
-          "delta": "0.24",
           "base_date": "2026-01-02",
-          "latest_date": "2026-09-24",
-          "unit": "%",
+          "base_value": "3.64",
+          "comparable": true,
+          "delta": "0.24",
           "delta_unit": "%p",
-          "comparable": true
+          "latest_date": "2026-09-24",
+          "latest_value": "3.88",
+          "metric": "EFFR 금리",
+          "unit": "%"
         }
       }
     },
@@ -6524,15 +6524,15 @@
       "korean_required": true,
       "metadata": {
         "period_comparison": {
-          "metric": "10년 Treasury 수익률",
-          "base_value": "4.19",
-          "latest_value": "5.18",
-          "delta": "0.99",
           "base_date": "2026-01-02",
-          "latest_date": "2026-09-24",
-          "unit": "%",
+          "base_value": "4.19",
+          "comparable": true,
+          "delta": "0.99",
           "delta_unit": "%p",
-          "comparable": true
+          "latest_date": "2026-09-24",
+          "latest_value": "5.18",
+          "metric": "10년 Treasury 수익률",
+          "unit": "%"
         }
       }
     },
@@ -6634,15 +6634,15 @@
       "korean_required": true,
       "metadata": {
         "period_comparison": {
-          "metric": "2년 Treasury 수익률",
-          "base_value": "3.47",
-          "latest_value": "4.87",
-          "delta": "1.40",
           "base_date": "2026-01-02",
-          "latest_date": "2026-09-24",
-          "unit": "%",
+          "base_value": "3.47",
+          "comparable": true,
+          "delta": "1.40",
           "delta_unit": "%p",
-          "comparable": true
+          "latest_date": "2026-09-24",
+          "latest_value": "4.87",
+          "metric": "2년 Treasury 수익률",
+          "unit": "%"
         }
       }
     }
@@ -8840,101 +8840,101 @@
   ],
   "weekly_synthesis": [
     {
-      "title": "LG전자 '대용량 액체냉각 솔루션' 엔비디아 AI 팩토리 규격 승인",
+      "agenda_entry_ids": [],
       "change": "LG전자는 엔비디아로부터 2.5㎿(메가와트)급 CDU에 대한 AI 팩토리 규격 승인 과정에서 추가 요건까지 모두 충족하며 엔비디아 ‘DSX 레디 CDU(DSX Ready CDU)’ 제품으로 승인됐다.",
-      "why_it_matters": "제품이 특정 기술 요건을 충족했음을 보여줍니다. 실제 공급과 매출 반영은 별도로 확인해야 합니다.",
-      "watch": "공급 계약·출하 시점과 매출 반영",
       "issue_ids": [
         "15c86d20bcf7714c67c44648"
       ],
-      "agenda_entry_ids": []
+      "title": "LG전자 '대용량 액체냉각 솔루션' 엔비디아 AI 팩토리 규격 승인",
+      "watch": "공급 계약·출하 시점과 매출 반영",
+      "why_it_matters": "제품이 특정 기술 요건을 충족했음을 보여줍니다. 실제 공급과 매출 반영은 별도로 확인해야 합니다."
     },
     {
-      "title": "반도체 회복이 바꾼 한국 경제…수출·제조업 비중 확대",
+      "agenda_entry_ids": [],
       "change": "산업별로는 공산품 수출률이 34.1%에서 37.1%로 상승했다.",
-      "why_it_matters": "교역 실적은 해외 수요와 주요 산업의 생산 흐름을 보여줍니다.",
-      "watch": "품목·지역별 변화와 물량·가격의 기여",
       "issue_ids": [
         "8e1019efce4be5cdbbeb488e"
       ],
-      "agenda_entry_ids": []
+      "title": "반도체 회복이 바꾼 한국 경제…수출·제조업 비중 확대",
+      "watch": "품목·지역별 변화와 물량·가격의 기여",
+      "why_it_matters": "교역 실적은 해외 수요와 주요 산업의 생산 흐름을 보여줍니다."
     },
     {
-      "title": "반도체 수출 증가세 여전... 이달 중순 수출 비중 중 반도체는 48%",
+      "agenda_entry_ids": [],
       "change": "이달 중순 수출이 700억달러를 돌파하며 같은 기간 기준 역대 최대치를 기록했다.",
-      "why_it_matters": "교역 실적은 해외 수요와 주요 산업의 생산 흐름을 보여줍니다.",
-      "watch": "품목·지역별 변화와 물량·가격의 기여",
       "issue_ids": [
         "e8fb1e4d07d21694d9f1e2fb"
       ],
-      "agenda_entry_ids": []
+      "title": "반도체 수출 증가세 여전... 이달 중순 수출 비중 중 반도체는 48%",
+      "watch": "품목·지역별 변화와 물량·가격의 기여",
+      "why_it_matters": "교역 실적은 해외 수요와 주요 산업의 생산 흐름을 보여줍니다."
     },
     {
-      "title": "日 기준금리 1.25%로 31년 만에 최고",
+      "agenda_entry_ids": [],
       "change": "■ 일본 긴축 전환: 일본은행이 3개월 만에 기준금리를 추가 인상하며 정책금리를 31년 만의 최고 수준으로 끌어올렸다.",
-      "why_it_matters": "정책금리는 차입 비용과 금융시장 가격의 기준이 됩니다.",
-      "watch": "금리 결정과 성명서의 물가·경기 판단",
       "issue_ids": [
         "0ff6da61da574a6b9cda7534"
       ],
-      "agenda_entry_ids": []
+      "title": "日 기준금리 1.25%로 31년 만에 최고",
+      "watch": "금리 결정과 성명서의 물가·경기 판단",
+      "why_it_matters": "정책금리는 차입 비용과 금융시장 가격의 기준이 됩니다."
     },
     {
-      "title": "세계 GDP 2.9%…OECD, 2027년 3.0%로 낮춰",
+      "agenda_entry_ids": [],
       "change": "OECD가 2026년 세계 국내총생산(GDP) 성장률 전망치를 2.9%로 제시했다.",
-      "why_it_matters": "성장의 속도와 구성은 소비·투자 수요를 보여줍니다.",
-      "watch": "성장률과 소비·투자의 기여, 이전 발표치 수정",
       "issue_ids": [
         "61f2da03be3b31b0db5b56b9"
       ],
-      "agenda_entry_ids": []
+      "title": "세계 GDP 2.9%…OECD, 2027년 3.0%로 낮춰",
+      "watch": "성장률과 소비·투자의 기여, 이전 발표치 수정",
+      "why_it_matters": "성장의 속도와 구성은 소비·투자 수요를 보여줍니다."
     }
   ],
   "watchlist": [
     {
-      "title": "LG전자 '대용량 액체냉각 솔루션' 엔비디아 AI 팩토리 규격 승인",
       "current_fact": "LG전자는 엔비디아로부터 2.5㎿(메가와트)급 CDU에 대한 AI 팩토리 규격 승인 과정에서 추가 요건까지 모두 충족하며 엔비디아 ‘DSX 레디 CDU(DSX Ready CDU)’ 제품으로 승인됐다.",
-      "open_question": "",
       "next_signal": "공급 계약·출하 시점과 매출 반영",
+      "open_question": "",
       "source_issue_ids": [
         "15c86d20bcf7714c67c44648"
-      ]
+      ],
+      "title": "LG전자 '대용량 액체냉각 솔루션' 엔비디아 AI 팩토리 규격 승인"
     },
     {
-      "title": "반도체 회복이 바꾼 한국 경제…수출·제조업 비중 확대",
       "current_fact": "산업별로는 공산품 수출률이 34.1%에서 37.1%로 상승했다.",
-      "open_question": "",
       "next_signal": "품목·지역별 변화와 물량·가격의 기여",
+      "open_question": "",
       "source_issue_ids": [
         "8e1019efce4be5cdbbeb488e"
-      ]
+      ],
+      "title": "반도체 회복이 바꾼 한국 경제…수출·제조업 비중 확대"
     },
     {
-      "title": "반도체 수출 증가세 여전... 이달 중순 수출 비중 중 반도체는 48%",
       "current_fact": "이달 중순 수출이 700억달러를 돌파하며 같은 기간 기준 역대 최대치를 기록했다.",
-      "open_question": "",
       "next_signal": "품목·지역별 변화와 물량·가격의 기여",
+      "open_question": "",
       "source_issue_ids": [
         "e8fb1e4d07d21694d9f1e2fb"
-      ]
+      ],
+      "title": "반도체 수출 증가세 여전... 이달 중순 수출 비중 중 반도체는 48%"
     },
     {
-      "title": "日 기준금리 1.25%로 31년 만에 최고",
       "current_fact": "■ 일본 긴축 전환: 일본은행이 3개월 만에 기준금리를 추가 인상하며 정책금리를 31년 만의 최고 수준으로 끌어올렸다.",
-      "open_question": "",
       "next_signal": "금리 결정과 성명서의 물가·경기 판단",
+      "open_question": "",
       "source_issue_ids": [
         "0ff6da61da574a6b9cda7534"
-      ]
+      ],
+      "title": "日 기준금리 1.25%로 31년 만에 최고"
     },
     {
-      "title": "세계 GDP 2.9%…OECD, 2027년 3.0%로 낮춰",
       "current_fact": "OECD가 2026년 세계 국내총생산(GDP) 성장률 전망치를 2.9%로 제시했다.",
-      "open_question": "",
       "next_signal": "성장률과 소비·투자의 기여, 이전 발표치 수정",
+      "open_question": "",
       "source_issue_ids": [
         "61f2da03be3b31b0db5b56b9"
-      ]
+      ],
+      "title": "세계 GDP 2.9%…OECD, 2027년 3.0%로 낮춰"
     }
   ],
   "announced_agenda": [],

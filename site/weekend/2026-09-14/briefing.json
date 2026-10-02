@@ -8,7 +8,7 @@
   "status": "ok",
   "language": "ko",
   "timezone": "Asia/Seoul",
-  "input_manifest_hash": "eec68eab9f60a392bc90116e8858a6570c8a9270e8fe5aad43699dc8c70f31bf",
+  "input_manifest_hash": "5273feff7ec3023928ea82c458d5622d42d6d243a90190c575d20dc3bf9b26c6",
   "highlights": [],
   "delivery_target": "2026-09-20T04:59:55.836717+00:00",
   "generation_delayed": false,
@@ -2514,12 +2514,12 @@
               "location": "본문",
               "source_display_omissions": [
                 {
-                  "source_version_id": "9583b699b7ef7ebba3201fe5",
-                  "location": "body",
-                  "start": 876,
                   "end": 884,
-                  "text": "(약 14만원)",
-                  "reason": "secondary_currency_conversion"
+                  "location": "body",
+                  "reason": "secondary_currency_conversion",
+                  "source_version_id": "9583b699b7ef7ebba3201fe5",
+                  "start": 876,
+                  "text": "(약 14만원)"
                 }
               ],
               "projected_source_text": "Axios는 11일 미국 10년물 국채금리가 4.96%를 웃돌고 국제유가가 배럴당 103달러까지 올랐다고 보도했다. 유가와 금리가 동시에 높은 수준으로 오르면 물가와 금융 여건이 같은 방향에서 시장을 압박하게 된다.",
@@ -2679,12 +2679,12 @@
               "location": "본문",
               "source_display_omissions": [
                 {
-                  "source_version_id": "f93d5828965fb6f6fe3caf10",
-                  "location": "body",
-                  "start": 396,
                   "end": 405,
-                  "text": "(약 572조원)",
-                  "reason": "secondary_currency_conversion"
+                  "location": "body",
+                  "reason": "secondary_currency_conversion",
+                  "source_version_id": "f93d5828965fb6f6fe3caf10",
+                  "start": 396,
+                  "text": "(약 572조원)"
                 }
               ],
               "projected_source_text": "15일 시장조사업체 옴디아에 따르면 2분기 전 세계 반도체 매출은 4250억달러를 넘어 사상 최대치를 기록했다.",
@@ -2725,20 +2725,20 @@
               "location": "본문",
               "source_display_omissions": [
                 {
-                  "source_version_id": "f93d5828965fb6f6fe3caf10",
-                  "location": "body",
-                  "start": 635,
                   "end": 644,
-                  "text": "(약 197조원)",
-                  "reason": "secondary_currency_conversion"
+                  "location": "body",
+                  "reason": "secondary_currency_conversion",
+                  "source_version_id": "f93d5828965fb6f6fe3caf10",
+                  "start": 635,
+                  "text": "(약 197조원)"
                 },
                 {
-                  "source_version_id": "f93d5828965fb6f6fe3caf10",
-                  "location": "body",
-                  "start": 683,
                   "end": 692,
-                  "text": "(약 309조원)",
-                  "reason": "secondary_currency_conversion"
+                  "location": "body",
+                  "reason": "secondary_currency_conversion",
+                  "source_version_id": "f93d5828965fb6f6fe3caf10",
+                  "start": 683,
+                  "text": "(약 309조원)"
                 }
               ],
               "projected_source_text": "1분기 1463억달러로 전체의 45%를 차지했던 메모리 반도체 매출은 2분기 2295억달러로 급증하며 비중도 54%까지 높아졌다.",
@@ -5439,12 +5439,12 @@
               "location": "본문",
               "source_display_omissions": [
                 {
-                  "source_version_id": "4168b499c6c1acd8e79543c8",
-                  "location": "body",
-                  "start": 71,
                   "end": 83,
-                  "text": "(약 1조4000억원)",
-                  "reason": "secondary_currency_conversion"
+                  "location": "body",
+                  "reason": "secondary_currency_conversion",
+                  "source_version_id": "4168b499c6c1acd8e79543c8",
+                  "start": 71,
+                  "text": "(약 1조4000억원)"
                 }
               ],
               "projected_source_text": "셀트리온의 ‘짐펜트라’와 SK바이오팜의 ‘엑스코프리’가 오는 2027년 나란히 연 매출 10억달러를 돌파하며 국산 1호 글로벌 블록버스터 의약품에 등극할 것이라는 전망이 나왔다.",

@@ -8,7 +8,7 @@
   "status": "partial",
   "language": "ko",
   "timezone": "Asia/Seoul",
-  "input_manifest_hash": "19e57d82f0b02e1a10032a76c55afe9cf5efe91ece0c53b71facf76471b1707f",
+  "input_manifest_hash": "b7f949d576e49ffaff861d5e3070f3a8ebb85e1b7213c69c3e114ef998766c07",
   "highlights": [
     "한-멕시코, 정상회담 계기 17건 MOU 체결…무역협정·방산·국방 등 - 헤럴드경제",
     "국채금리 급등에 뉴욕증시 혼조…다우 0.31%↓",
@@ -3924,12 +3924,12 @@
               "location": "본문",
               "source_display_omissions": [
                 {
-                  "source_version_id": "59784b9a90010e2fb1a81565",
-                  "location": "body",
-                  "start": 100,
                   "end": 111,
-                  "text": "(약 1354조 원)",
-                  "reason": "secondary_currency_conversion"
+                  "location": "body",
+                  "reason": "secondary_currency_conversion",
+                  "source_version_id": "59784b9a90010e2fb1a81565",
+                  "start": 100,
+                  "text": "(약 1354조 원)"
                 }
               ],
               "projected_source_text": "세계 최대 투자은행(IB)인 JP모건체이스를 이끌며 ‘월가 황제’로 불리는 제이미 다이먼 회장이 하이퍼스케일러(대규모 데이터센터 운영사) 생태계 전반에 걸친 투자가 내년 1조 달러에 달할 수 있다고 내다봤다.",
@@ -4728,28 +4728,28 @@
               "location": "본문",
               "source_display_omissions": [
                 {
-                  "source_version_id": "e3803c5a8a8b1313371d7fe9",
-                  "location": "body",
-                  "start": 260,
                   "end": 271,
-                  "text": "(1조 227억 원)",
-                  "reason": "secondary_currency_conversion"
+                  "location": "body",
+                  "reason": "secondary_currency_conversion",
+                  "source_version_id": "e3803c5a8a8b1313371d7fe9",
+                  "start": 260,
+                  "text": "(1조 227억 원)"
                 },
                 {
-                  "source_version_id": "e3803c5a8a8b1313371d7fe9",
-                  "location": "body",
-                  "start": 304,
                   "end": 316,
-                  "text": "(1조 5971억 원)",
-                  "reason": "secondary_currency_conversion"
+                  "location": "body",
+                  "reason": "secondary_currency_conversion",
+                  "source_version_id": "e3803c5a8a8b1313371d7fe9",
+                  "start": 304,
+                  "text": "(1조 5971억 원)"
                 },
                 {
-                  "source_version_id": "e3803c5a8a8b1313371d7fe9",
-                  "location": "body",
-                  "start": 365,
                   "end": 378,
-                  "text": "(15조 7324억 원)",
-                  "reason": "secondary_currency_conversion"
+                  "location": "body",
+                  "reason": "secondary_currency_conversion",
+                  "source_version_id": "e3803c5a8a8b1313371d7fe9",
+                  "start": 365,
+                  "text": "(15조 7324억 원)"
                 }
               ],
               "projected_source_text": "삼성전자 인도법인의 2025~26 회계연도 연결 순이익은 722억 8100만 루피으로 2024~2025 회계연도의 1128억 7500만 루피보다 36%나 감소했다. 해당기간 매출은 1.2% 증가한 1조 1118억 3400만 루피를 기록했다.",
@@ -4790,20 +4790,20 @@
               "location": "본문",
               "source_display_omissions": [
                 {
-                  "source_version_id": "e3803c5a8a8b1313371d7fe9",
-                  "location": "body",
-                  "start": 974,
                   "end": 986,
-                  "text": "(6조 1635억 원)",
-                  "reason": "secondary_currency_conversion"
+                  "location": "body",
+                  "reason": "secondary_currency_conversion",
+                  "source_version_id": "e3803c5a8a8b1313371d7fe9",
+                  "start": 974,
+                  "text": "(6조 1635억 원)"
                 },
                 {
-                  "source_version_id": "e3803c5a8a8b1313371d7fe9",
-                  "location": "body",
-                  "start": 1013,
                   "end": 1025,
-                  "text": "(5조 8153억 원)",
-                  "reason": "secondary_currency_conversion"
+                  "location": "body",
+                  "reason": "secondary_currency_conversion",
+                  "source_version_id": "e3803c5a8a8b1313371d7fe9",
+                  "start": 1013,
+                  "text": "(5조 8153억 원)"
                 }
               ],
               "projected_source_text": "인도 내 매출이 증가한 반면 수출 매출은 감소했다. 삼성전자 인도법인의 수출 매출은 2024~2025 회계연도의 4352억 7800만 루피에서 5.64% 줄어든 4106억 8600만 루피를 기록했다.",
@@ -4844,12 +4844,12 @@
               "location": "본문",
               "source_display_omissions": [
                 {
-                  "source_version_id": "e3803c5a8a8b1313371d7fe9",
-                  "location": "body",
-                  "start": 1079,
                   "end": 1088,
-                  "text": "(3441억 원)",
-                  "reason": "secondary_currency_conversion"
+                  "location": "body",
+                  "reason": "secondary_currency_conversion",
+                  "source_version_id": "e3803c5a8a8b1313371d7fe9",
+                  "start": 1079,
+                  "text": "(3441억 원)"
                 }
               ],
               "projected_source_text": "반면 소프트웨어 개발 및 수출 관련 매출은 6.85% 증가한 243억 100만 루피로 집계됐다.",
@@ -6522,8 +6522,8 @@
       "US"
     ],
     "window_end_exclusive": "2026-09-25T13:38:19.516160+09:00",
-    "documents": 3615,
-    "full_text": 2777,
+    "documents": 35,
+    "full_text": 32,
     "missing_sources": [
       "bls_statistics",
       "bea_releases",
@@ -6539,20 +6539,17 @@
     ],
     "us_market_time": "2026-09-25T00:38:19.516160-04:00",
     "exclusions": {
-      "unknown_time": 103,
-      "older_than_window": 650,
-      "superseded_versions": 1764,
       "late_discovered": 0,
-      "selected": 3615
+      "older_than_window": 650,
+      "selected": 3615,
+      "superseded_versions": 1764,
+      "unknown_time": 103
     },
     "categories": {
-      "economy": 1236,
-      "research": 2319,
-      "finance": 27,
-      "company": 3,
-      "technology": 24,
-      "calendar": 3,
-      "regulation": 3
+      "calendar": 1,
+      "economy": 12,
+      "research": 19,
+      "technology": 3
     }
   },
   "editorial_focus": "economy_finance_business",
@@ -6572,44 +6569,24 @@
   ],
   "korean_required": true,
   "candidate_omissions": {
-    "count": 5,
+    "count": 1,
     "critical_count": 1,
     "items": [
       {
         "title": "UK interest rate rise ‘increasingly likely’ with high energy prices; inflation fears hit bonds – as it happened",
         "publisher": "The Guardian",
         "critical": true
-      },
-      {
-        "title": "Surface-Driven Stochastic Volatility for Commodity Options: Identification of Stochastic Vol-of-Vol and Leverage from Smile Dynamics",
-        "publisher": "arXiv.org",
-        "critical": false
-      },
-      {
-        "title": "Active Portfolio Management in Concentrated Equity Markets",
-        "publisher": "arXiv.org",
-        "critical": false
-      },
-      {
-        "title": "Loss Choice or Model Choice? The Role of Forecast Level in Cryptocurrency Volatility Forecasting",
-        "publisher": "arXiv.org",
-        "critical": false
-      },
-      {
-        "title": "Rule-Based Pricing Algorithms and Market Outcomes: An Experimental Study",
-        "publisher": "arXiv.org",
-        "critical": false
       }
     ],
-    "notice": "원문 재확인 제외 5건 · 출처 요청 한도 도달"
+    "notice": "원문 재확인 제외 1건 · 출처 요청 한도 도달"
   },
   "translation": {
-    "status": "complete_with_omissions",
-    "issues_completed": 32,
-    "issues_pending": 2,
     "foreign_issues_completed": 3,
+    "issues_completed": 30,
     "issues_omitted": 2,
-    "omitted_notice": "비핵심 이슈 2개는 번역 검증을 통과하지 못해 제외했습니다. 게시된 이슈는 검증을 통과했습니다."
+    "issues_pending": 2,
+    "omitted_notice": "비핵심 이슈 2개는 번역 검증을 통과하지 못해 제외했습니다. 게시된 이슈는 검증을 통과했습니다.",
+    "status": "complete_with_omissions"
   },
   "publication": {
     "withheld_private_documents": 536,

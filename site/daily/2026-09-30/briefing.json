@@ -8,7 +8,7 @@
   "status": "partial",
   "language": "ko",
   "timezone": "Asia/Seoul",
-  "input_manifest_hash": "b85c827d2f0605d55f254cf08fd2e8f3e8ff3b1e21ce2eb4b95ab28d4320bed2",
+  "input_manifest_hash": "74a81c7f27542c44a039f44f6c8991799e758cfe02122cc143102bd77e120550",
   "highlights": [
     "日 8월 산업생산 전월비 1.7%↓…예상치 1.7%↑ 하회(상보)",
     "먼저 올린 호주, 긴축 끝 보이나…韓 기준금리 고점 가늠자",
@@ -1733,12 +1733,12 @@
               "location": "본문",
               "source_display_omissions": [
                 {
-                  "source_version_id": "b0ee73b7a362c74fe728f65b",
-                  "location": "body",
-                  "start": 217,
                   "end": 228,
-                  "text": "(약 3천95억 원)",
-                  "reason": "secondary_currency_conversion"
+                  "location": "body",
+                  "reason": "secondary_currency_conversion",
+                  "source_version_id": "b0ee73b7a362c74fe728f65b",
+                  "start": 217,
+                  "text": "(약 3천95억 원)"
                 }
               ],
               "projected_source_text": "29일 사우스 차이나 모닝 포스트(SCMP)에 따르면, 쉬인은 전날 회계감사를 받지 않은 실적 공시를 통해 올해 2분기(4~6월) 순이익이 2억2천800만 달러로 전년 동기 대비 67% 감소했다고 밝혔다.",
@@ -3823,12 +3823,12 @@
               "location": "본문",
               "source_display_omissions": [
                 {
-                  "source_version_id": "a4ce8a88af737131fd57ed46",
-                  "location": "body",
-                  "start": 29,
                   "end": 38,
-                  "text": "(약 204조원)",
-                  "reason": "secondary_currency_conversion"
+                  "location": "body",
+                  "reason": "secondary_currency_conversion",
+                  "source_version_id": "a4ce8a88af737131fd57ed46",
+                  "start": 29,
+                  "text": "(약 204조원)"
                 }
               ],
               "projected_source_text": "인공지능(AI) 반도체 기업 엔비디아가 1500억달러 규모의 자사주 매입을 추가 승인했다.",
@@ -5383,12 +5383,12 @@
               "location": "본문",
               "source_display_omissions": [
                 {
-                  "source_version_id": "c83fb8cab1da6e60d3341822",
-                  "location": "body",
-                  "start": 290,
                   "end": 302,
-                  "text": "(약 6조2430억원)",
-                  "reason": "secondary_currency_conversion"
+                  "location": "body",
+                  "reason": "secondary_currency_conversion",
+                  "source_version_id": "c83fb8cab1da6e60d3341822",
+                  "start": 290,
+                  "text": "(약 6조2430억원)"
                 }
               ],
               "projected_source_text": "29일(현지시간) 로이터통신이 입수한 앤스로픽의 기업공개(IPO) 투자설명서에 따르면 앤스로픽의 지난해 매출은 약 46억달러로 전년 대비 12배 증가했다.",
@@ -5890,12 +5890,12 @@
               "location": "본문",
               "source_display_omissions": [
                 {
-                  "source_version_id": "7cc4262d515b1c6ef025f274",
-                  "location": "body",
-                  "start": 232,
                   "end": 245,
-                  "text": "(약 80조2200억원)",
-                  "reason": "secondary_currency_conversion"
+                  "location": "body",
+                  "reason": "secondary_currency_conversion",
+                  "source_version_id": "7cc4262d515b1c6ef025f274",
+                  "start": 232,
+                  "text": "(약 80조2200억원)"
                 }
               ],
               "projected_source_text": "29일 한국자동차연구원의 '완성차 업계의 수익성 변화와 그 시사점' 보고서에 따르면 글로벌 주요 완성차 20개사의 지난해 합산 영업이익이 590억달러로 전년 대비 62.9% 감소했다. 같은 기간 합산 매출은 2조5392억달러로 2.4% 늘었지만 영업이익률은 6.4%에서 2.3%로 떨어졌다.",
@@ -7188,12 +7188,12 @@
               "location": "본문",
               "source_display_omissions": [
                 {
-                  "source_version_id": "a2e9c0f75d5d7c093455540f",
-                  "location": "body",
-                  "start": 40,
                   "end": 50,
-                  "text": "(약 2708조원)",
-                  "reason": "secondary_currency_conversion"
+                  "location": "body",
+                  "reason": "secondary_currency_conversion",
+                  "source_version_id": "a2e9c0f75d5d7c093455540f",
+                  "start": 40,
+                  "text": "(약 2708조원)"
                 }
               ],
               "projected_source_text": "인공지능(AI) 기업 앤스로픽이 2조달러를 웃도는 기업가치로 기업공개(IPO)를 추진하는 가운데 지난해 매출보다 훨씬 큰 영업손실을 낸 것으로 나타났다. 매출은 1년 만에 12배로 급증했지만 AI 모델 개발과 운영에 들어가는 비용도 눈덩이처럼 불어났다.",
@@ -10238,27 +10238,25 @@
       "US"
     ],
     "window_end_exclusive": "2026-09-30T15:36:40.936037+09:00",
-    "documents": 4016,
-    "full_text": 2407,
+    "documents": 72,
+    "full_text": 63,
     "missing_sources": [
       "bls_statistics",
       "bls_calendar"
     ],
     "us_market_time": "2026-09-30T02:36:40.936037-04:00",
     "exclusions": {
-      "older_than_window": 809,
-      "unknown_time": 135,
-      "superseded_versions": 127,
       "late_discovered": 0,
-      "selected": 4016
+      "older_than_window": 809,
+      "selected": 4016,
+      "superseded_versions": 127,
+      "unknown_time": 135
     },
     "categories": {
-      "economy": 1218,
-      "research": 2678,
-      "technology": 78,
-      "regulation": 4,
-      "calendar": 10,
-      "finance": 28
+      "calendar": 1,
+      "economy": 42,
+      "research": 20,
+      "technology": 9
     }
   },
   "editorial_focus": "economy_finance_business",
@@ -10273,7 +10271,13 @@
       "topics": [
         "AI"
       ],
-      "original_url": ""
+      "original_url": "",
+      "summary_scope": "community_summary",
+      "summary_verified_at": null,
+      "original_title": "",
+      "original_publisher": "",
+      "original_published_at": null,
+      "provided_at": "2026-09-29T21:26:48+00:00"
     },
     {
       "title": "Relapse - PS5 펌웨어 7.00~13.60용 커널 익스플로잇 공개",
@@ -10285,7 +10289,13 @@
       "topics": [
         "보안"
       ],
-      "original_url": ""
+      "original_url": "",
+      "summary_scope": "community_summary",
+      "summary_verified_at": null,
+      "original_title": "",
+      "original_publisher": "",
+      "original_published_at": null,
+      "provided_at": "2026-09-29T21:46:36+00:00"
     },
     {
       "title": "Show GN: Relio ERD - 브라우저에서 테이블과 관계를 설계하는 ERD 편집기",
@@ -10299,7 +10309,13 @@
         "개발",
         "데이터"
       ],
-      "original_url": ""
+      "original_url": "",
+      "summary_scope": "community_summary",
+      "summary_verified_at": null,
+      "original_title": "",
+      "original_publisher": "",
+      "original_published_at": null,
+      "provided_at": "2026-09-29T09:42:03+00:00"
     },
     {
       "title": "AI, 데이터센터 투자 붐 정당화하려면 연 매출 6조 달러 필요",
@@ -10311,7 +10327,13 @@
       "topics": [
         "기술 산업"
       ],
-      "original_url": ""
+      "original_url": "",
+      "summary_scope": "community_summary",
+      "summary_verified_at": null,
+      "original_title": "",
+      "original_publisher": "",
+      "original_published_at": null,
+      "provided_at": "2026-09-29T21:49:36+00:00"
     },
     {
       "title": "델리는 어떻게 전력 손실을 50%에서 5%로 줄였나",
@@ -10323,7 +10345,13 @@
       "topics": [
         "인프라"
       ],
-      "original_url": ""
+      "original_url": "",
+      "summary_scope": "community_summary",
+      "summary_verified_at": null,
+      "original_title": "",
+      "original_publisher": "",
+      "original_published_at": null,
+      "provided_at": "2026-09-29T15:37:21+00:00"
     },
     {
       "title": "LatticeDB - 그래프, 벡터, 전문 검색을 한 파일에 담는 임베디드 DB",
@@ -10336,7 +10364,13 @@
         "데이터",
         "오픈소스"
       ],
-      "original_url": ""
+      "original_url": "",
+      "summary_scope": "community_summary",
+      "summary_verified_at": null,
+      "original_title": "",
+      "original_publisher": "",
+      "original_published_at": null,
+      "provided_at": "2026-09-30T00:30:02+00:00"
     },
     {
       "title": "AI 기업들이 광고업체에 데이터를 유출함 [pdf]",
@@ -10349,7 +10383,13 @@
         "AI",
         "보안"
       ],
-      "original_url": ""
+      "original_url": "",
+      "summary_scope": "community_summary",
+      "summary_verified_at": null,
+      "original_title": "",
+      "original_publisher": "",
+      "original_published_at": null,
+      "provided_at": "2026-09-29T12:32:57+00:00"
     },
     {
       "title": "Pluto - SOTA 스타크래프트 AI",
@@ -10361,7 +10401,13 @@
       "topics": [
         "AI"
       ],
-      "original_url": ""
+      "original_url": "",
+      "summary_scope": "community_summary",
+      "summary_verified_at": null,
+      "original_title": "",
+      "original_publisher": "",
+      "original_published_at": null,
+      "provided_at": "2026-09-29T04:44:47+00:00"
     },
     {
       "title": "Livenerf - Opus 5.5는 벌써 성능이 하향됐을까?",
@@ -10373,7 +10419,13 @@
       "topics": [
         "AI"
       ],
-      "original_url": ""
+      "original_url": "",
+      "summary_scope": "community_summary",
+      "summary_verified_at": null,
+      "original_title": "",
+      "original_publisher": "",
+      "original_published_at": null,
+      "provided_at": "2026-09-30T01:33:40+00:00"
     }
   ],
   "reading_status": {
@@ -10385,12 +10437,12 @@
   },
   "korean_required": true,
   "translation": {
-    "status": "complete_with_omissions",
-    "issues_completed": 54,
-    "issues_pending": 2,
     "foreign_issues_completed": 1,
+    "issues_completed": 48,
     "issues_omitted": 2,
-    "omitted_notice": "비핵심 이슈 2개는 번역 검증을 통과하지 못해 제외했습니다. 게시된 이슈는 검증을 통과했습니다."
+    "issues_pending": 2,
+    "omitted_notice": "비핵심 이슈 2개는 번역 검증을 통과하지 못해 제외했습니다. 게시된 이슈는 검증을 통과했습니다.",
+    "status": "complete_with_omissions"
   },
   "publication": {
     "withheld_private_documents": 504,

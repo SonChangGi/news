@@ -8,7 +8,7 @@
   "status": "partial",
   "language": "ko",
   "timezone": "Asia/Seoul",
-  "input_manifest_hash": "bb2578fd14e8b9c4742871210058fa1463600a36c4965fa8b44f7de0fdbfb605",
+  "input_manifest_hash": "b8afa5b0eb44cdc58233782324fc0bedabe8f0ad1ba3ab95913e39ad8275fc38",
   "highlights": [
     "에너지 가격이 고공행진을 지속할 경우 영국 금리 인상이 ‘점점 더 유력해지고 있다’며 영란은행의 롬바르델리가 경고한 가운데, 인플레이션 우려가 채권을 압박하고 있습니다 – 비즈니스 라이브",
     "유가·PMI '충격'…美10년물 5.1% 뚫자 나스닥 1.1%↓[월스트리트in]",
@@ -3814,12 +3814,12 @@
               "location": "본문",
               "source_display_omissions": [
                 {
-                  "source_version_id": "59784b9a90010e2fb1a81565",
-                  "location": "body",
-                  "start": 100,
                   "end": 111,
-                  "text": "(약 1354조 원)",
-                  "reason": "secondary_currency_conversion"
+                  "location": "body",
+                  "reason": "secondary_currency_conversion",
+                  "source_version_id": "59784b9a90010e2fb1a81565",
+                  "start": 100,
+                  "text": "(약 1354조 원)"
                 }
               ],
               "projected_source_text": "세계 최대 투자은행(IB)인 JP모건체이스를 이끌며 ‘월가 황제’로 불리는 제이미 다이먼 회장이 하이퍼스케일러(대규모 데이터센터 운영사) 생태계 전반에 걸친 투자가 내년 1조 달러에 달할 수 있다고 내다봤다.",
@@ -6484,26 +6484,24 @@
       "US"
     ],
     "window_end_exclusive": "2026-09-24T20:35:10.565471+09:00",
-    "documents": 2651,
-    "full_text": 2050,
+    "documents": 44,
+    "full_text": 41,
     "missing_sources": [
       "bls_statistics"
     ],
     "us_market_time": "2026-09-24T07:35:10.565471-04:00",
     "exclusions": {
-      "unknown_time": 90,
+      "late_discovered": 0,
       "older_than_window": 602,
       "published_after_cutoff": 2,
+      "selected": 2651,
       "superseded_versions": 86,
-      "late_discovered": 0,
-      "selected": 2651
+      "unknown_time": 90
     },
     "categories": {
-      "economy": 862,
-      "research": 1753,
-      "technology": 17,
-      "regulation": 4,
-      "finance": 15
+      "economy": 15,
+      "research": 26,
+      "technology": 3
     }
   },
   "editorial_focus": "economy_finance_business",
@@ -6523,10 +6521,10 @@
   ],
   "korean_required": true,
   "translation": {
-    "status": "complete",
+    "foreign_issues_completed": 5,
     "issues_completed": 32,
     "issues_pending": 0,
-    "foreign_issues_completed": 5
+    "status": "complete"
   },
   "publication": {
     "withheld_private_documents": 422,

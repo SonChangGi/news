@@ -8,7 +8,7 @@
   "status": "partial",
   "language": "ko",
   "timezone": "Asia/Seoul",
-  "input_manifest_hash": "95145ac08cadfd779017d50763cbdc819eaae9e1aad89dff8078d71cf532b7d1",
+  "input_manifest_hash": "7a82f522fae8ea52fbe407c9c0ca16fe7def5345f29386c46e40ec309e1b7e8f",
   "highlights": [
     "호주, 기준금리 0.25%P 인상…15년 만에 최고",
     "中은 석탄·농산물, 美는 장난감·가전…300억달러 상호 관세인하 품목 공개",
@@ -925,12 +925,12 @@
               "location": "본문",
               "source_display_omissions": [
                 {
-                  "source_version_id": "d9757720b2be8e408e2b227c",
-                  "location": "body",
-                  "start": 1294,
                   "end": 1307,
-                  "text": "(약 134조546억원)",
-                  "reason": "secondary_currency_conversion"
+                  "location": "body",
+                  "reason": "secondary_currency_conversion",
+                  "source_version_id": "d9757720b2be8e408e2b227c",
+                  "start": 1294,
+                  "text": "(약 134조546억원)"
                 }
               ],
               "projected_source_text": "거래액은 상하이 증시가 6617억400만 위안, 선전 증시는 7474억9300만 위안을 각각 기록했다.",
@@ -1366,12 +1366,12 @@
               "location": "본문",
               "source_display_omissions": [
                 {
-                  "source_version_id": "b07b9d68b00b5e63ec3fd9a5",
-                  "location": "body",
-                  "start": 86,
                   "end": 99,
-                  "text": "(약 11조1400억원)",
-                  "reason": "secondary_currency_conversion"
+                  "location": "body",
+                  "reason": "secondary_currency_conversion",
+                  "source_version_id": "b07b9d68b00b5e63ec3fd9a5",
+                  "start": 86,
+                  "text": "(약 11조1400억원)"
                 }
               ],
               "projected_source_text": "미국 반도체 기업 AMD가 ‘인공지능(AI) 대모’로 불리는 페이페이 리 스탠퍼드대 교수가 이끄는 AI 스타트업 월드랩스(World Labs)를 82억달러에 인수한다.",
@@ -1566,12 +1566,12 @@
               "location": "본문",
               "source_display_omissions": [
                 {
-                  "source_version_id": "9bb957c26cc270b400a385ec",
-                  "location": "body",
-                  "start": 33,
                   "end": 41,
-                  "text": "(약 11조원)",
-                  "reason": "secondary_currency_conversion"
+                  "location": "body",
+                  "reason": "secondary_currency_conversion",
+                  "source_version_id": "9bb957c26cc270b400a385ec",
+                  "start": 33,
+                  "text": "(약 11조원)"
                 }
               ],
               "projected_source_text": "미국 반도체업체 AMD가 82억달러를 들여 인수하는 월드랩스(World Labs)는 ‘AI 대모’로 불리는 페이페이 리 스탠퍼드대 교수가 2024년 설립한 공간지능 스타트업이다.",
@@ -3845,12 +3845,12 @@
               "location": "본문",
               "source_display_omissions": [
                 {
-                  "source_version_id": "410b51aa199bd66d0dd07c61",
-                  "location": "body",
-                  "start": 29,
                   "end": 38,
-                  "text": "(약 204조원)",
-                  "reason": "secondary_currency_conversion"
+                  "location": "body",
+                  "reason": "secondary_currency_conversion",
+                  "source_version_id": "410b51aa199bd66d0dd07c61",
+                  "start": 29,
+                  "text": "(약 204조원)"
                 }
               ],
               "projected_source_text": "인공지능(AI) 반도체 기업 엔비디아가 1500억달러 규모의 자사주 매입을 추가 승인했다.",
@@ -5181,12 +5181,12 @@
               "location": "본문",
               "source_display_omissions": [
                 {
-                  "source_version_id": "a2e9c0f75d5d7c093455540f",
-                  "location": "body",
-                  "start": 40,
                   "end": 50,
-                  "text": "(약 2708조원)",
-                  "reason": "secondary_currency_conversion"
+                  "location": "body",
+                  "reason": "secondary_currency_conversion",
+                  "source_version_id": "a2e9c0f75d5d7c093455540f",
+                  "start": 40,
+                  "text": "(약 2708조원)"
                 }
               ],
               "projected_source_text": "인공지능(AI) 기업 앤스로픽이 2조달러를 웃도는 기업가치로 기업공개(IPO)를 추진하는 가운데 지난해 매출보다 훨씬 큰 영업손실을 낸 것으로 나타났다. 매출은 1년 만에 12배로 급증했지만 AI 모델 개발과 운영에 들어가는 비용도 눈덩이처럼 불어났다.",
@@ -6479,12 +6479,12 @@
               "location": "본문",
               "source_display_omissions": [
                 {
-                  "source_version_id": "7c3d716e277f16853be72e35",
-                  "location": "body",
-                  "start": 232,
                   "end": 245,
-                  "text": "(약 80조2200억원)",
-                  "reason": "secondary_currency_conversion"
+                  "location": "body",
+                  "reason": "secondary_currency_conversion",
+                  "source_version_id": "7c3d716e277f16853be72e35",
+                  "start": 232,
+                  "text": "(약 80조2200억원)"
                 }
               ],
               "projected_source_text": "29일 한국자동차연구원의 '완성차 업계의 수익성 변화와 그 시사점' 보고서에 따르면 글로벌 주요 완성차 20개사의 지난해 합산 영업이익이 590억달러로 전년 대비 62.9% 감소했다. 같은 기간 합산 매출은 2조5392억달러로 2.4% 늘었지만 영업이익률은 6.4%에서 2.3%로 떨어졌다.",
@@ -9235,27 +9235,25 @@
       "US"
     ],
     "window_end_exclusive": "2026-09-29T23:28:11.727955+09:00",
-    "documents": 9454,
-    "full_text": 4298,
+    "documents": 66,
+    "full_text": 57,
     "missing_sources": [
       "bls_statistics",
       "bls_calendar"
     ],
     "us_market_time": "2026-09-29T10:28:11.727955-04:00",
     "exclusions": {
-      "older_than_window": 868,
-      "unknown_time": 181,
-      "superseded_versions": 534,
       "late_discovered": 0,
-      "selected": 9454
+      "older_than_window": 868,
+      "selected": 9454,
+      "superseded_versions": 534,
+      "unknown_time": 181
     },
     "categories": {
-      "research": 6854,
-      "economy": 2446,
-      "technology": 114,
-      "finance": 25,
-      "calendar": 11,
-      "regulation": 4
+      "calendar": 1,
+      "economy": 30,
+      "research": 26,
+      "technology": 9
     }
   },
   "editorial_focus": "economy_finance_business",
@@ -9270,7 +9268,13 @@
       "topics": [
         "인프라"
       ],
-      "original_url": ""
+      "original_url": "",
+      "summary_scope": "community_summary",
+      "summary_verified_at": null,
+      "original_title": "",
+      "original_publisher": "",
+      "original_published_at": null,
+      "provided_at": "2026-09-28T19:43:32+00:00"
     },
     {
       "title": "RAG 인덱스와 에이전트 메모리를 Git처럼 버전 관리하기 (LambdaDB)",
@@ -9284,7 +9288,13 @@
         "AI",
         "데이터"
       ],
-      "original_url": ""
+      "original_url": "",
+      "summary_scope": "community_summary",
+      "summary_verified_at": null,
+      "original_title": "",
+      "original_publisher": "",
+      "original_published_at": null,
+      "provided_at": "2026-09-29T04:15:18+00:00"
     },
     {
       "title": "DuckDB 2.0이 더 빠른 이유",
@@ -9297,7 +9307,13 @@
         "데이터",
         "인프라"
       ],
-      "original_url": ""
+      "original_url": "",
+      "summary_scope": "community_summary",
+      "summary_verified_at": null,
+      "original_title": "",
+      "original_publisher": "",
+      "original_published_at": null,
+      "provided_at": "2026-09-28T22:24:06+00:00"
     },
     {
       "title": "F/OSS Comics #10: C언어의 아버지, 데니스 리치의 일생",
@@ -9309,7 +9325,13 @@
       "topics": [
         "개발"
       ],
-      "original_url": ""
+      "original_url": "",
+      "summary_scope": "community_summary",
+      "summary_verified_at": null,
+      "original_title": "",
+      "original_publisher": "",
+      "original_published_at": null,
+      "provided_at": "2026-09-28T19:56:24+00:00"
     },
     {
       "title": "영국 역에서 얼굴 50만 건 스캔, 체포 0건에 오탐 1건",
@@ -9321,7 +9343,13 @@
       "topics": [
         "보안"
       ],
-      "original_url": ""
+      "original_url": "",
+      "summary_scope": "community_summary",
+      "summary_verified_at": null,
+      "original_title": "",
+      "original_publisher": "",
+      "original_published_at": null,
+      "provided_at": "2026-09-29T13:42:08+00:00"
     },
     {
       "title": "서버 모니터링 분석 가이드",
@@ -9333,7 +9361,13 @@
       "topics": [
         "인프라"
       ],
-      "original_url": ""
+      "original_url": "",
+      "summary_scope": "community_summary",
+      "summary_verified_at": null,
+      "original_title": "",
+      "original_publisher": "",
+      "original_published_at": null,
+      "provided_at": "2026-09-29T06:11:16+00:00"
     },
     {
       "title": "인덱스 하나 더의 참을 수 없는 가벼움",
@@ -9346,7 +9380,13 @@
         "데이터",
         "개발"
       ],
-      "original_url": ""
+      "original_url": "",
+      "summary_scope": "community_summary",
+      "summary_verified_at": null,
+      "original_title": "",
+      "original_publisher": "",
+      "original_published_at": null,
+      "provided_at": "2026-09-28T22:20:37+00:00"
     },
     {
       "title": "Diskless Kafka: 브로커가 데이터를 소유하지 않으면 무엇이 달라질까?",
@@ -9359,7 +9399,13 @@
         "인프라",
         "데이터"
       ],
-      "original_url": ""
+      "original_url": "",
+      "summary_scope": "community_summary",
+      "summary_verified_at": null,
+      "original_title": "",
+      "original_publisher": "",
+      "original_published_at": null,
+      "provided_at": "2026-09-28T22:14:45+00:00"
     },
     {
       "title": "NobodyWho - 앱과 게임에 로컬 AI를 넣는 온디바이스 추론 엔진",
@@ -9371,7 +9417,13 @@
       "topics": [
         "AI"
       ],
-      "original_url": ""
+      "original_url": "",
+      "summary_scope": "community_summary",
+      "summary_verified_at": null,
+      "original_title": "",
+      "original_publisher": "",
+      "original_published_at": null,
+      "provided_at": "2026-09-29T00:30:02+00:00"
     }
   ],
   "reading_status": {
@@ -9383,12 +9435,12 @@
   },
   "korean_required": true,
   "translation": {
-    "status": "complete_with_omissions",
-    "issues_completed": 52,
-    "issues_pending": 1,
     "foreign_issues_completed": 11,
+    "issues_completed": 43,
     "issues_omitted": 1,
-    "omitted_notice": "비핵심 이슈 1개는 번역 검증을 통과하지 못해 제외했습니다. 게시된 이슈는 검증을 통과했습니다."
+    "issues_pending": 1,
+    "omitted_notice": "비핵심 이슈 1개는 번역 검증을 통과하지 못해 제외했습니다. 게시된 이슈는 검증을 통과했습니다.",
+    "status": "complete_with_omissions"
   },
   "publication": {
     "withheld_private_documents": 723,

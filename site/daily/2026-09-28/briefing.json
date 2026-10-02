@@ -8,7 +8,7 @@
   "status": "partial",
   "language": "ko",
   "timezone": "Asia/Seoul",
-  "input_manifest_hash": "1cedbe8680fb25079240251a59a26dd7039b9f2464e9154690817ce7f39c1ee3",
+  "input_manifest_hash": "7c67791deb94e88d08d142bde6421aa81d93e473e7caa55bed2d7764815f8e90",
   "highlights": [
     "中은 석탄·농산물, 美는 장난감·가전…300억달러 상호 관세인하 품목 공개",
     "BCA리서치 \"美 실업률 4% 이하로 하락하면 물가 압력 키울 수도\"",
@@ -1007,12 +1007,12 @@
               "location": "본문",
               "source_display_omissions": [
                 {
-                  "source_version_id": "405c241cbaf1b4d8706b8a6b",
-                  "location": "body",
-                  "start": 48,
                   "end": 61,
-                  "text": "(약 81조5400억원)",
-                  "reason": "secondary_currency_conversion"
+                  "location": "body",
+                  "reason": "secondary_currency_conversion",
+                  "source_version_id": "405c241cbaf1b4d8706b8a6b",
+                  "start": 48,
+                  "text": "(약 81조5400억원)"
                 }
               ],
               "projected_source_text": "미국과 중국이 정상회담을 계기로 양방향 총 600억달러 규모의 비민감 상품에 지금보다 유리한 관세를 적용하기로 뜻을 모았다.",
@@ -3218,12 +3218,12 @@
               "location": "본문",
               "source_display_omissions": [
                 {
-                  "source_version_id": "17bbe443d9647cbd2f244737",
-                  "location": "body",
-                  "start": 179,
                   "end": 186,
-                  "text": "(약 5조원)",
-                  "reason": "secondary_currency_conversion"
+                  "location": "body",
+                  "reason": "secondary_currency_conversion",
+                  "source_version_id": "17bbe443d9647cbd2f244737",
+                  "start": 179,
+                  "text": "(약 5조원)"
                 }
               ],
               "projected_source_text": "그런데 이 게임을 만든 미국 나이언틱은 지난해 잘나가던 게임 사업부를 스코플리에 35억달러에 팔았다.",
@@ -4680,27 +4680,25 @@
       "US"
     ],
     "window_end_exclusive": "2026-09-28T21:26:19.686865+09:00",
-    "documents": 7333,
-    "full_text": 2684,
+    "documents": 31,
+    "full_text": 22,
     "missing_sources": [
       "bls_statistics",
       "bls_calendar"
     ],
     "us_market_time": "2026-09-28T08:26:19.686865-04:00",
     "exclusions": {
-      "older_than_window": 699,
-      "unknown_time": 230,
-      "superseded_versions": 799,
       "late_discovered": 0,
-      "selected": 7369
+      "older_than_window": 699,
+      "selected": 7369,
+      "superseded_versions": 799,
+      "unknown_time": 230
     },
     "categories": {
-      "research": 5695,
-      "economy": 1558,
-      "technology": 52,
-      "finance": 17,
-      "calendar": 8,
-      "regulation": 3
+      "calendar": 1,
+      "economy": 11,
+      "research": 10,
+      "technology": 9
     },
     "input_time_policy": "observed_before_cutoff",
     "collected_end": "2026-09-28T12:20:57.297851+00:00"
@@ -4718,7 +4716,13 @@
         "개발",
         "인프라"
       ],
-      "original_url": ""
+      "original_url": "",
+      "summary_scope": "community_summary",
+      "summary_verified_at": null,
+      "original_title": "",
+      "original_publisher": "",
+      "original_published_at": null,
+      "provided_at": "2026-09-27T22:42:59+00:00"
     },
     {
       "title": "바이브 코딩 현실: 셀프테스트는 통과했는데 실데이터는 261편 중 6편만 맞았다",
@@ -4732,7 +4736,13 @@
         "AI",
         "개발"
       ],
-      "original_url": ""
+      "original_url": "",
+      "summary_scope": "community_summary",
+      "summary_verified_at": null,
+      "original_title": "",
+      "original_publisher": "",
+      "original_published_at": null,
+      "provided_at": "2026-09-28T01:17:11+00:00"
     },
     {
       "title": "Armada - Nostr 기반 암호화 오픈소스 Discord 대안",
@@ -4746,7 +4756,13 @@
         "보안",
         "오픈소스"
       ],
-      "original_url": ""
+      "original_url": "",
+      "summary_scope": "community_summary",
+      "summary_verified_at": null,
+      "original_title": "",
+      "original_publisher": "",
+      "original_published_at": null,
+      "provided_at": "2026-09-28T11:37:51+00:00"
     },
     {
       "title": "“ENIAC에도 BIOS가 있었을까?”에 대한 Alan Kay의 답변",
@@ -4758,7 +4774,13 @@
       "topics": [
         "인프라"
       ],
-      "original_url": ""
+      "original_url": "",
+      "summary_scope": "community_summary",
+      "summary_verified_at": null,
+      "original_title": "",
+      "original_publisher": "",
+      "original_published_at": null,
+      "provided_at": "2026-09-28T04:43:20+00:00"
     },
     {
       "title": "계속 승진하는 것이 좋은 커리어일까? 엔지니어 Philip Su의 경험 [동영상]",
@@ -4771,7 +4793,13 @@
       "topics": [
         "기술 산업"
       ],
-      "original_url": ""
+      "original_url": "",
+      "summary_scope": "community_summary",
+      "summary_verified_at": null,
+      "original_title": "",
+      "original_publisher": "",
+      "original_published_at": null,
+      "provided_at": "2026-09-28T00:35:01+00:00"
     },
     {
       "title": "BrowserSkill - 로그인된 내 브라우저를 AI 에이전트가 사용하게 하는 도구",
@@ -4783,7 +4811,13 @@
       "topics": [
         "AI"
       ],
-      "original_url": ""
+      "original_url": "",
+      "summary_scope": "community_summary",
+      "summary_verified_at": null,
+      "original_title": "",
+      "original_publisher": "",
+      "original_published_at": null,
+      "provided_at": "2026-09-28T00:30:02+00:00"
     },
     {
       "title": "Show GN: CalcMax – SymPy 엔진을 내장한 오픈소스 안드로이드 공학용/CAS 계산기",
@@ -4797,7 +4831,13 @@
         "개발",
         "오픈소스"
       ],
-      "original_url": ""
+      "original_url": "",
+      "summary_scope": "community_summary",
+      "summary_verified_at": null,
+      "original_title": "",
+      "original_publisher": "",
+      "original_published_at": null,
+      "provided_at": "2026-09-28T02:54:07+00:00"
     },
     {
       "title": "받아야 할 Nvidia 주식 10억 달러어치",
@@ -4809,7 +4849,13 @@
       "topics": [
         "기술 산업"
       ],
-      "original_url": ""
+      "original_url": "",
+      "summary_scope": "community_summary",
+      "summary_verified_at": null,
+      "original_title": "",
+      "original_publisher": "",
+      "original_published_at": null,
+      "provided_at": "2026-09-28T03:32:31+00:00"
     },
     {
       "title": "다크 웹에서 셀프 호스팅하기",
@@ -4822,7 +4868,13 @@
         "보안",
         "인프라"
       ],
-      "original_url": ""
+      "original_url": "",
+      "summary_scope": "community_summary",
+      "summary_verified_at": null,
+      "original_title": "",
+      "original_publisher": "",
+      "original_published_at": null,
+      "provided_at": "2026-09-28T04:40:20+00:00"
     }
   ],
   "reading_status": {
@@ -4834,12 +4886,12 @@
   },
   "korean_required": true,
   "translation": {
-    "status": "complete_with_omissions",
-    "issues_completed": 30,
-    "issues_pending": 1,
     "foreign_issues_completed": 10,
+    "issues_completed": 21,
     "issues_omitted": 1,
-    "omitted_notice": "비핵심 이슈 1개는 번역 검증을 통과하지 못해 제외했습니다. 게시된 이슈는 검증을 통과했습니다."
+    "issues_pending": 1,
+    "omitted_notice": "비핵심 이슈 1개는 번역 검증을 통과하지 못해 제외했습니다. 게시된 이슈는 검증을 통과했습니다.",
+    "status": "complete_with_omissions"
   },
   "publication": {
     "withheld_private_documents": 502,
