@@ -1,16 +1,16 @@
 {
   "schema_version": "1",
-  "run_id": "01a30361a0544e857c1b1af7",
-  "report_date": "2026-10-04",
-  "cutoff": "2026-10-03T15:02:35.296383+00:00",
-  "generated_at": "2026-10-03T15:04:38.104166+00:00",
+  "run_id": "469163ed5963470ca7f21f6f",
+  "report_date": "2026-10-03",
+  "cutoff": "2026-10-02T16:54:32.660238+00:00",
+  "generated_at": "2026-10-02T17:08:18.960237+00:00",
   "mode": "on_time",
   "status": "partial",
   "language": "ko",
   "timezone": "Asia/Seoul",
-  "input_manifest_hash": "5b783395a01becec1f9030826fe5540ddba5c147ac5f58436a9a2f405cca8334",
+  "input_manifest_hash": "1557546840eb3d55eb063fc6c1c11a8e531a4d23ee2c5c9149c828563a80cf5e",
   "highlights": [],
-  "delivery_target": "2026-10-03T15:17:35.296383+00:00",
+  "delivery_target": "2026-10-02T17:09:32.660238+00:00",
   "generation_delayed": false,
   "issues": [
     {
@@ -5812,8 +5812,8 @@
       "korean_required": true
     },
     {
-      "id": "2173f2dfb48d2620d23d1dee",
-      "anchor": "issue-5759455cd4398a39",
+      "id": "c68f46bf43149ae0d944deb5",
+      "anchor": "issue-fdc1dade672ff3b4",
       "editorial_scope": "other_economic",
       "event_type": "economic_other",
       "title": "EFFR 금리",
@@ -5825,17 +5825,17 @@
       "change": "비교 가능한 과거 자료 없음",
       "claims": [
         {
-          "id": "b904997b26475e18e1e32dc8",
+          "id": "2b77238f1afd38075380dfa8",
           "text": "2026-10-01 | EFFR 금리 (%) | 3.88",
           "kind": "fact",
           "author": "",
           "source_ids": [
-            "a80a379c5d47ee8c45c49e4a"
+            "1d80bae1f5606d876aaff167"
           ],
           "evidence": [
             {
-              "source_id": "a80a379c5d47ee8c45c49e4a",
-              "source_version_id": "4429e43a668de48caf07cf3c",
+              "source_id": "1d80bae1f5606d876aaff167",
+              "source_version_id": "6b538efdaf893f8b62c47a9d",
               "start": 6426,
               "end": 6459,
               "text": "2026-10-01 | EFFR rate (%) | 3.88",
@@ -5854,10 +5854,10 @@
         }
       ],
       "document_ids": [
-        "a80a379c5d47ee8c45c49e4a"
+        "1d80bae1f5606d876aaff167"
       ],
       "source_versions": [
-        "4429e43a668de48caf07cf3c"
+        "6b538efdaf893f8b62c47a9d"
       ],
       "entities": [],
       "selection_reason": [
@@ -5893,21 +5893,20 @@
       }
     },
     {
-      "id": "1837f97b5dd68732bb0fa58e",
-      "anchor": "issue-8b2cf0c497befdaf",
+      "id": "15dce0f977c15a8866030a04",
+      "anchor": "issue-8189d24bb7b923f6",
       "editorial_scope": "other_economic",
       "event_type": "economic_other",
       "title": "10년 Treasury 수익률",
       "section": "yesterday",
       "category": "economic",
       "summary": [
-        "2026-10-01 | 10년 Treasury 수익률 (%) | 5.24",
-        "2026-10-02 | 10년 Treasury 수익률 (%) | 5.28"
+        "2026-10-01 | 10년 Treasury 수익률 (%) | 5.24"
       ],
       "change": "비교 가능한 과거 자료 없음",
       "claims": [
         {
-          "id": "bb3efe34d3fa35462c99de71",
+          "id": "4683125028c65d818ce41715",
           "text": "2026-10-01 | 10년 Treasury 수익률 (%) | 5.24",
           "kind": "fact",
           "author": "",
@@ -5917,7 +5916,7 @@
           "evidence": [
             {
               "source_id": "98ba8c5a4312026bb7f65d25",
-              "source_version_id": "f4d74c4b2f069c369eb887f8",
+              "source_version_id": "694c32c07c02842c8dd437c4",
               "start": 17484,
               "end": 17530,
               "text": "2026-10-01 | 10-year Treasury yield (%) | 5.24",
@@ -5933,41 +5932,13 @@
           "uncertainty": "",
           "validation": {},
           "numbers": []
-        },
-        {
-          "id": "1f35d78b6a5f89b6e44fcbd6",
-          "text": "2026-10-02 | 10년 Treasury 수익률 (%) | 5.28",
-          "kind": "fact",
-          "author": "",
-          "source_ids": [
-            "98ba8c5a4312026bb7f65d25"
-          ],
-          "evidence": [
-            {
-              "source_id": "98ba8c5a4312026bb7f65d25",
-              "source_version_id": "f4d74c4b2f069c369eb887f8",
-              "start": 17577,
-              "end": 17623,
-              "text": "2026-10-02 | 10-year Treasury yield (%) | 5.28",
-              "source_excerpt_truncated": false,
-              "excerpt_truncated": false,
-              "location": "본문",
-              "display_text": "2026-10-02 | 10년 Treasury 수익률 (%) | 5.28",
-              "is_translation": true
-            }
-          ],
-          "rationale": "",
-          "conditions": "",
-          "uncertainty": "",
-          "validation": {},
-          "numbers": []
         }
       ],
       "document_ids": [
         "98ba8c5a4312026bb7f65d25"
       ],
       "source_versions": [
-        "f4d74c4b2f069c369eb887f8"
+        "694c32c07c02842c8dd437c4"
       ],
       "entities": [],
       "selection_reason": [
@@ -5992,32 +5963,31 @@
         "period_comparison": {
           "metric": "10년 Treasury 수익률",
           "base_value": "5.24",
-          "latest_value": "5.28",
-          "delta": "0.04",
+          "latest_value": "5.24",
+          "delta": null,
           "base_date": "2026-10-01",
-          "latest_date": "2026-10-02",
+          "latest_date": "2026-10-01",
           "unit": "%",
           "delta_unit": "%p",
-          "comparable": true
+          "comparable": false
         }
       }
     },
     {
-      "id": "8eaf4907a81bd80d657b39b7",
-      "anchor": "issue-046987f56be43e25",
+      "id": "041e2aef21a44765d95b9401",
+      "anchor": "issue-5741fe8b283053f6",
       "editorial_scope": "other_economic",
       "event_type": "economic_other",
       "title": "2년 Treasury 수익률",
       "section": "yesterday",
       "category": "economic",
       "summary": [
-        "2026-10-01 | 2년 Treasury 수익률 (%) | 4.78",
-        "2026-10-02 | 2년 Treasury 수익률 (%) | 4.83"
+        "2026-10-01 | 2년 Treasury 수익률 (%) | 4.78"
       ],
       "change": "비교 가능한 과거 자료 없음",
       "claims": [
         {
-          "id": "fd096e4c7c3b8694f6992dfb",
+          "id": "c254793dad8e8162e0421f49",
           "text": "2026-10-01 | 2년 Treasury 수익률 (%) | 4.78",
           "kind": "fact",
           "author": "",
@@ -6027,7 +5997,7 @@
           "evidence": [
             {
               "source_id": "98ba8c5a4312026bb7f65d25",
-              "source_version_id": "f4d74c4b2f069c369eb887f8",
+              "source_version_id": "694c32c07c02842c8dd437c4",
               "start": 17531,
               "end": 17576,
               "text": "2026-10-01 | 2-year Treasury yield (%) | 4.78",
@@ -6043,41 +6013,13 @@
           "uncertainty": "",
           "validation": {},
           "numbers": []
-        },
-        {
-          "id": "b87c54d7a130d15dc1da5f4b",
-          "text": "2026-10-02 | 2년 Treasury 수익률 (%) | 4.83",
-          "kind": "fact",
-          "author": "",
-          "source_ids": [
-            "98ba8c5a4312026bb7f65d25"
-          ],
-          "evidence": [
-            {
-              "source_id": "98ba8c5a4312026bb7f65d25",
-              "source_version_id": "f4d74c4b2f069c369eb887f8",
-              "start": 17624,
-              "end": 17669,
-              "text": "2026-10-02 | 2-year Treasury yield (%) | 4.83",
-              "source_excerpt_truncated": false,
-              "excerpt_truncated": false,
-              "location": "본문",
-              "display_text": "2026-10-02 | 2년 Treasury 수익률 (%) | 4.83",
-              "is_translation": true
-            }
-          ],
-          "rationale": "",
-          "conditions": "",
-          "uncertainty": "",
-          "validation": {},
-          "numbers": []
         }
       ],
       "document_ids": [
         "98ba8c5a4312026bb7f65d25"
       ],
       "source_versions": [
-        "f4d74c4b2f069c369eb887f8"
+        "694c32c07c02842c8dd437c4"
       ],
       "entities": [],
       "selection_reason": [
@@ -6102,19 +6044,19 @@
         "period_comparison": {
           "metric": "2년 Treasury 수익률",
           "base_value": "4.78",
-          "latest_value": "4.83",
-          "delta": "0.05",
+          "latest_value": "4.78",
+          "delta": null,
           "base_date": "2026-10-01",
-          "latest_date": "2026-10-02",
+          "latest_date": "2026-10-01",
           "unit": "%",
           "delta_unit": "%p",
-          "comparable": true
+          "comparable": false
         }
       }
     },
     {
-      "id": "e34459f3485bf03779087e91",
-      "anchor": "issue-7ec622bacdbf948c",
+      "id": "a0279776c71d95be16f14609",
+      "anchor": "issue-1da6c214b1253e7f",
       "editorial_scope": "other_economic",
       "event_type": "economic_other",
       "title": "미국 상품·서비스 무역",
@@ -6126,17 +6068,17 @@
       "change": "비교 가능한 과거 자료 없음",
       "claims": [
         {
-          "id": "037a6d6c239becda849b8566",
+          "id": "9a620ead73381749124024d4",
           "text": "발표 일정: 2026-10-06 | 미국 상품·서비스 무역 | 예정",
           "kind": "fact",
           "author": "",
           "source_ids": [
-            "e30bba554c80fe1674fb6159"
+            "65609449cf9eca5a8fd21592"
           ],
           "evidence": [
             {
-              "source_id": "e30bba554c80fe1674fb6159",
-              "source_version_id": "1dd6aacc35e77bc376f36f25",
+              "source_id": "65609449cf9eca5a8fd21592",
+              "source_version_id": "022910637b1d80e7b628c4e5",
               "start": 0,
               "end": 37,
               "text": "",
@@ -6155,10 +6097,10 @@
         }
       ],
       "document_ids": [
-        "e30bba554c80fe1674fb6159"
+        "65609449cf9eca5a8fd21592"
       ],
       "source_versions": [
-        "1dd6aacc35e77bc376f36f25"
+        "022910637b1d80e7b628c4e5"
       ],
       "entities": [],
       "selection_reason": [
@@ -6291,8 +6233,8 @@
       }
     },
     {
-      "id": "95a9f6bdf167dec43a4b9004",
-      "anchor": "issue-cd9a4c89565cab75",
+      "id": "b53129cc91ba54fdac2395c7",
+      "anchor": "issue-ea77874e965e965f",
       "editorial_scope": "other_economic",
       "event_type": "economic_other",
       "title": "EFFR 금리",
@@ -6305,17 +6247,17 @@
       "change": "비교 가능한 과거 자료 없음",
       "claims": [
         {
-          "id": "31de4b3d27b247db242d8d8b",
+          "id": "7a4bb00c093c873a3c191192",
           "text": "2026-01-02 | EFFR 금리 (%) | 3.64",
           "kind": "fact",
           "author": "",
           "source_ids": [
-            "a80a379c5d47ee8c45c49e4a"
+            "1d80bae1f5606d876aaff167"
           ],
           "evidence": [
             {
-              "source_id": "a80a379c5d47ee8c45c49e4a",
-              "source_version_id": "4429e43a668de48caf07cf3c",
+              "source_id": "1d80bae1f5606d876aaff167",
+              "source_version_id": "6b538efdaf893f8b62c47a9d",
               "start": 0,
               "end": 33,
               "text": "2026-01-02 | EFFR rate (%) | 3.64",
@@ -6333,17 +6275,17 @@
           "numbers": []
         },
         {
-          "id": "c30a53d1deace599314a6a2c",
+          "id": "56a1e451b4bfc2eeb4b0eea7",
           "text": "2026-10-01 | EFFR 금리 (%) | 3.88",
           "kind": "fact",
           "author": "",
           "source_ids": [
-            "a80a379c5d47ee8c45c49e4a"
+            "1d80bae1f5606d876aaff167"
           ],
           "evidence": [
             {
-              "source_id": "a80a379c5d47ee8c45c49e4a",
-              "source_version_id": "4429e43a668de48caf07cf3c",
+              "source_id": "1d80bae1f5606d876aaff167",
+              "source_version_id": "6b538efdaf893f8b62c47a9d",
               "start": 6426,
               "end": 6459,
               "text": "2026-10-01 | EFFR rate (%) | 3.88",
@@ -6362,10 +6304,10 @@
         }
       ],
       "document_ids": [
-        "a80a379c5d47ee8c45c49e4a"
+        "1d80bae1f5606d876aaff167"
       ],
       "source_versions": [
-        "4429e43a668de48caf07cf3c"
+        "6b538efdaf893f8b62c47a9d"
       ],
       "entities": [],
       "selection_reason": [
@@ -6401,8 +6343,8 @@
       }
     },
     {
-      "id": "43c7913a72d9814b8388907c",
-      "anchor": "issue-daf7bb29480d2c60",
+      "id": "b7e7506694b66e52324e33e0",
+      "anchor": "issue-d337f8cd94d83c9d",
       "editorial_scope": "other_economic",
       "event_type": "economic_other",
       "title": "10년 Treasury 수익률",
@@ -6410,12 +6352,12 @@
       "category": "economic",
       "summary": [
         "2026-01-02 | 10년 Treasury 수익률 (%) | 4.19",
-        "2026-10-02 | 10년 Treasury 수익률 (%) | 5.28"
+        "2026-10-01 | 10년 Treasury 수익률 (%) | 5.24"
       ],
       "change": "비교 가능한 과거 자료 없음",
       "claims": [
         {
-          "id": "0a5030f74a7c203cb705bd82",
+          "id": "1aab9b0092cb35c25eb6c322",
           "text": "2026-01-02 | 10년 Treasury 수익률 (%) | 4.19",
           "kind": "fact",
           "author": "",
@@ -6425,7 +6367,7 @@
           "evidence": [
             {
               "source_id": "98ba8c5a4312026bb7f65d25",
-              "source_version_id": "f4d74c4b2f069c369eb887f8",
+              "source_version_id": "694c32c07c02842c8dd437c4",
               "start": 0,
               "end": 46,
               "text": "2026-01-02 | 10-year Treasury yield (%) | 4.19",
@@ -6443,8 +6385,8 @@
           "numbers": []
         },
         {
-          "id": "b83de6e9d1a32c7d385c1fce",
-          "text": "2026-10-02 | 10년 Treasury 수익률 (%) | 5.28",
+          "id": "877fff47e5dec92f69218195",
+          "text": "2026-10-01 | 10년 Treasury 수익률 (%) | 5.24",
           "kind": "fact",
           "author": "",
           "source_ids": [
@@ -6453,14 +6395,14 @@
           "evidence": [
             {
               "source_id": "98ba8c5a4312026bb7f65d25",
-              "source_version_id": "f4d74c4b2f069c369eb887f8",
-              "start": 17577,
-              "end": 17623,
-              "text": "2026-10-02 | 10-year Treasury yield (%) | 5.28",
+              "source_version_id": "694c32c07c02842c8dd437c4",
+              "start": 17484,
+              "end": 17530,
+              "text": "2026-10-01 | 10-year Treasury yield (%) | 5.24",
               "source_excerpt_truncated": false,
               "excerpt_truncated": false,
               "location": "본문",
-              "display_text": "2026-10-02 | 10년 Treasury 수익률 (%) | 5.28",
+              "display_text": "2026-10-01 | 10년 Treasury 수익률 (%) | 5.24",
               "is_translation": true
             }
           ],
@@ -6475,7 +6417,7 @@
         "98ba8c5a4312026bb7f65d25"
       ],
       "source_versions": [
-        "f4d74c4b2f069c369eb887f8"
+        "694c32c07c02842c8dd437c4"
       ],
       "entities": [],
       "selection_reason": [
@@ -6500,10 +6442,10 @@
         "period_comparison": {
           "metric": "10년 Treasury 수익률",
           "base_value": "4.19",
-          "latest_value": "5.28",
-          "delta": "1.09",
+          "latest_value": "5.24",
+          "delta": "1.05",
           "base_date": "2026-01-02",
-          "latest_date": "2026-10-02",
+          "latest_date": "2026-10-01",
           "unit": "%",
           "delta_unit": "%p",
           "comparable": true
@@ -6511,8 +6453,8 @@
       }
     },
     {
-      "id": "34779542dce25efed2745f4b",
-      "anchor": "issue-149bcec5b2c1381f",
+      "id": "8c6e64f11722edfac8a463bd",
+      "anchor": "issue-2804d0902328c9bc",
       "editorial_scope": "other_economic",
       "event_type": "economic_other",
       "title": "2년 Treasury 수익률",
@@ -6520,12 +6462,12 @@
       "category": "economic",
       "summary": [
         "2026-01-02 | 2년 Treasury 수익률 (%) | 3.47",
-        "2026-10-02 | 2년 Treasury 수익률 (%) | 4.83"
+        "2026-10-01 | 2년 Treasury 수익률 (%) | 4.78"
       ],
       "change": "비교 가능한 과거 자료 없음",
       "claims": [
         {
-          "id": "2e512bba2aade4a0e999eeba",
+          "id": "4d6ac5dc0c43aea6f346c8c1",
           "text": "2026-01-02 | 2년 Treasury 수익률 (%) | 3.47",
           "kind": "fact",
           "author": "",
@@ -6535,7 +6477,7 @@
           "evidence": [
             {
               "source_id": "98ba8c5a4312026bb7f65d25",
-              "source_version_id": "f4d74c4b2f069c369eb887f8",
+              "source_version_id": "694c32c07c02842c8dd437c4",
               "start": 47,
               "end": 92,
               "text": "2026-01-02 | 2-year Treasury yield (%) | 3.47",
@@ -6553,8 +6495,8 @@
           "numbers": []
         },
         {
-          "id": "417c4ba98a92198b9811698e",
-          "text": "2026-10-02 | 2년 Treasury 수익률 (%) | 4.83",
+          "id": "884fb67a34806749ae81a2fe",
+          "text": "2026-10-01 | 2년 Treasury 수익률 (%) | 4.78",
           "kind": "fact",
           "author": "",
           "source_ids": [
@@ -6563,14 +6505,14 @@
           "evidence": [
             {
               "source_id": "98ba8c5a4312026bb7f65d25",
-              "source_version_id": "f4d74c4b2f069c369eb887f8",
-              "start": 17624,
-              "end": 17669,
-              "text": "2026-10-02 | 2-year Treasury yield (%) | 4.83",
+              "source_version_id": "694c32c07c02842c8dd437c4",
+              "start": 17531,
+              "end": 17576,
+              "text": "2026-10-01 | 2-year Treasury yield (%) | 4.78",
               "source_excerpt_truncated": false,
               "excerpt_truncated": false,
               "location": "본문",
-              "display_text": "2026-10-02 | 2년 Treasury 수익률 (%) | 4.83",
+              "display_text": "2026-10-01 | 2년 Treasury 수익률 (%) | 4.78",
               "is_translation": true
             }
           ],
@@ -6585,7 +6527,7 @@
         "98ba8c5a4312026bb7f65d25"
       ],
       "source_versions": [
-        "f4d74c4b2f069c369eb887f8"
+        "694c32c07c02842c8dd437c4"
       ],
       "entities": [],
       "selection_reason": [
@@ -6610,10 +6552,10 @@
         "period_comparison": {
           "metric": "2년 Treasury 수익률",
           "base_value": "3.47",
-          "latest_value": "4.83",
-          "delta": "1.36",
+          "latest_value": "4.78",
+          "delta": "1.31",
           "base_date": "2026-01-02",
-          "latest_date": "2026-10-02",
+          "latest_date": "2026-10-01",
           "unit": "%",
           "delta_unit": "%p",
           "comparable": true
@@ -7296,18 +7238,18 @@
       "synthetic": false
     },
     {
-      "id": "a80a379c5d47ee8c45c49e4a",
-      "version_id": "4429e43a668de48caf07cf3c",
+      "id": "1d80bae1f5606d876aaff167",
+      "version_id": "6b538efdaf893f8b62c47a9d",
       "source_id": "period_nyfed_effr",
       "source_kind": "official_period_data",
       "title": "Effective federal funds rate",
       "publisher": "뉴욕 연방준비은행",
       "author": "",
-      "url": "https://markets.newyorkfed.org/api/rates/unsecured/effr/search.json?startDate=2026-01-01&endDate=2026-10-04",
+      "url": "https://markets.newyorkfed.org/api/rates/unsecured/effr/search.json?startDate=2026-01-01&endDate=2026-10-03",
       "published_at": null,
       "provided_at": null,
       "modified_at": null,
-      "collected_at": "2026-10-03T15:02:32.662189+00:00",
+      "collected_at": "2026-10-02T16:54:30.132361+00:00",
       "event_at": null,
       "time_basis": "observed_at",
       "full_text": true,
@@ -7318,7 +7260,7 @@
     },
     {
       "id": "98ba8c5a4312026bb7f65d25",
-      "version_id": "f4d74c4b2f069c369eb887f8",
+      "version_id": "694c32c07c02842c8dd437c4",
       "source_id": "period_treasury_yields",
       "source_kind": "official_period_data",
       "title": "U.S. Treasury nominal yield curve",
@@ -7328,7 +7270,7 @@
       "published_at": null,
       "provided_at": null,
       "modified_at": null,
-      "collected_at": "2026-10-03T15:02:32.271616+00:00",
+      "collected_at": "2026-10-02T16:54:29.587518+00:00",
       "event_at": null,
       "time_basis": "observed_at",
       "full_text": true,
@@ -7338,8 +7280,8 @@
       "synthetic": false
     },
     {
-      "id": "e30bba554c80fe1674fb6159",
-      "version_id": "1dd6aacc35e77bc376f36f25",
+      "id": "65609449cf9eca5a8fd21592",
+      "version_id": "022910637b1d80e7b628c4e5",
       "source_id": "weekend_agenda:period_bea_calendar",
       "source_kind": "official_period_data",
       "title": "미국 상품·서비스 무역",
@@ -7398,7 +7340,7 @@
   "editorial_focus": "general",
   "edition_kind": "weekend",
   "period_id": "weekend:2026-09-28",
-  "previous_revision_run_id": "469163ed5963470ca7f21f6f",
+  "previous_revision_run_id": "",
   "period_sections": [
     {
       "kind": "weekly_review",
@@ -8129,8 +8071,8 @@
       "unavailable_dates": [],
       "entries": [
         {
-          "id": "8b439ea7aad67aee126d6aa0",
-          "issue_id": "e34459f3485bf03779087e91",
+          "id": "f79c90112eaa94871310a474",
+          "issue_id": "a0279776c71d95be16f14609",
           "role": "scheduled",
           "origin_run_id": "",
           "origin_issue_id": "",
@@ -8145,7 +8087,7 @@
           "watch_for": "수출입 규모와 무역수지 변화를 확인합니다.",
           "related_issue_id": "",
           "basis_claim_ids": [
-            "037a6d6c239becda849b8566"
+            "9a620ead73381749124024d4"
           ]
         }
       ],
@@ -8155,17 +8097,17 @@
       "kind": "month_context",
       "title": "이달 주요 지표 변화",
       "start": "2026-10-01",
-      "end_exclusive": "2026-10-05",
+      "end_exclusive": "2026-10-04",
       "status": "complete",
       "coverage_start": "2026-10-01",
-      "coverage_end": "2026-10-02",
+      "coverage_end": "2026-10-01",
       "expected_dates": [],
       "covered_dates": [],
       "unavailable_dates": [],
       "entries": [
         {
-          "id": "2c9f75b55374ebf737aa477a",
-          "issue_id": "2173f2dfb48d2620d23d1dee",
+          "id": "c291a72b8204da46c9545819",
+          "issue_id": "c68f46bf43149ae0d944deb5",
           "role": "context",
           "origin_run_id": "",
           "origin_issue_id": "",
@@ -8180,19 +8122,19 @@
           "watch_for": "",
           "related_issue_id": "",
           "basis_claim_ids": [
-            "b904997b26475e18e1e32dc8"
+            "2b77238f1afd38075380dfa8"
           ]
         },
         {
-          "id": "5fa4db0ea07e6bbc3b7772c2",
-          "issue_id": "1837f97b5dd68732bb0fa58e",
+          "id": "03676ed5eb96568515b106f5",
+          "issue_id": "15dce0f977c15a8866030a04",
           "role": "context",
           "origin_run_id": "",
           "origin_issue_id": "",
           "origin_cutoff": null,
           "source_date": null,
           "event_start": "2026-10-01",
-          "event_end": "2026-10-02",
+          "event_end": "2026-10-01",
           "event_timezone": "",
           "event_at": null,
           "event_category": "",
@@ -8200,20 +8142,19 @@
           "watch_for": "",
           "related_issue_id": "",
           "basis_claim_ids": [
-            "bb3efe34d3fa35462c99de71",
-            "1f35d78b6a5f89b6e44fcbd6"
+            "4683125028c65d818ce41715"
           ]
         },
         {
-          "id": "b5c6302b9fa3edd79f519af2",
-          "issue_id": "8eaf4907a81bd80d657b39b7",
+          "id": "ce2c2267cf564e4807712dcc",
+          "issue_id": "041e2aef21a44765d95b9401",
           "role": "context",
           "origin_run_id": "",
           "origin_issue_id": "",
           "origin_cutoff": null,
           "source_date": null,
           "event_start": "2026-10-01",
-          "event_end": "2026-10-02",
+          "event_end": "2026-10-01",
           "event_timezone": "",
           "event_at": null,
           "event_category": "",
@@ -8221,8 +8162,7 @@
           "watch_for": "",
           "related_issue_id": "",
           "basis_claim_ids": [
-            "fd096e4c7c3b8694f6992dfb",
-            "b87c54d7a130d15dc1da5f4b"
+            "c254793dad8e8162e0421f49"
           ]
         }
       ],
@@ -8232,10 +8172,10 @@
       "kind": "year_context",
       "title": "연초 이후 주요 지표 변화",
       "start": "2026-01-01",
-      "end_exclusive": "2026-10-05",
+      "end_exclusive": "2026-10-04",
       "status": "complete",
       "coverage_start": "2026-01-01",
-      "coverage_end": "2026-10-02",
+      "coverage_end": "2026-10-01",
       "expected_dates": [],
       "covered_dates": [],
       "unavailable_dates": [],
@@ -8262,8 +8202,8 @@
           ]
         },
         {
-          "id": "a4d7d17dfa7151ca709d9903",
-          "issue_id": "95a9f6bdf167dec43a4b9004",
+          "id": "0d8794f14e73c9de9ce38fa2",
+          "issue_id": "b53129cc91ba54fdac2395c7",
           "role": "context",
           "origin_run_id": "",
           "origin_issue_id": "",
@@ -8278,20 +8218,20 @@
           "watch_for": "",
           "related_issue_id": "",
           "basis_claim_ids": [
-            "31de4b3d27b247db242d8d8b",
-            "c30a53d1deace599314a6a2c"
+            "7a4bb00c093c873a3c191192",
+            "56a1e451b4bfc2eeb4b0eea7"
           ]
         },
         {
-          "id": "f4cf43a0e439346345512b0b",
-          "issue_id": "43c7913a72d9814b8388907c",
+          "id": "b97eec9e2b94c3972ff568bb",
+          "issue_id": "b7e7506694b66e52324e33e0",
           "role": "context",
           "origin_run_id": "",
           "origin_issue_id": "",
           "origin_cutoff": null,
           "source_date": null,
           "event_start": "2026-01-02",
-          "event_end": "2026-10-02",
+          "event_end": "2026-10-01",
           "event_timezone": "",
           "event_at": null,
           "event_category": "",
@@ -8299,20 +8239,20 @@
           "watch_for": "",
           "related_issue_id": "",
           "basis_claim_ids": [
-            "0a5030f74a7c203cb705bd82",
-            "b83de6e9d1a32c7d385c1fce"
+            "1aab9b0092cb35c25eb6c322",
+            "877fff47e5dec92f69218195"
           ]
         },
         {
-          "id": "684449d1d57a6a902ad734c6",
-          "issue_id": "34779542dce25efed2745f4b",
+          "id": "2825861d6ee5d512e011ee0c",
+          "issue_id": "8c6e64f11722edfac8a463bd",
           "role": "context",
           "origin_run_id": "",
           "origin_issue_id": "",
           "origin_cutoff": null,
           "source_date": null,
           "event_start": "2026-01-02",
-          "event_end": "2026-10-02",
+          "event_end": "2026-10-01",
           "event_timezone": "",
           "event_at": null,
           "event_category": "",
@@ -8320,8 +8260,8 @@
           "watch_for": "",
           "related_issue_id": "",
           "basis_claim_ids": [
-            "2e512bba2aade4a0e999eeba",
-            "417c4ba98a92198b9811698e"
+            "4d6ac5dc0c43aea6f346c8c1",
+            "884fb67a34806749ae81a2fe"
           ]
         }
       ],
