@@ -1,0 +1,4374 @@
+{
+  "schema_version": "1",
+  "run_id": "61bf6e0dedf21a941e1f0e70",
+  "report_date": "2026-09-12",
+  "cutoff": "2026-09-12T07:00:00+09:00",
+  "generated_at": "2026-09-12T04:33:12.845760+00:00",
+  "mode": "reconstruction",
+  "status": "partial",
+  "language": "ko",
+  "timezone": "Asia/Seoul",
+  "input_manifest_hash": "3fbbebead6ddd242896c3cc2203a352b5d2e0dc6f3eb7e416aa2fc7d0e5ce16f",
+  "highlights": [
+    "美 9월 미시간대 소비심리지수 예비치 47.8…2개월 연속 급락(상보)",
+    "와이즈플래닛컴퍼니, 공모가 1만2000원 확정…기관 수요예측 1248대 1",
+    "삼성바이오, 유럽 제약사와 3508억원 CMO 계약…2033년까지 장기 공급",
+    "미 근원 CPI 예상치 상회…유가·국채 발작 겹쳐 ‘긴축 공포’"
+  ],
+  "delivery_target": "2026-09-12T07:15:00+09:00",
+  "generation_delayed": false,
+  "issues": [
+    {
+      "id": "1edbd704e03f7229e7299b15",
+      "anchor": "issue-26d37a998f245196",
+      "editorial_scope": "macro",
+      "event_type": "macro_release",
+      "title": "9월 누적 수출액 급등 … 82% 증가한 350억弗",
+      "section": "yesterday",
+      "category": "economy",
+      "summary": [
+        "관세청은 이달 1~10일 수출액이 350억달러로 지난해 같은 기간보다 82.6% 증가했다고 11일 밝혔다. 이는 월별 초순 수출액 가운데 역대 가장 큰 규모다. 반도체 수출이 165억달러로 급증해 전체 수출 증가를 견인했다. 품목별로는 반도체 수출이 전년 동기 대비 270.1% 늘어난 165억달러로 집계돼 1~10일 기준 최고 기록을 새로 썼다.",
+        "전체 수출에서 반도체가 차지하는 비중도 47.1%로 1년 전보다 23.9%포인트 확대됐다. 석유 제품과 승용차 수출은 각각 57.0%, 10.0% 증가한 반면 정밀기기는 4.8% 줄었다. 국가별 수출은 중국이 103.0%, 미국이 137.5% 늘었다. 대만과 베트남, 유럽연합(EU)에 대한 수출도 각각 176.0%, 42.2%, 38.9% 증가했다.",
+        "같은 기간 수입은 246억달러로 20.7% 늘었다.",
+        "국가별로는 중국·미국·EU·일본산 수입이 증가했고, 호주산 수입은 0.7% 줄었다. 수출이 수입을 크게 웃돌면서 무역수지는 104억달러 흑자를 나타냈다."
+      ],
+      "change": "비교 가능한 과거 자료 없음 — 상향·하향·전망 변경 여부 미판정",
+      "claims": [
+        {
+          "id": "328b122c4be3c678afffcfb7",
+          "text": "관세청은 이달 1~10일 수출액이 350억달러로 지난해 같은 기간보다 82.6% 증가했다고 11일 밝혔다. 이는 월별 초순 수출액 가운데 역대 가장 큰 규모다. 반도체 수출이 165억달러로 급증해 전체 수출 증가를 견인했다. 품목별로는 반도체 수출이 전년 동기 대비 270.1% 늘어난 165억달러로 집계돼 1~10일 기준 최고 기록을 새로 썼다.",
+          "kind": "fact",
+          "author": "강인선",
+          "source_ids": [
+            "f2d17abb5aaa89baf123060d"
+          ],
+          "evidence": [
+            {
+              "source_id": "f2d17abb5aaa89baf123060d",
+              "source_version_id": "9153e82f5e978d98b44608c2",
+              "start": 0,
+              "end": 194,
+              "text": "관세청은 이달 1~10일 수출액이 350억달러로 지난해 같은 기간보다 82.6% 증가했다고 11일 밝혔다. 이는 월별 초순 수출액 가운데 역대 가장 큰 규모다. 반도체 수출이 165억달러로 급증해 전체 수출 증가를 견인했다. 품목별로는 반도체 수출이 전년 동기 대비 270.1% 늘어난 165억달러로 집계돼 1~10일 기준 최고 기록을 새로 썼다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "관세청은 이달 1~10일 수출액이 350억달러로 지난해 같은 기간보다 82.6% 증가했다고 11일 밝혔다. 이는 월별 초순 수출액 가운데 역대 가장 큰 규모다. 반도체 수출이 165억달러로 급증해 전체 수출 증가를 견인했다. 품목별로는 반도체 수출이 전년 동기 대비 270.1% 늘어난 165억달러로 집계돼 1~10일 기준 최고 기록을 새로 썼다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote"
+          },
+          "numbers": []
+        },
+        {
+          "id": "6b3781f756dc2bc57ad09529",
+          "text": "전체 수출에서 반도체가 차지하는 비중도 47.1%로 1년 전보다 23.9%포인트 확대됐다. 석유 제품과 승용차 수출은 각각 57.0%, 10.0% 증가한 반면 정밀기기는 4.8% 줄었다. 국가별 수출은 중국이 103.0%, 미국이 137.5% 늘었다. 대만과 베트남, 유럽연합(EU)에 대한 수출도 각각 176.0%, 42.2%, 38.9% 증가했다.",
+          "kind": "fact",
+          "author": "강인선",
+          "source_ids": [
+            "f2d17abb5aaa89baf123060d"
+          ],
+          "evidence": [
+            {
+              "source_id": "f2d17abb5aaa89baf123060d",
+              "source_version_id": "9153e82f5e978d98b44608c2",
+              "start": 195,
+              "end": 391,
+              "text": "전체 수출에서 반도체가 차지하는 비중도 47.1%로 1년 전보다 23.9%포인트 확대됐다. 석유 제품과 승용차 수출은 각각 57.0%, 10.0% 증가한 반면 정밀기기는 4.8% 줄었다. 국가별 수출은 중국이 103.0%, 미국이 137.5% 늘었다. 대만과 베트남, 유럽연합(EU)에 대한 수출도 각각 176.0%, 42.2%, 38.9% 증가했다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "전체 수출에서 반도체가 차지하는 비중도 47.1%로 1년 전보다 23.9%포인트 확대됐다. 석유 제품과 승용차 수출은 각각 57.0%, 10.0% 증가한 반면 정밀기기는 4.8% 줄었다. 국가별 수출은 중국이 103.0%, 미국이 137.5% 늘었다. 대만과 베트남, 유럽연합(EU)에 대한 수출도 각각 176.0%, 42.2%, 38.9% 증가했다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote"
+          },
+          "numbers": []
+        },
+        {
+          "id": "351cef7984a3b860fb4b6b3b",
+          "text": "같은 기간 수입은 246억달러로 20.7% 늘었다.",
+          "kind": "fact",
+          "author": "강인선",
+          "source_ids": [
+            "f2d17abb5aaa89baf123060d"
+          ],
+          "evidence": [
+            {
+              "source_id": "f2d17abb5aaa89baf123060d",
+              "source_version_id": "9153e82f5e978d98b44608c2",
+              "start": 392,
+              "end": 420,
+              "text": "같은 기간 수입은 246억달러로 20.7% 늘었다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "같은 기간 수입은 246억달러로 20.7% 늘었다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote"
+          },
+          "numbers": []
+        },
+        {
+          "id": "6b39f639b7b9fc9d332ed596",
+          "text": "국가별로는 중국·미국·EU·일본산 수입이 증가했고, 호주산 수입은 0.7% 줄었다. 수출이 수입을 크게 웃돌면서 무역수지는 104억달러 흑자를 나타냈다.",
+          "kind": "fact",
+          "author": "강인선",
+          "source_ids": [
+            "f2d17abb5aaa89baf123060d"
+          ],
+          "evidence": [
+            {
+              "source_id": "f2d17abb5aaa89baf123060d",
+              "source_version_id": "9153e82f5e978d98b44608c2",
+              "start": 421,
+              "end": 506,
+              "text": "국가별로는 중국·미국·EU·일본산 수입이 증가했고, 호주산 수입은 0.7% 줄었다. 수출이 수입을 크게 웃돌면서 무역수지는 104억달러 흑자를 나타냈다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "국가별로는 중국·미국·EU·일본산 수입이 증가했고, 호주산 수입은 0.7% 줄었다. 수출이 수입을 크게 웃돌면서 무역수지는 104억달러 흑자를 나타냈다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote"
+          },
+          "numbers": []
+        }
+      ],
+      "document_ids": [
+        "f2d17abb5aaa89baf123060d"
+      ],
+      "source_versions": [
+        "9153e82f5e978d98b44608c2"
+      ],
+      "entities": [],
+      "selection_reason": [
+        "수집 범위 내 독립 발행자 1개",
+        "자료 기준 경과 13.0시간",
+        "이전 입력 대비 신규 문서",
+        "수치가 명시된 거시 지표 발표 또는 확정된 통화·무역 정책 변경"
+      ],
+      "follow_up": [
+        "원문과 기간·단위·작성 주체를 확인하고 해석을 검토하세요."
+      ],
+      "confidence": "source_checked",
+      "related_issue_id": null,
+      "late_discovered": false,
+      "analysis_provider": "extractive",
+      "model_status": "not_needed_source_korean",
+      "analysis_label": "한국어 원문에서 핵심 문장 선별",
+      "evidence_expired": false,
+      "evidence_partially_expired": false,
+      "has_full_text": true,
+      "has_message_text": false,
+      "prior_day_follow_up": false,
+      "original_title": "9월 누적 수출액 급등 … 82% 증가한 350억弗",
+      "source_title_ko": "9월 누적 수출액 급등 … 82% 증가한 350억弗",
+      "korean_required": true
+    },
+    {
+      "id": "55a4745e1ef1edba540acb58",
+      "anchor": "issue-489bdc917d3e7b85",
+      "editorial_scope": "macro",
+      "event_type": "macro_release",
+      "title": "영국 7월 GDP 전월비 0.4%↑…성장세 유지(상보)",
+      "section": "yesterday",
+      "category": "economy",
+      "summary": [
+        "영국의 지난 7월 국내총생산(GDP)이 서비스 부문의 호조에 힘입어 전월 대비 0.4% 증가했다.",
+        "11일(현지시간) 영국 통계청(ONS)에 따르면 영국의 7월 GDP는 전월 대비 0.4% 증가했다. 시장 예상치는 보합(0.0%)이었다.\n\n전년 동월 대비로는 1.6% 증가했다. 이는 지난해 2월 이후 가장 빠른 연간 성장률로, 전문가 전망치인 1.0%도 웃돌았다.",
+        "5월부터 7월까지 3개월간 GDP는 직전 3개월 대비 0.4% 증가해 4월부터 6월까지의 성장률과 같은 수준을 유지했다. 전문가들은 해당 기간 성장률이 0.3%로 둔화할 것으로 예상했다.",
+        "영국 경제는 올해 상반기 1% 성장해 주요 선진 7개국(G7) 가운데 가장 높은 성장률을 기록했다. 다만 일부 분석가들은 계절적 요인이 충분히 조정되지 않은 영향이 일부 반영됐을 가능성이 있다고 지적했다."
+      ],
+      "change": "비교 가능한 과거 자료 없음 — 상향·하향·전망 변경 여부 미판정",
+      "claims": [
+        {
+          "id": "9fce722085e5e9eb55cabaa4",
+          "text": "영국의 지난 7월 국내총생산(GDP)이 서비스 부문의 호조에 힘입어 전월 대비 0.4% 증가했다.",
+          "kind": "author_opinion",
+          "author": "연합인포맥스",
+          "source_ids": [
+            "ee7dcc60ba591f00e6dd15b9"
+          ],
+          "evidence": [
+            {
+              "source_id": "ee7dcc60ba591f00e6dd15b9",
+              "source_version_id": "5fca5a75e352a6faefc99523",
+              "start": 21,
+              "end": 75,
+              "text": "영국의 지난 7월 국내총생산(GDP)이 서비스 부문의 호조에 힘입어 전월 대비 0.4% 증가했다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "영국의 지난 7월 국내총생산(GDP)이 서비스 부문의 호조에 힘입어 전월 대비 0.4% 증가했다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote"
+          },
+          "numbers": []
+        },
+        {
+          "id": "fe38addc2c12f6b24711e086",
+          "text": "11일(현지시간) 영국 통계청(ONS)에 따르면 영국의 7월 GDP는 전월 대비 0.4% 증가했다. 시장 예상치는 보합(0.0%)이었다.\n\n전년 동월 대비로는 1.6% 증가했다. 이는 지난해 2월 이후 가장 빠른 연간 성장률로, 전문가 전망치인 1.0%도 웃돌았다.",
+          "kind": "author_opinion",
+          "author": "연합인포맥스",
+          "source_ids": [
+            "ee7dcc60ba591f00e6dd15b9"
+          ],
+          "evidence": [
+            {
+              "source_id": "ee7dcc60ba591f00e6dd15b9",
+              "source_version_id": "5fca5a75e352a6faefc99523",
+              "start": 77,
+              "end": 225,
+              "text": "11일(현지시간) 영국 통계청(ONS)에 따르면 영국의 7월 GDP는 전월 대비 0.4% 증가했다. 시장 예상치는 보합(0.0%)이었다.\n\n전년 동월 대비로는 1.6% 증가했다. 이는 지난해 2월 이후 가장 빠른 연간 성장률로, 전문가 전망치인 1.0%도 웃돌았다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "11일(현지시간) 영국 통계청(ONS)에 따르면 영국의 7월 GDP는 전월 대비 0.4% 증가했다. 시장 예상치는 보합(0.0%)이었다.\n\n전년 동월 대비로는 1.6% 증가했다. 이는 지난해 2월 이후 가장 빠른 연간 성장률로, 전문가 전망치인 1.0%도 웃돌았다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote"
+          },
+          "numbers": []
+        },
+        {
+          "id": "8f96b2724fdb89b60f8ee97b",
+          "text": "5월부터 7월까지 3개월간 GDP는 직전 3개월 대비 0.4% 증가해 4월부터 6월까지의 성장률과 같은 수준을 유지했다. 전문가들은 해당 기간 성장률이 0.3%로 둔화할 것으로 예상했다.",
+          "kind": "author_opinion",
+          "author": "연합인포맥스",
+          "source_ids": [
+            "ee7dcc60ba591f00e6dd15b9"
+          ],
+          "evidence": [
+            {
+              "source_id": "ee7dcc60ba591f00e6dd15b9",
+              "source_version_id": "5fca5a75e352a6faefc99523",
+              "start": 227,
+              "end": 331,
+              "text": "5월부터 7월까지 3개월간 GDP는 직전 3개월 대비 0.4% 증가해 4월부터 6월까지의 성장률과 같은 수준을 유지했다. 전문가들은 해당 기간 성장률이 0.3%로 둔화할 것으로 예상했다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "5월부터 7월까지 3개월간 GDP는 직전 3개월 대비 0.4% 증가해 4월부터 6월까지의 성장률과 같은 수준을 유지했다. 전문가들은 해당 기간 성장률이 0.3%로 둔화할 것으로 예상했다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote"
+          },
+          "numbers": []
+        },
+        {
+          "id": "7613e26a2e74559597e9e8ea",
+          "text": "영국 경제는 올해 상반기 1% 성장해 주요 선진 7개국(G7) 가운데 가장 높은 성장률을 기록했다. 다만 일부 분석가들은 계절적 요인이 충분히 조정되지 않은 영향이 일부 반영됐을 가능성이 있다고 지적했다.",
+          "kind": "author_opinion",
+          "author": "연합인포맥스",
+          "source_ids": [
+            "ee7dcc60ba591f00e6dd15b9"
+          ],
+          "evidence": [
+            {
+              "source_id": "ee7dcc60ba591f00e6dd15b9",
+              "source_version_id": "5fca5a75e352a6faefc99523",
+              "start": 443,
+              "end": 557,
+              "text": "영국 경제는 올해 상반기 1% 성장해 주요 선진 7개국(G7) 가운데 가장 높은 성장률을 기록했다. 다만 일부 분석가들은 계절적 요인이 충분히 조정되지 않은 영향이 일부 반영됐을 가능성이 있다고 지적했다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "영국 경제는 올해 상반기 1% 성장해 주요 선진 7개국(G7) 가운데 가장 높은 성장률을 기록했다. 다만 일부 분석가들은 계절적 요인이 충분히 조정되지 않은 영향이 일부 반영됐을 가능성이 있다고 지적했다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote"
+          },
+          "numbers": []
+        }
+      ],
+      "document_ids": [
+        "ee7dcc60ba591f00e6dd15b9"
+      ],
+      "source_versions": [
+        "5fca5a75e352a6faefc99523"
+      ],
+      "entities": [],
+      "selection_reason": [
+        "수집 범위 내 독립 발행자 1개",
+        "자료 기준 경과 13.3시간",
+        "이전 입력 대비 신규 문서",
+        "수치가 명시된 거시 지표 발표 또는 확정된 통화·무역 정책 변경"
+      ],
+      "follow_up": [
+        "원문과 기간·단위·작성 주체를 확인하고 해석을 검토하세요."
+      ],
+      "confidence": "source_checked",
+      "related_issue_id": null,
+      "late_discovered": false,
+      "analysis_provider": "extractive",
+      "model_status": "not_needed_source_korean",
+      "analysis_label": "한국어 원문에서 핵심 문장 선별",
+      "evidence_expired": false,
+      "evidence_partially_expired": false,
+      "has_full_text": true,
+      "has_message_text": false,
+      "prior_day_follow_up": false,
+      "original_title": "영국 7월 GDP 전월비 0.4%↑…성장세 유지(상보)",
+      "source_title_ko": "영국 7월 GDP 전월비 0.4%↑…성장세 유지(상보)",
+      "korean_required": true
+    },
+    {
+      "id": "b84c8fbcbcafe79babe82d4e",
+      "anchor": "issue-1e2778bc5a8bb669",
+      "editorial_scope": "macro",
+      "event_type": "macro_release",
+      "title": "美 8월 기존주택 판매 전월比 2.0% 감소…모기지금리 상승 탓",
+      "section": "yesterday",
+      "category": "economy",
+      "summary": [
+        "10일(현지시간) 전미 부동산중개인협회(NAR)에 따르면 지난 8월 미국의 기존 주택 판매 규모는 계절 조정 기준 전달 대비 2.0% 감소한 연율 398만채로 나타났다.",
+        "NAR의 수석 이코노미스트인 로런스 윤은 \"모기지금리와 주택 판매는 서로 반대 방향으로 움직이기 때문에 높은 모기지금리로 주택 구매 활동이 소폭 감소한 것은 놀라운 일이 아니다\"고 평가했다.",
+        "이어 \"그런데도 주택 가격은 상승하고 있고, 기존 주택 판매는 실제로 올해 첫 8개월 동안 전년 대비 누적으로 1.6% 증가했다\"면서 \"더 높은 금리에도 불구하고 주택 구매 수요가 뒷받침되고 있는 것은 의심할 여지 없이 임금 상승 덕분\"이라고 설명했다",
+        "기존 주택 중간 가격은 38개월 연속 전년 대비 상승세를 기록했다."
+      ],
+      "change": "비교 가능한 과거 자료 없음 — 상향·하향·전망 변경 여부 미판정",
+      "claims": [
+        {
+          "id": "94eed7a2e2952fc78dabb258",
+          "text": "10일(현지시간) 전미 부동산중개인협회(NAR)에 따르면 지난 8월 미국의 기존 주택 판매 규모는 계절 조정 기준 전달 대비 2.0% 감소한 연율 398만채로 나타났다.",
+          "kind": "fact",
+          "author": "연합인포맥스",
+          "source_ids": [
+            "654ec2f2c5145a785392d816"
+          ],
+          "evidence": [
+            {
+              "source_id": "654ec2f2c5145a785392d816",
+              "source_version_id": "1f6b86f91d12d21eb4e82b27",
+              "start": 85,
+              "end": 179,
+              "text": "10일(현지시간) 전미 부동산중개인협회(NAR)에 따르면 지난 8월 미국의 기존 주택 판매 규모는 계절 조정 기준 전달 대비 2.0% 감소한 연율 398만채로 나타났다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "10일(현지시간) 전미 부동산중개인협회(NAR)에 따르면 지난 8월 미국의 기존 주택 판매 규모는 계절 조정 기준 전달 대비 2.0% 감소한 연율 398만채로 나타났다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote"
+          },
+          "numbers": []
+        },
+        {
+          "id": "5a9b32ad863c9e454830ea24",
+          "text": "NAR의 수석 이코노미스트인 로런스 윤은 \"모기지금리와 주택 판매는 서로 반대 방향으로 움직이기 때문에 높은 모기지금리로 주택 구매 활동이 소폭 감소한 것은 놀라운 일이 아니다\"고 평가했다.",
+          "kind": "author_opinion",
+          "author": "연합인포맥스",
+          "source_ids": [
+            "654ec2f2c5145a785392d816"
+          ],
+          "evidence": [
+            {
+              "source_id": "654ec2f2c5145a785392d816",
+              "source_version_id": "1f6b86f91d12d21eb4e82b27",
+              "start": 231,
+              "end": 337,
+              "text": "NAR의 수석 이코노미스트인 로런스 윤은 \"모기지금리와 주택 판매는 서로 반대 방향으로 움직이기 때문에 높은 모기지금리로 주택 구매 활동이 소폭 감소한 것은 놀라운 일이 아니다\"고 평가했다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "NAR의 수석 이코노미스트인 로런스 윤은 \"모기지금리와 주택 판매는 서로 반대 방향으로 움직이기 때문에 높은 모기지금리로 주택 구매 활동이 소폭 감소한 것은 놀라운 일이 아니다\"고 평가했다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote"
+          },
+          "numbers": []
+        },
+        {
+          "id": "0290bfa5e531cd84cf09bea4",
+          "text": "이어 \"그런데도 주택 가격은 상승하고 있고, 기존 주택 판매는 실제로 올해 첫 8개월 동안 전년 대비 누적으로 1.6% 증가했다\"면서 \"더 높은 금리에도 불구하고 주택 구매 수요가 뒷받침되고 있는 것은 의심할 여지 없이 임금 상승 덕분\"이라고 설명했다",
+          "kind": "author_opinion",
+          "author": "연합인포맥스",
+          "source_ids": [
+            "654ec2f2c5145a785392d816"
+          ],
+          "evidence": [
+            {
+              "source_id": "654ec2f2c5145a785392d816",
+              "source_version_id": "1f6b86f91d12d21eb4e82b27",
+              "start": 339,
+              "end": 479,
+              "text": "이어 \"그런데도 주택 가격은 상승하고 있고, 기존 주택 판매는 실제로 올해 첫 8개월 동안 전년 대비 누적으로 1.6% 증가했다\"면서 \"더 높은 금리에도 불구하고 주택 구매 수요가 뒷받침되고 있는 것은 의심할 여지 없이 임금 상승 덕분\"이라고 설명했다",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "이어 \"그런데도 주택 가격은 상승하고 있고, 기존 주택 판매는 실제로 올해 첫 8개월 동안 전년 대비 누적으로 1.6% 증가했다\"면서 \"더 높은 금리에도 불구하고 주택 구매 수요가 뒷받침되고 있는 것은 의심할 여지 없이 임금 상승 덕분\"이라고 설명했다",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote"
+          },
+          "numbers": []
+        },
+        {
+          "id": "cbf2d49ef15499d98534e0bb",
+          "text": "기존 주택 중간 가격은 38개월 연속 전년 대비 상승세를 기록했다.",
+          "kind": "fact",
+          "author": "연합인포맥스",
+          "source_ids": [
+            "654ec2f2c5145a785392d816"
+          ],
+          "evidence": [
+            {
+              "source_id": "654ec2f2c5145a785392d816",
+              "source_version_id": "1f6b86f91d12d21eb4e82b27",
+              "start": 796,
+              "end": 833,
+              "text": "기존 주택 중간 가격은 38개월 연속 전년 대비 상승세를 기록했다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "기존 주택 중간 가격은 38개월 연속 전년 대비 상승세를 기록했다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote"
+          },
+          "numbers": []
+        }
+      ],
+      "document_ids": [
+        "654ec2f2c5145a785392d816"
+      ],
+      "source_versions": [
+        "1f6b86f91d12d21eb4e82b27"
+      ],
+      "entities": [],
+      "selection_reason": [
+        "수집 범위 내 독립 발행자 1개",
+        "자료 기준 경과 29.3시간",
+        "이전 입력과 중복 내용",
+        "수치가 명시된 거시 지표 발표 또는 확정된 통화·무역 정책 변경"
+      ],
+      "follow_up": [
+        "원문과 기간·단위·작성 주체를 확인하고 해석을 검토하세요."
+      ],
+      "confidence": "source_checked",
+      "related_issue_id": null,
+      "late_discovered": false,
+      "analysis_provider": "extractive",
+      "model_status": "not_needed_source_korean",
+      "analysis_label": "한국어 원문에서 핵심 문장 선별",
+      "evidence_expired": false,
+      "evidence_partially_expired": false,
+      "has_full_text": true,
+      "has_message_text": false,
+      "prior_day_follow_up": false,
+      "original_title": "美 8월 기존주택 판매 전월比 2.0% 감소…모기지금리 상승 탓",
+      "source_title_ko": "美 8월 기존주택 판매 전월比 2.0% 감소…모기지금리 상승 탓",
+      "korean_required": true
+    },
+    {
+      "id": "c64cc0eab1ccf68c330c5afd",
+      "anchor": "issue-8e3ae09a1dd39bd4",
+      "editorial_scope": "industry",
+      "event_type": "industry_regulation",
+      "title": "기관들이 지역 은행에 대한 규제 부담을 줄이고 18 개월 검사 주기에 대한 자격 요건을 확대합니다.",
+      "section": "yesterday",
+      "category": "economy",
+      "summary": [
+        "연방 은행 규제 기관들은 오늘 18 개월 검사 주기에 자격이 있는 지역 은행의 수를 늘리는 임시 최종 규정을 발표했습니다.",
+        "21세기 주택 로드법은 특정 감독 대상 기관이 연장된 18 개월 현장 검사 주기에 자격을 갖추기 위한 총 자산 기준을 30 억 달러에서 60 억 달러로 상향 조정했습니다.",
+        "이러한 소규모 비복합 기업에 대한 검사 주기를 12 개월에서 18 개월로 연장하는 것은 이러한 저위험 기관에 대한 부담, 특히 소요되는 시간과 자원을 적절히 줄여줍니다.",
+        "연장된 주기는 상대적으로 위험도가 낮은 소규모 은행에 적용되지만, 관련 기관들은 예정된 검사 사이에서 현재와 같은 현장 외 모니터링 감독 관행을 계속 유지할 것입니다."
+      ],
+      "change": "비교 가능한 과거 자료 없음 — 상향·하향·전망 변경 여부 미판정",
+      "claims": [
+        {
+          "id": "42f691b252d8e2e30d259156",
+          "text": "연방 은행 규제 기관들은 오늘 18 개월 검사 주기에 자격이 있는 지역 은행의 수를 늘리는 임시 최종 규정을 발표했습니다.",
+          "kind": "fact",
+          "author": "미국 연방준비제도",
+          "source_ids": [
+            "03351617b9f5eed41785471e"
+          ],
+          "evidence": [
+            {
+              "source_id": "03351617b9f5eed41785471e",
+              "source_version_id": "0d58223d68fb88478496a36c",
+              "start": 308,
+              "end": 457,
+              "text": "The federal bank regulatory agencies today issued an interim final rule increasing the number of community banks eligible for an 18-month exam cycle.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "연방 은행 규제 기관들은 오늘 18 개월 검사 주기에 자격이 있는 지역 은행의 수를 늘리는 임시 최종 규정을 발표했습니다.",
+              "is_translation": true
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "",
+          "validation": {
+            "semantic_support": "not_verified",
+            "human_review": "not_reviewed",
+            "status": "needs_review",
+            "source_linkage": "passed",
+            "content_check": "unverified_paraphrase"
+          },
+          "numbers": []
+        },
+        {
+          "id": "c14a197c6bc0c0d233b4de59",
+          "text": "21세기 주택 로드법은 특정 감독 대상 기관이 연장된 18 개월 현장 검사 주기에 자격을 갖추기 위한 총 자산 기준을 30 억 달러에서 60 억 달러로 상향 조정했습니다.",
+          "kind": "fact",
+          "author": "미국 연방준비제도",
+          "source_ids": [
+            "03351617b9f5eed41785471e"
+          ],
+          "evidence": [
+            {
+              "source_id": "03351617b9f5eed41785471e",
+              "source_version_id": "0d58223d68fb88478496a36c",
+              "start": 459,
+              "end": 653,
+              "text": "The 21st Century ROAD to Housing Act increased the total asset threshold from $3 billion to $6 billion for certain supervised institutions to qualify for an extended 18-month on-site exam cycle.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "21세기 주택 로드법은 특정 감독 대상 기관이 연장된 18 개월 현장 검사 주기에 자격을 갖추기 위한 총 자산 기준을 30 억 달러에서 60 억 달러로 상향 조정했습니다.",
+              "is_translation": true
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "",
+          "validation": {
+            "semantic_support": "not_verified",
+            "human_review": "not_reviewed",
+            "status": "needs_review",
+            "source_linkage": "passed",
+            "content_check": "unverified_paraphrase"
+          },
+          "numbers": []
+        },
+        {
+          "id": "f0ce526d415429090b57898e",
+          "text": "이러한 소규모 비복합 기업에 대한 검사 주기를 12 개월에서 18 개월로 연장하는 것은 이러한 저위험 기관에 대한 부담, 특히 소요되는 시간과 자원을 적절히 줄여줍니다.",
+          "kind": "fact",
+          "author": "미국 연방준비제도",
+          "source_ids": [
+            "03351617b9f5eed41785471e"
+          ],
+          "evidence": [
+            {
+              "source_id": "03351617b9f5eed41785471e",
+              "source_version_id": "0d58223d68fb88478496a36c",
+              "start": 654,
+              "end": 839,
+              "text": "Extending the exam cycle for these small non-complex firms from 12 months to 18 months appropriately reduces burden, including time and resources spent, for these low-risk institutions.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "이러한 소규모 비복합 기업에 대한 검사 주기를 12 개월에서 18 개월로 연장하는 것은 이러한 저위험 기관에 대한 부담, 특히 소요되는 시간과 자원을 적절히 줄여줍니다.",
+              "is_translation": true
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "",
+          "validation": {
+            "semantic_support": "not_verified",
+            "human_review": "not_reviewed",
+            "status": "needs_review",
+            "source_linkage": "passed",
+            "content_check": "unverified_paraphrase"
+          },
+          "numbers": []
+        },
+        {
+          "id": "2d67b0b28bf1fdc0adcf93cf",
+          "text": "연장된 주기는 상대적으로 위험도가 낮은 소규모 은행에 적용되지만, 관련 기관들은 예정된 검사 사이에서 현재와 같은 현장 외 모니터링 감독 관행을 계속 유지할 것입니다.",
+          "kind": "fact",
+          "author": "미국 연방준비제도",
+          "source_ids": [
+            "03351617b9f5eed41785471e"
+          ],
+          "evidence": [
+            {
+              "source_id": "03351617b9f5eed41785471e",
+              "source_version_id": "0d58223d68fb88478496a36c",
+              "start": 1119,
+              "end": 1307,
+              "text": "The extended cycle applies to small banks with relatively low-risk profiles, but the agencies would continue the current supervisory practice of offsite monitoring between scheduled exams.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "연장된 주기는 상대적으로 위험도가 낮은 소규모 은행에 적용되지만, 관련 기관들은 예정된 검사 사이에서 현재와 같은 현장 외 모니터링 감독 관행을 계속 유지할 것입니다.",
+              "is_translation": true
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "",
+          "validation": {
+            "semantic_support": "not_verified",
+            "human_review": "not_reviewed",
+            "status": "needs_review",
+            "source_linkage": "passed",
+            "content_check": "unverified_paraphrase"
+          },
+          "numbers": []
+        }
+      ],
+      "document_ids": [
+        "03351617b9f5eed41785471e",
+        "fb5106325ec8078720868798"
+      ],
+      "source_versions": [
+        "0d58223d68fb88478496a36c",
+        "8900bd0c67ac060315be8d70"
+      ],
+      "entities": [],
+      "selection_reason": [
+        "수집 범위 내 독립 발행자 1개",
+        "자료 기준 경과 26.0시간",
+        "이전 입력과 중복 내용",
+        "기업·금융에 직접 연결되는 제도·감독 변경"
+      ],
+      "follow_up": [
+        "원문과 기간·단위·작성 주체를 확인하고 해석을 검토하세요."
+      ],
+      "confidence": "needs_review",
+      "related_issue_id": null,
+      "late_discovered": false,
+      "analysis_provider": "mlx",
+      "model_status": "cached_model_output",
+      "analysis_label": "한국어 번역 · 수치·출처 자동 대조",
+      "evidence_expired": false,
+      "evidence_partially_expired": false,
+      "has_full_text": true,
+      "has_message_text": false,
+      "prior_day_follow_up": false,
+      "original_title": "Agencies reduce regulatory burden for community banks, increase eligibility for 18-month exam cycle",
+      "source_title_ko": "기관들이 지역 은행에 대한 규제 부담을 줄이고 18 개월 검사 주기에 대한 자격 요건을 확대합니다.",
+      "korean_required": true
+    },
+    {
+      "id": "ee8e80c239839149024196c0",
+      "anchor": "issue-239547e2b052d83c",
+      "editorial_scope": "company",
+      "event_type": "company_regulation",
+      "title": "칼시, 암호화폐 이어 금·은 무기한 선물 거래 시작…CFTC 승인 확보",
+      "section": "yesterday",
+      "category": "economy",
+      "summary": [
+        "칼시가 미국 트레이더를 대상으로 금과 은 무기한 선물인 '퍼프스' 거래를 시작했다.",
+        "10일(이하 현지시간) 블록체인 매체 크립토폴리탄 등에 따르면 칼시는 미국 상품선물거래위원회(CFTC)의 승인을 받아 금과 은 무기한 선물(퍼프스) 계약을 출시했으며, 해당 계약은 이날 칼시 웹사이트를 통해 거래를 시작했다.",
+        "CFTC 자료에서도 금·은 퍼프스 계약은 9월 8일 인증된 것으로 확인된다.",
+        "CME그룹은 CFTC를 상대로 소송을 제기하고, 규제당국이 퍼프스 계약을 허용한 절차가 부적절했다며 미국 내 퍼프스 승인을 막아달라고 요구하고 있다."
+      ],
+      "change": "비교 가능한 과거 자료 없음 — 상향·하향·전망 변경 여부 미판정",
+      "claims": [
+        {
+          "id": "5eccd67cbf804ce8ac2665d4",
+          "text": "칼시가 미국 트레이더를 대상으로 금과 은 무기한 선물인 '퍼프스' 거래를 시작했다.",
+          "kind": "fact",
+          "author": "디지털투데이 (DigitalToday)",
+          "source_ids": [
+            "2fd52dcdb8267e426761dac1"
+          ],
+          "evidence": [
+            {
+              "source_id": "2fd52dcdb8267e426761dac1",
+              "source_version_id": "84f73587ef1ae85d0d1f74eb",
+              "start": 18,
+              "end": 64,
+              "text": "칼시가 미국 트레이더를 대상으로 금과 은 무기한 선물인 '퍼프스' 거래를 시작했다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "칼시가 미국 트레이더를 대상으로 금과 은 무기한 선물인 '퍼프스' 거래를 시작했다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote"
+          },
+          "numbers": []
+        },
+        {
+          "id": "0320630be31370da05a28e4d",
+          "text": "10일(이하 현지시간) 블록체인 매체 크립토폴리탄 등에 따르면 칼시는 미국 상품선물거래위원회(CFTC)의 승인을 받아 금과 은 무기한 선물(퍼프스) 계약을 출시했으며, 해당 계약은 이날 칼시 웹사이트를 통해 거래를 시작했다.",
+          "kind": "fact",
+          "author": "디지털투데이 (DigitalToday)",
+          "source_ids": [
+            "2fd52dcdb8267e426761dac1"
+          ],
+          "evidence": [
+            {
+              "source_id": "2fd52dcdb8267e426761dac1",
+              "source_version_id": "84f73587ef1ae85d0d1f74eb",
+              "start": 66,
+              "end": 191,
+              "text": "10일(이하 현지시간) 블록체인 매체 크립토폴리탄 등에 따르면 칼시는 미국 상품선물거래위원회(CFTC)의 승인을 받아 금과 은 무기한 선물(퍼프스) 계약을 출시했으며, 해당 계약은 이날 칼시 웹사이트를 통해 거래를 시작했다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "10일(이하 현지시간) 블록체인 매체 크립토폴리탄 등에 따르면 칼시는 미국 상품선물거래위원회(CFTC)의 승인을 받아 금과 은 무기한 선물(퍼프스) 계약을 출시했으며, 해당 계약은 이날 칼시 웹사이트를 통해 거래를 시작했다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote"
+          },
+          "numbers": []
+        },
+        {
+          "id": "e5326e6696f3362eb0fc847c",
+          "text": "CFTC 자료에서도 금·은 퍼프스 계약은 9월 8일 인증된 것으로 확인된다.",
+          "kind": "fact",
+          "author": "디지털투데이 (DigitalToday)",
+          "source_ids": [
+            "2fd52dcdb8267e426761dac1"
+          ],
+          "evidence": [
+            {
+              "source_id": "2fd52dcdb8267e426761dac1",
+              "source_version_id": "84f73587ef1ae85d0d1f74eb",
+              "start": 192,
+              "end": 234,
+              "text": "CFTC 자료에서도 금·은 퍼프스 계약은 9월 8일 인증된 것으로 확인된다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "CFTC 자료에서도 금·은 퍼프스 계약은 9월 8일 인증된 것으로 확인된다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote"
+          },
+          "numbers": []
+        },
+        {
+          "id": "da8dbd58e99f351ab3e6fe35",
+          "text": "CME그룹은 CFTC를 상대로 소송을 제기하고, 규제당국이 퍼프스 계약을 허용한 절차가 부적절했다며 미국 내 퍼프스 승인을 막아달라고 요구하고 있다.",
+          "kind": "fact",
+          "author": "디지털투데이 (DigitalToday)",
+          "source_ids": [
+            "2fd52dcdb8267e426761dac1"
+          ],
+          "evidence": [
+            {
+              "source_id": "2fd52dcdb8267e426761dac1",
+              "source_version_id": "84f73587ef1ae85d0d1f74eb",
+              "start": 1310,
+              "end": 1393,
+              "text": "CME그룹은 CFTC를 상대로 소송을 제기하고, 규제당국이 퍼프스 계약을 허용한 절차가 부적절했다며 미국 내 퍼프스 승인을 막아달라고 요구하고 있다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "CME그룹은 CFTC를 상대로 소송을 제기하고, 규제당국이 퍼프스 계약을 허용한 절차가 부적절했다며 미국 내 퍼프스 승인을 막아달라고 요구하고 있다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote"
+          },
+          "numbers": []
+        }
+      ],
+      "document_ids": [
+        "2fd52dcdb8267e426761dac1"
+      ],
+      "source_versions": [
+        "84f73587ef1ae85d0d1f74eb"
+      ],
+      "entities": [],
+      "selection_reason": [
+        "수집 범위 내 독립 발행자 1개",
+        "자료 기준 경과 20.5시간",
+        "이전 입력 대비 신규 문서",
+        "원문에 실행·결정 근거가 있는 기업 계약·제품·자본거래·승인"
+      ],
+      "follow_up": [
+        "원문과 기간·단위·작성 주체를 확인하고 해석을 검토하세요."
+      ],
+      "confidence": "source_checked",
+      "related_issue_id": null,
+      "late_discovered": false,
+      "analysis_provider": "extractive",
+      "model_status": "not_needed_source_korean",
+      "analysis_label": "한국어 원문에서 핵심 문장 선별",
+      "evidence_expired": false,
+      "evidence_partially_expired": false,
+      "has_full_text": true,
+      "has_message_text": false,
+      "prior_day_follow_up": false,
+      "original_title": "칼시, 암호화폐 이어 금·은 무기한 선물 거래 시작…CFTC 승인 확보",
+      "source_title_ko": "칼시, 암호화폐 이어 금·은 무기한 선물 거래 시작…CFTC 승인 확보",
+      "korean_required": true
+    },
+    {
+      "id": "ce0224fe7804399335a0a239",
+      "anchor": "issue-8c8c054cc7298d40",
+      "editorial_scope": "macro",
+      "event_type": "macro_release",
+      "title": "美 9월 미시간대 소비심리지수 예비치 47.8…2개월 연속 급락(상보)",
+      "section": "overnight",
+      "category": "economy",
+      "summary": [
+        "11일(현지시간) 미시간대에 따르면 9월 소비자심리지수 예비치는 47.8로 집계됐다. 8월 수치 51.7과 비교해 7.5% 하락했다. 전년 동월의 55.1과 비교하면 13.2% 하락했다.",
+        "소비자심리지수는 7월의 55.2에서 8월의 51.7을 거쳐 9월까지 2개월 연속 악화 흐름이다.",
+        "현재 경제 상황을 반영하는 현재경제여건지수는 50.9로 8월의 51.9에서 1.9% 내렸다. 전년 동월의 60.4 대비로는 15.7% 낮아졌다.",
+        "1년 기대 인플레이션은 4.6%로 집계됐다. 이는 지난달의 4.0%에서 급등한 것이며 6월 이후 최고치다. 이란 전쟁 시작 전인 올해 2월의 3.4%는 물론 2024년의 모든 수치를 크게 상회한다."
+      ],
+      "change": "비교 가능한 과거 자료 없음 — 상향·하향·전망 변경 여부 미판정",
+      "claims": [
+        {
+          "id": "41b12ebac0cdb87263de0814",
+          "text": "11일(현지시간) 미시간대에 따르면 9월 소비자심리지수 예비치는 47.8로 집계됐다. 8월 수치 51.7과 비교해 7.5% 하락했다. 전년 동월의 55.1과 비교하면 13.2% 하락했다.",
+          "kind": "fact",
+          "author": "연합인포맥스",
+          "source_ids": [
+            "4686ba356db2364b67118eef"
+          ],
+          "evidence": [
+            {
+              "source_id": "4686ba356db2364b67118eef",
+              "source_version_id": "19c0307634a335f76010a172",
+              "start": 112,
+              "end": 216,
+              "text": "11일(현지시간) 미시간대에 따르면 9월 소비자심리지수 예비치는 47.8로 집계됐다. 8월 수치 51.7과 비교해 7.5% 하락했다. 전년 동월의 55.1과 비교하면 13.2% 하락했다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "11일(현지시간) 미시간대에 따르면 9월 소비자심리지수 예비치는 47.8로 집계됐다. 8월 수치 51.7과 비교해 7.5% 하락했다. 전년 동월의 55.1과 비교하면 13.2% 하락했다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote"
+          },
+          "numbers": []
+        },
+        {
+          "id": "04e7faca1de1c96e13eaf846",
+          "text": "소비자심리지수는 7월의 55.2에서 8월의 51.7을 거쳐 9월까지 2개월 연속 악화 흐름이다.",
+          "kind": "fact",
+          "author": "연합인포맥스",
+          "source_ids": [
+            "4686ba356db2364b67118eef"
+          ],
+          "evidence": [
+            {
+              "source_id": "4686ba356db2364b67118eef",
+              "source_version_id": "19c0307634a335f76010a172",
+              "start": 277,
+              "end": 330,
+              "text": "소비자심리지수는 7월의 55.2에서 8월의 51.7을 거쳐 9월까지 2개월 연속 악화 흐름이다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "소비자심리지수는 7월의 55.2에서 8월의 51.7을 거쳐 9월까지 2개월 연속 악화 흐름이다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote"
+          },
+          "numbers": []
+        },
+        {
+          "id": "e83077692dd1e1ee48b2de3c",
+          "text": "현재 경제 상황을 반영하는 현재경제여건지수는 50.9로 8월의 51.9에서 1.9% 내렸다. 전년 동월의 60.4 대비로는 15.7% 낮아졌다.",
+          "kind": "fact",
+          "author": "연합인포맥스",
+          "source_ids": [
+            "4686ba356db2364b67118eef"
+          ],
+          "evidence": [
+            {
+              "source_id": "4686ba356db2364b67118eef",
+              "source_version_id": "19c0307634a335f76010a172",
+              "start": 332,
+              "end": 412,
+              "text": "현재 경제 상황을 반영하는 현재경제여건지수는 50.9로 8월의 51.9에서 1.9% 내렸다. 전년 동월의 60.4 대비로는 15.7% 낮아졌다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "현재 경제 상황을 반영하는 현재경제여건지수는 50.9로 8월의 51.9에서 1.9% 내렸다. 전년 동월의 60.4 대비로는 15.7% 낮아졌다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote"
+          },
+          "numbers": []
+        },
+        {
+          "id": "35f0c6dfdffba0846dc50cec",
+          "text": "1년 기대 인플레이션은 4.6%로 집계됐다. 이는 지난달의 4.0%에서 급등한 것이며 6월 이후 최고치다. 이란 전쟁 시작 전인 올해 2월의 3.4%는 물론 2024년의 모든 수치를 크게 상회한다.",
+          "kind": "fact",
+          "author": "연합인포맥스",
+          "source_ids": [
+            "4686ba356db2364b67118eef"
+          ],
+          "evidence": [
+            {
+              "source_id": "4686ba356db2364b67118eef",
+              "source_version_id": "19c0307634a335f76010a172",
+              "start": 639,
+              "end": 749,
+              "text": "1년 기대 인플레이션은 4.6%로 집계됐다. 이는 지난달의 4.0%에서 급등한 것이며 6월 이후 최고치다. 이란 전쟁 시작 전인 올해 2월의 3.4%는 물론 2024년의 모든 수치를 크게 상회한다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "1년 기대 인플레이션은 4.6%로 집계됐다. 이는 지난달의 4.0%에서 급등한 것이며 6월 이후 최고치다. 이란 전쟁 시작 전인 올해 2월의 3.4%는 물론 2024년의 모든 수치를 크게 상회한다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote"
+          },
+          "numbers": []
+        }
+      ],
+      "document_ids": [
+        "4686ba356db2364b67118eef"
+      ],
+      "source_versions": [
+        "19c0307634a335f76010a172"
+      ],
+      "entities": [],
+      "selection_reason": [
+        "수집 범위 내 독립 발행자 1개",
+        "자료 기준 경과 5.2시간",
+        "이전 입력 대비 신규 문서",
+        "수치가 명시된 거시 지표 발표 또는 확정된 통화·무역 정책 변경"
+      ],
+      "follow_up": [
+        "원문과 기간·단위·작성 주체를 확인하고 해석을 검토하세요."
+      ],
+      "confidence": "source_checked",
+      "related_issue_id": null,
+      "late_discovered": false,
+      "analysis_provider": "extractive",
+      "model_status": "not_needed_source_korean",
+      "analysis_label": "한국어 원문에서 핵심 문장 선별",
+      "evidence_expired": false,
+      "evidence_partially_expired": false,
+      "has_full_text": true,
+      "has_message_text": false,
+      "prior_day_follow_up": false,
+      "original_title": "美 9월 미시간대 소비심리지수 예비치 47.8…2개월 연속 급락(상보)",
+      "source_title_ko": "美 9월 미시간대 소비심리지수 예비치 47.8…2개월 연속 급락(상보)",
+      "korean_required": true
+    },
+    {
+      "id": "d0b9bd71421fefd19211bf28",
+      "anchor": "issue-d7ea54e327ce1228",
+      "editorial_scope": "macro",
+      "event_type": "macro_release",
+      "title": "미 근원 CPI 예상치 상회…유가·국채 발작 겹쳐 ‘긴축 공포’",
+      "section": "overnight",
+      "category": "economy",
+      "summary": [
+        "미 노동부는 11일(현지시간) 8월 CPI가 전월보다 0.4%, 지난해 같은 달보다 3.4% 상승했다고 발표했다.",
+        "그러나 변동성이 큰 식품과 에너지를 제외한 근원 CPI가 전월 대비 0.3% 올라 시장 전망치인 0.2%를 웃돌았다. 헤드라인 물가는 예상 범위에 머물렀지만, Fed가 물가의 기조적 흐름을 판단할 때 주목하는 근원 물가가 예상보다 강하게 나오면서 이달 금리 인상에 힘이 실렸다는 전망이 번졌다.",
+        "통화정책에 민감한 미 국채 2년물 금리는 CPI 발표 직후 약 0.05%포인트 올라 4.63%까지 상승했다. 다만 10년물 금리는 발표 전보다 약 0.04%포인트 떨어져 4.92%를 나타냈다.",
+        "중동발 긴장이 다시 고조되면서 국제유가가 6% 넘게 급등한 것이 증시에 직접적인 충격으로 작용했다. 10일(현지시간) 뉴욕상업거래소에서 서부텍사스산원유(WTI)는 전 거래일보다 6.69% 오른 배럴당 102.48달러에 거래를 마쳤다. 런던 ICE선물거래소의 브렌트유도 6.34% 상승한 배럴당 107.63달러에 마감했다."
+      ],
+      "change": "비교 가능한 과거 자료 없음 — 상향·하향·전망 변경 여부 미판정",
+      "claims": [
+        {
+          "id": "b2fedc636e496c5cabd04655",
+          "text": "미 노동부는 11일(현지시간) 8월 CPI가 전월보다 0.4%, 지난해 같은 달보다 3.4% 상승했다고 발표했다.",
+          "kind": "fact",
+          "author": "장서윤",
+          "source_ids": [
+            "f13e7c0deb2aa10a40fa9d92"
+          ],
+          "evidence": [
+            {
+              "source_id": "f13e7c0deb2aa10a40fa9d92",
+              "source_version_id": "2f44a491d4b5989611186f00",
+              "start": 273,
+              "end": 336,
+              "text": "미 노동부는 11일(현지시간) 8월 CPI가 전월보다 0.4%, 지난해 같은 달보다 3.4% 상승했다고 발표했다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "미 노동부는 11일(현지시간) 8월 CPI가 전월보다 0.4%, 지난해 같은 달보다 3.4% 상승했다고 발표했다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote"
+          },
+          "numbers": []
+        },
+        {
+          "id": "9dff2306c9d3fd7a6a7fdaff",
+          "text": "그러나 변동성이 큰 식품과 에너지를 제외한 근원 CPI가 전월 대비 0.3% 올라 시장 전망치인 0.2%를 웃돌았다. 헤드라인 물가는 예상 범위에 머물렀지만, Fed가 물가의 기조적 흐름을 판단할 때 주목하는 근원 물가가 예상보다 강하게 나오면서 이달 금리 인상에 힘이 실렸다는 전망이 번졌다.",
+          "kind": "author_opinion",
+          "author": "장서윤",
+          "source_ids": [
+            "f13e7c0deb2aa10a40fa9d92"
+          ],
+          "evidence": [
+            {
+              "source_id": "f13e7c0deb2aa10a40fa9d92",
+              "source_version_id": "2f44a491d4b5989611186f00",
+              "start": 359,
+              "end": 523,
+              "text": "그러나 변동성이 큰 식품과 에너지를 제외한 근원 CPI가 전월 대비 0.3% 올라 시장 전망치인 0.2%를 웃돌았다. 헤드라인 물가는 예상 범위에 머물렀지만, Fed가 물가의 기조적 흐름을 판단할 때 주목하는 근원 물가가 예상보다 강하게 나오면서 이달 금리 인상에 힘이 실렸다는 전망이 번졌다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "그러나 변동성이 큰 식품과 에너지를 제외한 근원 CPI가 전월 대비 0.3% 올라 시장 전망치인 0.2%를 웃돌았다. 헤드라인 물가는 예상 범위에 머물렀지만, Fed가 물가의 기조적 흐름을 판단할 때 주목하는 근원 물가가 예상보다 강하게 나오면서 이달 금리 인상에 힘이 실렸다는 전망이 번졌다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote"
+          },
+          "numbers": []
+        },
+        {
+          "id": "d514a25a96d711fbf0290752",
+          "text": "통화정책에 민감한 미 국채 2년물 금리는 CPI 발표 직후 약 0.05%포인트 올라 4.63%까지 상승했다. 다만 10년물 금리는 발표 전보다 약 0.04%포인트 떨어져 4.92%를 나타냈다.",
+          "kind": "fact",
+          "author": "장서윤",
+          "source_ids": [
+            "f13e7c0deb2aa10a40fa9d92"
+          ],
+          "evidence": [
+            {
+              "source_id": "f13e7c0deb2aa10a40fa9d92",
+              "source_version_id": "2f44a491d4b5989611186f00",
+              "start": 822,
+              "end": 929,
+              "text": "통화정책에 민감한 미 국채 2년물 금리는 CPI 발표 직후 약 0.05%포인트 올라 4.63%까지 상승했다. 다만 10년물 금리는 발표 전보다 약 0.04%포인트 떨어져 4.92%를 나타냈다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "통화정책에 민감한 미 국채 2년물 금리는 CPI 발표 직후 약 0.05%포인트 올라 4.63%까지 상승했다. 다만 10년물 금리는 발표 전보다 약 0.04%포인트 떨어져 4.92%를 나타냈다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote"
+          },
+          "numbers": []
+        },
+        {
+          "id": "82d7d369f0e82963e323cb84",
+          "text": "중동발 긴장이 다시 고조되면서 국제유가가 6% 넘게 급등한 것이 증시에 직접적인 충격으로 작용했다. 10일(현지시간) 뉴욕상업거래소에서 서부텍사스산원유(WTI)는 전 거래일보다 6.69% 오른 배럴당 102.48달러에 거래를 마쳤다. 런던 ICE선물거래소의 브렌트유도 6.34% 상승한 배럴당 107.63달러에 마감했다.",
+          "kind": "fact",
+          "author": "장서윤",
+          "source_ids": [
+            "f13e7c0deb2aa10a40fa9d92"
+          ],
+          "evidence": [
+            {
+              "source_id": "f13e7c0deb2aa10a40fa9d92",
+              "source_version_id": "2f44a491d4b5989611186f00",
+              "start": 1538,
+              "end": 1717,
+              "text": "중동발 긴장이 다시 고조되면서 국제유가가 6% 넘게 급등한 것이 증시에 직접적인 충격으로 작용했다. 10일(현지시간) 뉴욕상업거래소에서 서부텍사스산원유(WTI)는 전 거래일보다 6.69% 오른 배럴당 102.48달러에 거래를 마쳤다. 런던 ICE선물거래소의 브렌트유도 6.34% 상승한 배럴당 107.63달러에 마감했다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "중동발 긴장이 다시 고조되면서 국제유가가 6% 넘게 급등한 것이 증시에 직접적인 충격으로 작용했다. 10일(현지시간) 뉴욕상업거래소에서 서부텍사스산원유(WTI)는 전 거래일보다 6.69% 오른 배럴당 102.48달러에 거래를 마쳤다. 런던 ICE선물거래소의 브렌트유도 6.34% 상승한 배럴당 107.63달러에 마감했다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote"
+          },
+          "numbers": []
+        }
+      ],
+      "document_ids": [
+        "f13e7c0deb2aa10a40fa9d92"
+      ],
+      "source_versions": [
+        "2f44a491d4b5989611186f00"
+      ],
+      "entities": [],
+      "selection_reason": [
+        "수집 범위 내 독립 발행자 1개",
+        "자료 기준 경과 5.8시간",
+        "이전 입력 대비 신규 문서",
+        "수치가 명시된 거시 지표 발표 또는 확정된 통화·무역 정책 변경"
+      ],
+      "follow_up": [
+        "원문과 기간·단위·작성 주체를 확인하고 해석을 검토하세요."
+      ],
+      "confidence": "source_checked",
+      "related_issue_id": null,
+      "late_discovered": false,
+      "analysis_provider": "extractive",
+      "model_status": "not_needed_source_korean",
+      "analysis_label": "한국어 원문에서 핵심 문장 선별",
+      "evidence_expired": false,
+      "evidence_partially_expired": false,
+      "has_full_text": true,
+      "has_message_text": false,
+      "prior_day_follow_up": false,
+      "original_title": "미 근원 CPI 예상치 상회…유가·국채 발작 겹쳐 ‘긴축 공포’",
+      "source_title_ko": "미 근원 CPI 예상치 상회…유가·국채 발작 겹쳐 ‘긴축 공포’",
+      "korean_required": true
+    },
+    {
+      "id": "012ffaca9c195fb53da8c930",
+      "anchor": "issue-52258c1530da57cc",
+      "editorial_scope": "company",
+      "event_type": "contract",
+      "title": "삼성E&A, 사우디서 4.7조원 잭팟…해외수주 목표 9개월 만에 넘겼다",
+      "section": "overnight",
+      "category": "economy",
+      "summary": [
+        "-사빅과 35억달러 비료 플랜트 EPC 계약…2030년까지 하루 7700t 요소비료 생산 -올해 해외 화공·수처리 이어 대형 수주 잇따라…사업 포트폴리오 재편도 성과. 영업익 1조원 넘을수도 -중동 전쟁으로 국내 건설사 중동 수주 70% 급감 속 ‘텃밭’ 사우디서 차별화…추가 파이프라인도 주목",
+        "중동 지역의 지정학적 불확실성으로 국내 건설사들의 해외 수주가 급감한 가운데 삼성E&A가 사우디아라비아에서 4조7000억원 규모의 초대형 플랜트 사업을 따내며 수주 행보에 속도를 내고 있다.",
+        "계약 규모는 약 35억달러, 우리 돈으로 약 4조7000억원이다. 삼성E&A가 단독으로 EPC를 수행하며 오는 2030년 완공할 예정이다.  이에 따라 올해 영업이익이 1조원을 돌파할 수 있다는 에측치도 나오고 있다.",
+        "같은 기간 국내 건설사의 중동 수주액은 23억달러로 지난해 같은 기간 77억7202만달러에서 약 70% 감소했다. 미국과 이란의 전쟁 장기화로 중동 지역의 지정학적 불확실성이 커지면서 일부 대형 프로젝트의 발주와 투자 결정이 지연된 영향으로 풀이된다."
+      ],
+      "change": "비교 가능한 과거 자료 없음 — 상향·하향·전망 변경 여부 미판정",
+      "claims": [
+        {
+          "id": "b2b6c8b3b7b5949b7d598216",
+          "text": "-사빅과 35억달러 비료 플랜트 EPC 계약…2030년까지 하루 7700t 요소비료 생산 -올해 해외 화공·수처리 이어 대형 수주 잇따라…사업 포트폴리오 재편도 성과. 영업익 1조원 넘을수도 -중동 전쟁으로 국내 건설사 중동 수주 70% 급감 속 ‘텃밭’ 사우디서 차별화…추가 파이프라인도 주목",
+          "kind": "author_opinion",
+          "author": "박진영 기자",
+          "source_ids": [
+            "9a5ed0d7572f029ecaa4bca1"
+          ],
+          "evidence": [
+            {
+              "source_id": "9a5ed0d7572f029ecaa4bca1",
+              "source_version_id": "938282dc2c490854fecbb88b",
+              "start": 0,
+              "end": 164,
+              "text": "-사빅과 35억달러 비료 플랜트 EPC 계약…2030년까지 하루 7700t 요소비료 생산 -올해 해외 화공·수처리 이어 대형 수주 잇따라…사업 포트폴리오 재편도 성과. 영업익 1조원 넘을수도 -중동 전쟁으로 국내 건설사 중동 수주 70% 급감 속 ‘텃밭’ 사우디서 차별화…추가 파이프라인도 주목",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "-사빅과 35억달러 비료 플랜트 EPC 계약…2030년까지 하루 7700t 요소비료 생산 -올해 해외 화공·수처리 이어 대형 수주 잇따라…사업 포트폴리오 재편도 성과. 영업익 1조원 넘을수도 -중동 전쟁으로 국내 건설사 중동 수주 70% 급감 속 ‘텃밭’ 사우디서 차별화…추가 파이프라인도 주목",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote"
+          },
+          "numbers": []
+        },
+        {
+          "id": "8f062421e17bcb725eca2c5d",
+          "text": "중동 지역의 지정학적 불확실성으로 국내 건설사들의 해외 수주가 급감한 가운데 삼성E&A가 사우디아라비아에서 4조7000억원 규모의 초대형 플랜트 사업을 따내며 수주 행보에 속도를 내고 있다.",
+          "kind": "fact",
+          "author": "박진영 기자",
+          "source_ids": [
+            "9a5ed0d7572f029ecaa4bca1"
+          ],
+          "evidence": [
+            {
+              "source_id": "9a5ed0d7572f029ecaa4bca1",
+              "source_version_id": "938282dc2c490854fecbb88b",
+              "start": 168,
+              "end": 274,
+              "text": "중동 지역의 지정학적 불확실성으로 국내 건설사들의 해외 수주가 급감한 가운데 삼성E&A가 사우디아라비아에서 4조7000억원 규모의 초대형 플랜트 사업을 따내며 수주 행보에 속도를 내고 있다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "중동 지역의 지정학적 불확실성으로 국내 건설사들의 해외 수주가 급감한 가운데 삼성E&A가 사우디아라비아에서 4조7000억원 규모의 초대형 플랜트 사업을 따내며 수주 행보에 속도를 내고 있다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote"
+          },
+          "numbers": []
+        },
+        {
+          "id": "47185134b0e41f6db71acf3b",
+          "text": "계약 규모는 약 35억달러, 우리 돈으로 약 4조7000억원이다. 삼성E&A가 단독으로 EPC를 수행하며 오는 2030년 완공할 예정이다.  이에 따라 올해 영업이익이 1조원을 돌파할 수 있다는 에측치도 나오고 있다.",
+          "kind": "author_opinion",
+          "author": "박진영 기자",
+          "source_ids": [
+            "9a5ed0d7572f029ecaa4bca1"
+          ],
+          "evidence": [
+            {
+              "source_id": "9a5ed0d7572f029ecaa4bca1",
+              "source_version_id": "938282dc2c490854fecbb88b",
+              "start": 531,
+              "end": 652,
+              "text": "계약 규모는 약 35억달러, 우리 돈으로 약 4조7000억원이다. 삼성E&A가 단독으로 EPC를 수행하며 오는 2030년 완공할 예정이다.  이에 따라 올해 영업이익이 1조원을 돌파할 수 있다는 에측치도 나오고 있다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "계약 규모는 약 35억달러, 우리 돈으로 약 4조7000억원이다. 삼성E&A가 단독으로 EPC를 수행하며 오는 2030년 완공할 예정이다.  이에 따라 올해 영업이익이 1조원을 돌파할 수 있다는 에측치도 나오고 있다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote"
+          },
+          "numbers": []
+        },
+        {
+          "id": "99ea73e5fbb03cc62e6066d8",
+          "text": "같은 기간 국내 건설사의 중동 수주액은 23억달러로 지난해 같은 기간 77억7202만달러에서 약 70% 감소했다. 미국과 이란의 전쟁 장기화로 중동 지역의 지정학적 불확실성이 커지면서 일부 대형 프로젝트의 발주와 투자 결정이 지연된 영향으로 풀이된다.",
+          "kind": "author_opinion",
+          "author": "박진영 기자",
+          "source_ids": [
+            "9a5ed0d7572f029ecaa4bca1"
+          ],
+          "evidence": [
+            {
+              "source_id": "9a5ed0d7572f029ecaa4bca1",
+              "source_version_id": "938282dc2c490854fecbb88b",
+              "start": 1309,
+              "end": 1449,
+              "text": "같은 기간 국내 건설사의 중동 수주액은 23억달러로 지난해 같은 기간 77억7202만달러에서 약 70% 감소했다. 미국과 이란의 전쟁 장기화로 중동 지역의 지정학적 불확실성이 커지면서 일부 대형 프로젝트의 발주와 투자 결정이 지연된 영향으로 풀이된다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "같은 기간 국내 건설사의 중동 수주액은 23억달러로 지난해 같은 기간 77억7202만달러에서 약 70% 감소했다. 미국과 이란의 전쟁 장기화로 중동 지역의 지정학적 불확실성이 커지면서 일부 대형 프로젝트의 발주와 투자 결정이 지연된 영향으로 풀이된다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote"
+          },
+          "numbers": []
+        }
+      ],
+      "document_ids": [
+        "9a5ed0d7572f029ecaa4bca1"
+      ],
+      "source_versions": [
+        "938282dc2c490854fecbb88b"
+      ],
+      "entities": [],
+      "selection_reason": [
+        "수집 범위 내 독립 발행자 1개",
+        "자료 기준 경과 0.6시간",
+        "이전 입력 대비 신규 문서",
+        "원문에 실행·결정 근거가 있는 기업 계약·제품·자본거래·승인"
+      ],
+      "follow_up": [
+        "원문과 기간·단위·작성 주체를 확인하고 해석을 검토하세요."
+      ],
+      "confidence": "source_checked",
+      "related_issue_id": null,
+      "late_discovered": false,
+      "analysis_provider": "extractive",
+      "model_status": "not_needed_source_korean",
+      "analysis_label": "한국어 원문에서 핵심 문장 선별",
+      "evidence_expired": false,
+      "evidence_partially_expired": false,
+      "has_full_text": true,
+      "has_message_text": false,
+      "prior_day_follow_up": false,
+      "original_title": "삼성E&A, 사우디서 4.7조원 잭팟…해외수주 목표 9개월 만에 넘겼다",
+      "source_title_ko": "삼성E&A, 사우디서 4.7조원 잭팟…해외수주 목표 9개월 만에 넘겼다",
+      "korean_required": true
+    },
+    {
+      "id": "36af94b53df69578509e4e9c",
+      "anchor": "issue-d0e77085c893ffe9",
+      "editorial_scope": "company",
+      "event_type": "earnings",
+      "title": "[GAM] 에어로바이런먼트 ① 사상 최대 분기 매출로 어닝 서프라이즈",
+      "section": "overnight",
+      "category": "economy",
+      "summary": [
+        "항공우주·방위산업체 에어로바이런먼트(종목코드: AVAV) 주가가 사상 최대 분기 매출과 확정 수주잔고의 대폭 증가 소식에 급등했다. 10일(현지시간) 뉴욕증시에서 에어로바이런먼트 주가는 장중 한때 159.24달러까지 오르며 전일 종가 140.80달러 대비 13.10% 급등했고, 장 마감 시에는 전일 대비 4.45% 상승한 147.07달러에 거래를 마쳤다. 이날 상승에도 불구하고 주가는 지난해 10월 9일 기록한 사상 최고가 417.86달러에서는 여전히 64.80% 후퇴한 상태이며, 올해 6월 25일에는 135.20달러까지 떨어져 52주 최저가를 찍은 바 있다. 실적 발표를 앞두고 시장의 불안감이 컸던 만큼, 이번 반등은 투자자들에게 신뢰 회복의 신호로 읽힌다.",
+        "에어로바이런먼트는 2027 회계연도 1분기(8월 1일 마감) 실적에서 매출 4억 8,050만 달러를 기록해 전년 대비 5.7% 증가하며 사상 최고치를 새로 썼다. 이는 애널리스트 컨센서스인 4억 5,000만~4억 6,000만 달러대 전망치를 5% 안팎 웃도는 수치다. 조정 희석 주당순이익(EPS)은 0.59달러로, 시장이 예상했던 0.30달러 수준을 거의 두 배 가까이 뛰어넘는 어닝 서프라이즈를 기록했다.",
+        "이번 매출 서프라이즈는 수요 급증에 힘입은 바 크다. 에어로바이런먼트는 이번 분기 6억 8,300만의 신규 수주를 기록해 수주-매출 비율(수주액/매출액 비율) 1.4배를 나타냈다. 이는 현재 수요가 공급을 앞서고 있음을 시사하는 지표다. 이에 따라 확정 수주잔고는 전년 대비 37%, 전분기 대비 23% 증가한 사상 최대치인 15억 달러로 확대됐으며, 향후 기대되지만 아직 확정되지 않은 미확정 수주잔고도 14억 달러에 달했다.",
+        "호실적에도 불구하고 경영진은 연간 가이던스를 상향하지 않고 기존 전망을 그대로 재확인했다. 회사는 2027 회계연도 매출을 21억 2,500만~22억 2,500만 달러(가이던스 중간값 기준 약 10% 성장)로, 조정 희석 EPS는 3.02~3.34달러(중간값 3.16~3.18달러, 전년 대비 약 4% 감소)로 제시했다. 연간 조정 EBITDA 가이던스는 3억 500만~3억 2,500만 달러(중간값 3억 1,500만 달러)로, 컨센서스인 3억 1,820만 달러에는 다소 못 미쳤다."
+      ],
+      "change": "비교 가능한 과거 자료 없음 — 상향·하향·전망 변경 여부 미판정",
+      "claims": [
+        {
+          "id": "dff949a247d791369975b84a",
+          "text": "항공우주·방위산업체 에어로바이런먼트(종목코드: AVAV) 주가가 사상 최대 분기 매출과 확정 수주잔고의 대폭 증가 소식에 급등했다. 10일(현지시간) 뉴욕증시에서 에어로바이런먼트 주가는 장중 한때 159.24달러까지 오르며 전일 종가 140.80달러 대비 13.10% 급등했고, 장 마감 시에는 전일 대비 4.45% 상승한 147.07달러에 거래를 마쳤다. 이날 상승에도 불구하고 주가는 지난해 10월 9일 기록한 사상 최고가 417.86달러에서는 여전히 64.80% 후퇴한 상태이며, 올해 6월 25일에는 135.20달러까지 떨어져 52주 최저가를 찍은 바 있다. 실적 발표를 앞두고 시장의 불안감이 컸던 만큼, 이번 반등은 투자자들에게 신뢰 회복의 신호로 읽힌다.",
+          "kind": "author_opinion",
+          "author": "김현영 기자",
+          "source_ids": [
+            "55c9b9b40fc87ebf56f9ef05"
+          ],
+          "evidence": [
+            {
+              "source_id": "55c9b9b40fc87ebf56f9ef05",
+              "source_version_id": "3a84b5daff04e39dfe1e3f94",
+              "start": 152,
+              "end": 525,
+              "text": "항공우주·방위산업체 에어로바이런먼트(종목코드: AVAV) 주가가 사상 최대 분기 매출과 확정 수주잔고의 대폭 증가 소식에 급등했다. 10일(현지시간) 뉴욕증시에서 에어로바이런먼트 주가는 장중 한때 159.24달러까지 오르며 전일 종가 140.80달러 대비 13.10% 급등했고, 장 마감 시에는 전일 대비 4.45% 상승한 147.07달러에 거래를 마쳤다. 이날 상승에도 불구하고 주가는 지난해 10월 9일 기록한 사상 최고가 417.86달러에서는 여전히 64.80% 후퇴한 상태이며, 올해 6월 25일에는 135.20달러까지 떨어져 52주 최저가를 찍은 바 있다. 실적 발표를 앞두고 시장의 불안감이 컸던 만큼, 이번 반등은 투자자들에게 신뢰",
+              "source_excerpt_truncated": true,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "항공우주·방위산업체 에어로바이런먼트(종목코드: AVAV) 주가가 사상 최대 분기 매출과 확정 수주잔고의 대폭 증가 소식에 급등했다. 10일(현지시간) 뉴욕증시에서 에어로바이런먼트 주가는 장중 한때 159.24달러까지 오르며 전일 종가 140.80달러 대비 13.10% 급등했고, 장 마감 시에는 전일 대비 4.45% 상승한 147.07달러에 거래를 마쳤다. 이날 상승에도 불구하고 주가는 지난해 10월 9일 기록한 사상 최고가 417.86달러에서는 여전히 64.80% 후퇴한 상태이며, 올해 6월 25일에는 135.20달러까지 떨어져 52주 최저가를 찍은 바 있다. 실적 발표를 앞두고 시장의 불안감이 컸던 만큼, 이번 반등은 투자자들에게 신뢰 회복의 신호로 읽힌다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote"
+          },
+          "numbers": []
+        },
+        {
+          "id": "d4b93dec3671554e0e8ae424",
+          "text": "에어로바이런먼트는 2027 회계연도 1분기(8월 1일 마감) 실적에서 매출 4억 8,050만 달러를 기록해 전년 대비 5.7% 증가하며 사상 최고치를 새로 썼다. 이는 애널리스트 컨센서스인 4억 5,000만~4억 6,000만 달러대 전망치를 5% 안팎 웃도는 수치다. 조정 희석 주당순이익(EPS)은 0.59달러로, 시장이 예상했던 0.30달러 수준을 거의 두 배 가까이 뛰어넘는 어닝 서프라이즈를 기록했다.",
+          "kind": "author_opinion",
+          "author": "김현영 기자",
+          "source_ids": [
+            "55c9b9b40fc87ebf56f9ef05"
+          ],
+          "evidence": [
+            {
+              "source_id": "55c9b9b40fc87ebf56f9ef05",
+              "source_version_id": "3a84b5daff04e39dfe1e3f94",
+              "start": 929,
+              "end": 1157,
+              "text": "에어로바이런먼트는 2027 회계연도 1분기(8월 1일 마감) 실적에서 매출 4억 8,050만 달러를 기록해 전년 대비 5.7% 증가하며 사상 최고치를 새로 썼다. 이는 애널리스트 컨센서스인 4억 5,000만~4억 6,000만 달러대 전망치를 5% 안팎 웃도는 수치다. 조정 희석 주당순이익(EPS)은 0.59달러로, 시장이 예상했던 0.30달러 수준을 거의 두 배 가까이 뛰어넘는 어닝 서프라이즈를 기록했다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "에어로바이런먼트는 2027 회계연도 1분기(8월 1일 마감) 실적에서 매출 4억 8,050만 달러를 기록해 전년 대비 5.7% 증가하며 사상 최고치를 새로 썼다. 이는 애널리스트 컨센서스인 4억 5,000만~4억 6,000만 달러대 전망치를 5% 안팎 웃도는 수치다. 조정 희석 주당순이익(EPS)은 0.59달러로, 시장이 예상했던 0.30달러 수준을 거의 두 배 가까이 뛰어넘는 어닝 서프라이즈를 기록했다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote"
+          },
+          "numbers": []
+        },
+        {
+          "id": "7f55756c46557310eb98789e",
+          "text": "이번 매출 서프라이즈는 수요 급증에 힘입은 바 크다. 에어로바이런먼트는 이번 분기 6억 8,300만의 신규 수주를 기록해 수주-매출 비율(수주액/매출액 비율) 1.4배를 나타냈다. 이는 현재 수요가 공급을 앞서고 있음을 시사하는 지표다. 이에 따라 확정 수주잔고는 전년 대비 37%, 전분기 대비 23% 증가한 사상 최대치인 15억 달러로 확대됐으며, 향후 기대되지만 아직 확정되지 않은 미확정 수주잔고도 14억 달러에 달했다.",
+          "kind": "author_opinion",
+          "author": "김현영 기자",
+          "source_ids": [
+            "55c9b9b40fc87ebf56f9ef05"
+          ],
+          "evidence": [
+            {
+              "source_id": "55c9b9b40fc87ebf56f9ef05",
+              "source_version_id": "3a84b5daff04e39dfe1e3f94",
+              "start": 1804,
+              "end": 2051,
+              "text": "이번 매출 서프라이즈는 수요 급증에 힘입은 바 크다. 에어로바이런먼트는 이번 분기 6억 8,300만의 신규 수주를 기록해 수주-매출 비율(book-to-bill ratio) 1.4배를 나타냈다. 이는 현재 수요가 공급을 앞서고 있음을 시사하는 지표다. 이에 따라 확정 수주잔고는 전년 대비 37%, 전분기 대비 23% 증가한 사상 최대치인 15억 달러로 확대됐으며, 향후 기대되지만 아직 확정되지 않은 미확정 수주잔고도 14억 달러에 달했다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "이번 매출 서프라이즈는 수요 급증에 힘입은 바 크다. 에어로바이런먼트는 이번 분기 6억 8,300만의 신규 수주를 기록해 수주-매출 비율(수주액/매출액 비율) 1.4배를 나타냈다. 이는 현재 수요가 공급을 앞서고 있음을 시사하는 지표다. 이에 따라 확정 수주잔고는 전년 대비 37%, 전분기 대비 23% 증가한 사상 최대치인 15억 달러로 확대됐으며, 향후 기대되지만 아직 확정되지 않은 미확정 수주잔고도 14억 달러에 달했다.",
+              "is_translation": true
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "not_verified",
+            "human_review": "not_reviewed",
+            "status": "needs_review",
+            "source_linkage": "passed",
+            "content_check": "unverified_paraphrase"
+          },
+          "numbers": []
+        },
+        {
+          "id": "310d4da0669ef2950909db2f",
+          "text": "호실적에도 불구하고 경영진은 연간 가이던스를 상향하지 않고 기존 전망을 그대로 재확인했다. 회사는 2027 회계연도 매출을 21억 2,500만~22억 2,500만 달러(가이던스 중간값 기준 약 10% 성장)로, 조정 희석 EPS는 3.02~3.34달러(중간값 3.16~3.18달러, 전년 대비 약 4% 감소)로 제시했다. 연간 조정 EBITDA 가이던스는 3억 500만~3억 2,500만 달러(중간값 3억 1,500만 달러)로, 컨센서스인 3억 1,820만 달러에는 다소 못 미쳤다.",
+          "kind": "author_opinion",
+          "author": "김현영 기자",
+          "source_ids": [
+            "55c9b9b40fc87ebf56f9ef05"
+          ],
+          "evidence": [
+            {
+              "source_id": "55c9b9b40fc87ebf56f9ef05",
+              "source_version_id": "3a84b5daff04e39dfe1e3f94",
+              "start": 3327,
+              "end": 3597,
+              "text": "호실적에도 불구하고 경영진은 연간 가이던스를 상향하지 않고 기존 전망을 그대로 재확인했다. 회사는 2027 회계연도 매출을 21억 2,500만~22억 2,500만 달러(가이던스 중간값 기준 약 10% 성장)로, 조정 희석 EPS는 3.02~3.34달러(중간값 3.16~3.18달러, 전년 대비 약 4% 감소)로 제시했다. 연간 조정 EBITDA 가이던스는 3억 500만~3억 2,500만 달러(중간값 3억 1,500만 달러)로, 컨센서스인 3억 1,820만 달러에는 다소 못 미쳤다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "호실적에도 불구하고 경영진은 연간 가이던스를 상향하지 않고 기존 전망을 그대로 재확인했다. 회사는 2027 회계연도 매출을 21억 2,500만~22억 2,500만 달러(가이던스 중간값 기준 약 10% 성장)로, 조정 희석 EPS는 3.02~3.34달러(중간값 3.16~3.18달러, 전년 대비 약 4% 감소)로 제시했다. 연간 조정 EBITDA 가이던스는 3억 500만~3억 2,500만 달러(중간값 3억 1,500만 달러)로, 컨센서스인 3억 1,820만 달러에는 다소 못 미쳤다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote"
+          },
+          "numbers": []
+        }
+      ],
+      "document_ids": [
+        "55c9b9b40fc87ebf56f9ef05"
+      ],
+      "source_versions": [
+        "3a84b5daff04e39dfe1e3f94"
+      ],
+      "entities": [],
+      "selection_reason": [
+        "수집 범위 내 독립 발행자 1개",
+        "자료 기준 경과 5.4시간",
+        "이전 입력 대비 신규 문서",
+        "실적·자본·계약 등 기업 활동의 구체적 변화"
+      ],
+      "follow_up": [
+        "원문과 기간·단위·작성 주체를 확인하고 해석을 검토하세요."
+      ],
+      "confidence": "source_checked",
+      "related_issue_id": null,
+      "late_discovered": false,
+      "analysis_provider": "extractive",
+      "model_status": "not_needed_source_korean",
+      "analysis_label": "한국어 원문 · 용어 번역",
+      "evidence_expired": false,
+      "evidence_partially_expired": false,
+      "has_full_text": true,
+      "has_message_text": false,
+      "prior_day_follow_up": false,
+      "original_title": "[GAM] 에어로바이런먼트 ① 사상 최대 분기 매출로 어닝 서프라이즈",
+      "source_title_ko": "[GAM] 에어로바이런먼트 ① 사상 최대 분기 매출로 어닝 서프라이즈",
+      "korean_required": true
+    },
+    {
+      "id": "b55b1acb78e846262630697a",
+      "anchor": "issue-a4bf72179e08c879",
+      "editorial_scope": "market",
+      "event_type": "market_close",
+      "title": "유가 진정·美 CPI 안도...미국증시 3대 지수 '활짝'",
+      "section": "investment",
+      "category": "research",
+      "summary": [
+        "뉴욕증권거래소에 따르면 뉴욕증시 3대 지수 중 우량주 중심의 다우존스 지수는 전일 대비 0.98% 상승한 5만2573.29, 대형주 중심의 S&P500 지수는 0.86% 오른 7656.98을 각각 기록했다. 기술주 중심의 나스닥 지수는 전일 대비 0.96% 상승한 2만6333.04로 거래를 마쳤다.",
+        "미국 노동부가 이날 발표한 미국의 8월 CPI는 전월보다 0.4%, 전년 동월 대비 3.4% 각각 상승하며 시장 전망치에 부합했다. 다만 석유가격을 제외한 8월 근원 CPI는 전월 대비 0.3% 상승하며 시장 전망치(+0.2%)를 웃돌았다. 전년 동월 대비로는 2.4%로 예상치와 같았다.",
+        "미국증시 주요 기술주 가운데 엔비디아는 0.03% 하락하며 약보합으로 마감한 것을 제외하면 애플(+1.74%), 마이크로소프트(+0.66%), 아마존(+1.92%), 브로드컴(+0.29%) 등이 상승했다.",
+        "S&P500을 구성하는 11개 섹터 중에선 정보기술(+1.11%), 금융(+0.62%), 커뮤니케이션 서비스(+1.35%), 산업재(+1.07%), 필수소비재(+0.56%) 등이 상승했다. S&P500 종목 중에선 월마트(+1.34%), 비자(+0.88%), 엑슨모빌(+0.46%) 등이 상승했다. 다우존스 종목 중에선 JP모건 체이스(+0.76%), 시스코시스템즈(+4.37%), 코카콜라(+0.50%) 등이 올랐다."
+      ],
+      "change": "비교 가능한 과거 자료 없음 — 상향·하향·전망 변경 여부 미판정",
+      "claims": [
+        {
+          "id": "920bdb8406a20b3137be7842",
+          "text": "뉴욕증권거래소에 따르면 뉴욕증시 3대 지수 중 우량주 중심의 다우존스 지수는 전일 대비 0.98% 상승한 5만2573.29, 대형주 중심의 S&P500 지수는 0.86% 오른 7656.98을 각각 기록했다. 기술주 중심의 나스닥 지수는 전일 대비 0.96% 상승한 2만6333.04로 거래를 마쳤다.",
+          "kind": "fact",
+          "author": "초이스경제",
+          "source_ids": [
+            "2878f03bbb92036a59bafa93"
+          ],
+          "evidence": [
+            {
+              "source_id": "2878f03bbb92036a59bafa93",
+              "source_version_id": "62e045ad6d0366586ca20124",
+              "start": 210,
+              "end": 377,
+              "text": "뉴욕증권거래소에 따르면 뉴욕증시 3대 지수 중 우량주 중심의 다우존스 지수는 전일 대비 0.98% 상승한 5만2573.29, 대형주 중심의 S&P500 지수는 0.86% 오른 7656.98을 각각 기록했다. 기술주 중심의 나스닥 지수는 전일 대비 0.96% 상승한 2만6333.04로 거래를 마쳤다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "뉴욕증권거래소에 따르면 뉴욕증시 3대 지수 중 우량주 중심의 다우존스 지수는 전일 대비 0.98% 상승한 5만2573.29, 대형주 중심의 S&P500 지수는 0.86% 오른 7656.98을 각각 기록했다. 기술주 중심의 나스닥 지수는 전일 대비 0.96% 상승한 2만6333.04로 거래를 마쳤다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote"
+          },
+          "numbers": []
+        },
+        {
+          "id": "d750c99816dd01c9ca0257ba",
+          "text": "미국 노동부가 이날 발표한 미국의 8월 CPI는 전월보다 0.4%, 전년 동월 대비 3.4% 각각 상승하며 시장 전망치에 부합했다. 다만 석유가격을 제외한 8월 근원 CPI는 전월 대비 0.3% 상승하며 시장 전망치(+0.2%)를 웃돌았다. 전년 동월 대비로는 2.4%로 예상치와 같았다.",
+          "kind": "author_opinion",
+          "author": "초이스경제",
+          "source_ids": [
+            "2878f03bbb92036a59bafa93"
+          ],
+          "evidence": [
+            {
+              "source_id": "2878f03bbb92036a59bafa93",
+              "source_version_id": "62e045ad6d0366586ca20124",
+              "start": 491,
+              "end": 652,
+              "text": "미국 노동부가 이날 발표한 미국의 8월 CPI는 전월보다 0.4%, 전년 동월 대비 3.4% 각각 상승하며 시장 전망치에 부합했다. 다만 석유가격을 제외한 8월 근원 CPI는 전월 대비 0.3% 상승하며 시장 전망치(+0.2%)를 웃돌았다. 전년 동월 대비로는 2.4%로 예상치와 같았다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "미국 노동부가 이날 발표한 미국의 8월 CPI는 전월보다 0.4%, 전년 동월 대비 3.4% 각각 상승하며 시장 전망치에 부합했다. 다만 석유가격을 제외한 8월 근원 CPI는 전월 대비 0.3% 상승하며 시장 전망치(+0.2%)를 웃돌았다. 전년 동월 대비로는 2.4%로 예상치와 같았다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote"
+          },
+          "numbers": []
+        },
+        {
+          "id": "bf4a91dfe5b2b26608e395f2",
+          "text": "미국증시 주요 기술주 가운데 엔비디아는 0.03% 하락하며 약보합으로 마감한 것을 제외하면 애플(+1.74%), 마이크로소프트(+0.66%), 아마존(+1.92%), 브로드컴(+0.29%) 등이 상승했다.",
+          "kind": "fact",
+          "author": "초이스경제",
+          "source_ids": [
+            "2878f03bbb92036a59bafa93"
+          ],
+          "evidence": [
+            {
+              "source_id": "2878f03bbb92036a59bafa93",
+              "source_version_id": "62e045ad6d0366586ca20124",
+              "start": 982,
+              "end": 1096,
+              "text": "미국증시 주요 기술주 가운데 엔비디아는 0.03% 하락하며 약보합으로 마감한 것을 제외하면 애플(+1.74%), 마이크로소프트(+0.66%), 아마존(+1.92%), 브로드컴(+0.29%) 등이 상승했다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "미국증시 주요 기술주 가운데 엔비디아는 0.03% 하락하며 약보합으로 마감한 것을 제외하면 애플(+1.74%), 마이크로소프트(+0.66%), 아마존(+1.92%), 브로드컴(+0.29%) 등이 상승했다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote"
+          },
+          "numbers": []
+        },
+        {
+          "id": "45b68a5d8cd78642937b6857",
+          "text": "S&P500을 구성하는 11개 섹터 중에선 정보기술(+1.11%), 금융(+0.62%), 커뮤니케이션 서비스(+1.35%), 산업재(+1.07%), 필수소비재(+0.56%) 등이 상승했다. S&P500 종목 중에선 월마트(+1.34%), 비자(+0.88%), 엑슨모빌(+0.46%) 등이 상승했다. 다우존스 종목 중에선 JP모건 체이스(+0.76%), 시스코시스템즈(+4.37%), 코카콜라(+0.50%) 등이 올랐다.",
+          "kind": "fact",
+          "author": "초이스경제",
+          "source_ids": [
+            "2878f03bbb92036a59bafa93"
+          ],
+          "evidence": [
+            {
+              "source_id": "2878f03bbb92036a59bafa93",
+              "source_version_id": "62e045ad6d0366586ca20124",
+              "start": 1098,
+              "end": 1332,
+              "text": "S&P500을 구성하는 11개 섹터 중에선 정보기술(+1.11%), 금융(+0.62%), 커뮤니케이션 서비스(+1.35%), 산업재(+1.07%), 필수소비재(+0.56%) 등이 상승했다. S&P500 종목 중에선 월마트(+1.34%), 비자(+0.88%), 엑슨모빌(+0.46%) 등이 상승했다. 다우존스 종목 중에선 JP모건 체이스(+0.76%), 시스코시스템즈(+4.37%), 코카콜라(+0.50%) 등이 올랐다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "S&P500을 구성하는 11개 섹터 중에선 정보기술(+1.11%), 금융(+0.62%), 커뮤니케이션 서비스(+1.35%), 산업재(+1.07%), 필수소비재(+0.56%) 등이 상승했다. S&P500 종목 중에선 월마트(+1.34%), 비자(+0.88%), 엑슨모빌(+0.46%) 등이 상승했다. 다우존스 종목 중에선 JP모건 체이스(+0.76%), 시스코시스템즈(+4.37%), 코카콜라(+0.50%) 등이 올랐다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote"
+          },
+          "numbers": []
+        }
+      ],
+      "document_ids": [
+        "2878f03bbb92036a59bafa93"
+      ],
+      "source_versions": [
+        "62e045ad6d0366586ca20124"
+      ],
+      "entities": [],
+      "selection_reason": [
+        "수집 범위 내 독립 발행자 1개",
+        "자료 기준 경과 1.3시간",
+        "이전 입력 대비 신규 문서",
+        "미국 주요 지수의 장 마감과 등락 수치를 확인한 핵심 시장 동향"
+      ],
+      "follow_up": [
+        "원문과 기간·단위·작성 주체를 확인하고 해석을 검토하세요."
+      ],
+      "confidence": "source_checked",
+      "related_issue_id": null,
+      "late_discovered": false,
+      "analysis_provider": "extractive",
+      "model_status": "not_needed_source_korean",
+      "analysis_label": "한국어 원문에서 핵심 문장 선별",
+      "evidence_expired": false,
+      "evidence_partially_expired": false,
+      "has_full_text": true,
+      "has_message_text": false,
+      "prior_day_follow_up": false,
+      "original_title": "유가 진정·美 CPI 안도...미국증시 3대 지수 '활짝'",
+      "source_title_ko": "유가 진정·美 CPI 안도...미국증시 3대 지수 '활짝'",
+      "korean_required": true
+    },
+    {
+      "id": "8467459fc25ea84e63ab3955",
+      "anchor": "issue-f641ad3109c8bd82",
+      "editorial_scope": "company",
+      "event_type": "capital_transaction",
+      "title": "와이즈플래닛컴퍼니, 공모가 1만2000원 확정…기관 수요예측 1248대 1",
+      "section": "investment",
+      "category": "research",
+      "summary": [
+        "와이즈플래닛컴퍼니는 기관투자자 대상 수요예측을 마치고 최종 공모가를 희망밴드(1만원~1만2000원) 최상단인 1만2000원으로 확정했다고 11일 밝혔다.",
+        "지난 4일부터 10일까지 5거래일간 진행된 수요예측에는 국내외 2323개 기관이 참여해 1248대 1의 경쟁률을 기록했다.",
+        "총 공모금액은 약 192억원, 상장 후 예상 시가총액은 약 1200억원이다.",
+        "와이즈플래닛컴퍼니는 오는 14일부터 15일까지 일반투자자 대상 청약을 진행한 뒤 23일 코스닥 시장에 상장할 예정이다."
+      ],
+      "change": "비교 가능한 과거 자료 없음 — 상향·하향·전망 변경 여부 미판정",
+      "claims": [
+        {
+          "id": "6b541fc018a919430b2526e2",
+          "text": "와이즈플래닛컴퍼니는 기관투자자 대상 수요예측을 마치고 최종 공모가를 희망밴드(1만원~1만2000원) 최상단인 1만2000원으로 확정했다고 11일 밝혔다.",
+          "kind": "fact",
+          "author": "김예은 기자",
+          "source_ids": [
+            "95608716bec0a5379c71518b"
+          ],
+          "evidence": [
+            {
+              "source_id": "95608716bec0a5379c71518b",
+              "source_version_id": "7b696bba54396ddf06fa62ad",
+              "start": 113,
+              "end": 198,
+              "text": "와이즈플래닛컴퍼니는 기관투자자 대상 수요예측을 마치고 최종 공모가를 희망밴드(1만원~1만2000원) 최상단인 1만2000원으로 확정했다고 11일 밝혔다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "와이즈플래닛컴퍼니는 기관투자자 대상 수요예측을 마치고 최종 공모가를 희망밴드(1만원~1만2000원) 최상단인 1만2000원으로 확정했다고 11일 밝혔다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote"
+          },
+          "numbers": []
+        },
+        {
+          "id": "d720099fec3510602ea529c7",
+          "text": "지난 4일부터 10일까지 5거래일간 진행된 수요예측에는 국내외 2323개 기관이 참여해 1248대 1의 경쟁률을 기록했다.",
+          "kind": "fact",
+          "author": "김예은 기자",
+          "source_ids": [
+            "95608716bec0a5379c71518b"
+          ],
+          "evidence": [
+            {
+              "source_id": "95608716bec0a5379c71518b",
+              "source_version_id": "7b696bba54396ddf06fa62ad",
+              "start": 200,
+              "end": 268,
+              "text": "지난 4일부터 10일까지 5거래일간 진행된 수요예측에는 국내외 2323개 기관이 참여해 1248대 1의 경쟁률을 기록했다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "지난 4일부터 10일까지 5거래일간 진행된 수요예측에는 국내외 2323개 기관이 참여해 1248대 1의 경쟁률을 기록했다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote"
+          },
+          "numbers": []
+        },
+        {
+          "id": "24f0daff54d1318f092449f7",
+          "text": "총 공모금액은 약 192억원, 상장 후 예상 시가총액은 약 1200억원이다.",
+          "kind": "author_opinion",
+          "author": "김예은 기자",
+          "source_ids": [
+            "95608716bec0a5379c71518b"
+          ],
+          "evidence": [
+            {
+              "source_id": "95608716bec0a5379c71518b",
+              "source_version_id": "7b696bba54396ddf06fa62ad",
+              "start": 312,
+              "end": 354,
+              "text": "총 공모금액은 약 192억원, 상장 후 예상 시가총액은 약 1200억원이다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "총 공모금액은 약 192억원, 상장 후 예상 시가총액은 약 1200억원이다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote"
+          },
+          "numbers": []
+        },
+        {
+          "id": "6eee98e4433f7397dc5acd01",
+          "text": "와이즈플래닛컴퍼니는 오는 14일부터 15일까지 일반투자자 대상 청약을 진행한 뒤 23일 코스닥 시장에 상장할 예정이다.",
+          "kind": "fact",
+          "author": "김예은 기자",
+          "source_ids": [
+            "95608716bec0a5379c71518b"
+          ],
+          "evidence": [
+            {
+              "source_id": "95608716bec0a5379c71518b",
+              "source_version_id": "7b696bba54396ddf06fa62ad",
+              "start": 1001,
+              "end": 1067,
+              "text": "와이즈플래닛컴퍼니는 오는 14일부터 15일까지 일반투자자 대상 청약을 진행한 뒤 23일 코스닥 시장에 상장할 예정이다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "와이즈플래닛컴퍼니는 오는 14일부터 15일까지 일반투자자 대상 청약을 진행한 뒤 23일 코스닥 시장에 상장할 예정이다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote"
+          },
+          "numbers": []
+        }
+      ],
+      "document_ids": [
+        "95608716bec0a5379c71518b"
+      ],
+      "source_versions": [
+        "7b696bba54396ddf06fa62ad"
+      ],
+      "entities": [],
+      "selection_reason": [
+        "수집 범위 내 독립 발행자 1개",
+        "자료 기준 경과 14.2시간",
+        "이전 입력 대비 신규 문서",
+        "원문에 실행·결정 근거가 있는 기업 계약·제품·자본거래·승인"
+      ],
+      "follow_up": [
+        "원문과 기간·단위·작성 주체를 확인하고 해석을 검토하세요."
+      ],
+      "confidence": "source_checked",
+      "related_issue_id": null,
+      "late_discovered": false,
+      "analysis_provider": "extractive",
+      "model_status": "not_needed_source_korean",
+      "analysis_label": "한국어 원문에서 핵심 문장 선별",
+      "evidence_expired": false,
+      "evidence_partially_expired": false,
+      "has_full_text": true,
+      "has_message_text": false,
+      "prior_day_follow_up": false,
+      "original_title": "와이즈플래닛컴퍼니, 공모가 1만2000원 확정…기관 수요예측 1248대 1",
+      "source_title_ko": "와이즈플래닛컴퍼니, 공모가 1만2000원 확정…기관 수요예측 1248대 1",
+      "korean_required": true
+    },
+    {
+      "id": "cc60b889e59f415a2ff11def",
+      "anchor": "issue-a10d1c6fd731a663",
+      "editorial_scope": "company",
+      "event_type": "capital_transaction",
+      "title": "마이리얼트립, 아웃바운드이어 인바운드까지…크리에이트립 인수",
+      "section": "investment",
+      "category": "research",
+      "summary": [
+        "마이리얼트립이 인바운드 여행 플랫폼 크리에이트립을 인수한다.",
+        "국내 여행 플랫폼 1호 상장을 추진 중인 마이리얼트립이, 상장을 앞두고 아웃바운드·인트라바운드에 이어 인바운드까지 사업 구조를 완성하는 모양새다.",
+        "마이리얼트립은 11일 이사회를 열고 크리에이트립 지분 인수 안건을 의결했다.",
+        "주식교환 방식으로 지분 전량을 인수해 남은 절차를 거쳐 연내 자회사로 편입할 계획이다."
+      ],
+      "change": "비교 가능한 과거 자료 없음 — 상향·하향·전망 변경 여부 미판정",
+      "claims": [
+        {
+          "id": "995bdea243370ba94da8e5bc",
+          "text": "마이리얼트립이 인바운드 여행 플랫폼 크리에이트립을 인수한다.",
+          "kind": "fact",
+          "author": "녹색경제신문",
+          "source_ids": [
+            "2499d2f34d35057581750ed3"
+          ],
+          "evidence": [
+            {
+              "source_id": "2499d2f34d35057581750ed3",
+              "source_version_id": "3b60a4a5771b5a93cd6cc4fd",
+              "start": 0,
+              "end": 33,
+              "text": "마이리얼트립이 인바운드 여행 플랫폼 크리에이트립을 인수한다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "마이리얼트립이 인바운드 여행 플랫폼 크리에이트립을 인수한다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote"
+          },
+          "numbers": []
+        },
+        {
+          "id": "f07525e6f99537aebf916965",
+          "text": "국내 여행 플랫폼 1호 상장을 추진 중인 마이리얼트립이, 상장을 앞두고 아웃바운드·인트라바운드에 이어 인바운드까지 사업 구조를 완성하는 모양새다.",
+          "kind": "author_opinion",
+          "author": "녹색경제신문",
+          "source_ids": [
+            "2499d2f34d35057581750ed3"
+          ],
+          "evidence": [
+            {
+              "source_id": "2499d2f34d35057581750ed3",
+              "source_version_id": "3b60a4a5771b5a93cd6cc4fd",
+              "start": 34,
+              "end": 115,
+              "text": "국내 여행 플랫폼 1호 상장을 추진 중인 마이리얼트립이, 상장을 앞두고 아웃바운드·인트라바운드에 이어 인바운드까지 사업 구조를 완성하는 모양새다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "국내 여행 플랫폼 1호 상장을 추진 중인 마이리얼트립이, 상장을 앞두고 아웃바운드·인트라바운드에 이어 인바운드까지 사업 구조를 완성하는 모양새다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote"
+          },
+          "numbers": []
+        },
+        {
+          "id": "b5345ae7a494665cf88b1b63",
+          "text": "마이리얼트립은 11일 이사회를 열고 크리에이트립 지분 인수 안건을 의결했다.",
+          "kind": "fact",
+          "author": "녹색경제신문",
+          "source_ids": [
+            "2499d2f34d35057581750ed3"
+          ],
+          "evidence": [
+            {
+              "source_id": "2499d2f34d35057581750ed3",
+              "source_version_id": "3b60a4a5771b5a93cd6cc4fd",
+              "start": 117,
+              "end": 159,
+              "text": "마이리얼트립은 11일 이사회를 열고 크리에이트립 지분 인수 안건을 의결했다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "마이리얼트립은 11일 이사회를 열고 크리에이트립 지분 인수 안건을 의결했다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote"
+          },
+          "numbers": []
+        },
+        {
+          "id": "17cc5fd386eab4d4c6ad018e",
+          "text": "주식교환 방식으로 지분 전량을 인수해 남은 절차를 거쳐 연내 자회사로 편입할 계획이다.",
+          "kind": "fact",
+          "author": "녹색경제신문",
+          "source_ids": [
+            "2499d2f34d35057581750ed3"
+          ],
+          "evidence": [
+            {
+              "source_id": "2499d2f34d35057581750ed3",
+              "source_version_id": "3b60a4a5771b5a93cd6cc4fd",
+              "start": 160,
+              "end": 208,
+              "text": "주식교환 방식으로 지분 전량을 인수해 남은 절차를 거쳐 연내 자회사로 편입할 계획이다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "주식교환 방식으로 지분 전량을 인수해 남은 절차를 거쳐 연내 자회사로 편입할 계획이다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote"
+          },
+          "numbers": []
+        }
+      ],
+      "document_ids": [
+        "2499d2f34d35057581750ed3"
+      ],
+      "source_versions": [
+        "3b60a4a5771b5a93cd6cc4fd"
+      ],
+      "entities": [],
+      "selection_reason": [
+        "수집 범위 내 독립 발행자 1개",
+        "자료 기준 경과 14.7시간",
+        "이전 입력 대비 신규 문서",
+        "원문에 실행·결정 근거가 있는 기업 계약·제품·자본거래·승인"
+      ],
+      "follow_up": [
+        "원문과 기간·단위·작성 주체를 확인하고 해석을 검토하세요."
+      ],
+      "confidence": "source_checked",
+      "related_issue_id": null,
+      "late_discovered": false,
+      "analysis_provider": "extractive",
+      "model_status": "not_needed_source_korean",
+      "analysis_label": "한국어 원문에서 핵심 문장 선별",
+      "evidence_expired": false,
+      "evidence_partially_expired": false,
+      "has_full_text": true,
+      "has_message_text": false,
+      "prior_day_follow_up": false,
+      "original_title": "마이리얼트립, 아웃바운드이어 인바운드까지…크리에이트립 인수",
+      "source_title_ko": "마이리얼트립, 아웃바운드이어 인바운드까지…크리에이트립 인수",
+      "korean_required": true
+    },
+    {
+      "id": "4b79007918b3ef9cd3947ffc",
+      "anchor": "issue-03a02b2bfac1a9a4",
+      "editorial_scope": "industry",
+      "event_type": "outlook",
+      "title": "월가, 이란 전쟁에 유가 '쇼크' 장기화 관측…가격 전망 상향 잇따라",
+      "section": "investment",
+      "category": "research",
+      "summary": [
+        "10일(현지시간) 비즈니스인사이더에 따르면 HSBC는 최근 2027년 브렌트유 가격 전망치를 기존보다 20달러 상향한 배럴당 85달러로 제시했다.",
+        "국제유가는 지난 8월 초 배럴당 80달러 아래로 떨어졌지만 이후 대부분의 기간 상승세를 이어갔다.",
+        "뱅크오브아메리카(BofA)는 중동 지역의 분쟁이 지속될 경우 국제유가가 배럴당 95~120달러 범위에서 움직일 수 있다고 전망했다.",
+        "월가의 전망치 대부분은 현재 국제유가보다 낮은 수준이지만, 시장에서는 배럴당 100달러 이상의 유가가 더 이상 현실성이 낮은 위험 시나리오가 아니라는 인식이 확산하고 있다."
+      ],
+      "change": "비교 가능한 과거 자료 없음 — 상향·하향·전망 변경 여부 미판정",
+      "claims": [
+        {
+          "id": "26b82f5d9515d0191ffe90ca",
+          "text": "10일(현지시간) 비즈니스인사이더에 따르면 HSBC는 최근 2027년 브렌트유 가격 전망치를 기존보다 20달러 상향한 배럴당 85달러로 제시했다.",
+          "kind": "author_opinion",
+          "author": "연합인포맥스",
+          "source_ids": [
+            "900917ae6f763ca3fd3d04ba"
+          ],
+          "evidence": [
+            {
+              "source_id": "900917ae6f763ca3fd3d04ba",
+              "source_version_id": "20bd71e65b5dada4d235988d",
+              "start": 83,
+              "end": 164,
+              "text": "10일(현지시간) 비즈니스인사이더에 따르면 HSBC는 최근 2027년 브렌트유 가격 전망치를 기존보다 20달러 상향한 배럴당 85달러로 제시했다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "10일(현지시간) 비즈니스인사이더에 따르면 HSBC는 최근 2027년 브렌트유 가격 전망치를 기존보다 20달러 상향한 배럴당 85달러로 제시했다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote"
+          },
+          "numbers": []
+        },
+        {
+          "id": "f13e9b9448a18f6c4db8071a",
+          "text": "국제유가는 지난 8월 초 배럴당 80달러 아래로 떨어졌지만 이후 대부분의 기간 상승세를 이어갔다.",
+          "kind": "fact",
+          "author": "연합인포맥스",
+          "source_ids": [
+            "900917ae6f763ca3fd3d04ba"
+          ],
+          "evidence": [
+            {
+              "source_id": "900917ae6f763ca3fd3d04ba",
+              "source_version_id": "20bd71e65b5dada4d235988d",
+              "start": 384,
+              "end": 438,
+              "text": "국제유가는 지난 8월 초 배럴당 80달러 아래로 떨어졌지만 이후 대부분의 기간 상승세를 이어갔다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "국제유가는 지난 8월 초 배럴당 80달러 아래로 떨어졌지만 이후 대부분의 기간 상승세를 이어갔다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote"
+          },
+          "numbers": []
+        },
+        {
+          "id": "3c913b087eb4fa7733507139",
+          "text": "뱅크오브아메리카(BofA)는 중동 지역의 분쟁이 지속될 경우 국제유가가 배럴당 95~120달러 범위에서 움직일 수 있다고 전망했다.",
+          "kind": "author_opinion",
+          "author": "연합인포맥스",
+          "source_ids": [
+            "900917ae6f763ca3fd3d04ba"
+          ],
+          "evidence": [
+            {
+              "source_id": "900917ae6f763ca3fd3d04ba",
+              "source_version_id": "20bd71e65b5dada4d235988d",
+              "start": 636,
+              "end": 709,
+              "text": "뱅크오브아메리카(BofA)는 중동 지역의 분쟁이 지속될 경우 국제유가가 배럴당 95~120달러 범위에서 움직일 수 있다고 전망했다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "뱅크오브아메리카(BofA)는 중동 지역의 분쟁이 지속될 경우 국제유가가 배럴당 95~120달러 범위에서 움직일 수 있다고 전망했다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote"
+          },
+          "numbers": []
+        },
+        {
+          "id": "a825433e8b1e1564236f1d4b",
+          "text": "월가의 전망치 대부분은 현재 국제유가보다 낮은 수준이지만, 시장에서는 배럴당 100달러 이상의 유가가 더 이상 현실성이 낮은 위험 시나리오가 아니라는 인식이 확산하고 있다.",
+          "kind": "author_opinion",
+          "author": "연합인포맥스",
+          "source_ids": [
+            "900917ae6f763ca3fd3d04ba"
+          ],
+          "evidence": [
+            {
+              "source_id": "900917ae6f763ca3fd3d04ba",
+              "source_version_id": "20bd71e65b5dada4d235988d",
+              "start": 768,
+              "end": 864,
+              "text": "월가의 전망치 대부분은 현재 국제유가보다 낮은 수준이지만, 시장에서는 배럴당 100달러 이상의 유가가 더 이상 현실성이 낮은 위험 시나리오가 아니라는 인식이 확산하고 있다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "월가의 전망치 대부분은 현재 국제유가보다 낮은 수준이지만, 시장에서는 배럴당 100달러 이상의 유가가 더 이상 현실성이 낮은 위험 시나리오가 아니라는 인식이 확산하고 있다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote"
+          },
+          "numbers": []
+        }
+      ],
+      "document_ids": [
+        "900917ae6f763ca3fd3d04ba"
+      ],
+      "source_versions": [
+        "20bd71e65b5dada4d235988d"
+      ],
+      "entities": [],
+      "selection_reason": [
+        "수집 범위 내 독립 발행자 1개",
+        "자료 기준 경과 15.0시간",
+        "이전 입력과 중복 내용",
+        "수치가 명시된 전망 변경; 관측 사실과 구분"
+      ],
+      "follow_up": [
+        "원문과 기간·단위·작성 주체를 확인하고 해석을 검토하세요."
+      ],
+      "confidence": "source_checked",
+      "related_issue_id": null,
+      "late_discovered": false,
+      "analysis_provider": "extractive",
+      "model_status": "not_needed_source_korean",
+      "analysis_label": "한국어 원문에서 핵심 문장 선별",
+      "evidence_expired": false,
+      "evidence_partially_expired": false,
+      "has_full_text": true,
+      "has_message_text": false,
+      "prior_day_follow_up": false,
+      "original_title": "월가, 이란 전쟁에 유가 '쇼크' 장기화 관측…가격 전망 상향 잇따라",
+      "source_title_ko": "월가, 이란 전쟁에 유가 '쇼크' 장기화 관측…가격 전망 상향 잇따라",
+      "korean_required": true
+    },
+    {
+      "id": "a1301fc437d725a39bba27a7",
+      "anchor": "issue-387fcccb08439306",
+      "editorial_scope": "company",
+      "event_type": "contract",
+      "title": "삼성바이오, 유럽 제약사와 3508억원 CMO 계약…2033년까지 장기 공급",
+      "section": "investment",
+      "category": "research",
+      "summary": [
+        "삼성바이오로직스가 유럽 소재 제약사와 3500억원대 바이오의약품 위탁생산(CMO) 장기계약을 체결하며 글로벌 수주 확대에 나섰다.",
+        "삼성바이오로직스는 지난 10일 유럽 소재 제약사와 약 3508억원(미화 2억6218만2000달러) 규모의 신규 바이오의약품 위탁생산 계약을 체결했다고 공시했다.",
+        "이번 계약을 포함해 삼성바이오로직스의 창립 이래 누적 수주액은 총 219억달러를 기록했다.",
+        "특히 이번 계약은 글로벌 경제 불확실성과 위탁개발생산(CDMO) 시장 경쟁 심화 속에서 2033년까지 생산과 공급이 이어지는 대규모 장기계약이라는 점에서 중장기 수주 잔고와 매출 기반을 강화하는 데 기여할 것으로 예상된다."
+      ],
+      "change": "비교 가능한 과거 자료 없음 — 상향·하향·전망 변경 여부 미판정",
+      "claims": [
+        {
+          "id": "b739022edd9585f41c389756",
+          "text": "삼성바이오로직스가 유럽 소재 제약사와 3500억원대 바이오의약품 위탁생산(CMO) 장기계약을 체결하며 글로벌 수주 확대에 나섰다.",
+          "kind": "fact",
+          "author": "임태균 기자",
+          "source_ids": [
+            "c4e2e3e6a5349b06a5ffbef3"
+          ],
+          "evidence": [
+            {
+              "source_id": "c4e2e3e6a5349b06a5ffbef3",
+              "source_version_id": "a22ced2831b36ff55d21b45f",
+              "start": 0,
+              "end": 72,
+              "text": "삼성바이오로직스가 유럽 소재 제약사와 3500억원대 바이오의약품 위탁생산(CMO) 장기계약을 체결하며 글로벌 수주 확대에 나섰다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "삼성바이오로직스가 유럽 소재 제약사와 3500억원대 바이오의약품 위탁생산(CMO) 장기계약을 체결하며 글로벌 수주 확대에 나섰다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote"
+          },
+          "numbers": []
+        },
+        {
+          "id": "78465bc98eef452fd545b4b7",
+          "text": "삼성바이오로직스는 지난 10일 유럽 소재 제약사와 약 3508억원(미화 2억6218만2000달러) 규모의 신규 바이오의약품 위탁생산 계약을 체결했다고 공시했다.",
+          "kind": "fact",
+          "author": "임태균 기자",
+          "source_ids": [
+            "c4e2e3e6a5349b06a5ffbef3"
+          ],
+          "evidence": [
+            {
+              "source_id": "c4e2e3e6a5349b06a5ffbef3",
+              "source_version_id": "a22ced2831b36ff55d21b45f",
+              "start": 74,
+              "end": 163,
+              "text": "삼성바이오로직스는 지난 10일 유럽 소재 제약사와 약 3508억원(미화 2억6218만2000달러) 규모의 신규 바이오의약품 위탁생산 계약을 체결했다고 공시했다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "삼성바이오로직스는 지난 10일 유럽 소재 제약사와 약 3508억원(미화 2억6218만2000달러) 규모의 신규 바이오의약품 위탁생산 계약을 체결했다고 공시했다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote"
+          },
+          "numbers": []
+        },
+        {
+          "id": "63610f1bde568845dbcc434f",
+          "text": "이번 계약을 포함해 삼성바이오로직스의 창립 이래 누적 수주액은 총 219억달러를 기록했다.",
+          "kind": "fact",
+          "author": "임태균 기자",
+          "source_ids": [
+            "c4e2e3e6a5349b06a5ffbef3"
+          ],
+          "evidence": [
+            {
+              "source_id": "c4e2e3e6a5349b06a5ffbef3",
+              "source_version_id": "a22ced2831b36ff55d21b45f",
+              "start": 223,
+              "end": 273,
+              "text": "이번 계약을 포함해 삼성바이오로직스의 창립 이래 누적 수주액은 총 219억달러를 기록했다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "이번 계약을 포함해 삼성바이오로직스의 창립 이래 누적 수주액은 총 219억달러를 기록했다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote"
+          },
+          "numbers": []
+        },
+        {
+          "id": "489f8cee3b9315cbc17779c0",
+          "text": "특히 이번 계약은 글로벌 경제 불확실성과 위탁개발생산(CDMO) 시장 경쟁 심화 속에서 2033년까지 생산과 공급이 이어지는 대규모 장기계약이라는 점에서 중장기 수주 잔고와 매출 기반을 강화하는 데 기여할 것으로 예상된다.",
+          "kind": "author_opinion",
+          "author": "임태균 기자",
+          "source_ids": [
+            "c4e2e3e6a5349b06a5ffbef3"
+          ],
+          "evidence": [
+            {
+              "source_id": "c4e2e3e6a5349b06a5ffbef3",
+              "source_version_id": "a22ced2831b36ff55d21b45f",
+              "start": 299,
+              "end": 423,
+              "text": "특히 이번 계약은 글로벌 경제 불확실성과 위탁개발생산(CDMO) 시장 경쟁 심화 속에서 2033년까지 생산과 공급이 이어지는 대규모 장기계약이라는 점에서 중장기 수주 잔고와 매출 기반을 강화하는 데 기여할 것으로 예상된다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "특히 이번 계약은 글로벌 경제 불확실성과 위탁개발생산(CDMO) 시장 경쟁 심화 속에서 2033년까지 생산과 공급이 이어지는 대규모 장기계약이라는 점에서 중장기 수주 잔고와 매출 기반을 강화하는 데 기여할 것으로 예상된다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote"
+          },
+          "numbers": []
+        }
+      ],
+      "document_ids": [
+        "c4e2e3e6a5349b06a5ffbef3"
+      ],
+      "source_versions": [
+        "a22ced2831b36ff55d21b45f"
+      ],
+      "entities": [],
+      "selection_reason": [
+        "수집 범위 내 독립 발행자 1개",
+        "자료 기준 경과 18.8시간",
+        "이전 입력과 중복 내용",
+        "원문에 실행·결정 근거가 있는 기업 계약·제품·자본거래·승인"
+      ],
+      "follow_up": [
+        "원문과 기간·단위·작성 주체를 확인하고 해석을 검토하세요."
+      ],
+      "confidence": "source_checked",
+      "related_issue_id": null,
+      "late_discovered": false,
+      "analysis_provider": "extractive",
+      "model_status": "not_needed_source_korean",
+      "analysis_label": "한국어 원문에서 핵심 문장 선별",
+      "evidence_expired": false,
+      "evidence_partially_expired": false,
+      "has_full_text": true,
+      "has_message_text": false,
+      "prior_day_follow_up": false,
+      "original_title": "삼성바이오, 유럽 제약사와 3508억원 CMO 계약…2033년까지 장기 공급",
+      "source_title_ko": "삼성바이오, 유럽 제약사와 3508억원 CMO 계약…2033년까지 장기 공급",
+      "korean_required": true
+    },
+    {
+      "id": "0aa92fae44412e6115b946cc",
+      "anchor": "issue-861629a630f5e170",
+      "editorial_scope": "market",
+      "event_type": "market_update",
+      "title": "유가·금리 '쇼크'...일본증시 '장중 뚝', 키옥시아 '급락'",
+      "section": "investment",
+      "category": "research",
+      "summary": [
+        "각 거래소에 따르면 오후 1시 42분 현재 일본 닛케이225 지수는 전일 대비 2.13% 급락한 6만3878.17에서 움직이는 중이다. 소프트뱅크 그룹(-4.35%), 키옥시아홀딩스(-7.47%), 도쿄일렉트론(-3.45%), 어드반테스트(-6.76%) 등이 급락 거래 중이다. 중동 혼란 장기화로 원유 가격이 치솟고 인플레이션으로 세계적으로 금리 상승 우려가 강해지는 가운데 AI 및 반도체 종목을 중심으로 장중 매도세가 몰리고 있다고 니혼게이자이 신문(닛케이)은 전했다.",
+        "중국 상하이종합지수는 오후 1시 2분(현지시간) 기준 전일 대비 1.71% 하락한 3867.13에서 움직이고 있다. 구이저우 마오타이(-1.05%), 폭스콘(-1.33%), 자진광업(-7.30%) 등이 하락 거래 중이다.",
+        "홍콩 항셍지수는 전일 대비 0.85% 내린 2만4742.51로 오전장을 마쳤다. HSBC(-1.52%), 알리바바(-0.47%), 차이나모바일(-0.05%) 등이 하락 거래 중이다.",
+        "앞서 10일(현지시간) 미국증시에서 다우존스(-0.60%), S&P500(-0.58%), 나스닥(-0.65%) 등 3대 지수는 4거래일 연속 하락했다. 미국-이란 무력 충돌 재격화 속에 국제유가가 급등하며 인플레이션 우려를 키웠고, 미국 국채금리까지 장중 4.95%까지 치솟으며 수년 만에 최고 수준을 기록한 가운데 이 같은 흐름이 나타났다고 미국 경제방송 CNBC는 전했다."
+      ],
+      "change": "비교 가능한 과거 자료 없음 — 상향·하향·전망 변경 여부 미판정",
+      "claims": [
+        {
+          "id": "3fe141c072bb2b0e81f74555",
+          "text": "각 거래소에 따르면 오후 1시 42분 현재 일본 닛케이225 지수는 전일 대비 2.13% 급락한 6만3878.17에서 움직이는 중이다. 소프트뱅크 그룹(-4.35%), 키옥시아홀딩스(-7.47%), 도쿄일렉트론(-3.45%), 어드반테스트(-6.76%) 등이 급락 거래 중이다. 중동 혼란 장기화로 원유 가격이 치솟고 인플레이션으로 세계적으로 금리 상승 우려가 강해지는 가운데 AI 및 반도체 종목을 중심으로 장중 매도세가 몰리고 있다고 니혼게이자이 신문(닛케이)은 전했다.",
+          "kind": "fact",
+          "author": "초이스경제",
+          "source_ids": [
+            "2a2e069ca693999478c439af"
+          ],
+          "evidence": [
+            {
+              "source_id": "2a2e069ca693999478c439af",
+              "source_version_id": "8deb0f9aa36a7ecb366988f7",
+              "start": 91,
+              "end": 356,
+              "text": "각 거래소에 따르면 오후 1시 42분 현재 일본 닛케이225 지수는 전일 대비 2.13% 급락한 6만3878.17에서 움직이는 중이다. 소프트뱅크 그룹(-4.35%), 키옥시아홀딩스(-7.47%), 도쿄일렉트론(-3.45%), 어드반테스트(-6.76%) 등이 급락 거래 중이다. 중동 혼란 장기화로 원유 가격이 치솟고 인플레이션으로 세계적으로 금리 상승 우려가 강해지는 가운데 AI 및 반도체 종목을 중심으로 장중 매도세가 몰리고 있다고 니혼게이자이 신문(닛케이)은 전했다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "각 거래소에 따르면 오후 1시 42분 현재 일본 닛케이225 지수는 전일 대비 2.13% 급락한 6만3878.17에서 움직이는 중이다. 소프트뱅크 그룹(-4.35%), 키옥시아홀딩스(-7.47%), 도쿄일렉트론(-3.45%), 어드반테스트(-6.76%) 등이 급락 거래 중이다. 중동 혼란 장기화로 원유 가격이 치솟고 인플레이션으로 세계적으로 금리 상승 우려가 강해지는 가운데 AI 및 반도체 종목을 중심으로 장중 매도세가 몰리고 있다고 니혼게이자이 신문(닛케이)은 전했다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote"
+          },
+          "numbers": []
+        },
+        {
+          "id": "191d26c060460a6c67085eb0",
+          "text": "중국 상하이종합지수는 오후 1시 2분(현지시간) 기준 전일 대비 1.71% 하락한 3867.13에서 움직이고 있다. 구이저우 마오타이(-1.05%), 폭스콘(-1.33%), 자진광업(-7.30%) 등이 하락 거래 중이다.",
+          "kind": "fact",
+          "author": "초이스경제",
+          "source_ids": [
+            "2a2e069ca693999478c439af"
+          ],
+          "evidence": [
+            {
+              "source_id": "2a2e069ca693999478c439af",
+              "source_version_id": "8deb0f9aa36a7ecb366988f7",
+              "start": 532,
+              "end": 655,
+              "text": "중국 상하이종합지수는 오후 1시 2분(현지시간) 기준 전일 대비 1.71% 하락한 3867.13에서 움직이고 있다. 구이저우 마오타이(-1.05%), 폭스콘(-1.33%), 자진광업(-7.30%) 등이 하락 거래 중이다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "중국 상하이종합지수는 오후 1시 2분(현지시간) 기준 전일 대비 1.71% 하락한 3867.13에서 움직이고 있다. 구이저우 마오타이(-1.05%), 폭스콘(-1.33%), 자진광업(-7.30%) 등이 하락 거래 중이다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote"
+          },
+          "numbers": []
+        },
+        {
+          "id": "637a3512bc73fc2145613f28",
+          "text": "홍콩 항셍지수는 전일 대비 0.85% 내린 2만4742.51로 오전장을 마쳤다. HSBC(-1.52%), 알리바바(-0.47%), 차이나모바일(-0.05%) 등이 하락 거래 중이다.",
+          "kind": "fact",
+          "author": "초이스경제",
+          "source_ids": [
+            "2a2e069ca693999478c439af"
+          ],
+          "evidence": [
+            {
+              "source_id": "2a2e069ca693999478c439af",
+              "source_version_id": "8deb0f9aa36a7ecb366988f7",
+              "start": 657,
+              "end": 758,
+              "text": "홍콩 항셍지수는 전일 대비 0.85% 내린 2만4742.51로 오전장을 마쳤다. HSBC(-1.52%), 알리바바(-0.47%), 차이나모바일(-0.05%) 등이 하락 거래 중이다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "홍콩 항셍지수는 전일 대비 0.85% 내린 2만4742.51로 오전장을 마쳤다. HSBC(-1.52%), 알리바바(-0.47%), 차이나모바일(-0.05%) 등이 하락 거래 중이다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote"
+          },
+          "numbers": []
+        },
+        {
+          "id": "fdd79c1872fc215fb4b3ede4",
+          "text": "앞서 10일(현지시간) 미국증시에서 다우존스(-0.60%), S&P500(-0.58%), 나스닥(-0.65%) 등 3대 지수는 4거래일 연속 하락했다. 미국-이란 무력 충돌 재격화 속에 국제유가가 급등하며 인플레이션 우려를 키웠고, 미국 국채금리까지 장중 4.95%까지 치솟으며 수년 만에 최고 수준을 기록한 가운데 이 같은 흐름이 나타났다고 미국 경제방송 CNBC는 전했다.",
+          "kind": "fact",
+          "author": "초이스경제",
+          "source_ids": [
+            "2a2e069ca693999478c439af"
+          ],
+          "evidence": [
+            {
+              "source_id": "2a2e069ca693999478c439af",
+              "source_version_id": "8deb0f9aa36a7ecb366988f7",
+              "start": 762,
+              "end": 972,
+              "text": "앞서 10일(현지시간) 미국증시에서 다우존스(-0.60%), S&P500(-0.58%), 나스닥(-0.65%) 등 3대 지수는 4거래일 연속 하락했다. 미국-이란 무력 충돌 재격화 속에 국제유가가 급등하며 인플레이션 우려를 키웠고, 미국 국채금리까지 장중 4.95%까지 치솟으며 수년 만에 최고 수준을 기록한 가운데 이 같은 흐름이 나타났다고 미국 경제방송 CNBC는 전했다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "앞서 10일(현지시간) 미국증시에서 다우존스(-0.60%), S&P500(-0.58%), 나스닥(-0.65%) 등 3대 지수는 4거래일 연속 하락했다. 미국-이란 무력 충돌 재격화 속에 국제유가가 급등하며 인플레이션 우려를 키웠고, 미국 국채금리까지 장중 4.95%까지 치솟으며 수년 만에 최고 수준을 기록한 가운데 이 같은 흐름이 나타났다고 미국 경제방송 CNBC는 전했다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote"
+          },
+          "numbers": []
+        }
+      ],
+      "document_ids": [
+        "2a2e069ca693999478c439af"
+      ],
+      "source_versions": [
+        "8deb0f9aa36a7ecb366988f7"
+      ],
+      "entities": [],
+      "selection_reason": [
+        "수집 범위 내 독립 발행자 1개",
+        "자료 기준 경과 16.8시간",
+        "이전 입력과 중복 내용",
+        "수치가 확인되는 금융시장 급변·기록 경신"
+      ],
+      "follow_up": [
+        "원문과 기간·단위·작성 주체를 확인하고 해석을 검토하세요."
+      ],
+      "confidence": "source_checked",
+      "related_issue_id": null,
+      "late_discovered": false,
+      "analysis_provider": "extractive",
+      "model_status": "not_needed_source_korean",
+      "analysis_label": "한국어 원문에서 핵심 문장 선별",
+      "evidence_expired": false,
+      "evidence_partially_expired": false,
+      "has_full_text": true,
+      "has_message_text": false,
+      "prior_day_follow_up": false,
+      "original_title": "유가·금리 '쇼크'...일본증시 '장중 뚝', 키옥시아 '급락'",
+      "source_title_ko": "유가·금리 '쇼크'...일본증시 '장중 뚝', 키옥시아 '급락'",
+      "korean_required": true
+    },
+    {
+      "id": "55ec477c9025bc1221bfa91a",
+      "anchor": "issue-784ac4ad62124bde",
+      "editorial_scope": "company",
+      "event_type": "earnings",
+      "title": "TSMC 8월 매출 53% 껑충...\"설비 확대에도 AI칩 수요 못 따라잡아\"",
+      "section": "investment",
+      "category": "research",
+      "summary": [
+        "대만의 반도체 위탁 생산(파운드리) 업체 TSMC의 8월 매출이 전년비 53.3% 증가한 5148억 대만달러(약 163억달러)를 기록, 시장 예상을 웃도는 성장세를 이어갔다.",
+        "10일 블룸버그에 따르면 회사가 이날 공개한 8월 매출은 월간 기준으로 역대 최대였다. 매출 증가율(53.3%)은 시장 예상치(46.8%)를 웃돌았다. 전월에 비해서는 10.1% 늘었다.",
+        "앞서 지난 7월 TSMC는 AI칩 수요의 가파른 증가세가 2027년 이후에도 이어질 것이라 자신하고, 이를 반영해 올해 설비투자와 매출 전망을 상향 조정한 바 있다.",
+        "TSMC는 2026년 설비투자 규모가 600억~640억 달러에 이를 것으로 내다봤다. 연간 매출은 미국 달러 기준으로 40%를 소폭 웃도는 성장세를 기록할 것이라고 했다. TSMC 주가는 올 들어 약 60% 상승했다."
+      ],
+      "change": "비교 가능한 과거 자료 없음 — 상향·하향·전망 변경 여부 미판정",
+      "claims": [
+        {
+          "id": "bd5ef826c4e30161f6e14d94",
+          "text": "대만의 반도체 위탁 생산(파운드리) 업체 TSMC의 8월 매출이 전년비 53.3% 증가한 5148억 대만달러(약 163억달러)를 기록, 시장 예상을 웃도는 성장세를 이어갔다.",
+          "kind": "author_opinion",
+          "author": "오상용 ",
+          "source_ids": [
+            "bbbdd87abaa10cc1d5382ad2"
+          ],
+          "evidence": [
+            {
+              "source_id": "bbbdd87abaa10cc1d5382ad2",
+              "source_version_id": "c5674f703654b44957eb4515",
+              "start": 18,
+              "end": 115,
+              "text": "대만의 반도체 위탁 생산(파운드리) 업체 TSMC의 8월 매출이 전년비 53.3% 증가한 5148억 대만달러(약 163억달러)를 기록, 시장 예상을 웃도는 성장세를 이어갔다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "대만의 반도체 위탁 생산(파운드리) 업체 TSMC의 8월 매출이 전년비 53.3% 증가한 5148억 대만달러(약 163억달러)를 기록, 시장 예상을 웃도는 성장세를 이어갔다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote"
+          },
+          "numbers": []
+        },
+        {
+          "id": "236ec398ce9646587fda86cf",
+          "text": "10일 블룸버그에 따르면 회사가 이날 공개한 8월 매출은 월간 기준으로 역대 최대였다. 매출 증가율(53.3%)은 시장 예상치(46.8%)를 웃돌았다. 전월에 비해서는 10.1% 늘었다.",
+          "kind": "author_opinion",
+          "author": "오상용 ",
+          "source_ids": [
+            "bbbdd87abaa10cc1d5382ad2"
+          ],
+          "evidence": [
+            {
+              "source_id": "bbbdd87abaa10cc1d5382ad2",
+              "source_version_id": "c5674f703654b44957eb4515",
+              "start": 117,
+              "end": 221,
+              "text": "10일 블룸버그에 따르면 회사가 이날 공개한 8월 매출은 월간 기준으로 역대 최대였다. 매출 증가율(53.3%)은 시장 예상치(46.8%)를 웃돌았다. 전월에 비해서는 10.1% 늘었다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "10일 블룸버그에 따르면 회사가 이날 공개한 8월 매출은 월간 기준으로 역대 최대였다. 매출 증가율(53.3%)은 시장 예상치(46.8%)를 웃돌았다. 전월에 비해서는 10.1% 늘었다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote"
+          },
+          "numbers": []
+        },
+        {
+          "id": "c49fe878b9cce7fff3ddd33c",
+          "text": "앞서 지난 7월 TSMC는 AI칩 수요의 가파른 증가세가 2027년 이후에도 이어질 것이라 자신하고, 이를 반영해 올해 설비투자와 매출 전망을 상향 조정한 바 있다.",
+          "kind": "author_opinion",
+          "author": "오상용 ",
+          "source_ids": [
+            "bbbdd87abaa10cc1d5382ad2"
+          ],
+          "evidence": [
+            {
+              "source_id": "bbbdd87abaa10cc1d5382ad2",
+              "source_version_id": "c5674f703654b44957eb4515",
+              "start": 468,
+              "end": 560,
+              "text": "앞서 지난 7월 TSMC는 AI칩 수요의 가파른 증가세가 2027년 이후에도 이어질 것이라 자신하고, 이를 반영해 올해 설비투자와 매출 전망을 상향 조정한 바 있다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "앞서 지난 7월 TSMC는 AI칩 수요의 가파른 증가세가 2027년 이후에도 이어질 것이라 자신하고, 이를 반영해 올해 설비투자와 매출 전망을 상향 조정한 바 있다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote"
+          },
+          "numbers": []
+        },
+        {
+          "id": "d9da82decff5761f069a5b03",
+          "text": "TSMC는 2026년 설비투자 규모가 600억~640억 달러에 이를 것으로 내다봤다. 연간 매출은 미국 달러 기준으로 40%를 소폭 웃도는 성장세를 기록할 것이라고 했다. TSMC 주가는 올 들어 약 60% 상승했다.",
+          "kind": "author_opinion",
+          "author": "오상용 ",
+          "source_ids": [
+            "bbbdd87abaa10cc1d5382ad2"
+          ],
+          "evidence": [
+            {
+              "source_id": "bbbdd87abaa10cc1d5382ad2",
+              "source_version_id": "c5674f703654b44957eb4515",
+              "start": 562,
+              "end": 683,
+              "text": "TSMC는 2026년 설비투자 규모가 600억~640억 달러에 이를 것으로 내다봤다. 연간 매출은 미국 달러 기준으로 40%를 소폭 웃도는 성장세를 기록할 것이라고 했다. TSMC 주가는 올 들어 약 60% 상승했다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "TSMC는 2026년 설비투자 규모가 600억~640억 달러에 이를 것으로 내다봤다. 연간 매출은 미국 달러 기준으로 40%를 소폭 웃도는 성장세를 기록할 것이라고 했다. TSMC 주가는 올 들어 약 60% 상승했다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote"
+          },
+          "numbers": []
+        }
+      ],
+      "document_ids": [
+        "bbbdd87abaa10cc1d5382ad2",
+        "1c5e3b392465383a51f5ac2c"
+      ],
+      "source_versions": [
+        "c5674f703654b44957eb4515",
+        "a3ee536d058ca3d0d9e1e106"
+      ],
+      "entities": [],
+      "selection_reason": [
+        "수집 범위 내 독립 발행자 1개",
+        "자료 기준 경과 39.8시간",
+        "이전 입력과 중복 내용",
+        "실적·자본·계약 등 기업 활동의 구체적 변화"
+      ],
+      "follow_up": [
+        "원문과 기간·단위·작성 주체를 확인하고 해석을 검토하세요."
+      ],
+      "confidence": "source_checked",
+      "related_issue_id": null,
+      "late_discovered": false,
+      "analysis_provider": "extractive",
+      "model_status": "not_needed_source_korean",
+      "analysis_label": "한국어 원문에서 핵심 문장 선별",
+      "evidence_expired": false,
+      "evidence_partially_expired": false,
+      "has_full_text": true,
+      "has_message_text": true,
+      "prior_day_follow_up": false,
+      "original_title": "TSMC 8월 매출 53% 껑충...\"설비 확대에도 AI칩 수요 못 따라잡아\"",
+      "source_title_ko": "TSMC 8월 매출 53% 껑충...\"설비 확대에도 AI칩 수요 못 따라잡아\"",
+      "korean_required": true
+    },
+    {
+      "id": "19007aee645ac49c30a8ef6a",
+      "anchor": "issue-1b7ad10f0b0675a5",
+      "editorial_scope": "company",
+      "event_type": "earnings",
+      "title": "오라클, AI 클라우드 수요로 매출 30% 성장…부채 1,250억 달러 기록",
+      "section": "investment",
+      "category": "company",
+      "summary": [
+        "오라클의 주가는 금요일에 등락을 거듭했습니다. 이 소프트웨어 기업은 최근 분기에 클라우드 인프라에 대한 강력한 수요로 판매가 견인되면서 30%의 매출 성장을 기록해 예상치를 상회했습니다. 주가는 장 시작 직후 급등했으나, 이후 거의 2% 하락한 가격으로 장을 마감했습니다.",
+        "회계 1 분기 매출은 191 억 4 천만 달러의 LSEG 컨센서스 추정치를 상회하는 193 억 5 천만 달러로 증가했습니다. 순이익은 전년 29 억 3 천만 달러에서 47 억 달러로 60% 상승했습니다.",
+        "클라우드 매출은 전년 대비 62% 증가하여 116억 달러를 기록했는데, 이는 클라우드 인프라 매출이 121% 급증한 데 힘입은 것이며, 클라우드 애플리케이션 매출은 10% 성장했습니다.",
+        "오라클은 주력 데이터베이스 소프트웨어를 판매하는 한편, AI 워크로드를 위한 대규모 데이터센터 구축을 자금 지원하기 위해 1,250억 달러의 부채를 안고 있습니다. 이 투자는 엔비디아, 메타, 오픈AI, 어드밴스드 마이크로 디바이스, 스페이스X의 AI 사업 등 고객들의 계약된 클라우드 수요에 대한 용량을 확대할 것으로 예상됩니다. 오라클은 당기 분기에 전년 동기 3억 6,200만 달러의 마이너스 자유현금흐름 대비 54억 달러의 마이너스 자유현금흐름을 기록했습니다."
+      ],
+      "change": "비교 가능한 과거 자료 없음 — 상향·하향·전망 변경 여부 미판정",
+      "claims": [
+        {
+          "id": "b0e835452204c164d15fe64d",
+          "text": "오라클의 주가는 금요일에 등락을 거듭했습니다. 이 소프트웨어 기업은 최근 분기에 클라우드 인프라에 대한 강력한 수요로 판매가 견인되면서 30%의 매출 성장을 기록해 예상치를 상회했습니다. 주가는 장 시작 직후 급등했으나, 이후 거의 2% 하락한 가격으로 장을 마감했습니다.",
+          "kind": "author_opinion",
+          "author": "Sawdah Bhaimiya",
+          "source_ids": [
+            "b1745cce99824e7a003e5be2"
+          ],
+          "evidence": [
+            {
+              "source_id": "b1745cce99824e7a003e5be2",
+              "source_version_id": "e1e876fb0eb15b2cfb74ac2c",
+              "start": 34,
+              "end": 297,
+              "text": "Oracle shares whipsawed on Friday after the software company reported 30% revenue growth for the latest quarter, topping estimates, with sales fueled by strong demand for cloud infrastructure.\n\nThe stock popped after the open before later closing nearly 2% lower.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "오라클의 주가는 금요일에 등락을 거듭했습니다. 이 소프트웨어 기업은 최근 분기에 클라우드 인프라에 대한 강력한 수요로 판매가 견인되면서 30%의 매출 성장을 기록해 예상치를 상회했습니다. 주가는 장 시작 직후 급등했으나, 이후 거의 2% 하락한 가격으로 장을 마감했습니다.",
+              "is_translation": true
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "",
+          "validation": {
+            "semantic_support": "not_verified",
+            "human_review": "not_reviewed",
+            "status": "needs_review",
+            "source_linkage": "passed",
+            "content_check": "unverified_paraphrase"
+          },
+          "numbers": []
+        },
+        {
+          "id": "cd0fcc4c021b93547aeaa87f",
+          "text": "회계 1 분기 매출은 191 억 4 천만 달러의 LSEG 컨센서스 추정치를 상회하는 193 억 5 천만 달러로 증가했습니다. 순이익은 전년 29 억 3 천만 달러에서 47 억 달러로 60% 상승했습니다.",
+          "kind": "author_opinion",
+          "author": "Sawdah Bhaimiya",
+          "source_ids": [
+            "b1745cce99824e7a003e5be2"
+          ],
+          "evidence": [
+            {
+              "source_id": "b1745cce99824e7a003e5be2",
+              "source_version_id": "e1e876fb0eb15b2cfb74ac2c",
+              "start": 299,
+              "end": 485,
+              "text": "Fiscal first-quarter revenue increased to $19.35 billion, beating LSEG consensus estimates of $19.14 billion. Net income climbed 60% to $4.7 billion from $2.93 billion in the prior year.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "회계 1 분기 매출은 191 억 4 천만 달러의 LSEG 컨센서스 추정치를 상회하는 193 억 5 천만 달러로 증가했습니다. 순이익은 전년 29 억 3 천만 달러에서 47 억 달러로 60% 상승했습니다.",
+              "is_translation": true
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "",
+          "validation": {
+            "semantic_support": "not_verified",
+            "human_review": "not_reviewed",
+            "status": "needs_review",
+            "source_linkage": "passed",
+            "content_check": "unverified_paraphrase"
+          },
+          "numbers": []
+        },
+        {
+          "id": "34e6769049cf7dab21e0e991",
+          "text": "클라우드 매출은 전년 대비 62% 증가하여 116억 달러를 기록했는데, 이는 클라우드 인프라 매출이 121% 급증한 데 힘입은 것이며, 클라우드 애플리케이션 매출은 10% 성장했습니다.",
+          "kind": "author_opinion",
+          "author": "Sawdah Bhaimiya",
+          "source_ids": [
+            "b1745cce99824e7a003e5be2"
+          ],
+          "evidence": [
+            {
+              "source_id": "b1745cce99824e7a003e5be2",
+              "source_version_id": "e1e876fb0eb15b2cfb74ac2c",
+              "start": 487,
+              "end": 644,
+              "text": "Cloud revenue rose 62% from a year earlier to $11.6 billion, driven by a 121% jump in cloud infrastructure revenue, while cloud application revenue grew 10%.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "클라우드 매출은 전년 대비 62% 증가하여 116억 달러를 기록했는데, 이는 클라우드 인프라 매출이 121% 급증한 데 힘입은 것이며, 클라우드 애플리케이션 매출은 10% 성장했습니다.",
+              "is_translation": true
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "",
+          "validation": {
+            "semantic_support": "not_verified",
+            "human_review": "not_reviewed",
+            "status": "needs_review",
+            "source_linkage": "passed",
+            "content_check": "unverified_paraphrase"
+          },
+          "numbers": []
+        },
+        {
+          "id": "47a2a53f36ab96290162481b",
+          "text": "오라클은 주력 데이터베이스 소프트웨어를 판매하는 한편, AI 워크로드를 위한 대규모 데이터센터 구축을 자금 지원하기 위해 1,250억 달러의 부채를 안고 있습니다. 이 투자는 엔비디아, 메타, 오픈AI, 어드밴스드 마이크로 디바이스, 스페이스X의 AI 사업 등 고객들의 계약된 클라우드 수요에 대한 용량을 확대할 것으로 예상됩니다. 오라클은 당기 분기에 전년 동기 3억 6,200만 달러의 마이너스 자유현금흐름 대비 54억 달러의 마이너스 자유현금흐름을 기록했습니다.",
+          "kind": "author_opinion",
+          "author": "Sawdah Bhaimiya",
+          "source_ids": [
+            "b1745cce99824e7a003e5be2"
+          ],
+          "evidence": [
+            {
+              "source_id": "b1745cce99824e7a003e5be2",
+              "source_version_id": "e1e876fb0eb15b2cfb74ac2c",
+              "start": 1261,
+              "end": 1706,
+              "text": "Alongside selling its flagship database software, Oracle now has $125 billion in debt as it funds an expansive buildout of data centers for AI workloads. The investment is expected to expand capacity for contracted cloud demand from customers including Nvidia, Meta, OpenAI, Advanced Micro Devices and SpaceX's AI business.\n\nOracle posted $5.4 billion in negat",
+              "source_excerpt_truncated": true,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "오라클은 주력 데이터베이스 소프트웨어를 판매하는 한편, AI 워크로드를 위한 대규모 데이터센터 구축을 자금 지원하기 위해 1,250억 달러의 부채를 안고 있습니다. 이 투자는 엔비디아, 메타, 오픈AI, 어드밴스드 마이크로 디바이스, 스페이스X의 AI 사업 등 고객들의 계약된 클라우드 수요에 대한 용량을 확대할 것으로 예상됩니다. 오라클은 당기 분기에 전년 동기 3억 6,200만 달러의 마이너스 자유현금흐름 대비 54억 달러의 마이너스 자유현금흐름을 기록했습니다.",
+              "is_translation": true
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "",
+          "validation": {
+            "semantic_support": "not_verified",
+            "human_review": "not_reviewed",
+            "status": "needs_review",
+            "source_linkage": "passed",
+            "content_check": "unverified_paraphrase"
+          },
+          "numbers": []
+        }
+      ],
+      "document_ids": [
+        "b1745cce99824e7a003e5be2"
+      ],
+      "source_versions": [
+        "e1e876fb0eb15b2cfb74ac2c"
+      ],
+      "entities": [],
+      "selection_reason": [
+        "수집 범위 내 독립 발행자 1개",
+        "자료 기준 경과 10.6시간",
+        "이전 입력 대비 신규 문서",
+        "실적·자본·계약 등 기업 활동의 구체적 변화"
+      ],
+      "follow_up": [
+        "원문과 기간·단위·작성 주체를 확인하고 해석을 검토하세요."
+      ],
+      "confidence": "needs_review",
+      "related_issue_id": null,
+      "late_discovered": false,
+      "analysis_provider": "mlx",
+      "model_status": "cached_model_output",
+      "analysis_label": "한국어 번역 · 수치·출처 자동 대조",
+      "evidence_expired": false,
+      "evidence_partially_expired": false,
+      "has_full_text": true,
+      "has_message_text": false,
+      "prior_day_follow_up": false,
+      "original_title": "Oracle posts 30% revenue growth fueled by AI cloud demand as debts hits $125 billion",
+      "source_title_ko": "오라클, AI 클라우드 수요로 매출 30% 성장…부채 1,250억 달러 기록",
+      "korean_required": true
+    },
+    {
+      "id": "1ec413d354a920ebd043a10d",
+      "anchor": "issue-5726e01c2c920862",
+      "editorial_scope": "company",
+      "event_type": "market_update",
+      "title": "[美증시 특징주] 델·HPE 서버수주 폭발에 폭등…오라클발 서버 수요 가속화",
+      "section": "investment",
+      "category": "research",
+      "summary": [
+        "인공지능(AI) 데이터센터 서버업체인 델 테크놀로지와 HPE가 서버 수요 폭발에 힘입어 주가가 폭등했다. 11일(현지시간) 뉴욕증시에서 델은 오후 2시48분 현재 10.90% 치솟은 562 달러선에서 움직이고 있다.",
+        "전날 나온 오라클의 실적발표가 기폭제가 된 것으로 보인다. 오라클의 분기실적 자체도 시장예상치를 상회했지만 전체 수주잔고가 6640억 달러까지 증가하면서 서버수요에 대한 기대감을 부풀렸다. 또 오라클의 연간 자본지출 계획이 기존 560억 달러에서  900억~950억 수준으로 늘어날 것으로 전망된데다 마이크로소프트도 컴퓨팅 용량을 크게 확대할 계획이어서 시장에서는 하이퍼스케일러들의 AI 인프라 투자가 생각보다 오래 지속될 것이라는 낙관론이 커졌다. 델 경영진이 지난 9일 골드만삭스 컨퍼런스에서 최근 분기 AI 서버 수주액이 61억 달러로 이전 3개 분기 합계와 맞먹는 수준이라고 밝힌 것도 주가에 강력한 모멘텀이 됐다.",
+        "이 회사의 최근 1년 AI 서버수주액은 132억 달러까지 불어났다.",
+        "RBC캐피털은 최근 델에 대해 매수 의견인 '아웃퍼폼'을 유지하면서 목표주가로 640 달러를 제시했다. 예상보다 강한 AI 서버 수요가 확인된데다 오라클의 수주잔고에서 보듯 데이터센터 투자확대가 지속되고 있다는 점을 들었다. 이런 흐름 속에서 같은 서버업체인 휴렛패커드 엔터프라이즈(HPE) 주가도 이날 10.60% 급등했다."
+      ],
+      "change": "비교 가능한 과거 자료 없음 — 상향·하향·전망 변경 여부 미판정",
+      "claims": [
+        {
+          "id": "b86a8f64ac491f4ab80753c4",
+          "text": "인공지능(AI) 데이터센터 서버업체인 델 테크놀로지와 HPE가 서버 수요 폭발에 힘입어 주가가 폭등했다. 11일(현지시간) 뉴욕증시에서 델은 오후 2시48분 현재 10.90% 치솟은 562 달러선에서 움직이고 있다.",
+          "kind": "author_opinion",
+          "author": "김종현",
+          "source_ids": [
+            "2c7ae7477faba626215287df"
+          ],
+          "evidence": [
+            {
+              "source_id": "2c7ae7477faba626215287df",
+              "source_version_id": "2da74564f110d914692890c1",
+              "start": 87,
+              "end": 207,
+              "text": "인공지능(AI) 데이터센터 서버업체인 델 테크놀로지와 HPE가 서버 수요 폭발에 힘입어 주가가 폭등했다. 11일(현지시간) 뉴욕증시에서 델은 오후 2시48분 현재 10.90% 치솟은 562 달러선에서 움직이고 있다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "인공지능(AI) 데이터센터 서버업체인 델 테크놀로지와 HPE가 서버 수요 폭발에 힘입어 주가가 폭등했다. 11일(현지시간) 뉴욕증시에서 델은 오후 2시48분 현재 10.90% 치솟은 562 달러선에서 움직이고 있다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote"
+          },
+          "numbers": []
+        },
+        {
+          "id": "bc761f127df9238b32be616a",
+          "text": "전날 나온 오라클의 실적발표가 기폭제가 된 것으로 보인다. 오라클의 분기실적 자체도 시장예상치를 상회했지만 전체 수주잔고가 6640억 달러까지 증가하면서 서버수요에 대한 기대감을 부풀렸다. 또 오라클의 연간 자본지출 계획이 기존 560억 달러에서  900억~950억 수준으로 늘어날 것으로 전망된데다 마이크로소프트도 컴퓨팅 용량을 크게 확대할 계획이어서 시장에서는 하이퍼스케일러들의 AI 인프라 투자가 생각보다 오래 지속될 것이라는 낙관론이 커졌다. 델 경영진이 지난 9일 골드만삭스 컨퍼런스에서 최근 분기 AI 서버 수주액이 61억 달러로 이전 3개 분기 합계와 맞먹는 수준이라고 밝힌 것도 주가에 강력한 모멘텀이 됐다.",
+          "kind": "author_opinion",
+          "author": "김종현",
+          "source_ids": [
+            "2c7ae7477faba626215287df"
+          ],
+          "evidence": [
+            {
+              "source_id": "2c7ae7477faba626215287df",
+              "source_version_id": "2da74564f110d914692890c1",
+              "start": 225,
+              "end": 573,
+              "text": "전날 나온 오라클의 실적발표가 기폭제가 된 것으로 보인다. 오라클의 분기실적 자체도 시장예상치를 상회했지만 전체 수주잔고가 6640억 달러까지 증가하면서 서버수요에 대한 기대감을 부풀렸다. 또 오라클의 연간 자본지출 계획이 기존 560억 달러에서  900억~950억 수준으로 늘어날 것으로 전망된데다 마이크로소프트도 컴퓨팅 용량을 크게 확대할 계획이어서 시장에서는 하이퍼스케일러들의 AI 인프라 투자가 생각보다 오래 지속될 것이라는 낙관론이 커졌다. 델 경영진이 지난 9일 골드만삭스 컨퍼런스에서 최근 분기 AI 서버 수주액이 61억 달러로 이전 3개 분기 합계와 맞먹는 수준이라고 밝힌 것도 주가에 강력한 모멘텀이 됐다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "전날 나온 오라클의 실적발표가 기폭제가 된 것으로 보인다. 오라클의 분기실적 자체도 시장예상치를 상회했지만 전체 수주잔고가 6640억 달러까지 증가하면서 서버수요에 대한 기대감을 부풀렸다. 또 오라클의 연간 자본지출 계획이 기존 560억 달러에서  900억~950억 수준으로 늘어날 것으로 전망된데다 마이크로소프트도 컴퓨팅 용량을 크게 확대할 계획이어서 시장에서는 하이퍼스케일러들의 AI 인프라 투자가 생각보다 오래 지속될 것이라는 낙관론이 커졌다. 델 경영진이 지난 9일 골드만삭스 컨퍼런스에서 최근 분기 AI 서버 수주액이 61억 달러로 이전 3개 분기 합계와 맞먹는 수준이라고 밝힌 것도 주가에 강력한 모멘텀이 됐다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote"
+          },
+          "numbers": []
+        },
+        {
+          "id": "8126221fbd7cb760c3d65f0d",
+          "text": "이 회사의 최근 1년 AI 서버수주액은 132억 달러까지 불어났다.",
+          "kind": "fact",
+          "author": "김종현",
+          "source_ids": [
+            "2c7ae7477faba626215287df"
+          ],
+          "evidence": [
+            {
+              "source_id": "2c7ae7477faba626215287df",
+              "source_version_id": "2da74564f110d914692890c1",
+              "start": 574,
+              "end": 611,
+              "text": "이 회사의 최근 1년 AI 서버수주액은 132억 달러까지 불어났다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "이 회사의 최근 1년 AI 서버수주액은 132억 달러까지 불어났다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote"
+          },
+          "numbers": []
+        },
+        {
+          "id": "76a68009b8576693a7d19a29",
+          "text": "RBC캐피털은 최근 델에 대해 매수 의견인 '아웃퍼폼'을 유지하면서 목표주가로 640 달러를 제시했다. 예상보다 강한 AI 서버 수요가 확인된데다 오라클의 수주잔고에서 보듯 데이터센터 투자확대가 지속되고 있다는 점을 들었다. 이런 흐름 속에서 같은 서버업체인 휴렛패커드 엔터프라이즈(HPE) 주가도 이날 10.60% 급등했다.",
+          "kind": "author_opinion",
+          "author": "김종현",
+          "source_ids": [
+            "2c7ae7477faba626215287df"
+          ],
+          "evidence": [
+            {
+              "source_id": "2c7ae7477faba626215287df",
+              "source_version_id": "2da74564f110d914692890c1",
+              "start": 631,
+              "end": 813,
+              "text": "RBC캐피털은 최근 델에 대해 매수 의견인 '아웃퍼폼'을 유지하면서 목표주가로 640 달러를 제시했다. 예상보다 강한 AI 서버 수요가 확인된데다 오라클의 수주잔고에서 보듯 데이터센터 투자확대가 지속되고 있다는 점을 들었다. 이런 흐름 속에서 같은 서버업체인 휴렛패커드 엔터프라이즈(HPE) 주가도 이날 10.60% 급등했다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "RBC캐피털은 최근 델에 대해 매수 의견인 '아웃퍼폼'을 유지하면서 목표주가로 640 달러를 제시했다. 예상보다 강한 AI 서버 수요가 확인된데다 오라클의 수주잔고에서 보듯 데이터센터 투자확대가 지속되고 있다는 점을 들었다. 이런 흐름 속에서 같은 서버업체인 휴렛패커드 엔터프라이즈(HPE) 주가도 이날 10.60% 급등했다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote"
+          },
+          "numbers": []
+        }
+      ],
+      "document_ids": [
+        "2c7ae7477faba626215287df"
+      ],
+      "source_versions": [
+        "2da74564f110d914692890c1"
+      ],
+      "entities": [],
+      "selection_reason": [
+        "수집 범위 내 독립 발행자 1개",
+        "자료 기준 경과 3.0시간",
+        "이전 입력 대비 신규 문서",
+        "실적·자본·계약 등 기업 활동의 구체적 변화"
+      ],
+      "follow_up": [
+        "원문과 기간·단위·작성 주체를 확인하고 해석을 검토하세요."
+      ],
+      "confidence": "source_checked",
+      "related_issue_id": null,
+      "late_discovered": false,
+      "analysis_provider": "extractive",
+      "model_status": "not_needed_source_korean",
+      "analysis_label": "한국어 원문에서 핵심 문장 선별",
+      "evidence_expired": false,
+      "evidence_partially_expired": false,
+      "has_full_text": true,
+      "has_message_text": false,
+      "prior_day_follow_up": false,
+      "original_title": "[美증시 특징주] 델·HPE 서버수주 폭발에 폭등…오라클발 서버 수요 가속화",
+      "source_title_ko": "[美증시 특징주] 델·HPE 서버수주 폭발에 폭등…오라클발 서버 수요 가속화",
+      "korean_required": true
+    },
+    {
+      "id": "f91999f3fd9d8c9d93efe7d3",
+      "anchor": "issue-667aa178acad5d10",
+      "editorial_scope": "company",
+      "event_type": "earnings",
+      "title": "메이시스가 강력한 실적을 발표하고 전환이 본격화됨에 따라 실적 전망을 상향 조정했습니다.",
+      "section": "investment",
+      "category": "company",
+      "summary": [
+        "그럼에도 불구하고 메이시스의 주가는 목요일에 거의 5% 하락했습니다.",
+        "주당순이익: 조정 기준 40센트, 예상 37센트\n\n수익: 48억 7,000만 달러, 예상 48억 3,000만 달러",
+        "회사는 또한 연간 실적 전망을 상향 조정하여 순매출을 종전 $215억~$217.5억에서 $216.8억~$218.3억으로 전망한다고 밝혔습니다. 또한 비교가능 매출 전망 범위를 0.5%~1.2% 성장에서 1%~1.5% 증가로 상향 조정했습니다.",
+        "메이시스는 연간 주당순이익 전망을 종전 2달러~2.20달러에서 2.15달러~2.35달러로 상향 조정했다. 회사는 관세 환급금으로 인해 당기 순이익에 반영될 약 5센트의 주당 증가분을 이 전망에 포함시켰다고 밝혔다."
+      ],
+      "change": "비교 가능한 과거 자료 없음 — 상향·하향·전망 변경 여부 미판정",
+      "claims": [
+        {
+          "id": "268f360ff0dd4b4ea8439e8b",
+          "text": "그럼에도 불구하고 메이시스의 주가는 목요일에 거의 5% 하락했습니다.",
+          "kind": "fact",
+          "author": "Laya Neelakandan",
+          "source_ids": [
+            "373a3eb6d718cf5d5a131109"
+          ],
+          "evidence": [
+            {
+              "source_id": "373a3eb6d718cf5d5a131109",
+              "source_version_id": "f628b913d3f80c809cbced0d",
+              "start": 2498,
+              "end": 2563,
+              "text": "Despite the results, Macy's shares dropped nearly 5% on Thursday.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "그럼에도 불구하고 메이시스의 주가는 목요일에 거의 5% 하락했습니다.",
+              "is_translation": true
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "",
+          "validation": {
+            "semantic_support": "not_verified",
+            "human_review": "not_reviewed",
+            "status": "needs_review",
+            "source_linkage": "passed",
+            "content_check": "unverified_paraphrase"
+          },
+          "numbers": []
+        },
+        {
+          "id": "6bf19f9960064ecce8014079",
+          "text": "주당순이익: 조정 기준 40센트, 예상 37센트\n\n수익: 48억 7,000만 달러, 예상 48억 3,000만 달러",
+          "kind": "author_opinion",
+          "author": "Laya Neelakandan",
+          "source_ids": [
+            "373a3eb6d718cf5d5a131109"
+          ],
+          "evidence": [
+            {
+              "source_id": "373a3eb6d718cf5d5a131109",
+              "source_version_id": "f628b913d3f80c809cbced0d",
+              "start": 2716,
+              "end": 2826,
+              "text": "Earnings per share: 40 cents adjusted vs. 37 cents expected\n\nRevenue: $4.87 billion vs. $4.83 billion expected",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "주당순이익: 조정 기준 40센트, 예상 37센트\n\n수익: 48억 7,000만 달러, 예상 48억 3,000만 달러",
+              "is_translation": true
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "",
+          "validation": {
+            "semantic_support": "not_verified",
+            "human_review": "not_reviewed",
+            "status": "needs_review",
+            "source_linkage": "passed",
+            "content_check": "unverified_paraphrase"
+          },
+          "numbers": []
+        },
+        {
+          "id": "f031811715beb2d51a642c99",
+          "text": "회사는 또한 연간 실적 전망을 상향 조정하여 순매출을 종전 $215억~$217.5억에서 $216.8억~$218.3억으로 전망한다고 밝혔습니다. 또한 비교가능 매출 전망 범위를 0.5%~1.2% 성장에서 1%~1.5% 증가로 상향 조정했습니다.",
+          "kind": "author_opinion",
+          "author": "Laya Neelakandan",
+          "source_ids": [
+            "373a3eb6d718cf5d5a131109"
+          ],
+          "evidence": [
+            {
+              "source_id": "373a3eb6d718cf5d5a131109",
+              "source_version_id": "f628b913d3f80c809cbced0d",
+              "start": 1132,
+              "end": 1443,
+              "text": "The company also raised its full-year guidance and now projects net sales to be between $21.68 billion and $21.83 billion, compared with a prior expectation of between $21.5 billion and $21.75 billion. It also raised its comparable sales outlook range from between 0.5% and 1.2% growth to a 1% to 1.5% increase.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "회사는 또한 연간 실적 전망을 상향 조정하여 순매출을 종전 $215억~$217.5억에서 $216.8억~$218.3억으로 전망한다고 밝혔습니다. 또한 비교가능 매출 전망 범위를 0.5%~1.2% 성장에서 1%~1.5% 증가로 상향 조정했습니다.",
+              "is_translation": true
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 구간을 한국어로 번역; 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "not_verified",
+            "human_review": "not_reviewed",
+            "status": "needs_review",
+            "source_linkage": "passed",
+            "content_check": "unverified_paraphrase"
+          },
+          "numbers": []
+        },
+        {
+          "id": "1823b0c98295e3cf943965e1",
+          "text": "메이시스는 연간 주당순이익 전망을 종전 2달러~2.20달러에서 2.15달러~2.35달러로 상향 조정했다. 회사는 관세 환급금으로 인해 당기 순이익에 반영될 약 5센트의 주당 증가분을 이 전망에 포함시켰다고 밝혔다.",
+          "kind": "author_opinion",
+          "author": "Laya Neelakandan",
+          "source_ids": [
+            "373a3eb6d718cf5d5a131109"
+          ],
+          "evidence": [
+            {
+              "source_id": "373a3eb6d718cf5d5a131109",
+              "source_version_id": "f628b913d3f80c809cbced0d",
+              "start": 1445,
+              "end": 1660,
+              "text": "Macy's hiked its full-year earnings per share outlook to a range of $2.15 to $2.35, up from $2 to $2.20. It said that included a roughly 5-cent per-share bump from tariff repayments it will apply to its bottom line.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "메이시스는 연간 주당순이익 전망을 종전 2달러~2.20달러에서 2.15달러~2.35달러로 상향 조정했다. 회사는 관세 환급금으로 인해 당기 순이익에 반영될 약 5센트의 주당 증가분을 이 전망에 포함시켰다고 밝혔다.",
+              "is_translation": true
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 구간을 한국어로 번역; 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "not_verified",
+            "human_review": "not_reviewed",
+            "status": "needs_review",
+            "source_linkage": "passed",
+            "content_check": "unverified_paraphrase"
+          },
+          "numbers": []
+        }
+      ],
+      "document_ids": [
+        "373a3eb6d718cf5d5a131109"
+      ],
+      "source_versions": [
+        "f628b913d3f80c809cbced0d"
+      ],
+      "entities": [],
+      "selection_reason": [
+        "수집 범위 내 독립 발행자 1개",
+        "자료 기준 경과 35.1시간",
+        "이전 입력 대비 신규 문서",
+        "수치가 명시된 전망 변경; 관측 사실과 구분"
+      ],
+      "follow_up": [
+        "원문과 기간·단위·작성 주체를 확인하고 해석을 검토하세요."
+      ],
+      "confidence": "needs_review",
+      "related_issue_id": null,
+      "late_discovered": false,
+      "analysis_provider": "mlx",
+      "model_status": "cached_model_output",
+      "analysis_label": "한국어 번역 · 수치·출처 자동 대조",
+      "evidence_expired": false,
+      "evidence_partially_expired": false,
+      "has_full_text": true,
+      "has_message_text": false,
+      "prior_day_follow_up": false,
+      "original_title": "Macy's posts strong results, raises guidance as turnaround begins to take hold",
+      "source_title_ko": "메이시스가 강력한 실적을 발표하고 전환이 본격화됨에 따라 실적 전망을 상향 조정했습니다.",
+      "korean_required": true
+    },
+    {
+      "id": "f27de6ffc56cc962621977d3",
+      "anchor": "issue-d2addc37e720acf0",
+      "editorial_scope": "company",
+      "event_type": "product_production",
+      "title": "코아시아씨엠코리아, 로봇용 3D 센싱 모듈 양산",
+      "section": "yesterday",
+      "category": "general",
+      "summary": [
+        "| 서울=한스경제 김종효 기자 | 코아시아씨엠의 자회사 코아시아씨엠코리아는 하나옵트로닉스와 ToF 기반 3D 센싱 카메라 모듈 양산 공급 계약을 체결하고 이달 중 초도 물량 출하에 돌입한다고 11일 밝혔다.",
+        "이번 계약은 지난 6월 양사가 ToF 모듈 솔루션 공동 개발 및 협력을 발표한 지 3개월 만에 양산 단계로 진입한 결과다.",
+        "해당 제품은 글로벌 로보틱스 공급망에 핵심 부품으로 탑재될 예정이다.",
+        "ToF는 피사체를 향해 발사한 빛이 반사돼 돌아오는 시간을 측정해 대상물의 거리와 공간 정보를 입체적으로 인식하는 기술이다."
+      ],
+      "change": "비교 가능한 과거 자료 없음 — 상향·하향·전망 변경 여부 미판정",
+      "claims": [
+        {
+          "id": "2da6f12ef90d10d979c42b98",
+          "text": "| 서울=한스경제 김종효 기자 | 코아시아씨엠의 자회사 코아시아씨엠코리아는 하나옵트로닉스와 ToF 기반 3D 센싱 카메라 모듈 양산 공급 계약을 체결하고 이달 중 초도 물량 출하에 돌입한다고 11일 밝혔다.",
+          "kind": "fact",
+          "author": "한스경제",
+          "source_ids": [
+            "1201a60a7e3e9265c7231d17"
+          ],
+          "evidence": [
+            {
+              "source_id": "1201a60a7e3e9265c7231d17",
+              "source_version_id": "c8df459e957a19f4deaafd24",
+              "start": 0,
+              "end": 115,
+              "text": "| 서울=한스경제 김종효 기자 | 코아시아씨엠의 자회사 코아시아씨엠코리아는 하나옵트로닉스와 ToF 기반 3D 센싱 카메라 모듈 양산 공급 계약을 체결하고 이달 중 초도 물량 출하에 돌입한다고 11일 밝혔다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "| 서울=한스경제 김종효 기자 | 코아시아씨엠의 자회사 코아시아씨엠코리아는 하나옵트로닉스와 ToF 기반 3D 센싱 카메라 모듈 양산 공급 계약을 체결하고 이달 중 초도 물량 출하에 돌입한다고 11일 밝혔다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote"
+          },
+          "numbers": []
+        },
+        {
+          "id": "52c9135ead91de666ea1c86d",
+          "text": "이번 계약은 지난 6월 양사가 ToF 모듈 솔루션 공동 개발 및 협력을 발표한 지 3개월 만에 양산 단계로 진입한 결과다.",
+          "kind": "fact",
+          "author": "한스경제",
+          "source_ids": [
+            "1201a60a7e3e9265c7231d17"
+          ],
+          "evidence": [
+            {
+              "source_id": "1201a60a7e3e9265c7231d17",
+              "source_version_id": "c8df459e957a19f4deaafd24",
+              "start": 117,
+              "end": 185,
+              "text": "이번 계약은 지난 6월 양사가 ToF 모듈 솔루션 공동 개발 및 협력을 발표한 지 3개월 만에 양산 단계로 진입한 결과다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "이번 계약은 지난 6월 양사가 ToF 모듈 솔루션 공동 개발 및 협력을 발표한 지 3개월 만에 양산 단계로 진입한 결과다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote"
+          },
+          "numbers": []
+        },
+        {
+          "id": "c41295ba934aab76b1db77f5",
+          "text": "해당 제품은 글로벌 로보틱스 공급망에 핵심 부품으로 탑재될 예정이다.",
+          "kind": "fact",
+          "author": "한스경제",
+          "source_ids": [
+            "1201a60a7e3e9265c7231d17"
+          ],
+          "evidence": [
+            {
+              "source_id": "1201a60a7e3e9265c7231d17",
+              "source_version_id": "c8df459e957a19f4deaafd24",
+              "start": 186,
+              "end": 224,
+              "text": "해당 제품은 글로벌 로보틱스 공급망에 핵심 부품으로 탑재될 예정이다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "해당 제품은 글로벌 로보틱스 공급망에 핵심 부품으로 탑재될 예정이다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote"
+          },
+          "numbers": []
+        },
+        {
+          "id": "803927c77acf2a02a35995dd",
+          "text": "ToF는 피사체를 향해 발사한 빛이 반사돼 돌아오는 시간을 측정해 대상물의 거리와 공간 정보를 입체적으로 인식하는 기술이다.",
+          "kind": "fact",
+          "author": "한스경제",
+          "source_ids": [
+            "1201a60a7e3e9265c7231d17"
+          ],
+          "evidence": [
+            {
+              "source_id": "1201a60a7e3e9265c7231d17",
+              "source_version_id": "c8df459e957a19f4deaafd24",
+              "start": 226,
+              "end": 295,
+              "text": "ToF는 피사체를 향해 발사한 빛이 반사돼 돌아오는 시간을 측정해 대상물의 거리와 공간 정보를 입체적으로 인식하는 기술이다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "ToF는 피사체를 향해 발사한 빛이 반사돼 돌아오는 시간을 측정해 대상물의 거리와 공간 정보를 입체적으로 인식하는 기술이다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote"
+          },
+          "numbers": []
+        }
+      ],
+      "document_ids": [
+        "1201a60a7e3e9265c7231d17"
+      ],
+      "source_versions": [
+        "c8df459e957a19f4deaafd24"
+      ],
+      "entities": [],
+      "selection_reason": [
+        "수집 범위 내 독립 발행자 1개",
+        "자료 기준 경과 14.7시간",
+        "이전 입력과 중복 내용",
+        "원문에 실행·결정 근거가 있는 기업 계약·제품·자본거래·승인"
+      ],
+      "follow_up": [
+        "원문과 기간·단위·작성 주체를 확인하고 해석을 검토하세요."
+      ],
+      "confidence": "source_checked",
+      "related_issue_id": null,
+      "late_discovered": false,
+      "analysis_provider": "extractive",
+      "model_status": "not_needed_source_korean",
+      "analysis_label": "한국어 원문에서 핵심 문장 선별",
+      "evidence_expired": false,
+      "evidence_partially_expired": false,
+      "has_full_text": true,
+      "has_message_text": false,
+      "prior_day_follow_up": false,
+      "original_title": "코아시아씨엠코리아, 로봇용 3D 센싱 모듈 양산",
+      "source_title_ko": "코아시아씨엠코리아, 로봇용 3D 센싱 모듈 양산",
+      "korean_required": true
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "naver_general",
+      "name": "네이버 종합 뉴스",
+      "status": "ok",
+      "document_count": 16
+    },
+    {
+      "source_id": "naver_investment",
+      "name": "네이버 투자 뉴스",
+      "status": "ok",
+      "document_count": 4
+    },
+    {
+      "source_id": "naver_blog",
+      "name": "네이버 블로그",
+      "status": "ok",
+      "document_count": 2
+    },
+    {
+      "source_id": "naver_einfomax",
+      "name": "연합인포맥스 · 네이버 검색",
+      "status": "no_news",
+      "document_count": 0
+    },
+    {
+      "source_id": "einfomax",
+      "name": "연합인포맥스",
+      "status": "ok",
+      "document_count": 1
+    },
+    {
+      "source_id": "telegram_joined",
+      "name": "가입 텔레그램 채널·그룹",
+      "status": "ok",
+      "document_count": 28
+    },
+    {
+      "source_id": "hani_general",
+      "name": "한겨레 종합",
+      "status": "disabled",
+      "document_count": 0
+    },
+    {
+      "source_id": "bbc_world",
+      "name": "비비시 국제",
+      "status": "disabled",
+      "document_count": 0
+    },
+    {
+      "source_id": "bbc_science",
+      "name": "비비시 과학",
+      "status": "disabled",
+      "document_count": 0
+    },
+    {
+      "source_id": "bbc_culture",
+      "name": "비비시 문화",
+      "status": "disabled",
+      "document_count": 0
+    },
+    {
+      "source_id": "fed_press",
+      "name": "미국 연방준비제도 발표",
+      "status": "ok",
+      "document_count": 2
+    },
+    {
+      "source_id": "fed_research",
+      "name": "미국 연방준비제도 연구",
+      "status": "no_news",
+      "document_count": 0
+    },
+    {
+      "source_id": "nvidia_ir",
+      "name": "엔비디아 기업 발표",
+      "status": "no_news",
+      "document_count": 0
+    },
+    {
+      "source_id": "sec_press",
+      "name": "미국 증권거래위원회 발표",
+      "status": "no_news",
+      "document_count": 0
+    },
+    {
+      "source_id": "bls_statistics",
+      "name": "미국 노동통계국",
+      "status": "access_blocked",
+      "document_count": 0
+    },
+    {
+      "source_id": "korea_policy",
+      "name": "대한민국 정책브리핑",
+      "status": "disabled",
+      "document_count": 0
+    },
+    {
+      "source_id": "bea_releases",
+      "name": "미국 경제분석국",
+      "status": "no_news",
+      "document_count": 0
+    },
+    {
+      "source_id": "bok_issue_notes",
+      "name": "한국은행 연구",
+      "status": "ok",
+      "document_count": 1
+    },
+    {
+      "source_id": "coca_cola_ir",
+      "name": "코카콜라 기업 발표",
+      "status": "no_news",
+      "document_count": 0
+    },
+    {
+      "source_id": "hani_economy",
+      "name": "한겨레 경제",
+      "status": "ok",
+      "document_count": 2
+    },
+    {
+      "source_id": "bbc_business",
+      "name": "비비시 경제",
+      "status": "no_news",
+      "document_count": 0
+    },
+    {
+      "source_id": "cnbc_finance",
+      "name": "시엔비시 금융",
+      "status": "no_news",
+      "document_count": 0
+    },
+    {
+      "source_id": "cnbc_economy",
+      "name": "시엔비시 경제",
+      "status": "no_news",
+      "document_count": 0
+    },
+    {
+      "source_id": "cnbc_earnings",
+      "name": "시엔비시 기업 실적",
+      "status": "no_news",
+      "document_count": 0
+    },
+    {
+      "source_id": "guardian_business",
+      "name": "가디언 경제",
+      "status": "no_news",
+      "document_count": 0
+    }
+  ],
+  "documents": [
+    {
+      "id": "03351617b9f5eed41785471e",
+      "version_id": "0d58223d68fb88478496a36c",
+      "source_id": "fed_press",
+      "source_kind": "official",
+      "title": "기관들이 지역 은행에 대한 규제 부담을 줄이고 18 개월 검사 주기에 대한 자격 요건을 확대합니다.",
+      "publisher": "미국 연방준비제도",
+      "author": "",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260910a.htm",
+      "published_at": null,
+      "provided_at": "2026-09-10T20:00:00+00:00",
+      "modified_at": null,
+      "collected_at": "2026-09-11T04:27:26.729656+00:00",
+      "event_at": null,
+      "time_basis": "rss_provided_at",
+      "full_text": true,
+      "text_scope": "기사·문서 본문 확보",
+      "evidence_expired": false,
+      "extraction_quality": "article_text",
+      "synthetic": false
+    },
+    {
+      "id": "4686ba356db2364b67118eef",
+      "version_id": "19c0307634a335f76010a172",
+      "source_id": "naver_einfomax",
+      "source_kind": "news",
+      "title": "美 9월 미시간대 소비심리지수 예비치 47.8…2개월 연속 급락(상보)",
+      "publisher": "연합인포맥스",
+      "author": "",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434537",
+      "published_at": "2026-09-11T16:50:35+00:00",
+      "provided_at": "2026-09-11T16:52:00+00:00",
+      "modified_at": null,
+      "collected_at": "2026-09-11T20:44:37.751205+00:00",
+      "event_at": null,
+      "time_basis": "original_published_at",
+      "full_text": true,
+      "text_scope": "기사·문서 본문 확보",
+      "evidence_expired": false,
+      "extraction_quality": "article_text",
+      "synthetic": false
+    },
+    {
+      "id": "654ec2f2c5145a785392d816",
+      "version_id": "1f6b86f91d12d21eb4e82b27",
+      "source_id": "einfomax",
+      "source_kind": "news",
+      "title": "美 8월 기존주택 판매 전월比 2.0% 감소…모기지금리 상승 탓",
+      "publisher": "연합인포맥스",
+      "author": "",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434354",
+      "published_at": "2026-09-10T16:39:52+00:00",
+      "provided_at": null,
+      "modified_at": null,
+      "collected_at": "2026-09-11T07:29:59.561520+00:00",
+      "event_at": null,
+      "time_basis": "original_published_at",
+      "full_text": true,
+      "text_scope": "기사·문서 본문 확보",
+      "evidence_expired": false,
+      "extraction_quality": "article_text",
+      "synthetic": false
+    },
+    {
+      "id": "900917ae6f763ca3fd3d04ba",
+      "version_id": "20bd71e65b5dada4d235988d",
+      "source_id": "naver_investment",
+      "source_kind": "news",
+      "title": "월가, 이란 전쟁에 유가 '쇼크' 장기화 관측…가격 전망 상향 잇따라",
+      "publisher": "연합인포맥스",
+      "author": "",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434495",
+      "published_at": "2026-09-11T07:00:36+00:00",
+      "provided_at": "2026-09-11T07:02:00+00:00",
+      "modified_at": null,
+      "collected_at": "2026-09-11T07:27:40.657913+00:00",
+      "event_at": null,
+      "time_basis": "original_published_at",
+      "full_text": true,
+      "text_scope": "기사·문서 본문 확보",
+      "evidence_expired": false,
+      "extraction_quality": "article_text",
+      "synthetic": false
+    },
+    {
+      "id": "2c7ae7477faba626215287df",
+      "version_id": "2da74564f110d914692890c1",
+      "source_id": "naver_investment",
+      "source_kind": "news",
+      "title": "[美증시 특징주] 델·HPE 서버수주 폭발에 폭등…오라클발 서버 수요 가속화",
+      "publisher": "미디어펜",
+      "author": "김종현",
+      "url": "https://www.mediapen.com/news/view/1123062",
+      "published_at": "2026-09-11T19:02:26+00:00",
+      "provided_at": "2026-09-11T19:04:00+00:00",
+      "modified_at": "2026-09-11T19:02:26+00:00",
+      "collected_at": "2026-09-11T20:44:04.612498+00:00",
+      "event_at": null,
+      "time_basis": "original_published_at",
+      "full_text": true,
+      "text_scope": "기사·문서 본문 확보",
+      "evidence_expired": false,
+      "extraction_quality": "article_text",
+      "synthetic": false
+    },
+    {
+      "id": "f13e7c0deb2aa10a40fa9d92",
+      "version_id": "2f44a491d4b5989611186f00",
+      "source_id": "naver_general",
+      "source_kind": "news",
+      "title": "미 근원 CPI 예상치 상회…유가·국채 발작 겹쳐 ‘긴축 공포’",
+      "publisher": "중앙일보",
+      "author": "장서윤",
+      "url": "https://www.joongang.co.kr/article/25461234",
+      "published_at": "2026-09-11T16:10:08+00:00",
+      "provided_at": "2026-09-11T16:11:00+00:00",
+      "modified_at": null,
+      "collected_at": "2026-09-11T20:42:37.652234+00:00",
+      "event_at": null,
+      "time_basis": "original_published_at",
+      "full_text": true,
+      "text_scope": "기사·문서 본문 확보",
+      "evidence_expired": false,
+      "extraction_quality": "article_text",
+      "synthetic": false
+    },
+    {
+      "id": "55c9b9b40fc87ebf56f9ef05",
+      "version_id": "3a84b5daff04e39dfe1e3f94",
+      "source_id": "naver_general",
+      "source_kind": "news",
+      "title": "[GAM] 에어로바이런먼트 ① 사상 최대 분기 매출로 어닝 서프라이즈",
+      "publisher": "뉴스핌",
+      "author": "김현영 기자",
+      "url": "https://www.newspim.com/news/view/20260912000011",
+      "published_at": "2026-09-11T16:38:00+00:00",
+      "provided_at": "2026-09-11T16:38:00+00:00",
+      "modified_at": "2026-09-11T16:38:00+00:00",
+      "collected_at": "2026-09-11T20:43:33.280921+00:00",
+      "event_at": null,
+      "time_basis": "original_published_at",
+      "full_text": true,
+      "text_scope": "기사·문서 본문 확보",
+      "evidence_expired": false,
+      "extraction_quality": "article_text",
+      "synthetic": false
+    },
+    {
+      "id": "2499d2f34d35057581750ed3",
+      "version_id": "3b60a4a5771b5a93cd6cc4fd",
+      "source_id": "naver_investment",
+      "source_kind": "news",
+      "title": "마이리얼트립, 아웃바운드이어 인바운드까지…크리에이트립 인수",
+      "publisher": "녹색경제신문",
+      "author": "",
+      "url": "https://www.greened.kr/news/articleView.html?idxno=349905",
+      "published_at": "2026-09-11T07:17:00+00:00",
+      "provided_at": "2026-09-11T07:17:00+00:00",
+      "modified_at": null,
+      "collected_at": "2026-09-11T20:43:44.070385+00:00",
+      "event_at": null,
+      "time_basis": "original_published_at",
+      "full_text": true,
+      "text_scope": "기사·문서 본문 확보",
+      "evidence_expired": false,
+      "extraction_quality": "article_text",
+      "synthetic": false
+    },
+    {
+      "id": "ee7dcc60ba591f00e6dd15b9",
+      "version_id": "5fca5a75e352a6faefc99523",
+      "source_id": "naver_einfomax",
+      "source_kind": "news",
+      "title": "영국 7월 GDP 전월비 0.4%↑…성장세 유지(상보)",
+      "publisher": "연합인포맥스",
+      "author": "",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434510",
+      "published_at": "2026-09-11T08:40:15+00:00",
+      "provided_at": "2026-09-11T08:42:00+00:00",
+      "modified_at": null,
+      "collected_at": "2026-09-11T20:44:59.791451+00:00",
+      "event_at": null,
+      "time_basis": "original_published_at",
+      "full_text": true,
+      "text_scope": "기사·문서 본문 확보",
+      "evidence_expired": false,
+      "extraction_quality": "article_text",
+      "synthetic": false
+    },
+    {
+      "id": "2878f03bbb92036a59bafa93",
+      "version_id": "62e045ad6d0366586ca20124",
+      "source_id": "naver_investment",
+      "source_kind": "news",
+      "title": "유가 진정·美 CPI 안도...미국증시 3대 지수 '활짝'",
+      "publisher": "초이스경제",
+      "author": "",
+      "url": "http://www.choicenews.co.kr/news/articleView.html?idxno=171204",
+      "published_at": "2026-09-11T20:42:08+00:00",
+      "provided_at": "2026-09-11T20:42:00+00:00",
+      "modified_at": null,
+      "collected_at": "2026-09-11T20:43:46.109763+00:00",
+      "event_at": null,
+      "time_basis": "original_published_at",
+      "full_text": true,
+      "text_scope": "기사·문서 본문 확보",
+      "evidence_expired": false,
+      "extraction_quality": "article_text",
+      "synthetic": false
+    },
+    {
+      "id": "95608716bec0a5379c71518b",
+      "version_id": "7b696bba54396ddf06fa62ad",
+      "source_id": "naver_investment",
+      "source_kind": "news",
+      "title": "와이즈플래닛컴퍼니, 공모가 1만2000원 확정…기관 수요예측 1248대 1",
+      "publisher": "문화경제",
+      "author": "김예은 기자",
+      "url": "https://www.cnbizm.com/news/articleView.html?idxno=314865",
+      "published_at": "2026-09-11T07:49:36+00:00",
+      "provided_at": "2026-09-11T07:50:00+00:00",
+      "modified_at": "2026-09-11T07:49:36+00:00",
+      "collected_at": "2026-09-11T20:43:43.780513+00:00",
+      "event_at": null,
+      "time_basis": "original_published_at",
+      "full_text": true,
+      "text_scope": "기사·문서 본문 확보",
+      "evidence_expired": false,
+      "extraction_quality": "article_text",
+      "synthetic": false
+    },
+    {
+      "id": "2fd52dcdb8267e426761dac1",
+      "version_id": "84f73587ef1ae85d0d1f74eb",
+      "source_id": "naver_general",
+      "source_kind": "news",
+      "title": "칼시, 암호화폐 이어 금·은 무기한 선물 거래 시작…CFTC 승인 확보",
+      "publisher": "디지털투데이 (DigitalToday)",
+      "author": "",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=699883",
+      "published_at": "2026-09-11T01:28:39+00:00",
+      "provided_at": "2026-09-11T01:30:00+00:00",
+      "modified_at": null,
+      "collected_at": "2026-09-11T20:43:24.379529+00:00",
+      "event_at": null,
+      "time_basis": "original_published_at",
+      "full_text": true,
+      "text_scope": "기사·문서 본문 확보",
+      "evidence_expired": false,
+      "extraction_quality": "article_text",
+      "synthetic": false
+    },
+    {
+      "id": "fb5106325ec8078720868798",
+      "version_id": "8900bd0c67ac060315be8d70",
+      "source_id": "fed_press",
+      "source_kind": "pdf",
+      "title": "연방준비제도 이사회: bcreg20260910a1.pdf",
+      "publisher": "미국 연방준비제도",
+      "author": "",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/files/bcreg20260910a1.pdf",
+      "published_at": null,
+      "provided_at": "2026-09-10T20:00:00+00:00",
+      "modified_at": null,
+      "collected_at": "2026-09-11T04:51:03.092710+00:00",
+      "event_at": null,
+      "time_basis": "attachment_provided_at",
+      "full_text": true,
+      "text_scope": "PDF 텍스트층 확보",
+      "evidence_expired": false,
+      "extraction_quality": "text_layer",
+      "synthetic": false
+    },
+    {
+      "id": "2a2e069ca693999478c439af",
+      "version_id": "8deb0f9aa36a7ecb366988f7",
+      "source_id": "naver_investment",
+      "source_kind": "news",
+      "title": "유가·금리 '쇼크'...일본증시 '장중 뚝', 키옥시아 '급락'",
+      "publisher": "초이스경제",
+      "author": "",
+      "url": "http://www.choicenews.co.kr/news/articleView.html?idxno=171192",
+      "published_at": "2026-09-11T05:12:37+00:00",
+      "provided_at": "2026-09-11T05:14:00+00:00",
+      "modified_at": null,
+      "collected_at": "2026-09-11T07:27:46.281857+00:00",
+      "event_at": null,
+      "time_basis": "original_published_at",
+      "full_text": true,
+      "text_scope": "기사·문서 본문 확보",
+      "evidence_expired": false,
+      "extraction_quality": "article_text",
+      "synthetic": false
+    },
+    {
+      "id": "f2d17abb5aaa89baf123060d",
+      "version_id": "9153e82f5e978d98b44608c2",
+      "source_id": "naver_general",
+      "source_kind": "news",
+      "title": "9월 누적 수출액 급등 … 82% 증가한 350억弗",
+      "publisher": "매일경제",
+      "author": "강인선",
+      "url": "https://www.mk.co.kr/article/12150722",
+      "published_at": "2026-09-11T09:00:12+00:00",
+      "provided_at": "2026-09-11T09:01:00+00:00",
+      "modified_at": "2026-09-11T11:01:50+00:00",
+      "collected_at": "2026-09-11T20:43:11.964575+00:00",
+      "event_at": null,
+      "time_basis": "original_published_at",
+      "full_text": true,
+      "text_scope": "기사·문서 본문 확보",
+      "evidence_expired": false,
+      "extraction_quality": "article_text",
+      "synthetic": false
+    },
+    {
+      "id": "9a5ed0d7572f029ecaa4bca1",
+      "version_id": "938282dc2c490854fecbb88b",
+      "source_id": "naver_general",
+      "source_kind": "news",
+      "title": "삼성E&A, 사우디서 4.7조원 잭팟…해외수주 목표 9개월 만에 넘겼다",
+      "publisher": "머니스톰",
+      "author": "박진영 기자",
+      "url": "https://www.moneystorm.kr/news/articleView.html?idxno=6427",
+      "published_at": "2026-09-11T21:24:04+00:00",
+      "provided_at": "2026-09-11T21:24:00+00:00",
+      "modified_at": "2026-09-11T21:42:02+00:00",
+      "collected_at": "2026-09-11T21:46:10.347625+00:00",
+      "event_at": null,
+      "time_basis": "original_published_at",
+      "full_text": true,
+      "text_scope": "기사·문서 본문 확보",
+      "evidence_expired": false,
+      "extraction_quality": "article_text",
+      "synthetic": false
+    },
+    {
+      "id": "c4e2e3e6a5349b06a5ffbef3",
+      "version_id": "a22ced2831b36ff55d21b45f",
+      "source_id": "naver_investment",
+      "source_kind": "news",
+      "title": "삼성바이오, 유럽 제약사와 3508억원 CMO 계약…2033년까지 장기 공급",
+      "publisher": "약사공론",
+      "author": "임태균 기자",
+      "url": "https://www.kpanews.co.kr/news/articleView.html?idxno=543635",
+      "published_at": "2026-09-11T03:12:40+00:00",
+      "provided_at": "2026-09-11T03:14:00+00:00",
+      "modified_at": "2026-09-11T03:12:40+00:00",
+      "collected_at": "2026-09-11T07:27:39.503851+00:00",
+      "event_at": null,
+      "time_basis": "original_published_at",
+      "full_text": true,
+      "text_scope": "기사·문서 본문 확보",
+      "evidence_expired": false,
+      "extraction_quality": "article_text",
+      "synthetic": false
+    },
+    {
+      "id": "1c5e3b392465383a51f5ac2c",
+      "version_id": "a3ee536d058ca3d0d9e1e106",
+      "source_id": "private_telegram",
+      "source_kind": "private",
+      "title": "관련 요약",
+      "publisher": "텔레그램",
+      "author": "",
+      "url": "",
+      "published_at": "2026-09-10T06:23:11+00:00",
+      "provided_at": null,
+      "modified_at": "2026-09-10T06:37:22+00:00",
+      "collected_at": "2026-09-11T06:34:34.964471+00:00",
+      "event_at": null,
+      "time_basis": "telegram_message_at",
+      "full_text": true,
+      "text_scope": "선정 자료",
+      "evidence_expired": false,
+      "extraction_quality": "message_text",
+      "synthetic": false
+    },
+    {
+      "id": "bbbdd87abaa10cc1d5382ad2",
+      "version_id": "c5674f703654b44957eb4515",
+      "source_id": "telegram_joined",
+      "source_kind": "news",
+      "title": "TSMC 8월 매출 53% 껑충...\"설비 확대에도 AI칩 수요 못 따라잡아\"",
+      "publisher": "뉴스핌",
+      "author": "오상용 ",
+      "url": "https://www.newspim.com/news/view/20260910000930?sicode=01",
+      "published_at": "2026-09-10T06:13:00+00:00",
+      "provided_at": null,
+      "modified_at": "2026-09-10T06:20:00+00:00",
+      "collected_at": "2026-09-11T07:41:07.970245+00:00",
+      "event_at": null,
+      "time_basis": "original_published_at",
+      "full_text": true,
+      "text_scope": "기사·문서 본문 확보",
+      "evidence_expired": false,
+      "extraction_quality": "article_text",
+      "synthetic": false
+    },
+    {
+      "id": "1201a60a7e3e9265c7231d17",
+      "version_id": "c8df459e957a19f4deaafd24",
+      "source_id": "naver_general",
+      "source_kind": "news",
+      "title": "코아시아씨엠코리아, 로봇용 3D 센싱 모듈 양산",
+      "publisher": "한스경제",
+      "author": "",
+      "url": "http://www.hansbiz.co.kr/news/articleView.html?idxno=864483",
+      "published_at": "2026-09-11T07:20:36+00:00",
+      "provided_at": "2026-09-11T07:22:00+00:00",
+      "modified_at": null,
+      "collected_at": "2026-09-11T07:25:49.987325+00:00",
+      "event_at": null,
+      "time_basis": "original_published_at",
+      "full_text": true,
+      "text_scope": "기사·문서 본문 확보",
+      "evidence_expired": false,
+      "extraction_quality": "article_text",
+      "synthetic": false
+    },
+    {
+      "id": "b1745cce99824e7a003e5be2",
+      "version_id": "e1e876fb0eb15b2cfb74ac2c",
+      "source_id": "cnbc_earnings",
+      "source_kind": "news",
+      "title": "오라클, AI 클라우드 수요로 매출 30% 성장…부채 1,250억 달러 기록",
+      "publisher": "시엔비시",
+      "author": "Sawdah Bhaimiya",
+      "url": "https://www.cnbc.com/2026/09/11/oracle-stock-q1-earnings-ai-cloud.html",
+      "published_at": "2026-09-11T11:22:05+00:00",
+      "provided_at": "2026-09-11T20:04:35+00:00",
+      "modified_at": "2026-09-11T20:04:35+00:00",
+      "collected_at": "2026-09-11T20:51:51.688613+00:00",
+      "event_at": null,
+      "time_basis": "original_published_at",
+      "full_text": true,
+      "text_scope": "기사·문서 본문 확보",
+      "evidence_expired": false,
+      "extraction_quality": "article_text",
+      "synthetic": false
+    },
+    {
+      "id": "373a3eb6d718cf5d5a131109",
+      "version_id": "f628b913d3f80c809cbced0d",
+      "source_id": "cnbc_earnings",
+      "source_kind": "news",
+      "title": "메이시스가 강력한 실적을 발표하고 전환이 본격화됨에 따라 실적 전망을 상향 조정했습니다.",
+      "publisher": "시엔비시",
+      "author": "Laya Neelakandan",
+      "url": "https://www.cnbc.com/2026/09/10/macys-m-q2-2026-earnings.html",
+      "published_at": "2026-09-10T10:56:08+00:00",
+      "provided_at": "2026-09-10T20:49:05+00:00",
+      "modified_at": "2026-09-10T20:49:05+00:00",
+      "collected_at": "2026-09-11T20:51:53.782876+00:00",
+      "event_at": null,
+      "time_basis": "original_published_at",
+      "full_text": true,
+      "text_scope": "기사·문서 본문 확보",
+      "evidence_expired": false,
+      "extraction_quality": "article_text",
+      "synthetic": false
+    }
+  ],
+  "coverage": {
+    "window_start": "2026-09-05T07:00:00+09:00",
+    "us_market_status": "거래일",
+    "us_last_completed_session": "2026-09-11",
+    "sectors": [],
+    "countries": [
+      "US"
+    ],
+    "window_end_exclusive": "2026-09-12T07:00:00+09:00",
+    "documents": 2113,
+    "full_text": 1951,
+    "missing_sources": [
+      "bls_statistics"
+    ],
+    "us_market_time": "2026-09-11T18:00:00-04:00",
+    "exclusions": {
+      "older_than_window": 54,
+      "unknown_time": 174,
+      "superseded_versions": 61,
+      "late_discovered": 0,
+      "selected": 2113
+    },
+    "categories": {
+      "economy": 470,
+      "research": 1355,
+      "general": 238,
+      "international": 20,
+      "culture": 12,
+      "finance": 5,
+      "science": 7,
+      "company": 4,
+      "regulation": 2
+    }
+  },
+  "editorial_focus": "economy_finance_business",
+  "korean_required": true,
+  "translation": {
+    "status": "complete",
+    "issues_completed": 20,
+    "issues_pending": 0,
+    "foreign_issues_completed": 4
+  },
+  "publication": {
+    "withheld_private_documents": 1118,
+    "full_text_included": false,
+    "withheld_private_quote_issues": 0,
+    "withheld_full_text_issues": 0,
+    "visibility": "public",
+    "approved_local_summaries": true
+  },
+  "synthetic": false,
+  "notice": "본 프로젝트는 비상업적 개인 학습·연구를 위한 리서치 자동화 도구입니다. 자료의 출처를 표시하며 원문 권리는 각 권리자에게 있습니다."
+}

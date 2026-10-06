@@ -1,0 +1,4906 @@
+{
+  "schema_version": "1",
+  "run_id": "00388c948f9559e462bf4457",
+  "report_date": "2026-09-28",
+  "cutoff": "2026-09-28T21:26:19.686865+09:00",
+  "generated_at": "2026-09-29T09:48:25.067390+00:00",
+  "mode": "reconstruction",
+  "status": "partial",
+  "language": "ko",
+  "timezone": "Asia/Seoul",
+  "input_manifest_hash": "7c67791deb94e88d08d142bde6421aa81d93e473e7caa55bed2d7764815f8e90",
+  "highlights": [
+    "中은 석탄·농산물, 美는 장난감·가전…300억달러 상호 관세인하 품목 공개",
+    "BCA리서치 \"美 실업률 4% 이하로 하락하면 물가 압력 키울 수도\"",
+    "中, 美와 무역전쟁 휴전 2개월 연장 확인..석탄 관세 추가 인하",
+    "美국채금리 급등에 달러 강세…한은 \"시장 변동성 확대될 수도\" - 머니투데이"
+  ],
+  "delivery_target": null,
+  "generation_delayed": false,
+  "issues": [
+    {
+      "id": "921618f67254b8873a500ef6",
+      "anchor": "issue-21fd3c9b61eb8bc5",
+      "editorial_scope": "macro",
+      "event_type": "policy",
+      "title": "中은 석탄·농산물, 美는 장난감·가전…300억달러 상호 관세인하 품목 공개",
+      "section": "overnight",
+      "category": "economy",
+      "summary": [
+        "중국 정부가 미국과 '무역전쟁 휴전' 2개월 연장을 공식 확인하고 미국산 석탄에 부과하는 관세를 추가 인하한다고 밝혔다.",
+        "동시에 관세 인하 목록에 오른 미국 제품 중 90%에 '최혜국' 세율을 적용하기로 했다.",
+        "중국 상무부는 28일 발표에서 미주·대양주 담당 국장 명의로 설명 자료를 내고 지난 20~23일(현지시간) 미국에서 진행한 제8차 미중 경제·무역 협상 결과에 대해 설명했다.",
+        "앞서 미국의 스콧 베선트 재무장관은 23일 인터뷰에서 오는 11월 10일 종료 예정이었던 양국의 무역전쟁 휴전을 내년 1월 10일까지 연장한다고 밝혔다."
+      ],
+      "change": "비교 가능한 과거 자료 없음 — 상향·하향·전망 변경 여부 미판정",
+      "claims": [
+        {
+          "id": "b9b15e284ceab95be2350ab0",
+          "text": "중국 정부가 미국과 '무역전쟁 휴전' 2개월 연장을 공식 확인하고 미국산 석탄에 부과하는 관세를 추가 인하한다고 밝혔다.",
+          "kind": "fact",
+          "author": "박종원",
+          "source_ids": [
+            "dce85642f7290a1c2df8b474"
+          ],
+          "evidence": [
+            {
+              "source_id": "dce85642f7290a1c2df8b474",
+              "source_version_id": "f2be8c0bf0a0af7f4f019a2c",
+              "start": 21,
+              "end": 88,
+              "text": "중국 정부가 미국과 '무역전쟁 휴전' 2개월 연장을 공식 확인하고 미국산 석탄에 부과하는 관세를 추가 인하한다고 밝혔다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "중국 정부가 미국과 '무역전쟁 휴전' 2개월 연장을 공식 확인하고 미국산 석탄에 부과하는 관세를 추가 인하한다고 밝혔다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "0cab50ba9afb1d406cc58635",
+          "text": "동시에 관세 인하 목록에 오른 미국 제품 중 90%에 '최혜국' 세율을 적용하기로 했다.",
+          "kind": "fact",
+          "author": "박종원",
+          "source_ids": [
+            "dce85642f7290a1c2df8b474"
+          ],
+          "evidence": [
+            {
+              "source_id": "dce85642f7290a1c2df8b474",
+              "source_version_id": "f2be8c0bf0a0af7f4f019a2c",
+              "start": 89,
+              "end": 138,
+              "text": "동시에 관세 인하 목록에 오른 미국 제품 중 90%에 '최혜국' 세율을 적용하기로 했다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "동시에 관세 인하 목록에 오른 미국 제품 중 90%에 '최혜국' 세율을 적용하기로 했다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "1da064ea9a23e437e4fcf496",
+          "text": "중국 상무부는 28일 발표에서 미주·대양주 담당 국장 명의로 설명 자료를 내고 지난 20~23일(현지시간) 미국에서 진행한 제8차 미중 경제·무역 협상 결과에 대해 설명했다.",
+          "kind": "fact",
+          "author": "박종원",
+          "source_ids": [
+            "dce85642f7290a1c2df8b474"
+          ],
+          "evidence": [
+            {
+              "source_id": "dce85642f7290a1c2df8b474",
+              "source_version_id": "f2be8c0bf0a0af7f4f019a2c",
+              "start": 140,
+              "end": 237,
+              "text": "중국 상무부는 28일 발표에서 미주·대양주 담당 국장 명의로 설명 자료를 내고 지난 20~23일(현지시간) 미국에서 진행한 제8차 미중 경제·무역 협상 결과에 대해 설명했다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "중국 상무부는 28일 발표에서 미주·대양주 담당 국장 명의로 설명 자료를 내고 지난 20~23일(현지시간) 미국에서 진행한 제8차 미중 경제·무역 협상 결과에 대해 설명했다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "710d74f39a7f58302fe23840",
+          "text": "앞서 미국의 스콧 베선트 재무장관은 23일 인터뷰에서 오는 11월 10일 종료 예정이었던 양국의 무역전쟁 휴전을 내년 1월 10일까지 연장한다고 밝혔다.",
+          "kind": "fact",
+          "author": "박종원",
+          "source_ids": [
+            "dce85642f7290a1c2df8b474"
+          ],
+          "evidence": [
+            {
+              "source_id": "dce85642f7290a1c2df8b474",
+              "source_version_id": "f2be8c0bf0a0af7f4f019a2c",
+              "start": 238,
+              "end": 323,
+              "text": "앞서 미국의 스콧 베선트 재무장관은 23일 인터뷰에서 오는 11월 10일 종료 예정이었던 양국의 무역전쟁 휴전을 내년 1월 10일까지 연장한다고 밝혔다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "앞서 미국의 스콧 베선트 재무장관은 23일 인터뷰에서 오는 11월 10일 종료 예정이었던 양국의 무역전쟁 휴전을 내년 1월 10일까지 연장한다고 밝혔다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "announcement"
+          },
+          "numbers": []
+        }
+      ],
+      "event_schedules": [],
+      "document_ids": [
+        "dce85642f7290a1c2df8b474"
+      ],
+      "source_versions": [
+        "f2be8c0bf0a0af7f4f019a2c"
+      ],
+      "entities": [],
+      "selection_reason": [
+        "수집 범위 내 독립 발행자 1개",
+        "자료 기준 경과 2.9시간",
+        "이전 입력 대비 신규 문서",
+        "수치가 명시된 거시 지표 발표 또는 확정된 통화·무역 정책 변경"
+      ],
+      "follow_up": [
+        "원문과 기간·단위·작성 주체를 확인하고 해석을 검토하세요."
+      ],
+      "confidence": "source_checked",
+      "related_issue_id": null,
+      "late_discovered": false,
+      "analysis_provider": "extractive",
+      "model_status": "not_needed_source_korean",
+      "analysis_label": "한국어 원문에서 핵심 문장 선별",
+      "evidence_expired": false,
+      "evidence_partially_expired": false,
+      "has_full_text": true,
+      "has_message_text": false,
+      "prior_day_follow_up": false,
+      "original_title": "中은 석탄·농산물, 美는 장난감·가전…300억달러 상호 관세인하 품목 공개",
+      "source_title_ko": "中은 석탄·농산물, 美는 장난감·가전…300억달러 상호 관세인하 품목 공개",
+      "korean_required": true
+    },
+    {
+      "id": "574c2e8883d178aacc1057d8",
+      "anchor": "issue-6ada97b8a2b38c0b",
+      "editorial_scope": "macro",
+      "event_type": "macro_release",
+      "title": "BCA리서치 \"美 실업률 4% 이하로 하락하면 물가 압력 키울 수도\"",
+      "section": "overnight",
+      "category": "economy",
+      "summary": [
+        "미국의 노동 공급이 줄면서 실업률이 4% 이하로 하락할 경우 물가 상승 압력이 커질 것이란 분석이 나왔다.",
+        "시장 일각에서는 현재 물가상승률 상승 원인으로 지목되는 향후 관세와 에너지 가격의 영향이 약해진 뒤에도 노동시장의 구조적 인력 부족이 물가상승률을 연방준비제도(Fed·연준)의 목표치 위에 머물게 할 가능성이 제기되고 있다.",
+        "이에 대해 BCA리서치는 지난 1999~2000년과 2018~2019년에는 실업률이 4%를 밑돌아도 물가상승률이 높지 않았지만, 이번에는 실업률이 4% 아래로 내려가면 물가 상승 압력이 커질 수 있다고 봤다.",
+        "BCA리서치는 그러나 물가 압력이 예상보다 오래 지속될 가능성은 남아 있다며, 1년 내 연준이 시장 예상보다 매파적인 정책으로 시장을 놀라게 할 수 있다고 내다봤다."
+      ],
+      "change": "비교 가능한 과거 자료 없음 — 상향·하향·전망 변경 여부 미판정",
+      "claims": [
+        {
+          "id": "d5ca8ef2dd1034a76b55e711",
+          "text": "미국의 노동 공급이 줄면서 실업률이 4% 이하로 하락할 경우 물가 상승 압력이 커질 것이란 분석이 나왔다.",
+          "kind": "fact",
+          "author": "김지연 기자",
+          "source_ids": [
+            "17393d174cd91f049737161b"
+          ],
+          "evidence": [
+            {
+              "source_id": "17393d174cd91f049737161b",
+              "source_version_id": "26401f7d7daf93668652c6bd",
+              "start": 32,
+              "end": 91,
+              "text": "미국의 노동 공급이 줄면서 실업률이 4% 이하로 하락할 경우 물가 상승 압력이 커질 것이란 분석이 나왔다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "미국의 노동 공급이 줄면서 실업률이 4% 이하로 하락할 경우 물가 상승 압력이 커질 것이란 분석이 나왔다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "2bef1069bf7b7b9ebd4c9cbb",
+          "text": "시장 일각에서는 현재 물가상승률 상승 원인으로 지목되는 향후 관세와 에너지 가격의 영향이 약해진 뒤에도 노동시장의 구조적 인력 부족이 물가상승률을 연방준비제도(Fed·연준)의 목표치 위에 머물게 할 가능성이 제기되고 있다.",
+          "kind": "author_opinion",
+          "author": "김지연 기자",
+          "source_ids": [
+            "17393d174cd91f049737161b"
+          ],
+          "evidence": [
+            {
+              "source_id": "17393d174cd91f049737161b",
+              "source_version_id": "26401f7d7daf93668652c6bd",
+              "start": 260,
+              "end": 384,
+              "text": "시장 일각에서는 현재 물가상승률 상승 원인으로 지목되는 향후 관세와 에너지 가격의 영향이 약해진 뒤에도 노동시장의 구조적 인력 부족이 물가상승률을 연방준비제도(Fed·연준)의 목표치 위에 머물게 할 가능성이 제기되고 있다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "시장 일각에서는 현재 물가상승률 상승 원인으로 지목되는 향후 관세와 에너지 가격의 영향이 약해진 뒤에도 노동시장의 구조적 인력 부족이 물가상승률을 연방준비제도(Fed·연준)의 목표치 위에 머물게 할 가능성이 제기되고 있다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "forecast"
+          },
+          "numbers": []
+        },
+        {
+          "id": "d5b09b94bad29526ea884abf",
+          "text": "이에 대해 BCA리서치는 지난 1999~2000년과 2018~2019년에는 실업률이 4%를 밑돌아도 물가상승률이 높지 않았지만, 이번에는 실업률이 4% 아래로 내려가면 물가 상승 압력이 커질 수 있다고 봤다.",
+          "kind": "author_opinion",
+          "author": "김지연 기자",
+          "source_ids": [
+            "17393d174cd91f049737161b"
+          ],
+          "evidence": [
+            {
+              "source_id": "17393d174cd91f049737161b",
+              "source_version_id": "26401f7d7daf93668652c6bd",
+              "start": 386,
+              "end": 502,
+              "text": "이에 대해 BCA리서치는 지난 1999~2000년과 2018~2019년에는 실업률이 4%를 밑돌아도 물가상승률이 높지 않았지만, 이번에는 실업률이 4% 아래로 내려가면 물가 상승 압력이 커질 수 있다고 봤다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "이에 대해 BCA리서치는 지난 1999~2000년과 2018~2019년에는 실업률이 4%를 밑돌아도 물가상승률이 높지 않았지만, 이번에는 실업률이 4% 아래로 내려가면 물가 상승 압력이 커질 수 있다고 봤다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "forecast"
+          },
+          "numbers": []
+        },
+        {
+          "id": "3d8ded7e24f6db3d97274656",
+          "text": "BCA리서치는 그러나 물가 압력이 예상보다 오래 지속될 가능성은 남아 있다며, 1년 내 연준이 시장 예상보다 매파적인 정책으로 시장을 놀라게 할 수 있다고 내다봤다.",
+          "kind": "author_opinion",
+          "author": "김지연 기자",
+          "source_ids": [
+            "17393d174cd91f049737161b"
+          ],
+          "evidence": [
+            {
+              "source_id": "17393d174cd91f049737161b",
+              "source_version_id": "26401f7d7daf93668652c6bd",
+              "start": 1071,
+              "end": 1163,
+              "text": "BCA리서치는 그러나 물가 압력이 예상보다 오래 지속될 가능성은 남아 있다며, 1년 내 연준이 시장 예상보다 매파적인 정책으로 시장을 놀라게 할 수 있다고 내다봤다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "BCA리서치는 그러나 물가 압력이 예상보다 오래 지속될 가능성은 남아 있다며, 1년 내 연준이 시장 예상보다 매파적인 정책으로 시장을 놀라게 할 수 있다고 내다봤다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "forecast"
+          },
+          "numbers": []
+        }
+      ],
+      "event_schedules": [
+        {
+          "event_start": "2026-10-02",
+          "event_end": "2026-10-02",
+          "date_label": "10/2",
+          "action": "발표",
+          "status": "scheduled"
+        }
+      ],
+      "document_ids": [
+        "17393d174cd91f049737161b"
+      ],
+      "source_versions": [
+        "26401f7d7daf93668652c6bd"
+      ],
+      "entities": [],
+      "selection_reason": [
+        "수집 범위 내 독립 발행자 1개",
+        "자료 기준 경과 5.6시간",
+        "이전 입력 대비 신규 문서",
+        "수치가 명시된 거시 지표 발표 또는 확정된 통화·무역 정책 변경"
+      ],
+      "follow_up": [
+        "원문과 기간·단위·작성 주체를 확인하고 해석을 검토하세요."
+      ],
+      "confidence": "source_checked",
+      "related_issue_id": null,
+      "late_discovered": false,
+      "analysis_provider": "extractive",
+      "model_status": "not_needed_source_korean",
+      "analysis_label": "한국어 원문에서 핵심 문장 선별",
+      "evidence_expired": false,
+      "evidence_partially_expired": false,
+      "has_full_text": true,
+      "has_message_text": false,
+      "prior_day_follow_up": false,
+      "original_title": "BCA리서치 \"美 실업률 4% 이하로 하락하면 물가 압력 키울 수도\"",
+      "source_title_ko": "BCA리서치 \"美 실업률 4% 이하로 하락하면 물가 압력 키울 수도\"",
+      "korean_required": true
+    },
+    {
+      "id": "35423cfa7e8a564814fe69bf",
+      "anchor": "issue-6601fd3f855f47c7",
+      "editorial_scope": "macro",
+      "event_type": "policy",
+      "title": "中, 美와 무역전쟁 휴전 2개월 연장 확인..석탄 관세 추가 인하",
+      "section": "overnight",
+      "category": "economy",
+      "summary": [
+        "中 상무부, 이달 미중 무역합의 결과 발표 美와 내년 1월까지 무역전쟁 휴전 확인 300억달러 규모 추가 관세 인하도 언급, 美 석탄 관세 인하 확인 인하 품목 90%에 최혜국 세율 적용 中 관영 매체 \"강대국 간 평화 공존 및 호혜 상생 추구\" 美의 합의 이행 여부 주시하겠다고 밝혀",
+        "[파이낸셜뉴스] 중국 정부가 미국과 '무역전쟁 휴전' 2개월 연장을 공식 확인하고 미국산 석탄에 부과하는 관세를 추가 인하한다고 밝혔다.",
+        "동시에 관세 인하 목록에 오른 미국 제품 중 90%에 '최혜국' 세율을 적용하기로 했다.",
+        "중국 상무부는 28일 발표에서 미주·대양주 담당 국장 명의로 설명 자료를 내고 지난 20~23일(현지시간) 미국에서 진행한 제8차 미중 경제·무역 협상 결과에 대해 설명했다."
+      ],
+      "change": "비교 가능한 과거 자료 없음 — 상향·하향·전망 변경 여부 미판정",
+      "claims": [
+        {
+          "id": "9acfce15f8fac47811e08934",
+          "text": "中 상무부, 이달 미중 무역합의 결과 발표 美와 내년 1월까지 무역전쟁 휴전 확인 300억달러 규모 추가 관세 인하도 언급, 美 석탄 관세 인하 확인 인하 품목 90%에 최혜국 세율 적용 中 관영 매체 \"강대국 간 평화 공존 및 호혜 상생 추구\" 美의 합의 이행 여부 주시하겠다고 밝혀",
+          "kind": "fact",
+          "author": "박종원",
+          "source_ids": [
+            "8cb478599b3b8fc682a4eff7"
+          ],
+          "evidence": [
+            {
+              "source_id": "8cb478599b3b8fc682a4eff7",
+              "source_version_id": "bf87e9f0364be6d9de140704",
+              "start": 0,
+              "end": 159,
+              "text": "中 상무부, 이달 미중 무역합의 결과 발표 美와 내년 1월까지 무역전쟁 휴전 확인 300억달러 규모 추가 관세 인하도 언급, 美 석탄 관세 인하 확인 인하 품목 90%에 최혜국 세율 적용 中 관영 매체 \"강대국 간 평화 공존 및 호혜 상생 추구\" 美의 합의 이행 여부 주시하겠다고 밝혀",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "中 상무부, 이달 미중 무역합의 결과 발표 美와 내년 1월까지 무역전쟁 휴전 확인 300억달러 규모 추가 관세 인하도 언급, 美 석탄 관세 인하 확인 인하 품목 90%에 최혜국 세율 적용 中 관영 매체 \"강대국 간 평화 공존 및 호혜 상생 추구\" 美의 합의 이행 여부 주시하겠다고 밝혀",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "announcement"
+          },
+          "numbers": []
+        },
+        {
+          "id": "48bbf11fb93345072e3daddb",
+          "text": "[파이낸셜뉴스] 중국 정부가 미국과 '무역전쟁 휴전' 2개월 연장을 공식 확인하고 미국산 석탄에 부과하는 관세를 추가 인하한다고 밝혔다.",
+          "kind": "fact",
+          "author": "박종원",
+          "source_ids": [
+            "8cb478599b3b8fc682a4eff7"
+          ],
+          "evidence": [
+            {
+              "source_id": "8cb478599b3b8fc682a4eff7",
+              "source_version_id": "bf87e9f0364be6d9de140704",
+              "start": 161,
+              "end": 237,
+              "text": "[파이낸셜뉴스] 중국 정부가 미국과 '무역전쟁 휴전' 2개월 연장을 공식 확인하고 미국산 석탄에 부과하는 관세를 추가 인하한다고 밝혔다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "[파이낸셜뉴스] 중국 정부가 미국과 '무역전쟁 휴전' 2개월 연장을 공식 확인하고 미국산 석탄에 부과하는 관세를 추가 인하한다고 밝혔다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "ceb92bb5f8cabb7295a80908",
+          "text": "동시에 관세 인하 목록에 오른 미국 제품 중 90%에 '최혜국' 세율을 적용하기로 했다.",
+          "kind": "fact",
+          "author": "박종원",
+          "source_ids": [
+            "8cb478599b3b8fc682a4eff7"
+          ],
+          "evidence": [
+            {
+              "source_id": "8cb478599b3b8fc682a4eff7",
+              "source_version_id": "bf87e9f0364be6d9de140704",
+              "start": 238,
+              "end": 287,
+              "text": "동시에 관세 인하 목록에 오른 미국 제품 중 90%에 '최혜국' 세율을 적용하기로 했다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "동시에 관세 인하 목록에 오른 미국 제품 중 90%에 '최혜국' 세율을 적용하기로 했다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "586b8c9c2c53c5814a795449",
+          "text": "중국 상무부는 28일 발표에서 미주·대양주 담당 국장 명의로 설명 자료를 내고 지난 20~23일(현지시간) 미국에서 진행한 제8차 미중 경제·무역 협상 결과에 대해 설명했다.",
+          "kind": "fact",
+          "author": "박종원",
+          "source_ids": [
+            "8cb478599b3b8fc682a4eff7"
+          ],
+          "evidence": [
+            {
+              "source_id": "8cb478599b3b8fc682a4eff7",
+              "source_version_id": "bf87e9f0364be6d9de140704",
+              "start": 289,
+              "end": 386,
+              "text": "중국 상무부는 28일 발표에서 미주·대양주 담당 국장 명의로 설명 자료를 내고 지난 20~23일(현지시간) 미국에서 진행한 제8차 미중 경제·무역 협상 결과에 대해 설명했다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "중국 상무부는 28일 발표에서 미주·대양주 담당 국장 명의로 설명 자료를 내고 지난 20~23일(현지시간) 미국에서 진행한 제8차 미중 경제·무역 협상 결과에 대해 설명했다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        }
+      ],
+      "event_schedules": [],
+      "document_ids": [
+        "8cb478599b3b8fc682a4eff7"
+      ],
+      "source_versions": [
+        "bf87e9f0364be6d9de140704"
+      ],
+      "entities": [],
+      "selection_reason": [
+        "수집 범위 내 독립 발행자 1개",
+        "자료 기준 경과 5.4시간",
+        "이전 입력 대비 신규 문서",
+        "수치가 명시된 거시 지표 발표 또는 확정된 통화·무역 정책 변경"
+      ],
+      "follow_up": [
+        "원문과 기간·단위·작성 주체를 확인하고 해석을 검토하세요."
+      ],
+      "confidence": "source_checked",
+      "related_issue_id": null,
+      "late_discovered": false,
+      "analysis_provider": "extractive",
+      "model_status": "not_needed_source_korean",
+      "analysis_label": "한국어 원문에서 핵심 문장 선별",
+      "evidence_expired": false,
+      "evidence_partially_expired": false,
+      "has_full_text": true,
+      "has_message_text": false,
+      "prior_day_follow_up": false,
+      "original_title": "中, 美와 무역전쟁 휴전 2개월 연장 확인..석탄 관세 추가 인하",
+      "source_title_ko": "中, 美와 무역전쟁 휴전 2개월 연장 확인..석탄 관세 추가 인하",
+      "korean_required": true
+    },
+    {
+      "id": "325036a44dae374eedc817ed",
+      "anchor": "issue-3625b2910950d6f5",
+      "editorial_scope": "market",
+      "event_type": "market_update",
+      "title": "美국채금리 급등에 달러 강세…한은 \"시장 변동성 확대될 수도\" - 머니투데이",
+      "section": "investment",
+      "category": "research",
+      "summary": [
+        "추석 연휴 기간 미국 등 주요국 국채금리가 큰 폭으로 상승한 가운데 한국은행이 국내 금융·외환시장 변동성 확대 가능성을 경계했다.",
+        "연휴 기간 국제금융시장에서는 미국 연방준비제도(Fed)의 금리 인상 기대 강화와 중동 지역 긴장 재고조, 국제유가 움직임 등의 영향으로 주요국 국채금리가 일제히 상승했다.",
+        "지난 23~25일 미국 국채 2년물 금리는 10bp(1bp=0.01%포인트), 10년물은 20bp 상승했다. 독일과 영국의 10년물 국채금리도 각각 14bp, 13bp 올랐다.",
+        "같은 기간 S&P500지수는 0.3%, 나스닥지수는 0.6%, 유로스톡스50지수는 0.3% 하락했다. 달러화지수(DXY)는 0.4% 상승했다."
+      ],
+      "change": "비교 가능한 과거 자료 없음 — 상향·하향·전망 변경 여부 미판정",
+      "claims": [
+        {
+          "id": "85cc5b362c3e673b1982d753",
+          "text": "추석 연휴 기간 미국 등 주요국 국채금리가 큰 폭으로 상승한 가운데 한국은행이 국내 금융·외환시장 변동성 확대 가능성을 경계했다.",
+          "kind": "author_opinion",
+          "author": "최민경",
+          "source_ids": [
+            "4427e7a829038174ff79710b"
+          ],
+          "evidence": [
+            {
+              "source_id": "4427e7a829038174ff79710b",
+              "source_version_id": "e86510b0cbb7f26ea1c4a5b3",
+              "start": 0,
+              "end": 72,
+              "text": "추석 연휴 기간 미국 등 주요국 국채금리가 큰 폭으로 상승한 가운데 한국은행이 국내 금융·외환시장 변동성 확대 가능성을 경계했다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "추석 연휴 기간 미국 등 주요국 국채금리가 큰 폭으로 상승한 가운데 한국은행이 국내 금융·외환시장 변동성 확대 가능성을 경계했다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "forecast"
+          },
+          "numbers": []
+        },
+        {
+          "id": "7868b24cbaa393e5d7cc819b",
+          "text": "연휴 기간 국제금융시장에서는 미국 연방준비제도(Fed)의 금리 인상 기대 강화와 중동 지역 긴장 재고조, 국제유가 움직임 등의 영향으로 주요국 국채금리가 일제히 상승했다.",
+          "kind": "fact",
+          "author": "최민경",
+          "source_ids": [
+            "4427e7a829038174ff79710b"
+          ],
+          "evidence": [
+            {
+              "source_id": "4427e7a829038174ff79710b",
+              "source_version_id": "e86510b0cbb7f26ea1c4a5b3",
+              "start": 181,
+              "end": 276,
+              "text": "연휴 기간 국제금융시장에서는 미국 연방준비제도(Fed)의 금리 인상 기대 강화와 중동 지역 긴장 재고조, 국제유가 움직임 등의 영향으로 주요국 국채금리가 일제히 상승했다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "연휴 기간 국제금융시장에서는 미국 연방준비제도(Fed)의 금리 인상 기대 강화와 중동 지역 긴장 재고조, 국제유가 움직임 등의 영향으로 주요국 국채금리가 일제히 상승했다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "3e747542f2467b2bd4de7f82",
+          "text": "지난 23~25일 미국 국채 2년물 금리는 10bp(1bp=0.01%포인트), 10년물은 20bp 상승했다. 독일과 영국의 10년물 국채금리도 각각 14bp, 13bp 올랐다.",
+          "kind": "fact",
+          "author": "최민경",
+          "source_ids": [
+            "4427e7a829038174ff79710b"
+          ],
+          "evidence": [
+            {
+              "source_id": "4427e7a829038174ff79710b",
+              "source_version_id": "e86510b0cbb7f26ea1c4a5b3",
+              "start": 319,
+              "end": 417,
+              "text": "지난 23~25일 미국 국채 2년물 금리는 10bp(1bp=0.01%포인트), 10년물은 20bp 상승했다. 독일과 영국의 10년물 국채금리도 각각 14bp, 13bp 올랐다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "지난 23~25일 미국 국채 2년물 금리는 10bp(1bp=0.01%포인트), 10년물은 20bp 상승했다. 독일과 영국의 10년물 국채금리도 각각 14bp, 13bp 올랐다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "fb70d7e98a1d6420a3b4357f",
+          "text": "같은 기간 S&P500지수는 0.3%, 나스닥지수는 0.6%, 유로스톡스50지수는 0.3% 하락했다. 달러화지수(DXY)는 0.4% 상승했다.",
+          "kind": "fact",
+          "author": "최민경",
+          "source_ids": [
+            "4427e7a829038174ff79710b"
+          ],
+          "evidence": [
+            {
+              "source_id": "4427e7a829038174ff79710b",
+              "source_version_id": "e86510b0cbb7f26ea1c4a5b3",
+              "start": 421,
+              "end": 500,
+              "text": "같은 기간 S&P500지수는 0.3%, 나스닥지수는 0.6%, 유로스톡스50지수는 0.3% 하락했다. 달러화지수(DXY)는 0.4% 상승했다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "같은 기간 S&P500지수는 0.3%, 나스닥지수는 0.6%, 유로스톡스50지수는 0.3% 하락했다. 달러화지수(DXY)는 0.4% 상승했다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        }
+      ],
+      "event_schedules": [],
+      "document_ids": [
+        "4427e7a829038174ff79710b"
+      ],
+      "source_versions": [
+        "e86510b0cbb7f26ea1c4a5b3"
+      ],
+      "entities": [],
+      "selection_reason": [
+        "수집 범위 내 독립 발행자 1개",
+        "자료 기준 경과 9.9시간",
+        "이전 입력 대비 신규 문서",
+        "수치가 확인되는 금융시장 급변·기록 경신"
+      ],
+      "follow_up": [
+        "원문과 기간·단위·작성 주체를 확인하고 해석을 검토하세요."
+      ],
+      "confidence": "source_checked",
+      "related_issue_id": null,
+      "late_discovered": false,
+      "analysis_provider": "extractive",
+      "model_status": "not_needed_source_korean",
+      "analysis_label": "한국어 원문에서 핵심 문장 선별",
+      "evidence_expired": false,
+      "evidence_partially_expired": false,
+      "has_full_text": true,
+      "has_message_text": false,
+      "prior_day_follow_up": false,
+      "original_title": "美국채금리 급등에 달러 강세…한은 \"시장 변동성 확대될 수도\" - 머니투데이",
+      "source_title_ko": "美국채금리 급등에 달러 강세…한은 \"시장 변동성 확대될 수도\" - 머니투데이",
+      "korean_required": true
+    },
+    {
+      "id": "a62c8d24c94f36de2b0a0a98",
+      "anchor": "issue-ee5efb80edb6854e",
+      "editorial_scope": "market",
+      "event_type": "market_close",
+      "title": "[증시-마감] 연휴 끝 악재 소화한 코스피, 7천선 하회…외인 3조 '매물폭탄'",
+      "section": "overnight",
+      "category": "economy",
+      "summary": [
+        "(서울=연합인포맥스) 신민경 기자 = 코스피지수가 28일 장중 낙폭을 확대해 7천선이 또다시 붕괴된 채 장을 마쳤다.\n\n지수가 7천선을 밑돈 건 지난 18일 이후 4거래일 만이다. 미국 장기 국채금리 상승이 국내 증시 투자심리를 짓누른 것으로 풀이된다.\n\n연합인포맥스 금융시장종합(화면번호 3000)에 따르면 코스피는 전 거래일 대비 2.7% 하락한 6,889.74에 장을 끝냈다. 이날 0.33% 내린 7,057.86에 개장한 지수는 장중 낙폭을 꾸준히 키워 6,900선마저 밑돌았다.",
+        "코스닥지수는 0.25% 오른 846.59에 장을 끝냈다.",
+        "상승 출발한 지수는 장 초반 861.15까지 올랐다. 이내 상승세가 둔화했지만 지수는 강보합 마감했다.",
+        "한지영 키움증권 연구원은 \"미국 10년물 금리 향방에 영향을 미치는 변수들이 증시에 더 많은 영향력을 행사할 예정\"이라며 \"주 후반에 몰린 마이크론 실적, 수출, 고용 등 대내외 대형 재료들을 한꺼번에 소화하는 과정에서 증시 변동성이 심해질 수 있다\"고 말했다."
+      ],
+      "change": "비교 가능한 과거 자료 없음 — 상향·하향·전망 변경 여부 미판정",
+      "claims": [
+        {
+          "id": "7bf3ebd603d8aec85897e4f4",
+          "text": "(서울=연합인포맥스) 신민경 기자 = 코스피지수가 28일 장중 낙폭을 확대해 7천선이 또다시 붕괴된 채 장을 마쳤다.\n\n지수가 7천선을 밑돈 건 지난 18일 이후 4거래일 만이다. 미국 장기 국채금리 상승이 국내 증시 투자심리를 짓누른 것으로 풀이된다.\n\n연합인포맥스 금융시장종합(화면번호 3000)에 따르면 코스피는 전 거래일 대비 2.7% 하락한 6,889.74에 장을 끝냈다. 이날 0.33% 내린 7,057.86에 개장한 지수는 장중 낙폭을 꾸준히 키워 6,900선마저 밑돌았다.",
+          "kind": "author_opinion",
+          "author": "신민경 기자",
+          "source_ids": [
+            "3bb3eb5cbaec05a01e99be94"
+          ],
+          "evidence": [
+            {
+              "source_id": "3bb3eb5cbaec05a01e99be94",
+              "source_version_id": "be8cb43ebe7bcc6639ec346f",
+              "start": 47,
+              "end": 319,
+              "text": "(서울=연합인포맥스) 신민경 기자 = 코스피지수가 28일 장중 낙폭을 확대해 7천선이 또다시 붕괴된 채 장을 마쳤다.\n\n지수가 7천선을 밑돈 건 지난 18일 이후 4거래일 만이다. 미국 장기 국채금리 상승이 국내 증시 투자심리를 짓누른 것으로 풀이된다.\n\n연합인포맥스 금융시장종합(화면번호 3000)에 따르면 코스피는 전 거래일 대비 2.7% 하락한 6,889.74에 장을 끝냈다. 이날 0.33% 내린 7,057.86에 개장한 지수는 장중 낙폭을 꾸준히 키워 6,900선마저 밑돌았다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "(서울=연합인포맥스) 신민경 기자 = 코스피지수가 28일 장중 낙폭을 확대해 7천선이 또다시 붕괴된 채 장을 마쳤다.\n\n지수가 7천선을 밑돈 건 지난 18일 이후 4거래일 만이다. 미국 장기 국채금리 상승이 국내 증시 투자심리를 짓누른 것으로 풀이된다.\n\n연합인포맥스 금융시장종합(화면번호 3000)에 따르면 코스피는 전 거래일 대비 2.7% 하락한 6,889.74에 장을 끝냈다. 이날 0.33% 내린 7,057.86에 개장한 지수는 장중 낙폭을 꾸준히 키워 6,900선마저 밑돌았다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "interpretation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "0054fca4996d89e7720e66cc",
+          "text": "코스닥지수는 0.25% 오른 846.59에 장을 끝냈다.",
+          "kind": "fact",
+          "author": "신민경 기자",
+          "source_ids": [
+            "3bb3eb5cbaec05a01e99be94"
+          ],
+          "evidence": [
+            {
+              "source_id": "3bb3eb5cbaec05a01e99be94",
+              "source_version_id": "be8cb43ebe7bcc6639ec346f",
+              "start": 545,
+              "end": 576,
+              "text": "코스닥지수는 0.25% 오른 846.59에 장을 끝냈다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "코스닥지수는 0.25% 오른 846.59에 장을 끝냈다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "02d44c3d1ab43311e5234f19",
+          "text": "상승 출발한 지수는 장 초반 861.15까지 올랐다. 이내 상승세가 둔화했지만 지수는 강보합 마감했다.",
+          "kind": "fact",
+          "author": "신민경 기자",
+          "source_ids": [
+            "3bb3eb5cbaec05a01e99be94"
+          ],
+          "evidence": [
+            {
+              "source_id": "3bb3eb5cbaec05a01e99be94",
+              "source_version_id": "be8cb43ebe7bcc6639ec346f",
+              "start": 578,
+              "end": 635,
+              "text": "상승 출발한 지수는 장 초반 861.15까지 올랐다. 이내 상승세가 둔화했지만 지수는 강보합 마감했다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "상승 출발한 지수는 장 초반 861.15까지 올랐다. 이내 상승세가 둔화했지만 지수는 강보합 마감했다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "a210bee29befd80c6a5ac034",
+          "text": "한지영 키움증권 연구원은 \"미국 10년물 금리 향방에 영향을 미치는 변수들이 증시에 더 많은 영향력을 행사할 예정\"이라며 \"주 후반에 몰린 마이크론 실적, 수출, 고용 등 대내외 대형 재료들을 한꺼번에 소화하는 과정에서 증시 변동성이 심해질 수 있다\"고 말했다.",
+          "kind": "fact",
+          "author": "신민경 기자",
+          "source_ids": [
+            "3bb3eb5cbaec05a01e99be94"
+          ],
+          "evidence": [
+            {
+              "source_id": "3bb3eb5cbaec05a01e99be94",
+              "source_version_id": "be8cb43ebe7bcc6639ec346f",
+              "start": 739,
+              "end": 885,
+              "text": "한지영 키움증권 연구원은 \"미국 10년물 금리 향방에 영향을 미치는 변수들이 증시에 더 많은 영향력을 행사할 예정\"이라며 \"주 후반에 몰린 마이크론 실적, 수출, 고용 등 대내외 대형 재료들을 한꺼번에 소화하는 과정에서 증시 변동성이 심해질 수 있다\"고 말했다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "한지영 키움증권 연구원은 \"미국 10년물 금리 향방에 영향을 미치는 변수들이 증시에 더 많은 영향력을 행사할 예정\"이라며 \"주 후반에 몰린 마이크론 실적, 수출, 고용 등 대내외 대형 재료들을 한꺼번에 소화하는 과정에서 증시 변동성이 심해질 수 있다\"고 말했다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "announcement"
+          },
+          "numbers": []
+        }
+      ],
+      "event_schedules": [],
+      "document_ids": [
+        "3bb3eb5cbaec05a01e99be94"
+      ],
+      "source_versions": [
+        "be8cb43ebe7bcc6639ec346f"
+      ],
+      "entities": [],
+      "selection_reason": [
+        "수집 범위 내 독립 발행자 1개",
+        "자료 기준 경과 5.3시간",
+        "이전 입력 대비 신규 문서",
+        "주요 지수의 장 마감과 등락 수치를 확인한 핵심 시장 동향"
+      ],
+      "follow_up": [
+        "원문과 기간·단위·작성 주체를 확인하고 해석을 검토하세요."
+      ],
+      "confidence": "source_checked",
+      "related_issue_id": null,
+      "late_discovered": false,
+      "analysis_provider": "extractive",
+      "model_status": "not_needed_source_korean",
+      "analysis_label": "한국어 원문에서 핵심 문장 선별",
+      "evidence_expired": false,
+      "evidence_partially_expired": false,
+      "has_full_text": true,
+      "has_message_text": false,
+      "prior_day_follow_up": false,
+      "original_title": "[증시-마감] 연휴 끝 악재 소화한 코스피, 7천선 하회…외인 3조 '매물폭탄'",
+      "source_title_ko": "[증시-마감] 연휴 끝 악재 소화한 코스피, 7천선 하회…외인 3조 '매물폭탄'",
+      "korean_required": true
+    },
+    {
+      "id": "8a8a31cd9f0821875f31a0dd",
+      "anchor": "issue-965e2f050029b8b2",
+      "editorial_scope": "market",
+      "event_type": "market_update",
+      "title": "美·中, 600억달러 상품 관세 낮춘다…28일 세부안 추가 공개",
+      "section": "yesterday",
+      "category": "economy",
+      "summary": [
+        "미국과 중국이 정상회담을 계기로 양방향 총 600억달러 규모의 비민감 상품에 지금보다 유리한 관세를 적용하기로 뜻을 모았다.",
+        "미국산 농산물과 의료기기, 중국산 장난감과 소형가전 등이 대상이다.",
+        "다만 구체적인 관세율과 세부 품목, 시행 시점 등은 아직 공개되지 않았다.",
+        "제이미슨 그리어 미 무역대표부(USTR) 대표가 오는 28일(현지시간) 추가 세부 내용을 발표하겠다고 예고해 정상회담의 실질적인 통상 성과가 얼마나 확대될지 주목된다."
+      ],
+      "change": "비교 가능한 과거 자료 없음 — 상향·하향·전망 변경 여부 미판정",
+      "claims": [
+        {
+          "id": "e1442c8faf817b24b5dbd9e6",
+          "text": "미국과 중국이 정상회담을 계기로 양방향 총 600억달러 규모의 비민감 상품에 지금보다 유리한 관세를 적용하기로 뜻을 모았다.",
+          "kind": "fact",
+          "author": "이데일리",
+          "source_ids": [
+            "a2e8a14f2be0f35fad411b05"
+          ],
+          "evidence": [
+            {
+              "source_id": "a2e8a14f2be0f35fad411b05",
+              "source_version_id": "405c241cbaf1b4d8706b8a6b",
+              "start": 18,
+              "end": 100,
+              "text": "미국과 중국이 정상회담을 계기로 양방향 총 600억달러(약 81조5400억원) 규모의 비민감 상품에 지금보다 유리한 관세를 적용하기로 뜻을 모았다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "source_display_omissions": [
+                {
+                  "end": 61,
+                  "location": "body",
+                  "reason": "secondary_currency_conversion",
+                  "source_version_id": "405c241cbaf1b4d8706b8a6b",
+                  "start": 48,
+                  "text": "(약 81조5400억원)"
+                }
+              ],
+              "projected_source_text": "미국과 중국이 정상회담을 계기로 양방향 총 600억달러 규모의 비민감 상품에 지금보다 유리한 관세를 적용하기로 뜻을 모았다.",
+              "display_text": "미국과 중국이 정상회담을 계기로 양방향 총 600억달러 규모의 비민감 상품에 지금보다 유리한 관세를 적용하기로 뜻을 모았다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "source_projection",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "0edb285084123b2c2c24b50a",
+          "text": "미국산 농산물과 의료기기, 중국산 장난감과 소형가전 등이 대상이다.",
+          "kind": "fact",
+          "author": "이데일리",
+          "source_ids": [
+            "a2e8a14f2be0f35fad411b05"
+          ],
+          "evidence": [
+            {
+              "source_id": "a2e8a14f2be0f35fad411b05",
+              "source_version_id": "405c241cbaf1b4d8706b8a6b",
+              "start": 101,
+              "end": 138,
+              "text": "미국산 농산물과 의료기기, 중국산 장난감과 소형가전 등이 대상이다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "미국산 농산물과 의료기기, 중국산 장난감과 소형가전 등이 대상이다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "5ff905bbb75826f6f74a84cd",
+          "text": "다만 구체적인 관세율과 세부 품목, 시행 시점 등은 아직 공개되지 않았다.",
+          "kind": "fact",
+          "author": "이데일리",
+          "source_ids": [
+            "a2e8a14f2be0f35fad411b05"
+          ],
+          "evidence": [
+            {
+              "source_id": "a2e8a14f2be0f35fad411b05",
+              "source_version_id": "405c241cbaf1b4d8706b8a6b",
+              "start": 139,
+              "end": 180,
+              "text": "다만 구체적인 관세율과 세부 품목, 시행 시점 등은 아직 공개되지 않았다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "다만 구체적인 관세율과 세부 품목, 시행 시점 등은 아직 공개되지 않았다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "6908474310e0179baad2a90d",
+          "text": "제이미슨 그리어 미 무역대표부(USTR) 대표가 오는 28일(현지시간) 추가 세부 내용을 발표하겠다고 예고해 정상회담의 실질적인 통상 성과가 얼마나 확대될지 주목된다.",
+          "kind": "fact",
+          "author": "이데일리",
+          "source_ids": [
+            "a2e8a14f2be0f35fad411b05"
+          ],
+          "evidence": [
+            {
+              "source_id": "a2e8a14f2be0f35fad411b05",
+              "source_version_id": "405c241cbaf1b4d8706b8a6b",
+              "start": 181,
+              "end": 274,
+              "text": "제이미슨 그리어 미 무역대표부(USTR) 대표가 오는 28일(현지시간) 추가 세부 내용을 발표하겠다고 예고해 정상회담의 실질적인 통상 성과가 얼마나 확대될지 주목된다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "제이미슨 그리어 미 무역대표부(USTR) 대표가 오는 28일(현지시간) 추가 세부 내용을 발표하겠다고 예고해 정상회담의 실질적인 통상 성과가 얼마나 확대될지 주목된다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        }
+      ],
+      "event_schedules": [
+        {
+          "event_start": "2026-09-28",
+          "event_end": "2026-09-28",
+          "date_label": "9/28",
+          "action": "발표",
+          "status": "scheduled"
+        }
+      ],
+      "document_ids": [
+        "a2e8a14f2be0f35fad411b05"
+      ],
+      "source_versions": [
+        "405c241cbaf1b4d8706b8a6b"
+      ],
+      "entities": [],
+      "selection_reason": [
+        "수집 범위 내 독립 발행자 1개",
+        "자료 기준 경과 29.9시간",
+        "이전 입력 대비 신규 문서",
+        "제품·생산·투자 활동의 구체적 소식"
+      ],
+      "follow_up": [
+        "원문과 기간·단위·작성 주체를 확인하고 해석을 검토하세요."
+      ],
+      "confidence": "source_checked",
+      "related_issue_id": null,
+      "late_discovered": false,
+      "analysis_provider": "extractive",
+      "model_status": "not_needed_source_korean",
+      "analysis_label": "한국어 원문에서 핵심 문장 선별",
+      "evidence_expired": false,
+      "evidence_partially_expired": false,
+      "has_full_text": true,
+      "has_message_text": false,
+      "prior_day_follow_up": false,
+      "original_title": "美·中, 600억달러 상품 관세 낮춘다…28일 세부안 추가 공개",
+      "source_title_ko": "美·中, 600억달러 상품 관세 낮춘다…28일 세부안 추가 공개",
+      "korean_required": true
+    },
+    {
+      "id": "a51764fdefe71a7f37e2104b",
+      "anchor": "issue-af38cdc3307b91d4",
+      "editorial_scope": "market",
+      "event_type": "market_update",
+      "title": "AI투자가 바꾼 금리 상승=주가 하락 공식",
+      "section": "investment",
+      "category": "research",
+      "summary": [
+        "미국 30년 만기 국채 금리가 연 5%대 중반까지 치솟자 ‘저금리 시대의 종말’이라는 분석이 나오지만, 주식시장은 지난 25일 기준 최근 한 달간 소폭(0.86%)의 상승세를 보이며 버티고 있다.",
+        "28일 골드만삭스에 따르면 최근 주식시장이 ‘금리가 오르면 주가는 떨어진다’는 상식에 역행하는 주요 원인은 ‘인공지능(AI) 투자’ 경쟁이다.",
+        "채권시장에선 엔비디아 , 구글 등 빅테크가 AI 인프라 투자용 자금을 조달하기 위해 채권을 앞다퉈 발행하고 있다.",
+        "토니 파스콰리엘로 골드만삭스 헤지펀드담당 글로벌 헤드는 “2023년 1500억달러 수준이던 대형 클라우드 기업의 설비투자가 내년엔 1조3000억달러로 확대된다”고 말했다."
+      ],
+      "change": "비교 가능한 과거 자료 없음 — 상향·하향·전망 변경 여부 미판정",
+      "claims": [
+        {
+          "id": "3630ec0ea725b72eeee9d8dc",
+          "text": "미국 30년 만기 국채 금리가 연 5%대 중반까지 치솟자 ‘저금리 시대의 종말’이라는 분석이 나오지만, 주식시장은 지난 25일 기준 최근 한 달간 소폭(0.86%)의 상승세를 보이며 버티고 있다.",
+          "kind": "author_opinion",
+          "author": "황정수",
+          "source_ids": [
+            "f2653c921ce4c4bac370a45a"
+          ],
+          "evidence": [
+            {
+              "source_id": "f2653c921ce4c4bac370a45a",
+              "source_version_id": "5d9f19a0506ecdb3bf9ff8d1",
+              "start": 0,
+              "end": 109,
+              "text": "미국 30년 만기 국채 금리가 연 5%대 중반까지 치솟자 ‘저금리 시대의 종말’이라는 분석이 나오지만, 주식시장은 지난 25일 기준 최근 한 달간 소폭(0.86%)의 상승세를 보이며 버티고 있다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "미국 30년 만기 국채 금리가 연 5%대 중반까지 치솟자 ‘저금리 시대의 종말’이라는 분석이 나오지만, 주식시장은 지난 25일 기준 최근 한 달간 소폭(0.86%)의 상승세를 보이며 버티고 있다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "interpretation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "eeba3bf3d50e8dd97cee0dab",
+          "text": "28일 골드만삭스에 따르면 최근 주식시장이 ‘금리가 오르면 주가는 떨어진다’는 상식에 역행하는 주요 원인은 ‘인공지능(AI) 투자’ 경쟁이다.",
+          "kind": "author_opinion",
+          "author": "황정수",
+          "source_ids": [
+            "f2653c921ce4c4bac370a45a"
+          ],
+          "evidence": [
+            {
+              "source_id": "f2653c921ce4c4bac370a45a",
+              "source_version_id": "5d9f19a0506ecdb3bf9ff8d1",
+              "start": 110,
+              "end": 189,
+              "text": "28일 골드만삭스에 따르면 최근 주식시장이 ‘금리가 오르면 주가는 떨어진다’는 상식에 역행하는 주요 원인은 ‘인공지능(AI) 투자’ 경쟁이다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "28일 골드만삭스에 따르면 최근 주식시장이 ‘금리가 오르면 주가는 떨어진다’는 상식에 역행하는 주요 원인은 ‘인공지능(AI) 투자’ 경쟁이다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "interpretation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "cf55846374ad3d96b8d0121f",
+          "text": "채권시장에선 엔비디아 , 구글 등 빅테크가 AI 인프라 투자용 자금을 조달하기 위해 채권을 앞다퉈 발행하고 있다.",
+          "kind": "fact",
+          "author": "황정수",
+          "source_ids": [
+            "f2653c921ce4c4bac370a45a"
+          ],
+          "evidence": [
+            {
+              "source_id": "f2653c921ce4c4bac370a45a",
+              "source_version_id": "5d9f19a0506ecdb3bf9ff8d1",
+              "start": 190,
+              "end": 253,
+              "text": "채권시장에선 엔비디아 , 구글 등 빅테크가 AI 인프라 투자용 자금을 조달하기 위해 채권을 앞다퉈 발행하고 있다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "채권시장에선 엔비디아 , 구글 등 빅테크가 AI 인프라 투자용 자금을 조달하기 위해 채권을 앞다퉈 발행하고 있다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "0ebe998fc6d75aa7b9384348",
+          "text": "토니 파스콰리엘로 골드만삭스 헤지펀드담당 글로벌 헤드는 “2023년 1500억달러 수준이던 대형 클라우드 기업의 설비투자가 내년엔 1조3000억달러로 확대된다”고 말했다.",
+          "kind": "fact",
+          "author": "황정수",
+          "source_ids": [
+            "f2653c921ce4c4bac370a45a"
+          ],
+          "evidence": [
+            {
+              "source_id": "f2653c921ce4c4bac370a45a",
+              "source_version_id": "5d9f19a0506ecdb3bf9ff8d1",
+              "start": 440,
+              "end": 535,
+              "text": "토니 파스콰리엘로 골드만삭스 헤지펀드담당 글로벌 헤드는 “2023년 1500억달러 수준이던 대형 클라우드 기업의 설비투자가 내년엔 1조3000억달러로 확대된다”고 말했다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "토니 파스콰리엘로 골드만삭스 헤지펀드담당 글로벌 헤드는 “2023년 1500억달러 수준이던 대형 클라우드 기업의 설비투자가 내년엔 1조3000억달러로 확대된다”고 말했다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        }
+      ],
+      "event_schedules": [],
+      "document_ids": [
+        "f2653c921ce4c4bac370a45a"
+      ],
+      "source_versions": [
+        "5d9f19a0506ecdb3bf9ff8d1"
+      ],
+      "entities": [],
+      "selection_reason": [
+        "수집 범위 내 독립 발행자 1개",
+        "자료 기준 경과 3.4시간",
+        "이전 입력 대비 신규 문서",
+        "수치와 발표·변경 근거가 있는 경제 소식"
+      ],
+      "follow_up": [
+        "원문과 기간·단위·작성 주체를 확인하고 해석을 검토하세요."
+      ],
+      "confidence": "source_checked",
+      "related_issue_id": null,
+      "late_discovered": false,
+      "analysis_provider": "extractive",
+      "model_status": "not_needed_source_korean",
+      "analysis_label": "한국어 원문에서 핵심 문장 선별",
+      "evidence_expired": false,
+      "evidence_partially_expired": false,
+      "has_full_text": true,
+      "has_message_text": false,
+      "prior_day_follow_up": false,
+      "original_title": "AI투자가 바꾼 금리 상승=주가 하락 공식",
+      "source_title_ko": "AI투자가 바꾼 금리 상승=주가 하락 공식",
+      "korean_required": true
+    },
+    {
+      "id": "e2649c500d3a120cef9fee5a",
+      "anchor": "issue-1f1f0d73a17b4894",
+      "editorial_scope": "other_economic",
+      "event_type": "economic_other",
+      "title": "몸값 204조 솔리다임 美 상장설…SK ‘5단 중복상장’ 논란 재점화",
+      "section": "investment",
+      "category": "research",
+      "summary": [
+        "SK하이닉스의 미국 손자회사 솔리다임이 몸값 최대 204조원 규모로 뉴욕 증시 상장을 추진한다는 소식이 나왔다.",
+        "대규모 설비투자 재원을 확보할 수 있다는 긍정론도 나오지만 ‘5단 중복상장’으로 인해 모회사 일반 주주의 권익이 희석될 것이란 비판의 목소리가 커진다.",
+        "SK하이닉스는 확정된 게 없다는 입장이지만 시장의 불안감은 가라앉지 않고 있다.",
+        "로이터통신은 25일(현지시각) 복수의 소식통을 인용해 솔리다임이 최근 글로벌 투자은행(IB)들을 불러 기업공개(IPO) 주관사 선정을 위한 제안 설명회(베이크오프)를 진행했다고 보도했다."
+      ],
+      "change": "비교 가능한 과거 자료 없음 — 상향·하향·전망 변경 여부 미판정",
+      "claims": [
+        {
+          "id": "0945bdf18b756c7445bf90ac",
+          "text": "SK하이닉스의 미국 손자회사 솔리다임이 몸값 최대 204조원 규모로 뉴욕 증시 상장을 추진한다는 소식이 나왔다.",
+          "kind": "fact",
+          "author": "이광영 기자",
+          "source_ids": [
+            "1341c5e54781685b6b4357bd"
+          ],
+          "evidence": [
+            {
+              "source_id": "1341c5e54781685b6b4357bd",
+              "source_version_id": "2ce20bcfad772494b0f18cfc",
+              "start": 0,
+              "end": 62,
+              "text": "SK하이닉스의 미국 손자회사 솔리다임이 몸값 최대 204조원 규모로 뉴욕 증시 상장을 추진한다는 소식이 나왔다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "SK하이닉스의 미국 손자회사 솔리다임이 몸값 최대 204조원 규모로 뉴욕 증시 상장을 추진한다는 소식이 나왔다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "639974a21c546ca3c09332d5",
+          "text": "대규모 설비투자 재원을 확보할 수 있다는 긍정론도 나오지만 ‘5단 중복상장’으로 인해 모회사 일반 주주의 권익이 희석될 것이란 비판의 목소리가 커진다.",
+          "kind": "fact",
+          "author": "이광영 기자",
+          "source_ids": [
+            "1341c5e54781685b6b4357bd"
+          ],
+          "evidence": [
+            {
+              "source_id": "1341c5e54781685b6b4357bd",
+              "source_version_id": "2ce20bcfad772494b0f18cfc",
+              "start": 63,
+              "end": 147,
+              "text": "대규모 설비투자 재원을 확보할 수 있다는 긍정론도 나오지만 ‘5단 중복상장’으로 인해 모회사 일반 주주의 권익이 희석될 것이란 비판의 목소리가 커진다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "대규모 설비투자 재원을 확보할 수 있다는 긍정론도 나오지만 ‘5단 중복상장’으로 인해 모회사 일반 주주의 권익이 희석될 것이란 비판의 목소리가 커진다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "67eb91f564c323376af3a34e",
+          "text": "SK하이닉스는 확정된 게 없다는 입장이지만 시장의 불안감은 가라앉지 않고 있다.",
+          "kind": "fact",
+          "author": "이광영 기자",
+          "source_ids": [
+            "1341c5e54781685b6b4357bd"
+          ],
+          "evidence": [
+            {
+              "source_id": "1341c5e54781685b6b4357bd",
+              "source_version_id": "2ce20bcfad772494b0f18cfc",
+              "start": 148,
+              "end": 192,
+              "text": "SK하이닉스는 확정된 게 없다는 입장이지만 시장의 불안감은 가라앉지 않고 있다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "SK하이닉스는 확정된 게 없다는 입장이지만 시장의 불안감은 가라앉지 않고 있다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "05ae4f019f0559bf0807551a",
+          "text": "로이터통신은 25일(현지시각) 복수의 소식통을 인용해 솔리다임이 최근 글로벌 투자은행(IB)들을 불러 기업공개(IPO) 주관사 선정을 위한 제안 설명회(베이크오프)를 진행했다고 보도했다.",
+          "kind": "author_opinion",
+          "author": "이광영 기자",
+          "source_ids": [
+            "1341c5e54781685b6b4357bd"
+          ],
+          "evidence": [
+            {
+              "source_id": "1341c5e54781685b6b4357bd",
+              "source_version_id": "2ce20bcfad772494b0f18cfc",
+              "start": 194,
+              "end": 298,
+              "text": "로이터통신은 25일(현지시각) 복수의 소식통을 인용해 솔리다임이 최근 글로벌 투자은행(IB)들을 불러 기업공개(IPO) 주관사 선정을 위한 제안 설명회(베이크오프)를 진행했다고 보도했다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "로이터통신은 25일(현지시각) 복수의 소식통을 인용해 솔리다임이 최근 글로벌 투자은행(IB)들을 불러 기업공개(IPO) 주관사 선정을 위한 제안 설명회(베이크오프)를 진행했다고 보도했다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "interpretation"
+          },
+          "numbers": []
+        }
+      ],
+      "event_schedules": [],
+      "document_ids": [
+        "1341c5e54781685b6b4357bd"
+      ],
+      "source_versions": [
+        "2ce20bcfad772494b0f18cfc"
+      ],
+      "entities": [],
+      "selection_reason": [
+        "수집 범위 내 독립 발행자 1개",
+        "자료 기준 경과 10.5시간",
+        "이전 입력 대비 신규 문서",
+        "제품·생산·투자 활동의 구체적 소식"
+      ],
+      "follow_up": [
+        "원문과 기간·단위·작성 주체를 확인하고 해석을 검토하세요."
+      ],
+      "confidence": "source_checked",
+      "related_issue_id": null,
+      "late_discovered": false,
+      "analysis_provider": "extractive",
+      "model_status": "not_needed_source_korean",
+      "analysis_label": "한국어 원문에서 핵심 문장 선별",
+      "evidence_expired": false,
+      "evidence_partially_expired": false,
+      "has_full_text": true,
+      "has_message_text": false,
+      "prior_day_follow_up": false,
+      "original_title": "몸값 204조 솔리다임 美 상장설…SK ‘5단 중복상장’ 논란 재점화",
+      "source_title_ko": "몸값 204조 솔리다임 美 상장설…SK ‘5단 중복상장’ 논란 재점화",
+      "korean_required": true
+    },
+    {
+      "id": "395f23a188332f6c32666894",
+      "anchor": "issue-f01645e4e989f924",
+      "editorial_scope": "market",
+      "event_type": "market_update",
+      "title": "美 30년물 국채금리 5.5% 돌파…주요국 ‘차환폭탄’에 한국 ‘대출금리’도 압박",
+      "section": "investment",
+      "category": "research",
+      "summary": [
+        "25일(현지시간) 미 30년물 국채금리는 장중 5.524%까지 오른 뒤 5.502%에 마감했다.",
+        "10년물 금리도 장중 5.2%를 웃돌며 2007년 이후 최고치를 기록했다. 중동 전쟁에 따른 유가 상승과 연방준비제도(Fed)의 추가 금리 인상 가능성이 채권 매도세를 키웠다.",
+        "국제통화기금(IMF)의 올해 4월 전망에서 2026년 국내총생산(GDP) 대비 일반정부 총부채 비율은 일본 204.4%, 미국 125.8%, 프랑스 118.4%, 영국 103.6%다. 그래도 미국은 금리 상승에도 성장세가 뒷받침되고 있지만, 일본·영국·프랑스는 부채 부담에 비해 성장 여력이 약해 충격에 더 취약하다는 분석이다.",
+        "이달 5대 시중은행의 5년 고정형 주담대 금리는 연 4.82~7.24%로, 상단이 이미 7%를 넘어섰다. 시장금리가 더 오를 경우 주담대 금리가 연 8%대에 진입할 수 있다는 전망도 나온다."
+      ],
+      "change": "비교 가능한 과거 자료 없음 — 상향·하향·전망 변경 여부 미판정",
+      "claims": [
+        {
+          "id": "01760645a1199ca576bc7412",
+          "text": "25일(현지시간) 미 30년물 국채금리는 장중 5.524%까지 오른 뒤 5.502%에 마감했다.",
+          "kind": "fact",
+          "author": "김다영",
+          "source_ids": [
+            "6c1e2e5695acac88ec63dcc3"
+          ],
+          "evidence": [
+            {
+              "source_id": "6c1e2e5695acac88ec63dcc3",
+              "source_version_id": "e6d4123b711690b9e9a64a3c",
+              "start": 167,
+              "end": 220,
+              "text": "25일(현지시간) 미 30년물 국채금리는 장중 5.524%까지 오른 뒤 5.502%에 마감했다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "25일(현지시간) 미 30년물 국채금리는 장중 5.524%까지 오른 뒤 5.502%에 마감했다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "852d7a761e20b84fd72efe74",
+          "text": "10년물 금리도 장중 5.2%를 웃돌며 2007년 이후 최고치를 기록했다. 중동 전쟁에 따른 유가 상승과 연방준비제도(Fed)의 추가 금리 인상 가능성이 채권 매도세를 키웠다.",
+          "kind": "author_opinion",
+          "author": "김다영",
+          "source_ids": [
+            "6c1e2e5695acac88ec63dcc3"
+          ],
+          "evidence": [
+            {
+              "source_id": "6c1e2e5695acac88ec63dcc3",
+              "source_version_id": "e6d4123b711690b9e9a64a3c",
+              "start": 249,
+              "end": 347,
+              "text": "10년물 금리도 장중 5.2%를 웃돌며 2007년 이후 최고치를 기록했다. 중동 전쟁에 따른 유가 상승과 연방준비제도(Fed)의 추가 금리 인상 가능성이 채권 매도세를 키웠다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "10년물 금리도 장중 5.2%를 웃돌며 2007년 이후 최고치를 기록했다. 중동 전쟁에 따른 유가 상승과 연방준비제도(Fed)의 추가 금리 인상 가능성이 채권 매도세를 키웠다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "forecast"
+          },
+          "numbers": []
+        },
+        {
+          "id": "3d62c92db9911521905f6be6",
+          "text": "국제통화기금(IMF)의 올해 4월 전망에서 2026년 국내총생산(GDP) 대비 일반정부 총부채 비율은 일본 204.4%, 미국 125.8%, 프랑스 118.4%, 영국 103.6%다. 그래도 미국은 금리 상승에도 성장세가 뒷받침되고 있지만, 일본·영국·프랑스는 부채 부담에 비해 성장 여력이 약해 충격에 더 취약하다는 분석이다.",
+          "kind": "author_opinion",
+          "author": "김다영",
+          "source_ids": [
+            "6c1e2e5695acac88ec63dcc3"
+          ],
+          "evidence": [
+            {
+              "source_id": "6c1e2e5695acac88ec63dcc3",
+              "source_version_id": "e6d4123b711690b9e9a64a3c",
+              "start": 975,
+              "end": 1158,
+              "text": "국제통화기금(IMF)의 올해 4월 전망에서 2026년 국내총생산(GDP) 대비 일반정부 총부채 비율은 일본 204.4%, 미국 125.8%, 프랑스 118.4%, 영국 103.6%다. 그래도 미국은 금리 상승에도 성장세가 뒷받침되고 있지만, 일본·영국·프랑스는 부채 부담에 비해 성장 여력이 약해 충격에 더 취약하다는 분석이다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "국제통화기금(IMF)의 올해 4월 전망에서 2026년 국내총생산(GDP) 대비 일반정부 총부채 비율은 일본 204.4%, 미국 125.8%, 프랑스 118.4%, 영국 103.6%다. 그래도 미국은 금리 상승에도 성장세가 뒷받침되고 있지만, 일본·영국·프랑스는 부채 부담에 비해 성장 여력이 약해 충격에 더 취약하다는 분석이다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "forecast"
+          },
+          "numbers": []
+        },
+        {
+          "id": "aa2b70eeeee31ff058ee3008",
+          "text": "이달 5대 시중은행의 5년 고정형 주담대 금리는 연 4.82~7.24%로, 상단이 이미 7%를 넘어섰다. 시장금리가 더 오를 경우 주담대 금리가 연 8%대에 진입할 수 있다는 전망도 나온다.",
+          "kind": "author_opinion",
+          "author": "김다영",
+          "source_ids": [
+            "6c1e2e5695acac88ec63dcc3"
+          ],
+          "evidence": [
+            {
+              "source_id": "6c1e2e5695acac88ec63dcc3",
+              "source_version_id": "e6d4123b711690b9e9a64a3c",
+              "start": 1306,
+              "end": 1412,
+              "text": "이달 5대 시중은행의 5년 고정형 주담대 금리는 연 4.82~7.24%로, 상단이 이미 7%를 넘어섰다. 시장금리가 더 오를 경우 주담대 금리가 연 8%대에 진입할 수 있다는 전망도 나온다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "이달 5대 시중은행의 5년 고정형 주담대 금리는 연 4.82~7.24%로, 상단이 이미 7%를 넘어섰다. 시장금리가 더 오를 경우 주담대 금리가 연 8%대에 진입할 수 있다는 전망도 나온다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "forecast"
+          },
+          "numbers": []
+        }
+      ],
+      "event_schedules": [],
+      "document_ids": [
+        "6c1e2e5695acac88ec63dcc3"
+      ],
+      "source_versions": [
+        "e6d4123b711690b9e9a64a3c"
+      ],
+      "entities": [],
+      "selection_reason": [
+        "수집 범위 내 독립 발행자 1개",
+        "자료 기준 경과 28.9시간",
+        "이전 입력 대비 신규 문서",
+        "수치가 확인되는 금융시장 급변·기록 경신"
+      ],
+      "follow_up": [
+        "원문과 기간·단위·작성 주체를 확인하고 해석을 검토하세요."
+      ],
+      "confidence": "source_checked",
+      "related_issue_id": null,
+      "late_discovered": false,
+      "analysis_provider": "extractive",
+      "model_status": "not_needed_source_korean",
+      "analysis_label": "한국어 원문에서 핵심 문장 선별",
+      "evidence_expired": false,
+      "evidence_partially_expired": false,
+      "has_full_text": true,
+      "has_message_text": false,
+      "prior_day_follow_up": false,
+      "original_title": "美 30년물 국채금리 5.5% 돌파…주요국 ‘차환폭탄’에 한국 ‘대출금리’도 압박",
+      "source_title_ko": "美 30년물 국채금리 5.5% 돌파…주요국 ‘차환폭탄’에 한국 ‘대출금리’도 압박",
+      "korean_required": true
+    },
+    {
+      "id": "e4e8cb255af02760e109a1f5",
+      "anchor": "issue-df97307db7497bbd",
+      "editorial_scope": "other_economic",
+      "event_type": "economic_other",
+      "title": "메타 '뮤즈'가 되살린 반도체 기대감…韓 순유출 진정세 '뚜렷'",
+      "section": "overnight",
+      "category": "economy",
+      "summary": [
+        "신흥국 중점 펀드에서 한국의 자금 유출이 3주째 이어졌지만 규모는 뚜렷하게 줄어든 것으로 나타났다.",
+        "메타가 개인 인공지능(AI) 에이전트 '뮤즈'(Muse)를 공개하면서 AI 서버와 온디바이스 기기에 들어가는 반도체 수요 기대가 커진 영향으로 풀이된다.",
+        "28일 유안타증권 리서치센터에 따르면 지난 17~23일 신흥국 투자 펀드에서 한국 자금 3억4천만달러가 순유출됐다.",
+        "한국 자금은 3주 연속 순유출을 기록했지만 그 둔화세도 뚜렷한 것으로 집계됐다."
+      ],
+      "change": "비교 가능한 과거 자료 없음 — 상향·하향·전망 변경 여부 미판정",
+      "claims": [
+        {
+          "id": "aa2375c326423ff4741b5e5e",
+          "text": "신흥국 중점 펀드에서 한국의 자금 유출이 3주째 이어졌지만 규모는 뚜렷하게 줄어든 것으로 나타났다.",
+          "kind": "fact",
+          "author": "신민경 기자",
+          "source_ids": [
+            "3d846b927b2aeb30cc4ea576"
+          ],
+          "evidence": [
+            {
+              "source_id": "3d846b927b2aeb30cc4ea576",
+              "source_version_id": "5c7337b785724ede838c7465",
+              "start": 36,
+              "end": 91,
+              "text": "신흥국 중점 펀드에서 한국의 자금 유출이 3주째 이어졌지만 규모는 뚜렷하게 줄어든 것으로 나타났다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "신흥국 중점 펀드에서 한국의 자금 유출이 3주째 이어졌지만 규모는 뚜렷하게 줄어든 것으로 나타났다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "9ef26d6529ad5686484d49d5",
+          "text": "메타가 개인 인공지능(AI) 에이전트 '뮤즈'(Muse)를 공개하면서 AI 서버와 온디바이스 기기에 들어가는 반도체 수요 기대가 커진 영향으로 풀이된다.",
+          "kind": "author_opinion",
+          "author": "신민경 기자",
+          "source_ids": [
+            "3d846b927b2aeb30cc4ea576"
+          ],
+          "evidence": [
+            {
+              "source_id": "3d846b927b2aeb30cc4ea576",
+              "source_version_id": "5c7337b785724ede838c7465",
+              "start": 92,
+              "end": 177,
+              "text": "메타가 개인 인공지능(AI) 에이전트 '뮤즈'(Muse)를 공개하면서 AI 서버와 온디바이스 기기에 들어가는 반도체 수요 기대가 커진 영향으로 풀이된다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "메타가 개인 인공지능(AI) 에이전트 '뮤즈'(Muse)를 공개하면서 AI 서버와 온디바이스 기기에 들어가는 반도체 수요 기대가 커진 영향으로 풀이된다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "interpretation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "c5e6d0d555169f65774d30f7",
+          "text": "28일 유안타증권 리서치센터에 따르면 지난 17~23일 신흥국 투자 펀드에서 한국 자금 3억4천만달러가 순유출됐다.",
+          "kind": "fact",
+          "author": "신민경 기자",
+          "source_ids": [
+            "3d846b927b2aeb30cc4ea576"
+          ],
+          "evidence": [
+            {
+              "source_id": "3d846b927b2aeb30cc4ea576",
+              "source_version_id": "5c7337b785724ede838c7465",
+              "start": 179,
+              "end": 243,
+              "text": "28일 유안타증권 리서치센터에 따르면 지난 17~23일 신흥국 투자 펀드에서 한국 자금 3억4천만달러가 순유출됐다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "28일 유안타증권 리서치센터에 따르면 지난 17~23일 신흥국 투자 펀드에서 한국 자금 3억4천만달러가 순유출됐다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "2ec75255ff6cee6ab6f7fc12",
+          "text": "한국 자금은 3주 연속 순유출을 기록했지만 그 둔화세도 뚜렷한 것으로 집계됐다.",
+          "kind": "fact",
+          "author": "신민경 기자",
+          "source_ids": [
+            "3d846b927b2aeb30cc4ea576"
+          ],
+          "evidence": [
+            {
+              "source_id": "3d846b927b2aeb30cc4ea576",
+              "source_version_id": "5c7337b785724ede838c7465",
+              "start": 245,
+              "end": 289,
+              "text": "한국 자금은 3주 연속 순유출을 기록했지만 그 둔화세도 뚜렷한 것으로 집계됐다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "한국 자금은 3주 연속 순유출을 기록했지만 그 둔화세도 뚜렷한 것으로 집계됐다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        }
+      ],
+      "event_schedules": [],
+      "document_ids": [
+        "3d846b927b2aeb30cc4ea576"
+      ],
+      "source_versions": [
+        "5c7337b785724ede838c7465"
+      ],
+      "entities": [],
+      "selection_reason": [
+        "수집 범위 내 독립 발행자 1개",
+        "자료 기준 경과 13.1시간",
+        "이전 입력 대비 신규 문서",
+        "제품·생산·투자 활동의 구체적 소식"
+      ],
+      "follow_up": [
+        "원문과 기간·단위·작성 주체를 확인하고 해석을 검토하세요."
+      ],
+      "confidence": "source_checked",
+      "related_issue_id": null,
+      "late_discovered": false,
+      "analysis_provider": "extractive",
+      "model_status": "not_needed_source_korean",
+      "analysis_label": "한국어 원문에서 핵심 문장 선별",
+      "evidence_expired": false,
+      "evidence_partially_expired": false,
+      "has_full_text": true,
+      "has_message_text": false,
+      "prior_day_follow_up": false,
+      "original_title": "메타 '뮤즈'가 되살린 반도체 기대감…韓 순유출 진정세 '뚜렷'",
+      "source_title_ko": "메타 '뮤즈'가 되살린 반도체 기대감…韓 순유출 진정세 '뚜렷'",
+      "korean_required": true
+    },
+    {
+      "id": "1fd85653d6124ef7572a8201",
+      "anchor": "issue-9eefeb97282c461f",
+      "editorial_scope": "other_economic",
+      "event_type": "economic_other",
+      "title": "탄탄한 기관 매수, 물가·고용 시험대 [이정훈의 코인 위클리뷰]",
+      "section": "yesterday",
+      "category": "economy",
+      "summary": [
+        "미국 비트코인 현물 상장지수펀드(ETF)는 지난 25일 하루에만 1억3450만달러가 순유입되며 7거래일 연속 순유입을 기록했다.",
+        "다만 미 국채금리 상승은 비트코인에 부담 요인으로 작용하고 있다. 10년 만기 미국 국채금리가 근 22년 만에 처음으로 5.2%를 웃돌면서 채권을 비롯한 고정수익 자산의 투자 매력이 높아지고 상대적으로 보유만으로 이자가 제공되지 않는 비트코인의 투자 매력은 약해지는 모습이다.",
+        "이처럼 매크로(거시경제) 이슈가 비트코인시장을 좌우하는 상황인 만큼 이번주 공개될 미국 내 주요 고용지표와 개인소비지출(PCE) 물가지수 등이 미 장기 국채금리와 향후 연방준비제도의 기준금리 인상 가능성에 어떤 영향을 미칠 지가 비트코인 향배를 가늠할 결정적 변수가 될 것으로 보인다.",
+        "미국 근원 PCE 물가지수는 9월30일 발표될 예정이며, 시장에서는 전월 대비 0.3% 상승할 것으로 예상하고 있다. 최근 소비자물가지수(CPI)와 생산자물가지수(PPI)에서 인플레이션 압력이 다시 높아진 만큼, 이번 결과는 물가 상승세가 실제로 둔화하고 있는지, 아니면 연준의 목표치를 웃도는 수준에서 횡보하고 있는지를 가늠하는 시험대가 될 전망이다."
+      ],
+      "change": "비교 가능한 과거 자료 없음 — 상향·하향·전망 변경 여부 미판정",
+      "claims": [
+        {
+          "id": "8db99b2256796e1fd0dc0155",
+          "text": "미국 비트코인 현물 상장지수펀드(ETF)는 지난 25일 하루에만 1억3450만달러가 순유입되며 7거래일 연속 순유입을 기록했다.",
+          "kind": "fact",
+          "author": "이데일리",
+          "source_ids": [
+            "55b18c3b439c13fd5950ace9"
+          ],
+          "evidence": [
+            {
+              "source_id": "55b18c3b439c13fd5950ace9",
+              "source_version_id": "c84146c4ea05b218b6c4c392",
+              "start": 438,
+              "end": 509,
+              "text": "미국 비트코인 현물 상장지수펀드(ETF)는 지난 25일 하루에만 1억3450만달러가 순유입되며 7거래일 연속 순유입을 기록했다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "미국 비트코인 현물 상장지수펀드(ETF)는 지난 25일 하루에만 1억3450만달러가 순유입되며 7거래일 연속 순유입을 기록했다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "7fe095be3c01f923287990ec",
+          "text": "다만 미 국채금리 상승은 비트코인에 부담 요인으로 작용하고 있다. 10년 만기 미국 국채금리가 근 22년 만에 처음으로 5.2%를 웃돌면서 채권을 비롯한 고정수익 자산의 투자 매력이 높아지고 상대적으로 보유만으로 이자가 제공되지 않는 비트코인의 투자 매력은 약해지는 모습이다.",
+          "kind": "fact",
+          "author": "이데일리",
+          "source_ids": [
+            "55b18c3b439c13fd5950ace9"
+          ],
+          "evidence": [
+            {
+              "source_id": "55b18c3b439c13fd5950ace9",
+              "source_version_id": "c84146c4ea05b218b6c4c392",
+              "start": 707,
+              "end": 861,
+              "text": "다만 미 국채금리 상승은 비트코인에 부담 요인으로 작용하고 있다. 10년 만기 미국 국채금리가 근 22년 만에 처음으로 5.2%를 웃돌면서 채권을 비롯한 고정수익 자산의 투자 매력이 높아지고 상대적으로 보유만으로 이자가 제공되지 않는 비트코인의 투자 매력은 약해지는 모습이다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "다만 미 국채금리 상승은 비트코인에 부담 요인으로 작용하고 있다. 10년 만기 미국 국채금리가 근 22년 만에 처음으로 5.2%를 웃돌면서 채권을 비롯한 고정수익 자산의 투자 매력이 높아지고 상대적으로 보유만으로 이자가 제공되지 않는 비트코인의 투자 매력은 약해지는 모습이다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "899aa22cc89b528a96634b9b",
+          "text": "이처럼 매크로(거시경제) 이슈가 비트코인시장을 좌우하는 상황인 만큼 이번주 공개될 미국 내 주요 고용지표와 개인소비지출(PCE) 물가지수 등이 미 장기 국채금리와 향후 연방준비제도의 기준금리 인상 가능성에 어떤 영향을 미칠 지가 비트코인 향배를 가늠할 결정적 변수가 될 것으로 보인다.",
+          "kind": "author_opinion",
+          "author": "이데일리",
+          "source_ids": [
+            "55b18c3b439c13fd5950ace9"
+          ],
+          "evidence": [
+            {
+              "source_id": "55b18c3b439c13fd5950ace9",
+              "source_version_id": "c84146c4ea05b218b6c4c392",
+              "start": 1216,
+              "end": 1375,
+              "text": "이처럼 매크로(거시경제) 이슈가 비트코인시장을 좌우하는 상황인 만큼 이번주 공개될 미국 내 주요 고용지표와 개인소비지출(PCE) 물가지수 등이 미 장기 국채금리와 향후 연방준비제도의 기준금리 인상 가능성에 어떤 영향을 미칠 지가 비트코인 향배를 가늠할 결정적 변수가 될 것으로 보인다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "이처럼 매크로(거시경제) 이슈가 비트코인시장을 좌우하는 상황인 만큼 이번주 공개될 미국 내 주요 고용지표와 개인소비지출(PCE) 물가지수 등이 미 장기 국채금리와 향후 연방준비제도의 기준금리 인상 가능성에 어떤 영향을 미칠 지가 비트코인 향배를 가늠할 결정적 변수가 될 것으로 보인다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "interpretation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "22e8b3eb7f9de098600298dc",
+          "text": "미국 근원 PCE 물가지수는 9월30일 발표될 예정이며, 시장에서는 전월 대비 0.3% 상승할 것으로 예상하고 있다. 최근 소비자물가지수(CPI)와 생산자물가지수(PPI)에서 인플레이션 압력이 다시 높아진 만큼, 이번 결과는 물가 상승세가 실제로 둔화하고 있는지, 아니면 연준의 목표치를 웃도는 수준에서 횡보하고 있는지를 가늠하는 시험대가 될 전망이다.",
+          "kind": "author_opinion",
+          "author": "이데일리",
+          "source_ids": [
+            "55b18c3b439c13fd5950ace9"
+          ],
+          "evidence": [
+            {
+              "source_id": "55b18c3b439c13fd5950ace9",
+              "source_version_id": "c84146c4ea05b218b6c4c392",
+              "start": 1550,
+              "end": 1747,
+              "text": "미국 근원 PCE 물가지수는 9월30일 발표될 예정이며, 시장에서는 전월 대비 0.3% 상승할 것으로 예상하고 있다. 최근 소비자물가지수(CPI)와 생산자물가지수(PPI)에서 인플레이션 압력이 다시 높아진 만큼, 이번 결과는 물가 상승세가 실제로 둔화하고 있는지, 아니면 연준의 목표치를 웃도는 수준에서 횡보하고 있는지를 가늠하는 시험대가 될 전망이다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "미국 근원 PCE 물가지수는 9월30일 발표될 예정이며, 시장에서는 전월 대비 0.3% 상승할 것으로 예상하고 있다. 최근 소비자물가지수(CPI)와 생산자물가지수(PPI)에서 인플레이션 압력이 다시 높아진 만큼, 이번 결과는 물가 상승세가 실제로 둔화하고 있는지, 아니면 연준의 목표치를 웃도는 수준에서 횡보하고 있는지를 가늠하는 시험대가 될 전망이다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "forecast"
+          },
+          "numbers": []
+        }
+      ],
+      "event_schedules": [
+        {
+          "event_start": "2026-10-02",
+          "event_end": "2026-10-02",
+          "date_label": "10/2",
+          "action": "발표",
+          "status": "scheduled"
+        }
+      ],
+      "document_ids": [
+        "55b18c3b439c13fd5950ace9"
+      ],
+      "source_versions": [
+        "c84146c4ea05b218b6c4c392"
+      ],
+      "entities": [],
+      "selection_reason": [
+        "수집 범위 내 독립 발행자 1개",
+        "자료 기준 경과 35.3시간",
+        "이전 입력 대비 신규 문서",
+        "수치와 발표·변경 근거가 있는 경제 소식"
+      ],
+      "follow_up": [
+        "원문과 기간·단위·작성 주체를 확인하고 해석을 검토하세요."
+      ],
+      "confidence": "source_checked",
+      "related_issue_id": null,
+      "late_discovered": false,
+      "analysis_provider": "extractive",
+      "model_status": "not_needed_source_korean",
+      "analysis_label": "한국어 원문에서 핵심 문장 선별",
+      "evidence_expired": false,
+      "evidence_partially_expired": false,
+      "has_full_text": true,
+      "has_message_text": false,
+      "prior_day_follow_up": false,
+      "original_title": "탄탄한 기관 매수, 물가·고용 시험대 [이정훈의 코인 위클리뷰]",
+      "source_title_ko": "탄탄한 기관 매수, 물가·고용 시험대 [이정훈의 코인 위클리뷰]",
+      "korean_required": true
+    },
+    {
+      "id": "e3e9f2a8f92b2e9b24b0ed15",
+      "anchor": "issue-107eb2ac654b3a66",
+      "editorial_scope": "other_economic",
+      "event_type": "economic_other",
+      "title": "FT “한국, AI를 전기처럼”…전 국민 무료 AI·국산모델 승부수",
+      "section": "investment",
+      "category": "research",
+      "summary": [
+        "영국 파이낸셜타임스(FT)가 인공지능(AI)을 전기와 같은 기본 인프라로 만들려는 한국 정부의 전략을 집중 조명했다.",
+        "전 국민에게 AI 서비스를 무료로 제공하고 국산 AI 모델과 컴퓨팅 인프라에 대규모 재정을 투입하는 한국의 정책을 두고, 글로벌 AI 경쟁에서 미국·중국과의 격차를 좁히기 위한 국가 차원의 승부수로 평가했다.",
+        "28일 FT는 배경훈 부총리 겸 과학기술정보통신부 장관과의 인터뷰를 바탕으로 한국이 AI 확산에 얼마나 적극적으로 나서고 있는지를 상세히 소개했다.",
+        "와이즈앱은 지난 7월 한국의 챗GPT 월간활성이용자(MAU)를 약 2400만명으로 추산했다."
+      ],
+      "change": "비교 가능한 과거 자료 없음 — 상향·하향·전망 변경 여부 미판정",
+      "claims": [
+        {
+          "id": "29f2cc50ce0c2c2488616e66",
+          "text": "영국 파이낸셜타임스(FT)가 인공지능(AI)을 전기와 같은 기본 인프라로 만들려는 한국 정부의 전략을 집중 조명했다.",
+          "kind": "fact",
+          "author": "이데일리",
+          "source_ids": [
+            "64959899d148f0a0d4293709"
+          ],
+          "evidence": [
+            {
+              "source_id": "64959899d148f0a0d4293709",
+              "source_version_id": "53c1f326bd84fdf1d490d514",
+              "start": 14,
+              "end": 79,
+              "text": "영국 파이낸셜타임스(FT)가 인공지능(AI)을 전기와 같은 기본 인프라로 만들려는 한국 정부의 전략을 집중 조명했다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "영국 파이낸셜타임스(FT)가 인공지능(AI)을 전기와 같은 기본 인프라로 만들려는 한국 정부의 전략을 집중 조명했다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "11b2afd9e9b4e2ab796c9449",
+          "text": "전 국민에게 AI 서비스를 무료로 제공하고 국산 AI 모델과 컴퓨팅 인프라에 대규모 재정을 투입하는 한국의 정책을 두고, 글로벌 AI 경쟁에서 미국·중국과의 격차를 좁히기 위한 국가 차원의 승부수로 평가했다.",
+          "kind": "fact",
+          "author": "이데일리",
+          "source_ids": [
+            "64959899d148f0a0d4293709"
+          ],
+          "evidence": [
+            {
+              "source_id": "64959899d148f0a0d4293709",
+              "source_version_id": "53c1f326bd84fdf1d490d514",
+              "start": 80,
+              "end": 196,
+              "text": "전 국민에게 AI 서비스를 무료로 제공하고 국산 AI 모델과 컴퓨팅 인프라에 대규모 재정을 투입하는 한국의 정책을 두고, 글로벌 AI 경쟁에서 미국·중국과의 격차를 좁히기 위한 국가 차원의 승부수로 평가했다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "전 국민에게 AI 서비스를 무료로 제공하고 국산 AI 모델과 컴퓨팅 인프라에 대규모 재정을 투입하는 한국의 정책을 두고, 글로벌 AI 경쟁에서 미국·중국과의 격차를 좁히기 위한 국가 차원의 승부수로 평가했다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "cc4959b03b11f691c6649863",
+          "text": "28일 FT는 배경훈 부총리 겸 과학기술정보통신부 장관과의 인터뷰를 바탕으로 한국이 AI 확산에 얼마나 적극적으로 나서고 있는지를 상세히 소개했다.",
+          "kind": "fact",
+          "author": "이데일리",
+          "source_ids": [
+            "64959899d148f0a0d4293709"
+          ],
+          "evidence": [
+            {
+              "source_id": "64959899d148f0a0d4293709",
+              "source_version_id": "53c1f326bd84fdf1d490d514",
+              "start": 198,
+              "end": 280,
+              "text": "28일 FT는 배경훈 부총리 겸 과학기술정보통신부 장관과의 인터뷰를 바탕으로 한국이 AI 확산에 얼마나 적극적으로 나서고 있는지를 상세히 소개했다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "28일 FT는 배경훈 부총리 겸 과학기술정보통신부 장관과의 인터뷰를 바탕으로 한국이 AI 확산에 얼마나 적극적으로 나서고 있는지를 상세히 소개했다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "bcc995663a20245379fad1dc",
+          "text": "와이즈앱은 지난 7월 한국의 챗GPT 월간활성이용자(MAU)를 약 2400만명으로 추산했다.",
+          "kind": "fact",
+          "author": "이데일리",
+          "source_ids": [
+            "64959899d148f0a0d4293709"
+          ],
+          "evidence": [
+            {
+              "source_id": "64959899d148f0a0d4293709",
+              "source_version_id": "53c1f326bd84fdf1d490d514",
+              "start": 1353,
+              "end": 1404,
+              "text": "와이즈앱은 지난 7월 한국의 챗GPT 월간활성이용자(MAU)를 약 2400만명으로 추산했다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "와이즈앱은 지난 7월 한국의 챗GPT 월간활성이용자(MAU)를 약 2400만명으로 추산했다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        }
+      ],
+      "event_schedules": [],
+      "document_ids": [
+        "64959899d148f0a0d4293709"
+      ],
+      "source_versions": [
+        "53c1f326bd84fdf1d490d514"
+      ],
+      "entities": [],
+      "selection_reason": [
+        "수집 범위 내 독립 발행자 1개",
+        "자료 기준 경과 11.6시간",
+        "이전 입력 대비 신규 문서",
+        "제품·생산·투자 활동의 구체적 소식"
+      ],
+      "follow_up": [
+        "원문과 기간·단위·작성 주체를 확인하고 해석을 검토하세요."
+      ],
+      "confidence": "source_checked",
+      "related_issue_id": null,
+      "late_discovered": false,
+      "analysis_provider": "extractive",
+      "model_status": "not_needed_source_korean",
+      "analysis_label": "한국어 원문에서 핵심 문장 선별",
+      "evidence_expired": false,
+      "evidence_partially_expired": false,
+      "has_full_text": true,
+      "has_message_text": false,
+      "prior_day_follow_up": false,
+      "original_title": "FT “한국, AI를 전기처럼”…전 국민 무료 AI·국산모델 승부수",
+      "source_title_ko": "FT “한국, AI를 전기처럼”…전 국민 무료 AI·국산모델 승부수",
+      "korean_required": true
+    },
+    {
+      "id": "5ee40cde6249a4d05c1d793d",
+      "anchor": "issue-0446b5ea5726d570",
+      "editorial_scope": "market",
+      "event_type": "market_update",
+      "title": "[중국증시-마감] AI·반도체주 급락에 상하이 1%대↓·선전 3%대↓",
+      "section": "overnight",
+      "category": "economy",
+      "summary": [
+        "연합인포맥스 세계주가지수(화면번호 6511)에 따르면 이날 상하이종합지수는 전장 대비 64.75포인트(1.67%) 하락한 3,823.62에 마감했다.",
+        "선전종합지수 종가는 전장 대비 75.93포인트(3.07%) 하락한 2,400.14에 마감했다.",
+        "이날 대형주 중심의 CSI300 지수는 장중 2% 넘게 하락하며 지난해 9월 이후 약 1년 만에 최저치를 기록했다.",
+        "이에 장 마감 무렵 이옵토링크의 주가는 8% 넘게 급락했고, 이노라이트는 9% 이상 떨어졌다."
+      ],
+      "change": "비교 가능한 과거 자료 없음 — 상향·하향·전망 변경 여부 미판정",
+      "claims": [
+        {
+          "id": "3fa129fb0ae3086a67828370",
+          "text": "연합인포맥스 세계주가지수(화면번호 6511)에 따르면 이날 상하이종합지수는 전장 대비 64.75포인트(1.67%) 하락한 3,823.62에 마감했다.",
+          "kind": "fact",
+          "author": "박지은 기자",
+          "source_ids": [
+            "f33af28a5bcbf5e4f1e6b42f"
+          ],
+          "evidence": [
+            {
+              "source_id": "f33af28a5bcbf5e4f1e6b42f",
+              "source_version_id": "4cdebc58a9f28d2997faec58",
+              "start": 158,
+              "end": 241,
+              "text": "연합인포맥스 세계주가지수(화면번호 6511)에 따르면 이날 상하이종합지수는 전장 대비 64.75포인트(1.67%) 하락한 3,823.62에 마감했다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "연합인포맥스 세계주가지수(화면번호 6511)에 따르면 이날 상하이종합지수는 전장 대비 64.75포인트(1.67%) 하락한 3,823.62에 마감했다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "9e4d6002b7af373b31221ba2",
+          "text": "선전종합지수 종가는 전장 대비 75.93포인트(3.07%) 하락한 2,400.14에 마감했다.",
+          "kind": "fact",
+          "author": "박지은 기자",
+          "source_ids": [
+            "f33af28a5bcbf5e4f1e6b42f"
+          ],
+          "evidence": [
+            {
+              "source_id": "f33af28a5bcbf5e4f1e6b42f",
+              "source_version_id": "4cdebc58a9f28d2997faec58",
+              "start": 243,
+              "end": 295,
+              "text": "선전종합지수 종가는 전장 대비 75.93포인트(3.07%) 하락한 2,400.14에 마감했다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "선전종합지수 종가는 전장 대비 75.93포인트(3.07%) 하락한 2,400.14에 마감했다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "53dbae31c0dacdbdb076a39e",
+          "text": "이날 대형주 중심의 CSI300 지수는 장중 2% 넘게 하락하며 지난해 9월 이후 약 1년 만에 최저치를 기록했다.",
+          "kind": "fact",
+          "author": "박지은 기자",
+          "source_ids": [
+            "f33af28a5bcbf5e4f1e6b42f"
+          ],
+          "evidence": [
+            {
+              "source_id": "f33af28a5bcbf5e4f1e6b42f",
+              "source_version_id": "4cdebc58a9f28d2997faec58",
+              "start": 297,
+              "end": 361,
+              "text": "이날 대형주 중심의 CSI300 지수는 장중 2% 넘게 하락하며 지난해 9월 이후 약 1년 만에 최저치를 기록했다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "이날 대형주 중심의 CSI300 지수는 장중 2% 넘게 하락하며 지난해 9월 이후 약 1년 만에 최저치를 기록했다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "42c66eb7a3fe3ca1893ee5b8",
+          "text": "이에 장 마감 무렵 이옵토링크의 주가는 8% 넘게 급락했고, 이노라이트는 9% 이상 떨어졌다.",
+          "kind": "fact",
+          "author": "박지은 기자",
+          "source_ids": [
+            "f33af28a5bcbf5e4f1e6b42f"
+          ],
+          "evidence": [
+            {
+              "source_id": "f33af28a5bcbf5e4f1e6b42f",
+              "source_version_id": "4cdebc58a9f28d2997faec58",
+              "start": 508,
+              "end": 560,
+              "text": "이에 장 마감 무렵 이옵토링크의 주가는 8% 넘게 급락했고, 이노라이트는 9% 이상 떨어졌다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "이에 장 마감 무렵 이옵토링크의 주가는 8% 넘게 급락했고, 이노라이트는 9% 이상 떨어졌다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        }
+      ],
+      "event_schedules": [],
+      "document_ids": [
+        "f33af28a5bcbf5e4f1e6b42f"
+      ],
+      "source_versions": [
+        "4cdebc58a9f28d2997faec58"
+      ],
+      "entities": [],
+      "selection_reason": [
+        "수집 범위 내 독립 발행자 1개",
+        "자료 기준 경과 3.3시간",
+        "이전 입력 대비 신규 문서",
+        "수치가 확인되는 금융시장 급변·기록 경신"
+      ],
+      "follow_up": [
+        "원문과 기간·단위·작성 주체를 확인하고 해석을 검토하세요."
+      ],
+      "confidence": "source_checked",
+      "related_issue_id": null,
+      "late_discovered": false,
+      "analysis_provider": "extractive",
+      "model_status": "not_needed_source_korean",
+      "analysis_label": "한국어 원문에서 핵심 문장 선별",
+      "evidence_expired": false,
+      "evidence_partially_expired": false,
+      "has_full_text": true,
+      "has_message_text": false,
+      "prior_day_follow_up": false,
+      "original_title": "[중국증시-마감] AI·반도체주 급락에 상하이 1%대↓·선전 3%대↓",
+      "source_title_ko": "[중국증시-마감] AI·반도체주 급락에 상하이 1%대↓·선전 3%대↓",
+      "korean_required": true
+    },
+    {
+      "id": "824be6de9b7c804336734de4",
+      "anchor": "issue-dcfff6e7404eb2c0",
+      "editorial_scope": "other_economic",
+      "event_type": "economic_other",
+      "title": "\"자동결제 잊었는데…\" 해지 어렵게 한 서비스 잡아낸다",
+      "section": "investment",
+      "category": "research",
+      "summary": [
+        "▲ 메타 뮤즈 개인 비서 역할을 하는 인공지능(AI) 에이전트가 부상하면서 구독 경제 시장을 위협할 수 있다는 분석이 나왔습니다.",
+        "개인용 AI 에이전트를 표방하며 이달 초 출시된 메타 뮤즈 이용자들 사이에서는 잊고 있던 유료 구독 서비스를 찾아 해지하는 기능이 인기를 끌고 있습니다.",
+        "미국 경제방송 CNBC는 현지 시간 27일 이 같은 내용을 보도했습니다.",
+        "이용자가 은행 계좌와 신용카드 정보 접근 권한을 부여하면 뮤즈가 자동 이체와 결제 내역을 찾아 해지할 수 있도록 도와주는 기능입니다."
+      ],
+      "change": "비교 가능한 과거 자료 없음 — 상향·하향·전망 변경 여부 미판정",
+      "claims": [
+        {
+          "id": "3bd407ff1454b850a91eb1fc",
+          "text": "▲ 메타 뮤즈 개인 비서 역할을 하는 인공지능(AI) 에이전트가 부상하면서 구독 경제 시장을 위협할 수 있다는 분석이 나왔습니다.",
+          "kind": "author_opinion",
+          "author": "이기영 에디터",
+          "source_ids": [
+            "595196d09f54b729fcdbccdf"
+          ],
+          "evidence": [
+            {
+              "source_id": "595196d09f54b729fcdbccdf",
+              "source_version_id": "c5b44240ee07f27336ef27c4",
+              "start": 0,
+              "end": 72,
+              "text": "▲ 메타 뮤즈 개인 비서 역할을 하는 인공지능(AI) 에이전트가 부상하면서 구독 경제 시장을 위협할 수 있다는 분석이 나왔습니다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "▲ 메타 뮤즈 개인 비서 역할을 하는 인공지능(AI) 에이전트가 부상하면서 구독 경제 시장을 위협할 수 있다는 분석이 나왔습니다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "interpretation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "afd565d06974232cb68e59cd",
+          "text": "개인용 AI 에이전트를 표방하며 이달 초 출시된 메타 뮤즈 이용자들 사이에서는 잊고 있던 유료 구독 서비스를 찾아 해지하는 기능이 인기를 끌고 있습니다.",
+          "kind": "fact",
+          "author": "이기영 에디터",
+          "source_ids": [
+            "595196d09f54b729fcdbccdf"
+          ],
+          "evidence": [
+            {
+              "source_id": "595196d09f54b729fcdbccdf",
+              "source_version_id": "c5b44240ee07f27336ef27c4",
+              "start": 73,
+              "end": 158,
+              "text": "개인용 AI 에이전트를 표방하며 이달 초 출시된 메타 뮤즈 이용자들 사이에서는 잊고 있던 유료 구독 서비스를 찾아 해지하는 기능이 인기를 끌고 있습니다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "개인용 AI 에이전트를 표방하며 이달 초 출시된 메타 뮤즈 이용자들 사이에서는 잊고 있던 유료 구독 서비스를 찾아 해지하는 기능이 인기를 끌고 있습니다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "fa7f9264e6a0e566457d030c",
+          "text": "미국 경제방송 CNBC는 현지 시간 27일 이 같은 내용을 보도했습니다.",
+          "kind": "fact",
+          "author": "이기영 에디터",
+          "source_ids": [
+            "595196d09f54b729fcdbccdf"
+          ],
+          "evidence": [
+            {
+              "source_id": "595196d09f54b729fcdbccdf",
+              "source_version_id": "c5b44240ee07f27336ef27c4",
+              "start": 159,
+              "end": 199,
+              "text": "미국 경제방송 CNBC는 현지 시간 27일 이 같은 내용을 보도했습니다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "미국 경제방송 CNBC는 현지 시간 27일 이 같은 내용을 보도했습니다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "b52318b8eb3a571205dc3300",
+          "text": "이용자가 은행 계좌와 신용카드 정보 접근 권한을 부여하면 뮤즈가 자동 이체와 결제 내역을 찾아 해지할 수 있도록 도와주는 기능입니다.",
+          "kind": "fact",
+          "author": "이기영 에디터",
+          "source_ids": [
+            "595196d09f54b729fcdbccdf"
+          ],
+          "evidence": [
+            {
+              "source_id": "595196d09f54b729fcdbccdf",
+              "source_version_id": "c5b44240ee07f27336ef27c4",
+              "start": 200,
+              "end": 274,
+              "text": "이용자가 은행 계좌와 신용카드 정보 접근 권한을 부여하면 뮤즈가 자동 이체와 결제 내역을 찾아 해지할 수 있도록 도와주는 기능입니다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "이용자가 은행 계좌와 신용카드 정보 접근 권한을 부여하면 뮤즈가 자동 이체와 결제 내역을 찾아 해지할 수 있도록 도와주는 기능입니다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        }
+      ],
+      "event_schedules": [],
+      "document_ids": [
+        "595196d09f54b729fcdbccdf"
+      ],
+      "source_versions": [
+        "c5b44240ee07f27336ef27c4"
+      ],
+      "entities": [],
+      "selection_reason": [
+        "수집 범위 내 독립 발행자 1개",
+        "자료 기준 경과 11.9시간",
+        "이전 입력 대비 신규 문서",
+        "제품·생산·투자 활동의 구체적 소식"
+      ],
+      "follow_up": [
+        "원문과 기간·단위·작성 주체를 확인하고 해석을 검토하세요."
+      ],
+      "confidence": "source_checked",
+      "related_issue_id": null,
+      "late_discovered": false,
+      "analysis_provider": "extractive",
+      "model_status": "not_needed_source_korean",
+      "analysis_label": "한국어 원문에서 핵심 문장 선별",
+      "evidence_expired": false,
+      "evidence_partially_expired": false,
+      "has_full_text": true,
+      "has_message_text": false,
+      "prior_day_follow_up": false,
+      "original_title": "\"자동결제 잊었는데…\" 해지 어렵게 한 서비스 잡아낸다",
+      "source_title_ko": "\"자동결제 잊었는데…\" 해지 어렵게 한 서비스 잡아낸다",
+      "korean_required": true
+    },
+    {
+      "id": "032a623b80149c185d92952b",
+      "anchor": "issue-f966e4ffe2cf2435",
+      "editorial_scope": "other_economic",
+      "event_type": "economic_other",
+      "title": "출시 2주 만에 280만건 다운로드했는데… 메타, AI 에이전트 ‘뮤즈’ 보안 취약점 발견",
+      "section": "investment",
+      "category": "research",
+      "summary": [
+        "메타의 개인용 인공지능(AI) 에이전트 ‘뮤즈(Muse)’에서 공격자가 이용자의 이메일과 파일 등이 저장된 전용 클라우드 공간에 접근할 수 있는 보안 취약점이 발견됐다.",
+        "메타는 이용자가 위험한 웹사이트에 접속할 때 표시되는 경고를 강화하는 조치에 나섰다.",
+        "미국 정보기술 전문 매체 디인포메이션은 지난 25일(현지 시각) 메타 내부 사고 보고서를 인용해 이 같은 사실을 보도했다.",
+        "시장조사업체 센서타워는 출시 첫 2주 동안 뮤즈의 다운로드 건수를 약 280만건으로 추산했다."
+      ],
+      "change": "비교 가능한 과거 자료 없음 — 상향·하향·전망 변경 여부 미판정",
+      "claims": [
+        {
+          "id": "d6434034e7464231070b2a76",
+          "text": "메타의 개인용 인공지능(AI) 에이전트 ‘뮤즈(Muse)’에서 공격자가 이용자의 이메일과 파일 등이 저장된 전용 클라우드 공간에 접근할 수 있는 보안 취약점이 발견됐다.",
+          "kind": "fact",
+          "author": "정두용 기자",
+          "source_ids": [
+            "51ed8f5b6b671353ad3e9ab6"
+          ],
+          "evidence": [
+            {
+              "source_id": "51ed8f5b6b671353ad3e9ab6",
+              "source_version_id": "1ea8f34cf3c990e5c0ff785c",
+              "start": 0,
+              "end": 94,
+              "text": "메타의 개인용 인공지능(AI) 에이전트 ‘뮤즈(Muse)’에서 공격자가 이용자의 이메일과 파일 등이 저장된 전용 클라우드 공간에 접근할 수 있는 보안 취약점이 발견됐다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "메타의 개인용 인공지능(AI) 에이전트 ‘뮤즈(Muse)’에서 공격자가 이용자의 이메일과 파일 등이 저장된 전용 클라우드 공간에 접근할 수 있는 보안 취약점이 발견됐다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "3e33d46a2307bd37bd57ca1a",
+          "text": "메타는 이용자가 위험한 웹사이트에 접속할 때 표시되는 경고를 강화하는 조치에 나섰다.",
+          "kind": "fact",
+          "author": "정두용 기자",
+          "source_ids": [
+            "51ed8f5b6b671353ad3e9ab6"
+          ],
+          "evidence": [
+            {
+              "source_id": "51ed8f5b6b671353ad3e9ab6",
+              "source_version_id": "1ea8f34cf3c990e5c0ff785c",
+              "start": 95,
+              "end": 142,
+              "text": "메타는 이용자가 위험한 웹사이트에 접속할 때 표시되는 경고를 강화하는 조치에 나섰다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "메타는 이용자가 위험한 웹사이트에 접속할 때 표시되는 경고를 강화하는 조치에 나섰다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "5c37b81118c4b50aa9ab4de3",
+          "text": "미국 정보기술 전문 매체 디인포메이션은 지난 25일(현지 시각) 메타 내부 사고 보고서를 인용해 이 같은 사실을 보도했다.",
+          "kind": "fact",
+          "author": "정두용 기자",
+          "source_ids": [
+            "51ed8f5b6b671353ad3e9ab6"
+          ],
+          "evidence": [
+            {
+              "source_id": "51ed8f5b6b671353ad3e9ab6",
+              "source_version_id": "1ea8f34cf3c990e5c0ff785c",
+              "start": 144,
+              "end": 214,
+              "text": "미국 정보기술(IT) 전문매체 디인포메이션은 지난 25일(현지시각) 메타 내부 사고 보고서를 인용해 이 같은 사실을 보도했다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "미국 정보기술 전문 매체 디인포메이션은 지난 25일(현지 시각) 메타 내부 사고 보고서를 인용해 이 같은 사실을 보도했다.",
+              "is_translation": true
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "not_verified",
+            "human_review": "not_reviewed",
+            "status": "needs_review",
+            "source_linkage": "passed",
+            "content_check": "unverified_paraphrase",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "86f05c6687c3907654b9c5d7",
+          "text": "시장조사업체 센서타워는 출시 첫 2주 동안 뮤즈의 다운로드 건수를 약 280만건으로 추산했다.",
+          "kind": "fact",
+          "author": "정두용 기자",
+          "source_ids": [
+            "51ed8f5b6b671353ad3e9ab6"
+          ],
+          "evidence": [
+            {
+              "source_id": "51ed8f5b6b671353ad3e9ab6",
+              "source_version_id": "1ea8f34cf3c990e5c0ff785c",
+              "start": 458,
+              "end": 510,
+              "text": "시장조사업체 센서타워는 출시 첫 2주 동안 뮤즈의 다운로드 건수를 약 280만건으로 추산했다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "시장조사업체 센서타워는 출시 첫 2주 동안 뮤즈의 다운로드 건수를 약 280만건으로 추산했다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        }
+      ],
+      "event_schedules": [],
+      "document_ids": [
+        "51ed8f5b6b671353ad3e9ab6"
+      ],
+      "source_versions": [
+        "1ea8f34cf3c990e5c0ff785c"
+      ],
+      "entities": [],
+      "selection_reason": [
+        "수집 범위 내 독립 발행자 1개",
+        "자료 기준 경과 28.2시간",
+        "이전 입력 대비 신규 문서",
+        "제품·생산·투자 활동의 구체적 소식"
+      ],
+      "follow_up": [
+        "원문과 기간·단위·작성 주체를 확인하고 해석을 검토하세요."
+      ],
+      "confidence": "source_checked",
+      "related_issue_id": null,
+      "late_discovered": false,
+      "analysis_provider": "mlx",
+      "model_status": "cached_model_output",
+      "analysis_label": "한국어 번역 · 수치·출처 자동 대조",
+      "evidence_expired": false,
+      "evidence_partially_expired": false,
+      "has_full_text": true,
+      "has_message_text": false,
+      "prior_day_follow_up": false,
+      "original_title": "출시 2주 만에 280만건 다운로드했는데… 메타, AI 에이전트 ‘뮤즈’ 보안 취약점 발견",
+      "source_title_ko": "출시 2주 만에 280만건 다운로드했는데… 메타, AI 에이전트 ‘뮤즈’ 보안 취약점 발견",
+      "korean_required": true
+    },
+    {
+      "id": "283f8699a3c7ee90f39e5aa0",
+      "anchor": "issue-380d9a4da6b91589",
+      "editorial_scope": "other_economic",
+      "event_type": "economic_other",
+      "title": "\"피지컬AI에 공간 감각 심어 현실 세계로 로봇 내보낼것\"",
+      "section": "investment",
+      "category": "research",
+      "summary": [
+        "조인희 나이언틱 스페이셜 CEO 지리공간 AI 기술 개발해 3D 공간을 사람처럼 인식 GPS 끊겨도 ㎝ 단위 측위 \"한국 피지컬AI 이끌 세계5강\" 사무소 설립·기업 협업 추진 사진 확대 2016년 여름, 전 세계가 스마트폰을 들고 거리로 쏟아져 나왔다.",
+        "공원과 골목을 누비며 가상의 몬스터를 잡는 증강현실(AR) 게임 '포켓몬 고' 열풍이었다.",
+        "출시된 지 10년이 지난 지금도 전 세계 150여 개국에서 즐기는 스테디셀러로, 누적 다운로드는 10억건을 넘는다.",
+        "그런데 이 게임을 만든 미국 나이언틱은 뜻밖의 길을 택했다."
+      ],
+      "change": "비교 가능한 과거 자료 없음 — 상향·하향·전망 변경 여부 미판정",
+      "claims": [
+        {
+          "id": "bc0aa0697e0544e5ac88cb83",
+          "text": "조인희 나이언틱 스페이셜 CEO 지리공간 AI 기술 개발해 3D 공간을 사람처럼 인식 GPS 끊겨도 ㎝ 단위 측위 \"한국 피지컬AI 이끌 세계5강\" 사무소 설립·기업 협업 추진 사진 확대 2016년 여름, 전 세계가 스마트폰을 들고 거리로 쏟아져 나왔다.",
+          "kind": "fact",
+          "author": "고민서",
+          "source_ids": [
+            "4f913b0109d3586555a9827d"
+          ],
+          "evidence": [
+            {
+              "source_id": "4f913b0109d3586555a9827d",
+              "source_version_id": "1ad60df926bd025f75a9d7db",
+              "start": 0,
+              "end": 142,
+              "text": "조인희 나이언틱 스페이셜 CEO 지리공간 AI 기술 개발해 3D 공간을 사람처럼 인식 GPS 끊겨도 ㎝ 단위 측위 \"한국 피지컬AI 이끌 세계5강\" 사무소 설립·기업 협업 추진 사진 확대 2016년 여름, 전 세계가 스마트폰을 들고 거리로 쏟아져 나왔다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "조인희 나이언틱 스페이셜 CEO 지리공간 AI 기술 개발해 3D 공간을 사람처럼 인식 GPS 끊겨도 ㎝ 단위 측위 \"한국 피지컬AI 이끌 세계5강\" 사무소 설립·기업 협업 추진 사진 확대 2016년 여름, 전 세계가 스마트폰을 들고 거리로 쏟아져 나왔다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "64b14b84601deef7302c4149",
+          "text": "공원과 골목을 누비며 가상의 몬스터를 잡는 증강현실(AR) 게임 '포켓몬 고' 열풍이었다.",
+          "kind": "fact",
+          "author": "고민서",
+          "source_ids": [
+            "4f913b0109d3586555a9827d"
+          ],
+          "evidence": [
+            {
+              "source_id": "4f913b0109d3586555a9827d",
+              "source_version_id": "1ad60df926bd025f75a9d7db",
+              "start": 143,
+              "end": 193,
+              "text": "공원과 골목을 누비며 가상의 몬스터를 잡는 증강현실(AR) 게임 '포켓몬 고' 열풍이었다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "공원과 골목을 누비며 가상의 몬스터를 잡는 증강현실(AR) 게임 '포켓몬 고' 열풍이었다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "a3e07f5fd0b86d87818994bc",
+          "text": "출시된 지 10년이 지난 지금도 전 세계 150여 개국에서 즐기는 스테디셀러로, 누적 다운로드는 10억건을 넘는다.",
+          "kind": "fact",
+          "author": "고민서",
+          "source_ids": [
+            "4f913b0109d3586555a9827d"
+          ],
+          "evidence": [
+            {
+              "source_id": "4f913b0109d3586555a9827d",
+              "source_version_id": "1ad60df926bd025f75a9d7db",
+              "start": 194,
+              "end": 258,
+              "text": "출시된 지 10년이 지난 지금도 전 세계 150여 개국에서 즐기는 스테디셀러로, 누적 다운로드는 10억건을 넘는다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "출시된 지 10년이 지난 지금도 전 세계 150여 개국에서 즐기는 스테디셀러로, 누적 다운로드는 10억건을 넘는다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "539bcca1e786433c94d561e1",
+          "text": "그런데 이 게임을 만든 미국 나이언틱은 뜻밖의 길을 택했다.",
+          "kind": "fact",
+          "author": "고민서",
+          "source_ids": [
+            "4f913b0109d3586555a9827d"
+          ],
+          "evidence": [
+            {
+              "source_id": "4f913b0109d3586555a9827d",
+              "source_version_id": "1ad60df926bd025f75a9d7db",
+              "start": 259,
+              "end": 292,
+              "text": "그런데 이 게임을 만든 미국 나이언틱은 뜻밖의 길을 택했다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "그런데 이 게임을 만든 미국 나이언틱은 뜻밖의 길을 택했다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        }
+      ],
+      "event_schedules": [],
+      "document_ids": [
+        "4f913b0109d3586555a9827d"
+      ],
+      "source_versions": [
+        "1ad60df926bd025f75a9d7db"
+      ],
+      "entities": [],
+      "selection_reason": [
+        "수집 범위 내 독립 발행자 1개",
+        "자료 기준 경과 28.6시간",
+        "이전 입력 대비 신규 문서",
+        "제품·생산·투자 활동의 구체적 소식"
+      ],
+      "follow_up": [
+        "원문과 기간·단위·작성 주체를 확인하고 해석을 검토하세요."
+      ],
+      "confidence": "source_checked",
+      "related_issue_id": null,
+      "late_discovered": false,
+      "analysis_provider": "extractive",
+      "model_status": "not_needed_source_korean",
+      "analysis_label": "한국어 원문에서 핵심 문장 선별",
+      "evidence_expired": false,
+      "evidence_partially_expired": false,
+      "has_full_text": true,
+      "has_message_text": false,
+      "prior_day_follow_up": false,
+      "original_title": "\"피지컬AI에 공간 감각 심어 현실 세계로 로봇 내보낼것\"",
+      "source_title_ko": "\"피지컬AI에 공간 감각 심어 현실 세계로 로봇 내보낼것\"",
+      "korean_required": true
+    },
+    {
+      "id": "c1008ad73263a22b30f941e5",
+      "anchor": "issue-a1aa471077702010",
+      "editorial_scope": "other_economic",
+      "event_type": "economic_other",
+      "title": "로봇의 ‘공간감각’ 깨운다...‘포켓몬 고’ 개발사, 한국 피지컬 AI 시장 정조준",
+      "section": "investment",
+      "category": "research",
+      "summary": [
+        "2016년 여름, 전 세계가 거리로 쏟아져 나왔다.",
+        "스마트폰으로 가상의 몬스터를 잡는 증강현실(AR) 게임 ‘포켓몬 고’ 열풍이었다.",
+        "출시 10년이 지난 지금도 150여 개국에서 즐기는 스테디셀러(누적 다운로드 10억건 이상)다.",
+        "그런데 이 게임을 만든 미국 나이언틱은 지난해 잘나가던 게임 사업부를 스코플리에 35억달러에 팔았다."
+      ],
+      "change": "비교 가능한 과거 자료 없음 — 상향·하향·전망 변경 여부 미판정",
+      "claims": [
+        {
+          "id": "0d9a1e845ff0fba690d6d164",
+          "text": "2016년 여름, 전 세계가 거리로 쏟아져 나왔다.",
+          "kind": "fact",
+          "author": "고민서",
+          "source_ids": [
+            "e156618f66f1f855c620f4fe"
+          ],
+          "evidence": [
+            {
+              "source_id": "e156618f66f1f855c620f4fe",
+              "source_version_id": "17bbe443d9647cbd2f244737",
+              "start": 0,
+              "end": 28,
+              "text": "2016년 여름, 전 세계가 거리로 쏟아져 나왔다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "2016년 여름, 전 세계가 거리로 쏟아져 나왔다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "5d6d9c16a624dc4e7c711e9f",
+          "text": "스마트폰으로 가상의 몬스터를 잡는 증강현실(AR) 게임 ‘포켓몬 고’ 열풍이었다.",
+          "kind": "fact",
+          "author": "고민서",
+          "source_ids": [
+            "e156618f66f1f855c620f4fe"
+          ],
+          "evidence": [
+            {
+              "source_id": "e156618f66f1f855c620f4fe",
+              "source_version_id": "17bbe443d9647cbd2f244737",
+              "start": 29,
+              "end": 74,
+              "text": "스마트폰으로 가상의 몬스터를 잡는 증강현실(AR) 게임 ‘포켓몬 고’ 열풍이었다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "스마트폰으로 가상의 몬스터를 잡는 증강현실(AR) 게임 ‘포켓몬 고’ 열풍이었다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "655de47541e448d83c26ffff",
+          "text": "출시 10년이 지난 지금도 150여 개국에서 즐기는 스테디셀러(누적 다운로드 10억건 이상)다.",
+          "kind": "fact",
+          "author": "고민서",
+          "source_ids": [
+            "e156618f66f1f855c620f4fe"
+          ],
+          "evidence": [
+            {
+              "source_id": "e156618f66f1f855c620f4fe",
+              "source_version_id": "17bbe443d9647cbd2f244737",
+              "start": 75,
+              "end": 128,
+              "text": "출시 10년이 지난 지금도 150여 개국에서 즐기는 스테디셀러(누적 다운로드 10억건 이상)다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "출시 10년이 지난 지금도 150여 개국에서 즐기는 스테디셀러(누적 다운로드 10억건 이상)다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "24a554b8967e249c28867907",
+          "text": "그런데 이 게임을 만든 미국 나이언틱은 지난해 잘나가던 게임 사업부를 스코플리에 35억달러에 팔았다.",
+          "kind": "fact",
+          "author": "고민서",
+          "source_ids": [
+            "e156618f66f1f855c620f4fe"
+          ],
+          "evidence": [
+            {
+              "source_id": "e156618f66f1f855c620f4fe",
+              "source_version_id": "17bbe443d9647cbd2f244737",
+              "start": 129,
+              "end": 192,
+              "text": "그런데 이 게임을 만든 미국 나이언틱은 지난해 잘나가던 게임 사업부를 스코플리에 35억달러(약 5조원)에 팔았다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "source_display_omissions": [
+                {
+                  "end": 186,
+                  "location": "body",
+                  "reason": "secondary_currency_conversion",
+                  "source_version_id": "17bbe443d9647cbd2f244737",
+                  "start": 179,
+                  "text": "(약 5조원)"
+                }
+              ],
+              "projected_source_text": "그런데 이 게임을 만든 미국 나이언틱은 지난해 잘나가던 게임 사업부를 스코플리에 35억달러에 팔았다.",
+              "display_text": "그런데 이 게임을 만든 미국 나이언틱은 지난해 잘나가던 게임 사업부를 스코플리에 35억달러에 팔았다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "source_projection",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        }
+      ],
+      "event_schedules": [],
+      "document_ids": [
+        "e156618f66f1f855c620f4fe"
+      ],
+      "source_versions": [
+        "17bbe443d9647cbd2f244737"
+      ],
+      "entities": [],
+      "selection_reason": [
+        "수집 범위 내 독립 발행자 1개",
+        "자료 기준 경과 33.4시간",
+        "이전 입력 대비 신규 문서",
+        "제품·생산·투자 활동의 구체적 소식"
+      ],
+      "follow_up": [
+        "원문과 기간·단위·작성 주체를 확인하고 해석을 검토하세요."
+      ],
+      "confidence": "source_checked",
+      "related_issue_id": null,
+      "late_discovered": false,
+      "analysis_provider": "extractive",
+      "model_status": "not_needed_source_korean",
+      "analysis_label": "한국어 원문에서 핵심 문장 선별",
+      "evidence_expired": false,
+      "evidence_partially_expired": false,
+      "has_full_text": true,
+      "has_message_text": false,
+      "prior_day_follow_up": false,
+      "original_title": "로봇의 ‘공간감각’ 깨운다...‘포켓몬 고’ 개발사, 한국 피지컬 AI 시장 정조준",
+      "source_title_ko": "로봇의 ‘공간감각’ 깨운다...‘포켓몬 고’ 개발사, 한국 피지컬 AI 시장 정조준",
+      "korean_required": true
+    },
+    {
+      "id": "74f41e67b40cda1033b87baf",
+      "anchor": "issue-dc2718015053fdc7",
+      "editorial_scope": "other_economic",
+      "event_type": "economic_other",
+      "title": "\"자동결제 잡아낸다\"…'구독 경제' 위협하는 AI 뮤즈",
+      "section": "investment",
+      "category": "research",
+      "summary": [
+        "메타 '뮤즈' 구독관리 인기…해지 어렵게 한 구독서비스들에 타격 건강·동영상·뉴스 순으로 해지 높아…\"은행 등 금융권도 영향 가능성\"",
+        "[파이낸셜뉴스]개인 비서 역할을 하는 인공지능(AI) 에이전트가 확산되면서 구독 경제 시장을 위협하고 있다.",
+        "개인용 AI 에이전트를 표방하며 이달 초 출시된 메타 뮤즈 이용자들 사이에서 잊고 있던 유료 구독 서비스를 찾아 해지하는 기능이 인기를 끌고 있다고 미 경제방송 CNBC가 27일(현지시간) 보도했다.",
+        "이용자들이 은행 계좌와 신용카드 정보 접근 권한을 부여하면 뮤즈가 자동 이체·결제 내역을 찾아 해지할 수 있도록 도와주는 기능이다."
+      ],
+      "change": "비교 가능한 과거 자료 없음 — 상향·하향·전망 변경 여부 미판정",
+      "claims": [
+        {
+          "id": "ff37b46f762922bf04acb7ab",
+          "text": "메타 '뮤즈' 구독관리 인기…해지 어렵게 한 구독서비스들에 타격 건강·동영상·뉴스 순으로 해지 높아…\"은행 등 금융권도 영향 가능성\"",
+          "kind": "author_opinion",
+          "author": "이석우",
+          "source_ids": [
+            "43ed6d4984a1c711c84cfa77"
+          ],
+          "evidence": [
+            {
+              "source_id": "43ed6d4984a1c711c84cfa77",
+              "source_version_id": "07762699b72bf198c9cc9664",
+              "start": 0,
+              "end": 74,
+              "text": "메타 '뮤즈' 구독관리 인기…해지 어렵게 한 구독서비스들에 타격 건강·동영상·뉴스 순으로 해지 높아…\"은행 등 금융권도 영향 가능성\"",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "메타 '뮤즈' 구독관리 인기…해지 어렵게 한 구독서비스들에 타격 건강·동영상·뉴스 순으로 해지 높아…\"은행 등 금융권도 영향 가능성\"",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "forecast"
+          },
+          "numbers": []
+        },
+        {
+          "id": "bcff76f4340288aa6805fd47",
+          "text": "[파이낸셜뉴스]개인 비서 역할을 하는 인공지능(AI) 에이전트가 확산되면서 구독 경제 시장을 위협하고 있다.",
+          "kind": "fact",
+          "author": "이석우",
+          "source_ids": [
+            "43ed6d4984a1c711c84cfa77"
+          ],
+          "evidence": [
+            {
+              "source_id": "43ed6d4984a1c711c84cfa77",
+              "source_version_id": "07762699b72bf198c9cc9664",
+              "start": 76,
+              "end": 136,
+              "text": "[파이낸셜뉴스]개인 비서 역할을 하는 인공지능(AI) 에이전트가 확산되면서 구독 경제 시장을 위협하고 있다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "[파이낸셜뉴스]개인 비서 역할을 하는 인공지능(AI) 에이전트가 확산되면서 구독 경제 시장을 위협하고 있다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "0b92c203bf6a976e5876f519",
+          "text": "개인용 AI 에이전트를 표방하며 이달 초 출시된 메타 뮤즈 이용자들 사이에서 잊고 있던 유료 구독 서비스를 찾아 해지하는 기능이 인기를 끌고 있다고 미 경제방송 CNBC가 27일(현지시간) 보도했다.",
+          "kind": "fact",
+          "author": "이석우",
+          "source_ids": [
+            "43ed6d4984a1c711c84cfa77"
+          ],
+          "evidence": [
+            {
+              "source_id": "43ed6d4984a1c711c84cfa77",
+              "source_version_id": "07762699b72bf198c9cc9664",
+              "start": 138,
+              "end": 249,
+              "text": "개인용 AI 에이전트를 표방하며 이달 초 출시된 메타 뮤즈 이용자들 사이에서 잊고 있던 유료 구독 서비스를 찾아 해지하는 기능이 인기를 끌고 있다고 미 경제방송 CNBC가 27일(현지시간) 보도했다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "개인용 AI 에이전트를 표방하며 이달 초 출시된 메타 뮤즈 이용자들 사이에서 잊고 있던 유료 구독 서비스를 찾아 해지하는 기능이 인기를 끌고 있다고 미 경제방송 CNBC가 27일(현지시간) 보도했다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "baa40da385e17cf3983fcbd2",
+          "text": "이용자들이 은행 계좌와 신용카드 정보 접근 권한을 부여하면 뮤즈가 자동 이체·결제 내역을 찾아 해지할 수 있도록 도와주는 기능이다.",
+          "kind": "fact",
+          "author": "이석우",
+          "source_ids": [
+            "43ed6d4984a1c711c84cfa77"
+          ],
+          "evidence": [
+            {
+              "source_id": "43ed6d4984a1c711c84cfa77",
+              "source_version_id": "07762699b72bf198c9cc9664",
+              "start": 251,
+              "end": 324,
+              "text": "이용자들이 은행 계좌와 신용카드 정보 접근 권한을 부여하면 뮤즈가 자동 이체·결제 내역을 찾아 해지할 수 있도록 도와주는 기능이다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "이용자들이 은행 계좌와 신용카드 정보 접근 권한을 부여하면 뮤즈가 자동 이체·결제 내역을 찾아 해지할 수 있도록 도와주는 기능이다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        }
+      ],
+      "event_schedules": [],
+      "document_ids": [
+        "43ed6d4984a1c711c84cfa77"
+      ],
+      "source_versions": [
+        "07762699b72bf198c9cc9664"
+      ],
+      "entities": [],
+      "selection_reason": [
+        "수집 범위 내 독립 발행자 1개",
+        "자료 기준 경과 11.6시간",
+        "이전 입력 대비 신규 문서",
+        "제품·생산·투자 활동의 구체적 소식"
+      ],
+      "follow_up": [
+        "원문과 기간·단위·작성 주체를 확인하고 해석을 검토하세요."
+      ],
+      "confidence": "source_checked",
+      "related_issue_id": null,
+      "late_discovered": false,
+      "analysis_provider": "extractive",
+      "model_status": "not_needed_source_korean",
+      "analysis_label": "한국어 원문에서 핵심 문장 선별",
+      "evidence_expired": false,
+      "evidence_partially_expired": false,
+      "has_full_text": true,
+      "has_message_text": false,
+      "prior_day_follow_up": false,
+      "original_title": "\"자동결제 잡아낸다\"…'구독 경제' 위협하는 AI 뮤즈",
+      "source_title_ko": "\"자동결제 잡아낸다\"…'구독 경제' 위협하는 AI 뮤즈",
+      "korean_required": true
+    },
+    {
+      "id": "b5d567c3d39340769287b70e",
+      "anchor": "issue-edd20934e24c5a1c",
+      "editorial_scope": "macro",
+      "event_type": "macro_release",
+      "title": "CPTPP 가입 효과 따져보니…\"GDP 0.38%p↑·농림수산업 8500억↓\"",
+      "section": "overnight",
+      "category": "economy",
+      "summary": [
+        "정부가 포괄적·점진적 환태평양경제동반자협정(CPTPP)에 가입할 경우 협정 발효 10년 뒤 실질 국내총생산(GDP)이 미가입 때보다 0.38%포인트 높아질 것으로 전망했다.",
+        "제조업 생산은 연평균 최대 6조 7000억원 늘어나는 반면 농림수산업 생산은 약 8500억원 감소할 것으로 분석됐다.",
+        "분석 결과 CPTPP 발효 10년 후 우리나라의 실질 GDP는 가입하지 않았을 때보다 0.38%포인트 높아질 것으로 추산됐다. 이는 매년 GDP 증가율이 0.38%포인트씩 높아진다는 의미가 아니라 협정 발효 후 10년간의 누적 효과를 뜻한다.",
+        "통상협정 체결에 따른 경제적 타당성 분석 결과는 통상 공청회를 계기로 공개해왔지만, 이번에는 CPTPP 가입이 우리 경제와 산업에 미칠 영향을 조기에 알리고 각계 의견을 수렴하기 위해 잠정 분석 결과를 먼저 공개했다."
+      ],
+      "change": "비교 가능한 과거 자료 없음 — 상향·하향·전망 변경 여부 미판정",
+      "claims": [
+        {
+          "id": "51c33db85ce98ebbe6369ae3",
+          "text": "정부가 포괄적·점진적 환태평양경제동반자협정(CPTPP)에 가입할 경우 협정 발효 10년 뒤 실질 국내총생산(GDP)이 미가입 때보다 0.38%포인트 높아질 것으로 전망했다.",
+          "kind": "author_opinion",
+          "author": "이데일리",
+          "source_ids": [
+            "aa54de6ff8da2e1ec9da24ae"
+          ],
+          "evidence": [
+            {
+              "source_id": "aa54de6ff8da2e1ec9da24ae",
+              "source_version_id": "5926e058532cbd1b5fda29cf",
+              "start": 14,
+              "end": 113,
+              "text": "정부가 포괄적·점진적 환태평양경제동반자협정(CPTPP)에 가입할 경우 협정 발효 10년 뒤 실질 국내총생산(GDP)이 미가입 때보다 0.38%포인트(p) 높아질 것으로 전망했다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "정부가 포괄적·점진적 환태평양경제동반자협정(CPTPP)에 가입할 경우 협정 발효 10년 뒤 실질 국내총생산(GDP)이 미가입 때보다 0.38%포인트 높아질 것으로 전망했다.",
+              "is_translation": true
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "not_verified",
+            "human_review": "not_reviewed",
+            "status": "needs_review",
+            "source_linkage": "passed",
+            "content_check": "unverified_paraphrase",
+            "assertion_type": "forecast"
+          },
+          "numbers": []
+        },
+        {
+          "id": "22d2509ce8702c30dede8fc4",
+          "text": "제조업 생산은 연평균 최대 6조 7000억원 늘어나는 반면 농림수산업 생산은 약 8500억원 감소할 것으로 분석됐다.",
+          "kind": "author_opinion",
+          "author": "이데일리",
+          "source_ids": [
+            "aa54de6ff8da2e1ec9da24ae"
+          ],
+          "evidence": [
+            {
+              "source_id": "aa54de6ff8da2e1ec9da24ae",
+              "source_version_id": "5926e058532cbd1b5fda29cf",
+              "start": 114,
+              "end": 179,
+              "text": "제조업 생산은 연평균 최대 6조 7000억원 늘어나는 반면 농림수산업 생산은 약 8500억원 감소할 것으로 분석됐다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "제조업 생산은 연평균 최대 6조 7000억원 늘어나는 반면 농림수산업 생산은 약 8500억원 감소할 것으로 분석됐다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "forecast"
+          },
+          "numbers": []
+        },
+        {
+          "id": "3c0fe01c497ca5e2cb9531f1",
+          "text": "분석 결과 CPTPP 발효 10년 후 우리나라의 실질 GDP는 가입하지 않았을 때보다 0.38%포인트 높아질 것으로 추산됐다. 이는 매년 GDP 증가율이 0.38%포인트씩 높아진다는 의미가 아니라 협정 발효 후 10년간의 누적 효과를 뜻한다.",
+          "kind": "author_opinion",
+          "author": "이데일리",
+          "source_ids": [
+            "aa54de6ff8da2e1ec9da24ae"
+          ],
+          "evidence": [
+            {
+              "source_id": "aa54de6ff8da2e1ec9da24ae",
+              "source_version_id": "5926e058532cbd1b5fda29cf",
+              "start": 575,
+              "end": 710,
+              "text": "분석 결과 CPTPP 발효 10년 후 우리나라의 실질 GDP는 가입하지 않았을 때보다 0.38%포인트 높아질 것으로 추산됐다. 이는 매년 GDP 증가율이 0.38%포인트씩 높아진다는 의미가 아니라 협정 발효 후 10년간의 누적 효과를 뜻한다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "분석 결과 CPTPP 발효 10년 후 우리나라의 실질 GDP는 가입하지 않았을 때보다 0.38%포인트 높아질 것으로 추산됐다. 이는 매년 GDP 증가율이 0.38%포인트씩 높아진다는 의미가 아니라 협정 발효 후 10년간의 누적 효과를 뜻한다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "forecast"
+          },
+          "numbers": []
+        },
+        {
+          "id": "3cc633d02b329e3b711de0dd",
+          "text": "통상협정 체결에 따른 경제적 타당성 분석 결과는 통상 공청회를 계기로 공개해왔지만, 이번에는 CPTPP 가입이 우리 경제와 산업에 미칠 영향을 조기에 알리고 각계 의견을 수렴하기 위해 잠정 분석 결과를 먼저 공개했다.",
+          "kind": "fact",
+          "author": "이데일리",
+          "source_ids": [
+            "aa54de6ff8da2e1ec9da24ae"
+          ],
+          "evidence": [
+            {
+              "source_id": "aa54de6ff8da2e1ec9da24ae",
+              "source_version_id": "5926e058532cbd1b5fda29cf",
+              "start": 1257,
+              "end": 1378,
+              "text": "통상협정 체결에 따른 경제적 타당성 분석 결과는 통상 공청회를 계기로 공개해왔지만, 이번에는 CPTPP 가입이 우리 경제와 산업에 미칠 영향을 조기에 알리고 각계 의견을 수렴하기 위해 잠정 분석 결과를 먼저 공개했다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "통상협정 체결에 따른 경제적 타당성 분석 결과는 통상 공청회를 계기로 공개해왔지만, 이번에는 CPTPP 가입이 우리 경제와 산업에 미칠 영향을 조기에 알리고 각계 의견을 수렴하기 위해 잠정 분석 결과를 먼저 공개했다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        }
+      ],
+      "event_schedules": [],
+      "document_ids": [
+        "aa54de6ff8da2e1ec9da24ae"
+      ],
+      "source_versions": [
+        "5926e058532cbd1b5fda29cf"
+      ],
+      "entities": [],
+      "selection_reason": [
+        "수집 범위 내 독립 발행자 1개",
+        "자료 기준 경과 7.4시간",
+        "이전 입력 대비 신규 문서",
+        "수치가 명시된 거시 지표 발표 또는 확정된 통화·무역 정책 변경"
+      ],
+      "follow_up": [
+        "원문과 기간·단위·작성 주체를 확인하고 해석을 검토하세요."
+      ],
+      "confidence": "source_checked",
+      "related_issue_id": null,
+      "late_discovered": false,
+      "analysis_provider": "extractive",
+      "model_status": "not_needed_source_korean",
+      "analysis_label": "한국어 번역 · 수치·출처 자동 대조",
+      "evidence_expired": false,
+      "evidence_partially_expired": false,
+      "has_full_text": true,
+      "has_message_text": false,
+      "prior_day_follow_up": false,
+      "original_title": "CPTPP 가입 효과 따져보니…\"GDP 0.38%p↑·농림수산업 8500억↓\"",
+      "source_title_ko": "CPTPP 가입 효과 따져보니…\"GDP 0.38%p↑·농림수산업 8500억↓\"",
+      "korean_required": true
+    },
+    {
+      "id": "d804f103961d26d591e397dd",
+      "anchor": "issue-46a2258a82c3a2bb",
+      "editorial_scope": "company",
+      "event_type": "company_regulation",
+      "title": "\"회장일가 소유 대부업체 부당지원\"…공정위, 이종근 명륜당 회장 檢고발 - 머니투데이",
+      "section": "overnight",
+      "category": "economy",
+      "summary": [
+        "회장일가가 소유한 14개 계열 대부회사에 정상금리보다 낮은 금리로 자금을 대여해 경제상 이익을 제공한 혐의를 받는 명륜당이 공정거래위원회로부터 100억원대 과징금 처분을 받았다.",
+        "공정위는 명륜당 법인 및 이종근 회장에 대한 검찰 고발도 결정했다.",
+        "공정위는 명륜당의 부당지원행위 및 가맹사업법 위반 행위에 대해 시정명령과 함께 과징금 총 144억7200만원(잠정) 부과를 결정했다고 28일 밝혔다.",
+        "또 명륜당 및 이 회장에 대해선 검찰에 고발키로 했다."
+      ],
+      "change": "비교 가능한 과거 자료 없음 — 상향·하향·전망 변경 여부 미판정",
+      "claims": [
+        {
+          "id": "504241f724482ffc9499892b",
+          "text": "회장일가가 소유한 14개 계열 대부회사에 정상금리보다 낮은 금리로 자금을 대여해 경제상 이익을 제공한 혐의를 받는 명륜당이 공정거래위원회로부터 100억원대 과징금 처분을 받았다.",
+          "kind": "fact",
+          "author": "박광범",
+          "source_ids": [
+            "1b6c2116ccfa7d393ae7e279"
+          ],
+          "evidence": [
+            {
+              "source_id": "1b6c2116ccfa7d393ae7e279",
+              "source_version_id": "3a1787236b04bf59f061e87a",
+              "start": 0,
+              "end": 99,
+              "text": "회장일가가 소유한 14개 계열 대부회사에 정상금리보다 낮은 금리로 자금을 대여해 경제상 이익을 제공한 혐의를 받는 명륜당이 공정거래위원회로부터 100억원대 과징금 처분을 받았다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "회장일가가 소유한 14개 계열 대부회사에 정상금리보다 낮은 금리로 자금을 대여해 경제상 이익을 제공한 혐의를 받는 명륜당이 공정거래위원회로부터 100억원대 과징금 처분을 받았다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "3f0263f9831a950b517e23ce",
+          "text": "공정위는 명륜당 법인 및 이종근 회장에 대한 검찰 고발도 결정했다.",
+          "kind": "fact",
+          "author": "박광범",
+          "source_ids": [
+            "1b6c2116ccfa7d393ae7e279"
+          ],
+          "evidence": [
+            {
+              "source_id": "1b6c2116ccfa7d393ae7e279",
+              "source_version_id": "3a1787236b04bf59f061e87a",
+              "start": 100,
+              "end": 137,
+              "text": "공정위는 명륜당 법인 및 이종근 회장에 대한 검찰 고발도 결정했다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "공정위는 명륜당 법인 및 이종근 회장에 대한 검찰 고발도 결정했다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "c42e5ddf4e9f9ebc3047650f",
+          "text": "공정위는 명륜당의 부당지원행위 및 가맹사업법 위반 행위에 대해 시정명령과 함께 과징금 총 144억7200만원(잠정) 부과를 결정했다고 28일 밝혔다.",
+          "kind": "fact",
+          "author": "박광범",
+          "source_ids": [
+            "1b6c2116ccfa7d393ae7e279"
+          ],
+          "evidence": [
+            {
+              "source_id": "1b6c2116ccfa7d393ae7e279",
+              "source_version_id": "3a1787236b04bf59f061e87a",
+              "start": 141,
+              "end": 224,
+              "text": "공정위는 명륜당의 부당지원행위 및 가맹사업법 위반 행위에 대해 시정명령과 함께 과징금 총 144억7200만원(잠정) 부과를 결정했다고 28일 밝혔다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "공정위는 명륜당의 부당지원행위 및 가맹사업법 위반 행위에 대해 시정명령과 함께 과징금 총 144억7200만원(잠정) 부과를 결정했다고 28일 밝혔다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "87cd5e07ee7860925e4fd53b",
+          "text": "또 명륜당 및 이 회장에 대해선 검찰에 고발키로 했다.",
+          "kind": "fact",
+          "author": "박광범",
+          "source_ids": [
+            "1b6c2116ccfa7d393ae7e279"
+          ],
+          "evidence": [
+            {
+              "source_id": "1b6c2116ccfa7d393ae7e279",
+              "source_version_id": "3a1787236b04bf59f061e87a",
+              "start": 225,
+              "end": 255,
+              "text": "또 명륜당 및 이 회장에 대해선 검찰에 고발키로 했다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "또 명륜당 및 이 회장에 대해선 검찰에 고발키로 했다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        }
+      ],
+      "event_schedules": [],
+      "document_ids": [
+        "1b6c2116ccfa7d393ae7e279"
+      ],
+      "source_versions": [
+        "3a1787236b04bf59f061e87a"
+      ],
+      "entities": [],
+      "selection_reason": [
+        "수집 범위 내 독립 발행자 1개",
+        "자료 기준 경과 9.4시간",
+        "이전 입력 대비 신규 문서",
+        "원문에 실행·결정 근거가 있는 기업 계약·제품·자본거래·승인"
+      ],
+      "follow_up": [
+        "원문과 기간·단위·작성 주체를 확인하고 해석을 검토하세요."
+      ],
+      "confidence": "source_checked",
+      "related_issue_id": null,
+      "late_discovered": false,
+      "analysis_provider": "extractive",
+      "model_status": "not_needed_source_korean",
+      "analysis_label": "한국어 원문에서 핵심 문장 선별",
+      "evidence_expired": false,
+      "evidence_partially_expired": false,
+      "has_full_text": true,
+      "has_message_text": false,
+      "prior_day_follow_up": false,
+      "original_title": "\"회장일가 소유 대부업체 부당지원\"…공정위, 이종근 명륜당 회장 檢고발 - 머니투데이",
+      "source_title_ko": "\"회장일가 소유 대부업체 부당지원\"…공정위, 이종근 명륜당 회장 檢고발 - 머니투데이",
+      "korean_required": true
+    },
+    {
+      "id": "2ce2ab8852c09a8ce2b73a75",
+      "anchor": "issue-f1e6065edcbd6406",
+      "editorial_scope": "other_economic",
+      "event_type": "economic_other",
+      "title": "“2028 오피스 공급 폭탄? 프라임은 안 흔들린다…오피스가 인재 붙잡는 시대”",
+      "section": "yesterday",
+      "category": "economy",
+      "summary": [
+        "“10년 전만 해도 기업이 사무실을 고를 때 보는 것은 임대료와 위치 두 가지였다.",
+        "지금은 이 공간에서 조직 문화를 구현할 수 있는지, 인재 영입 경쟁력을 높일 수 있는지를 함께 따진다.",
+        "결정권도 총무팀과 재무팀에서 인사팀과 마케팅팀으로 옮겨가는 중이다.”",
+        "이 전무는 “요즘 직원들은 회사를 고를 때 연봉 못지않게 어느 건물에서 일하게 되는지를 중요하게 본다”며 “사옥을 옮긴다고 하면 그만두겠다는 직원들도 적지 않아 최근에는 직원 대표단이 후보 건물을 답사하고 대기업은 투표까지 거치는 분위기”라고 설명했다."
+      ],
+      "change": "비교 가능한 과거 자료 없음 — 상향·하향·전망 변경 여부 미판정",
+      "claims": [
+        {
+          "id": "ee6f660f1e093032e2c0536c",
+          "text": "“10년 전만 해도 기업이 사무실을 고를 때 보는 것은 임대료와 위치 두 가지였다.",
+          "kind": "fact",
+          "author": "박재영",
+          "source_ids": [
+            "1abff85016edc3e79ec26019"
+          ],
+          "evidence": [
+            {
+              "source_id": "1abff85016edc3e79ec26019",
+              "source_version_id": "0e89c9ce3822ed456b419a55",
+              "start": 0,
+              "end": 46,
+              "text": "“10년 전만 해도 기업이 사무실을 고를 때 보는 것은 임대료와 위치 두 가지였다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "“10년 전만 해도 기업이 사무실을 고를 때 보는 것은 임대료와 위치 두 가지였다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "fe4ccf7fdc9c3a5ffdf0eb67",
+          "text": "지금은 이 공간에서 조직 문화를 구현할 수 있는지, 인재 영입 경쟁력을 높일 수 있는지를 함께 따진다.",
+          "kind": "fact",
+          "author": "박재영",
+          "source_ids": [
+            "1abff85016edc3e79ec26019"
+          ],
+          "evidence": [
+            {
+              "source_id": "1abff85016edc3e79ec26019",
+              "source_version_id": "0e89c9ce3822ed456b419a55",
+              "start": 47,
+              "end": 104,
+              "text": "지금은 이 공간에서 조직 문화를 구현할 수 있는지, 인재 영입 경쟁력을 높일 수 있는지를 함께 따진다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "지금은 이 공간에서 조직 문화를 구현할 수 있는지, 인재 영입 경쟁력을 높일 수 있는지를 함께 따진다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "169daa77fb1126dd1020a165",
+          "text": "결정권도 총무팀과 재무팀에서 인사팀과 마케팅팀으로 옮겨가는 중이다.”",
+          "kind": "fact",
+          "author": "박재영",
+          "source_ids": [
+            "1abff85016edc3e79ec26019"
+          ],
+          "evidence": [
+            {
+              "source_id": "1abff85016edc3e79ec26019",
+              "source_version_id": "0e89c9ce3822ed456b419a55",
+              "start": 105,
+              "end": 143,
+              "text": "결정권도 총무팀과 재무팀에서 인사팀과 마케팅팀으로 옮겨가는 중이다.”",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "결정권도 총무팀과 재무팀에서 인사팀과 마케팅팀으로 옮겨가는 중이다.”",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        },
+        {
+          "id": "50ebd8c0fa789b9c844702c6",
+          "text": "이 전무는 “요즘 직원들은 회사를 고를 때 연봉 못지않게 어느 건물에서 일하게 되는지를 중요하게 본다”며 “사옥을 옮긴다고 하면 그만두겠다는 직원들도 적지 않아 최근에는 직원 대표단이 후보 건물을 답사하고 대기업은 투표까지 거치는 분위기”라고 설명했다.",
+          "kind": "fact",
+          "author": "박재영",
+          "source_ids": [
+            "1abff85016edc3e79ec26019"
+          ],
+          "evidence": [
+            {
+              "source_id": "1abff85016edc3e79ec26019",
+              "source_version_id": "0e89c9ce3822ed456b419a55",
+              "start": 856,
+              "end": 997,
+              "text": "이 전무는 “요즘 직원들은 회사를 고를 때 연봉 못지않게 어느 건물에서 일하게 되는지를 중요하게 본다”며 “사옥을 옮긴다고 하면 그만두겠다는 직원들도 적지 않아 최근에는 직원 대표단이 후보 건물을 답사하고 대기업은 투표까지 거치는 분위기”라고 설명했다.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "이 전무는 “요즘 직원들은 회사를 고를 때 연봉 못지않게 어느 건물에서 일하게 되는지를 중요하게 본다”며 “사옥을 옮긴다고 하면 그만두겠다는 직원들도 적지 않아 최근에는 직원 대표단이 후보 건물을 답사하고 대기업은 투표까지 거치는 분위기”라고 설명했다.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "원문 발췌이며 독립적 사실 검증·사람 검토 전",
+          "validation": {
+            "semantic_support": "source_quote_only",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "exact_quote",
+            "assertion_type": "observation"
+          },
+          "numbers": []
+        }
+      ],
+      "event_schedules": [],
+      "document_ids": [
+        "1abff85016edc3e79ec26019"
+      ],
+      "source_versions": [
+        "0e89c9ce3822ed456b419a55"
+      ],
+      "entities": [],
+      "selection_reason": [
+        "수집 범위 내 독립 발행자 1개",
+        "자료 기준 경과 33.0시간",
+        "이전 입력 대비 신규 문서",
+        "제품·생산·투자 활동의 구체적 소식"
+      ],
+      "follow_up": [
+        "원문과 기간·단위·작성 주체를 확인하고 해석을 검토하세요."
+      ],
+      "confidence": "source_checked",
+      "related_issue_id": null,
+      "late_discovered": false,
+      "analysis_provider": "extractive",
+      "model_status": "not_needed_source_korean",
+      "analysis_label": "한국어 원문에서 핵심 문장 선별",
+      "evidence_expired": false,
+      "evidence_partially_expired": false,
+      "has_full_text": true,
+      "has_message_text": false,
+      "prior_day_follow_up": false,
+      "original_title": "“2028 오피스 공급 폭탄? 프라임은 안 흔들린다…오피스가 인재 붙잡는 시대”",
+      "source_title_ko": "“2028 오피스 공급 폭탄? 프라임은 안 흔들린다…오피스가 인재 붙잡는 시대”",
+      "korean_required": true
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "naver_general",
+      "name": "네이버 종합 뉴스",
+      "status": "ok",
+      "document_count": 29
+    },
+    {
+      "source_id": "naver_investment",
+      "name": "네이버 투자 뉴스",
+      "status": "ok",
+      "document_count": 25
+    },
+    {
+      "source_id": "naver_blog",
+      "name": "네이버 블로그",
+      "status": "disabled",
+      "document_count": 0
+    },
+    {
+      "source_id": "naver_einfomax",
+      "name": "연합인포맥스 · 네이버 검색",
+      "status": "ok",
+      "document_count": 1
+    },
+    {
+      "source_id": "einfomax",
+      "name": "연합인포맥스",
+      "status": "partial",
+      "document_count": 2
+    },
+    {
+      "source_id": "einfomax_rss",
+      "name": "연합인포맥스 · 분야별 RSS",
+      "status": "ok",
+      "document_count": 3
+    },
+    {
+      "source_id": "telegram_joined",
+      "name": "가입 텔레그램 채널·그룹",
+      "status": "partial",
+      "document_count": 19
+    },
+    {
+      "source_id": "hani_general",
+      "name": "한겨레 종합",
+      "status": "disabled",
+      "document_count": 0
+    },
+    {
+      "source_id": "bbc_world",
+      "name": "비비시 국제",
+      "status": "disabled",
+      "document_count": 0
+    },
+    {
+      "source_id": "bbc_science",
+      "name": "비비시 과학",
+      "status": "disabled",
+      "document_count": 0
+    },
+    {
+      "source_id": "bbc_culture",
+      "name": "비비시 문화",
+      "status": "disabled",
+      "document_count": 0
+    },
+    {
+      "source_id": "fed_press",
+      "name": "미국 연방준비제도 발표",
+      "status": "partial",
+      "document_count": 4
+    },
+    {
+      "source_id": "fed_research",
+      "name": "미국 연방준비제도 연구",
+      "status": "no_news",
+      "document_count": 0
+    },
+    {
+      "source_id": "sec_press",
+      "name": "미국 증권거래위원회 발표",
+      "status": "no_news",
+      "document_count": 0
+    },
+    {
+      "source_id": "bls_statistics",
+      "name": "미국 노동통계국",
+      "status": "access_blocked",
+      "document_count": 0
+    },
+    {
+      "source_id": "korea_policy",
+      "name": "대한민국 정책브리핑",
+      "status": "disabled",
+      "document_count": 0
+    },
+    {
+      "source_id": "bea_releases",
+      "name": "미국 경제분석국",
+      "status": "no_news",
+      "document_count": 0
+    },
+    {
+      "source_id": "bok_issue_notes",
+      "name": "한국은행 연구",
+      "status": "no_news",
+      "document_count": 0
+    },
+    {
+      "source_id": "hani_economy",
+      "name": "한겨레 경제",
+      "status": "partial",
+      "document_count": 0
+    },
+    {
+      "source_id": "bbc_business",
+      "name": "비비시 경제",
+      "status": "partial",
+      "document_count": 1
+    },
+    {
+      "source_id": "cnbc_finance",
+      "name": "시엔비시 금융",
+      "status": "no_news",
+      "document_count": 0
+    },
+    {
+      "source_id": "cnbc_economy",
+      "name": "시엔비시 경제",
+      "status": "no_news",
+      "document_count": 0
+    },
+    {
+      "source_id": "cnbc_earnings",
+      "name": "시엔비시 기업 실적",
+      "status": "no_news",
+      "document_count": 0
+    },
+    {
+      "source_id": "guardian_business",
+      "name": "가디언 경제",
+      "status": "ok",
+      "document_count": 1
+    },
+    {
+      "source_id": "geeknews_ai",
+      "name": "GeekNews · AI",
+      "status": "partial",
+      "document_count": 1
+    },
+    {
+      "source_id": "openai_news",
+      "name": "OpenAI 공식 소식",
+      "status": "no_news",
+      "document_count": 0
+    },
+    {
+      "source_id": "anthropic_news",
+      "name": "Anthropic 공식 소식",
+      "status": "no_news",
+      "document_count": 0
+    },
+    {
+      "source_id": "fsc_press",
+      "name": "금융위원회",
+      "status": "ok",
+      "document_count": 5
+    },
+    {
+      "source_id": "bea_calendar",
+      "name": "미국 경제분석국 일정",
+      "status": "no_news",
+      "document_count": 0
+    },
+    {
+      "source_id": "bls_calendar",
+      "name": "미국 노동통계국 일정",
+      "status": "access_blocked",
+      "document_count": 0
+    },
+    {
+      "source_id": "fed_policy_calendar",
+      "name": "연준 통화정책 일정",
+      "status": "no_news",
+      "document_count": 0
+    },
+    {
+      "source_id": "bok_policy_calendar",
+      "name": "한국은행 통화정책 일정",
+      "status": "no_news",
+      "document_count": 0
+    }
+  ],
+  "documents": [
+    {
+      "id": "43ed6d4984a1c711c84cfa77",
+      "version_id": "07762699b72bf198c9cc9664",
+      "source_id": "naver_investment",
+      "source_kind": "news",
+      "title": "\"자동결제 잡아낸다\"…'구독 경제' 위협하는 AI 뮤즈",
+      "publisher": "파이낸셜뉴스",
+      "author": "이석우",
+      "url": "https://www.fnnews.com/news/202609280943023880",
+      "published_at": "2026-09-28T00:50:34+00:00",
+      "provided_at": "2026-09-28T00:51:00+00:00",
+      "modified_at": "2026-09-28T00:50:34+00:00",
+      "collected_at": "2026-09-28T01:42:49.793456+00:00",
+      "event_at": null,
+      "time_basis": "original_published_at",
+      "full_text": true,
+      "text_scope": "기사·문서 본문 확보",
+      "evidence_expired": false,
+      "extraction_quality": "article_text",
+      "synthetic": false
+    },
+    {
+      "id": "1abff85016edc3e79ec26019",
+      "version_id": "0e89c9ce3822ed456b419a55",
+      "source_id": "naver_general",
+      "source_kind": "news",
+      "title": "“2028 오피스 공급 폭탄? 프라임은 안 흔들린다…오피스가 인재 붙잡는 시대”",
+      "publisher": "매일경제",
+      "author": "박재영",
+      "url": "https://www.mk.co.kr/article/12161837",
+      "published_at": "2026-09-27T03:26:12+00:00",
+      "provided_at": "2026-09-27T03:27:00+00:00",
+      "modified_at": "2026-09-28T05:50:23+00:00",
+      "collected_at": "2026-09-28T11:34:59.743546+00:00",
+      "event_at": null,
+      "time_basis": "original_published_at",
+      "full_text": true,
+      "text_scope": "기사·문서 본문 확보",
+      "evidence_expired": false,
+      "extraction_quality": "article_text",
+      "synthetic": false
+    },
+    {
+      "id": "e156618f66f1f855c620f4fe",
+      "version_id": "17bbe443d9647cbd2f244737",
+      "source_id": "naver_investment",
+      "source_kind": "news",
+      "title": "로봇의 ‘공간감각’ 깨운다...‘포켓몬 고’ 개발사, 한국 피지컬 AI 시장 정조준",
+      "publisher": "매일경제",
+      "author": "고민서",
+      "url": "https://www.mk.co.kr/article/12161830",
+      "published_at": "2026-09-27T03:00:00+00:00",
+      "provided_at": "2026-09-27T03:01:00+00:00",
+      "modified_at": null,
+      "collected_at": "2026-09-27T15:11:52.953337+00:00",
+      "event_at": null,
+      "time_basis": "original_published_at",
+      "full_text": true,
+      "text_scope": "기사·문서 본문 확보",
+      "evidence_expired": false,
+      "extraction_quality": "article_text",
+      "synthetic": false
+    },
+    {
+      "id": "4f913b0109d3586555a9827d",
+      "version_id": "1ad60df926bd025f75a9d7db",
+      "source_id": "naver_investment",
+      "source_kind": "news",
+      "title": "\"피지컬AI에 공간 감각 심어 현실 세계로 로봇 내보낼것\"",
+      "publisher": "매일경제",
+      "author": "고민서",
+      "url": "https://www.mk.co.kr/article/12161993",
+      "published_at": "2026-09-27T07:48:16+00:00",
+      "provided_at": "2026-09-27T07:49:00+00:00",
+      "modified_at": "2026-09-28T00:13:57+00:00",
+      "collected_at": "2026-09-28T11:34:59.188005+00:00",
+      "event_at": null,
+      "time_basis": "original_published_at",
+      "full_text": true,
+      "text_scope": "기사·문서 본문 확보",
+      "evidence_expired": false,
+      "extraction_quality": "article_text",
+      "synthetic": false
+    },
+    {
+      "id": "51ed8f5b6b671353ad3e9ab6",
+      "version_id": "1ea8f34cf3c990e5c0ff785c",
+      "source_id": "naver_investment",
+      "source_kind": "news",
+      "title": "출시 2주 만에 280만건 다운로드했는데… 메타, AI 에이전트 ‘뮤즈’ 보안 취약점 발견",
+      "publisher": "조선비즈",
+      "author": "정두용 기자",
+      "url": "https://biz.chosun.com/it-science/ict/2026/09/27/YCILPQS5AVHWHM6V3SPHFWYYRY/",
+      "published_at": "2026-09-27T08:16:49.315000+00:00",
+      "provided_at": "2026-09-27T08:19:00+00:00",
+      "modified_at": "2026-09-27T08:18:08.384000+00:00",
+      "collected_at": "2026-09-27T15:11:41.653024+00:00",
+      "event_at": null,
+      "time_basis": "original_published_at",
+      "full_text": true,
+      "text_scope": "기사·문서 본문 확보",
+      "evidence_expired": false,
+      "extraction_quality": "article_text",
+      "synthetic": false
+    },
+    {
+      "id": "17393d174cd91f049737161b",
+      "version_id": "26401f7d7daf93668652c6bd",
+      "source_id": "einfomax_rss",
+      "source_kind": "news",
+      "title": "BCA리서치 \"美 실업률 4% 이하로 하락하면 물가 압력 키울 수도\"",
+      "publisher": "연합인포맥스",
+      "author": "김지연 기자",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4436724",
+      "published_at": "2026-09-28T06:51:15+00:00",
+      "provided_at": "2026-09-28T06:51:15+00:00",
+      "modified_at": null,
+      "collected_at": "2026-09-28T09:44:19.012332+00:00",
+      "event_at": null,
+      "time_basis": "original_published_at",
+      "full_text": true,
+      "text_scope": "기사·문서 본문 확보",
+      "evidence_expired": false,
+      "extraction_quality": "article_text",
+      "synthetic": false
+    },
+    {
+      "id": "1341c5e54781685b6b4357bd",
+      "version_id": "2ce20bcfad772494b0f18cfc",
+      "source_id": "naver_investment",
+      "source_kind": "news",
+      "title": "몸값 204조 솔리다임 美 상장설…SK ‘5단 중복상장’ 논란 재점화",
+      "publisher": "IT조선",
+      "author": "이광영 기자",
+      "url": "https://it.chosun.com/news/articleView.html?idxno=2023092170918",
+      "published_at": "2026-09-28T01:54:25+00:00",
+      "provided_at": "2026-09-28T01:56:00+00:00",
+      "modified_at": "2026-09-28T01:54:25+00:00",
+      "collected_at": "2026-09-28T03:42:33.903364+00:00",
+      "event_at": null,
+      "time_basis": "original_published_at",
+      "full_text": true,
+      "text_scope": "기사·문서 본문 확보",
+      "evidence_expired": false,
+      "extraction_quality": "article_text",
+      "synthetic": false
+    },
+    {
+      "id": "1b6c2116ccfa7d393ae7e279",
+      "version_id": "3a1787236b04bf59f061e87a",
+      "source_id": "naver_general",
+      "source_kind": "news",
+      "title": "\"회장일가 소유 대부업체 부당지원\"…공정위, 이종근 명륜당 회장 檢고발 - 머니투데이",
+      "publisher": "머니투데이",
+      "author": "박광범",
+      "url": "https://www.mt.co.kr/living/2026/09/28/2026092808191142715",
+      "published_at": "2026-09-28T03:00:00+00:00",
+      "provided_at": "2026-09-28T03:00:00+00:00",
+      "modified_at": "2026-09-28T03:01:30+00:00",
+      "collected_at": "2026-09-28T03:47:50.112490+00:00",
+      "event_at": null,
+      "time_basis": "original_published_at",
+      "full_text": true,
+      "text_scope": "기사·문서 본문 확보",
+      "evidence_expired": false,
+      "extraction_quality": "article_text",
+      "synthetic": false
+    },
+    {
+      "id": "a2e8a14f2be0f35fad411b05",
+      "version_id": "405c241cbaf1b4d8706b8a6b",
+      "source_id": "naver_general",
+      "source_kind": "news",
+      "title": "美·中, 600억달러 상품 관세 낮춘다…28일 세부안 추가 공개",
+      "publisher": "이데일리",
+      "author": "",
+      "url": "https://www.edaily.co.kr/News/Read?newsId=01761366645584384&mediaCodeNo=257",
+      "published_at": "2026-09-27T06:29:41+00:00",
+      "provided_at": "2026-09-27T06:30:00+00:00",
+      "modified_at": null,
+      "collected_at": "2026-09-27T15:19:39.812280+00:00",
+      "event_at": null,
+      "time_basis": "original_published_at",
+      "full_text": true,
+      "text_scope": "기사·문서 본문 확보",
+      "evidence_expired": false,
+      "extraction_quality": "article_text",
+      "synthetic": false
+    },
+    {
+      "id": "f33af28a5bcbf5e4f1e6b42f",
+      "version_id": "4cdebc58a9f28d2997faec58",
+      "source_id": "einfomax_rss",
+      "source_kind": "news",
+      "title": "[중국증시-마감] AI·반도체주 급락에 상하이 1%대↓·선전 3%대↓",
+      "publisher": "연합인포맥스",
+      "author": "박지은 기자",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4436747",
+      "published_at": "2026-09-28T09:08:10+00:00",
+      "provided_at": "2026-09-28T09:08:10+00:00",
+      "modified_at": null,
+      "collected_at": "2026-09-28T09:43:32.643488+00:00",
+      "event_at": null,
+      "time_basis": "original_published_at",
+      "full_text": true,
+      "text_scope": "기사·문서 본문 확보",
+      "evidence_expired": false,
+      "extraction_quality": "article_text",
+      "synthetic": false
+    },
+    {
+      "id": "64959899d148f0a0d4293709",
+      "version_id": "53c1f326bd84fdf1d490d514",
+      "source_id": "naver_investment",
+      "source_kind": "news",
+      "title": "FT “한국, AI를 전기처럼”…전 국민 무료 AI·국산모델 승부수",
+      "publisher": "이데일리",
+      "author": "",
+      "url": "https://www.edaily.co.kr/News/Read?newsId=02309126645584712&mediaCodeNo=257",
+      "published_at": "2026-09-28T00:47:58+00:00",
+      "provided_at": "2026-09-28T00:50:00+00:00",
+      "modified_at": null,
+      "collected_at": "2026-09-28T01:41:42.121019+00:00",
+      "event_at": null,
+      "time_basis": "original_published_at",
+      "full_text": true,
+      "text_scope": "기사·문서 본문 확보",
+      "evidence_expired": false,
+      "extraction_quality": "article_text",
+      "synthetic": false
+    },
+    {
+      "id": "aa54de6ff8da2e1ec9da24ae",
+      "version_id": "5926e058532cbd1b5fda29cf",
+      "source_id": "naver_general",
+      "source_kind": "news",
+      "title": "CPTPP 가입 효과 따져보니…\"GDP 0.38%p↑·농림수산업 8500억↓\"",
+      "publisher": "이데일리",
+      "author": "",
+      "url": "https://www.edaily.co.kr/News/Read?newsId=03037286645584712&mediaCodeNo=257",
+      "published_at": "2026-09-28T05:00:04+00:00",
+      "provided_at": "2026-09-28T05:02:00+00:00",
+      "modified_at": null,
+      "collected_at": "2026-09-28T05:39:18.838069+00:00",
+      "event_at": null,
+      "time_basis": "original_published_at",
+      "full_text": true,
+      "text_scope": "기사·문서 본문 확보",
+      "evidence_expired": false,
+      "extraction_quality": "article_text",
+      "synthetic": false
+    },
+    {
+      "id": "3d846b927b2aeb30cc4ea576",
+      "version_id": "5c7337b785724ede838c7465",
+      "source_id": "einfomax_rss",
+      "source_kind": "news",
+      "title": "메타 '뮤즈'가 되살린 반도체 기대감…韓 순유출 진정세 '뚜렷'",
+      "publisher": "연합인포맥스",
+      "author": "신민경 기자",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4436601",
+      "published_at": "2026-09-27T23:22:00+00:00",
+      "provided_at": "2026-09-27T23:22:22+00:00",
+      "modified_at": null,
+      "collected_at": "2026-09-28T11:34:58.655221+00:00",
+      "event_at": null,
+      "time_basis": "original_published_at",
+      "full_text": true,
+      "text_scope": "기사·문서 본문 확보",
+      "evidence_expired": false,
+      "extraction_quality": "article_text",
+      "synthetic": false
+    },
+    {
+      "id": "f2653c921ce4c4bac370a45a",
+      "version_id": "5d9f19a0506ecdb3bf9ff8d1",
+      "source_id": "naver_investment",
+      "source_kind": "news",
+      "title": "AI투자가 바꾼 금리 상승=주가 하락 공식",
+      "publisher": "한국경제",
+      "author": "황정수",
+      "url": "https://www.hankyung.com/article/2026092800881",
+      "published_at": "2026-09-28T09:02:08+00:00",
+      "provided_at": "2026-09-28T09:03:00+00:00",
+      "modified_at": "2026-09-28T09:02:00+00:00",
+      "collected_at": "2026-09-28T09:51:30.032332+00:00",
+      "event_at": null,
+      "time_basis": "original_published_at",
+      "full_text": true,
+      "text_scope": "기사·문서 본문 확보",
+      "evidence_expired": false,
+      "extraction_quality": "article_text",
+      "synthetic": false
+    },
+    {
+      "id": "3bb3eb5cbaec05a01e99be94",
+      "version_id": "be8cb43ebe7bcc6639ec346f",
+      "source_id": "einfomax_rss",
+      "source_kind": "news",
+      "title": "[증시-마감] 연휴 끝 악재 소화한 코스피, 7천선 하회…외인 3조 '매물폭탄'",
+      "publisher": "연합인포맥스",
+      "author": "신민경 기자",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4436730",
+      "published_at": "2026-09-28T07:07:06+00:00",
+      "provided_at": "2026-09-28T07:07:06+00:00",
+      "modified_at": null,
+      "collected_at": "2026-09-28T09:44:06.873551+00:00",
+      "event_at": null,
+      "time_basis": "original_published_at",
+      "full_text": true,
+      "text_scope": "기사·문서 본문 확보",
+      "evidence_expired": false,
+      "extraction_quality": "article_text",
+      "synthetic": false
+    },
+    {
+      "id": "8cb478599b3b8fc682a4eff7",
+      "version_id": "bf87e9f0364be6d9de140704",
+      "source_id": "naver_general",
+      "source_kind": "news",
+      "title": "中, 美와 무역전쟁 휴전 2개월 연장 확인..석탄 관세 추가 인하",
+      "publisher": "파이낸셜뉴스",
+      "author": "박종원",
+      "url": "https://www.fnnews.com/news/202609281438043123",
+      "published_at": "2026-09-28T07:02:46+00:00",
+      "provided_at": "2026-09-28T07:03:00+00:00",
+      "modified_at": "2026-09-28T07:06:07+00:00",
+      "collected_at": "2026-09-28T09:56:26.152991+00:00",
+      "event_at": null,
+      "time_basis": "original_published_at",
+      "full_text": true,
+      "text_scope": "기사·문서 본문 확보",
+      "evidence_expired": false,
+      "extraction_quality": "article_text",
+      "synthetic": false
+    },
+    {
+      "id": "595196d09f54b729fcdbccdf",
+      "version_id": "c5b44240ee07f27336ef27c4",
+      "source_id": "naver_investment",
+      "source_kind": "news",
+      "title": "\"자동결제 잊었는데…\" 해지 어렵게 한 서비스 잡아낸다",
+      "publisher": "SBS 뉴스",
+      "author": "이기영 에디터",
+      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008772285&plink=ORI&cooper=NAVER",
+      "published_at": "2026-09-28T00:30:36+00:00",
+      "provided_at": "2026-09-28T00:30:00+00:00",
+      "modified_at": "2026-09-28T00:30:36+00:00",
+      "collected_at": "2026-09-28T01:43:08.996023+00:00",
+      "event_at": null,
+      "time_basis": "original_published_at",
+      "full_text": true,
+      "text_scope": "기사·문서 본문 확보",
+      "evidence_expired": false,
+      "extraction_quality": "article_text",
+      "synthetic": false
+    },
+    {
+      "id": "55b18c3b439c13fd5950ace9",
+      "version_id": "c84146c4ea05b218b6c4c392",
+      "source_id": "naver_general",
+      "source_kind": "news",
+      "title": "탄탄한 기관 매수, 물가·고용 시험대 [이정훈의 코인 위클리뷰]",
+      "publisher": "이데일리",
+      "author": "",
+      "url": "https://www.edaily.co.kr/News/Read?newsId=01325126645584384&mediaCodeNo=257",
+      "published_at": "2026-09-27T01:09:28+00:00",
+      "provided_at": "2026-09-27T01:11:00+00:00",
+      "modified_at": null,
+      "collected_at": "2026-09-27T15:19:53.089522+00:00",
+      "event_at": null,
+      "time_basis": "original_published_at",
+      "full_text": true,
+      "text_scope": "기사·문서 본문 확보",
+      "evidence_expired": false,
+      "extraction_quality": "article_text",
+      "synthetic": false
+    },
+    {
+      "id": "6c1e2e5695acac88ec63dcc3",
+      "version_id": "e6d4123b711690b9e9a64a3c",
+      "source_id": "naver_investment",
+      "source_kind": "news",
+      "title": "美 30년물 국채금리 5.5% 돌파…주요국 ‘차환폭탄’에 한국 ‘대출금리’도 압박",
+      "publisher": "중앙일보",
+      "author": "김다영",
+      "url": "https://www.joongang.co.kr/article/25465003",
+      "published_at": "2026-09-27T07:33:08+00:00",
+      "provided_at": "2026-09-27T07:33:00+00:00",
+      "modified_at": null,
+      "collected_at": "2026-09-27T15:12:01.020596+00:00",
+      "event_at": null,
+      "time_basis": "original_published_at",
+      "full_text": true,
+      "text_scope": "기사·문서 본문 확보",
+      "evidence_expired": false,
+      "extraction_quality": "article_text",
+      "synthetic": false
+    },
+    {
+      "id": "4427e7a829038174ff79710b",
+      "version_id": "e86510b0cbb7f26ea1c4a5b3",
+      "source_id": "naver_investment",
+      "source_kind": "news",
+      "title": "美국채금리 급등에 달러 강세…한은 \"시장 변동성 확대될 수도\" - 머니투데이",
+      "publisher": "머니투데이",
+      "author": "최민경",
+      "url": "https://www.mt.co.kr/economy/2026/09/28/2026092810114780103",
+      "published_at": "2026-09-28T02:33:27+00:00",
+      "provided_at": "2026-09-28T02:33:00+00:00",
+      "modified_at": "2026-09-28T02:33:33+00:00",
+      "collected_at": "2026-09-28T03:41:46.290134+00:00",
+      "event_at": null,
+      "time_basis": "original_published_at",
+      "full_text": true,
+      "text_scope": "기사·문서 본문 확보",
+      "evidence_expired": false,
+      "extraction_quality": "article_text",
+      "synthetic": false
+    },
+    {
+      "id": "dce85642f7290a1c2df8b474",
+      "version_id": "f2be8c0bf0a0af7f4f019a2c",
+      "source_id": "naver_general",
+      "source_kind": "news",
+      "title": "中은 석탄·농산물, 美는 장난감·가전…300억달러 상호 관세인하 품목 공개",
+      "publisher": "파이낸셜뉴스",
+      "author": "박종원",
+      "url": "https://www.fnnews.com/news/202609281833159301",
+      "published_at": "2026-09-28T09:33:16+00:00",
+      "provided_at": "2026-09-28T09:35:00+00:00",
+      "modified_at": "2026-09-28T09:33:16+00:00",
+      "collected_at": "2026-09-28T09:56:04.965970+00:00",
+      "event_at": null,
+      "time_basis": "original_published_at",
+      "full_text": true,
+      "text_scope": "기사·문서 본문 확보",
+      "evidence_expired": false,
+      "extraction_quality": "article_text",
+      "synthetic": false
+    }
+  ],
+  "coverage": {
+    "window_start": "2026-09-21T21:26:19.686865+09:00",
+    "us_market_status": "거래일",
+    "us_last_completed_session": "2026-09-25",
+    "sectors": [],
+    "countries": [
+      "US"
+    ],
+    "window_end_exclusive": "2026-09-28T21:26:19.686865+09:00",
+    "documents": 31,
+    "full_text": 22,
+    "missing_sources": [
+      "bls_statistics",
+      "bls_calendar"
+    ],
+    "us_market_time": "2026-09-28T08:26:19.686865-04:00",
+    "exclusions": {
+      "late_discovered": 0,
+      "older_than_window": 699,
+      "selected": 7369,
+      "superseded_versions": 799,
+      "unknown_time": 230
+    },
+    "categories": {
+      "calendar": 1,
+      "economy": 11,
+      "research": 10,
+      "technology": 9
+    },
+    "input_time_policy": "observed_before_cutoff",
+    "collected_end": "2026-09-28T12:20:57.297851+00:00"
+  },
+  "editorial_focus": "economy_finance_business",
+  "ai_discoveries": [
+    {
+      "title": "fakecloud - 통합 테스트를 위한 로컬 AWS 클라우드 에뮬레이터",
+      "url": "https://news.hada.io/topic?id=34387",
+      "reading_selection_version": "reading-curation-v2",
+      "summary": [
+        "fakecloud 는 기존 AWS SDK, CLI, IaC 도구를 그대로 사용하면서 애플리케이션과 AWS 서비스 간 동작을 로컬에서 테스트하는 환경임 애플리케이션은 일반 AWS API를 호출하고, 테스트는 전용 SDK 로 이메일, 메시지, Lambda 호출 결과를 검사하거나 비동기 처리를 직..."
+      ],
+      "topics": [
+        "개발",
+        "인프라"
+      ],
+      "original_url": "",
+      "summary_scope": "community_summary",
+      "summary_verified_at": null,
+      "original_title": "",
+      "original_publisher": "",
+      "original_published_at": null,
+      "provided_at": "2026-09-27T22:42:59+00:00"
+    },
+    {
+      "title": "바이브 코딩 현실: 셀프테스트는 통과했는데 실데이터는 261편 중 6편만 맞았다",
+      "url": "https://news.hada.io/topic?id=34399",
+      "reading_selection_version": "reading-curation-v2",
+      "summary": [
+        "AI 코딩 에이전트에게 블로그 운영 자동화를 맡기면서 셀프테스트가 통과(GATE_OK)했는데 실데이터에서는 틀린 도구 세 개를 겪은 기록입니다.",
+        "서치콘솔 수집기는 표 셀의 innerText 에 호버 버튼 문구가 딸려 와 글 261편 중 6편만 매칭했고, 광고 점검 도구는 산술 하나로 렌더 실패를 단정했다가 브라우저 확인에서..."
+      ],
+      "topics": [
+        "AI",
+        "개발"
+      ],
+      "original_url": "",
+      "summary_scope": "community_summary",
+      "summary_verified_at": null,
+      "original_title": "",
+      "original_publisher": "",
+      "original_published_at": null,
+      "provided_at": "2026-09-28T01:17:11+00:00"
+    },
+    {
+      "title": "Armada - Nostr 기반 암호화 오픈소스 Discord 대안",
+      "url": "https://news.hada.io/topic?id=34425",
+      "reading_selection_version": "reading-curation-v2",
+      "summary": [
+        "Armada 는 커뮤니티, 채널, 스레드, 음성/영상 통화와 운영 기능을 갖춘 Discord 대안으로, 모든 커뮤니티에 종단 간 암호화 를 적용함 메시지는 전송 전 기기에서 암호화되며 발신자와 커뮤니티 이름 도 보호함.",
+        "공개된 Concord 프로토콜을 사용해 ..."
+      ],
+      "topics": [
+        "보안",
+        "오픈소스"
+      ],
+      "original_url": "",
+      "summary_scope": "community_summary",
+      "summary_verified_at": null,
+      "original_title": "",
+      "original_publisher": "",
+      "original_published_at": null,
+      "provided_at": "2026-09-28T11:37:51+00:00"
+    },
+    {
+      "title": "“ENIAC에도 BIOS가 있었을까?”에 대한 Alan Kay의 답변",
+      "url": "https://news.hada.io/topic?id=34414",
+      "reading_selection_version": "reading-curation-v2",
+      "summary": [
+        "ENIAC에는 BIOS나 그에 상응하는 기능이 없었을 것 으로 보며, 일부 기법만으로는 프로그램 내장식 컴퓨터로 분류하기에도 부족하다고 봄 기본 입출력 프로그램 을 BIOS로 인정하려면 반드시 펌웨어에 있어야 하는지가 쟁점이며, 기능적 취지에 따르면 ROM은..."
+      ],
+      "topics": [
+        "인프라"
+      ],
+      "original_url": "",
+      "summary_scope": "community_summary",
+      "summary_verified_at": null,
+      "original_title": "",
+      "original_publisher": "",
+      "original_published_at": null,
+      "provided_at": "2026-09-28T04:43:20+00:00"
+    },
+    {
+      "title": "계속 승진하는 것이 좋은 커리어일까? 엔지니어 Philip Su의 경험 [동영상]",
+      "url": "https://news.hada.io/topic?id=34397",
+      "reading_selection_version": "reading-curation-v2",
+      "summary": [
+        "승진은 같은 일을 더 잘하는 것만을 뜻하지 않음 .",
+        "높은 레벨에서는 코딩보다 방향 설정과 조직 간 조율이 늘어나며, 잘할 수 있는 일과 하고 싶은 일이 달라질 수 있음 OpenAI 와 Meta에서 근무한 Philip Su는 높은 성과 기대와 압박에 지쳐 IC9에서 IC7로 자발적으로 내려왔..."
+      ],
+      "topics": [
+        "기술 산업"
+      ],
+      "original_url": "",
+      "summary_scope": "community_summary",
+      "summary_verified_at": null,
+      "original_title": "",
+      "original_publisher": "",
+      "original_published_at": null,
+      "provided_at": "2026-09-28T00:35:01+00:00"
+    },
+    {
+      "title": "BrowserSkill - 로그인된 내 브라우저를 AI 에이전트가 사용하게 하는 도구",
+      "url": "https://news.hada.io/topic?id=34395",
+      "reading_selection_version": "reading-curation-v2",
+      "summary": [
+        "Tencent가 공개한 브라우저 확장 프로그램과 CLI 로, 이미 로그인된 Chrome이나 Edge를 AI 에이전트에 연결 별도 자동화 브라우저에 다시 로그인하지 않고 사내 사이트 검색, 문서 읽기, 양식 작성과 웹 업무 처리 에 활용 에이전트는 별도 창에서 ..."
+      ],
+      "topics": [
+        "AI"
+      ],
+      "original_url": "",
+      "summary_scope": "community_summary",
+      "summary_verified_at": null,
+      "original_title": "",
+      "original_publisher": "",
+      "original_published_at": null,
+      "provided_at": "2026-09-28T00:30:02+00:00"
+    },
+    {
+      "title": "Show GN: CalcMax – SymPy 엔진을 내장한 오픈소스 안드로이드 공학용/CAS 계산기",
+      "url": "https://news.hada.io/topic?id=34405",
+      "reading_selection_version": "reading-curation-v2",
+      "summary": [
+        "안드로이드에서 일반 공학용 계산기처럼 바로 사용할 수 있으면서, 필요할 때 CAS·그래프·Python·통계까지 사용할 수 있는 계산기를 만들었습니다.",
+        "SymPy 엔진을 앱에 직접 포함해서 인터넷 연결 없이 강력한 CAS 계산이 가능합니다."
+      ],
+      "topics": [
+        "개발",
+        "오픈소스"
+      ],
+      "original_url": "",
+      "summary_scope": "community_summary",
+      "summary_verified_at": null,
+      "original_title": "",
+      "original_publisher": "",
+      "original_published_at": null,
+      "provided_at": "2026-09-28T02:54:07+00:00"
+    },
+    {
+      "title": "받아야 할 Nvidia 주식 10억 달러어치",
+      "url": "https://news.hada.io/topic?id=34409",
+      "reading_selection_version": "reading-curation-v2",
+      "summary": [
+        "NVIDIA의 초기 자문위원 Eric Gullichsen은 1993년 받은 스톡옵션 계약 을 2024년 다시 확인한 뒤, 약 10억 달러어치 주식을 받지 못했다고 주장함 계약은 부여일부터 1년 안에 전량 베스팅 하도록 정했지만, 1996년 NVIDIA가 통지한 확정 수량은 4년 베스팅 일정으로..."
+      ],
+      "topics": [
+        "기술 산업"
+      ],
+      "original_url": "",
+      "summary_scope": "community_summary",
+      "summary_verified_at": null,
+      "original_title": "",
+      "original_publisher": "",
+      "original_published_at": null,
+      "provided_at": "2026-09-28T03:32:31+00:00"
+    },
+    {
+      "title": "다크 웹에서 셀프 호스팅하기",
+      "url": "https://news.hada.io/topic?id=34413",
+      "reading_selection_version": "reading-curation-v2",
+      "summary": [
+        "개인 사이트를 Tor 숨김 서비스 로 공개해 Tor 네트워크 안에서만 접근할 수 있는 .onion 주소로 접속 가능하게 함 .onion 주소는 공개 키에서 직접 파생 되며, 인증 기관이나 DNS 없이 서버 IP를 노출하지 않고 Tor 자체의 종단 간 암호화..."
+      ],
+      "topics": [
+        "보안",
+        "인프라"
+      ],
+      "original_url": "",
+      "summary_scope": "community_summary",
+      "summary_verified_at": null,
+      "original_title": "",
+      "original_publisher": "",
+      "original_published_at": null,
+      "provided_at": "2026-09-28T04:40:20+00:00"
+    }
+  ],
+  "reading_status": {
+    "geeknews": {
+      "count": 9,
+      "status": "complete",
+      "note": ""
+    }
+  },
+  "korean_required": true,
+  "translation": {
+    "foreign_issues_completed": 10,
+    "issues_completed": 21,
+    "issues_omitted": 1,
+    "issues_pending": 1,
+    "omitted_notice": "비핵심 이슈 1개는 번역 검증을 통과하지 못해 제외했습니다. 게시된 이슈는 검증을 통과했습니다.",
+    "status": "complete_with_omissions"
+  },
+  "publication": {
+    "withheld_private_documents": 502,
+    "full_text_included": false,
+    "withheld_private_quote_issues": 0,
+    "withheld_full_text_issues": 0,
+    "visibility": "public",
+    "approved_local_summaries": true
+  },
+  "synthetic": false,
+  "notice": "본 프로젝트는 비상업적 개인 학습·연구를 위한 리서치 자동화 도구입니다. 자료의 출처를 표시하며 원문 권리는 각 권리자에게 있습니다."
+}
