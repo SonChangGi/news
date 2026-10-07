@@ -1,0 +1,40 @@
+{
+  "publication": {
+    "visibility": "public",
+    "full_text_included": false,
+    "production_approval": false
+  },
+  "synthetic": false,
+  "cutoff": "2026-10-06T15:05:13.576323+00:00",
+  "edition_phase": "daily_final",
+  "issues": [
+    {
+      "id": "compact-7da8073f44f68826dc6753c1",
+      "title": "10월 급등 후 반도체주 프리마켓 소폭 조정, 엔비디아만 상승",
+      "claims": [
+        {
+          "text": "10월 초의 급격한 랠리 이후 화요일 프리마켓 거래에서 인텔(INTC), AMD, 마이크론(MU), 샌디스크(SNDK) 및 iShares Semiconductor ETF(SOXX)는 0.1%에서 0.7% 사이로 하락한 반면, 엔비디아(NVDA)는 약 0.7% 상승했다.",
+          "kind": "fact",
+          "author": "",
+          "conditions": "화요일 프리마켓 거래 기준"
+        },
+        {
+          "text": "로젠블라트(Rosenblatt)는 마이크론의 목표주가를 1,500달러에서 1,900달러로 상향 조정하고 매수(Buy) 투자의견을 유지했다.",
+          "kind": "fact",
+          "author": "로젠블라트(Rosenblatt)",
+          "conditions": ""
+        }
+      ],
+      "source": {
+        "title": "INTC, AMD, MU, SNDK, SOXX: Chips, Memory Stocks Slip Premarket After Sharp October Rally",
+        "publisher": "Yahoo Finance",
+        "author": "Yuvraj Malik",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/intc-amd-mu-sndk-soxx-091251918.html",
+        "published_at": "2026-10-06T09:12:51+00:00",
+        "provided_at": null,
+        "collected_at": "2026-10-06T15:04:44.694403+00:00",
+        "original_publisher": "Stocktwits"
+      }
+    }
+  ]
+}

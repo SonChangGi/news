@@ -1,0 +1,39 @@
+{
+  "publication": {
+    "visibility": "public",
+    "full_text_included": false,
+    "production_approval": false
+  },
+  "synthetic": false,
+  "cutoff": "2026-10-06T15:05:13.576323+00:00",
+  "edition_phase": "daily_final",
+  "issues": [
+    {
+      "id": "compact-6f9d2da150bf33a84ba20f96",
+      "title": "ECB 수석 이코노미스트 \"물가상승률 너무 높으면 정책금리 올려야\"(상보)",
+      "claims": [
+        {
+          "text": "필립 레인 유럽중앙은행(ECB) 집행이사 겸 수석 이코노미스트는 6일(현지시간) 이탈리아 통신사 안사(ANSA)와의 인터뷰에서 \"물가상승률이 너무 높으면 정책금리를 올려야 한다\"고 말했다.",
+          "kind": "fact",
+          "author": "김경림 기자",
+          "conditions": "2026-10-06"
+        },
+        {
+          "text": "레인 이사는 \"물가상승률이 3~4%에 계속 머문다면 이탈리아 노동자와 가계에 매우 큰 피해를 줄 것\"이라고 말하며, \"물가상승률을 2%로 되돌리는 주요 방법은 금리를 조정하는 것\"이라고 설명했다.",
+          "kind": "fact",
+          "author": "김경림 기자",
+          "conditions": ""
+        }
+      ],
+      "source": {
+        "title": "ECB 수석 이코노미스트 \"물가상승률 너무 높으면 정책금리 올려야\"(상보)",
+        "publisher": "연합인포맥스",
+        "author": "김경림 기자",
+        "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4437981",
+        "published_at": "2026-10-06T09:57:25+00:00",
+        "provided_at": "2026-10-06T09:57:25+00:00",
+        "collected_at": "2026-10-06T15:04:38.234184+00:00"
+      }
+    }
+  ]
+}
