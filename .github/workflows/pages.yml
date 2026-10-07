@@ -2,8 +2,19 @@ name: Deploy news archive
 on:
   push:
     branches: [main]
-    paths: ['site/**', '.github/workflows/pages.yml']
+    paths: ['site/**', '.github/workflows/pages.yml', '.github/scripts/assemble-pages-preview.py']
   workflow_dispatch:
+    inputs:
+      preview_id:
+        description: 'Verified preview ID; leave both fields empty to restore normal archive only'
+        type: string
+        required: false
+        default: ''
+      preview_manifest_sha256:
+        description: 'Exact locally reviewed manifest SHA256; required with preview ID'
+        type: string
+        required: false
+        default: ''
 permissions:
   contents: read
   pages: write
@@ -13,6 +24,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   deploy:
+    if: github.ref == 'refs/heads/main'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -20,9 +32,17 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/configure-pages@v5
+      - name: Assemble normal archive and optional verified preview
+        env:
+          PREVIEW_ID: ${{ inputs.preview_id || '' }}
+          PREVIEW_MANIFEST_SHA256: ${{ inputs.preview_manifest_sha256 || '' }}
+        run: >-
+          python3 .github/scripts/assemble-pages-preview.py
+          --repo "$GITHUB_WORKSPACE" --output "$RUNNER_TEMP/news-pages-site"
+          --preview-id "$PREVIEW_ID" --manifest-sha256 "$PREVIEW_MANIFEST_SHA256"
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: site
+          path: ${{ runner.temp }}/news-pages-site
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4
