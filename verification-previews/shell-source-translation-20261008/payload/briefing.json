@@ -1,0 +1,39 @@
+{
+  "publication": {
+    "visibility": "public",
+    "full_text_included": false,
+    "production_approval": false
+  },
+  "synthetic": false,
+  "cutoff": "2026-10-07T19:06:45.197792+09:00",
+  "edition_phase": "daily_final",
+  "issues": [
+    {
+      "id": "compact-114e0ce9c0023bad0f230e33",
+      "title": "쉘, 정유소에서 생산하는 모든 배럴의 이익이 거의 2배로 증가할 것으로 전망",
+      "claims": [
+        {
+          "text": "쉘의 정유소는 전 세계적 부족으로 인한 사상 최고 가격 덕분에 생산하는 모든 배럴의 이익이 거의 2배가 될 것으로 예상됩니다.",
+          "kind": "fact",
+          "author": "",
+          "conditions": ""
+        },
+        {
+          "text": "수요일 발표된 시장 거래 업데이트에서 이 에너지 슈퍼메이저는 7월부터 9월까지의 기간에 배럴당 42달러의 이익 마진을 전망했으며, 이는 2분기의 배럴당 24달러와 2022년 중반의 약 28달러라는 이전 최고치보다 훨씬 높습니다.",
+          "kind": "fact",
+          "author": "",
+          "conditions": ""
+        }
+      ],
+      "source": {
+        "title": "Shell expects refineries to almost double the profit from every barrel of fuel made",
+        "publisher": "The Guardian",
+        "author": "Jillian Ambrose",
+        "url": "https://www.theguardian.com/business/2026/oct/07/shell-refineries-forecast-to-make-double-the-profit-from-every-barrel-of-fuel",
+        "published_at": "2026-10-07T08:30:16+00:00",
+        "provided_at": "2026-10-07T08:30:16+00:00",
+        "collected_at": "2026-10-07T10:03:49.224870+00:00"
+      }
+    }
+  ]
+}
