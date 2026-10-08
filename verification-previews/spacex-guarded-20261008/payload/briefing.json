@@ -1,0 +1,208 @@
+{
+  "schema_version": "1",
+  "run_id": "local-card-only-afternoon-v4-spacex",
+  "report_date": "2026-10-08",
+  "cutoff": "2026-10-08T05:21:42.107822+00:00",
+  "generated_at": "2026-10-08T05:40:46.900603+00:00",
+  "mode": "reconstruction",
+  "status": "partial",
+  "language": "ko",
+  "timezone": "Asia/Seoul",
+  "input_manifest_hash": "",
+  "edition_phase": "daily_final",
+  "previous_revision_run_id": "",
+  "news_counts": {
+    "total": 1,
+    "overseas": 1,
+    "domestic": 0
+  },
+  "highlights": [],
+  "delivery_target": "2026-10-08T05:36:42.107822+00:00",
+  "generation_delayed": false,
+  "issues": [
+    {
+      "id": "9401811a6e1460c28a9d7b93",
+      "navigation_review_notice": "요약은 원문 전체와 대조했으며, 발췌문은 원문 위치 안내입니다.",
+      "compact_native_version": "global-compact-factual-brief-v3-experimental",
+      "anchor": "issue-b6f9d282a5a667c8",
+      "editorial_scope": "company",
+      "event_type": "economic_other",
+      "title": "스페이스X, 400억 달러 규모 엔비디아 GPU 구매 위한 어폴로 등과 자금 조달 협의",
+      "section": "overseas",
+      "category": "company_industry",
+      "market_scope": "overseas",
+      "primary_market": "US",
+      "affected_markets": [
+        "US"
+      ],
+      "topic_tags": [
+        "company_industry",
+        "credit_risk",
+        "technology_ai",
+        "markets_flows"
+      ],
+      "edition_change": "new",
+      "summary": [
+        "어폴로 캐피털 매니지먼트와 여러 은행이 스페이스X의 400억 달러 규모 엔비디아 그래픽 처리 장치(GPU) 구매를 지원하기 위해 협의 중이다.",
+        "해당 거래는 주로 투자 등급 채권 시장에 의존할 것으로 보이며, 어폴로 캐피털은 자금 조달을 촉진하는 데 주도적 역할을 하고 있다고 전해졌다."
+      ],
+      "change": "",
+      "claims": [
+        {
+          "id": "c84b2ab53191ff4d250aceca",
+          "text": "어폴로 캐피털 매니지먼트와 여러 은행이 스페이스X의 400억 달러 규모 엔비디아 그래픽 처리 장치(GPU) 구매를 지원하기 위해 협의 중이다.",
+          "kind": "fact",
+          "author": "",
+          "source_ids": [
+            "98ab7a774f5e2e68682b949c"
+          ],
+          "evidence": [
+            {
+              "source_id": "98ab7a774f5e2e68682b949c",
+              "evidence_role": "navigation_excerpt",
+              "source_version_id": "772541363e21eacdc5c23289",
+              "start": 32,
+              "end": 303,
+              "text": "\n\nApollo Capital Management and several banks are in discussions with SpaceX to help facilitate the company's purchase of $40 billion worth of Nvidia graphics processing units, according to a person familiar with the talks who asked not to be named to discuss the matter.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "\n\nApollo Capital Management and several banks are in discussions with SpaceX to help facilitate the company's purchase of $40 billion worth of Nvidia graphics processing units, according to a person familiar with the talks who asked not to be named to discuss the matter.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "",
+          "validation": {
+            "semantic_support": "local_model_review",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "model_reviewed",
+            "semantic_support_scope": "reviewed_original_documents",
+            "evidence_role": "navigation_excerpt",
+            "source_linkage_scope": "document_identity_and_exact_excerpt",
+            "reviewed_source_version_ids": [
+              "772541363e21eacdc5c23289"
+            ]
+          },
+          "numbers": []
+        },
+        {
+          "id": "7cd925892f0e269f189f7642",
+          "text": "해당 거래는 주로 투자 등급 채권 시장에 의존할 것으로 보이며, 어폴로 캐피털은 자금 조달을 촉진하는 데 주도적 역할을 하고 있다고 전해졌다.",
+          "kind": "fact",
+          "author": "",
+          "source_ids": [
+            "98ab7a774f5e2e68682b949c"
+          ],
+          "evidence": [
+            {
+              "source_id": "98ab7a774f5e2e68682b949c",
+              "evidence_role": "navigation_excerpt",
+              "source_version_id": "772541363e21eacdc5c23289",
+              "start": 303,
+              "end": 429,
+              "text": "\n\nThe deal will primarily rely on the investment-grade debt market, which SpaceX just tapped four months ago, the person said.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "\n\nThe deal will primarily rely on the investment-grade debt market, which SpaceX just tapped four months ago, the person said.",
+              "is_translation": false
+            },
+            {
+              "source_id": "98ab7a774f5e2e68682b949c",
+              "evidence_role": "navigation_excerpt",
+              "source_version_id": "772541363e21eacdc5c23289",
+              "start": 806,
+              "end": 977,
+              "text": "\n\nSpaceX's $40 billion debt deal will likely use GPUs as collateral and Apollo Capital is said to be playing a leading role in facilitating the financing, the person said.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "\n\nSpaceX's $40 billion debt deal will likely use GPUs as collateral and Apollo Capital is said to be playing a leading role in facilitating the financing, the person said.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "",
+          "validation": {
+            "semantic_support": "local_model_review",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "model_reviewed",
+            "semantic_support_scope": "reviewed_original_documents",
+            "evidence_role": "navigation_excerpt",
+            "source_linkage_scope": "document_identity_and_exact_excerpt",
+            "reviewed_source_version_ids": [
+              "772541363e21eacdc5c23289"
+            ]
+          },
+          "numbers": []
+        }
+      ],
+      "document_ids": [
+        "98ab7a774f5e2e68682b949c"
+      ],
+      "source_versions": [
+        "772541363e21eacdc5c23289"
+      ],
+      "entities": [],
+      "selection_reason": [],
+      "follow_up": [],
+      "confidence": "model_reviewed",
+      "related_issue_id": null,
+      "late_discovered": false,
+      "analysis_provider": "mlx",
+      "model_status": "verified_compact_summary",
+      "analysis_label": "한국어 요약 · 원문 전체 대조",
+      "evidence_expired": false,
+      "evidence_partially_expired": false,
+      "has_full_text": true,
+      "has_message_text": false,
+      "prior_day_follow_up": false,
+      "original_title": "Apollo, banks in talks to finance SpaceX's $40 billion Nvidia GPU purchase",
+      "source_title_ko": "",
+      "korean_required": false
+    }
+  ],
+  "sources": [],
+  "documents": [
+    {
+      "id": "98ab7a774f5e2e68682b949c",
+      "version_id": "772541363e21eacdc5c23289",
+      "source_id": "cnbc_technology",
+      "source_kind": "news",
+      "title": "Apollo, banks in talks to finance SpaceX's $40 billion Nvidia GPU purchase",
+      "publisher": "시엔비시",
+      "author": "Seema Mody",
+      "url": "https://www.cnbc.com/2026/10/07/spacex-nvidia-chips-apollo-financing.html",
+      "published_at": "2026-10-07T16:32:30+00:00",
+      "provided_at": "2026-10-07T21:16:24+00:00",
+      "modified_at": "2026-10-07T21:16:24+00:00",
+      "collected_at": "2026-10-08T05:21:42.107822+00:00",
+      "event_at": null,
+      "time_basis": "original_published_at",
+      "full_text": true,
+      "text_scope": "기사·문서 본문 확보",
+      "evidence_expired": false,
+      "extraction_quality": "article_text",
+      "synthetic": false
+    }
+  ],
+  "coverage": {},
+  "korean_required": false,
+  "translation": {},
+  "publication": {
+    "withheld_private_documents": 0,
+    "full_text_included": false,
+    "withheld_private_quote_issues": 0,
+    "withheld_full_text_issues": 0,
+    "visibility": "public"
+  },
+  "synthetic": false,
+  "notice": "본 프로젝트는 비상업적 개인 학습·연구를 위한 리서치 자동화 도구입니다. 자료의 출처를 표시하며 원문 권리는 각 권리자에게 있습니다."
+}
