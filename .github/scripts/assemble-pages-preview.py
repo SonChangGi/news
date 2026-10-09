@@ -79,6 +79,37 @@ def load_preview(repo, preview_id, manifest_sha256, baseline):
     return payload, manifest
 
 
+def compact_notice(manifest):
+    """Validate only the reviewed display context, not editorial approval."""
+    from zoneinfo import ZoneInfo
+
+    def label(value):
+        stamp = datetime.fromisoformat(value)
+        require(stamp.tzinfo is not None, 'Display timestamp must be timezone-aware')
+        return stamp.astimezone(ZoneInfo('Asia/Seoul')).strftime('%Y-%m-%d %H:%M KST')
+
+    cutoff = label(manifest['original_cutoff'])
+    if 'display_context' not in manifest:
+        return '검증판 · 원문 수집 기준 ' + cutoff + ' · 정기 브리핑과 별도'
+    context = manifest['display_context']
+    require(isinstance(context, dict) and set(context) == {
+        'review_provenance', 'listing_collected_at', 'edition_cutoff',
+        'continuous_latest_coverage_claimed'}, 'Invalid display context')
+    require(context['edition_cutoff'] == manifest['original_cutoff']
+            and context['continuous_latest_coverage_claimed'] is False
+            and context['review_provenance'] in {'assisted_editor', 'normal_model_review'},
+            'Display context differs from reviewed manifest')
+    require(context['listing_collected_at'] is None or (
+        isinstance(context['listing_collected_at'], str) and context['listing_collected_at']),
+        'Invalid listing timestamp')
+    listing = (label(context['listing_collected_at']) if context['listing_collected_at']
+               else '별도 수집 기록 참조')
+    kind = '편집 보조 검토판' if context['review_provenance'] == 'assisted_editor' else '검증판'
+    return ('<aside class="notice" role="note" data-preview-notice="compact">'
+            + kind + ' · 목록 수집 ' + listing + ' · 판 기준 ' + cutoff
+            + ' · 정기 브리핑과 별도</aside>')
+
+
 def assemble(repo, output, preview_id='', manifest_sha256=''):
     repo = repo.resolve(strict=True)
     output = output.absolute()
@@ -104,13 +135,12 @@ def assemble(repo, output, preview_id='', manifest_sha256=''):
         scope = '검토 완료 부분집합' if manifest['validation_scope'] == 'reviewed_completed_subset' else '선정 카드 전체 검토'
         note = ('개발 배포 검증판 · ' + scope + ' · 원문 기준 시각 ' + cutoff
                 + ' · 정기 운영판·오늘 뉴스·평일 마감 달성을 뜻하지 않습니다.')
+        require('display_context' not in manifest or 'data-preview-notice="compact"' in content,
+                'Explicit display context requires its exact notice')
         if 'data-preview-notice="compact"' in content:
-            from zoneinfo import ZoneInfo
-            display_cutoff = datetime.fromisoformat(manifest['original_cutoff']).astimezone(
-                ZoneInfo('Asia/Seoul')).strftime('%Y-%m-%d %H:%M KST')
             require(content.count('data-preview-notice="compact"') == 1
                     and content.count('name="robots" content="noindex,nofollow,noarchive"') == 1
-                    and ('검증판 · 원문 수집 기준 ' + display_cutoff + ' · 정기 브리핑과 별도') in content,
+                    and compact_notice(manifest) in content,
                     'Reviewed compact preview notice is missing or stale')
             # The compact renderer already carries the notice; preserve exact reviewed bytes.
         else:
