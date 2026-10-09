@@ -1,0 +1,2181 @@
+{
+  "schema_version": "2",
+  "run_id": "5f18646778592bab14269196",
+  "report_date": "2026-10-09",
+  "cutoff": "2026-10-09T18:49:38.562823+09:00",
+  "generated_at": "2026-10-09T10:41:13.249754+00:00",
+  "mode": "on_time",
+  "status": "partial",
+  "language": "ko",
+  "timezone": "Asia/Seoul",
+  "input_manifest_hash": "4b95f6b42361c296ecf460504b3e6055104e79c6216d50a8863dbef4445645a6",
+  "edition_phase": "daily_final",
+  "previous_revision_run_id": "",
+  "news_counts": {
+    "total": 11,
+    "overseas": 11,
+    "domestic": 0
+  },
+  "highlights": [
+    "오픈AI 매출 보고서에 엔비디아, 오라클, 코어위브 등 AI 주가 급락",
+    "스페이스X, 400억 달러 규모 엔비디아 GPU 구매 위한 어폴로 등과 자금 조달 협의",
+    "연준 인사들, 연내 추가 금리 인상 전망하지만 시점은 불확실, 회의록 공개",
+    "30년물 입찰 견조한 수요 확인에 미 국채 랠리"
+  ],
+  "delivery_target": null,
+  "generation_delayed": false,
+  "issues": [
+    {
+      "id": "1ad906d144c17ba50fdff645",
+      "editor_assistance": {
+        "version": "editor-selected-original-sentences-v1",
+        "sentence_selection": "editor",
+        "translation_and_full_source_review": "model",
+        "selection_sha256": "f2d2056e0f57d08f3ebf089626c78bc0e40a23de6961b36fb5fd4f861290ce85"
+      },
+      "compact_full_summary": true,
+      "compact_native_version": "global-compact-source-translation-v2-experimental",
+      "anchor": "issue-8eec9c6f7c747a16",
+      "editorial_scope": "company",
+      "event_type": "economic_other",
+      "title": "오픈AI 매출 보고서에 엔비디아, 오라클, 코어위브 등 AI 주가 급락",
+      "section": "overseas",
+      "category": "company_industry",
+      "market_scope": "overseas",
+      "primary_market": "US",
+      "affected_markets": [
+        "US"
+      ],
+      "topic_tags": [
+        "company_industry",
+        "technology_ai",
+        "markets_flows"
+      ],
+      "edition_change": "new",
+      "summary": [
+        "엔비디아, 오라클, 코어위브 및 기타 인공지능 관련 종목의 주가는 목요일, 시장이 오픈AI의 매출에 대한 더 많은 세부 정보를 알게 된 후 하락했다.",
+        "오픈AI는 9월 말에 연환산 매출이 약 500억 달러에 도달했다고 투자자들에게 알렸으며, CNBC가 확인한 바에 따르면 이는 지난달 말에 널리 보도된 680억 달러 수치보다 낮았다.",
+        "해당 사안에 정통한 한 인사는 680억 달러 수치가 오픈AI 파트너들의 총매출을 포함하고 있어, 투자자들이 주요 경쟁사인 앤스로픽과 더 직접적인 비교를 할 수 있도록 돕는다고 말했다.",
+        "목요일 엔비디아 주가는 3% 하락했고, 오라클 주가는 거의 6% 하락했으며, 코어위브 주가는 거의 8% 떨어졌다."
+      ],
+      "change": "",
+      "claims": [
+        {
+          "id": "23d81a19182bf153d99fbf93",
+          "text": "엔비디아, 오라클, 코어위브 및 기타 인공지능 관련 종목의 주가는 목요일, 시장이 오픈AI의 매출에 대한 더 많은 세부 정보를 알게 된 후 하락했다.",
+          "kind": "fact",
+          "author": "",
+          "source_ids": [
+            "bb74eb646f87b53808254441"
+          ],
+          "evidence": [
+            {
+              "source_id": "bb74eb646f87b53808254441",
+              "source_version_id": "b0c7ff812de7f4c366438fc5",
+              "start": 44,
+              "end": 208,
+              "text": "\n\nShares of Nvidia , Oracle , CoreWeave and other artificial intelligence names sank lower on Thursday after the market learned more details about OpenAI's revenue.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "\n\nShares of Nvidia , Oracle , CoreWeave and other artificial intelligence names sank lower on Thursday after the market learned more details about OpenAI's revenue.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "",
+          "validation": {
+            "semantic_support": "local_model_review",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "model_reviewed"
+          },
+          "numbers": []
+        },
+        {
+          "id": "e2ee62f5527edc92afb5f897",
+          "text": "오픈AI는 9월 말에 연환산 매출이 약 500억 달러에 도달했다고 투자자들에게 알렸으며, CNBC가 확인한 바에 따르면 이는 지난달 말에 널리 보도된 680억 달러 수치보다 낮았다.",
+          "kind": "fact",
+          "author": "",
+          "source_ids": [
+            "bb74eb646f87b53808254441"
+          ],
+          "evidence": [
+            {
+              "source_id": "bb74eb646f87b53808254441",
+              "source_version_id": "b0c7ff812de7f4c366438fc5",
+              "start": 208,
+              "end": 406,
+              "text": "\n\nOpenAI told investors that it hit roughly $50 billion in annualized revenue at the end of September, CNBC confirmed, lower than the the $68 billion figure that was widely reported late last month.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "\n\nOpenAI told investors that it hit roughly $50 billion in annualized revenue at the end of September, CNBC confirmed, lower than the the $68 billion figure that was widely reported late last month.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "",
+          "validation": {
+            "semantic_support": "local_model_review",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "model_reviewed"
+          },
+          "numbers": []
+        },
+        {
+          "id": "1704dba94e8b761aba90179a",
+          "text": "해당 사안에 정통한 한 인사는 680억 달러 수치가 오픈AI 파트너들의 총매출을 포함하고 있어, 투자자들이 주요 경쟁사인 앤스로픽과 더 직접적인 비교를 할 수 있도록 돕는다고 말했다.",
+          "kind": "fact",
+          "author": "",
+          "source_ids": [
+            "bb74eb646f87b53808254441"
+          ],
+          "evidence": [
+            {
+              "source_id": "bb74eb646f87b53808254441",
+              "source_version_id": "b0c7ff812de7f4c366438fc5",
+              "start": 406,
+              "end": 601,
+              "text": " A person familiar with the matter said the $68 billion figure included gross revenue from OpenAI's partners, which helps investors make a more direct comparison with its chief rival, Anthropic .",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": " A person familiar with the matter said the $68 billion figure included gross revenue from OpenAI's partners, which helps investors make a more direct comparison with its chief rival, Anthropic .",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "",
+          "validation": {
+            "semantic_support": "local_model_review",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "model_reviewed"
+          },
+          "numbers": []
+        },
+        {
+          "id": "4eb64184ff00cc096adfcc81",
+          "text": "목요일 엔비디아 주가는 3% 하락했고, 오라클 주가는 거의 6% 하락했으며, 코어위브 주가는 거의 8% 떨어졌다.",
+          "kind": "fact",
+          "author": "",
+          "source_ids": [
+            "bb74eb646f87b53808254441"
+          ],
+          "evidence": [
+            {
+              "source_id": "bb74eb646f87b53808254441",
+              "source_version_id": "b0c7ff812de7f4c366438fc5",
+              "start": 1036,
+              "end": 1141,
+              "text": "\n\nNvidia shares fell 3%, Oracle shares fell nearly 6% and CoreWeave shares slipped nearly 8% on Thursday.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "\n\nNvidia shares fell 3%, Oracle shares fell nearly 6% and CoreWeave shares slipped nearly 8% on Thursday.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "",
+          "validation": {
+            "semantic_support": "local_model_review",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "model_reviewed"
+          },
+          "numbers": []
+        }
+      ],
+      "document_ids": [
+        "bb74eb646f87b53808254441"
+      ],
+      "source_versions": [
+        "b0c7ff812de7f4c366438fc5"
+      ],
+      "entities": [],
+      "selection_reason": [],
+      "follow_up": [],
+      "confidence": "model_reviewed",
+      "related_issue_id": null,
+      "late_discovered": false,
+      "analysis_provider": "mlx",
+      "model_status": "verified_compact_summary",
+      "analysis_label": "편집 문장 선택 · 번역·원문 검토",
+      "evidence_expired": false,
+      "evidence_partially_expired": false,
+      "has_full_text": true,
+      "has_message_text": false,
+      "prior_day_follow_up": false,
+      "original_title": "Nvidia, Oracle, CoreWeave and other AI stocks sink on OpenAI revenue report",
+      "source_title_ko": "",
+      "korean_required": true
+    },
+    {
+      "id": "9401811a6e1460c28a9d7b93",
+      "navigation_review_notice": "요약은 원문 전체와 대조했으며, 발췌문은 원문 위치 안내입니다.",
+      "compact_full_summary": true,
+      "compact_native_version": "global-compact-factual-brief-v3-experimental",
+      "anchor": "issue-b6f9d282a5a667c8",
+      "editorial_scope": "company",
+      "event_type": "economic_other",
+      "title": "스페이스X, 400억 달러 규모 엔비디아 GPU 구매 위한 어폴로 등과 자금 조달 협의",
+      "section": "overseas",
+      "category": "company_industry",
+      "market_scope": "overseas",
+      "primary_market": "US",
+      "affected_markets": [
+        "US"
+      ],
+      "topic_tags": [
+        "company_industry",
+        "credit_risk",
+        "technology_ai",
+        "markets_flows"
+      ],
+      "edition_change": "new",
+      "summary": [
+        "어폴로 캐피털 매니지먼트와 여러 은행이 스페이스X의 400억 달러 규모 엔비디아 그래픽 처리 장치(GPU) 구매를 지원하기 위해 협의 중이다.",
+        "해당 거래는 주로 투자 등급 채권 시장에 의존할 것으로 보이며, 어폴로 캐피털은 자금 조달을 촉진하는 데 주도적 역할을 하고 있다고 전해졌다."
+      ],
+      "change": "",
+      "claims": [
+        {
+          "id": "c84b2ab53191ff4d250aceca",
+          "text": "어폴로 캐피털 매니지먼트와 여러 은행이 스페이스X의 400억 달러 규모 엔비디아 그래픽 처리 장치(GPU) 구매를 지원하기 위해 협의 중이다.",
+          "kind": "fact",
+          "author": "",
+          "source_ids": [
+            "98ab7a774f5e2e68682b949c"
+          ],
+          "evidence": [
+            {
+              "source_id": "98ab7a774f5e2e68682b949c",
+              "evidence_role": "navigation_excerpt",
+              "source_version_id": "772541363e21eacdc5c23289",
+              "start": 32,
+              "end": 303,
+              "text": "\n\nApollo Capital Management and several banks are in discussions with SpaceX to help facilitate the company's purchase of $40 billion worth of Nvidia graphics processing units, according to a person familiar with the talks who asked not to be named to discuss the matter.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "\n\nApollo Capital Management and several banks are in discussions with SpaceX to help facilitate the company's purchase of $40 billion worth of Nvidia graphics processing units, according to a person familiar with the talks who asked not to be named to discuss the matter.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "",
+          "validation": {
+            "semantic_support": "local_model_review",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "model_reviewed",
+            "semantic_support_scope": "reviewed_original_documents",
+            "evidence_role": "navigation_excerpt",
+            "source_linkage_scope": "document_identity_and_exact_excerpt",
+            "reviewed_source_version_ids": [
+              "772541363e21eacdc5c23289"
+            ]
+          },
+          "numbers": []
+        },
+        {
+          "id": "7cd925892f0e269f189f7642",
+          "text": "해당 거래는 주로 투자 등급 채권 시장에 의존할 것으로 보이며, 어폴로 캐피털은 자금 조달을 촉진하는 데 주도적 역할을 하고 있다고 전해졌다.",
+          "kind": "fact",
+          "author": "",
+          "source_ids": [
+            "98ab7a774f5e2e68682b949c"
+          ],
+          "evidence": [
+            {
+              "source_id": "98ab7a774f5e2e68682b949c",
+              "evidence_role": "navigation_excerpt",
+              "source_version_id": "772541363e21eacdc5c23289",
+              "start": 303,
+              "end": 429,
+              "text": "\n\nThe deal will primarily rely on the investment-grade debt market, which SpaceX just tapped four months ago, the person said.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "\n\nThe deal will primarily rely on the investment-grade debt market, which SpaceX just tapped four months ago, the person said.",
+              "is_translation": false
+            },
+            {
+              "source_id": "98ab7a774f5e2e68682b949c",
+              "evidence_role": "navigation_excerpt",
+              "source_version_id": "772541363e21eacdc5c23289",
+              "start": 806,
+              "end": 977,
+              "text": "\n\nSpaceX's $40 billion debt deal will likely use GPUs as collateral and Apollo Capital is said to be playing a leading role in facilitating the financing, the person said.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "\n\nSpaceX's $40 billion debt deal will likely use GPUs as collateral and Apollo Capital is said to be playing a leading role in facilitating the financing, the person said.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "",
+          "validation": {
+            "semantic_support": "local_model_review",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "model_reviewed",
+            "semantic_support_scope": "reviewed_original_documents",
+            "evidence_role": "navigation_excerpt",
+            "source_linkage_scope": "document_identity_and_exact_excerpt",
+            "reviewed_source_version_ids": [
+              "772541363e21eacdc5c23289"
+            ]
+          },
+          "numbers": []
+        }
+      ],
+      "document_ids": [
+        "98ab7a774f5e2e68682b949c"
+      ],
+      "source_versions": [
+        "772541363e21eacdc5c23289"
+      ],
+      "entities": [],
+      "selection_reason": [],
+      "follow_up": [],
+      "confidence": "model_reviewed",
+      "related_issue_id": null,
+      "late_discovered": false,
+      "analysis_provider": "mlx",
+      "model_status": "verified_compact_summary",
+      "analysis_label": "한국어 요약 · 원문 전체 대조",
+      "evidence_expired": false,
+      "evidence_partially_expired": false,
+      "has_full_text": true,
+      "has_message_text": false,
+      "prior_day_follow_up": false,
+      "original_title": "Apollo, banks in talks to finance SpaceX's $40 billion Nvidia GPU purchase",
+      "source_title_ko": "",
+      "korean_required": true
+    },
+    {
+      "id": "59992b6140df9388ad5e8b8b",
+      "compact_full_summary": true,
+      "compact_native_version": "global-compact-source-translation-v2-experimental",
+      "anchor": "issue-9f80713543101856",
+      "editorial_scope": "market",
+      "event_type": "economic_other",
+      "title": "연준 인사들, 연내 추가 금리 인상 전망하지만 시점은 불확실, 회의록 공개",
+      "section": "overseas",
+      "category": "macro_policy",
+      "market_scope": "overseas",
+      "primary_market": "US",
+      "affected_markets": [
+        "US"
+      ],
+      "topic_tags": [
+        "macro_policy",
+        "markets_flows"
+      ],
+      "edition_change": "new",
+      "summary": [
+        "미국 연방준비제도(Fed) 인사들은 5년 넘게 목표치를 웃도는 인플레이션을 억제하기 위해 연내에 금리를 다시 인상할 것으로 예상한다고 수요일 공개된 회의록에 나타났다.",
+        "그러나 회의 요약은 정책 입안자들이 구체적으로 언제 기준금리를 인상할지라는 시점에 대한 어떠한 암시도 제공하지 않았으며, 단지 지속적으로 높은 물가와 안정적인 노동 시장이 올해 두 번째 인상을 초래할 가능성이 높다는 것만 언급했다."
+      ],
+      "change": "",
+      "claims": [
+        {
+          "id": "698d40f3d22feac9d9a05501",
+          "text": "미국 연방준비제도(Fed) 인사들은 5년 넘게 목표치를 웃도는 인플레이션을 억제하기 위해 연내에 금리를 다시 인상할 것으로 예상한다고 수요일 공개된 회의록에 나타났다.",
+          "kind": "fact",
+          "author": "",
+          "source_ids": [
+            "0ded69f1d35b4d332c1b6648"
+          ],
+          "evidence": [
+            {
+              "source_id": "0ded69f1d35b4d332c1b6648",
+              "source_version_id": "1837b8ce78fff98ee7bef96a",
+              "start": 0,
+              "end": 219,
+              "text": "Federal Reserve officials expect they will raise interest rates again before the end of the year to head off inflation that has run above target for more than five years, according to meeting minutes released Wednesday.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "Federal Reserve officials expect they will raise interest rates again before the end of the year to head off inflation that has run above target for more than five years, according to meeting minutes released Wednesday.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "",
+          "validation": {
+            "semantic_support": "local_model_review",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "model_reviewed"
+          },
+          "numbers": []
+        },
+        {
+          "id": "7fd03d661e74f7d23a5bbca1",
+          "text": "그러나 회의 요약은 정책 입안자들이 구체적으로 언제 기준금리를 인상할지라는 시점에 대한 어떠한 암시도 제공하지 않았으며, 단지 지속적으로 높은 물가와 안정적인 노동 시장이 올해 두 번째 인상을 초래할 가능성이 높다는 것만 언급했다.",
+          "kind": "fact",
+          "author": "",
+          "source_ids": [
+            "0ded69f1d35b4d332c1b6648"
+          ],
+          "evidence": [
+            {
+              "source_id": "0ded69f1d35b4d332c1b6648",
+              "source_version_id": "1837b8ce78fff98ee7bef96a",
+              "start": 219,
+              "end": 445,
+              "text": " But the meeting summary provided no indication of when specifically policymakers expected to raise benchmark rates – only that persistently higher prices and a stable labor market likely would lead to a second hike this year.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": " But the meeting summary provided no indication of when specifically policymakers expected to raise benchmark rates – only that persistently higher prices and a stable labor market likely would lead to a second hike this year.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "",
+          "validation": {
+            "semantic_support": "local_model_review",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "model_reviewed"
+          },
+          "numbers": []
+        }
+      ],
+      "document_ids": [
+        "0ded69f1d35b4d332c1b6648"
+      ],
+      "source_versions": [
+        "1837b8ce78fff98ee7bef96a"
+      ],
+      "entities": [],
+      "selection_reason": [],
+      "follow_up": [],
+      "confidence": "model_reviewed",
+      "related_issue_id": null,
+      "late_discovered": false,
+      "analysis_provider": "mlx",
+      "model_status": "verified_compact_summary",
+      "analysis_label": "원문 발췌 번역 · 원문 전체 대조",
+      "evidence_expired": false,
+      "evidence_partially_expired": false,
+      "has_full_text": true,
+      "has_message_text": false,
+      "prior_day_follow_up": false,
+      "original_title": "Fed officials see another hike coming, but no sign as to when, minutes show",
+      "source_title_ko": "",
+      "korean_required": true
+    },
+    {
+      "id": "d67e45b88ba23bfae0e69ef5",
+      "editor_assistance": {
+        "version": "editor-selected-original-sentences-v1",
+        "sentence_selection": "editor",
+        "translation_and_full_source_review": "model",
+        "selection_sha256": "34176ee8abbf2d2baae8df67c62cf99c09c4e2150234bc1941b5b9cdb449fc49"
+      },
+      "compact_full_summary": true,
+      "compact_native_version": "global-compact-source-translation-v2-experimental",
+      "anchor": "issue-6b8292927f1cc656",
+      "editorial_scope": "market",
+      "event_type": "economic_other",
+      "title": "30년물 입찰 견조한 수요 확인에 미 국채 랠리",
+      "section": "overseas",
+      "category": "macro_policy",
+      "market_scope": "overseas",
+      "primary_market": "US",
+      "affected_markets": [
+        "US"
+      ],
+      "topic_tags": [
+        "macro_policy",
+        "markets_flows",
+        "commodities_fx",
+        "expert_views"
+      ],
+      "edition_change": "new",
+      "summary": [
+        "미국 국채는 목요일 상승했으며, 30년물 국채 입찰이 견조한 수요를 보인 후 이번 주 두 번째로 곡선 전반의 대부분 수익률이 하락했다. 이는 시장 매도세에도 불구하고 투자자들이 여전히 장기 정부 채권을 매입할 의향이 있음을 보여준다.",
+        "도널드 트럼프 대통령이 11월 중간선거 전 이란에 대한 공격을 개시하지 않을 것이라고 말한 후, 원유는 소폭 후퇴했다.",
+        "미국 30년물 수익률도 5.9bp 하락한 5.602%를 기록했다."
+      ],
+      "change": "",
+      "claims": [
+        {
+          "id": "970fe8b09beb8467b7d2adc4",
+          "text": "미국 국채는 목요일 상승했으며, 30년물 국채 입찰이 견조한 수요를 보인 후 이번 주 두 번째로 곡선 전반의 대부분 수익률이 하락했다. 이는 시장 매도세에도 불구하고 투자자들이 여전히 장기 정부 채권을 매입할 의향이 있음을 보여준다.",
+          "kind": "fact",
+          "author": "",
+          "source_ids": [
+            "c287f8cd9b9ede71c2b0ea81"
+          ],
+          "evidence": [
+            {
+              "source_id": "c287f8cd9b9ede71c2b0ea81",
+              "source_version_id": "7f97c7ad439090bd36e636d8",
+              "start": 27,
+              "end": 323,
+              "text": "\n\nNEW YORK, Oct 8 (Reuters) - US Treasuries rose on Thursday, with most yields across the curve falling for just the second time this week, after a 30-year bond auction met with ‌solid demand, showing investors remain willing to buy long-dated government debt, despite the ongoing market selloff.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "\n\nNEW YORK, Oct 8 (Reuters) - US Treasuries rose on Thursday, with most yields across the curve falling for just the second time this week, after a 30-year bond auction met with ‌solid demand, showing investors remain willing to buy long-dated government debt, despite the ongoing market selloff.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "",
+          "validation": {
+            "semantic_support": "local_model_review",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "model_reviewed"
+          },
+          "numbers": []
+        },
+        {
+          "id": "3246d9630ac462fad509c757",
+          "text": "도널드 트럼프 대통령이 11월 중간선거 전 이란에 대한 공격을 개시하지 않을 것이라고 말한 후, 원유는 소폭 후퇴했다.",
+          "kind": "fact",
+          "author": "",
+          "source_ids": [
+            "c287f8cd9b9ede71c2b0ea81"
+          ],
+          "evidence": [
+            {
+              "source_id": "c287f8cd9b9ede71c2b0ea81",
+              "source_version_id": "7f97c7ad439090bd36e636d8",
+              "start": 397,
+              "end": 547,
+              "text": " Crude oil pulled back slightly after President Donald Trump said that the US will not launch an ​attack on Iran before midterm elections in November.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": " Crude oil pulled back slightly after President Donald Trump said that the US will not launch an ​attack on Iran before midterm elections in November.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "",
+          "validation": {
+            "semantic_support": "local_model_review",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "model_reviewed"
+          },
+          "numbers": []
+        },
+        {
+          "id": "ba9fa4e6b934158c09aba32e",
+          "text": "미국 30년물 수익률도 5.9bp 하락한 5.602%를 기록했다.",
+          "kind": "fact",
+          "author": "",
+          "source_ids": [
+            "c287f8cd9b9ede71c2b0ea81"
+          ],
+          "evidence": [
+            {
+              "source_id": "c287f8cd9b9ede71c2b0ea81",
+              "source_version_id": "7f97c7ad439090bd36e636d8",
+              "start": 675,
+              "end": 733,
+              "text": " US 30-year yields also declined, down 5.9 bps at 5.602% .",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": " US 30-year yields also declined, down 5.9 bps at 5.602% .",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "",
+          "validation": {
+            "semantic_support": "local_model_review",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "model_reviewed"
+          },
+          "numbers": []
+        }
+      ],
+      "document_ids": [
+        "c287f8cd9b9ede71c2b0ea81"
+      ],
+      "source_versions": [
+        "7f97c7ad439090bd36e636d8"
+      ],
+      "entities": [],
+      "selection_reason": [],
+      "follow_up": [],
+      "confidence": "model_reviewed",
+      "related_issue_id": null,
+      "late_discovered": false,
+      "analysis_provider": "mlx",
+      "model_status": "verified_compact_summary",
+      "analysis_label": "편집 문장 선택 · 번역·원문 검토",
+      "evidence_expired": false,
+      "evidence_partially_expired": false,
+      "has_full_text": true,
+      "has_message_text": false,
+      "prior_day_follow_up": false,
+      "original_title": "US bonds rally after 30-year auction finds solid demand",
+      "source_title_ko": "",
+      "korean_required": true
+    },
+    {
+      "id": "56d63a820375fb4c0c21c4e3",
+      "compact_full_summary": true,
+      "compact_native_version": "global-compact-source-translation-v2-experimental",
+      "anchor": "issue-fa903a5a0304340c",
+      "editorial_scope": "company",
+      "event_type": "economic_other",
+      "title": "유가 급등과 반도체주 약세로 광범위한 시장 하락 마감",
+      "section": "overseas",
+      "category": "commodities_fx",
+      "market_scope": "overseas",
+      "primary_market": "US",
+      "affected_markets": [
+        "US",
+        "Europe",
+        "China",
+        "Japan"
+      ],
+      "topic_tags": [
+        "commodities_fx",
+        "company_industry",
+        "macro_policy",
+        "markets_flows",
+        "technology_ai"
+      ],
+      "edition_change": "new",
+      "summary": [
+        "목요일 S&P 500 지수($SPX)(SPY)는 -0.47% 하락 마감했고, 다우존스 산업평균지수($DOWI)(DIA)는 +0.10% 상승 마감했으며, 나스닥 100 지수($IUXX)(QQQ)는 -1.39% 하락 마감했다.",
+        "유가 급등이 인플레이션 위험을 높이고 시장 심리를 위축시켜 광범위한 시장에 부담을 주면서, 목요일 주가지수는 혼조세로 마감했다.",
+        "FT가 OpenAI가 현재 실적 기준으로 연환산 약 500억 달러의 매출을 올릴 것으로 예상된다고 보도한 후, 수요 우려로 인해 목요일 반도체 및 AI 인프라 관련 주식이 급락했다."
+      ],
+      "change": "",
+      "claims": [
+        {
+          "id": "c0fedf89846639351bf9e03b",
+          "text": "목요일 S&P 500 지수($SPX)(SPY)는 -0.47% 하락 마감했고, 다우존스 산업평균지수($DOWI)(DIA)는 +0.10% 상승 마감했으며, 나스닥 100 지수($IUXX)(QQQ)는 -1.39% 하락 마감했다.",
+          "kind": "fact",
+          "author": "",
+          "source_ids": [
+            "b10e1a1d918705f4b84a0de7"
+          ],
+          "evidence": [
+            {
+              "source_id": "b10e1a1d918705f4b84a0de7",
+              "source_version_id": "15ed784db70d00f41d8c7d25",
+              "start": 0,
+              "end": 192,
+              "text": "The S&P 500 Index ($SPX) (SPY) closed down by -0.47% on Thursday, the Dow Jones Industrial Average ($DOWI) (DIA) closed up by +0.10%, and the Nasdaq 100 Index ($IUXX) (QQQ) closed down -1.39%.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "The S&P 500 Index ($SPX) (SPY) closed down by -0.47% on Thursday, the Dow Jones Industrial Average ($DOWI) (DIA) closed up by +0.10%, and the Nasdaq 100 Index ($IUXX) (QQQ) closed down -1.39%.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "",
+          "validation": {
+            "semantic_support": "local_model_review",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "model_reviewed"
+          },
+          "numbers": []
+        },
+        {
+          "id": "554eeea6452a4eab277de79d",
+          "text": "유가 급등이 인플레이션 위험을 높이고 시장 심리를 위축시켜 광범위한 시장에 부담을 주면서, 목요일 주가지수는 혼조세로 마감했다.",
+          "kind": "fact",
+          "author": "",
+          "source_ids": [
+            "b10e1a1d918705f4b84a0de7"
+          ],
+          "evidence": [
+            {
+              "source_id": "b10e1a1d918705f4b84a0de7",
+              "source_version_id": "15ed784db70d00f41d8c7d25",
+              "start": 297,
+              "end": 448,
+              "text": "\n\nStock indexes settled mixed on Thursday as a surge in crude oil raised inflation risks, dampened market sentiment, and weighed on the broader market.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "\n\nStock indexes settled mixed on Thursday as a surge in crude oil raised inflation risks, dampened market sentiment, and weighed on the broader market.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "",
+          "validation": {
+            "semantic_support": "local_model_review",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "model_reviewed"
+          },
+          "numbers": []
+        },
+        {
+          "id": "ff34d784d920ce9ff6fd92ff",
+          "text": "FT가 OpenAI가 현재 실적 기준으로 연환산 약 500억 달러의 매출을 올릴 것으로 예상된다고 보도한 후, 수요 우려로 인해 목요일 반도체 및 AI 인프라 관련 주식이 급락했다.",
+          "kind": "fact",
+          "author": "",
+          "source_ids": [
+            "b10e1a1d918705f4b84a0de7"
+          ],
+          "evidence": [
+            {
+              "source_id": "b10e1a1d918705f4b84a0de7",
+              "source_version_id": "15ed784db70d00f41d8c7d25",
+              "start": 1075,
+              "end": 1402,
+              "text": "\n\nAlso, chipmakers and AI-infrastructure stocks were hammered Thursday amid demand concerns after the Financial Times reported that OpenAI is on track to generate annualized revenue of roughly $50 billion based on its current performance, below last month's reports that the company was on track to generate nearly $70 billion.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "\n\nAlso, chipmakers and AI-infrastructure stocks were hammered Thursday amid demand concerns after the Financial Times reported that OpenAI is on track to generate annualized revenue of roughly $50 billion based on its current performance, below last month's reports that the company was on track to generate nearly $70 billion.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "",
+          "validation": {
+            "semantic_support": "local_model_review",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "model_reviewed"
+          },
+          "numbers": []
+        }
+      ],
+      "document_ids": [
+        "b10e1a1d918705f4b84a0de7"
+      ],
+      "source_versions": [
+        "15ed784db70d00f41d8c7d25"
+      ],
+      "entities": [],
+      "selection_reason": [],
+      "follow_up": [],
+      "confidence": "model_reviewed",
+      "related_issue_id": null,
+      "late_discovered": false,
+      "analysis_provider": "mlx",
+      "model_status": "verified_compact_summary",
+      "analysis_label": "원문 발췌 번역 · 원문 전체 대조",
+      "evidence_expired": false,
+      "evidence_partially_expired": false,
+      "has_full_text": true,
+      "has_message_text": false,
+      "prior_day_follow_up": false,
+      "original_title": "Broader Market Settles Lower on Soaring Crude Prices and Chipmaker Weakness",
+      "source_title_ko": "",
+      "korean_required": true
+    },
+    {
+      "id": "8d090724fcebf2c914115525",
+      "editor_assistance": {
+        "version": "editor-selected-original-sentences-v1",
+        "sentence_selection": "editor",
+        "translation_and_full_source_review": "model",
+        "selection_sha256": "ea30399cbb9c173c188bb10de5a620f2291b987e27796626e9377e426a25c120"
+      },
+      "compact_full_summary": true,
+      "compact_native_version": "global-compact-source-translation-v2-experimental",
+      "anchor": "issue-cf4784f964781303",
+      "editorial_scope": "company",
+      "event_type": "economic_other",
+      "title": "중동 긴장 고조와 미국 허리케인 위협에 유가 5% 급등",
+      "section": "overseas",
+      "category": "commodities_fx",
+      "market_scope": "overseas",
+      "primary_market": "global",
+      "affected_markets": [
+        "US",
+        "UK",
+        "France",
+        "Germany",
+        "Japan",
+        "South Korea",
+        "Europe"
+      ],
+      "topic_tags": [
+        "commodities_fx",
+        "company_industry",
+        "credit_risk",
+        "macro_policy",
+        "markets_flows"
+      ],
+      "edition_change": "new",
+      "summary": [
+        "영국 10년 만기 국채의 수익률, 즉 금리는 6bp 상승하여 5.515%를 기록하며 2007년 7월 이후 최고 수준에 도달했다.",
+        "호르무즈 해협에서의 유조선 공격은 전쟁 발발 이후 최고 수준에 달해 해당 수로의 통항량을 줄이고 공급에 대한 우려를 심화시키고 있다.",
+        "부채 증가와 지출 확대에 대한 우려로 특히 큰 타격을 입은 프랑스의 10년 만기 국채 수익률은 6bp 상승하여 4.931%를 기록했으며, 이는 지난주 기록한 24년 만의 최고치인 4.994%에 근접한 수준이다."
+      ],
+      "change": "",
+      "claims": [
+        {
+          "id": "fbf22e98505291a88484c9d7",
+          "text": "영국 10년 만기 국채의 수익률, 즉 금리는 6bp 상승하여 5.515%를 기록하며 2007년 7월 이후 최고 수준에 도달했다.",
+          "kind": "fact",
+          "author": "",
+          "source_ids": [
+            "962b5cfbfe00cd92b07688c9"
+          ],
+          "evidence": [
+            {
+              "source_id": "962b5cfbfe00cd92b07688c9",
+              "source_version_id": "d31fc8abf6fbe8f2a350883d",
+              "start": 315,
+              "end": 466,
+              "text": "\n\nIn the UK, the yield – or interest rate – on the 10-year government bond hit its highest level since July 2007, rising by six basis points to 5.515%.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "\n\nIn the UK, the yield – or interest rate – on the 10-year government bond hit its highest level since July 2007, rising by six basis points to 5.515%.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "",
+          "validation": {
+            "semantic_support": "local_model_review",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "model_reviewed"
+          },
+          "numbers": []
+        },
+        {
+          "id": "8037f51d47f254ee853a1c30",
+          "text": "호르무즈 해협에서의 유조선 공격은 전쟁 발발 이후 최고 수준에 달해 해당 수로의 통항량을 줄이고 공급에 대한 우려를 심화시키고 있다.",
+          "kind": "fact",
+          "author": "",
+          "source_ids": [
+            "962b5cfbfe00cd92b07688c9"
+          ],
+          "evidence": [
+            {
+              "source_id": "962b5cfbfe00cd92b07688c9",
+              "source_version_id": "d31fc8abf6fbe8f2a350883d",
+              "start": 1637,
+              "end": 1800,
+              "text": " Attacks on tankers in the strait of Hormuz have reached their highest levels of ⁠the war, ⁠cutting ​traffic through the waterway and deepening fears about supply.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": " Attacks on tankers in the strait of Hormuz have reached their highest levels of ⁠the war, ⁠cutting ​traffic through the waterway and deepening fears about supply.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "",
+          "validation": {
+            "semantic_support": "local_model_review",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "model_reviewed"
+          },
+          "numbers": []
+        },
+        {
+          "id": "db112c4a1ae6d8b80861ae1d",
+          "text": "부채 증가와 지출 확대에 대한 우려로 특히 큰 타격을 입은 프랑스의 10년 만기 국채 수익률은 6bp 상승하여 4.931%를 기록했으며, 이는 지난주 기록한 24년 만의 최고치인 4.994%에 근접한 수준이다.",
+          "kind": "fact",
+          "author": "",
+          "source_ids": [
+            "962b5cfbfe00cd92b07688c9"
+          ],
+          "evidence": [
+            {
+              "source_id": "962b5cfbfe00cd92b07688c9",
+              "source_version_id": "d31fc8abf6fbe8f2a350883d",
+              "start": 2746,
+              "end": 2963,
+              "text": " In France, which has been hit particularly hard over worries about its rising debt and growing spending , the 10-year yield rose by six basis points to 4.931%, just behind the 24-year high of 4.994% it hit last week.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": " In France, which has been hit particularly hard over worries about its rising debt and growing spending , the 10-year yield rose by six basis points to 4.931%, just behind the 24-year high of 4.994% it hit last week.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "",
+          "validation": {
+            "semantic_support": "local_model_review",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "model_reviewed"
+          },
+          "numbers": []
+        }
+      ],
+      "document_ids": [
+        "962b5cfbfe00cd92b07688c9"
+      ],
+      "source_versions": [
+        "d31fc8abf6fbe8f2a350883d"
+      ],
+      "entities": [],
+      "selection_reason": [],
+      "follow_up": [],
+      "confidence": "model_reviewed",
+      "related_issue_id": null,
+      "late_discovered": false,
+      "analysis_provider": "mlx",
+      "model_status": "verified_compact_summary",
+      "analysis_label": "편집 문장 선택 · 번역·원문 검토",
+      "evidence_expired": false,
+      "evidence_partially_expired": false,
+      "has_full_text": true,
+      "has_message_text": false,
+      "prior_day_follow_up": false,
+      "original_title": "Oil prices jump 5% on Middle East tensions and US hurricane threat",
+      "source_title_ko": "",
+      "korean_required": true
+    },
+    {
+      "id": "4f97cf3f399db6338be05efd",
+      "editor_assistance": {
+        "version": "editor-selected-original-sentences-v1",
+        "sentence_selection": "editor",
+        "translation_and_full_source_review": "model",
+        "selection_sha256": "999d7c2dd9d5dcc9891e1cbc942166239d605613cd73dbdfd73f75a573dcdf67"
+      },
+      "compact_full_summary": true,
+      "compact_native_version": "global-compact-source-translation-v2-experimental",
+      "anchor": "issue-c1843a628797b1ed",
+      "editorial_scope": "market",
+      "event_type": "economic_other",
+      "title": "트럼프, 중간선거 전 이란 공격하지 않을 것",
+      "section": "overseas",
+      "category": "commodities_fx",
+      "market_scope": "overseas",
+      "primary_market": "US",
+      "affected_markets": [
+        "US",
+        "Iran",
+        "Middle East"
+      ],
+      "topic_tags": [
+        "commodities_fx",
+        "macro_policy",
+        "markets_flows"
+      ],
+      "edition_change": "new",
+      "summary": [
+        "도널드 트럼프 대통령은 목요일, 미국은 11월 3일 중간선거 전까지 이란을 공격하지 않을 것이라고 말하며, 잠재적 추가 군사 행동의 시점을 국내 정치 일정에 명시적으로 연결했다.",
+        "트럼프는 미국의 이란에 대한 해상 봉쇄가 유지될 것이며, 테헤란이 핵무기를 획득하는 것은 허용되지 않을 것이라고 재차 강조했다."
+      ],
+      "change": "",
+      "claims": [
+        {
+          "id": "8764ef89bcfd66fece426bbf",
+          "text": "도널드 트럼프 대통령은 목요일, 미국은 11월 3일 중간선거 전까지 이란을 공격하지 않을 것이라고 말하며, 잠재적 추가 군사 행동의 시점을 국내 정치 일정에 명시적으로 연결했다.",
+          "kind": "fact",
+          "author": "",
+          "source_ids": [
+            "01120cbf83b37b00f1575cc6"
+          ],
+          "evidence": [
+            {
+              "source_id": "01120cbf83b37b00f1575cc6",
+              "source_version_id": "6ab51693c4c1777f2da0d22f",
+              "start": 0,
+              "end": 209,
+              "text": "President Donald Trump said Thursday that the U.S. will not attack Iran before the Nov. 3 midterm election , explicitly tying the timing of potential further military action to the domestic political calendar.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "President Donald Trump said Thursday that the U.S. will not attack Iran before the Nov. 3 midterm election , explicitly tying the timing of potential further military action to the domestic political calendar.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "",
+          "validation": {
+            "semantic_support": "local_model_review",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "model_reviewed"
+          },
+          "numbers": []
+        },
+        {
+          "id": "242fe7fd6e3e9ede52c6ed6c",
+          "text": "트럼프는 미국의 이란에 대한 해상 봉쇄가 유지될 것이며, 테헤란이 핵무기를 획득하는 것은 허용되지 않을 것이라고 재차 강조했다.",
+          "kind": "fact",
+          "author": "",
+          "source_ids": [
+            "01120cbf83b37b00f1575cc6"
+          ],
+          "evidence": [
+            {
+              "source_id": "01120cbf83b37b00f1575cc6",
+              "source_version_id": "6ab51693c4c1777f2da0d22f",
+              "start": 679,
+              "end": 821,
+              "text": "\n\nTrump said the U.S. naval blockade of Iran would remain in place and reiterated that Tehran would not be allowed to obtain a nuclear weapon.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "\n\nTrump said the U.S. naval blockade of Iran would remain in place and reiterated that Tehran would not be allowed to obtain a nuclear weapon.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "",
+          "validation": {
+            "semantic_support": "local_model_review",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "model_reviewed"
+          },
+          "numbers": []
+        }
+      ],
+      "document_ids": [
+        "01120cbf83b37b00f1575cc6"
+      ],
+      "source_versions": [
+        "6ab51693c4c1777f2da0d22f"
+      ],
+      "entities": [],
+      "selection_reason": [],
+      "follow_up": [],
+      "confidence": "model_reviewed",
+      "related_issue_id": null,
+      "late_discovered": false,
+      "analysis_provider": "mlx",
+      "model_status": "verified_compact_summary",
+      "analysis_label": "편집 문장 선택 · 번역·원문 검토",
+      "evidence_expired": false,
+      "evidence_partially_expired": false,
+      "has_full_text": true,
+      "has_message_text": false,
+      "prior_day_follow_up": false,
+      "original_title": "Trump says U.S. will not attack Iran before midterm election",
+      "source_title_ko": "",
+      "korean_required": true
+    },
+    {
+      "id": "6bd0461d52d973fc8a20fc35",
+      "editor_assistance": {
+        "version": "editor-selected-original-sentences-v1",
+        "sentence_selection": "editor",
+        "translation_and_full_source_review": "model",
+        "selection_sha256": "e1ec4575dc2c491bdf0fd1d4fb3c2755d004cd9f24885af84ddef816732e79f9"
+      },
+      "compact_full_summary": true,
+      "compact_native_version": "global-compact-source-translation-v2-experimental",
+      "anchor": "issue-87cf7347b29f79b6",
+      "editorial_scope": "company",
+      "event_type": "economic_other",
+      "title": "스페이스X의 스펙트럼 라이선스 인수 계약으로 AT&T, 버라이즌, T모바일 주가 급락",
+      "section": "overseas",
+      "category": "company_industry",
+      "market_scope": "overseas",
+      "primary_market": "US",
+      "affected_markets": [
+        "US"
+      ],
+      "topic_tags": [
+        "company_industry",
+        "expert_views",
+        "markets_flows"
+      ],
+      "edition_change": "new",
+      "summary": [
+        "스페이스X는 목요일에 미국 통신 시장 내 Starlink 서비스 확장을 추진하기 위해 전국 스펙트럼 포트폴리오를 구매하는 데 합의했다고 발표했다.",
+        "이 거래는 디지털 인프라 전문 기업인 Grain Management로부터 스펙트럼 포트폴리오를 인수하는 것을 포함하며, 연방통신위원회(FCC)의 승인을 조건으로 한다.",
+        "AT&T, 버라이즌, T모바일의 주가는 시간 외 거래에서 급락했다."
+      ],
+      "change": "",
+      "claims": [
+        {
+          "id": "56c4abb8b10fc817334a43cb",
+          "text": "스페이스X는 목요일에 미국 통신 시장 내 Starlink 서비스 확장을 추진하기 위해 전국 스펙트럼 포트폴리오를 구매하는 데 합의했다고 발표했다.",
+          "kind": "fact",
+          "author": "",
+          "source_ids": [
+            "ff2437368a4c6eb76dec38c9"
+          ],
+          "evidence": [
+            {
+              "source_id": "ff2437368a4c6eb76dec38c9",
+              "source_version_id": "c1c6b9b24fdbcf0bcc79e1a0",
+              "start": 21,
+              "end": 190,
+              "text": "\n\nSpaceX announced an agreement on Thursday to purchase a nationwide spectrum portfolio as it pushes its Starlink service deeper into the U.S. telecommunications market.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "\n\nSpaceX announced an agreement on Thursday to purchase a nationwide spectrum portfolio as it pushes its Starlink service deeper into the U.S. telecommunications market.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "",
+          "validation": {
+            "semantic_support": "local_model_review",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "model_reviewed"
+          },
+          "numbers": []
+        },
+        {
+          "id": "c3e4f06dbc343f9ed272aa83",
+          "text": "이 거래는 디지털 인프라 전문 기업인 Grain Management로부터 스펙트럼 포트폴리오를 인수하는 것을 포함하며, 연방통신위원회(FCC)의 승인을 조건으로 한다.",
+          "kind": "fact",
+          "author": "",
+          "source_ids": [
+            "ff2437368a4c6eb76dec38c9"
+          ],
+          "evidence": [
+            {
+              "source_id": "ff2437368a4c6eb76dec38c9",
+              "source_version_id": "c1c6b9b24fdbcf0bcc79e1a0",
+              "start": 257,
+              "end": 453,
+              "text": "\n\nThe deal involves the acquisition of a spectrum portfolio from Grain Management, which specializes in digital infrastructure, and is subject to approval by the Federal Communications Commission.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "\n\nThe deal involves the acquisition of a spectrum portfolio from Grain Management, which specializes in digital infrastructure, and is subject to approval by the Federal Communications Commission.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "",
+          "validation": {
+            "semantic_support": "local_model_review",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "model_reviewed"
+          },
+          "numbers": []
+        },
+        {
+          "id": "e4ea81dbdc4940e2e55e0f6b",
+          "text": "AT&T, 버라이즌, T모바일의 주가는 시간 외 거래에서 급락했다.",
+          "kind": "fact",
+          "author": "",
+          "source_ids": [
+            "ff2437368a4c6eb76dec38c9"
+          ],
+          "evidence": [
+            {
+              "source_id": "ff2437368a4c6eb76dec38c9",
+              "source_version_id": "c1c6b9b24fdbcf0bcc79e1a0",
+              "start": 190,
+              "end": 257,
+              "text": " Shares of AT&T , Verizon and T-Mobile tumbled in extended trading.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": " Shares of AT&T , Verizon and T-Mobile tumbled in extended trading.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "",
+          "validation": {
+            "semantic_support": "local_model_review",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "model_reviewed"
+          },
+          "numbers": []
+        }
+      ],
+      "document_ids": [
+        "ff2437368a4c6eb76dec38c9"
+      ],
+      "source_versions": [
+        "c1c6b9b24fdbcf0bcc79e1a0"
+      ],
+      "entities": [],
+      "selection_reason": [],
+      "follow_up": [],
+      "confidence": "model_reviewed",
+      "related_issue_id": null,
+      "late_discovered": false,
+      "analysis_provider": "mlx",
+      "model_status": "verified_compact_summary",
+      "analysis_label": "편집 문장 선택 · 번역·원문 검토",
+      "evidence_expired": false,
+      "evidence_partially_expired": false,
+      "has_full_text": true,
+      "has_message_text": false,
+      "prior_day_follow_up": false,
+      "original_title": "SpaceX deal to acquire spectrum license hammers shares of AT&T, Verizon and T-Mobile",
+      "source_title_ko": "",
+      "korean_required": true
+    },
+    {
+      "id": "313ba3eab7fa8c25dc84ee0f",
+      "compact_full_summary": true,
+      "compact_native_version": "global-compact-source-translation-v2-experimental",
+      "anchor": "issue-454f0917080d47f4",
+      "editorial_scope": "company",
+      "event_type": "economic_other",
+      "title": "미국, 외국인 노동자 단속 일환으로 마이크로소프트·어도비 영주권 노동 프로그램 참여 중단",
+      "section": "overseas",
+      "category": "company_industry",
+      "market_scope": "overseas",
+      "primary_market": "US",
+      "affected_markets": [
+        "US"
+      ],
+      "topic_tags": [
+        "company_industry",
+        "macro_policy",
+        "technology_ai"
+      ],
+      "edition_change": "new",
+      "summary": [
+        "미국 노동부는 목요일, 트럼프 행정부가 11월 중간선거를 앞두고 이민 및 외국인 채용 프로그램에 대한 단속을 계속하는 가운데, Keith Sonderling 노동장관의 발표에 따라 마이크로소프트와 어도비의 영구 노동 인증(Permanent Labor Certification) 프로그램 참여를 중단한다고 발표했다.",
+        "Sonderling 장관은 Adobe와 Microsoft가 \"여러 건의 진행 중인 연방 조사\"로 인해 참여가 중단되었다고 밝혔다."
+      ],
+      "change": "",
+      "claims": [
+        {
+          "id": "229fa52b05d33b34792e9b1d",
+          "text": "미국 노동부는 목요일, 트럼프 행정부가 11월 중간선거를 앞두고 이민 및 외국인 채용 프로그램에 대한 단속을 계속하는 가운데, Keith Sonderling 노동장관의 발표에 따라 마이크로소프트와 어도비의 영구 노동 인증(Permanent Labor Certification) 프로그램 참여를 중단한다고 발표했다.",
+          "kind": "fact",
+          "author": "",
+          "source_ids": [
+            "badade8c4670edfb074ca927"
+          ],
+          "evidence": [
+            {
+              "source_id": "badade8c4670edfb074ca927",
+              "source_version_id": "744db8b3bc0c894526be39a2",
+              "start": 27,
+              "end": 335,
+              "text": "\n\nThe U.S. Department of Labor announced it would suspend Microsoft and Adobe from its Permanent Labor Certification program on Thursday, Labor Secretary Keith Sonderling said, as the Trump administration continues to take aim at immigration and foreign hiring programs ahead of November's midterm elections.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "\n\nThe U.S. Department of Labor announced it would suspend Microsoft and Adobe from its Permanent Labor Certification program on Thursday, Labor Secretary Keith Sonderling said, as the Trump administration continues to take aim at immigration and foreign hiring programs ahead of November's midterm elections.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "",
+          "validation": {
+            "semantic_support": "local_model_review",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "model_reviewed"
+          },
+          "numbers": []
+        },
+        {
+          "id": "29be9bec170888ff79acb04a",
+          "text": "Sonderling 장관은 Adobe와 Microsoft가 \"여러 건의 진행 중인 연방 조사\"로 인해 참여가 중단되었다고 밝혔다.",
+          "kind": "fact",
+          "author": "",
+          "source_ids": [
+            "badade8c4670edfb074ca927"
+          ],
+          "evidence": [
+            {
+              "source_id": "badade8c4670edfb074ca927",
+              "source_version_id": "744db8b3bc0c894526be39a2",
+              "start": 523,
+              "end": 632,
+              "text": "\n\nThe secretary said Adobe and Microsoft were also suspended \"due to multiple active federal investigations.\"",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "\n\nThe secretary said Adobe and Microsoft were also suspended \"due to multiple active federal investigations.\"",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "",
+          "validation": {
+            "semantic_support": "local_model_review",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "model_reviewed"
+          },
+          "numbers": []
+        }
+      ],
+      "document_ids": [
+        "badade8c4670edfb074ca927"
+      ],
+      "source_versions": [
+        "744db8b3bc0c894526be39a2"
+      ],
+      "entities": [],
+      "selection_reason": [],
+      "follow_up": [],
+      "confidence": "model_reviewed",
+      "related_issue_id": null,
+      "late_discovered": false,
+      "analysis_provider": "mlx",
+      "model_status": "verified_compact_summary",
+      "analysis_label": "원문 발췌 번역 · 원문 전체 대조",
+      "evidence_expired": false,
+      "evidence_partially_expired": false,
+      "has_full_text": true,
+      "has_message_text": false,
+      "prior_day_follow_up": false,
+      "original_title": "U.S. suspends Microsoft, Adobe from green card labor program in foreign worker crackdown",
+      "source_title_ko": "",
+      "korean_required": true
+    },
+    {
+      "id": "279ba71af20f898dab3e0f85",
+      "compact_full_summary": true,
+      "compact_native_version": "global-compact-source-translation-v2-experimental",
+      "anchor": "issue-e600e73e6ae5e3b5",
+      "editorial_scope": "company",
+      "event_type": "economic_other",
+      "title": "하이브리드 인텔리전스를 위한 Windows 구축",
+      "section": "overseas",
+      "category": "technology_ai",
+      "market_scope": "overseas",
+      "primary_market": "US",
+      "affected_markets": [
+        "US"
+      ],
+      "topic_tags": [
+        "technology_ai",
+        "company_industry"
+      ],
+      "edition_change": "new",
+      "summary": [
+        "우리는 Windows를 하이브리드 인텔리전스의 집으로 구축하고 있습니다. 이는 에이전트가 합리적인 경우 로컬에서 실행되고, 필요할 때 클라우드에 도달하며, 조직이 기대하는 보안과 관리 가능성으로 작동하는 플랫폼입니다.",
+        "오늘, Microsoft Execution Containers(MXC)는 Windows 11에서 일반 가용(GA) 상태가 되어, 조직이 에이전트가 접근할 수 있는 파일과 네트워크를 정의하고, 이러한 정책이 런타임에서 적용되도록 합니다."
+      ],
+      "change": "",
+      "claims": [
+        {
+          "id": "ae9b202d31476b88d36f3321",
+          "text": "우리는 Windows를 하이브리드 인텔리전스의 집으로 구축하고 있습니다. 이는 에이전트가 합리적인 경우 로컬에서 실행되고, 필요할 때 클라우드에 도달하며, 조직이 기대하는 보안과 관리 가능성으로 작동하는 플랫폼입니다.",
+          "kind": "fact",
+          "author": "",
+          "source_ids": [
+            "f97767777fa544edb3cb10aa"
+          ],
+          "evidence": [
+            {
+              "source_id": "f97767777fa544edb3cb10aa",
+              "source_version_id": "7d4052726244c2ff5cb79135",
+              "start": 295,
+              "end": 533,
+              "text": "\n\nThat’s why we’re building Windows as the home for hybrid intelligence: a platform where agents can run locally when it makes sense, reach the cloud when they need to, and operate with the security and manageability organizations expect.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "\n\nThat’s why we’re building Windows as the home for hybrid intelligence: a platform where agents can run locally when it makes sense, reach the cloud when they need to, and operate with the security and manageability organizations expect.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "",
+          "validation": {
+            "semantic_support": "local_model_review",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "model_reviewed"
+          },
+          "numbers": []
+        },
+        {
+          "id": "6401eedea450cc66d15f83e2",
+          "text": "오늘, Microsoft Execution Containers(MXC)는 Windows 11에서 일반 가용(GA) 상태가 되어, 조직이 에이전트가 접근할 수 있는 파일과 네트워크를 정의하고, 이러한 정책이 런타임에서 적용되도록 합니다.",
+          "kind": "fact",
+          "author": "",
+          "source_ids": [
+            "f97767777fa544edb3cb10aa"
+          ],
+          "evidence": [
+            {
+              "source_id": "f97767777fa544edb3cb10aa",
+              "source_version_id": "7d4052726244c2ff5cb79135",
+              "start": 3372,
+              "end": 3580,
+              "text": "\n\nToday, Microsoft Execution Containers (MXC) , becomes generally available on Windows 11, enabling organizations to define which files and networks agents can access, with those policies enforced at runtime.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "\n\nToday, Microsoft Execution Containers (MXC) , becomes generally available on Windows 11, enabling organizations to define which files and networks agents can access, with those policies enforced at runtime.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "",
+          "validation": {
+            "semantic_support": "local_model_review",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "model_reviewed"
+          },
+          "numbers": []
+        }
+      ],
+      "document_ids": [
+        "f97767777fa544edb3cb10aa"
+      ],
+      "source_versions": [
+        "7d4052726244c2ff5cb79135"
+      ],
+      "entities": [],
+      "selection_reason": [],
+      "follow_up": [],
+      "confidence": "model_reviewed",
+      "related_issue_id": null,
+      "late_discovered": false,
+      "analysis_provider": "mlx",
+      "model_status": "verified_compact_summary",
+      "analysis_label": "원문 발췌 번역 · 원문 전체 대조",
+      "evidence_expired": false,
+      "evidence_partially_expired": false,
+      "has_full_text": true,
+      "has_message_text": false,
+      "prior_day_follow_up": false,
+      "original_title": "Building Windows for hybrid intelligence",
+      "source_title_ko": "",
+      "korean_required": true
+    },
+    {
+      "id": "b4bc1fb5f01bf158eee32054",
+      "compact_full_summary": true,
+      "compact_native_version": "global-compact-source-translation-v2-experimental",
+      "anchor": "issue-12df5b496164b803",
+      "editorial_scope": "company",
+      "event_type": "economic_other",
+      "title": "나스닥 CEO, 토큰화가 수백억 달러의 고착 자본을 해방할 수 있다고 발언",
+      "section": "overseas",
+      "category": "company_industry",
+      "market_scope": "overseas",
+      "primary_market": "global",
+      "affected_markets": [
+        "US",
+        "Singapore"
+      ],
+      "topic_tags": [
+        "company_industry",
+        "expert_views",
+        "markets_flows",
+        "technology_ai"
+      ],
+      "edition_change": "new",
+      "summary": [
+        "나스닥 CEO 아데나 프리드먼은 글로벌 금융 시스템에서 담보로 사용 중인 자산에 묶여 있는 수백억 달러 규모의 자본을 토큰화가 해방할 수 있다고 말했다."
+      ],
+      "change": "",
+      "claims": [
+        {
+          "id": "8da28c0ac448ea469dc45bcf",
+          "text": "나스닥 CEO 아데나 프리드먼은 글로벌 금융 시스템에서 담보로 사용 중인 자산에 묶여 있는 수백억 달러 규모의 자본을 토큰화가 해방할 수 있다고 말했다.",
+          "kind": "fact",
+          "author": "",
+          "source_ids": [
+            "5c5e961ed36406374cbc01a5"
+          ],
+          "evidence": [
+            {
+              "source_id": "5c5e961ed36406374cbc01a5",
+              "source_version_id": "4bedb7f1efce8f26664e95bf",
+              "start": 21,
+              "end": 193,
+              "text": "\n\nTokenization could free up tens of billions of dollars in capital tied up in assets used as collateral across the global financial system, Nasdaq CEO Adena Friedman said.",
+              "source_excerpt_truncated": false,
+              "excerpt_truncated": false,
+              "location": "본문",
+              "display_text": "\n\nTokenization could free up tens of billions of dollars in capital tied up in assets used as collateral across the global financial system, Nasdaq CEO Adena Friedman said.",
+              "is_translation": false
+            }
+          ],
+          "rationale": "",
+          "conditions": "",
+          "uncertainty": "",
+          "validation": {
+            "semantic_support": "local_model_review",
+            "human_review": "not_reviewed",
+            "status": "source_checked",
+            "source_linkage": "passed",
+            "content_check": "model_reviewed"
+          },
+          "numbers": []
+        }
+      ],
+      "document_ids": [
+        "5c5e961ed36406374cbc01a5"
+      ],
+      "source_versions": [
+        "4bedb7f1efce8f26664e95bf"
+      ],
+      "entities": [],
+      "selection_reason": [],
+      "follow_up": [],
+      "confidence": "model_reviewed",
+      "related_issue_id": null,
+      "late_discovered": false,
+      "analysis_provider": "mlx",
+      "model_status": "verified_compact_summary",
+      "analysis_label": "원문 발췌 번역 · 원문 전체 대조",
+      "evidence_expired": false,
+      "evidence_partially_expired": false,
+      "has_full_text": true,
+      "has_message_text": false,
+      "prior_day_follow_up": false,
+      "original_title": "Tokenization could unleash tens of billions of dollars in trapped capital, Nasdaq CEO says",
+      "source_title_ko": "",
+      "korean_required": true
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "einfomax_rss",
+      "name": "연합인포맥스 · 분야별 RSS",
+      "status": "no_news",
+      "document_count": 0
+    },
+    {
+      "source_id": "fed_press",
+      "name": "미국 연방준비제도 발표",
+      "status": "no_news",
+      "document_count": 0
+    },
+    {
+      "source_id": "sec_press",
+      "name": "미국 증권거래위원회 발표",
+      "status": "no_news",
+      "document_count": 0
+    },
+    {
+      "source_id": "bls_statistics",
+      "name": "미국 노동통계국",
+      "status": "access_blocked",
+      "document_count": 0
+    },
+    {
+      "source_id": "bea_releases",
+      "name": "미국 경제분석국",
+      "status": "no_news",
+      "document_count": 0
+    },
+    {
+      "source_id": "hani_economy",
+      "name": "한겨레 경제",
+      "status": "no_news",
+      "document_count": 0
+    },
+    {
+      "source_id": "bbc_business",
+      "name": "비비시 경제",
+      "status": "ok",
+      "document_count": 0
+    },
+    {
+      "source_id": "cnbc_finance",
+      "name": "시엔비시 금융",
+      "status": "no_news",
+      "document_count": 0
+    },
+    {
+      "source_id": "cnbc_economy",
+      "name": "시엔비시 경제",
+      "status": "no_news",
+      "document_count": 0
+    },
+    {
+      "source_id": "cnbc_earnings",
+      "name": "시엔비시 기업 실적",
+      "status": "no_news",
+      "document_count": 0
+    },
+    {
+      "source_id": "guardian_business",
+      "name": "가디언 경제",
+      "status": "ok",
+      "document_count": 0
+    },
+    {
+      "source_id": "geeknews_ai",
+      "name": "GeekNews · AI",
+      "status": "no_news",
+      "document_count": 0
+    },
+    {
+      "source_id": "fsc_press",
+      "name": "금융위원회",
+      "status": "ok",
+      "document_count": 10
+    },
+    {
+      "source_id": "bea_calendar",
+      "name": "미국 경제분석국 일정",
+      "status": "no_news",
+      "document_count": 0
+    },
+    {
+      "source_id": "bls_calendar",
+      "name": "미국 노동통계국 일정",
+      "status": "access_blocked",
+      "document_count": 0
+    },
+    {
+      "source_id": "fed_policy_calendar",
+      "name": "연준 통화정책 일정",
+      "status": "no_news",
+      "document_count": 0
+    },
+    {
+      "source_id": "bok_policy_calendar",
+      "name": "한국은행 통화정책 일정",
+      "status": "no_news",
+      "document_count": 0
+    },
+    {
+      "source_id": "yahoo_finance",
+      "name": "Yahoo Finance",
+      "status": "ok",
+      "document_count": 0
+    },
+    {
+      "source_id": "cnbc_business",
+      "name": "시엔비시",
+      "status": "no_news",
+      "document_count": 0
+    },
+    {
+      "source_id": "cnbc_technology",
+      "name": "시엔비시",
+      "status": "no_news",
+      "document_count": 0
+    },
+    {
+      "source_id": "cnbc_investing",
+      "name": "시엔비시",
+      "status": "no_news",
+      "document_count": 0
+    },
+    {
+      "source_id": "cnbc_world",
+      "name": "시엔비시",
+      "status": "no_news",
+      "document_count": 0
+    },
+    {
+      "source_id": "bloomberg_markets",
+      "name": "블룸버그",
+      "status": "ok",
+      "document_count": 0
+    },
+    {
+      "source_id": "fortune_business",
+      "name": "Fortune",
+      "status": "no_news",
+      "document_count": 0
+    },
+    {
+      "source_id": "businessinsider_business",
+      "name": "Business Insider",
+      "status": "ok",
+      "document_count": 0
+    },
+    {
+      "source_id": "marketwatch_top",
+      "name": "MarketWatch",
+      "status": "no_news",
+      "document_count": 0
+    },
+    {
+      "source_id": "ft_business",
+      "name": "Financial Times",
+      "status": "ok",
+      "document_count": 0
+    },
+    {
+      "source_id": "economist_finance",
+      "name": "The Economist",
+      "status": "no_news",
+      "document_count": 0
+    },
+    {
+      "source_id": "ap_business",
+      "name": "AP News",
+      "status": "no_news",
+      "document_count": 0
+    },
+    {
+      "source_id": "npr_business",
+      "name": "NPR",
+      "status": "no_news",
+      "document_count": 0
+    },
+    {
+      "source_id": "abc_business",
+      "name": "ABC News",
+      "status": "no_news",
+      "document_count": 0
+    },
+    {
+      "source_id": "pbs_economy",
+      "name": "PBS NewsHour",
+      "status": "no_news",
+      "document_count": 0
+    },
+    {
+      "source_id": "windows_official",
+      "name": "Microsoft Windows Blog",
+      "status": "ok",
+      "document_count": 0
+    },
+    {
+      "source_id": "tbs_bloomberg_public",
+      "name": "TBS CROSS DIG with Bloomberg",
+      "status": "budget_reached",
+      "document_count": 0
+    }
+  ],
+  "documents": [
+    {
+      "id": "b10e1a1d918705f4b84a0de7",
+      "version_id": "15ed784db70d00f41d8c7d25",
+      "source_id": "yahoo_finance",
+      "source_kind": "news",
+      "title": "Broader Market Settles Lower on Soaring Crude Prices and Chipmaker Weakness",
+      "publisher": "Yahoo Finance",
+      "author": "Rich Asplund",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/broader-market-settles-lower-soaring-203613319.html",
+      "published_at": "2026-10-08T20:36:13+00:00",
+      "provided_at": null,
+      "modified_at": null,
+      "collected_at": "2026-10-09T03:50:34.724117+00:00",
+      "event_at": null,
+      "time_basis": "original_published_at",
+      "full_text": true,
+      "text_scope": "기사·문서 본문 확보",
+      "evidence_expired": false,
+      "extraction_quality": "article_text",
+      "synthetic": false,
+      "publisher_identity": {
+        "version": "publisher-identity-v1",
+        "acquisition_publisher": "Yahoo Finance",
+        "origin_publisher": "Barchart",
+        "source_family": "Barchart",
+        "origin_basis": "article_provider_logo",
+        "origin_confirmed": true
+      }
+    },
+    {
+      "id": "0ded69f1d35b4d332c1b6648",
+      "version_id": "1837b8ce78fff98ee7bef96a",
+      "source_id": "cnbc_finance",
+      "source_kind": "news",
+      "title": "Fed officials see another hike coming, but no sign as to when, minutes show",
+      "publisher": "시엔비시",
+      "author": "Jeff Cox",
+      "url": "https://www.cnbc.com/2026/10/07/fed-officials-see-another-hike-coming-but-no-sign-as-to-when-minutes-show.html",
+      "published_at": "2026-10-07T18:00:37+00:00",
+      "provided_at": "2026-10-07T18:42:36+00:00",
+      "modified_at": "2026-10-07T18:42:36+00:00",
+      "collected_at": "2026-10-08T17:51:34.431759+00:00",
+      "event_at": null,
+      "time_basis": "original_published_at",
+      "full_text": true,
+      "text_scope": "기사·문서 본문 확보",
+      "evidence_expired": false,
+      "extraction_quality": "article_text",
+      "synthetic": false,
+      "publisher_identity": {
+        "version": "publisher-identity-v1",
+        "acquisition_publisher": "시엔비시",
+        "origin_publisher": "시엔비시",
+        "source_family": "시엔비시",
+        "origin_basis": "acquisition_fallback",
+        "origin_confirmed": false
+      }
+    },
+    {
+      "id": "5c5e961ed36406374cbc01a5",
+      "version_id": "4bedb7f1efce8f26664e95bf",
+      "source_id": "cnbc_technology",
+      "source_kind": "news",
+      "title": "Tokenization could unleash tens of billions of dollars in trapped capital, Nasdaq CEO says",
+      "publisher": "시엔비시",
+      "author": "Jenny Lee",
+      "url": "https://www.cnbc.com/2026/10/09/nasdaq-ceo-tokenization-could-unleash-billions-in-trapped-capital-.html",
+      "published_at": "2026-10-08T23:57:23+00:00",
+      "provided_at": "2026-10-08T23:57:23+00:00",
+      "modified_at": "2026-10-08T23:57:23+00:00",
+      "collected_at": "2026-10-09T03:40:40.379541+00:00",
+      "event_at": null,
+      "time_basis": "original_published_at",
+      "full_text": true,
+      "text_scope": "기사·문서 본문 확보",
+      "evidence_expired": false,
+      "extraction_quality": "article_text",
+      "synthetic": false,
+      "publisher_identity": {
+        "version": "publisher-identity-v1",
+        "acquisition_publisher": "시엔비시",
+        "origin_publisher": "시엔비시",
+        "source_family": "시엔비시",
+        "origin_basis": "acquisition_fallback",
+        "origin_confirmed": false
+      }
+    },
+    {
+      "id": "01120cbf83b37b00f1575cc6",
+      "version_id": "6ab51693c4c1777f2da0d22f",
+      "source_id": "cnbc_world",
+      "source_kind": "news",
+      "title": "Trump says U.S. will not attack Iran before midterm election",
+      "publisher": "시엔비시",
+      "author": "Luke Fountain",
+      "url": "https://www.cnbc.com/2026/10/08/iran-war-trump-midterm-election.html",
+      "published_at": "2026-10-08T16:25:08+00:00",
+      "provided_at": "2026-10-08T17:41:20+00:00",
+      "modified_at": "2026-10-08T17:41:20+00:00",
+      "collected_at": "2026-10-08T23:05:16.231316+00:00",
+      "event_at": null,
+      "time_basis": "original_published_at",
+      "full_text": true,
+      "text_scope": "기사·문서 본문 확보",
+      "evidence_expired": false,
+      "extraction_quality": "article_text",
+      "synthetic": false,
+      "publisher_identity": {
+        "version": "publisher-identity-v1",
+        "acquisition_publisher": "시엔비시",
+        "origin_publisher": "시엔비시",
+        "source_family": "시엔비시",
+        "origin_basis": "acquisition_fallback",
+        "origin_confirmed": false
+      }
+    },
+    {
+      "id": "badade8c4670edfb074ca927",
+      "version_id": "744db8b3bc0c894526be39a2",
+      "source_id": "cnbc_technology",
+      "source_kind": "news",
+      "title": "U.S. suspends Microsoft, Adobe from green card labor program in foreign worker crackdown",
+      "publisher": "시엔비시",
+      "author": "CJ Haddad",
+      "url": "https://www.cnbc.com/2026/10/08/microsoft-adobe-green-card-labor-suspension.html",
+      "published_at": "2026-10-08T15:24:25+00:00",
+      "provided_at": "2026-10-08T18:52:59+00:00",
+      "modified_at": "2026-10-08T18:52:59+00:00",
+      "collected_at": "2026-10-08T23:05:15.114862+00:00",
+      "event_at": null,
+      "time_basis": "original_published_at",
+      "full_text": true,
+      "text_scope": "기사·문서 본문 확보",
+      "evidence_expired": false,
+      "extraction_quality": "article_text",
+      "synthetic": false,
+      "publisher_identity": {
+        "version": "publisher-identity-v1",
+        "acquisition_publisher": "시엔비시",
+        "origin_publisher": "시엔비시",
+        "source_family": "시엔비시",
+        "origin_basis": "acquisition_fallback",
+        "origin_confirmed": false
+      }
+    },
+    {
+      "id": "98ab7a774f5e2e68682b949c",
+      "version_id": "772541363e21eacdc5c23289",
+      "source_id": "cnbc_technology",
+      "source_kind": "news",
+      "title": "Apollo, banks in talks to finance SpaceX's $40 billion Nvidia GPU purchase",
+      "publisher": "시엔비시",
+      "author": "Seema Mody",
+      "url": "https://www.cnbc.com/2026/10/07/spacex-nvidia-chips-apollo-financing.html",
+      "published_at": "2026-10-07T16:32:30+00:00",
+      "provided_at": "2026-10-07T21:16:24+00:00",
+      "modified_at": "2026-10-07T21:16:24+00:00",
+      "collected_at": "2026-10-08T05:21:42.107822+00:00",
+      "event_at": null,
+      "time_basis": "original_published_at",
+      "full_text": true,
+      "text_scope": "기사·문서 본문 확보",
+      "evidence_expired": false,
+      "extraction_quality": "article_text",
+      "synthetic": false,
+      "publisher_identity": {
+        "version": "publisher-identity-v1",
+        "acquisition_publisher": "시엔비시",
+        "origin_publisher": "시엔비시",
+        "source_family": "시엔비시",
+        "origin_basis": "acquisition_fallback",
+        "origin_confirmed": false
+      }
+    },
+    {
+      "id": "f97767777fa544edb3cb10aa",
+      "version_id": "7d4052726244c2ff5cb79135",
+      "source_id": "windows_official",
+      "source_kind": "official",
+      "title": "Building Windows for hybrid intelligence",
+      "publisher": "Windows Experience Blog",
+      "author": "Pavan Davuluri, Executive Vice President, Windows + Devices",
+      "url": "https://blogs.windows.com/windowsexperience/2026/10/07/building-windows-for-hybrid-intelligence/",
+      "published_at": "2026-10-07T18:00:22+00:00",
+      "provided_at": null,
+      "modified_at": "2026-10-08T17:32:17+00:00",
+      "collected_at": "2026-10-09T05:32:22.779599+00:00",
+      "event_at": null,
+      "time_basis": "original_published_at",
+      "full_text": true,
+      "text_scope": "기사·문서 본문 확보",
+      "evidence_expired": false,
+      "extraction_quality": "article_text",
+      "synthetic": false,
+      "publisher_identity": {
+        "version": "publisher-identity-v1",
+        "acquisition_publisher": "Windows Experience Blog",
+        "origin_publisher": "Windows Experience Blog",
+        "source_family": "Windows Experience Blog",
+        "origin_basis": "acquisition_fallback",
+        "origin_confirmed": false
+      }
+    },
+    {
+      "id": "c287f8cd9b9ede71c2b0ea81",
+      "version_id": "7f97c7ad439090bd36e636d8",
+      "source_id": "yahoo_finance",
+      "source_kind": "news",
+      "title": "US bonds rally after 30-year auction finds solid demand",
+      "publisher": "Yahoo! Finance",
+      "author": "By Gertrude Chavez-Dreyfuss",
+      "url": "https://finance.yahoo.com/news/us-bonds-rally-30-auction-204928356.html",
+      "published_at": "2026-10-08T20:49:28+00:00",
+      "provided_at": null,
+      "modified_at": "2026-10-08T20:49:28+00:00",
+      "collected_at": "2026-10-08T23:14:21.248978+00:00",
+      "event_at": null,
+      "time_basis": "original_published_at",
+      "full_text": true,
+      "text_scope": "기사·문서 본문 확보",
+      "evidence_expired": false,
+      "extraction_quality": "article_text",
+      "synthetic": false,
+      "publisher_identity": {
+        "version": "publisher-identity-v1",
+        "acquisition_publisher": "Yahoo! Finance",
+        "origin_publisher": "로이터",
+        "source_family": "로이터",
+        "origin_basis": "article_provider_logo",
+        "origin_confirmed": true
+      }
+    },
+    {
+      "id": "bb74eb646f87b53808254441",
+      "version_id": "b0c7ff812de7f4c366438fc5",
+      "source_id": "cnbc_technology",
+      "source_kind": "news",
+      "title": "Nvidia, Oracle, CoreWeave and other AI stocks sink on OpenAI revenue report",
+      "publisher": "시엔비시",
+      "author": "Ashley Capoot, Kate Rooney",
+      "url": "https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html",
+      "published_at": "2026-10-08T18:14:54+00:00",
+      "provided_at": "2026-10-08T18:18:31+00:00",
+      "modified_at": "2026-10-08T21:19:14+00:00",
+      "collected_at": "2026-10-08T23:05:13.185665+00:00",
+      "event_at": null,
+      "time_basis": "original_published_at",
+      "full_text": true,
+      "text_scope": "기사·문서 본문 확보",
+      "evidence_expired": false,
+      "extraction_quality": "article_text",
+      "synthetic": false,
+      "publisher_identity": {
+        "version": "publisher-identity-v1",
+        "acquisition_publisher": "시엔비시",
+        "origin_publisher": "시엔비시",
+        "source_family": "시엔비시",
+        "origin_basis": "acquisition_fallback",
+        "origin_confirmed": false
+      }
+    },
+    {
+      "id": "ff2437368a4c6eb76dec38c9",
+      "version_id": "c1c6b9b24fdbcf0bcc79e1a0",
+      "source_id": "cnbc_technology",
+      "source_kind": "news",
+      "title": "SpaceX deal to acquire spectrum license hammers shares of AT&T, Verizon and T-Mobile",
+      "publisher": "시엔비시",
+      "author": "Lora Kolodny",
+      "url": "https://www.cnbc.com/2026/10/08/spacex-spectrum-license-att-verizon-tmobile.html",
+      "published_at": "2026-10-08T20:43:50+00:00",
+      "provided_at": "2026-10-08T22:55:46+00:00",
+      "modified_at": "2026-10-08T22:55:46+00:00",
+      "collected_at": "2026-10-09T08:23:43.899538+00:00",
+      "event_at": null,
+      "time_basis": "original_published_at",
+      "full_text": true,
+      "text_scope": "기사·문서 본문 확보",
+      "evidence_expired": false,
+      "extraction_quality": "article_text",
+      "synthetic": false,
+      "publisher_identity": {
+        "version": "publisher-identity-v1",
+        "acquisition_publisher": "시엔비시",
+        "origin_publisher": "시엔비시",
+        "source_family": "시엔비시",
+        "origin_basis": "acquisition_fallback",
+        "origin_confirmed": false
+      }
+    },
+    {
+      "id": "962b5cfbfe00cd92b07688c9",
+      "version_id": "d31fc8abf6fbe8f2a350883d",
+      "source_id": "guardian_business",
+      "source_kind": "news",
+      "title": "Oil prices jump 5% on Middle East tensions and US hurricane threat",
+      "publisher": "가디언",
+      "author": "Lauren Almeida",
+      "url": "https://www.theguardian.com/business/2026/oct/08/oil-prices-rise-middle-east-tensions-us-hurricane-threat",
+      "published_at": "2026-10-08T11:11:47+00:00",
+      "provided_at": "2026-10-08T11:11:47+00:00",
+      "modified_at": "2026-10-08T22:45:30+00:00",
+      "collected_at": "2026-10-09T09:21:09.560545+00:00",
+      "event_at": null,
+      "time_basis": "original_published_at",
+      "full_text": true,
+      "text_scope": "기사·문서 본문 확보",
+      "evidence_expired": false,
+      "extraction_quality": "article_text",
+      "synthetic": false,
+      "publisher_identity": {
+        "version": "publisher-identity-v1",
+        "acquisition_publisher": "가디언",
+        "origin_publisher": "가디언",
+        "source_family": "가디언",
+        "origin_basis": "acquisition_fallback",
+        "origin_confirmed": false
+      }
+    }
+  ],
+  "coverage": {
+    "window_start": "2026-10-07T18:49:38.562823+09:00",
+    "us_market_status": "거래일",
+    "us_last_completed_session": "2026-10-08",
+    "sectors": [],
+    "countries": [
+      "US"
+    ],
+    "window_end_exclusive": "2026-10-09T18:49:38.562823+09:00",
+    "documents": 1263,
+    "full_text": 133,
+    "missing_sources": [
+      "bls_statistics",
+      "bls_calendar",
+      "tbs_bloomberg_public"
+    ],
+    "us_market_time": "2026-10-09T05:49:38.562823-04:00",
+    "exclusions": {
+      "frozen_confirmed_pool": 1263
+    },
+    "categories": {
+      "technology": 93,
+      "finance": 766,
+      "economy": 397,
+      "company": 1,
+      "calendar": 6
+    },
+    "input_time_policy": "observed_before_cutoff",
+    "collected_end": "2026-10-09T09:21:09.560545+00:00"
+  },
+  "editorial_focus": "economy_finance_business",
+  "ai_discoveries": [],
+  "reading_status": {
+    "geeknews": {
+      "count": 0,
+      "status": "pending",
+      "note": "확인 자료를 보강하고 있습니다."
+    }
+  },
+  "korean_required": true,
+  "translation": {
+    "status": "complete",
+    "issues_completed": 11,
+    "issues_pending": 0,
+    "foreign_issues_completed": 11
+  },
+  "publication": {
+    "withheld_private_documents": 0,
+    "full_text_included": false,
+    "withheld_private_quote_issues": 0,
+    "withheld_full_text_issues": 0,
+    "visibility": "public"
+  },
+  "synthetic": false,
+  "notice": "본 프로젝트는 비상업적 개인 학습·연구를 위한 리서치 자동화 도구입니다. 자료의 출처를 표시하며 원문 권리는 각 권리자에게 있습니다."
+}
