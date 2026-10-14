@@ -3,12 +3,30 @@
   "visibility": "public",
   "base_path": "/news/",
   "timezone": "Asia/Seoul",
-  "latest_date": "2026-10-04",
-  "updated_at": "2026-10-03T15:04:38.104166+00:00",
+  "latest_date": "2026-10-13",
+  "updated_at": "2026-10-14T23:14:40.482156+00:00",
   "latest_url": "/news/",
   "archive_url": "/news/?archive=1",
   "manifest_url": "/news/archive.json",
   "entries": [
+    {
+      "date": "2026-10-13",
+      "mode": "reconstruction",
+      "generated_at": "2026-10-14T23:14:40.482156+00:00",
+      "cutoff": "2026-10-13T13:29:03.033947+09:00",
+      "issue_count": 35,
+      "status": "complete",
+      "edition_phase": "daily_final",
+      "run_id": "1f366e4b1f2cce90eff98c26",
+      "revisions": [],
+      "url": "/news/daily/2026-10-13/index.html",
+      "report_url": "/news/daily/2026-10-13/index.html",
+      "sha256": {
+        "json": "3c58fb670a8f5d7b938bc301c71af9eb8d65a56b3aba1ded2d1e78f14b7d50ba",
+        "markdown": "8bceb73aa633945d3fb49279e6fba6e6988878de6a221462fa80175fc764fb6e",
+        "html": "a1a9e7932fff53473151d4ad7378c92e691872dbb3685f115c2639449846b1d6"
+      }
+    },
     {
       "date": "2026-10-04",
       "mode": "on_time",
@@ -31,9 +49,9 @@
           "cutoff": "2026-10-02T16:54:32.660238+00:00",
           "issue_count": 38,
           "status": "partial",
+          "run_id": "469163ed5963470ca7f21f6f",
           "edition_kind": "weekend",
           "period_id": "weekend:2026-09-28",
-          "run_id": "469163ed5963470ca7f21f6f",
           "url": "/news/weekend/2026-09-28/revisions/469163ed5963470ca7f21f6f/index.html",
           "report_url": "/news/weekend/2026-09-28/revisions/469163ed5963470ca7f21f6f/index.html",
           "sha256": {
@@ -148,9 +166,9 @@
           "cutoff": "2026-09-25T17:28:35.693481+00:00",
           "issue_count": 39,
           "status": "partial",
+          "run_id": "5082e05d8c3d02b49d19d181",
           "edition_kind": "weekend",
           "period_id": "weekend:2026-09-21",
-          "run_id": "5082e05d8c3d02b49d19d181",
           "url": "/news/weekend/2026-09-21/revisions/5082e05d8c3d02b49d19d181/index.html",
           "report_url": "/news/weekend/2026-09-21/revisions/5082e05d8c3d02b49d19d181/index.html",
           "sha256": {
