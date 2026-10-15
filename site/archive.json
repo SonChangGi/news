@@ -62,7 +62,9 @@
         "json": "3d1b391d186547cfad2edb170120dd7aef492a426f79063fa181a838a1bf9f9e",
         "markdown": "dbde7b81e5ae2057f7992239bf0ca0bbb21b4c3c52f420512b20105a8929d858",
         "html": "0fd964373702ecbacdc5f2d28f32d3224bb3fd9c805cdec4ea8d4663a8226d6a"
-      }
+      },
+      "published_at": "2026-10-15T05:09:43.071542+00:00",
+      "publication_time_basis": "first_public_readback"
     },
     {
       "date": "2026-10-04",
