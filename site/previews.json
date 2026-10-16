@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "visibility": "public",
+  "base_path": "/news/",
+  "entries": [
+    {
+      "run_id": "410dc673f197f26f5beec057",
+      "report_date": "2026-10-16",
+      "cutoff": "2026-10-16T10:13:31.239825+09:00",
+      "url": "/news/previews/410dc673f197f26f5beec057/index.html",
+      "sha256": {
+        "html": "e873521ee0cfed6fea122dea8bfb73f386382f18100be99a11cfdba9b3606888",
+        "json": "f763a3fb924a7ff7fbacf32aa5748549cb3fe3636ab8c1d8f70d9b5428907c6c",
+        "markdown": "0cb98f87974d3f14884cf9ea9356e057155c39a1d3c6d03d3e1dc6d4d5356ca1"
+      }
+    }
+  ]
+}
