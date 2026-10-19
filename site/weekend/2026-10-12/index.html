@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="light dark">
   <meta name="referrer" content="no-referrer">
-  <title>2026-10-12–2026-10-17 주간 브리핑</title>
+  <title>10월 18일(일) 주간 브리핑</title>
   <script id="theme-init">try{const t=localStorage.getItem('research-news-theme');if(t==='dark'||t==='light')document.documentElement.dataset.theme=t;}catch(e){}</script>
   <style>
     :root{color-scheme:light;--bg:#f7f9fb;--panel:#fff;--surface:#f2f4f6;--ink:#191f28;--muted:#626e7d;--line:#e5e8eb;--primary:#1b64da;--soft:#eaf3ff;--warning:#966000;--warning-bg:#fff4df;--radius:8px}
@@ -303,23 +303,44 @@ body.has-quant-shared-nav .skip-link {
   @media print{.reader-review{display:none}}
 </style>
 <style>
-  .weekly-reader .weekly-cover{padding:32px 0 24px;margin-bottom:32px;border-bottom:2px solid var(--ink)}
-  .weekly-cover-top{display:flex;align-items:center;gap:12px;margin-bottom:22px}.weekly-cover-top .eyebrow{margin:0;letter-spacing:.06em;font-size:12px}.weekly-preview{font-size:11px;color:var(--muted);border-left:1px solid var(--line);padding-left:12px}
-  .weekly-reader h1{font-size:clamp(27px,3.2vw,44px);font-weight:760;line-height:1.3;letter-spacing:-.055em;margin:0;max-width:none}.weekly-period-dash{color:var(--muted);font-weight:400}.weekly-cover-title{font-size:clamp(21px,2.3vw,30px);margin:8px 0 26px;letter-spacing:-.04em;color:var(--muted)}
-  .weekly-cover-bottom{display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap}.weekly-totals{display:flex;gap:24px;font-size:12px;color:var(--muted);align-items:baseline}.weekly-totals strong{font-size:24px;color:var(--ink);font-variant-numeric:tabular-nums;margin-right:4px;font-weight:650}.weekly-stamp{font-size:11px;color:var(--muted)}
-  .weekly-cover-navigation{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}.weekly-cover-navigation .date-navigation{margin-top:20px}.weekly-previous{font-size:12px;margin-top:20px}
+  .briefing-period{margin:8px 0 0;font-size:13px;line-height:1.7;color:var(--muted)}
+  .briefing-header .header-meta{white-space:normal;max-width:340px}
+  .briefing-header .header-meta>span{display:block}
+  @media(max-width:1000px){.briefing-header .header-meta{max-width:none}}
+</style>
+<style>
   .weekly-block-heading{display:flex;align-items:baseline;justify-content:space-between;gap:12px;margin-bottom:16px}.weekly-block-heading h2{font-size:20px;margin:0;letter-spacing:-.035em}.weekly-block-heading>span{font-size:12px;color:var(--muted)}
   .weekly-overview{margin-bottom:36px}.weekly-spotlights{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0;background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}.weekly-spotlight{padding:24px;display:flex;flex-direction:column;align-items:start;border-left:1px solid var(--line)}.weekly-spotlight:first-child{border-left:0}.weekly-spotlight-topic{color:var(--primary);font-size:12px;font-weight:650;margin:0 0 14px}.weekly-spotlight h3{font-size:20px;line-height:1.5;letter-spacing:-.03em;margin:0 0 12px}.weekly-spotlight h3 a{color:var(--ink);text-decoration:none}.weekly-spotlight h3 a:hover{text-decoration:underline;text-underline-offset:4px}.weekly-spotlight-lead{color:var(--muted);font-size:14px;line-height:1.8;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;margin:0 0 20px}.weekly-chapter-link{font-size:12px;margin-top:auto;padding-top:4px}
   .weekly-contents{scroll-margin-top:20px;margin-bottom:24px}.weekly-contents ol{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:10px;overflow:hidden}.weekly-contents li{background:var(--panel);min-width:0}.weekly-contents a{display:flex;align-items:center;gap:10px;padding:16px;font-size:13px;color:var(--ink);text-decoration:none;min-height:54px}.weekly-contents a:hover{background:var(--soft)}.weekly-toc-number{color:var(--primary);font-size:11px;font-variant-numeric:tabular-nums}.weekly-toc-count{margin-left:auto;color:var(--muted);font-size:11px}
   .weekly-reader .toolbar{border-top:0;margin-bottom:34px}.weekly-reader .toolbar-top{grid-template-columns:minmax(220px,2fr) repeat(2,minmax(150px,1fr))}.weekly-search-label{font-size:12px;color:var(--muted)}
-  .weekly-reader .section{margin-bottom:48px;scroll-margin-top:20px}.weekly-reader .section-heading{border-top:1px solid var(--line);padding-top:20px;margin-bottom:18px;gap:10px}.weekly-reader .section-heading h2{font-size:23px;letter-spacing:-.04em}.weekly-chapter-number{font-size:14px;color:var(--primary);font-variant-numeric:tabular-nums;margin-right:2px}.weekly-back{margin-left:auto;color:var(--muted);font-size:11px}.weekly-reader .section-heading h2{scroll-margin-top:24px}
+  .weekly-reader .section{margin-bottom:48px;scroll-margin-top:20px}.weekly-reader .section-heading{border-top:1px solid var(--line);padding-top:20px;margin-bottom:18px;gap:10px}.weekly-reader .section-heading h2{letter-spacing:-.025em}.weekly-chapter-number{font-size:14px;color:var(--primary);font-variant-numeric:tabular-nums;margin-right:2px}.weekly-back{margin-left:auto;color:var(--muted);font-size:11px}.weekly-reader .section-heading h2{scroll-margin-top:24px}
   @media(max-width:1000px){.weekly-spotlight{padding:20px}.weekly-spotlight h3{font-size:18px}.weekly-reader .toolbar-top,.weekly-reader .toolbar-top:not(:has(#topic-filter)){grid-template-columns:repeat(2,minmax(0,1fr))}.weekly-contents ol{grid-template-columns:repeat(2,minmax(0,1fr))}}
-  @media(max-width:760px){.weekly-reader .weekly-cover{padding-top:24px;margin-bottom:26px}.weekly-cover-top{margin-bottom:16px}.weekly-cover-bottom{gap:12px}.weekly-totals{gap:20px}.weekly-totals strong{font-size:21px}.weekly-block-heading h2{font-size:18px}.weekly-block-heading>span{font-size:11px}.weekly-spotlights{grid-template-columns:1fr}.weekly-spotlight{border-left:0;border-top:1px solid var(--line);padding:20px}.weekly-spotlight:first-child{border-top:0}.weekly-spotlight-topic{margin-bottom:8px}.weekly-spotlight h3{font-size:19px;margin-bottom:8px}.weekly-spotlight-lead{-webkit-line-clamp:2;margin-bottom:12px}.weekly-contents a{padding:13px 12px;gap:7px;font-size:12px}.weekly-reader .section{margin-bottom:34px}.weekly-reader .section-heading h2{font-size:21px}}
+  @media(max-width:760px){.weekly-reader .weekly-cover{padding-top:24px;margin-bottom:26px}.weekly-cover-top{margin-bottom:16px}.weekly-cover-bottom{gap:12px}.weekly-totals{gap:20px}.weekly-totals strong{font-size:21px}.weekly-block-heading h2{font-size:18px}.weekly-block-heading>span{font-size:11px}.weekly-spotlights{grid-template-columns:1fr}.weekly-spotlight{border-left:0;border-top:1px solid var(--line);padding:20px}.weekly-spotlight:first-child{border-top:0}.weekly-spotlight-topic{margin-bottom:8px}.weekly-spotlight h3{font-size:19px;margin-bottom:8px}.weekly-spotlight-lead{-webkit-line-clamp:2;margin-bottom:12px}.weekly-contents a{padding:13px 12px;gap:7px;font-size:12px}.weekly-reader .section{margin-bottom:34px}}
   @media(max-width:420px){.weekly-cover-title{margin-bottom:18px}.weekly-stamp{width:100%}.weekly-block-heading{flex-wrap:wrap;gap:5px}.weekly-cover-navigation .date-navigation{gap:4px}}
   @media print{.weekly-cover-navigation,.weekly-contents,.weekly-back,.weekly-chapter-link{display:none}.weekly-spotlights{display:block}.weekly-spotlight{border:0;padding:12px 0;break-inside:avoid}.weekly-spotlight-lead{display:block}.weekly-reader .weekly-cover{padding-top:0}.weekly-reader .section{margin-bottom:20px}}
+
+  .topic-reader .toolbar-top,.topic-reader .toolbar-top:not(:has(#topic-filter)){grid-template-columns:minmax(220px,1.7fr) repeat(3,minmax(130px,1fr))}
+  .topic-reader .toolbar{border-top:0}.topic-reader .section-heading{scroll-margin-top:24px}
+  .priority-spotlights{gap:1px;background:var(--line)}.priority-spotlights .weekly-spotlight{border:0;background:var(--panel);padding:22px}
+  .priority-spotlights:has(> :nth-child(4)) .weekly-spotlight:first-child{grid-row:span 2;padding:28px}
+  .priority-spotlights .weekly-spotlight h3{font-size:17px;line-height:1.55;margin-bottom:8px}
+  .priority-spotlights .weekly-spotlight:first-child h3{font-size:24px;line-height:1.5}
+  .priority-spotlights .weekly-spotlight-lead{-webkit-line-clamp:2;font-size:13px;margin-bottom:12px}
+  .priority-spotlights .weekly-spotlight:first-child .weekly-spotlight-lead{-webkit-line-clamp:6;font-size:15px;line-height:1.9}
+  .spotlight-number{font-variant-numeric:tabular-nums;color:var(--muted);margin-right:10px}
+  .priority-spotlights .weekly-spotlight-topic{margin-bottom:10px}.weekly-chapter-link{font-size:12px}
+  .additional-reading{border:1px solid var(--line);border-radius:12px;background:var(--panel);margin:24px 0 40px}
+  .additional-reading>summary{display:flex;align-items:center;gap:12px;padding:22px 24px;cursor:pointer;font-size:18px;font-weight:650;list-style:none}
+  .additional-reading>summary::-webkit-details-marker{display:none}.additional-count{color:var(--muted);font-size:13px;font-weight:400}.additional-hint{margin-left:auto;font-size:12px;color:var(--primary);font-weight:500}.additional-hint:after{content:' ＋'}.additional-reading[open] .additional-hint:after{content:' −'}.additional-close{display:none}.additional-reading[open] .additional-open{display:none}.additional-reading[open] .additional-close{display:inline}
+  .additional-body{padding:0 24px 24px}.additional-body .section:last-child{margin-bottom:0}
+  .weekly-contents li:last-child:nth-child(4n+1){grid-column:1/-1}.weekly-contents li:last-child:nth-child(4n+2){grid-column:span 3}.weekly-contents li:last-child:nth-child(4n+3){grid-column:span 2}
+  @media(max-width:1000px){.weekly-contents li:last-child:nth-child(n){grid-column:auto}.weekly-contents li:last-child:nth-child(2n+1){grid-column:1/-1}.topic-reader .toolbar-top,.topic-reader .toolbar-top:not(:has(#topic-filter)){grid-template-columns:repeat(3,minmax(0,1fr))}.topic-reader .search{grid-column:1/-1}.priority-spotlights .weekly-spotlight{padding:18px}.priority-spotlights .weekly-spotlight:first-child{padding:22px}.priority-spotlights .weekly-spotlight:first-child h3{font-size:22px}}
+  @media(max-width:760px){.priority-spotlights{grid-template-columns:1fr}.priority-spotlights:has(> :nth-child(4)) .weekly-spotlight:first-child{grid-row:auto}.priority-spotlights .weekly-spotlight:first-child .weekly-spotlight-lead{-webkit-line-clamp:3}.priority-spotlights .weekly-spotlight:not(:first-child) .weekly-spotlight-lead{display:none}.priority-spotlights .weekly-spotlight:not(:first-child){padding:16px 20px}.priority-spotlights .weekly-spotlight:not(:first-child) .weekly-chapter-link{display:none}.additional-body{padding:0 14px 14px}.additional-reading>summary{padding:18px;font-size:16px}}
+  @media print{.additional-reading{border:0}.additional-hint{display:none}.additional-body{padding:0}}
+.reader-preview-bar{display:flex;gap:12px;align-items:center;font-size:12px;color:var(--muted);padding:14px 0 0;margin:0}.reader-preview-bar a{color:var(--primary)}
 </style>
 </head>
-<body id="top" class="weekly-reader" data-weekly-layout="chapters-v1">
+<body id="top" class="topic-reader weekly-reader" data-reader-order="importance-topics-v1" data-weekly-layout="priority-chapters-v2">
 <a class="skip" href="#report-content">브리핑 내용으로 이동</a>
 <nav class="masthead quant-shared-nav" aria-label="연결 프로젝트 바로가기"><div class="quant-shared-nav__inner">
   <a class="quant-shared-nav__brand" href="https://sonchanggi.github.io/quant-dashboard/" aria-label="Quant Research Hub로 이동" rel="noopener noreferrer" referrerpolicy="no-referrer">Quant Research Hub</a>
@@ -336,43 +357,54 @@ body.has-quant-shared-nav .skip-link {
   <button type="button" id="theme-toggle" class="quant-shared-nav__theme" aria-label="다크 모드로 전환" aria-pressed="false"><span class="quant-shared-nav__theme-icon" aria-hidden="true"></span><span class="theme-text quant-shared-nav__theme-text">다크 모드</span></button>
 </div></nav>
 <div class="shell">
-  <header class="weekly-cover">
-  <div class="weekly-cover-top"><p class="eyebrow">일요일 주간판</p></div>
-  <h1>10월 12일(월)<span class="weekly-period-dash"> — </span>10월 17일(토)</h1>
-  <p class="weekly-cover-title">한 주의 주요 이슈</p>
-  <div class="weekly-cover-bottom"><div class="weekly-totals"><span><strong>35</strong> 뉴스</span><span><strong>7</strong> 주제</span><span><strong>9</strong> GeekNews</span></div><div class="weekly-stamp">자료 기준 10.19 10:53 KST</div></div>
-  <div class="weekly-cover-navigation"><nav class="date-navigation" aria-label="저장된 브리핑 이동"><button type="button" id="archive-open" class="archive-open" aria-haspopup="dialog" aria-controls="archive-dialog">날짜 선택</button><a id="previous-report" aria-disabled="true">← 이전 날짜</a><a id="next-report" aria-disabled="true">다음 날짜 →</a><a id="latest-report" hidden>최신 브리핑</a></nav><a class="weekly-previous" href="/news/weekend/2026-10-12/revisions/20752520b4e8f8fd126e178d/index.html">이전 판본 ↗</a></div>
+  
+  <header class="briefing-header" data-header-design="shared-v1">
+  <div class="page-header">
+    <div>
+      <h1>10월 18일(일) 주간 브리핑</h1>
+      <p class="briefing-period">10월 12일(월) – 10월 17일(토)</p>
+      <nav class="date-navigation" aria-label="저장된 브리핑 이동"><button type="button" id="archive-open" class="archive-open" aria-haspopup="dialog" aria-controls="archive-dialog">날짜 선택</button><a id="previous-report" aria-disabled="true">← 이전 날짜</a><a id="next-report" aria-disabled="true">다음 날짜 →</a><a id="latest-report" hidden>최신 브리핑</a></nav>
+    </div>
+    <div class="header-meta">
+      <span>자료 기준 <strong>10.19 10:53 KST</strong></span>
+    </div>
+  </div>
+  <p class="small edition-summary">뉴스 35개 · 7개 주제 · GeekNews 9개 · <a href="/news/weekend/2026-10-12/revisions/ab8bc108fe5b5e235e8c48ef/index.html">이전 판본</a></p>
 </header>
   
   
   
 <section class="weekly-overview" aria-labelledby="weekly-overview-title">
-  <div class="weekly-block-heading"><h2 id="weekly-overview-title">이번 주의 흐름</h2><span>대표 기사로 훑어보기</span></div>
-  <div class="weekly-spotlights">
+  <div class="weekly-block-heading"><h2 id="weekly-overview-title">이번 주 핵심</h2><span>5개 이슈</span></div>
+  <div class="weekly-spotlights priority-spotlights">
   
-    <div class="weekly-spotlight"><p class="weekly-spotlight-topic">거시·정책</p><h3><a href="#issue-9dda0bac6ddb1281">미국 9월 CPI 전년 대비 3.7% 상승…휘발유 급등·근원물가도 예상 상회</a></h3><p class="weekly-spotlight-lead">미 노동통계국(BLS)에 따르면 9월 소비자물가지수(CPI)는 계절조정 기준 전월 대비 0.6%, 전년 동월 대비 3.7% 상승했으며, 연간 상승률은 8월 3.4%에서 높아져 다우존스가 집계한 예상치 3.6%를 웃돌았다.</p><a class="weekly-chapter-link" href="#section-weekly-macro_policy">이 주제 11건 읽기 <span aria-hidden="true">↗</span></a></div>
+    <div class="weekly-spotlight"><p class="weekly-spotlight-topic"><span class="spotlight-number">01</span>거시·정책</p><h3><a href="#issue-9dda0bac6ddb1281">미국 9월 CPI 전년 대비 3.7% 상승…휘발유 급등·근원물가도 예상 상회</a></h3><p class="weekly-spotlight-lead">미 노동통계국(BLS)에 따르면 9월 소비자물가지수(CPI)는 계절조정 기준 전월 대비 0.6%, 전년 동월 대비 3.7% 상승했으며, 연간 상승률은 8월 3.4%에서 높아져 다우존스가 집계한 예상치 3.6%를 웃돌았다.</p><a class="weekly-chapter-link" href="#issue-9dda0bac6ddb1281">기사 읽기 <span aria-hidden="true">↗</span></a></div>
   
-    <div class="weekly-spotlight"><p class="weekly-spotlight-topic">기업·산업</p><h3><a href="#issue-604352b83a873a7c">앤스로픽 매출 성장 둔화에 일부 투자자, IPO 기업가치 기대 하향</a></h3><p class="weekly-spotlight-lead">소식통들에 따르면 수요일 앤스로픽 투자자 행사에 참석한 일부 투자자는 11월 IPO 기업가치로 약 1조 5,000억 달러를 논의했으며, 이는 투자자들이 앞서 기대했던 약 2조 달러보다 낮은 수준이다.</p><a class="weekly-chapter-link" href="#section-weekly-company_industry">이 주제 10건 읽기 <span aria-hidden="true">↗</span></a></div>
+    <div class="weekly-spotlight"><p class="weekly-spotlight-topic"><span class="spotlight-number">02</span>거시·정책</p><h3><a href="#issue-1d149565edb0bc07">미국 9월 PPI 전월 대비 1.3% 상승…2022년 3월 이후 최대</a></h3><p class="weekly-spotlight-lead">미 노동부가 15일(현지시간) 발표한 9월 헤드라인 생산자물가지수(PPI)는 계절조정 기준 전월 대비 1.3% 올라 시장 전망치 0.5%를 웃돌았다.</p><a class="weekly-chapter-link" href="#issue-1d149565edb0bc07">기사 읽기 <span aria-hidden="true">↗</span></a></div>
   
-    <div class="weekly-spotlight"><p class="weekly-spotlight-topic">원자재·환율</p><h3><a href="#issue-88f1d54d8a6c471e">IEA, 이란 전쟁 여파에 경유 공급난 2027년 하반기까지 지속 전망</a></h3><p class="weekly-spotlight-lead">국제에너지기구(IEA)는 10월 석유시장보고서에서 연말 정유 처리량이 빠르게 회복하더라도 2026년 4분기 경유 공급이 수요를 밑돌고, 통상적인 계절 변동을 제외한 재고 보충은 2027년 하반기 이전에 어려울 것으로 전망했다.</p><a class="weekly-chapter-link" href="#section-weekly-commodities_fx">이 주제 4건 읽기 <span aria-hidden="true">↗</span></a></div>
+    <div class="weekly-spotlight"><p class="weekly-spotlight-topic"><span class="spotlight-number">03</span>원자재·환율</p><h3><a href="#issue-3b9c46ce802978a5">호르무즈 해협서 컨테이너선 침몰…승무원 21명 전원 대피</a></h3><p class="weekly-spotlight-lead">싱가포르 해사항만청에 따르면 수요일 호르무즈 해협에서 싱가포르 선적 컨테이너선 GFS 프라이드호가 정체불명의 발사체에 맞아 화재가 발생한 뒤 침몰했으며, 승무원 21명은 전원 안전하게 대피했고 부상자는 보고되지 않았다.</p><a class="weekly-chapter-link" href="#issue-3b9c46ce802978a5">기사 읽기 <span aria-hidden="true">↗</span></a></div>
+  
+    <div class="weekly-spotlight"><p class="weekly-spotlight-topic"><span class="spotlight-number">04</span>거시·정책</p><h3><a href="#issue-60076b00610fc767">EU, 중국산 하이브리드차 수입 연 35만 대로 제한…12월 시행</a></h3><p class="weekly-spotlight-lead">EU 집행위원회는 지난주 베이징에서 체결된 4년간의 합의에 따라 12월부터 중국산 하이브리드 전기차 수입을 연간 35만 대로 제한한다고 확인했다.</p><a class="weekly-chapter-link" href="#issue-60076b00610fc767">기사 읽기 <span aria-hidden="true">↗</span></a></div>
+  
+    <div class="weekly-spotlight"><p class="weekly-spotlight-topic"><span class="spotlight-number">05</span>시장·자금흐름</p><h3><a href="#issue-3f48905f264aa9b9">MSCI, 인도네시아 ‘독립시장’ 재분류 제안…증시 약 11% 급락</a></h3><p class="weekly-spotlight-lead">MSCI가 인도네시아를 신흥시장에서 제외하고 프런티어시장을 거치지 않고 ‘독립시장(Standalone Market)’으로 재분류하는 방안에 대한 의견 수렴에 착수한 가운데, 인도네시아 증시는 금요일 약 11% 하락해 28년 만에 최대 일간 낙폭을 기록했다.</p><a class="weekly-chapter-link" href="#issue-3f48905f264aa9b9">기사 읽기 <span aria-hidden="true">↗</span></a></div>
   
   </div>
 </section>
 
-<nav class="weekly-contents" id="weekly-contents" aria-label="주간판 목차">
-  <div class="weekly-block-heading"><h2>주제별로 다시 읽기</h2></div>
-  <ol><li><a href="#section-weekly-macro_policy"><span class="weekly-toc-number">01</span><span>거시·정책</span><span class="weekly-toc-count">11</span></a></li><li><a href="#section-weekly-credit_risk"><span class="weekly-toc-number">02</span><span>신용·위험</span><span class="weekly-toc-count">3</span></a></li><li><a href="#section-weekly-commodities_fx"><span class="weekly-toc-number">03</span><span>원자재·환율</span><span class="weekly-toc-count">4</span></a></li><li><a href="#section-weekly-markets_flows"><span class="weekly-toc-number">04</span><span>시장·자금흐름</span><span class="weekly-toc-count">3</span></a></li><li><a href="#section-weekly-company_industry"><span class="weekly-toc-number">05</span><span>기업·산업</span><span class="weekly-toc-count">10</span></a></li><li><a href="#section-weekly-technology_ai"><span class="weekly-toc-number">06</span><span>기술·AI</span><span class="weekly-toc-count">2</span></a></li><li><a href="#section-weekly-expert_views"><span class="weekly-toc-number">07</span><span>전문가 견해</span><span class="weekly-toc-count">2</span></a></li><li><a href="#ai-discovery-title"><span class="weekly-toc-number">＋</span><span>GeekNews</span><span class="weekly-toc-count">9</span></a></li></ol>
+<nav class="weekly-contents" id="weekly-contents" aria-label="주제별 목차">
+  <div class="weekly-block-heading"><h2>한 주의 이슈</h2><span>주요 18 · 추가 17</span></div>
+  <ol><li><a href="#section-weekly-macro_policy"><span class="weekly-toc-number">01</span><span>거시·정책</span><span class="weekly-toc-count">11</span></a></li><li><a href="#section-weekly-commodities_fx"><span class="weekly-toc-number">02</span><span>원자재·환율</span><span class="weekly-toc-count">4</span></a></li><li><a href="#section-weekly-markets_flows"><span class="weekly-toc-number">03</span><span>시장·자금흐름</span><span class="weekly-toc-count">3</span></a></li><li><a href="#section-weekly-credit_risk"><span class="weekly-toc-number">04</span><span>신용·위험</span><span class="weekly-toc-count">3</span></a></li><li><a href="#section-additional-weekly-company_industry"><span class="weekly-toc-number">05</span><span>기업·산업</span><span class="weekly-toc-count">10</span></a></li><li><a href="#section-additional-weekly-technology_ai"><span class="weekly-toc-number">06</span><span>기술·AI</span><span class="weekly-toc-count">2</span></a></li><li><a href="#section-additional-weekly-expert_views"><span class="weekly-toc-number">07</span><span>전문가 견해</span><span class="weekly-toc-count">2</span></a></li><li><a href="#ai-discovery-title"><span class="weekly-toc-number">＋</span><span>GeekNews</span><span class="weekly-toc-count">9</span></a></li></ol>
 </nav>
   
   <nav id="weekly-stories" class="toolbar" aria-label="브리핑 필터">
-    <div class="toolbar-top"><div class="search"><input id="search" type="search" aria-label="검색" placeholder="기업 · 키워드 · 출처 검색" autocomplete="off"></div><select id="section-filter" aria-label="브리핑 구간"><option value="all">모든 주제</option><option value="weekly-macro_policy">거시·정책</option><option value="weekly-credit_risk">신용·위험</option><option value="weekly-commodities_fx">원자재·환율</option><option value="weekly-markets_flows">시장·자금흐름</option><option value="weekly-company_industry">기업·산업</option><option value="weekly-technology_ai">기술·AI</option><option value="weekly-expert_views">전문가 견해</option><option value="geeknews">GeekNews 읽을거리</option></select><select id="evidence-filter" aria-label="확보한 원문 범위"><option value="all">모든 자료</option><option value="full">기사·문서 본문</option><option value="limited">메시지·요약</option></select></div>
+    <div class="toolbar-top"><div class="search"><input id="search" type="search" aria-label="검색" placeholder="기업 · 키워드 · 출처 검색" autocomplete="off"></div><select id="section-filter" aria-label="브리핑 구간"><option value="all">모든 주제</option><option value="weekly-macro_policy">거시·정책</option><option value="weekly-commodities_fx">원자재·환율</option><option value="weekly-markets_flows">시장·자금흐름</option><option value="weekly-credit_risk">신용·위험</option><option value="weekly-company_industry">기업·산업</option><option value="weekly-technology_ai">기술·AI</option><option value="weekly-expert_views">전문가 견해</option><option value="geeknews">GeekNews 읽을거리</option></select><select id="region-filter" aria-label="지역"><option value="all">모든 지역</option><option value="overseas">해외</option><option value="domestic">국내</option></select><select id="evidence-filter" aria-label="확보한 원문 범위"><option value="all">모든 자료</option><option value="full">기사·문서 본문</option><option value="limited">메시지·요약</option></select></div>
     <div class="toolbar-bottom"><span class="weekly-search-label">주간 이슈 찾아보기</span><div class="reading-controls"><button type="button" id="filter-reset" class="filter-reset" hidden>초기화</button><span class="results" id="result-count" aria-live="polite">44개 항목</span><button type="button" id="reading-toggle" class="reading-toggle" aria-pressed="false">모두 펼치기</button></div></div>
   </nav>
   <noscript><p>검색·필터를 사용하려면 JavaScript를 켜세요.</p></noscript>
   <main id="report-content" tabindex="-1">
     <div id="no-results" hidden>검색 결과가 없습니다.</div>
     <section class="section" data-report-section="weekly-macro_policy" aria-labelledby="section-weekly-macro_policy"><div class="section-heading"><span class="weekly-chapter-number" aria-hidden="true">01</span><h2 id="section-weekly-macro_policy">거시·정책</h2><span class="count">11</span><a class="weekly-back" href="#weekly-contents">목차 ↑</a></div><div class="issue-grid">
-      <article class="issue" id="issue-9dda0bac6ddb1281" data-issue-section="weekly-macro_policy" data-scope="other_economic" data-topics="macro_policy" data-full-text="true">
+      <article class="issue" id="issue-9dda0bac6ddb1281" data-issue-section="weekly-macro_policy" data-region="overseas" data-scope="other_economic" data-topics="macro_policy" data-full-text="true">
         <div class="issue-top"><span class="pill accent">거시·정책</span><span class="source-caption">시엔비시 · 10.14 21:31 KST</span></div>
         <h3><a href="#issue-9dda0bac6ddb1281">미국 9월 CPI 전년 대비 3.7% 상승…휘발유 급등·근원물가도 예상 상회</a></h3>
         <p class="issue-lead">미 노동통계국(BLS)에 따르면 9월 소비자물가지수(CPI)는 계절조정 기준 전월 대비 0.6%, 전년 동월 대비 3.7% 상승했으며, 연간 상승률은 8월 3.4%에서 높아져 다우존스가 집계한 예상치 3.6%를 웃돌았다.</p>
@@ -386,16 +418,16 @@ body.has-quant-shared-nav .skip-link {
         
         
         <details class="evidence-panel"><summary>출처·근거 1건</summary><div class="evidence-body">
-          <div class="claim" data-claim-id="d93629a61a7e2f0f3dbaa0af"><span class="claim-label">원문 사실</span>
+          <div class="claim" data-claim-id="91a4269626a98cb2467dd61d"><span class="claim-label">원문 사실</span>
             
             <blockquote class="quote">연준 관계자들은 CPI를 비롯한 여러 지표를 살피지만, 전망과 정책 결정의 주된 지표로는 상무부의 개인소비지출(PCE) 물가지수를 사용한다.</blockquote><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
-          </div><div class="claim" data-claim-id="2551f51a341a2596157ea2aa"><span class="claim-label">원문 사실</span>
+          </div><div class="claim" data-claim-id="19aeaac887780d00360434eb"><span class="claim-label">원문 사실</span>
             
             <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
-          </div><div class="claim" data-claim-id="36db3e8e6b241106ea289c2c"><span class="claim-label">원문 사실</span>
+          </div><div class="claim" data-claim-id="f7d33852d731647e38a2a4b8"><span class="claim-label">원문 사실</span>
             
             <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
-          </div><div class="claim" data-claim-id="0bff48f13e83ce5a62b5e74d"><span class="claim-label">원문 사실</span>
+          </div><div class="claim" data-claim-id="702e9fc6059b9bc0bce5ba71"><span class="claim-label">원문 사실</span>
             
             <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
           </div>
@@ -403,7 +435,7 @@ body.has-quant-shared-nav .skip-link {
           
         </div></details>
         </div></details>
-      </article><article class="issue" id="issue-1d149565edb0bc07" data-issue-section="weekly-macro_policy" data-scope="other_economic" data-topics="macro_policy" data-full-text="true">
+      </article><article class="issue" id="issue-1d149565edb0bc07" data-issue-section="weekly-macro_policy" data-region="overseas" data-scope="other_economic" data-topics="macro_policy" data-full-text="true">
         <div class="issue-top"><span class="pill accent">거시·정책</span><span class="source-caption">연합인포맥스 · 10.16 00:03 KST</span></div>
         <h3><a href="#issue-1d149565edb0bc07">미국 9월 PPI 전월 대비 1.3% 상승…2022년 3월 이후 최대</a></h3>
         <p class="issue-lead">미 노동부가 15일(현지시간) 발표한 9월 헤드라인 생산자물가지수(PPI)는 계절조정 기준 전월 대비 1.3% 올라 시장 전망치 0.5%를 웃돌았다.</p>
@@ -417,16 +449,16 @@ body.has-quant-shared-nav .skip-link {
         
         
         <details class="evidence-panel"><summary>출처·근거 1건</summary><div class="evidence-body">
-          <div class="claim" data-claim-id="57fa5fddbe800e2d6f3a5bc2"><span class="claim-label">원문 사실</span>
+          <div class="claim" data-claim-id="1dd28ef121e5703bc6a77230"><span class="claim-label">원문 사실</span>
             
             <blockquote class="quote">(뉴욕=연합인포맥스) 최진우 특파원 = 미국의 9월 생산자물가지수(PPI)가 시장 예상치를 크게 웃돌며 4년 6개월 만에 가장 큰 폭으로 상승했다.</blockquote><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 연합인포맥스 · 본문</div><blockquote class="quote">15일(현지시간) 미 노동부에 따르면 지난 달 전 품목(헤드라인) PPI는 계절 조정 기준으로 전달 대비 1.3% 상승했다.</blockquote><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 연합인포맥스 · 본문</div>
-          </div><div class="claim" data-claim-id="f11b0e0ba18b400665f700ee"><span class="claim-label">원문 사실</span>
+          </div><div class="claim" data-claim-id="feeb1d48d29d6d54ff094fdc"><span class="claim-label">원문 사실</span>
             
             <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 연합인포맥스 · 본문</div><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 연합인포맥스 · 본문</div>
-          </div><div class="claim" data-claim-id="ca683dec2cd8240c6d5eba50"><span class="claim-label">원문 사실</span>
+          </div><div class="claim" data-claim-id="19c23a088805fff65787b964"><span class="claim-label">원문 사실</span>
             
             <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 연합인포맥스 · 본문</div><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 연합인포맥스 · 본문</div>
-          </div><div class="claim" data-claim-id="b3915e86696e89e9639465a6"><span class="claim-label">원문 사실</span>
+          </div><div class="claim" data-claim-id="b58a577a65f21f55ca518c92"><span class="claim-label">원문 사실</span>
             
             <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 연합인포맥스 · 본문</div><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 연합인포맥스 · 본문</div>
           </div>
@@ -434,193 +466,7 @@ body.has-quant-shared-nav .skip-link {
           
         </div></details>
         </div></details>
-      </article><article class="issue" id="issue-23614bc3d211f263" data-issue-section="weekly-macro_policy" data-scope="other_economic" data-topics="macro_policy" data-full-text="true">
-        <div class="issue-top"><span class="pill accent">거시·정책</span><span class="source-caption">연합인포맥스 · 10.16 00:41 KST</span></div>
-        <h3><a href="#issue-23614bc3d211f263">미국 9월 소매판매 전월비 0.8% 증가…컨트롤그룹은 예상 하회</a></h3>
-        <p class="issue-lead">미국 상무부가 15일(현지시간) 발표한 9월 소매 및 음식점 판매는 계절조정 기준 7천450억2천100만 달러로, 전월 대비 0.8% 늘어 시장 예상치 0.3%를 웃돌았으며 전년 동월 대비로는 6.3% 증가했다.</p>
-        
-        
-        <details class="issue-detail"><summary><span class="detail-open">상세 보기</span><span class="detail-close">접기</span><span class="detail-source-count">자료 1건</span></summary><div class="issue-reading">
-        <div class="issue-summary"><p>미국 상무부가 15일(현지시간) 발표한 9월 소매 및 음식점 판매는 계절조정 기준 7천450억2천100만 달러로, 전월 대비 0.8% 늘어 시장 예상치 0.3%를 웃돌았으며 전년 동월 대비로는 6.3% 증가했다.</p><p>8월 소매판매의 전월 대비 증가율은 기존 1.2%에서 1.3%로 상향 수정됐다.</p><p>9월 주유소 판매는 전월 대비 6.4% 증가했으나, 주유소를 제외한 소매판매는 전월 대비 0.2% 늘었다.</p><p>GDP 산출에 쓰이는 컨트롤그룹(자동차·휘발유·건축자재·음식 서비스 제외)은 9월 전월 대비 0.1% 증가해 시장 예상치 0.3%에 못 미쳤고, 증가율도 8월의 1.2%에서 둔화했다.</p></div>
-        
-        
-        
-        
-        
-        <details class="evidence-panel"><summary>출처·근거 1건</summary><div class="evidence-body">
-          <div class="claim" data-claim-id="84d42d2a2ed43a160b4a3aee"><span class="claim-label">원문 사실</span>
-            
-            <blockquote class="quote">15일(현지시간) 미국 상무부에 따르면 9월 미국 소매 및 음식점 판매는 계절 조정 기준 7천450억2천100만달러로 집계됐다.</blockquote><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 연합인포맥스 · 본문</div><blockquote class="quote">전월 대비로는 0.8%, 전년 동월 대비로는 6.3% 늘었다.</blockquote><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 연합인포맥스 · 본문</div>
-          </div><div class="claim" data-claim-id="b07e20800ed2c9bc00e13665"><span class="claim-label">원문 사실</span>
-            
-            <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 연합인포맥스 · 본문</div><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 연합인포맥스 · 본문</div>
-          </div><div class="claim" data-claim-id="91965f083b84c8003ac9a23d"><span class="claim-label">원문 사실</span>
-            
-            <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 연합인포맥스 · 본문</div><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 연합인포맥스 · 본문</div>
-          </div><div class="claim" data-claim-id="86c33153b0c67a0c27e12264"><span class="claim-label">원문 사실</span>
-            
-            <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 연합인포맥스 · 본문</div><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 연합인포맥스 · 본문</div>
-          </div>
-          <ul class="source-list"><li><a href="https://news.einfomax.co.kr/news/articleView.html?idxno=4439508" target="_blank" rel="noopener noreferrer" referrerpolicy="no-referrer">美 9월 소매판매 전월비 0.8%↑…예상치 상회(종합) ↗</a><div class="source-meta">연합인포맥스 · 진정호 기자 · 발행 10.16 00:41 KST</div><details class="source-details"><summary>자료 정보</summary><div class="source-meta">수집 10.16 04:08 KST · 시간 기준 원문 발행<br>자료 제공 10.16 00:41 KST<br>기사·문서 본문 확보</div></details></li></ul>
-          
-        </div></details>
-        </div></details>
-      </article><article class="issue" id="issue-d975da51d78a7616" data-issue-section="weekly-macro_policy" data-scope="other_economic" data-topics="macro_policy" data-full-text="true">
-        <div class="issue-top"><span class="pill accent">거시·정책</span><span class="source-caption">시엔비시 · 10.16 13:08 KST</span></div>
-        <h3><a href="#issue-d975da51d78a7616">워시, 이달 금리 인상 신호 유보…세계 동반 긴축에 “무임승차 없다”</a></h3>
-        <p class="issue-lead">케빈 워시 연준 의장은 금요일 방콕 IMF·세계은행 연차총회 대담에서 이달 추가 금리 인상 여부를 예고하지 않았으며, 시장이 데이터를 해석해야 한다며 정책 방향을 미리 안내하는 포워드 가이던스에 대한 반대 입장을 재확인했다.</p>
-        
-        
-        <details class="issue-detail"><summary><span class="detail-open">상세 보기</span><span class="detail-close">접기</span><span class="detail-source-count">자료 1건</span></summary><div class="issue-reading">
-        <div class="issue-summary"><p>케빈 워시 연준 의장은 금요일 방콕 IMF·세계은행 연차총회 대담에서 이달 추가 금리 인상 여부를 예고하지 않았으며, 시장이 데이터를 해석해야 한다며 정책 방향을 미리 안내하는 포워드 가이던스에 대한 반대 입장을 재확인했다.</p><p>워시는 각국 중앙은행이 자체 책무에 따라 결정한 결과 세계 대부분 지역에서 통화정책이 동시에 긴축되고 있다며, 인플레이션 대응에 “무임승차자는 없다”고 평가했다.</p><p>연준은 지난달 2023년 이후 처음 금리를 인상해 3.75~4%로 올렸으며, CME 페드워치에 따르면 트레이더들은 10월 27~28일 회의의 동결 확률을 72.3%로 보고 대다수는 12월 25bp(0.25%포인트) 인상을 예상했다.</p><p>얀 하치우스가 이끄는 골드만삭스 이코노미스트들은 워시와 다른 연방공개시장위원회(FOMC) 참여자들의 최근 발언이 10월 동결을 시사한다고 해석했으며, 12월 두 번째이자 마지막 인상 전망을 유지했다.</p></div>
-        
-        
-        
-        
-        
-        <details class="evidence-panel"><summary>출처·근거 1건</summary><div class="evidence-body">
-          <div class="claim" data-claim-id="9d45a6b3cb021dc2061d9dc5"><span class="claim-label">원문 사실</span>
-            
-            <blockquote class="quote">저는 회의 결과를 미리 판단하지 않습니다.</blockquote><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div><blockquote class="quote">우리는 12월에 두 번째이자 마지막 금리 인상이 있을 것이라는 전망을 유지합니다.</blockquote><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
-          </div><div class="claim" data-claim-id="84fea2e5ef0ae0d71c05d81a"><span class="claim-label">원문 사실</span>
-            
-            <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
-          </div><div class="claim" data-claim-id="1ac9cf5ad48205a7d2f6d0c5"><span class="claim-label">원문 사실</span>
-            
-            <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
-          </div><div class="claim" data-claim-id="fb6c231cca127551f6e5d1db"><span class="claim-label">원문 사실</span>
-            
-            <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
-          </div>
-          <ul class="source-list"><li><a href="https://www.cnbc.com/2026/10/16/feds-warsh-says-ai-development-path-will-be-very-bumpy-.html" target="_blank" rel="noopener noreferrer" referrerpolicy="no-referrer">Fed&#39;s Warsh withholds rate signal, praises recent global tightening with &#39;no free riders&#39; ↗</a><div class="source-meta">시엔비시 · Anniek Bao · 발행 10.16 13:08 KST</div><details class="source-details"><summary>자료 정보</summary><div class="source-meta">수집 10.16 17:15 KST · 시간 기준 원문 발행<br>자료 제공 10.16 16:11 KST<br>원문 수정 10.16 16:11 KST<br>기사·문서 본문 확보</div></details></li></ul>
-          
-        </div></details>
-        </div></details>
-      </article><article class="issue" id="issue-c9520766442a7d37" data-issue-section="weekly-macro_policy" data-scope="other_economic" data-topics="macro_policy" data-full-text="true">
-        <div class="issue-top"><span class="pill accent">거시·정책</span><span class="source-caption">시엔비시 · 10.13 11:01 KST</span></div>
-        <h3><a href="#issue-c9520766442a7d37">IMF, AI 투자에 2026년 세계 성장률 3.1%로 상향…충격 대응 여력 축소 경고</a></h3>
-        <p class="issue-lead">국제통화기금(IMF)은 AI 투자가 중동 전쟁에 따른 에너지 비용 상승의 충격을 일부 상쇄한다며 2026년 세계 성장률 전망을 7월의 3.0%에서 3.1%로 높였지만, 지난해 성장률 3.5%보다는 낮으며 2027년 전망은 3.4%로 유지했다.</p>
-        
-        
-        <details class="issue-detail"><summary><span class="detail-open">상세 보기</span><span class="detail-close">접기</span><span class="detail-source-count">자료 1건</span></summary><div class="issue-reading">
-        <div class="issue-summary"><p>국제통화기금(IMF)은 AI 투자가 중동 전쟁에 따른 에너지 비용 상승의 충격을 일부 상쇄한다며 2026년 세계 성장률 전망을 7월의 3.0%에서 3.1%로 높였지만, 지난해 성장률 3.5%보다는 낮으며 2027년 전망은 3.4%로 유지했다.</p><p>IMF는 호르무즈 해협이 내년 3월 재개방되고 10월 전쟁 이전 상태로 돌아올 것으로 예상했으며, 세계 인플레이션 전망은 올해 4.7%로 유지하고 2027년은 7월 전망인 3.9%에서 4.1%로 높였다.</p><p>세계 석유 비축량이 하루 약 270만 배럴씩 줄어 급격한 가격 변동을 유발할 수 있는 수준에 가까워지고 있다며, 충격 대응 여력이 빠르게 줄고 에너지 제약이 AI 주도 성장세를 저해할 수 있다고 경고했다.</p><p>IMF는 AI 생산성 개선이 실현되지 않는 시나리오에서 미국 주식이 20% 하락할 수 있으며, 2028년까지 세계 성장률은 기본 전망보다 1.1% 낮아질 수 있다고 분석했다.</p></div>
-        
-        
-        
-        
-        
-        <details class="evidence-panel"><summary>출처·근거 1건</summary><div class="evidence-body">
-          <div class="claim" data-claim-id="a85be01c67e1484a8e19486b"><span class="claim-label">원문 사실</span>
-            
-            <blockquote class="quote">실바나 텐레이로 IMF 경제자문 겸 조사국장은 화요일 기자들에게 “세계 경제는 회복력을 보여 왔지만 그 회복력은 한계에 다다르고 있다”고 말하며, 정책 당국에 재정 여력과 공급망 안정성을 회복할 것을 촉구했다.</blockquote><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
-          </div><div class="claim" data-claim-id="5f54bde8aae2cb3537e46cfa"><span class="claim-label">원문 사실</span>
-            
-            <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
-          </div><div class="claim" data-claim-id="cfbf00d44844dc8ec1270667"><span class="claim-label">원문 사실</span>
-            
-            <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
-          </div><div class="claim" data-claim-id="6a3820f57fe9b24e9bbf109a"><span class="claim-label">원문 사실</span>
-            
-            <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
-          </div>
-          <ul class="source-list"><li><a href="https://www.cnbc.com/2026/10/12/imf-world-bank-annual-meetings-october-bangkok-asia-.html" target="_blank" rel="noopener noreferrer" referrerpolicy="no-referrer">IMF sees milder global slowdown as AI boom offsets war hit — warns resilience is nearing limits ↗</a><div class="source-meta">시엔비시 · Anniek Bao · 발행 10.13 11:01 KST</div><details class="source-details"><summary>자료 정보</summary><div class="source-meta">수집 10.13 13:16 KST · 시간 기준 원문 발행<br>자료 제공 10.13 13:10 KST<br>원문 수정 10.13 13:10 KST<br>기사·문서 본문 확보</div></details></li></ul>
-          
-        </div></details>
-        </div></details>
-      </article><article class="issue" id="issue-35ad4e4a185771a4" data-issue-section="weekly-macro_policy" data-scope="other_economic" data-topics="macro_policy" data-full-text="true">
-        <div class="issue-top"><span class="pill accent">거시·정책</span><span class="source-caption">시엔비시 · 10.15 16:46 KST</span></div>
-        <h3><a href="#issue-35ad4e4a185771a4">젤렌스키, 러시아의 ‘에너지 휴전’ 위반 주장…정유시설 공격 재개 방침</a></h3>
-        <p class="issue-lead">젤렌스키 우크라이나 대통령은 트럼프 미국 대통령이 일요일 발표한 ‘에너지 휴전’과 미국의 요청에 따라 러시아 에너지 시설에 대한 공격과 보복을 사흘간 중단했으나, 러시아가 합의를 지키지 않아 정유시설 등 에너지 시설 공격을 재개하겠다고 밝혔다.</p>
-        
-        
-        <details class="issue-detail"><summary><span class="detail-open">상세 보기</span><span class="detail-close">접기</span><span class="detail-source-count">자료 1건</span></summary><div class="issue-reading">
-        <div class="issue-summary"><p>젤렌스키 우크라이나 대통령은 트럼프 미국 대통령이 일요일 발표한 ‘에너지 휴전’과 미국의 요청에 따라 러시아 에너지 시설에 대한 공격과 보복을 사흘간 중단했으나, 러시아가 합의를 지키지 않아 정유시설 등 에너지 시설 공격을 재개하겠다고 밝혔다.</p><p>젤렌스키는 러시아가 이후 탄도미사일 약 40발을 포함한 대규모 공격을 우크라이나 에너지 시설에 가했다고 말했다.</p><p>우크라이나 당국은 군용 통신망 스타실드 제한으로 탄도미사일 사전 경보를 받지 못하고 군사작전에도 차질이 생겼다고 주장했으며, 젤렌스키의 국방기술 고문은 수요일 스페이스X가 사전 통지 없이 이동 중인 스타링크 단말기에 속도 제한을 적용했다고 밝혔다.</p><p>일론 머스크 스페이스X CEO는 스타실드를 소유·통제하는 미국 정부에 제한 조치의 최종 책임이 있다고 밝혔으며, 백악관과 스페이스X는 CNBC의 논평 요청에 응답하지 않았다.</p></div>
-        
-        
-        
-        
-        
-        <details class="evidence-panel"><summary>출처·근거 1건</summary><div class="evidence-body">
-          <div class="claim" data-claim-id="7c731928bd6cdf8b998a34e2"><span class="claim-label">원문 사실</span>
-            
-            <blockquote class="quote">[정유시설 공격에 대한] 제한은 해제됐다.</blockquote><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div><blockquote class="quote">일론 머스크 스페이스X CEO에 따르면, 우크라이나의 군용 스타링크 네트워크에 대한 모든 제한의 최종 책임은 미국 정부에 있다.</blockquote><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
-          </div><div class="claim" data-claim-id="dc4af373a610b694057c5db5"><span class="claim-label">원문 사실</span>
-            
-            <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
-          </div><div class="claim" data-claim-id="5f14c7ec535b5b2671345116"><span class="claim-label">원문 사실</span>
-            
-            <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
-          </div><div class="claim" data-claim-id="de5a524bfe5148d662172523"><span class="claim-label">원문 사실</span>
-            
-            <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
-          </div>
-          <ul class="source-list"><li><a href="https://www.cnbc.com/2026/10/15/ukraine-russia-energy-ceasefire-zelenskyy.html" target="_blank" rel="noopener noreferrer" referrerpolicy="no-referrer">Ukraine to resume strikes on Russian refineries, shattering hopes of an &#39;energy ceasefire&#39; ↗</a><div class="source-meta">시엔비시 · Elsa Ohlen · 발행 10.15 16:46 KST</div><details class="source-details"><summary>자료 정보</summary><div class="source-meta">수집 10.16 04:10 KST · 시간 기준 원문 발행<br>자료 제공 10.15 19:13 KST<br>원문 수정 10.15 19:13 KST<br>기사·문서 본문 확보</div></details></li></ul>
-          
-        </div></details>
-        </div></details>
-      </article><article class="issue" id="issue-7bb6691e4f2eea87" data-issue-section="weekly-macro_policy" data-scope="other_economic" data-topics="macro_policy" data-full-text="true">
-        <div class="issue-top"><span class="pill accent">거시·정책</span><span class="source-caption">원문 Associated Press · 제공 PBS News · 10.14 06:46 KST</span></div>
-        <h3><a href="#issue-7bb6691e4f2eea87">트럼프의 러시아산 경유 수입 합의에 미 의회 초당적 반발</a></h3>
-        <p class="issue-lead">트럼프 미국 대통령은 중간선거를 앞두고 연료 가격을 낮추겠다며 지난주 푸틴 러시아 대통령과 러시아산 경유 수백 톤을 미국에 들여오는 합의를 발표했고, 의회의 비판에도 이를 유지했다.</p>
-        
-        
-        <details class="issue-detail"><summary><span class="detail-open">상세 보기</span><span class="detail-close">접기</span><span class="detail-source-count">자료 1건</span></summary><div class="issue-reading">
-        <div class="issue-summary"><p>트럼프 미국 대통령은 중간선거를 앞두고 연료 가격을 낮추겠다며 지난주 푸틴 러시아 대통령과 러시아산 경유 수백 톤을 미국에 들여오는 합의를 발표했고, 의회의 비판에도 이를 유지했다.</p><p>화요일 공화당·민주당 상원의원 각 6명은 서한에서 러시아산 경유의 세계시장 유입이 연료 가격에 미칠 영향은 미미하지만, 러시아가 얻는 수입은 우크라이나 소모전과 중국·이란·북한과의 안보 협력을 뒷받침할 것이라고 비판했다.</p><p>2022년 러시아산 에너지 수입금지법에 따르면 대통령이 금지 해제를 추진하려면 러시아군의 우크라이나 철수와 군사활동 중단에 관한 합의가 있어야 하며, 해제안은 의회 심사와 자유롭고 독립적인 우크라이나 정부의 수용을 거쳐야 한다.</p><p>지난달 의회가 승인하고 트럼프가 서명한 새 대러 제재법은 러시아산 원유를 계속 수입하는 국가에 관세를 부과하며 주요 조항은 10월 18일 발효될 예정이지만, AP는 이번 경유 합의로 제재 시행 여부가 불확실해졌다고 전했다.</p></div>
-        
-        
-        
-        
-        
-        <details class="evidence-panel"><summary>출처·근거 1건</summary><div class="evidence-body">
-          <div class="claim" data-claim-id="a3129ced5bd6b29f82fefc1c"><span class="claim-label">원문 사실</span>
-            
-            <blockquote class="quote">트럼프는 월요일 백악관 밖에서 “우리 농민과 목장주들에게 도움이 될 수 있는 일이라면 무엇이든 좋다”고 말했다.</blockquote><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 원문 Associated Press · 제공 PBS News · 본문</div><blockquote class="quote">이 법안의 대표 발의자인 텍사스주 민주당 로이드 도겟 하원의원은 월요일 성명에서 “트럼프는 그 법을 직접 위반하고 있다”고 말했다.</blockquote><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 원문 Associated Press · 제공 PBS News · 본문</div>
-          </div><div class="claim" data-claim-id="1e2e3c9f2c55fab65ad836ed"><span class="claim-label">원문 사실</span>
-            
-            <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 원문 Associated Press · 제공 PBS News · 본문</div><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 원문 Associated Press · 제공 PBS News · 본문</div>
-          </div><div class="claim" data-claim-id="f9aab84ed748006895c40ceb"><span class="claim-label">원문 사실</span>
-            
-            <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 원문 Associated Press · 제공 PBS News · 본문</div><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 원문 Associated Press · 제공 PBS News · 본문</div>
-          </div><div class="claim" data-claim-id="deb697da8b809874d4c9c109"><span class="claim-label">원문 사실</span>
-            
-            <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 원문 Associated Press · 제공 PBS News · 본문</div><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 원문 Associated Press · 제공 PBS News · 본문</div>
-          </div>
-          <ul class="source-list"><li><a href="https://www.pbs.org/newshour/politics/trumps-diesel-deal-with-putin-draws-bipartisan-criticism-from-a-frustrated-congress" target="_blank" rel="noopener noreferrer" referrerpolicy="no-referrer">Trump&#39;s diesel deal with Putin draws bipartisan criticism from a frustrated Congress ↗</a><div class="source-meta">원문 Associated Press · 제공 PBS News · Lisa Mascaro, Associated Press · 발행 10.14 06:46 KST</div><details class="source-details"><summary>자료 정보</summary><div class="source-meta">수집 10.15 14:33 KST · 시간 기준 원문 발행<br>자료 제공 10.14 06:46 KST<br>원문 수정 10.14 06:46 KST<br>기사·문서 본문 확보</div></details></li></ul>
-          
-        </div></details>
-        </div></details>
-      </article><article class="issue" id="issue-76510b85ce3ef649" data-issue-section="weekly-macro_policy" data-scope="other_economic" data-topics="macro_policy" data-full-text="true">
-        <div class="issue-top"><span class="pill accent">거시·정책</span><span class="source-caption">원문 Associated Press · 제공 ABC News · 10.16 13:02 KST</span></div>
-        <h3><a href="#issue-76510b85ce3ef649">흑해 화물선 최소 7척 드론 피격…러시아 배후 의혹 속 NATO 대응 논의</a></h3>
-        <p class="issue-lead">이달 NATO 회원국인 루마니아·불가리아 연안 흑해에서 화물선 최소 7척이 드론 공격을 받아 2명이 숨지고 최소 25명이 실종됐으며, 수·목요일 피격된 선박 2척 중 1척은 루마니아 영해에 있었다.</p>
-        
-        
-        <details class="issue-detail"><summary><span class="detail-open">상세 보기</span><span class="detail-close">접기</span><span class="detail-source-count">자료 1건</span></summary><div class="issue-reading">
-        <div class="issue-summary"><p>이달 NATO 회원국인 루마니아·불가리아 연안 흑해에서 화물선 최소 7척이 드론 공격을 받아 2명이 숨지고 최소 25명이 실종됐으며, 수·목요일 피격된 선박 2척 중 1척은 루마니아 영해에 있었다.</p><p>일부 NATO 회원국은 러시아가 우크라이나 지원 의지를 시험하려 확전을 꾀하는지 우려하고 있으며, 루멘 라데프 불가리아 총리는 공격 결과가 러시아에 유리하다면서도 러시아의 소행임을 입증할 수는 없다고 밝혔다.</p><p>마르크 뤼터 NATO 사무총장은 목요일 대드론 역량을 포함한 동부 방어 태세를 강화했다고 밝혔고, 루마니아 국방 분석가 라두 투도르는 회원국 배타적경제수역에서 발생한 다수 공격에 집단방위 조항인 제5조가 적용되는지는 불확실하다고 설명했다.</p><p>곡물 컨설팅업체 Agricolumn의 창업자 체자르 게오르게는 드론 공격이 루마니아 콘스탄차항 교역에 악영향을 주지는 않았다면서도, 흑해 항행의 보험 위험 할증료가 상승하고 있으며 콘스탄차항 안팎에서 심각한 사고가 발생할 가능성을 우려한다고 말했다.</p></div>
-        
-        
-        
-        
-        
-        <details class="evidence-panel"><summary>출처·근거 1건</summary><div class="evidence-body">
-          <div class="claim" data-claim-id="216e8986d628135c96a1f812"><span class="claim-label">원문 사실</span>
-            
-            <blockquote class="quote">문제는 우리가 그것을 입증할 수 없다는 것입니다.</blockquote><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 원문 Associated Press · 제공 ABC News · 본문</div><blockquote class="quote">NATO는 흑해의 동맹국들과 계속 긴밀히 협력하며 필요에 따라 억제 및 방어 태세를 조정할 것입니다.</blockquote><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 원문 Associated Press · 제공 ABC News · 본문</div>
-          </div><div class="claim" data-claim-id="e6472e47c3e026474297ada8"><span class="claim-label">원문 사실</span>
-            
-            <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 원문 Associated Press · 제공 ABC News · 본문</div><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 원문 Associated Press · 제공 ABC News · 본문</div>
-          </div><div class="claim" data-claim-id="2a3adc781c41ea8225eaae02"><span class="claim-label">원문 사실</span>
-            
-            <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 원문 Associated Press · 제공 ABC News · 본문</div><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 원문 Associated Press · 제공 ABC News · 본문</div>
-          </div><div class="claim" data-claim-id="dad6bfb3e27ffc978e087ed7"><span class="claim-label">원문 사실</span>
-            
-            <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 원문 Associated Press · 제공 ABC News · 본문</div><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 원문 Associated Press · 제공 ABC News · 본문</div>
-          </div>
-          <ul class="source-list"><li><a href="https://abcnews.com/Business/wireStory/drone-strikes-black-sea-raise-fears-russian-escalation-137309941" target="_blank" rel="noopener noreferrer" referrerpolicy="no-referrer">Drone strikes in the Black Sea raise fears of Russian escalation to test NATO ↗</a><div class="source-meta">원문 Associated Press · 제공 ABC News · STEPHEN MCGRATH Associated Press, VESELIN TOSHKOV Associated Press · 발행 10.16 13:02 KST</div><details class="source-details"><summary>자료 정보</summary><div class="source-meta">수집 10.16 17:13 KST · 시간 기준 원문 발행<br>자료 제공 10.16 15:27 KST<br>원문 수정 10.16 15:27 KST<br>기사·문서 본문 확보</div></details></li></ul>
-          
-        </div></details>
-        </div></details>
-      </article><article class="issue" id="issue-60076b00610fc767" data-issue-section="weekly-macro_policy" data-scope="other_economic" data-topics="macro_policy" data-full-text="true">
+      </article><article class="issue" id="issue-60076b00610fc767" data-issue-section="weekly-macro_policy" data-region="overseas" data-scope="other_economic" data-topics="macro_policy" data-full-text="true">
         <div class="issue-top"><span class="pill accent">거시·정책</span><span class="source-caption">가디언 · 10.12 20:23 KST</span></div>
         <h3><a href="#issue-60076b00610fc767">EU, 중국산 하이브리드차 수입 연 35만 대로 제한…12월 시행</a></h3>
         <p class="issue-lead">EU 집행위원회는 지난주 베이징에서 체결된 4년간의 합의에 따라 12월부터 중국산 하이브리드 전기차 수입을 연간 35만 대로 제한한다고 확인했다.</p>
@@ -634,16 +480,16 @@ body.has-quant-shared-nav .skip-link {
         
         
         <details class="evidence-panel"><summary>출처·근거 1건</summary><div class="evidence-body">
-          <div class="claim" data-claim-id="c21a37646390bbc713832d5a"><span class="claim-label">원문 사실</span>
+          <div class="claim" data-claim-id="ebba2b4d8069c182d2275552"><span class="claim-label">원문 사실</span>
             
             <blockquote class="quote">EU가 중국에서 수입하는 하이브리드 전기차를 연간 35만 대로 제한할 예정이라고 EU 집행위원회가 확인했다.</blockquote><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 가디언 · 본문</div>
-          </div><div class="claim" data-claim-id="56a4f95f1ce6281cc9cc994c"><span class="claim-label">원문 사실</span>
+          </div><div class="claim" data-claim-id="864926e2610880ef85b06dbc"><span class="claim-label">원문 사실</span>
             
             <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 가디언 · 본문</div>
-          </div><div class="claim" data-claim-id="61d776b63e73e4b7af68995c"><span class="claim-label">원문 사실</span>
+          </div><div class="claim" data-claim-id="ec201b02da1c4bebdca8a819"><span class="claim-label">원문 사실</span>
             
             <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 가디언 · 본문</div>
-          </div><div class="claim" data-claim-id="a6458003f0f31be7d6f74dcc"><span class="claim-label">원문 사실</span>
+          </div><div class="claim" data-claim-id="13621249e1595634a34c65a6"><span class="claim-label">원문 사실</span>
             
             <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 가디언 · 본문</div>
           </div>
@@ -651,7 +497,193 @@ body.has-quant-shared-nav .skip-link {
           
         </div></details>
         </div></details>
-      </article><article class="issue" id="issue-438f2445c326d9b4" data-issue-section="weekly-macro_policy" data-scope="other_economic" data-topics="macro_policy" data-full-text="true">
+      </article><article class="issue" id="issue-23614bc3d211f263" data-issue-section="weekly-macro_policy" data-region="overseas" data-scope="other_economic" data-topics="macro_policy" data-full-text="true">
+        <div class="issue-top"><span class="pill accent">거시·정책</span><span class="source-caption">연합인포맥스 · 10.16 00:41 KST</span></div>
+        <h3><a href="#issue-23614bc3d211f263">미국 9월 소매판매 전월비 0.8% 증가…컨트롤그룹은 예상 하회</a></h3>
+        <p class="issue-lead">미국 상무부가 15일(현지시간) 발표한 9월 소매 및 음식점 판매는 계절조정 기준 7천450억2천100만 달러로, 전월 대비 0.8% 늘어 시장 예상치 0.3%를 웃돌았으며 전년 동월 대비로는 6.3% 증가했다.</p>
+        
+        
+        <details class="issue-detail"><summary><span class="detail-open">상세 보기</span><span class="detail-close">접기</span><span class="detail-source-count">자료 1건</span></summary><div class="issue-reading">
+        <div class="issue-summary"><p>미국 상무부가 15일(현지시간) 발표한 9월 소매 및 음식점 판매는 계절조정 기준 7천450억2천100만 달러로, 전월 대비 0.8% 늘어 시장 예상치 0.3%를 웃돌았으며 전년 동월 대비로는 6.3% 증가했다.</p><p>8월 소매판매의 전월 대비 증가율은 기존 1.2%에서 1.3%로 상향 수정됐다.</p><p>9월 주유소 판매는 전월 대비 6.4% 증가했으나, 주유소를 제외한 소매판매는 전월 대비 0.2% 늘었다.</p><p>GDP 산출에 쓰이는 컨트롤그룹(자동차·휘발유·건축자재·음식 서비스 제외)은 9월 전월 대비 0.1% 증가해 시장 예상치 0.3%에 못 미쳤고, 증가율도 8월의 1.2%에서 둔화했다.</p></div>
+        
+        
+        
+        
+        
+        <details class="evidence-panel"><summary>출처·근거 1건</summary><div class="evidence-body">
+          <div class="claim" data-claim-id="7d4826eb53c53a1dcea770f0"><span class="claim-label">원문 사실</span>
+            
+            <blockquote class="quote">15일(현지시간) 미국 상무부에 따르면 9월 미국 소매 및 음식점 판매는 계절 조정 기준 7천450억2천100만달러로 집계됐다.</blockquote><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 연합인포맥스 · 본문</div><blockquote class="quote">전월 대비로는 0.8%, 전년 동월 대비로는 6.3% 늘었다.</blockquote><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 연합인포맥스 · 본문</div>
+          </div><div class="claim" data-claim-id="c4830eff2608b0af5cd3b8f0"><span class="claim-label">원문 사실</span>
+            
+            <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 연합인포맥스 · 본문</div><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 연합인포맥스 · 본문</div>
+          </div><div class="claim" data-claim-id="cb21a02f6bf4e57e9ffca3ce"><span class="claim-label">원문 사실</span>
+            
+            <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 연합인포맥스 · 본문</div><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 연합인포맥스 · 본문</div>
+          </div><div class="claim" data-claim-id="22a2159dd6761d563d168883"><span class="claim-label">원문 사실</span>
+            
+            <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 연합인포맥스 · 본문</div><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 연합인포맥스 · 본문</div>
+          </div>
+          <ul class="source-list"><li><a href="https://news.einfomax.co.kr/news/articleView.html?idxno=4439508" target="_blank" rel="noopener noreferrer" referrerpolicy="no-referrer">美 9월 소매판매 전월비 0.8%↑…예상치 상회(종합) ↗</a><div class="source-meta">연합인포맥스 · 진정호 기자 · 발행 10.16 00:41 KST</div><details class="source-details"><summary>자료 정보</summary><div class="source-meta">수집 10.16 04:08 KST · 시간 기준 원문 발행<br>자료 제공 10.16 00:41 KST<br>기사·문서 본문 확보</div></details></li></ul>
+          
+        </div></details>
+        </div></details>
+      </article><article class="issue" id="issue-d975da51d78a7616" data-issue-section="weekly-macro_policy" data-region="overseas" data-scope="other_economic" data-topics="macro_policy" data-full-text="true">
+        <div class="issue-top"><span class="pill accent">거시·정책</span><span class="source-caption">시엔비시 · 10.16 13:08 KST</span></div>
+        <h3><a href="#issue-d975da51d78a7616">워시, 이달 금리 인상 신호 유보…세계 동반 긴축에 “무임승차 없다”</a></h3>
+        <p class="issue-lead">케빈 워시 연준 의장은 금요일 방콕 IMF·세계은행 연차총회 대담에서 이달 추가 금리 인상 여부를 예고하지 않았으며, 시장이 데이터를 해석해야 한다며 정책 방향을 미리 안내하는 포워드 가이던스에 대한 반대 입장을 재확인했다.</p>
+        
+        
+        <details class="issue-detail"><summary><span class="detail-open">상세 보기</span><span class="detail-close">접기</span><span class="detail-source-count">자료 1건</span></summary><div class="issue-reading">
+        <div class="issue-summary"><p>케빈 워시 연준 의장은 금요일 방콕 IMF·세계은행 연차총회 대담에서 이달 추가 금리 인상 여부를 예고하지 않았으며, 시장이 데이터를 해석해야 한다며 정책 방향을 미리 안내하는 포워드 가이던스에 대한 반대 입장을 재확인했다.</p><p>워시는 각국 중앙은행이 자체 책무에 따라 결정한 결과 세계 대부분 지역에서 통화정책이 동시에 긴축되고 있다며, 인플레이션 대응에 “무임승차자는 없다”고 평가했다.</p><p>연준은 지난달 2023년 이후 처음 금리를 인상해 3.75~4%로 올렸으며, CME 페드워치에 따르면 트레이더들은 10월 27~28일 회의의 동결 확률을 72.3%로 보고 대다수는 12월 25bp(0.25%포인트) 인상을 예상했다.</p><p>얀 하치우스가 이끄는 골드만삭스 이코노미스트들은 워시와 다른 연방공개시장위원회(FOMC) 참여자들의 최근 발언이 10월 동결을 시사한다고 해석했으며, 12월 두 번째이자 마지막 인상 전망을 유지했다.</p></div>
+        
+        
+        
+        
+        
+        <details class="evidence-panel"><summary>출처·근거 1건</summary><div class="evidence-body">
+          <div class="claim" data-claim-id="4df35016e525b5d501795b75"><span class="claim-label">원문 사실</span>
+            
+            <blockquote class="quote">저는 회의 결과를 미리 판단하지 않습니다.</blockquote><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div><blockquote class="quote">우리는 12월에 두 번째이자 마지막 금리 인상이 있을 것이라는 전망을 유지합니다.</blockquote><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
+          </div><div class="claim" data-claim-id="556ffaa9d0abf0f94f3d68ad"><span class="claim-label">원문 사실</span>
+            
+            <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
+          </div><div class="claim" data-claim-id="d11268ee84ef652b535702ad"><span class="claim-label">원문 사실</span>
+            
+            <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
+          </div><div class="claim" data-claim-id="bc2caa3d037ec833c769073c"><span class="claim-label">원문 사실</span>
+            
+            <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
+          </div>
+          <ul class="source-list"><li><a href="https://www.cnbc.com/2026/10/16/feds-warsh-says-ai-development-path-will-be-very-bumpy-.html" target="_blank" rel="noopener noreferrer" referrerpolicy="no-referrer">Fed&#39;s Warsh withholds rate signal, praises recent global tightening with &#39;no free riders&#39; ↗</a><div class="source-meta">시엔비시 · Anniek Bao · 발행 10.16 13:08 KST</div><details class="source-details"><summary>자료 정보</summary><div class="source-meta">수집 10.16 17:15 KST · 시간 기준 원문 발행<br>자료 제공 10.16 16:11 KST<br>원문 수정 10.16 16:11 KST<br>기사·문서 본문 확보</div></details></li></ul>
+          
+        </div></details>
+        </div></details>
+      </article><article class="issue" id="issue-c9520766442a7d37" data-issue-section="weekly-macro_policy" data-region="overseas" data-scope="other_economic" data-topics="macro_policy" data-full-text="true">
+        <div class="issue-top"><span class="pill accent">거시·정책</span><span class="source-caption">시엔비시 · 10.13 11:01 KST</span></div>
+        <h3><a href="#issue-c9520766442a7d37">IMF, AI 투자에 2026년 세계 성장률 3.1%로 상향…충격 대응 여력 축소 경고</a></h3>
+        <p class="issue-lead">국제통화기금(IMF)은 AI 투자가 중동 전쟁에 따른 에너지 비용 상승의 충격을 일부 상쇄한다며 2026년 세계 성장률 전망을 7월의 3.0%에서 3.1%로 높였지만, 지난해 성장률 3.5%보다는 낮으며 2027년 전망은 3.4%로 유지했다.</p>
+        
+        
+        <details class="issue-detail"><summary><span class="detail-open">상세 보기</span><span class="detail-close">접기</span><span class="detail-source-count">자료 1건</span></summary><div class="issue-reading">
+        <div class="issue-summary"><p>국제통화기금(IMF)은 AI 투자가 중동 전쟁에 따른 에너지 비용 상승의 충격을 일부 상쇄한다며 2026년 세계 성장률 전망을 7월의 3.0%에서 3.1%로 높였지만, 지난해 성장률 3.5%보다는 낮으며 2027년 전망은 3.4%로 유지했다.</p><p>IMF는 호르무즈 해협이 내년 3월 재개방되고 10월 전쟁 이전 상태로 돌아올 것으로 예상했으며, 세계 인플레이션 전망은 올해 4.7%로 유지하고 2027년은 7월 전망인 3.9%에서 4.1%로 높였다.</p><p>세계 석유 비축량이 하루 약 270만 배럴씩 줄어 급격한 가격 변동을 유발할 수 있는 수준에 가까워지고 있다며, 충격 대응 여력이 빠르게 줄고 에너지 제약이 AI 주도 성장세를 저해할 수 있다고 경고했다.</p><p>IMF는 AI 생산성 개선이 실현되지 않는 시나리오에서 미국 주식이 20% 하락할 수 있으며, 2028년까지 세계 성장률은 기본 전망보다 1.1% 낮아질 수 있다고 분석했다.</p></div>
+        
+        
+        
+        
+        
+        <details class="evidence-panel"><summary>출처·근거 1건</summary><div class="evidence-body">
+          <div class="claim" data-claim-id="a6727f3a5b87638a28729dad"><span class="claim-label">원문 사실</span>
+            
+            <blockquote class="quote">실바나 텐레이로 IMF 경제자문 겸 조사국장은 화요일 기자들에게 “세계 경제는 회복력을 보여 왔지만 그 회복력은 한계에 다다르고 있다”고 말하며, 정책 당국에 재정 여력과 공급망 안정성을 회복할 것을 촉구했다.</blockquote><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
+          </div><div class="claim" data-claim-id="26ac9be511cdefdf1c35cc56"><span class="claim-label">원문 사실</span>
+            
+            <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
+          </div><div class="claim" data-claim-id="20901c7fda1a6112ce1e190c"><span class="claim-label">원문 사실</span>
+            
+            <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
+          </div><div class="claim" data-claim-id="4f7a04b142b408a801b516c4"><span class="claim-label">원문 사실</span>
+            
+            <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
+          </div>
+          <ul class="source-list"><li><a href="https://www.cnbc.com/2026/10/12/imf-world-bank-annual-meetings-october-bangkok-asia-.html" target="_blank" rel="noopener noreferrer" referrerpolicy="no-referrer">IMF sees milder global slowdown as AI boom offsets war hit — warns resilience is nearing limits ↗</a><div class="source-meta">시엔비시 · Anniek Bao · 발행 10.13 11:01 KST</div><details class="source-details"><summary>자료 정보</summary><div class="source-meta">수집 10.13 13:16 KST · 시간 기준 원문 발행<br>자료 제공 10.13 13:10 KST<br>원문 수정 10.13 13:10 KST<br>기사·문서 본문 확보</div></details></li></ul>
+          
+        </div></details>
+        </div></details>
+      </article><article class="issue" id="issue-35ad4e4a185771a4" data-issue-section="weekly-macro_policy" data-region="overseas" data-scope="other_economic" data-topics="macro_policy" data-full-text="true">
+        <div class="issue-top"><span class="pill accent">거시·정책</span><span class="source-caption">시엔비시 · 10.15 16:46 KST</span></div>
+        <h3><a href="#issue-35ad4e4a185771a4">젤렌스키, 러시아의 ‘에너지 휴전’ 위반 주장…정유시설 공격 재개 방침</a></h3>
+        <p class="issue-lead">젤렌스키 우크라이나 대통령은 트럼프 미국 대통령이 일요일 발표한 ‘에너지 휴전’과 미국의 요청에 따라 러시아 에너지 시설에 대한 공격과 보복을 사흘간 중단했으나, 러시아가 합의를 지키지 않아 정유시설 등 에너지 시설 공격을 재개하겠다고 밝혔다.</p>
+        
+        
+        <details class="issue-detail"><summary><span class="detail-open">상세 보기</span><span class="detail-close">접기</span><span class="detail-source-count">자료 1건</span></summary><div class="issue-reading">
+        <div class="issue-summary"><p>젤렌스키 우크라이나 대통령은 트럼프 미국 대통령이 일요일 발표한 ‘에너지 휴전’과 미국의 요청에 따라 러시아 에너지 시설에 대한 공격과 보복을 사흘간 중단했으나, 러시아가 합의를 지키지 않아 정유시설 등 에너지 시설 공격을 재개하겠다고 밝혔다.</p><p>젤렌스키는 러시아가 이후 탄도미사일 약 40발을 포함한 대규모 공격을 우크라이나 에너지 시설에 가했다고 말했다.</p><p>우크라이나 당국은 군용 통신망 스타실드 제한으로 탄도미사일 사전 경보를 받지 못하고 군사작전에도 차질이 생겼다고 주장했으며, 젤렌스키의 국방기술 고문은 수요일 스페이스X가 사전 통지 없이 이동 중인 스타링크 단말기에 속도 제한을 적용했다고 밝혔다.</p><p>일론 머스크 스페이스X CEO는 스타실드를 소유·통제하는 미국 정부에 제한 조치의 최종 책임이 있다고 밝혔으며, 백악관과 스페이스X는 CNBC의 논평 요청에 응답하지 않았다.</p></div>
+        
+        
+        
+        
+        
+        <details class="evidence-panel"><summary>출처·근거 1건</summary><div class="evidence-body">
+          <div class="claim" data-claim-id="dd14ca9156d7fa27c9fb0f8b"><span class="claim-label">원문 사실</span>
+            
+            <blockquote class="quote">[정유시설 공격에 대한] 제한은 해제됐다.</blockquote><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div><blockquote class="quote">일론 머스크 스페이스X CEO에 따르면, 우크라이나의 군용 스타링크 네트워크에 대한 모든 제한의 최종 책임은 미국 정부에 있다.</blockquote><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
+          </div><div class="claim" data-claim-id="4bc17594ddb079380adb473e"><span class="claim-label">원문 사실</span>
+            
+            <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
+          </div><div class="claim" data-claim-id="8dc537360f3ccc819b0a01b3"><span class="claim-label">원문 사실</span>
+            
+            <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
+          </div><div class="claim" data-claim-id="63f4dc9163f3fd1bef2ad5d9"><span class="claim-label">원문 사실</span>
+            
+            <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
+          </div>
+          <ul class="source-list"><li><a href="https://www.cnbc.com/2026/10/15/ukraine-russia-energy-ceasefire-zelenskyy.html" target="_blank" rel="noopener noreferrer" referrerpolicy="no-referrer">Ukraine to resume strikes on Russian refineries, shattering hopes of an &#39;energy ceasefire&#39; ↗</a><div class="source-meta">시엔비시 · Elsa Ohlen · 발행 10.15 16:46 KST</div><details class="source-details"><summary>자료 정보</summary><div class="source-meta">수집 10.16 04:10 KST · 시간 기준 원문 발행<br>자료 제공 10.15 19:13 KST<br>원문 수정 10.15 19:13 KST<br>기사·문서 본문 확보</div></details></li></ul>
+          
+        </div></details>
+        </div></details>
+      </article><article class="issue" id="issue-7bb6691e4f2eea87" data-issue-section="weekly-macro_policy" data-region="overseas" data-scope="other_economic" data-topics="macro_policy" data-full-text="true">
+        <div class="issue-top"><span class="pill accent">거시·정책</span><span class="source-caption">원문 Associated Press · 제공 PBS News · 10.14 06:46 KST</span></div>
+        <h3><a href="#issue-7bb6691e4f2eea87">트럼프의 러시아산 경유 수입 합의에 미 의회 초당적 반발</a></h3>
+        <p class="issue-lead">트럼프 미국 대통령은 중간선거를 앞두고 연료 가격을 낮추겠다며 지난주 푸틴 러시아 대통령과 러시아산 경유 수백 톤을 미국에 들여오는 합의를 발표했고, 의회의 비판에도 이를 유지했다.</p>
+        
+        
+        <details class="issue-detail"><summary><span class="detail-open">상세 보기</span><span class="detail-close">접기</span><span class="detail-source-count">자료 1건</span></summary><div class="issue-reading">
+        <div class="issue-summary"><p>트럼프 미국 대통령은 중간선거를 앞두고 연료 가격을 낮추겠다며 지난주 푸틴 러시아 대통령과 러시아산 경유 수백 톤을 미국에 들여오는 합의를 발표했고, 의회의 비판에도 이를 유지했다.</p><p>화요일 공화당·민주당 상원의원 각 6명은 서한에서 러시아산 경유의 세계시장 유입이 연료 가격에 미칠 영향은 미미하지만, 러시아가 얻는 수입은 우크라이나 소모전과 중국·이란·북한과의 안보 협력을 뒷받침할 것이라고 비판했다.</p><p>2022년 러시아산 에너지 수입금지법에 따르면 대통령이 금지 해제를 추진하려면 러시아군의 우크라이나 철수와 군사활동 중단에 관한 합의가 있어야 하며, 해제안은 의회 심사와 자유롭고 독립적인 우크라이나 정부의 수용을 거쳐야 한다.</p><p>지난달 의회가 승인하고 트럼프가 서명한 새 대러 제재법은 러시아산 원유를 계속 수입하는 국가에 관세를 부과하며 주요 조항은 10월 18일 발효될 예정이지만, AP는 이번 경유 합의로 제재 시행 여부가 불확실해졌다고 전했다.</p></div>
+        
+        
+        
+        
+        
+        <details class="evidence-panel"><summary>출처·근거 1건</summary><div class="evidence-body">
+          <div class="claim" data-claim-id="c84ecf3c65739e58b93459a1"><span class="claim-label">원문 사실</span>
+            
+            <blockquote class="quote">트럼프는 월요일 백악관 밖에서 “우리 농민과 목장주들에게 도움이 될 수 있는 일이라면 무엇이든 좋다”고 말했다.</blockquote><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 원문 Associated Press · 제공 PBS News · 본문</div><blockquote class="quote">이 법안의 대표 발의자인 텍사스주 민주당 로이드 도겟 하원의원은 월요일 성명에서 “트럼프는 그 법을 직접 위반하고 있다”고 말했다.</blockquote><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 원문 Associated Press · 제공 PBS News · 본문</div>
+          </div><div class="claim" data-claim-id="6a44d9cab8e0caedf2774c0e"><span class="claim-label">원문 사실</span>
+            
+            <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 원문 Associated Press · 제공 PBS News · 본문</div><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 원문 Associated Press · 제공 PBS News · 본문</div>
+          </div><div class="claim" data-claim-id="409ad68e3614e10b68881236"><span class="claim-label">원문 사실</span>
+            
+            <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 원문 Associated Press · 제공 PBS News · 본문</div><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 원문 Associated Press · 제공 PBS News · 본문</div>
+          </div><div class="claim" data-claim-id="7758d579a29ecc9cfd41bc3a"><span class="claim-label">원문 사실</span>
+            
+            <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 원문 Associated Press · 제공 PBS News · 본문</div><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 원문 Associated Press · 제공 PBS News · 본문</div>
+          </div>
+          <ul class="source-list"><li><a href="https://www.pbs.org/newshour/politics/trumps-diesel-deal-with-putin-draws-bipartisan-criticism-from-a-frustrated-congress" target="_blank" rel="noopener noreferrer" referrerpolicy="no-referrer">Trump&#39;s diesel deal with Putin draws bipartisan criticism from a frustrated Congress ↗</a><div class="source-meta">원문 Associated Press · 제공 PBS News · Lisa Mascaro, Associated Press · 발행 10.14 06:46 KST</div><details class="source-details"><summary>자료 정보</summary><div class="source-meta">수집 10.15 14:33 KST · 시간 기준 원문 발행<br>자료 제공 10.14 06:46 KST<br>원문 수정 10.14 06:46 KST<br>기사·문서 본문 확보</div></details></li></ul>
+          
+        </div></details>
+        </div></details>
+      </article><article class="issue" id="issue-76510b85ce3ef649" data-issue-section="weekly-macro_policy" data-region="overseas" data-scope="other_economic" data-topics="macro_policy" data-full-text="true">
+        <div class="issue-top"><span class="pill accent">거시·정책</span><span class="source-caption">원문 Associated Press · 제공 ABC News · 10.16 13:02 KST</span></div>
+        <h3><a href="#issue-76510b85ce3ef649">흑해 화물선 최소 7척 드론 피격…러시아 배후 의혹 속 NATO 대응 논의</a></h3>
+        <p class="issue-lead">이달 NATO 회원국인 루마니아·불가리아 연안 흑해에서 화물선 최소 7척이 드론 공격을 받아 2명이 숨지고 최소 25명이 실종됐으며, 수·목요일 피격된 선박 2척 중 1척은 루마니아 영해에 있었다.</p>
+        
+        
+        <details class="issue-detail"><summary><span class="detail-open">상세 보기</span><span class="detail-close">접기</span><span class="detail-source-count">자료 1건</span></summary><div class="issue-reading">
+        <div class="issue-summary"><p>이달 NATO 회원국인 루마니아·불가리아 연안 흑해에서 화물선 최소 7척이 드론 공격을 받아 2명이 숨지고 최소 25명이 실종됐으며, 수·목요일 피격된 선박 2척 중 1척은 루마니아 영해에 있었다.</p><p>일부 NATO 회원국은 러시아가 우크라이나 지원 의지를 시험하려 확전을 꾀하는지 우려하고 있으며, 루멘 라데프 불가리아 총리는 공격 결과가 러시아에 유리하다면서도 러시아의 소행임을 입증할 수는 없다고 밝혔다.</p><p>마르크 뤼터 NATO 사무총장은 목요일 대드론 역량을 포함한 동부 방어 태세를 강화했다고 밝혔고, 루마니아 국방 분석가 라두 투도르는 회원국 배타적경제수역에서 발생한 다수 공격에 집단방위 조항인 제5조가 적용되는지는 불확실하다고 설명했다.</p><p>곡물 컨설팅업체 Agricolumn의 창업자 체자르 게오르게는 드론 공격이 루마니아 콘스탄차항 교역에 악영향을 주지는 않았다면서도, 흑해 항행의 보험 위험 할증료가 상승하고 있으며 콘스탄차항 안팎에서 심각한 사고가 발생할 가능성을 우려한다고 말했다.</p></div>
+        
+        
+        
+        
+        
+        <details class="evidence-panel"><summary>출처·근거 1건</summary><div class="evidence-body">
+          <div class="claim" data-claim-id="bff90d82965f76533b525dea"><span class="claim-label">원문 사실</span>
+            
+            <blockquote class="quote">문제는 우리가 그것을 입증할 수 없다는 것입니다.</blockquote><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 원문 Associated Press · 제공 ABC News · 본문</div><blockquote class="quote">NATO는 흑해의 동맹국들과 계속 긴밀히 협력하며 필요에 따라 억제 및 방어 태세를 조정할 것입니다.</blockquote><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 원문 Associated Press · 제공 ABC News · 본문</div>
+          </div><div class="claim" data-claim-id="773f36e7d0ac67cb9ed83149"><span class="claim-label">원문 사실</span>
+            
+            <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 원문 Associated Press · 제공 ABC News · 본문</div><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 원문 Associated Press · 제공 ABC News · 본문</div>
+          </div><div class="claim" data-claim-id="5da7ecfe20d8a372e338dece"><span class="claim-label">원문 사실</span>
+            
+            <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 원문 Associated Press · 제공 ABC News · 본문</div><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 원문 Associated Press · 제공 ABC News · 본문</div>
+          </div><div class="claim" data-claim-id="9500f76fe8da7c59eccd7bbf"><span class="claim-label">원문 사실</span>
+            
+            <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 원문 Associated Press · 제공 ABC News · 본문</div><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 원문 Associated Press · 제공 ABC News · 본문</div>
+          </div>
+          <ul class="source-list"><li><a href="https://abcnews.com/Business/wireStory/drone-strikes-black-sea-raise-fears-russian-escalation-137309941" target="_blank" rel="noopener noreferrer" referrerpolicy="no-referrer">Drone strikes in the Black Sea raise fears of Russian escalation to test NATO ↗</a><div class="source-meta">원문 Associated Press · 제공 ABC News · STEPHEN MCGRATH Associated Press, VESELIN TOSHKOV Associated Press · 발행 10.16 13:02 KST</div><details class="source-details"><summary>자료 정보</summary><div class="source-meta">수집 10.16 17:13 KST · 시간 기준 원문 발행<br>자료 제공 10.16 15:27 KST<br>원문 수정 10.16 15:27 KST<br>기사·문서 본문 확보</div></details></li></ul>
+          
+        </div></details>
+        </div></details>
+      </article><article class="issue" id="issue-438f2445c326d9b4" data-issue-section="weekly-macro_policy" data-region="overseas" data-scope="other_economic" data-topics="macro_policy" data-full-text="true">
         <div class="issue-top"><span class="pill accent">거시·정책</span><span class="source-caption">시엔비시 · 10.14 10:16 KST</span></div>
         <h3><a href="#issue-438f2445c326d9b4">중국 9월 수출·수입 증가율 36.3%·31%…예상치 상회</a></h3>
         <p class="issue-lead">중국이 수요일 발표한 공식 통계에 따르면 9월 수출은 전년 동월 대비 36.3% 증가해 2월 이후 가장 빠른 증가세를 보였고, 수입 증가율은 8월 28.2%에서 9월 31%로 높아져 6월 이후 최고치를 기록했다.</p>
@@ -665,16 +697,16 @@ body.has-quant-shared-nav .skip-link {
         
         
         <details class="evidence-panel"><summary>출처·근거 1건</summary><div class="evidence-body">
-          <div class="claim" data-claim-id="c9b56ddcfbc8457b77887541"><span class="claim-label">원문 사실</span>
+          <div class="claim" data-claim-id="0c811847c8302a39ce9b0f5d"><span class="claim-label">원문 사실</span>
             
             <blockquote class="quote">수출과 수입 증가율은 로이터 설문조사 예상치인 각각 25.5%와 24.5%를 모두 웃돌았다.</blockquote><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
-          </div><div class="claim" data-claim-id="59d35b6a94cb8637e438139b"><span class="claim-label">원문 사실</span>
+          </div><div class="claim" data-claim-id="10e4ddde2504c16a38037e94"><span class="claim-label">원문 사실</span>
             
             <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
-          </div><div class="claim" data-claim-id="8d67f1a7ebb46b145d48c37b"><span class="claim-label">원문 사실</span>
+          </div><div class="claim" data-claim-id="b59eaede1af00ff19544184b"><span class="claim-label">원문 사실</span>
             
             <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
-          </div><div class="claim" data-claim-id="fc3a62d3fd15650244b9e446"><span class="claim-label">원문 사실</span>
+          </div><div class="claim" data-claim-id="62ef2cd1c1a42584f5aedb5e"><span class="claim-label">원문 사실</span>
             
             <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
           </div>
@@ -682,7 +714,7 @@ body.has-quant-shared-nav .skip-link {
           
         </div></details>
         </div></details>
-      </article><article class="issue" id="issue-313cd7d5d86a49fe" data-issue-section="weekly-macro_policy" data-scope="other_economic" data-topics="macro_policy" data-full-text="true">
+      </article><article class="issue" id="issue-313cd7d5d86a49fe" data-issue-section="weekly-macro_policy" data-region="overseas" data-scope="other_economic" data-topics="macro_policy" data-full-text="true">
         <div class="issue-top"><span class="pill accent">거시·정책</span><span class="source-caption">원문 로이터 · 제공 Yahoo! Finance · 10.16 14:26 KST</span></div>
         <h3><a href="#issue-313cd7d5d86a49fe">인도 RBI, 루피 방어에 금리 인상 동원…추가 긴축은 신중하게</a></h3>
         <p class="issue-lead">루피화가 올해 약 6% 하락하고 물가상승률이 목표를 웃도는 가운데, 인도중앙은행(RBI)은 이번 달 4년 만에 정책금리를 인상하고 채권 매각과 은행·대규모 외환 헤지 거래에 대한 준비금 요건 강화로 유동성을 흡수했다.</p>
@@ -696,16 +728,16 @@ body.has-quant-shared-nav .skip-link {
         
         
         <details class="evidence-panel"><summary>출처·근거 1건</summary><div class="evidence-body">
-          <div class="claim" data-claim-id="2b328665c0815c139dfe5a72"><span class="claim-label">원문 사실</span>
+          <div class="claim" data-claim-id="656c48b0476d0f1819db96f3"><span class="claim-label">원문 사실</span>
             
             <blockquote class="quote">정책은 물가 목표를 중심에 둬야 하며, 물가상승률은 2027년 초 허용 범위 안으로 다시 들어올 것으로 예상된다.</blockquote><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 원문 로이터 · 제공 Yahoo! Finance · 본문</div>
-          </div><div class="claim" data-claim-id="4ece97f09d47e7278e40cdd0"><span class="claim-label">원문 사실</span>
+          </div><div class="claim" data-claim-id="e508a159f26b9324a9abd8dd"><span class="claim-label">원문 사실</span>
             
             <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 원문 로이터 · 제공 Yahoo! Finance · 본문</div>
-          </div><div class="claim" data-claim-id="a76e0c221fb8b8a916a44f2b"><span class="claim-label">원문 사실</span>
+          </div><div class="claim" data-claim-id="e2285da90d8f9507c2ae5155"><span class="claim-label">원문 사실</span>
             
             <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 원문 로이터 · 제공 Yahoo! Finance · 본문</div>
-          </div><div class="claim" data-claim-id="28db6b11f4d4dde8e524e7fd"><span class="claim-label">원문 사실</span>
+          </div><div class="claim" data-claim-id="62721ca38726d454a2856b8a"><span class="claim-label">원문 사실</span>
             
             <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 원문 로이터 · 제공 Yahoo! Finance · 본문</div>
           </div>
@@ -714,165 +746,8 @@ body.has-quant-shared-nav .skip-link {
         </div></details>
         </div></details>
       </article>
-    </div></section><section class="section" data-report-section="weekly-credit_risk" aria-labelledby="section-weekly-credit_risk"><div class="section-heading"><span class="weekly-chapter-number" aria-hidden="true">02</span><h2 id="section-weekly-credit_risk">신용·위험</h2><span class="count">3</span><a class="weekly-back" href="#weekly-contents">목차 ↑</a></div><div class="issue-grid">
-      <article class="issue" id="issue-6af81240b8707f96" data-issue-section="weekly-credit_risk" data-scope="market" data-topics="credit_risk" data-full-text="true">
-        <div class="issue-top"><span class="pill accent">신용·위험</span><span class="source-caption">시엔비시 · 10.13 12:19 KST</span></div>
-        <h3><a href="#issue-6af81240b8707f96">IMF, 부채·인플레이션·AI 차입 확대에 국채금리 급등 위험 경고</a></h3>
-        <p class="issue-lead">국제통화기금(IMF)은 화요일 발표한 글로벌 금융안정보고서에서 인플레이션 재상승과 부채·차환 부담, AI 기업의 차입 확대가 국채시장을 압박해 금리가 무질서하게 급등할 수 있다고 경고했으며, 지난주에는 세계 공공부채가 조만간 GDP의 100%를 넘어설 것으로 전망했다.</p>
-        
-        
-        <details class="issue-detail"><summary><span class="detail-open">상세 보기</span><span class="detail-close">접기</span><span class="detail-source-count">자료 1건</span></summary><div class="issue-reading">
-        <div class="issue-summary"><p>국제통화기금(IMF)은 화요일 발표한 글로벌 금융안정보고서에서 인플레이션 재상승과 부채·차환 부담, AI 기업의 차입 확대가 국채시장을 압박해 금리가 무질서하게 급등할 수 있다고 경고했으며, 지난주에는 세계 공공부채가 조만간 GDP의 100%를 넘어설 것으로 전망했다.</p><p>보고서에 따르면 전 세계 투자등급 채권 발행에서 하이퍼스케일러의 비중은 2024년 이후 1% 미만에서 10%로 늘었으며, 핌코의 마크 사이드너 비전통 전략 최고투자책임자는 AI 관련 채권이 국채와 투자자 자금을 놓고 경쟁할 규모로 커졌지만 금리 상승의 주된 요인으로 보이지는 않는다고 평가했다.</p><p>IMF는 미국·유럽·영국의 유동성 지표가 안정적이고 시장 기능도 질서 있게 유지되고 있으나, 일본 국채시장 유동성은 수익률곡선 통제 종료 이후 금리 변동성이 커지면서 계속 악화됐다고 밝혔다.</p><p>IMF는 헤지펀드의 미 국채 베이시스 거래가 일부 청산됐어도 남은 레버리지로 인해 무질서한 청산 위험이 지속된다고 지적하고, 채무관리 당국에는 장기부채를 단기차입으로 대규모 대체하면 차환 위험이 커질 수 있다며 만기 연장을 촉구했다.</p></div>
-        
-        
-        
-        
-        
-        <details class="evidence-panel"><summary>출처·근거 1건</summary><div class="evidence-body">
-          <div class="claim" data-claim-id="7627b957bf3bc406432c4304"><span class="claim-label">원문 사실</span>
-            
-            <blockquote class="quote">국제통화기금은 화요일 인플레이션 상승과 부채 증가, AI 관련 차입이 국채시장을 압박하면서 국채금리가 무질서하게 상승할 수 있다고 경고했다.</blockquote><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div><blockquote class="quote">퍼시픽 인베스트먼트 매니지먼트(핌코)의 마크 사이드너 비전통 전략 최고투자책임자는 “상당 부분이 장기물인 AI 관련 채권 발행은 금리를 움직이는 지배적 요인으로 보이지는 않지만, 투자자 자금을 놓고 국채와 경쟁할 만큼 규모가 커졌다”고 밝혔다.</blockquote><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
-          </div><div class="claim" data-claim-id="d1dc79f47fd8ffdebf56c4c0"><span class="claim-label">원문 사실</span>
-            
-            <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
-          </div><div class="claim" data-claim-id="01d79abb080210351b794f06"><span class="claim-label">원문 사실</span>
-            
-            <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
-          </div><div class="claim" data-claim-id="d44d40abcc54932810433b70"><span class="claim-label">원문 사실</span>
-            
-            <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
-          </div>
-          <ul class="source-list"><li><a href="https://www.cnbc.com/2026/10/13/treasury-yields-imf-debt-inflation-.html" target="_blank" rel="noopener noreferrer" referrerpolicy="no-referrer">IMF warns bond yields could see a &#39;disorderly&#39; spike as debt, inflation risks worsen ↗</a><div class="source-meta">시엔비시 · Anniek Bao · 발행 10.13 12:19 KST</div><details class="source-details"><summary>자료 정보</summary><div class="source-meta">수집 10.13 13:16 KST · 시간 기준 원문 발행<br>자료 제공 10.13 12:19 KST<br>원문 수정 10.13 12:19 KST<br>기사·문서 본문 확보</div></details></li></ul>
-          
-        </div></details>
-        </div></details>
-      </article><article class="issue" id="issue-9c1a448ccb5391d2" data-issue-section="weekly-credit_risk" data-scope="market" data-topics="credit_risk" data-full-text="true">
-        <div class="issue-top"><span class="pill accent">신용·위험</span><span class="source-caption">시엔비시 · 10.16 01:52 KST</span></div>
-        <h3><a href="#issue-9c1a448ccb5391d2">코어위브 CDS, 신용 부실 신호 수준으로 상승…현금흐름 확보가 쟁점</a></h3>
-        <p class="issue-lead">AI 인프라 확충을 위해 510억 달러가 넘는 부채와 의무를 부담한 코어위브의 5년물 신용부도스와프(CDS) 스프레드는 목요일 한때 1,140bp를 넘었으며, 기사상 최근 수준은 약 1,038bp로 전주 대비 16%, 1년 전 대비 164% 높았다.</p>
-        
-        
-        <details class="issue-detail"><summary><span class="detail-open">상세 보기</span><span class="detail-close">접기</span><span class="detail-source-count">자료 1건</span></summary><div class="issue-reading">
-        <div class="issue-summary"><p>AI 인프라 확충을 위해 510억 달러가 넘는 부채와 의무를 부담한 코어위브의 5년물 신용부도스와프(CDS) 스프레드는 목요일 한때 1,140bp를 넘었으며, 기사상 최근 수준은 약 1,038bp로 전주 대비 16%, 1년 전 대비 164% 높았다.</p><p>2031년 만기·표면금리 9.75% 채권의 만기수익률은 15.78%에 도달했고, 주가는 수요일 15.5% 급락한 뒤 목요일에도 장중 하락했으나 반등해 5.94% 상승 마감했다.</p><p>S&amp;P 글로벌 마켓 인텔리전스의 개번 놀런은 CDS 스프레드 1,000bp 이상이 통상 신용 부실의 징후라며, 코어위브 서비스의 실제 수요보다 현재 큰 폭의 마이너스인 잉여현금흐름과 대규모 설비투자를 정당화할 현금흐름의 향후 유입 여부가 문제라고 설명했다.</p><p>마이크 인트레이터 CEO는 수요일 메모에서 수주잔고가 모든 부채 의무를 충분히 뒷받침한다고 반박했으며, 도이체방크는 목요일 수주잔고가 1,000억 달러를 넘고 그중 약 3분의 2가 마이크로소프트·메타 등 투자등급 거래상대방과의 계약이라고 밝혔다.</p></div>
-        
-        
-        
-        
-        
-        <details class="evidence-panel"><summary>출처·근거 1건</summary><div class="evidence-body">
-          <div class="claim" data-claim-id="0674e547387d61648b14f892"><span class="claim-label">원문 사실</span>
-            
-            <blockquote class="quote">문제는 결국 현금흐름이 유입될지 여부다.</blockquote><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div><blockquote class="quote">우리는 모든 부채 의무를 뒷받침하고도 남는 수주잔고에 자신이 있다.</blockquote><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
-          </div><div class="claim" data-claim-id="b6f225c058c3c2c15cd7a18b"><span class="claim-label">원문 사실</span>
-            
-            <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
-          </div><div class="claim" data-claim-id="b1d27d50c86712cfc80da86d"><span class="claim-label">원문 사실</span>
-            
-            <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
-          </div><div class="claim" data-claim-id="41557b139d18c3d72c15679c"><span class="claim-label">원문 사실</span>
-            
-            <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
-          </div>
-          <ul class="source-list"><li><a href="https://www.cnbc.com/2026/10/15/coreweave-credit-default-swaps-hit-distress-levels-as-investors-sour-on-ai-debt.html" target="_blank" rel="noopener noreferrer" referrerpolicy="no-referrer">CoreWeave credit default swaps hit distress levels as investors sour on AI debt ↗</a><div class="source-meta">시엔비시 · Michelle Fox · 발행 10.16 01:52 KST</div><details class="source-details"><summary>자료 정보</summary><div class="source-meta">수집 10.16 17:17 KST · 시간 기준 원문 발행<br>원문 수정 10.16 06:33 KST<br>기사·문서 본문 확보</div></details></li></ul>
-          
-        </div></details>
-        </div></details>
-      </article><article class="issue" id="issue-39cd56df1e42b683" data-issue-section="weekly-credit_risk" data-scope="market" data-topics="credit_risk" data-full-text="true">
-        <div class="issue-top"><span class="pill accent">신용·위험</span><span class="source-caption">연합인포맥스 · 10.15 16:11 KST</span></div>
-        <h3><a href="#issue-39cd56df1e42b683">무디스, 사모 신용 디폴트 비율 5.8% 추정…중견기업 신용 경색 경고</a></h3>
-        <p class="issue-lead">무디스 레이팅스는 15일 보고서에서 사모 신용의 디폴트 비율 추정치 5.8%를 처음 공개하며 중견기업 차입자 사이에 신용 경색이 광범위하게 나타나고 있다고 진단했다.</p>
-        
-        
-        <details class="issue-detail"><summary><span class="detail-open">상세 보기</span><span class="detail-close">접기</span><span class="detail-source-count">자료 1건</span></summary><div class="issue-reading">
-        <div class="issue-summary"><p>무디스 레이팅스는 15일 보고서에서 사모 신용의 디폴트 비율 추정치 5.8%를 처음 공개하며 중견기업 차입자 사이에 신용 경색이 광범위하게 나타나고 있다고 진단했다.</p><p>이 추정치는 중견기업 담보부대출채권(CLO)에 포함된 발행사의 공식 부도뿐 아니라 현금 대신 현물로 이자를 지급하는 현물지급(PIK) 구조 변경과 재무적 곤경에 처한 발행사의 만기 연장 등을 반영한 것으로, 무디스는 수탁기관이 보고한 기존 디폴트 비율 4.0%가 실제 신용 경색을 과소평가할 가능성이 크다고 봤다.</p><p>무디스는 Caa 수준 신용도의 발행사들이 2027~2028년 만기 도래 물량의 절반 이상, 2029~2030년 만기 물량의 약 3분의 1을 차지한다며 향후 만기 물량이 부실 압력을 가중할 것으로 우려했다.</p><p>PIK는 단기 유동성을 공급하거나 성장을 지원할 수 있지만, 시간이 지나면서 근본적인 재무 스트레스를 해결하기보다 유예하거나 악화시킬 수 있다고 평가했다.</p></div>
-        
-        
-        
-        
-        
-        <details class="evidence-panel"><summary>출처·근거 1건</summary><div class="evidence-body">
-          <div class="claim" data-claim-id="a9c2a5d527e81fa20f82367d"><span class="claim-label">원문 사실</span>
-            
-            <blockquote class="quote">(서울=연합인포맥스) 권용욱 기자 = 국제신용평가사 무디스 레이팅스가 사모 신용 부실률 추정치를 처음으로 공개하며 시장 부실 가능성을 경고했다.</blockquote><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 연합인포맥스 · 본문</div><blockquote class="quote">무디스는 15일 보고서를 통해 &#34;사모 신용의 크레디트 디폴트 비율은 5.8%로 추정된다&#34;며 &#34;특히 중견기업 차입자들 사이에서 신용 경색이 광범위하게 나타나고 있다&#34;고 진단했다.</blockquote><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 연합인포맥스 · 본문</div>
-          </div><div class="claim" data-claim-id="61756cf0f414fc44f77559f2"><span class="claim-label">원문 사실</span>
-            
-            <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 연합인포맥스 · 본문</div><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 연합인포맥스 · 본문</div>
-          </div><div class="claim" data-claim-id="018b1e06595368a48f122487"><span class="claim-label">원문 사실</span>
-            
-            <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 연합인포맥스 · 본문</div><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 연합인포맥스 · 본문</div>
-          </div><div class="claim" data-claim-id="6986bda97f7f8bba268b112a"><span class="claim-label">원문 사실</span>
-            
-            <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 연합인포맥스 · 본문</div><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 연합인포맥스 · 본문</div>
-          </div>
-          <ul class="source-list"><li><a href="https://news.einfomax.co.kr/news/articleView.html?idxno=4439467" target="_blank" rel="noopener noreferrer" referrerpolicy="no-referrer">무디스, 사모 신용 부실 경고…&#34;중견기업 신용 경색 심화&#34; ↗</a><div class="source-meta">연합인포맥스 · 권용욱 기자 · 발행 10.15 16:11 KST</div><details class="source-details"><summary>자료 정보</summary><div class="source-meta">수집 10.16 04:09 KST · 시간 기준 원문 발행<br>자료 제공 10.15 16:11 KST<br>기사·문서 본문 확보</div></details></li></ul>
-          
-        </div></details>
-        </div></details>
-      </article>
-    </div></section><section class="section" data-report-section="weekly-commodities_fx" aria-labelledby="section-weekly-commodities_fx"><div class="section-heading"><span class="weekly-chapter-number" aria-hidden="true">03</span><h2 id="section-weekly-commodities_fx">원자재·환율</h2><span class="count">4</span><a class="weekly-back" href="#weekly-contents">목차 ↑</a></div><div class="issue-grid">
-      <article class="issue" id="issue-88f1d54d8a6c471e" data-issue-section="weekly-commodities_fx" data-scope="market" data-topics="commodities_fx" data-full-text="true">
-        <div class="issue-top"><span class="pill accent">원자재·환율</span><span class="source-caption">시엔비시 · 10.14 17:00 KST</span></div>
-        <h3><a href="#issue-88f1d54d8a6c471e">IEA, 이란 전쟁 여파에 경유 공급난 2027년 하반기까지 지속 전망</a></h3>
-        <p class="issue-lead">국제에너지기구(IEA)는 10월 석유시장보고서에서 연말 정유 처리량이 빠르게 회복하더라도 2026년 4분기 경유 공급이 수요를 밑돌고, 통상적인 계절 변동을 제외한 재고 보충은 2027년 하반기 이전에 어려울 것으로 전망했다.</p>
-        
-        
-        <details class="issue-detail"><summary><span class="detail-open">상세 보기</span><span class="detail-close">접기</span><span class="detail-source-count">자료 1건</span></summary><div class="issue-reading">
-        <div class="issue-summary"><p>국제에너지기구(IEA)는 10월 석유시장보고서에서 연말 정유 처리량이 빠르게 회복하더라도 2026년 4분기 경유 공급이 수요를 밑돌고, 통상적인 계절 변동을 제외한 재고 보충은 2027년 하반기 이전에 어려울 것으로 전망했다.</p><p>IEA에 따르면 지난달 세계 경유 수출은 전년 동월보다 하루 70만 배럴 감소했으며, 러시아·중동에서 줄어든 하루 130만 배럴의 물량은 다른 지역의 공급 증가로 일부만 상쇄됐다.</p><p>유럽·미국의 경유 도매가격은 배럴당 약 220달러로 사상 최고치를 기록했으며, IEA는 원유 해상운송 시장의 긴장으로 주요 경유 수입시장인 유럽·아프리카·중남미의 운송비 포함 가격이 향후 몇 주 안에 더 오를 수 있다고 경고했다.</p><p>트럼프 미국 대통령은 지난주 푸틴 러시아 대통령과 러시아산 경유 30만 톤을 세계 시장에 즉시 공급하기로 합의했다고 밝혔으나, 발디스 돔브로우스키스 EU 경제·생산성 담당 집행위원은 해당 물량에 거시경제적 의미가 없고 실제 공급 가능성도 의문이라며 러시아 제재 완화에 반대했다.</p></div>
-        
-        
-        
-        
-        
-        <details class="evidence-panel"><summary>출처·근거 1건</summary><div class="evidence-body">
-          <div class="claim" data-claim-id="ad4cbac3262df58c06000b28"><span class="claim-label">원문 사실</span>
-            
-            <blockquote class="quote">IEA는 10월 석유시장보고서에서 경유 공급이 2027년 하반기까지 빠듯한 상태를 유지할 것이라고 밝혔다.</blockquote><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
-          </div><div class="claim" data-claim-id="3d27450b075c98d81feec6aa"><span class="claim-label">원문 사실</span>
-            
-            <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
-          </div><div class="claim" data-claim-id="813b0b90bbebdf33e7b27782"><span class="claim-label">원문 사실</span>
-            
-            <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
-          </div><div class="claim" data-claim-id="3d5a567889502b8bd3b645ac"><span class="claim-label">원문 사실</span>
-            
-            <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
-          </div>
-          <ul class="source-list"><li><a href="https://www.cnbc.com/2026/10/14/diesel-deal-oil-price-iea-report.html" target="_blank" rel="noopener noreferrer" referrerpolicy="no-referrer">Diesel squeeze set to last well into 2027 as Iran war disrupts supply, IEA says ↗</a><div class="source-meta">시엔비시 · Chloe Taylor · 발행 10.14 17:00 KST</div><details class="source-details"><summary>자료 정보</summary><div class="source-meta">수집 10.15 14:36 KST · 시간 기준 원문 발행<br>자료 제공 10.14 19:37 KST<br>원문 수정 10.14 19:37 KST<br>기사·문서 본문 확보</div></details></li></ul>
-          
-        </div></details>
-        </div></details>
-      </article><article class="issue" id="issue-c7911792756dba30" data-issue-section="weekly-commodities_fx" data-scope="market" data-topics="commodities_fx" data-full-text="true">
-        <div class="issue-top"><span class="pill accent">원자재·환율</span><span class="source-caption">시엔비시 · 10.16 01:37 KST</span></div>
-        <h3><a href="#issue-c7911792756dba30">IEA, 경유 2,000만 배럴 이상 조속 방출 합의…구체적 일정 미공개</a></h3>
-        <p class="issue-lead">국제에너지기구(IEA)는 세계적인 연료 가격 급등에 대응해 회원국들이 경유 2,000만 배럴 이상을 ‘가능한 한 빨리’ 방출하기로 합의했다고 목요일 밝혔다. 이는 세계 경유 수요의 하루치에도 못 미치는 규모다.</p>
-        
-        
-        <details class="issue-detail"><summary><span class="detail-open">상세 보기</span><span class="detail-close">접기</span><span class="detail-source-count">자료 1건</span></summary><div class="issue-reading">
-        <div class="issue-summary"><p>국제에너지기구(IEA)는 세계적인 연료 가격 급등에 대응해 회원국들이 경유 2,000만 배럴 이상을 ‘가능한 한 빨리’ 방출하기로 합의했다고 목요일 밝혔다. 이는 세계 경유 수요의 하루치에도 못 미치는 규모다.</p><p>IEA는 구체적인 일정을 밝히지 않았으며, 프랑스가 이끄는 G7이 10월 2일 제시한 20일간의 방출 일정이 적용된다면 하루 약 100만 배럴을 공급하게 된다.</p><p>리포 오일 어소시에이츠의 앤디 리포 대표는 중동·러시아의 손상된 정유시설과 미국에서 최대 가동 중인 정유시설의 생산을 늘려야 하는 근본 문제는 이번 방출로 해결되지 않는다고 지적했다.</p><p>IEA 회원국들은 3월에 약속한 석유 4억 배럴 중 남은 1억 배럴도 각국 사정에 맞춰 적시에 방출하기로 했으며, IEA 이사회에 따르면 지금까지 3억3,000만 배럴이 방출됐고 일부 회원국의 당초 약속을 웃도는 방출로 총량은 4억 배럴을 넘을 예정이다.</p></div>
-        
-        
-        
-        
-        
-        <details class="evidence-panel"><summary>출처·근거 1건</summary><div class="evidence-body">
-          <div class="claim" data-claim-id="6838443f0663d9b6f4a22f8f"><span class="claim-label">원문 사실</span>
-            
-            <blockquote class="quote">국제에너지기구는 목요일 성명에서 전 세계적으로 연료 가격이 급등하는 가운데 회원국들이 경유 2,000만 배럴 이상을 ‘가능한 한 빨리’ 방출하기로 합의했다고 밝혔다.</blockquote><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
-          </div><div class="claim" data-claim-id="b4c991583f8d544247b0677c"><span class="claim-label">원문 사실</span>
-            
-            <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
-          </div><div class="claim" data-claim-id="6944c5a3d003c03e8e75595a"><span class="claim-label">원문 사실</span>
-            
-            <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
-          </div><div class="claim" data-claim-id="ae065802313696c2a43261f7"><span class="claim-label">원문 사실</span>
-            
-            <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
-          </div>
-          <ul class="source-list"><li><a href="https://www.cnbc.com/2026/10/15/iea-diesel-price-ukraine-iran-oil.html" target="_blank" rel="noopener noreferrer" referrerpolicy="no-referrer">International Energy Agency to release more than 20 million barrels of diesel as soon as possible ↗</a><div class="source-meta">시엔비시 · Spencer Kimball · 발행 10.16 01:37 KST</div><details class="source-details"><summary>자료 정보</summary><div class="source-meta">수집 10.16 04:10 KST · 시간 기준 원문 발행<br>자료 제공 10.16 01:47 KST<br>원문 수정 10.16 01:47 KST<br>기사·문서 본문 확보</div></details></li></ul>
-          
-        </div></details>
-        </div></details>
-      </article><article class="issue" id="issue-3b9c46ce802978a5" data-issue-section="weekly-commodities_fx" data-scope="market" data-topics="commodities_fx" data-full-text="true">
+    </div></section><section class="section" data-report-section="weekly-commodities_fx" aria-labelledby="section-weekly-commodities_fx"><div class="section-heading"><span class="weekly-chapter-number" aria-hidden="true">02</span><h2 id="section-weekly-commodities_fx">원자재·환율</h2><span class="count">3</span><a class="weekly-back" href="#weekly-contents">목차 ↑</a></div><div class="issue-grid">
+      <article class="issue" id="issue-3b9c46ce802978a5" data-issue-section="weekly-commodities_fx" data-region="overseas" data-scope="market" data-topics="commodities_fx" data-full-text="true">
         <div class="issue-top"><span class="pill accent">원자재·환율</span><span class="source-caption">시엔비시 · 10.15 00:47 KST</span></div>
         <h3><a href="#issue-3b9c46ce802978a5">호르무즈 해협서 컨테이너선 침몰…승무원 21명 전원 대피</a></h3>
         <p class="issue-lead">싱가포르 해사항만청에 따르면 수요일 호르무즈 해협에서 싱가포르 선적 컨테이너선 GFS 프라이드호가 정체불명의 발사체에 맞아 화재가 발생한 뒤 침몰했으며, 승무원 21명은 전원 안전하게 대피했고 부상자는 보고되지 않았다.</p>
@@ -886,16 +761,16 @@ body.has-quant-shared-nav .skip-link {
         
         
         <details class="evidence-panel"><summary>출처·근거 1건</summary><div class="evidence-body">
-          <div class="claim" data-claim-id="e168e0024c4ee276f85c197e"><span class="claim-label">원문 사실</span>
+          <div class="claim" data-claim-id="c475de9390002c175f175eac"><span class="claim-label">원문 사실</span>
             
             <blockquote class="quote">그러나 해상 보안업체 Marisks에 따르면 프라이드호의 침몰 원인이 기뢰였음을 확인할 독립적인 증거는 없다.</blockquote><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
-          </div><div class="claim" data-claim-id="4fbfdfeac53273fd2bb541dd"><span class="claim-label">원문 사실</span>
+          </div><div class="claim" data-claim-id="60ebef4aa2479971c349d2c2"><span class="claim-label">원문 사실</span>
             
             <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
-          </div><div class="claim" data-claim-id="37ed96bd7d1434069b0732af"><span class="claim-label">원문 사실</span>
+          </div><div class="claim" data-claim-id="b213c9dd455e9b4ab77f2b76"><span class="claim-label">원문 사실</span>
             
             <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
-          </div><div class="claim" data-claim-id="1a9d381ab55e77ecf46970e6"><span class="claim-label">원문 사실</span>
+          </div><div class="claim" data-claim-id="358926e04c9147641bfbc34a"><span class="claim-label">원문 사실</span>
             
             <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
           </div>
@@ -903,40 +778,71 @@ body.has-quant-shared-nav .skip-link {
           
         </div></details>
         </div></details>
-      </article><article class="issue" id="issue-cc093af57542b4fc" data-issue-section="weekly-commodities_fx" data-scope="market" data-topics="commodities_fx" data-full-text="true">
-        <div class="issue-top"><span class="pill accent">원자재·환율</span><span class="source-caption">시엔비시 · 10.12 09:51 KST</span></div>
-        <h3><a href="#issue-cc093af57542b4fc">중국 금 수입 사상 최대…달러 의존 축소와 안전자산 수요가 배경</a></h3>
-        <p class="issue-lead">중국은 2026년 첫 8개월 동안 금 1,000톤 이상을 사상 최대인 1,588억 달러어치 수입해 2025년 연간 수입량 886톤과 수입액 965억 달러를 모두 넘어섰으며, 중국 인민은행은 9월 약 23톤을 추가 매입하며 23개월 연속 매입을 이어갔다.</p>
+      </article><article class="issue" id="issue-88f1d54d8a6c471e" data-issue-section="weekly-commodities_fx" data-region="overseas" data-scope="market" data-topics="commodities_fx" data-full-text="true">
+        <div class="issue-top"><span class="pill accent">원자재·환율</span><span class="source-caption">시엔비시 · 10.14 17:00 KST</span></div>
+        <h3><a href="#issue-88f1d54d8a6c471e">IEA, 이란 전쟁 여파에 경유 공급난 2027년 하반기까지 지속 전망</a></h3>
+        <p class="issue-lead">국제에너지기구(IEA)는 10월 석유시장보고서에서 연말 정유 처리량이 빠르게 회복하더라도 2026년 4분기 경유 공급이 수요를 밑돌고, 통상적인 계절 변동을 제외한 재고 보충은 2027년 하반기 이전에 어려울 것으로 전망했다.</p>
         
         
         <details class="issue-detail"><summary><span class="detail-open">상세 보기</span><span class="detail-close">접기</span><span class="detail-source-count">자료 1건</span></summary><div class="issue-reading">
-        <div class="issue-summary"><p>중국은 2026년 첫 8개월 동안 금 1,000톤 이상을 사상 최대인 1,588억 달러어치 수입해 2025년 연간 수입량 886톤과 수입액 965억 달러를 모두 넘어섰으며, 중국 인민은행은 9월 약 23톤을 추가 매입하며 23개월 연속 매입을 이어갔다.</p><p>율리우스베어의 카르스텐 멘케는 인민은행의 매입 동기를 달러의 무기화와 준비자산의 미 국채 의존도를 낮추려는 의도로 설명했으며, 중국 가계와 기업도 부동산 침체와 예금·채권 수익률 하락 속에서 금을 안전자산으로 찾고 있다.</p><p>금값은 9월 8% 넘게 하락해 온스당 약 4,176달러로 내려갔지만, 스테이트스트리트 투자운용의 금 전략 책임자 아카시 도시는 견조한 수요를 근거로 2027년 1분기 말 트로이온스당 4,750~5,500달러까지 상승할 것으로 전망했다.</p><p>다만 삭소은행의 올레 한센은 중국 부동산·주식시장에 대한 신뢰 회복, 위안화 약세에 따른 중국 내 금 가격 상승, 금리 상승에 따른 예금의 매력 증가가 금 수요를 약화시킬 수 있다고 지적했다.</p></div>
+        <div class="issue-summary"><p>국제에너지기구(IEA)는 10월 석유시장보고서에서 연말 정유 처리량이 빠르게 회복하더라도 2026년 4분기 경유 공급이 수요를 밑돌고, 통상적인 계절 변동을 제외한 재고 보충은 2027년 하반기 이전에 어려울 것으로 전망했다.</p><p>IEA에 따르면 지난달 세계 경유 수출은 전년 동월보다 하루 70만 배럴 감소했으며, 러시아·중동에서 줄어든 하루 130만 배럴의 물량은 다른 지역의 공급 증가로 일부만 상쇄됐다.</p><p>유럽·미국의 경유 도매가격은 배럴당 약 220달러로 사상 최고치를 기록했으며, IEA는 원유 해상운송 시장의 긴장으로 주요 경유 수입시장인 유럽·아프리카·중남미의 운송비 포함 가격이 향후 몇 주 안에 더 오를 수 있다고 경고했다.</p><p>트럼프 미국 대통령은 지난주 푸틴 러시아 대통령과 러시아산 경유 30만 톤을 세계 시장에 즉시 공급하기로 합의했다고 밝혔으나, 발디스 돔브로우스키스 EU 경제·생산성 담당 집행위원은 해당 물량에 거시경제적 의미가 없고 실제 공급 가능성도 의문이라며 러시아 제재 완화에 반대했다.</p></div>
         
         
         
         
         
         <details class="evidence-panel"><summary>출처·근거 1건</summary><div class="evidence-body">
-          <div class="claim" data-claim-id="a411cce3a8d943acf2affa26"><span class="claim-label">원문 사실</span>
+          <div class="claim" data-claim-id="8aca1962ce31bcaf7e7d1654"><span class="claim-label">원문 사실</span>
             
-            <blockquote class="quote">삭소은행의 원자재 전략 책임자 올레 한센은 “금 보유의 기회비용도 중국에서는 많은 서방 시장보다 훨씬 낮다”고 말했다.</blockquote><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
-          </div><div class="claim" data-claim-id="14a12b7a59ad43baa4fac656"><span class="claim-label">원문 사실</span>
-            
-            <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
-          </div><div class="claim" data-claim-id="682500bba525e4d4bd12baed"><span class="claim-label">원문 사실</span>
+            <blockquote class="quote">IEA는 10월 석유시장보고서에서 경유 공급이 2027년 하반기까지 빠듯한 상태를 유지할 것이라고 밝혔다.</blockquote><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
+          </div><div class="claim" data-claim-id="ab3f81c2bbf48f22906e0c3b"><span class="claim-label">원문 사실</span>
             
             <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
-          </div><div class="claim" data-claim-id="969ecd2017f0ac8e5c21daf6"><span class="claim-label">원문 사실</span>
+          </div><div class="claim" data-claim-id="c1cd6c04e71068ae09165add"><span class="claim-label">원문 사실</span>
+            
+            <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
+          </div><div class="claim" data-claim-id="b27ae333fe3eeacc3f9566de"><span class="claim-label">원문 사실</span>
             
             <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
           </div>
-          <ul class="source-list"><li><a href="https://www.cnbc.com/2026/10/12/china-gold-buying-interest-rate-.html" target="_blank" rel="noopener noreferrer" referrerpolicy="no-referrer">Why China is importing a record amount of gold — and what it means for prices ↗</a><div class="source-meta">시엔비시 · Anniek Bao · 발행 10.12 09:51 KST</div><details class="source-details"><summary>자료 정보</summary><div class="source-meta">수집 10.12 21:04 KST · 시간 기준 원문 발행<br>자료 제공 10.12 09:51 KST<br>원문 수정 10.12 09:51 KST<br>기사·문서 본문 확보</div></details></li></ul>
+          <ul class="source-list"><li><a href="https://www.cnbc.com/2026/10/14/diesel-deal-oil-price-iea-report.html" target="_blank" rel="noopener noreferrer" referrerpolicy="no-referrer">Diesel squeeze set to last well into 2027 as Iran war disrupts supply, IEA says ↗</a><div class="source-meta">시엔비시 · Chloe Taylor · 발행 10.14 17:00 KST</div><details class="source-details"><summary>자료 정보</summary><div class="source-meta">수집 10.15 14:36 KST · 시간 기준 원문 발행<br>자료 제공 10.14 19:37 KST<br>원문 수정 10.14 19:37 KST<br>기사·문서 본문 확보</div></details></li></ul>
+          
+        </div></details>
+        </div></details>
+      </article><article class="issue" id="issue-c7911792756dba30" data-issue-section="weekly-commodities_fx" data-region="overseas" data-scope="market" data-topics="commodities_fx" data-full-text="true">
+        <div class="issue-top"><span class="pill accent">원자재·환율</span><span class="source-caption">시엔비시 · 10.16 01:37 KST</span></div>
+        <h3><a href="#issue-c7911792756dba30">IEA, 경유 2,000만 배럴 이상 조속 방출 합의…구체적 일정 미공개</a></h3>
+        <p class="issue-lead">국제에너지기구(IEA)는 세계적인 연료 가격 급등에 대응해 회원국들이 경유 2,000만 배럴 이상을 ‘가능한 한 빨리’ 방출하기로 합의했다고 목요일 밝혔다. 이는 세계 경유 수요의 하루치에도 못 미치는 규모다.</p>
+        
+        
+        <details class="issue-detail"><summary><span class="detail-open">상세 보기</span><span class="detail-close">접기</span><span class="detail-source-count">자료 1건</span></summary><div class="issue-reading">
+        <div class="issue-summary"><p>국제에너지기구(IEA)는 세계적인 연료 가격 급등에 대응해 회원국들이 경유 2,000만 배럴 이상을 ‘가능한 한 빨리’ 방출하기로 합의했다고 목요일 밝혔다. 이는 세계 경유 수요의 하루치에도 못 미치는 규모다.</p><p>IEA는 구체적인 일정을 밝히지 않았으며, 프랑스가 이끄는 G7이 10월 2일 제시한 20일간의 방출 일정이 적용된다면 하루 약 100만 배럴을 공급하게 된다.</p><p>리포 오일 어소시에이츠의 앤디 리포 대표는 중동·러시아의 손상된 정유시설과 미국에서 최대 가동 중인 정유시설의 생산을 늘려야 하는 근본 문제는 이번 방출로 해결되지 않는다고 지적했다.</p><p>IEA 회원국들은 3월에 약속한 석유 4억 배럴 중 남은 1억 배럴도 각국 사정에 맞춰 적시에 방출하기로 했으며, IEA 이사회에 따르면 지금까지 3억3,000만 배럴이 방출됐고 일부 회원국의 당초 약속을 웃도는 방출로 총량은 4억 배럴을 넘을 예정이다.</p></div>
+        
+        
+        
+        
+        
+        <details class="evidence-panel"><summary>출처·근거 1건</summary><div class="evidence-body">
+          <div class="claim" data-claim-id="e9a55b09b5a35c4dcf4375a1"><span class="claim-label">원문 사실</span>
+            
+            <blockquote class="quote">국제에너지기구는 목요일 성명에서 전 세계적으로 연료 가격이 급등하는 가운데 회원국들이 경유 2,000만 배럴 이상을 ‘가능한 한 빨리’ 방출하기로 합의했다고 밝혔다.</blockquote><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
+          </div><div class="claim" data-claim-id="bf557ca927420d52994aff06"><span class="claim-label">원문 사실</span>
+            
+            <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
+          </div><div class="claim" data-claim-id="b17b55db03e3805a0109419b"><span class="claim-label">원문 사실</span>
+            
+            <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
+          </div><div class="claim" data-claim-id="1c3e459cead59d66e9930123"><span class="claim-label">원문 사실</span>
+            
+            <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
+          </div>
+          <ul class="source-list"><li><a href="https://www.cnbc.com/2026/10/15/iea-diesel-price-ukraine-iran-oil.html" target="_blank" rel="noopener noreferrer" referrerpolicy="no-referrer">International Energy Agency to release more than 20 million barrels of diesel as soon as possible ↗</a><div class="source-meta">시엔비시 · Spencer Kimball · 발행 10.16 01:37 KST</div><details class="source-details"><summary>자료 정보</summary><div class="source-meta">수집 10.16 04:10 KST · 시간 기준 원문 발행<br>자료 제공 10.16 01:47 KST<br>원문 수정 10.16 01:47 KST<br>기사·문서 본문 확보</div></details></li></ul>
           
         </div></details>
         </div></details>
       </article>
-    </div></section><section class="section" data-report-section="weekly-markets_flows" aria-labelledby="section-weekly-markets_flows"><div class="section-heading"><span class="weekly-chapter-number" aria-hidden="true">04</span><h2 id="section-weekly-markets_flows">시장·자금흐름</h2><span class="count">3</span><a class="weekly-back" href="#weekly-contents">목차 ↑</a></div><div class="issue-grid">
-      <article class="issue" id="issue-3f48905f264aa9b9" data-issue-section="weekly-markets_flows" data-scope="market" data-topics="markets_flows" data-full-text="true">
+    </div></section><section class="section" data-report-section="weekly-markets_flows" aria-labelledby="section-weekly-markets_flows"><div class="section-heading"><span class="weekly-chapter-number" aria-hidden="true">03</span><h2 id="section-weekly-markets_flows">시장·자금흐름</h2><span class="count">2</span><a class="weekly-back" href="#weekly-contents">목차 ↑</a></div><div class="issue-grid">
+      <article class="issue" id="issue-3f48905f264aa9b9" data-issue-section="weekly-markets_flows" data-region="overseas" data-scope="market" data-topics="markets_flows" data-full-text="true">
         <div class="issue-top"><span class="pill accent">시장·자금흐름</span><span class="source-caption">원문 Euronews · 제공 Yahoo Finance · 10.16 17:13 KST</span></div>
         <h3><a href="#issue-3f48905f264aa9b9">MSCI, 인도네시아 ‘독립시장’ 재분류 제안…증시 약 11% 급락</a></h3>
         <p class="issue-lead">MSCI가 인도네시아를 신흥시장에서 제외하고 프런티어시장을 거치지 않고 ‘독립시장(Standalone Market)’으로 재분류하는 방안에 대한 의견 수렴에 착수한 가운데, 인도네시아 증시는 금요일 약 11% 하락해 28년 만에 최대 일간 낙폭을 기록했다.</p>
@@ -950,16 +856,16 @@ body.has-quant-shared-nav .skip-link {
         
         
         <details class="evidence-panel"><summary>출처·근거 1건</summary><div class="evidence-body">
-          <div class="claim" data-claim-id="d413b8961077b5c5e39a4ead"><span class="claim-label">원문 사실</span>
+          <div class="claim" data-claim-id="7c484a4b531fff8b43e5eba8"><span class="claim-label">원문 사실</span>
             
             <blockquote class="quote">MSCI는 의견 수렴 과정에서 재고할 만한 시장 지배구조와 기능의 실질적 개선을 보여 주는 명확한 증거가 확인되지 않는 한, 제안한 재분류를 추진할 예정이다.</blockquote><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 원문 Euronews · 제공 Yahoo Finance · 본문</div>
-          </div><div class="claim" data-claim-id="271792424d50e6d1a12b6914"><span class="claim-label">원문 사실</span>
+          </div><div class="claim" data-claim-id="60342bdef3a025e3ef5852d7"><span class="claim-label">원문 사실</span>
             
             <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 원문 Euronews · 제공 Yahoo Finance · 본문</div>
-          </div><div class="claim" data-claim-id="224cf11cd5fa7677ec61d9ed"><span class="claim-label">원문 사실</span>
+          </div><div class="claim" data-claim-id="8502f0b9a8995ddbcd64b091"><span class="claim-label">원문 사실</span>
             
             <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 원문 Euronews · 제공 Yahoo Finance · 본문</div>
-          </div><div class="claim" data-claim-id="1b1b67b865a8cd608475f284"><span class="claim-label">원문 사실</span>
+          </div><div class="claim" data-claim-id="5906b9129ba58ce81f39bebe"><span class="claim-label">원문 사실</span>
             
             <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 원문 Euronews · 제공 Yahoo Finance · 본문</div>
           </div>
@@ -967,7 +873,7 @@ body.has-quant-shared-nav .skip-link {
           
         </div></details>
         </div></details>
-      </article><article class="issue" id="issue-b65589784474d747" data-issue-section="weekly-markets_flows" data-scope="market" data-topics="markets_flows" data-full-text="true">
+      </article><article class="issue" id="issue-b65589784474d747" data-issue-section="weekly-markets_flows" data-region="overseas" data-scope="market" data-topics="markets_flows" data-full-text="true">
         <div class="issue-top"><span class="pill accent">시장·자금흐름</span><span class="source-caption">시엔비시 · 10.15 09:42 KST</span></div>
         <h3><a href="#issue-b65589784474d747">아시아 기술주 급락…SK하이닉스 10% 넘게 하락</a></h3>
         <p class="issue-lead">목요일 아시아 기술주 매도세가 심화되면서 SK하이닉스는 10% 넘게, 삼성전자는 8.73% 하락했고, 일본 어드반테스트는 14% 가까이, 소프트뱅크그룹은 7.9%, 대만 TSMC는 1.81% 떨어졌다.</p>
@@ -981,16 +887,16 @@ body.has-quant-shared-nav .skip-link {
         
         
         <details class="evidence-panel"><summary>출처·근거 1건</summary><div class="evidence-body">
-          <div class="claim" data-claim-id="0d309c9e2668b95c94b39b69"><span class="claim-label">원문 사실</span>
+          <div class="claim" data-claim-id="08181995373bba18a9935f65"><span class="claim-label">원문 사실</span>
             
             <blockquote class="quote">그는 “우리의 견해를 바꾸게 할 것은 금리 신호가 아니라 수요 신호”라며, 대형 클라우드 사업자의 설비투자 계획 축소 가능성, 계약 취소 또는 GPU 임대료 하락을 경고 신호로 지목했다.</blockquote><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
-          </div><div class="claim" data-claim-id="0d2fefcd2dea8449ed990a29"><span class="claim-label">원문 사실</span>
+          </div><div class="claim" data-claim-id="99e9327b2afcde905ea4e5dc"><span class="claim-label">원문 사실</span>
             
             <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
-          </div><div class="claim" data-claim-id="26af2e5062518983ab4c874b"><span class="claim-label">원문 사실</span>
+          </div><div class="claim" data-claim-id="532f7f07603f70982d83d155"><span class="claim-label">원문 사실</span>
             
             <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
-          </div><div class="claim" data-claim-id="0b74f90ce8975cf1b6a31d9c"><span class="claim-label">원문 사실</span>
+          </div><div class="claim" data-claim-id="fd81291a2bcf75be6f0b3d14"><span class="claim-label">원문 사실</span>
             
             <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
           </div>
@@ -998,7 +904,106 @@ body.has-quant-shared-nav .skip-link {
           
         </div></details>
         </div></details>
-      </article><article class="issue" id="issue-8bbae89e5a57ea7f" data-issue-section="weekly-markets_flows" data-scope="market" data-topics="markets_flows" data-full-text="true">
+      </article>
+    </div></section><section class="section" data-report-section="weekly-credit_risk" aria-labelledby="section-weekly-credit_risk"><div class="section-heading"><span class="weekly-chapter-number" aria-hidden="true">04</span><h2 id="section-weekly-credit_risk">신용·위험</h2><span class="count">2</span><a class="weekly-back" href="#weekly-contents">목차 ↑</a></div><div class="issue-grid">
+      <article class="issue" id="issue-6af81240b8707f96" data-issue-section="weekly-credit_risk" data-region="overseas" data-scope="market" data-topics="credit_risk" data-full-text="true">
+        <div class="issue-top"><span class="pill accent">신용·위험</span><span class="source-caption">시엔비시 · 10.13 12:19 KST</span></div>
+        <h3><a href="#issue-6af81240b8707f96">IMF, 부채·인플레이션·AI 차입 확대에 국채금리 급등 위험 경고</a></h3>
+        <p class="issue-lead">국제통화기금(IMF)은 화요일 발표한 글로벌 금융안정보고서에서 인플레이션 재상승과 부채·차환 부담, AI 기업의 차입 확대가 국채시장을 압박해 금리가 무질서하게 급등할 수 있다고 경고했으며, 지난주에는 세계 공공부채가 조만간 GDP의 100%를 넘어설 것으로 전망했다.</p>
+        
+        
+        <details class="issue-detail"><summary><span class="detail-open">상세 보기</span><span class="detail-close">접기</span><span class="detail-source-count">자료 1건</span></summary><div class="issue-reading">
+        <div class="issue-summary"><p>국제통화기금(IMF)은 화요일 발표한 글로벌 금융안정보고서에서 인플레이션 재상승과 부채·차환 부담, AI 기업의 차입 확대가 국채시장을 압박해 금리가 무질서하게 급등할 수 있다고 경고했으며, 지난주에는 세계 공공부채가 조만간 GDP의 100%를 넘어설 것으로 전망했다.</p><p>보고서에 따르면 전 세계 투자등급 채권 발행에서 하이퍼스케일러의 비중은 2024년 이후 1% 미만에서 10%로 늘었으며, 핌코의 마크 사이드너 비전통 전략 최고투자책임자는 AI 관련 채권이 국채와 투자자 자금을 놓고 경쟁할 규모로 커졌지만 금리 상승의 주된 요인으로 보이지는 않는다고 평가했다.</p><p>IMF는 미국·유럽·영국의 유동성 지표가 안정적이고 시장 기능도 질서 있게 유지되고 있으나, 일본 국채시장 유동성은 수익률곡선 통제 종료 이후 금리 변동성이 커지면서 계속 악화됐다고 밝혔다.</p><p>IMF는 헤지펀드의 미 국채 베이시스 거래가 일부 청산됐어도 남은 레버리지로 인해 무질서한 청산 위험이 지속된다고 지적하고, 채무관리 당국에는 장기부채를 단기차입으로 대규모 대체하면 차환 위험이 커질 수 있다며 만기 연장을 촉구했다.</p></div>
+        
+        
+        
+        
+        
+        <details class="evidence-panel"><summary>출처·근거 1건</summary><div class="evidence-body">
+          <div class="claim" data-claim-id="7f64444e5246a8c80c90d997"><span class="claim-label">원문 사실</span>
+            
+            <blockquote class="quote">국제통화기금은 화요일 인플레이션 상승과 부채 증가, AI 관련 차입이 국채시장을 압박하면서 국채금리가 무질서하게 상승할 수 있다고 경고했다.</blockquote><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div><blockquote class="quote">퍼시픽 인베스트먼트 매니지먼트(핌코)의 마크 사이드너 비전통 전략 최고투자책임자는 “상당 부분이 장기물인 AI 관련 채권 발행은 금리를 움직이는 지배적 요인으로 보이지는 않지만, 투자자 자금을 놓고 국채와 경쟁할 만큼 규모가 커졌다”고 밝혔다.</blockquote><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
+          </div><div class="claim" data-claim-id="3fb2b2564dba197fa9fb4d68"><span class="claim-label">원문 사실</span>
+            
+            <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
+          </div><div class="claim" data-claim-id="b7510db15b9acb60f1790e88"><span class="claim-label">원문 사실</span>
+            
+            <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
+          </div><div class="claim" data-claim-id="065dd484a9cf6a9cd2aa5af0"><span class="claim-label">원문 사실</span>
+            
+            <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
+          </div>
+          <ul class="source-list"><li><a href="https://www.cnbc.com/2026/10/13/treasury-yields-imf-debt-inflation-.html" target="_blank" rel="noopener noreferrer" referrerpolicy="no-referrer">IMF warns bond yields could see a &#39;disorderly&#39; spike as debt, inflation risks worsen ↗</a><div class="source-meta">시엔비시 · Anniek Bao · 발행 10.13 12:19 KST</div><details class="source-details"><summary>자료 정보</summary><div class="source-meta">수집 10.13 13:16 KST · 시간 기준 원문 발행<br>자료 제공 10.13 12:19 KST<br>원문 수정 10.13 12:19 KST<br>기사·문서 본문 확보</div></details></li></ul>
+          
+        </div></details>
+        </div></details>
+      </article><article class="issue" id="issue-9c1a448ccb5391d2" data-issue-section="weekly-credit_risk" data-region="overseas" data-scope="market" data-topics="credit_risk" data-full-text="true">
+        <div class="issue-top"><span class="pill accent">신용·위험</span><span class="source-caption">시엔비시 · 10.16 01:52 KST</span></div>
+        <h3><a href="#issue-9c1a448ccb5391d2">코어위브 CDS, 신용 부실 신호 수준으로 상승…현금흐름 확보가 쟁점</a></h3>
+        <p class="issue-lead">AI 인프라 확충을 위해 510억 달러가 넘는 부채와 의무를 부담한 코어위브의 5년물 신용부도스와프(CDS) 스프레드는 목요일 한때 1,140bp를 넘었으며, 기사상 최근 수준은 약 1,038bp로 전주 대비 16%, 1년 전 대비 164% 높았다.</p>
+        
+        
+        <details class="issue-detail"><summary><span class="detail-open">상세 보기</span><span class="detail-close">접기</span><span class="detail-source-count">자료 1건</span></summary><div class="issue-reading">
+        <div class="issue-summary"><p>AI 인프라 확충을 위해 510억 달러가 넘는 부채와 의무를 부담한 코어위브의 5년물 신용부도스와프(CDS) 스프레드는 목요일 한때 1,140bp를 넘었으며, 기사상 최근 수준은 약 1,038bp로 전주 대비 16%, 1년 전 대비 164% 높았다.</p><p>2031년 만기·표면금리 9.75% 채권의 만기수익률은 15.78%에 도달했고, 주가는 수요일 15.5% 급락한 뒤 목요일에도 장중 하락했으나 반등해 5.94% 상승 마감했다.</p><p>S&amp;P 글로벌 마켓 인텔리전스의 개번 놀런은 CDS 스프레드 1,000bp 이상이 통상 신용 부실의 징후라며, 코어위브 서비스의 실제 수요보다 현재 큰 폭의 마이너스인 잉여현금흐름과 대규모 설비투자를 정당화할 현금흐름의 향후 유입 여부가 문제라고 설명했다.</p><p>마이크 인트레이터 CEO는 수요일 메모에서 수주잔고가 모든 부채 의무를 충분히 뒷받침한다고 반박했으며, 도이체방크는 목요일 수주잔고가 1,000억 달러를 넘고 그중 약 3분의 2가 마이크로소프트·메타 등 투자등급 거래상대방과의 계약이라고 밝혔다.</p></div>
+        
+        
+        
+        
+        
+        <details class="evidence-panel"><summary>출처·근거 1건</summary><div class="evidence-body">
+          <div class="claim" data-claim-id="46e76c16bc4d9011624034ed"><span class="claim-label">원문 사실</span>
+            
+            <blockquote class="quote">문제는 결국 현금흐름이 유입될지 여부다.</blockquote><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div><blockquote class="quote">우리는 모든 부채 의무를 뒷받침하고도 남는 수주잔고에 자신이 있다.</blockquote><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
+          </div><div class="claim" data-claim-id="18f30acf6c759832b01bfa7e"><span class="claim-label">원문 사실</span>
+            
+            <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
+          </div><div class="claim" data-claim-id="9755b95ee323888fe2af2994"><span class="claim-label">원문 사실</span>
+            
+            <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
+          </div><div class="claim" data-claim-id="ee46d52f381797174ce2f6f6"><span class="claim-label">원문 사실</span>
+            
+            <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
+          </div>
+          <ul class="source-list"><li><a href="https://www.cnbc.com/2026/10/15/coreweave-credit-default-swaps-hit-distress-levels-as-investors-sour-on-ai-debt.html" target="_blank" rel="noopener noreferrer" referrerpolicy="no-referrer">CoreWeave credit default swaps hit distress levels as investors sour on AI debt ↗</a><div class="source-meta">시엔비시 · Michelle Fox · 발행 10.16 01:52 KST</div><details class="source-details"><summary>자료 정보</summary><div class="source-meta">수집 10.16 17:17 KST · 시간 기준 원문 발행<br>원문 수정 10.16 06:33 KST<br>기사·문서 본문 확보</div></details></li></ul>
+          
+        </div></details>
+        </div></details>
+      </article>
+    </div></section><details class="additional-reading" id="additional-reading"><summary><span>추가 읽을거리</span><span class="additional-count">17건</span><span class="additional-hint"><span class="additional-open">펼쳐 보기</span><span class="additional-close">접기</span></span></summary><div class="additional-body"><section class="section" data-report-section="additional-weekly-commodities_fx" aria-labelledby="section-additional-weekly-commodities_fx"><div class="section-heading"><span class="weekly-chapter-number" aria-hidden="true">02</span><h2 id="section-additional-weekly-commodities_fx">원자재·환율</h2><span class="count">1</span><a class="weekly-back" href="#weekly-contents">목차 ↑</a></div><div class="issue-grid">
+      <article class="issue" id="issue-cc093af57542b4fc" data-issue-section="weekly-commodities_fx" data-region="overseas" data-scope="market" data-topics="commodities_fx" data-full-text="true">
+        <div class="issue-top"><span class="pill accent">원자재·환율</span><span class="source-caption">시엔비시 · 10.12 09:51 KST</span></div>
+        <h3><a href="#issue-cc093af57542b4fc">중국 금 수입 사상 최대…달러 의존 축소와 안전자산 수요가 배경</a></h3>
+        <p class="issue-lead">중국은 2026년 첫 8개월 동안 금 1,000톤 이상을 사상 최대인 1,588억 달러어치 수입해 2025년 연간 수입량 886톤과 수입액 965억 달러를 모두 넘어섰으며, 중국 인민은행은 9월 약 23톤을 추가 매입하며 23개월 연속 매입을 이어갔다.</p>
+        
+        
+        <details class="issue-detail"><summary><span class="detail-open">상세 보기</span><span class="detail-close">접기</span><span class="detail-source-count">자료 1건</span></summary><div class="issue-reading">
+        <div class="issue-summary"><p>중국은 2026년 첫 8개월 동안 금 1,000톤 이상을 사상 최대인 1,588억 달러어치 수입해 2025년 연간 수입량 886톤과 수입액 965억 달러를 모두 넘어섰으며, 중국 인민은행은 9월 약 23톤을 추가 매입하며 23개월 연속 매입을 이어갔다.</p><p>율리우스베어의 카르스텐 멘케는 인민은행의 매입 동기를 달러의 무기화와 준비자산의 미 국채 의존도를 낮추려는 의도로 설명했으며, 중국 가계와 기업도 부동산 침체와 예금·채권 수익률 하락 속에서 금을 안전자산으로 찾고 있다.</p><p>금값은 9월 8% 넘게 하락해 온스당 약 4,176달러로 내려갔지만, 스테이트스트리트 투자운용의 금 전략 책임자 아카시 도시는 견조한 수요를 근거로 2027년 1분기 말 트로이온스당 4,750~5,500달러까지 상승할 것으로 전망했다.</p><p>다만 삭소은행의 올레 한센은 중국 부동산·주식시장에 대한 신뢰 회복, 위안화 약세에 따른 중국 내 금 가격 상승, 금리 상승에 따른 예금의 매력 증가가 금 수요를 약화시킬 수 있다고 지적했다.</p></div>
+        
+        
+        
+        
+        
+        <details class="evidence-panel"><summary>출처·근거 1건</summary><div class="evidence-body">
+          <div class="claim" data-claim-id="3ca53122e63630b660632e04"><span class="claim-label">원문 사실</span>
+            
+            <blockquote class="quote">삭소은행의 원자재 전략 책임자 올레 한센은 “금 보유의 기회비용도 중국에서는 많은 서방 시장보다 훨씬 낮다”고 말했다.</blockquote><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
+          </div><div class="claim" data-claim-id="f1486449aa5de7b7b04ed128"><span class="claim-label">원문 사실</span>
+            
+            <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
+          </div><div class="claim" data-claim-id="8b04d790c545f300d3cbc6a0"><span class="claim-label">원문 사실</span>
+            
+            <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
+          </div><div class="claim" data-claim-id="4140bb505c5105abdf8400b8"><span class="claim-label">원문 사실</span>
+            
+            <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
+          </div>
+          <ul class="source-list"><li><a href="https://www.cnbc.com/2026/10/12/china-gold-buying-interest-rate-.html" target="_blank" rel="noopener noreferrer" referrerpolicy="no-referrer">Why China is importing a record amount of gold — and what it means for prices ↗</a><div class="source-meta">시엔비시 · Anniek Bao · 발행 10.12 09:51 KST</div><details class="source-details"><summary>자료 정보</summary><div class="source-meta">수집 10.12 21:04 KST · 시간 기준 원문 발행<br>자료 제공 10.12 09:51 KST<br>원문 수정 10.12 09:51 KST<br>기사·문서 본문 확보</div></details></li></ul>
+          
+        </div></details>
+        </div></details>
+      </article>
+    </div></section><section class="section" data-report-section="additional-weekly-markets_flows" aria-labelledby="section-additional-weekly-markets_flows"><div class="section-heading"><span class="weekly-chapter-number" aria-hidden="true">03</span><h2 id="section-additional-weekly-markets_flows">시장·자금흐름</h2><span class="count">1</span><a class="weekly-back" href="#weekly-contents">목차 ↑</a></div><div class="issue-grid">
+      <article class="issue" id="issue-8bbae89e5a57ea7f" data-issue-section="weekly-markets_flows" data-region="overseas" data-scope="market" data-topics="markets_flows" data-full-text="true">
         <div class="issue-top"><span class="pill accent">시장·자금흐름</span><span class="source-caption">연합인포맥스 · 10.16 14:04 KST</span></div>
         <h3><a href="#issue-8bbae89e5a57ea7f">골드만삭스 “헤지펀드, 글로벌 AI 바스켓 누적 순매수 모두 되돌려”</a></h3>
         <p class="issue-lead">골드만삭스의 빈센트 린 애널리스트는 16일 보고서에서 헤지펀드들이 지난 8일부터 14일까지 5거래일 연속 ‘골드만삭스 글로벌 AI 바스켓’을 순매도해 지난해 초부터 누적한 순매수를 모두 되돌렸다고 밝혔다.</p>
@@ -1012,16 +1017,16 @@ body.has-quant-shared-nav .skip-link {
         
         
         <details class="evidence-panel"><summary>출처·근거 1건</summary><div class="evidence-body">
-          <div class="claim" data-claim-id="a35d02c730565b1f11032c88"><span class="claim-label">원문 사실</span>
+          <div class="claim" data-claim-id="21568687ec82bd5b50941aaf"><span class="claim-label">원문 사실</span>
             
             <blockquote class="quote">16일 골드만삭스의 빈센트 린 애널리스트는 &#39;프라임 인사이트 &amp; 애널리틱스&#39; 보고서에서 헤지펀드들이 지난 8일부터 14일까지 5거래일 연속으로 &#39;골드만삭스 글로벌 AI 바스켓&#39;을 순매도했으며, 지난해 초부터 누적해 온 순매수를 모두 되돌렸다고 밝혔다.</blockquote><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 연합인포맥스 · 본문</div><blockquote class="quote">이번 AI 관련 주식에 대한 순매도 규모는 최근 1년간 두 번째로 큰 규모였다고 전했다.</blockquote><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 연합인포맥스 · 본문</div>
-          </div><div class="claim" data-claim-id="7d4d7fd8e19ce80820a20a34"><span class="claim-label">원문 사실</span>
+          </div><div class="claim" data-claim-id="639ccc3d2a60ddbc24290ea3"><span class="claim-label">원문 사실</span>
             
             <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 연합인포맥스 · 본문</div><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 연합인포맥스 · 본문</div>
-          </div><div class="claim" data-claim-id="968141de1dfb8feddfb084e9"><span class="claim-label">원문 사실</span>
+          </div><div class="claim" data-claim-id="c28cc34de822aeee99a67faa"><span class="claim-label">원문 사실</span>
             
             <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 연합인포맥스 · 본문</div><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 연합인포맥스 · 본문</div>
-          </div><div class="claim" data-claim-id="5123a78099b7809784602f5a"><span class="claim-label">원문 사실</span>
+          </div><div class="claim" data-claim-id="53d421c4021823d32a4ff772"><span class="claim-label">원문 사실</span>
             
             <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 연합인포맥스 · 본문</div><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 연합인포맥스 · 본문</div>
           </div>
@@ -1030,8 +1035,41 @@ body.has-quant-shared-nav .skip-link {
         </div></details>
         </div></details>
       </article>
-    </div></section><section class="section" data-report-section="weekly-company_industry" aria-labelledby="section-weekly-company_industry"><div class="section-heading"><span class="weekly-chapter-number" aria-hidden="true">05</span><h2 id="section-weekly-company_industry">기업·산업</h2><span class="count">10</span><a class="weekly-back" href="#weekly-contents">목차 ↑</a></div><div class="issue-grid">
-      <article class="issue" id="issue-604352b83a873a7c" data-issue-section="weekly-company_industry" data-scope="company" data-topics="company_industry" data-full-text="true">
+    </div></section><section class="section" data-report-section="additional-weekly-credit_risk" aria-labelledby="section-additional-weekly-credit_risk"><div class="section-heading"><span class="weekly-chapter-number" aria-hidden="true">04</span><h2 id="section-additional-weekly-credit_risk">신용·위험</h2><span class="count">1</span><a class="weekly-back" href="#weekly-contents">목차 ↑</a></div><div class="issue-grid">
+      <article class="issue" id="issue-39cd56df1e42b683" data-issue-section="weekly-credit_risk" data-region="overseas" data-scope="market" data-topics="credit_risk" data-full-text="true">
+        <div class="issue-top"><span class="pill accent">신용·위험</span><span class="source-caption">연합인포맥스 · 10.15 16:11 KST</span></div>
+        <h3><a href="#issue-39cd56df1e42b683">무디스, 사모 신용 디폴트 비율 5.8% 추정…중견기업 신용 경색 경고</a></h3>
+        <p class="issue-lead">무디스 레이팅스는 15일 보고서에서 사모 신용의 디폴트 비율 추정치 5.8%를 처음 공개하며 중견기업 차입자 사이에 신용 경색이 광범위하게 나타나고 있다고 진단했다.</p>
+        
+        
+        <details class="issue-detail"><summary><span class="detail-open">상세 보기</span><span class="detail-close">접기</span><span class="detail-source-count">자료 1건</span></summary><div class="issue-reading">
+        <div class="issue-summary"><p>무디스 레이팅스는 15일 보고서에서 사모 신용의 디폴트 비율 추정치 5.8%를 처음 공개하며 중견기업 차입자 사이에 신용 경색이 광범위하게 나타나고 있다고 진단했다.</p><p>이 추정치는 중견기업 담보부대출채권(CLO)에 포함된 발행사의 공식 부도뿐 아니라 현금 대신 현물로 이자를 지급하는 현물지급(PIK) 구조 변경과 재무적 곤경에 처한 발행사의 만기 연장 등을 반영한 것으로, 무디스는 수탁기관이 보고한 기존 디폴트 비율 4.0%가 실제 신용 경색을 과소평가할 가능성이 크다고 봤다.</p><p>무디스는 Caa 수준 신용도의 발행사들이 2027~2028년 만기 도래 물량의 절반 이상, 2029~2030년 만기 물량의 약 3분의 1을 차지한다며 향후 만기 물량이 부실 압력을 가중할 것으로 우려했다.</p><p>PIK는 단기 유동성을 공급하거나 성장을 지원할 수 있지만, 시간이 지나면서 근본적인 재무 스트레스를 해결하기보다 유예하거나 악화시킬 수 있다고 평가했다.</p></div>
+        
+        
+        
+        
+        
+        <details class="evidence-panel"><summary>출처·근거 1건</summary><div class="evidence-body">
+          <div class="claim" data-claim-id="b8b71fb44318994c71791c6c"><span class="claim-label">원문 사실</span>
+            
+            <blockquote class="quote">(서울=연합인포맥스) 권용욱 기자 = 국제신용평가사 무디스 레이팅스가 사모 신용 부실률 추정치를 처음으로 공개하며 시장 부실 가능성을 경고했다.</blockquote><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 연합인포맥스 · 본문</div><blockquote class="quote">무디스는 15일 보고서를 통해 &#34;사모 신용의 크레디트 디폴트 비율은 5.8%로 추정된다&#34;며 &#34;특히 중견기업 차입자들 사이에서 신용 경색이 광범위하게 나타나고 있다&#34;고 진단했다.</blockquote><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 연합인포맥스 · 본문</div>
+          </div><div class="claim" data-claim-id="17755c1cc474d459ff8d3397"><span class="claim-label">원문 사실</span>
+            
+            <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 연합인포맥스 · 본문</div><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 연합인포맥스 · 본문</div>
+          </div><div class="claim" data-claim-id="a8a19e5b4c8d8b235e559366"><span class="claim-label">원문 사실</span>
+            
+            <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 연합인포맥스 · 본문</div><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 연합인포맥스 · 본문</div>
+          </div><div class="claim" data-claim-id="dc81ac2f8e91d2f97b86fa20"><span class="claim-label">원문 사실</span>
+            
+            <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 연합인포맥스 · 본문</div><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 연합인포맥스 · 본문</div>
+          </div>
+          <ul class="source-list"><li><a href="https://news.einfomax.co.kr/news/articleView.html?idxno=4439467" target="_blank" rel="noopener noreferrer" referrerpolicy="no-referrer">무디스, 사모 신용 부실 경고…&#34;중견기업 신용 경색 심화&#34; ↗</a><div class="source-meta">연합인포맥스 · 권용욱 기자 · 발행 10.15 16:11 KST</div><details class="source-details"><summary>자료 정보</summary><div class="source-meta">수집 10.16 04:09 KST · 시간 기준 원문 발행<br>자료 제공 10.15 16:11 KST<br>기사·문서 본문 확보</div></details></li></ul>
+          
+        </div></details>
+        </div></details>
+      </article>
+    </div></section><section class="section" data-report-section="additional-weekly-company_industry" aria-labelledby="section-additional-weekly-company_industry"><div class="section-heading"><span class="weekly-chapter-number" aria-hidden="true">05</span><h2 id="section-additional-weekly-company_industry">기업·산업</h2><span class="count">10</span><a class="weekly-back" href="#weekly-contents">목차 ↑</a></div><div class="issue-grid">
+      <article class="issue" id="issue-604352b83a873a7c" data-issue-section="weekly-company_industry" data-region="overseas" data-scope="company" data-topics="company_industry" data-full-text="true">
         <div class="issue-top"><span class="pill accent">기업·산업</span><span class="source-caption">CNA · 10.16 06:00 KST</span></div>
         <h3><a href="#issue-604352b83a873a7c">앤스로픽 매출 성장 둔화에 일부 투자자, IPO 기업가치 기대 하향</a></h3>
         <p class="issue-lead">소식통들에 따르면 수요일 앤스로픽 투자자 행사에 참석한 일부 투자자는 11월 IPO 기업가치로 약 1조 5,000억 달러를 논의했으며, 이는 투자자들이 앞서 기대했던 약 2조 달러보다 낮은 수준이다.</p>
@@ -1045,16 +1083,16 @@ body.has-quant-shared-nav .skip-link {
         
         
         <details class="evidence-panel"><summary>출처·근거 1건</summary><div class="evidence-body">
-          <div class="claim" data-claim-id="74685d257047d548e70dc7e9"><span class="claim-label">원문 사실</span>
+          <div class="claim" data-claim-id="8ce7f243da4eb2d3811338d6"><span class="claim-label">원문 사실</span>
             
             <blockquote class="quote">소식통 중 3명에 따르면 수요일 샌프란시스코에서 열린 앤스로픽 투자자 행사에 참석한 일부 투자자들은 약 1조 5,000억 달러의 기업가치를 논의했으며, 이는 투자자들이 앞서 11월 공모에서 기대했던 약 2조 달러보다 크게 낮은 수준이다.</blockquote><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · CNA · 본문</div>
-          </div><div class="claim" data-claim-id="710903a30a85d63d60ab8edf"><span class="claim-label">원문 사실</span>
+          </div><div class="claim" data-claim-id="b3ba97d93cf3bf1613f66ea0"><span class="claim-label">원문 사실</span>
             
             <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · CNA · 본문</div>
-          </div><div class="claim" data-claim-id="5579d287af4fa4e5ecb4cfa1"><span class="claim-label">원문 사실</span>
+          </div><div class="claim" data-claim-id="c0677b31a06cda8b64470986"><span class="claim-label">원문 사실</span>
             
             <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · CNA · 본문</div>
-          </div><div class="claim" data-claim-id="3fe471e7d3fdbc1937ece1a4"><span class="claim-label">원문 사실</span>
+          </div><div class="claim" data-claim-id="abacbb4b98ed2d126e087891"><span class="claim-label">원문 사실</span>
             
             <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · CNA · 본문</div>
           </div>
@@ -1062,7 +1100,7 @@ body.has-quant-shared-nav .skip-link {
           
         </div></details>
         </div></details>
-      </article><article class="issue" id="issue-b3fdebe46519b9c1" data-issue-section="weekly-company_industry" data-scope="company" data-topics="company_industry" data-full-text="true">
+      </article><article class="issue" id="issue-b3fdebe46519b9c1" data-issue-section="weekly-company_industry" data-region="overseas" data-scope="company" data-topics="company_industry" data-full-text="true">
         <div class="issue-top"><span class="pill accent">기업·산업</span><span class="source-caption">시엔비시 · 10.14 14:14 KST</span></div>
         <h3><a href="#issue-b3fdebe46519b9c1">ASML, 3분기 순이익 예상 상회…일부 고객은 2029~2030년 주문에도 관심</a></h3>
         <p class="issue-lead">ASML의 3분기 순이익은 49억6,000만 유로로 LSEG 시장 예상치 41억 유로를 웃돌았지만, 순매출은 116억6,000만 유로로 예상치 117억2,000만 유로를 밑돌았다.</p>
@@ -1076,16 +1114,16 @@ body.has-quant-shared-nav .skip-link {
         
         
         <details class="evidence-panel"><summary>출처·근거 1건</summary><div class="evidence-body">
-          <div class="claim" data-claim-id="d58bcb2e2beecb794b0c0602"><span class="claim-label">원문 사실</span>
+          <div class="claim" data-claim-id="f4a711926033f081bfd93bf0"><span class="claim-label">원문 사실</span>
             
             <blockquote class="quote">고객들이 파악한 수요 전망에 비추어 볼 때, 일부 고객은 2029년, 나아가 2030년 주문을 우리에게 넣는 데 관심을 보이고 있습니다.</blockquote><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div><blockquote class="quote">푸케는 현재 계획된 2027년과 2028년 공급량으로는 고객 수요를 완전히 충족하지 못할 것이라고 말했다.</blockquote><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
-          </div><div class="claim" data-claim-id="fbfddf06a2c5aa469035acec"><span class="claim-label">원문 사실</span>
+          </div><div class="claim" data-claim-id="ea5a667eb9dfee2ab5638467"><span class="claim-label">원문 사실</span>
             
             <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
-          </div><div class="claim" data-claim-id="a6d43a9a80f5cf80c51c9d66"><span class="claim-label">원문 사실</span>
+          </div><div class="claim" data-claim-id="dabd8c245e96844ea74ad8b5"><span class="claim-label">원문 사실</span>
             
             <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
-          </div><div class="claim" data-claim-id="5fdb0303f1e1bae161cb111b"><span class="claim-label">원문 사실</span>
+          </div><div class="claim" data-claim-id="fb6c72a5a7021ffad443cc2a"><span class="claim-label">원문 사실</span>
             
             <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
           </div>
@@ -1093,7 +1131,7 @@ body.has-quant-shared-nav .skip-link {
           
         </div></details>
         </div></details>
-      </article><article class="issue" id="issue-fb12582091004a3e" data-issue-section="weekly-company_industry" data-scope="company" data-topics="company_industry" data-full-text="true">
+      </article><article class="issue" id="issue-fb12582091004a3e" data-issue-section="weekly-company_industry" data-region="overseas" data-scope="company" data-topics="company_industry" data-full-text="true">
         <div class="issue-top"><span class="pill accent">기업·산업</span><span class="source-caption">원문 Associated Press · 제공 ABC News · 10.15 19:16 KST</span></div>
         <h3><a href="#issue-fb12582091004a3e">TSMC, 텍사스 투자 검토…테라팹 참여 논의서 직접 운영 조건 강조</a></h3>
         <p class="issue-lead">TSMC는 목요일 실적 발표에서 AI 수요에 대응해 미국 생산을 확대하려 텍사스에 평가팀을 보냈으며, 투자 계획은 아직 검토 중이라고 밝혔다.</p>
@@ -1107,16 +1145,16 @@ body.has-quant-shared-nav .skip-link {
         
         
         <details class="evidence-panel"><summary>출처·근거 1건</summary><div class="evidence-body">
-          <div class="claim" data-claim-id="4e9bbb870008ccc2384acf2b"><span class="claim-label">원문 사실</span>
+          <div class="claim" data-claim-id="4b7b7160ea5488e6535e864e"><span class="claim-label">원문 사실</span>
             
             <blockquote class="quote">웨이는 “모든 평가를 수행하기 위해 텍사스에 팀들을 보냈다”고 말하며, 계획은 아직 검토 중이라고 덧붙였다.</blockquote><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 원문 Associated Press · 제공 ABC News · 본문</div><blockquote class="quote">“실제로 수요는 여전히 현재 우리의 공급 능력을 크게 웃돌고 있으며, 우리는 그 격차를 줄이기 위해 매우 열심히 노력하고 있습니다.”</blockquote><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 원문 Associated Press · 제공 ABC News · 본문</div>
-          </div><div class="claim" data-claim-id="40e6169a1201fa817fe1ad82"><span class="claim-label">원문 사실</span>
+          </div><div class="claim" data-claim-id="772e730030155583d13c7981"><span class="claim-label">원문 사실</span>
             
             <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 원문 Associated Press · 제공 ABC News · 본문</div><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 원문 Associated Press · 제공 ABC News · 본문</div>
-          </div><div class="claim" data-claim-id="bd2db8e4c5b8dc78ab79947a"><span class="claim-label">원문 사실</span>
+          </div><div class="claim" data-claim-id="b7f0831d2a737e5cd1bf3226"><span class="claim-label">원문 사실</span>
             
             <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 원문 Associated Press · 제공 ABC News · 본문</div><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 원문 Associated Press · 제공 ABC News · 본문</div>
-          </div><div class="claim" data-claim-id="b943fa1026415f21b1dbcf4f"><span class="claim-label">원문 사실</span>
+          </div><div class="claim" data-claim-id="4bb45a12349b71fb90de5527"><span class="claim-label">원문 사실</span>
             
             <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 원문 Associated Press · 제공 ABC News · 본문</div><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 원문 Associated Press · 제공 ABC News · 본문</div>
           </div>
@@ -1124,7 +1162,7 @@ body.has-quant-shared-nav .skip-link {
           
         </div></details>
         </div></details>
-      </article><article class="issue" id="issue-c8d418bd963dc360" data-issue-section="weekly-company_industry" data-scope="company" data-topics="company_industry" data-full-text="true">
+      </article><article class="issue" id="issue-c8d418bd963dc360" data-issue-section="weekly-company_industry" data-region="overseas" data-scope="company" data-topics="company_industry" data-full-text="true">
         <div class="issue-top"><span class="pill accent">기업·산업</span><span class="source-caption">한겨레 · 10.14 18:56 KST</span></div>
         <h3><a href="#issue-c8d418bd963dc360">CXMT, 연말 4F² 서버용 D램 예고…안정적 양산은 과제</a></h3>
         <p class="issue-lead">중국 창신메모리(CXMT)가 차세대 D램 셀 구조 ‘4F²’를 적용한 서버용 DDR5를 연말까지 내놓겠다고 밝혔다.</p>
@@ -1138,16 +1176,16 @@ body.has-quant-shared-nav .skip-link {
         
         
         <details class="evidence-panel"><summary>출처·근거 1건</summary><div class="evidence-body">
-          <div class="claim" data-claim-id="f8ff4c73ecf84af986ce13fe"><span class="claim-label">원문 사실</span>
+          <div class="claim" data-claim-id="38750a2092280a5d2ee3f316"><span class="claim-label">원문 사실</span>
             
             <blockquote class="quote">전날 삼성전자와 에스케이(SK)하이닉스 등 국내 반도체기업의 주가가 중국 창신메모리(CXMT)의 포에프스퀘어를 적용한 서버용 디램 ‘디디알(DDR)5’ 개발 소식에 폭락하자, 한-중 반도체 기술 격차에 대한 의구심이 부각된 것이다.</blockquote><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 한겨레 · 본문</div><blockquote class="quote">이날 나온 중국 세관당국 해관총서의 통계를 보면, 올해 9월 중국의 반도체(집적회로) 수출액은 449억5100만달러(약 60조1896억원)로 지난해 같은 기간보다 136% 증가했다.</blockquote><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 한겨레 · 본문</div>
-          </div><div class="claim" data-claim-id="34d247ae1528ee48170ac610"><span class="claim-label">원문 사실</span>
+          </div><div class="claim" data-claim-id="3cbf1c9ac4644fd685b63832"><span class="claim-label">원문 사실</span>
             
             <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 한겨레 · 본문</div><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 한겨레 · 본문</div>
-          </div><div class="claim" data-claim-id="15a901b47f42e51a72e47b6a"><span class="claim-label">원문 사실</span>
+          </div><div class="claim" data-claim-id="23f45c9b23711ea977da757e"><span class="claim-label">원문 사실</span>
             
             <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 한겨레 · 본문</div><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 한겨레 · 본문</div>
-          </div><div class="claim" data-claim-id="9302f6be1c1836f3c3e2ad50"><span class="claim-label">원문 사실</span>
+          </div><div class="claim" data-claim-id="445740506cb8a9aba04996de"><span class="claim-label">원문 사실</span>
             
             <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 한겨레 · 본문</div><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 한겨레 · 본문</div>
           </div>
@@ -1155,7 +1193,7 @@ body.has-quant-shared-nav .skip-link {
           
         </div></details>
         </div></details>
-      </article><article class="issue" id="issue-af6b391dc619dcb0" data-issue-section="weekly-company_industry" data-scope="company" data-topics="company_industry" data-full-text="true">
+      </article><article class="issue" id="issue-af6b391dc619dcb0" data-issue-section="weekly-company_industry" data-region="overseas" data-scope="company" data-topics="company_industry" data-full-text="true">
         <div class="issue-top"><span class="pill accent">기업·산업</span><span class="source-caption">원문 Associated Press · 제공 ABC News · 10.15 04:39 KST</span></div>
         <h3><a href="#issue-af6b391dc619dcb0">글로벌파운드리스, 일본 최대 210억 달러 투자로 뉴욕에 반도체 공장 2곳 신설 계획</a></h3>
         <p class="issue-lead">글로벌파운드리스는 수요일 트럼프 행정부와 일본 정부의 무역·투자 합의를 바탕으로 일본에서 최대 210억 달러를 투자받아 미국 뉴욕주 몰타에 반도체 공장 2곳을 열 계획이라고 밝혔다.</p>
@@ -1169,16 +1207,16 @@ body.has-quant-shared-nav .skip-link {
         
         
         <details class="evidence-panel"><summary>출처·근거 1건</summary><div class="evidence-body">
-          <div class="claim" data-claim-id="ff959cd654112065b1e1bf92"><span class="claim-label">원문 사실</span>
+          <div class="claim" data-claim-id="1f4872dc84d569a5f19e5169"><span class="claim-label">원문 사실</span>
             
             <blockquote class="quote">반도체 기업 글로벌파운드리스는 일본의 최대 210억 달러 투자로 자금을 조달해 뉴욕주 몰타에 공장 두 곳을 열 계획이라고 수요일 밝혔다.</blockquote><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 원문 Associated Press · 제공 ABC News · 본문</div>
-          </div><div class="claim" data-claim-id="5546407c7b56434a88f0596a"><span class="claim-label">원문 사실</span>
+          </div><div class="claim" data-claim-id="ec44cba0528079ebbd936b96"><span class="claim-label">원문 사실</span>
             
             <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 원문 Associated Press · 제공 ABC News · 본문</div>
-          </div><div class="claim" data-claim-id="04e46e616d43e6705ba7285f"><span class="claim-label">원문 사실</span>
+          </div><div class="claim" data-claim-id="84832fd97c4dc8902e65eeaf"><span class="claim-label">원문 사실</span>
             
             <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 원문 Associated Press · 제공 ABC News · 본문</div>
-          </div><div class="claim" data-claim-id="20605f920920f07aa17c4aa9"><span class="claim-label">원문 사실</span>
+          </div><div class="claim" data-claim-id="6a568d8bcaeda692a29f4d6f"><span class="claim-label">원문 사실</span>
             
             <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 원문 Associated Press · 제공 ABC News · 본문</div>
           </div>
@@ -1186,7 +1224,7 @@ body.has-quant-shared-nav .skip-link {
           
         </div></details>
         </div></details>
-      </article><article class="issue" id="issue-d859289040a006bd" data-issue-section="weekly-company_industry" data-scope="company" data-topics="company_industry" data-full-text="true">
+      </article><article class="issue" id="issue-d859289040a006bd" data-issue-section="weekly-company_industry" data-region="overseas" data-scope="company" data-topics="company_industry" data-full-text="true">
         <div class="issue-top"><span class="pill accent">기업·산업</span><span class="source-caption">시엔비시 · 10.14 19:15 KST</span></div>
         <h3><a href="#issue-d859289040a006bd">뱅크오브아메리카, 12억 달러 벌금·3분기 매출 예상 하회…주가 5% 가까이 하락</a></h3>
         <p class="issue-lead">뱅크오브아메리카는 수요일 미국 규제 당국의 12억 달러 벌금이 반영된 3분기 순이익이 17% 감소한 69억3,000만 달러라고 발표했으며, 이날 주가는 5% 가까이 하락했다.</p>
@@ -1200,16 +1238,16 @@ body.has-quant-shared-nav .skip-link {
         
         
         <details class="evidence-panel"><summary>출처·근거 1건</summary><div class="evidence-body">
-          <div class="claim" data-claim-id="dc9b8c4617ed920f94262386"><span class="claim-label">원문 사실</span>
+          <div class="claim" data-claim-id="adbaed341ae0411bae926858"><span class="claim-label">원문 사실</span>
             
             <blockquote class="quote">브라이언 모이니핸 CEO는 지난달 애널리스트들에게 트레이딩 매출이 대체로 보합을 유지할 것이라고 말했지만, 실제 채권·주식 트레이딩 매출 합계는 5% 감소하며 실망스러운 결과를 냈다.</blockquote><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div><blockquote class="quote">모이니핸은 “우리가 시정 작업을 해야 하고, 그다음에 규제 당국이 이를 검토합니다”라고 말했다.</blockquote><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
-          </div><div class="claim" data-claim-id="77280dca5de5b2404b5f6331"><span class="claim-label">원문 사실</span>
+          </div><div class="claim" data-claim-id="4601451e30a4d067f0f7c257"><span class="claim-label">원문 사실</span>
             
             <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
-          </div><div class="claim" data-claim-id="2bda6711c1e4889490a23677"><span class="claim-label">원문 사실</span>
+          </div><div class="claim" data-claim-id="40038ea7f4ee57e112a0bb73"><span class="claim-label">원문 사실</span>
             
             <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
-          </div><div class="claim" data-claim-id="2e812766ebdc4d761079d1fc"><span class="claim-label">원문 사실</span>
+          </div><div class="claim" data-claim-id="b9d251b9c0e7944855b0f262"><span class="claim-label">원문 사실</span>
             
             <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
           </div>
@@ -1217,7 +1255,7 @@ body.has-quant-shared-nav .skip-link {
           
         </div></details>
         </div></details>
-      </article><article class="issue" id="issue-ce4e1cddc181b655" data-issue-section="weekly-company_industry" data-scope="company" data-topics="company_industry" data-full-text="true">
+      </article><article class="issue" id="issue-ce4e1cddc181b655" data-issue-section="weekly-company_industry" data-region="overseas" data-scope="company" data-topics="company_industry" data-full-text="true">
         <div class="issue-top"><span class="pill accent">기업·산업</span><span class="source-caption">시엔비시 · 10.13 18:57 KST</span></div>
         <h3><a href="#issue-ce4e1cddc181b655">유나이티드헬스, 3분기 실적 예상 상회…연간 이익 전망 상향</a></h3>
         <p class="issue-lead">유나이티드헬스의 3분기 조정 주당순이익(EPS)은 4.69달러, 매출은 1,126억9,000만 달러로 LSEG 집계 예상치인 4.14달러와 1,114억 달러를 각각 웃돌았지만, 매출은 전년 동기 1,131억6,000만 달러보다 감소했다.</p>
@@ -1231,16 +1269,16 @@ body.has-quant-shared-nav .skip-link {
         
         
         <details class="evidence-panel"><summary>출처·근거 1건</summary><div class="evidence-body">
-          <div class="claim" data-claim-id="0f2adde7ae3eca91e2aefd7e"><span class="claim-label">원문 사실</span>
+          <div class="claim" data-claim-id="fb005df3ec6a264f863238b5"><span class="claim-label">원문 사실</span>
             
             <blockquote class="quote">미국 최대 민간 보험사인 유나이티드헬스는 2026 회계연도 조정 주당순이익을 기존 전망인 19.50~20달러에서 높인 최소 20.50달러로 예상한다고 밝혔다.</blockquote><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
-          </div><div class="claim" data-claim-id="6cc9134e0dacf6f9bbb253be"><span class="claim-label">원문 사실</span>
+          </div><div class="claim" data-claim-id="187960d2fc421743af317c5f"><span class="claim-label">원문 사실</span>
             
             <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
-          </div><div class="claim" data-claim-id="ddeb6d00d55a795f2ed19ab7"><span class="claim-label">원문 사실</span>
+          </div><div class="claim" data-claim-id="6f697a8cad83b088dcbcdb76"><span class="claim-label">원문 사실</span>
             
             <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
-          </div><div class="claim" data-claim-id="e06d896918fed2083e289e11"><span class="claim-label">원문 사실</span>
+          </div><div class="claim" data-claim-id="0b57a55d99f5a4b9b6181db9"><span class="claim-label">원문 사실</span>
             
             <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
           </div>
@@ -1248,7 +1286,7 @@ body.has-quant-shared-nav .skip-link {
           
         </div></details>
         </div></details>
-      </article><article class="issue" id="issue-f5828d7357886967" data-issue-section="weekly-company_industry" data-scope="company" data-topics="company_industry" data-full-text="true">
+      </article><article class="issue" id="issue-f5828d7357886967" data-issue-section="weekly-company_industry" data-region="overseas" data-scope="company" data-topics="company_industry" data-full-text="true">
         <div class="issue-top"><span class="pill accent">기업·산업</span><span class="source-caption">원문 Euronews · 제공 Yahoo Finance · 10.16 15:23 KST</span></div>
         <h3><a href="#issue-f5828d7357886967">유니크레디트, 코메르츠방크 지분 30% 초과 확대에 ECB 승인</a></h3>
         <p class="issue-lead">유니크레디트는 목요일 유럽중앙은행(ECB)으로부터 코메르츠방크 지분을 30% 넘게, 상한 없이 늘릴 수 있는 승인을 받았다고 밝혔다.</p>
@@ -1262,16 +1300,16 @@ body.has-quant-shared-nav .skip-link {
         
         
         <details class="evidence-panel"><summary>출처·근거 1건</summary><div class="evidence-body">
-          <div class="claim" data-claim-id="4d178c24618413ff7965670d"><span class="claim-label">원문 사실</span>
+          <div class="claim" data-claim-id="136f9fffe805f4c06a258915"><span class="claim-label">원문 사실</span>
             
             <blockquote class="quote">유니크레디트는 남은 규제 절차의 완료와 코메르츠방크 인수 제안 확정에 필요한 조건의 충족이 연말 무렵 이뤄질 것으로 예상한다고 밝혔다.</blockquote><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 원문 Euronews · 제공 Yahoo Finance · 본문</div><blockquote class="quote">그 시점에 유니크레디트는 코메르츠방크 의결권 약 50%를 보유하고 경영권을 확보할 수 있을 것으로 예상한다.</blockquote><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 원문 Euronews · 제공 Yahoo Finance · 본문</div>
-          </div><div class="claim" data-claim-id="8a3dba4c08efa584fc218654"><span class="claim-label">원문 사실</span>
+          </div><div class="claim" data-claim-id="94c0bbbe426be41089628193"><span class="claim-label">원문 사실</span>
             
             <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 원문 Euronews · 제공 Yahoo Finance · 본문</div><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 원문 Euronews · 제공 Yahoo Finance · 본문</div>
-          </div><div class="claim" data-claim-id="fa3bec15ef01e86e1265178d"><span class="claim-label">원문 사실</span>
+          </div><div class="claim" data-claim-id="5b32a59352656b460eed6036"><span class="claim-label">원문 사실</span>
             
             <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 원문 Euronews · 제공 Yahoo Finance · 본문</div><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 원문 Euronews · 제공 Yahoo Finance · 본문</div>
-          </div><div class="claim" data-claim-id="75136dae0a9e25d2401d4242"><span class="claim-label">원문 사실</span>
+          </div><div class="claim" data-claim-id="6f831913d4611811d8aeecac"><span class="claim-label">원문 사실</span>
             
             <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 원문 Euronews · 제공 Yahoo Finance · 본문</div><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 원문 Euronews · 제공 Yahoo Finance · 본문</div>
           </div>
@@ -1279,7 +1317,7 @@ body.has-quant-shared-nav .skip-link {
           
         </div></details>
         </div></details>
-      </article><article class="issue" id="issue-a5c7624d0ff58aa8" data-issue-section="weekly-company_industry" data-scope="company" data-topics="company_industry" data-full-text="true">
+      </article><article class="issue" id="issue-a5c7624d0ff58aa8" data-issue-section="weekly-company_industry" data-region="overseas" data-scope="company" data-topics="company_industry" data-full-text="true">
         <div class="issue-top"><span class="pill accent">기업·산업</span><span class="source-caption">가디언 · 10.16 00:55 KST</span></div>
         <h3><a href="#issue-a5c7624d0ff58aa8">영국 송전 병목에 전력망 수급 조정비 하루 4,790만 파운드</a></h3>
         <p class="issue-lead">영국 전력망 운영사 Neso는 수요일 전력이 남는 지역의 풍력발전을 중단하고 부족한 지역의 가스발전을 가동하는 데 4,790만 파운드를 지급했으며, 이는 2022년 우크라이나 위기 초기 이후 가장 높은 수준 중 하나다.</p>
@@ -1293,16 +1331,16 @@ body.has-quant-shared-nav .skip-link {
         
         
         <details class="evidence-panel"><summary>출처·근거 1건</summary><div class="evidence-body">
-          <div class="claim" data-claim-id="716f74bc56d539b5e4afa09b"><span class="claim-label">원문 사실</span>
+          <div class="claim" data-claim-id="501ea3b3cd2a063ff3d2f7aa"><span class="claim-label">원문 사실</span>
             
             <blockquote class="quote">LCP Delta의 전력거래 책임자 시밤 말호트라는 “전력 공급 측면에서 시스템 전체가 빠듯한 상황은 아니었다”고 말했다.</blockquote><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 가디언 · 본문</div>
-          </div><div class="claim" data-claim-id="249dd72bed5b5169e6cacaa1"><span class="claim-label">원문 사실</span>
+          </div><div class="claim" data-claim-id="c9d4e2a2551494637c63f99b"><span class="claim-label">원문 사실</span>
             
             <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 가디언 · 본문</div>
-          </div><div class="claim" data-claim-id="bc6f48916cac7f22459c7489"><span class="claim-label">원문 사실</span>
+          </div><div class="claim" data-claim-id="01b2acd66db091190d7d428e"><span class="claim-label">원문 사실</span>
             
             <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 가디언 · 본문</div>
-          </div><div class="claim" data-claim-id="942796a24f005cc53ad207e5"><span class="claim-label">원문 사실</span>
+          </div><div class="claim" data-claim-id="03acf0feebe579ceabb2a8d1"><span class="claim-label">원문 사실</span>
             
             <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 가디언 · 본문</div>
           </div>
@@ -1310,7 +1348,7 @@ body.has-quant-shared-nav .skip-link {
           
         </div></details>
         </div></details>
-      </article><article class="issue" id="issue-414db4f9a95b9f5b" data-issue-section="weekly-company_industry" data-scope="company" data-topics="company_industry" data-full-text="true">
+      </article><article class="issue" id="issue-414db4f9a95b9f5b" data-issue-section="weekly-company_industry" data-region="overseas" data-scope="company" data-topics="company_industry" data-full-text="true">
         <div class="issue-top"><span class="pill accent">기업·산업</span><span class="source-caption">시엔비시 · 10.15 10:56 KST</span></div>
         <h3><a href="#issue-414db4f9a95b9f5b">지오 플랫폼스, 인도 IPO로 최대 32억 달러 조달 추진</a></h3>
         <p class="issue-lead">메타와 구글이 투자한 인도 최대 통신사 지오 플랫폼스는 모회사 릴라이언스 인더스트리스의 공시에 따르면 10월 21~23일 주당 1,065~1,119루피에 2억7,000만 주를 공모해 최대 3,020억 루피(32억 달러)를 조달할 계획이다.</p>
@@ -1324,16 +1362,16 @@ body.has-quant-shared-nav .skip-link {
         
         
         <details class="evidence-panel"><summary>출처·근거 1건</summary><div class="evidence-body">
-          <div class="claim" data-claim-id="fd3addfdb7d2f0c45bd04036"><span class="claim-label">원문 사실</span>
+          <div class="claim" data-claim-id="71d8ed91f5ed7a7e040a9e13"><span class="claim-label">원문 사실</span>
             
             <blockquote class="quote">메타와 구글이 투자한 인도 최대 통신사 지오 플랫폼스는 기업공개를 통해 최대 3,020억 루피(32억 달러)를 조달하려 한다.</blockquote><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div><blockquote class="quote">IPO 서류에 따르면 메타와 구글 모두 회사의 보유 지분을 매각하지 않는다.</blockquote><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
-          </div><div class="claim" data-claim-id="45ad608f9dd937a0dc794f31"><span class="claim-label">원문 사실</span>
+          </div><div class="claim" data-claim-id="6eaf205d17a11a01ff1fda7b"><span class="claim-label">원문 사실</span>
             
             <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
-          </div><div class="claim" data-claim-id="4023fdacd2d89a5693bcc555"><span class="claim-label">원문 사실</span>
+          </div><div class="claim" data-claim-id="cbb00bb43e325e9b10919737"><span class="claim-label">원문 사실</span>
             
             <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
-          </div><div class="claim" data-claim-id="2351f072986cf0f49f1c5274"><span class="claim-label">원문 사실</span>
+          </div><div class="claim" data-claim-id="48f4f4c112253d76787c8018"><span class="claim-label">원문 사실</span>
             
             <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
           </div>
@@ -1342,8 +1380,8 @@ body.has-quant-shared-nav .skip-link {
         </div></details>
         </div></details>
       </article>
-    </div></section><section class="section" data-report-section="weekly-technology_ai" aria-labelledby="section-weekly-technology_ai"><div class="section-heading"><span class="weekly-chapter-number" aria-hidden="true">06</span><h2 id="section-weekly-technology_ai">기술·AI</h2><span class="count">2</span><a class="weekly-back" href="#weekly-contents">목차 ↑</a></div><div class="issue-grid">
-      <article class="issue" id="issue-99328ca961e91832" data-issue-section="weekly-technology_ai" data-scope="other_economic" data-topics="technology_ai" data-full-text="true">
+    </div></section><section class="section" data-report-section="additional-weekly-technology_ai" aria-labelledby="section-additional-weekly-technology_ai"><div class="section-heading"><span class="weekly-chapter-number" aria-hidden="true">06</span><h2 id="section-additional-weekly-technology_ai">기술·AI</h2><span class="count">2</span><a class="weekly-back" href="#weekly-contents">목차 ↑</a></div><div class="issue-grid">
+      <article class="issue" id="issue-99328ca961e91832" data-issue-section="weekly-technology_ai" data-region="overseas" data-scope="other_economic" data-topics="technology_ai" data-full-text="true">
         <div class="issue-top"><span class="pill accent">기술·AI</span><span class="source-caption">시엔비시 · 10.12 22:00 KST</span></div>
         <h3><a href="#issue-99328ca961e91832">마이크로소프트, Maia 300부터 AI 추론에 자체 칩 주력…2027년 생산 시작</a></h3>
         <p class="issue-lead">마이크로소프트는 월요일 공개한 3세대 AI 가속기 Maia 300부터 AI 추론, 즉 들어오는 요청 처리에 자체 칩을 주로 사용하겠다고 밝혔다.</p>
@@ -1357,16 +1395,16 @@ body.has-quant-shared-nav .skip-link {
         
         
         <details class="evidence-panel"><summary>출처·근거 1건</summary><div class="evidence-body">
-          <div class="claim" data-claim-id="53c483319622bbbed69ed8c5"><span class="claim-label">원문 사실</span>
+          <div class="claim" data-claim-id="a23a6813f405c52e69c87d26"><span class="claim-label">원문 사실</span>
             
             <blockquote class="quote">마이크로소프트는 월요일 공개한 3세대 Maia AI 가속기부터 들어오는 요청을 처리하는 데 주로 자체 칩을 사용하겠다고 밝혔다.</blockquote><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
-          </div><div class="claim" data-claim-id="aa760a60e514a8789262bb9e"><span class="claim-label">원문 사실</span>
+          </div><div class="claim" data-claim-id="0de5ef4a82bb9e8177117daa"><span class="claim-label">원문 사실</span>
             
             <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
-          </div><div class="claim" data-claim-id="0986f36492e4783433e43050"><span class="claim-label">원문 사실</span>
+          </div><div class="claim" data-claim-id="68857a427e3f539628897f54"><span class="claim-label">원문 사실</span>
             
             <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
-          </div><div class="claim" data-claim-id="126f2fd1b08e5cebcedb7e26"><span class="claim-label">원문 사실</span>
+          </div><div class="claim" data-claim-id="d26c4fc539c84254a999a015"><span class="claim-label">원문 사실</span>
             
             <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
           </div>
@@ -1374,7 +1412,7 @@ body.has-quant-shared-nav .skip-link {
           
         </div></details>
         </div></details>
-      </article><article class="issue" id="issue-7974f3dee6524b84" data-issue-section="weekly-technology_ai" data-scope="other_economic" data-topics="technology_ai" data-full-text="true">
+      </article><article class="issue" id="issue-7974f3dee6524b84" data-issue-section="weekly-technology_ai" data-region="overseas" data-scope="other_economic" data-topics="technology_ai" data-full-text="true">
         <div class="issue-top"><span class="pill accent">기술·AI</span><span class="source-caption">시엔비시 · 10.15 23:10 KST</span></div>
         <h3><a href="#issue-7974f3dee6524b84">AWS·앤트로픽, 기업 AI 도입 엔지니어 확대…투자 수익 입증은 과제</a></h3>
         <p class="issue-lead">기업의 AI 실험을 실제 업무 시스템으로 구현하는 현장 투입 엔지니어(FDE)를 늘리기 위해 AWS는 10억 달러를 투입하고, 앤트로픽은 1억 달러를 들여 고객사·협력사 소속 엔지니어 1만 명을 2027년 말까지 양성할 계획이다.</p>
@@ -1388,16 +1426,16 @@ body.has-quant-shared-nav .skip-link {
         
         
         <details class="evidence-panel"><summary>출처·근거 1건</summary><div class="evidence-body">
-          <div class="claim" data-claim-id="38b85fcfccd0446d6ea540fd"><span class="claim-label">원문 사실</span>
+          <div class="claim" data-claim-id="75623abe2a7951e766624f8b"><span class="claim-label">원문 사실</span>
             
             <blockquote class="quote">이러한 엔지니어링 생산성과 수행 역량의 개선은 독립적으로 검증된 AI 투자 수익이 아니다.</blockquote><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
-          </div><div class="claim" data-claim-id="3f2d3a9f42f1f1253b255ca6"><span class="claim-label">원문 사실</span>
+          </div><div class="claim" data-claim-id="24b83b1663941d033657c60e"><span class="claim-label">원문 사실</span>
             
             <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
-          </div><div class="claim" data-claim-id="5b09b7fb189bede0d8a4684d"><span class="claim-label">원문 사실</span>
+          </div><div class="claim" data-claim-id="0687bf6bdf8fd0fad26e4616"><span class="claim-label">원문 사실</span>
             
             <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
-          </div><div class="claim" data-claim-id="5c812e238c8bffba4f3aa857"><span class="claim-label">원문 사실</span>
+          </div><div class="claim" data-claim-id="fbb816be41c18e95305d226e"><span class="claim-label">원문 사실</span>
             
             <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
           </div>
@@ -1406,8 +1444,8 @@ body.has-quant-shared-nav .skip-link {
         </div></details>
         </div></details>
       </article>
-    </div></section><section class="section" data-report-section="weekly-expert_views" aria-labelledby="section-weekly-expert_views"><div class="section-heading"><span class="weekly-chapter-number" aria-hidden="true">07</span><h2 id="section-weekly-expert_views">전문가 견해</h2><span class="count">2</span><a class="weekly-back" href="#weekly-contents">목차 ↑</a></div><div class="issue-grid">
-      <article class="issue" id="issue-f3c7d13b6085dbe5" data-issue-section="weekly-expert_views" data-scope="other_economic" data-topics="expert_views" data-full-text="true">
+    </div></section><section class="section" data-report-section="additional-weekly-expert_views" aria-labelledby="section-additional-weekly-expert_views"><div class="section-heading"><span class="weekly-chapter-number" aria-hidden="true">07</span><h2 id="section-additional-weekly-expert_views">전문가 견해</h2><span class="count">2</span><a class="weekly-back" href="#weekly-contents">목차 ↑</a></div><div class="issue-grid">
+      <article class="issue" id="issue-f3c7d13b6085dbe5" data-issue-section="weekly-expert_views" data-region="overseas" data-scope="other_economic" data-topics="expert_views" data-full-text="true">
         <div class="issue-top"><span class="pill accent">전문가 견해</span><span class="source-caption">연합인포맥스 · 10.13 11:28 KST</span></div>
         <h3><a href="#issue-f3c7d13b6085dbe5">블랙록, 미 국채 단기물 ‘비중 확대’·장기물 ‘중립’으로 상향…미국 주식은 하향</a></h3>
         <p class="issue-lead">블랙록의 웨이 리 글로벌 수석 전략가와 릭 리더 채권 최고투자책임자 등은 12일(현지시간) 주간 논평에서 지난 6년 대부분 유지한 미 국채 비중 축소 기조를 전환하고, 단기물은 ‘중립’에서 ‘비중 확대’로, 장기물은 ‘비중 축소’에서 ‘중립’으로 상향했다.</p>
@@ -1421,16 +1459,16 @@ body.has-quant-shared-nav .skip-link {
         
         
         <details class="evidence-panel"><summary>출처·근거 1건</summary><div class="evidence-body">
-          <div class="claim" data-claim-id="6456d5ca3092514c5e387557"><span class="claim-label">원문 사실</span>
+          <div class="claim" data-claim-id="cae106fd4b0ec8bef68251eb"><span class="claim-label">원문 사실</span>
             
             <blockquote class="quote">(서울=연합인포맥스) 김성진 기자 = 세계 최대 자산운용사 블랙록이 지난 6년간 미국 국채에 대해 전반적으로 유지해왔던 &#39;비중 축소&#39;(underweight) 의견을 접기로 했다.</blockquote><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 연합인포맥스 · 본문</div><blockquote class="quote">블랙록의 웨이 리 글로벌 수석 전략가와 릭 리더 채권 최고투자책임자(CIO) 등은 12일(현지시간) 주간 논평에서 &#34;더 높은 수익률과 잠재적으로 과도한 연방준비제도(연준ㆍFed) 긴축 기대는 지난 6년의 대부분 동안 중심이었던 우리의 미 국채 비중 축소를 되돌릴 여지를 만든다&#34;면서 이같이 밝혔다.</blockquote><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 연합인포맥스 · 본문</div>
-          </div><div class="claim" data-claim-id="765d729da74d5e76fc952cf0"><span class="claim-label">원문 사실</span>
+          </div><div class="claim" data-claim-id="504f332d3b5170ab6a8c7363"><span class="claim-label">원문 사실</span>
             
             <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 연합인포맥스 · 본문</div><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 연합인포맥스 · 본문</div>
-          </div><div class="claim" data-claim-id="1fbf6a5486611221219e99ef"><span class="claim-label">원문 사실</span>
+          </div><div class="claim" data-claim-id="5fcd4ac1b2dc365b11afbae2"><span class="claim-label">원문 사실</span>
             
             <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 연합인포맥스 · 본문</div><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 연합인포맥스 · 본문</div>
-          </div><div class="claim" data-claim-id="0468191b9cf59bb59ad7d0d7"><span class="claim-label">원문 사실</span>
+          </div><div class="claim" data-claim-id="fe210848ca61c38ee4f5f662"><span class="claim-label">원문 사실</span>
             
             <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 연합인포맥스 · 본문</div><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 연합인포맥스 · 본문</div>
           </div>
@@ -1438,7 +1476,7 @@ body.has-quant-shared-nav .skip-link {
           
         </div></details>
         </div></details>
-      </article><article class="issue" id="issue-659237b178fa2d88" data-issue-section="weekly-expert_views" data-scope="other_economic" data-topics="expert_views" data-full-text="true">
+      </article><article class="issue" id="issue-659237b178fa2d88" data-issue-section="weekly-expert_views" data-region="overseas" data-scope="other_economic" data-topics="expert_views" data-full-text="true">
         <div class="issue-top"><span class="pill accent">전문가 견해</span><span class="source-caption">시엔비시 · 10.15 00:20 KST</span></div>
         <h3><a href="#issue-659237b178fa2d88">패니메이, 2027년 주택담보대출 금리 전망 6.7%에서 7.5%로 상향</a></h3>
         <p class="issue-lead">패니메이는 30년 만기 고정형 주택담보대출 평균 금리 전망을 2026년 4분기 6.8%에서 7.4%로, 2027년 전체 기간에 대해서는 6.7%에서 7.5%로 올렸다.</p>
@@ -1452,13 +1490,13 @@ body.has-quant-shared-nav .skip-link {
         
         
         <details class="evidence-panel"><summary>출처·근거 1건</summary><div class="evidence-body">
-          <div class="claim" data-claim-id="3572ea1cd324777b98599fa6"><span class="claim-label">원문 사실</span>
+          <div class="claim" data-claim-id="4be89dfaa4fb3ed8bfc8e2ba"><span class="claim-label">원문 사실</span>
             
             <blockquote class="quote">패니메이는 이제 30년 만기 고정형 주택담보대출 평균 금리를 올해 4분기 7.4%, 내년 전체 기간 7.5%로 전망한다.</blockquote><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div><blockquote class="quote">패니메이는 앞서 4분기 금리를 6.8%, 내년 전체 기간 금리를 6.7%로 전망했다.</blockquote><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
-          </div><div class="claim" data-claim-id="cf0c2e53d64d7f1a1982f3e7"><span class="claim-label">원문 사실</span>
+          </div><div class="claim" data-claim-id="b743db8fb1593b5d296d5041"><span class="claim-label">원문 사실</span>
             
             <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
-          </div><div class="claim" data-claim-id="f8d36aad46ed6b4c44d97c48"><span class="claim-label">원문 사실</span>
+          </div><div class="claim" data-claim-id="7e9223b287a489d261596ddd"><span class="claim-label">원문 사실</span>
             
             <div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div><div class="location"><span class="navigation-excerpt-label">원문 발췌</span> · 시엔비시 · 본문</div>
           </div>
@@ -1467,7 +1505,7 @@ body.has-quant-shared-nav .skip-link {
         </div></details>
         </div></details>
       </article>
-    </div></section>
+    </div></section></div></details>
 <section class="section" data-report-section="geeknews" aria-labelledby="ai-discovery-title">
   <div class="section-heading"><h2 id="ai-discovery-title">GeekNews 읽을거리</h2><span class="count">9</span></div>
   
@@ -1588,7 +1626,7 @@ body.has-quant-shared-nav .skip-link {
   <details class="operations-panel"><summary>자료 정보<span class="pill">35건</span></summary><div class="operations-content">
     <ul class="source-health"></ul>
   </div></details>
-  <section class="reader-review" aria-label="브리핑 검토" data-review-run="ab8bc108fe5b5e235e8c48ef">
+  <section class="reader-review" aria-label="브리핑 검토" data-review-run="860fd9d9203012cb7d4713d4">
   <div><h2>브리핑 검토</h2><p id="review-status" role="status">이 브라우저에 저장</p></div>
   <button type="button" id="review-complete" aria-pressed="false" disabled>검토 완료</button>
 </section>
@@ -1620,7 +1658,7 @@ body.has-quant-shared-nav .skip-link {
   const input=document.getElementById('search'),evidence=document.getElementById('evidence-filter'),period=document.getElementById('section-filter');
   const buttons=Array.from(document.querySelectorAll('button[data-scope]'));
   const issues=Array.from(document.querySelectorAll('[data-issue-section]')),sections=Array.from(document.querySelectorAll('[data-report-section]'));
-  const topic=document.getElementById('topic-filter');
+  const topic=document.getElementById('topic-filter'),region=document.getElementById('region-filter'),more=document.getElementById('additional-reading');
   let scope='all';
   function filter(){
     const query=input.value.trim().toLocaleLowerCase('ko');let visible=0;
@@ -1628,18 +1666,19 @@ body.has-quant-shared-nav .skip-link {
       const inScope=scope==='all'||issue.dataset.scope===scope||(scope==='economy'&&['macro','industry','other_economic'].includes(issue.dataset.scope));
       const searchable=[...issue.querySelectorAll('h3,.issue-summary,.meaning-notes,.change,.follow-questions,.source-list')].map(x=>x.textContent).join(' ').toLocaleLowerCase('ko');
       const full=issue.dataset.fullText==='true';
-      issue.hidden=!(inScope&&(period.value==='all'||issue.dataset.issueSection===period.value)&&(!query||searchable.includes(query))&&(!topic||topic.value==='all'||(issue.dataset.topics||'').split(' ').includes(topic.value))&&(evidence.value==='all'||(evidence.value==='full'?full:!full)));
+      issue.hidden=!(inScope&&(!region||region.value==='all'||issue.dataset.region===region.value)&&(period.value==='all'||issue.dataset.issueSection===period.value)&&(!query||searchable.includes(query))&&(!topic||topic.value==='all'||(issue.dataset.topics||'').split(' ').includes(topic.value))&&(evidence.value==='all'||(evidence.value==='full'?full:!full)));
       if(!issue.hidden)visible++;
     }
     for(const group of sections){const count=[...group.querySelectorAll('[data-issue-section]')].filter(i=>!i.hidden).length;group.hidden=count===0;group.querySelector('.count').textContent=String(count);}
     document.getElementById('result-count').textContent=visible===issues.length?visible+'개 항목':visible+' / '+issues.length+'개 항목';
-    document.getElementById('filter-reset').hidden=!(query||scope!=='all'||period.value!=='all'||evidence.value!=='all'||(topic&&topic.value!=='all'));
+    document.getElementById('filter-reset').hidden=!(query||scope!=='all'||period.value!=='all'||evidence.value!=='all'||(topic&&topic.value!=='all')||(region&&region.value!=='all'));
+    if(more){more.hidden=![...more.querySelectorAll('[data-issue-section]')].some(i=>!i.hidden);if(!more.hidden&&!document.getElementById('filter-reset').hidden)more.open=true;}
     document.getElementById('no-results').hidden=visible>0||issues.length===0;syncReading();
   }
-  document.getElementById('filter-reset').addEventListener('click',()=>{input.value='';evidence.value='all';period.value='all';if(topic)topic.value='all';scope='all';for(const b of buttons)b.setAttribute('aria-pressed',String(b.dataset.scope==='all'));filter();input.focus();});
-  input.addEventListener('input',filter);evidence.addEventListener('change',filter);period.addEventListener('change',filter);if(topic)topic.addEventListener('change',filter);
+  document.getElementById('filter-reset').addEventListener('click',()=>{input.value='';evidence.value='all';period.value='all';if(topic)topic.value='all';if(region)region.value='all';scope='all';for(const b of buttons)b.setAttribute('aria-pressed',String(b.dataset.scope==='all'));filter();input.focus();});
+  input.addEventListener('input',filter);evidence.addEventListener('change',filter);period.addEventListener('change',filter);if(topic)topic.addEventListener('change',filter);if(region)region.addEventListener('change',filter);
   for(const button of buttons)button.addEventListener('click',()=>{scope=button.dataset.scope;for(const b of buttons)b.setAttribute('aria-pressed',String(b===button));filter();});
-  function revealIssue(hash){let id;try{id=decodeURIComponent(hash.replace(/^#/,''));}catch(e){return;}const target=document.getElementById(id);if(!target||!target.matches('[data-issue-section]'))return;input.value='';evidence.value='all';period.value='all';if(topic)topic.value='all';scope='all';for(const b of buttons)b.setAttribute('aria-pressed',String(b.dataset.scope==='all'));filter();const details=target.querySelector('.issue-detail');if(details)details.open=true;requestAnimationFrame(()=>target.scrollIntoView({block:'start'}));}
+  function revealIssue(hash){let id;try{id=decodeURIComponent(hash.replace(/^#/,''));}catch(e){return;}const target=document.getElementById(id);if(!target||!target.matches('[data-issue-section]'))return;input.value='';evidence.value='all';period.value='all';if(topic)topic.value='all';if(region)region.value='all';scope='all';for(const b of buttons)b.setAttribute('aria-pressed',String(b.dataset.scope==='all'));filter();const details=target.querySelector('.issue-detail');if(details)details.open=true;const parent=target.closest('.additional-reading');if(parent)parent.open=true;requestAnimationFrame(()=>target.scrollIntoView({block:'start'}));}
   for(const link of document.querySelectorAll('.highlight-list a,.related a,.weekly-outlook a'))link.addEventListener('click',()=>{const url=new URL(link.href,location.href);if(url.origin===location.origin&&url.pathname===location.pathname&&url.hash)revealIssue(url.hash);});
   window.addEventListener('hashchange',()=>revealIssue(location.hash));
   
@@ -1648,8 +1687,8 @@ body.has-quant-shared-nav .skip-link {
     const target=document.getElementById(id);if(!target)return;
     if(target.matches('[data-issue-section]')){revealIssue(hash);return;}
     if(!target.closest('[data-report-section]'))return;
-    input.value='';evidence.value='all';period.value='all';if(topic)topic.value='all';scope='all';
-    filter();requestAnimationFrame(()=>target.scrollIntoView({block:'start'}));
+    input.value='';evidence.value='all';period.value='all';if(topic)topic.value='all';if(region)region.value='all';scope='all';
+    filter();const parent=target.closest('.additional-reading');if(parent)parent.open=true;requestAnimationFrame(()=>target.scrollIntoView({block:'start'}));
   }
   for(const link of document.querySelectorAll('.weekly-contents a,.weekly-spotlights a'))link.addEventListener('click',()=>revealWeeklySection(link.hash));
   window.addEventListener('hashchange',()=>revealWeeklySection(location.hash));
@@ -1673,7 +1712,8 @@ body.has-quant-shared-nav .skip-link {
       details.open=!details.open;
     });
   }
-  readingToggle.addEventListener('click',()=>{const expand=readingToggle.getAttribute('aria-pressed')!=='true';for(const issue of issues)if(!issue.hidden)issue.querySelector('.issue-detail').open=expand;readingToggle.setAttribute('aria-pressed',String(expand));readingToggle.textContent=expand?'모두 접기':'모두 펼치기';});
+  readingToggle.addEventListener('click',()=>{const expand=readingToggle.getAttribute('aria-pressed')!=='true';if(more&&expand&&!more.hidden)more.open=true;for(const issue of issues)if(!issue.hidden)issue.querySelector('.issue-detail').open=expand;readingToggle.setAttribute('aria-pressed',String(expand));readingToggle.textContent=expand?'모두 접기':'모두 펼치기';});
+  let beforePrintMore=false;window.addEventListener('beforeprint',()=>{if(more){beforePrintMore=more.open;more.open=true;}});window.addEventListener('afterprint',()=>{if(more)more.open=beforePrintMore;});
   const theme=document.getElementById('theme-toggle');
   function themeLabel(){const dark=document.documentElement.dataset.theme==='dark';const label=dark?'라이트 모드':'다크 모드';theme.querySelector('.theme-text').textContent=label;theme.setAttribute('aria-label',label+'로 전환');theme.setAttribute('aria-pressed',String(dark));}
   theme.addEventListener('click',()=>{const next=document.documentElement.dataset.theme==='dark'?'light':'dark';document.documentElement.dataset.theme=next;try{localStorage.setItem('research-news-theme',next);}catch(e){}themeLabel();});
