@@ -45,9 +45,9 @@ def verify(root):
         menu.feed(text)
         assert sorted(menu.assets) == [BASE + "nav.css", BASE + "nav.js"], path
         assert menu.project == "news", path
-        assert len(menu.links) == len(set(menu.links)) == 9, path
+        assert len(menu.links) == len(set(menu.links)) == 8, path
         assert "https://sonchanggi.github.io/factor/" in menu.links, path
-        assert not any("best-factor" in href or "momentum-factor-lab" in href for href in menu.links), path
+        assert not any("best-factor" in href or "momentum-factor-lab" in href or "/SPO/" in href for href in menu.links), path
         pages += 1
     assert pages, "Archive has no project navigation"
     hashes = 0
