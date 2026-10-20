@@ -2,7 +2,7 @@ name: Deploy news archive
 on:
   push:
     branches: [main]
-    paths: ['site/**', '.github/workflows/pages.yml', '.github/scripts/assemble-pages-preview.py']
+    paths: ['site/**', '.github/workflows/pages.yml', '.github/scripts/assemble-pages-preview.py', '.github/scripts/verify-shared-navigation.py']
   workflow_dispatch:
     inputs:
       preview_id:
@@ -32,6 +32,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/configure-pages@v5
+      - name: Verify shared project navigation and edition hashes
+        run: python3 .github/scripts/verify-shared-navigation.py
       - name: Assemble normal archive and optional verified preview
         env:
           PREVIEW_ID: ${{ inputs.preview_id || '' }}
