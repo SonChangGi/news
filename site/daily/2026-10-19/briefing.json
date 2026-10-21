@@ -1,9 +1,9 @@
 {
   "schema_version": "2",
-  "run_id": "b44575cb1bc00358b6aaa3b2",
+  "run_id": "a89759276b5ef4022a8976be",
   "report_date": "2026-10-19",
   "cutoff": "2026-10-19T03:29:41.363041+09:00",
-  "generated_at": "2026-10-19T04:14:00.489069+00:00",
+  "generated_at": "2026-10-21T00:06:47.726766+00:00",
   "mode": "reconstruction",
   "status": "complete",
   "reviewable_draft": true,
@@ -17,7 +17,7 @@
   "timezone": "Asia/Seoul",
   "input_manifest_hash": "412292360ba64f22affbed2c5148834afc60c42b84c32a2896ef22821553e36b",
   "edition_phase": "daily_final",
-  "previous_revision_run_id": "a50e31a1225945d56e9bbf15",
+  "previous_revision_run_id": "b44575cb1bc00358b6aaa3b2",
   "news_counts": {
     "total": 35,
     "overseas": 33,
@@ -8363,7 +8363,7 @@
       "source_id": "cnbc_world",
       "source_kind": "news",
       "title": "Bessent warns Zelenskyy to 'be very careful' about claims U.S. is throttling Starlink",
-      "publisher": "시엔비시",
+      "publisher": "CNBC",
       "author": "Garrett Downs",
       "url": "https://www.cnbc.com/2026/10/18/bessent-zelenskyy-starlink-ukarine-war.html",
       "published_at": "2026-10-18T14:37:36+00:00",
@@ -8379,9 +8379,9 @@
       "synthetic": false,
       "publisher_identity": {
         "version": "publisher-identity-v1",
-        "acquisition_publisher": "시엔비시",
-        "origin_publisher": "시엔비시",
-        "source_family": "시엔비시",
+        "acquisition_publisher": "CNBC",
+        "origin_publisher": "CNBC",
+        "source_family": "CNBC",
         "origin_basis": "acquisition_fallback",
         "origin_confirmed": false
       }
@@ -8409,8 +8409,8 @@
       "publisher_identity": {
         "version": "publisher-identity-v1",
         "acquisition_publisher": "Yahoo! Finance",
-        "origin_publisher": "블룸버그",
-        "source_family": "블룸버그",
+        "origin_publisher": "Bloomberg",
+        "source_family": "Bloomberg",
         "origin_basis": "article_provider_logo",
         "origin_confirmed": true
       }
@@ -8575,8 +8575,8 @@
       "publisher_identity": {
         "version": "publisher-identity-v1",
         "acquisition_publisher": "CNA",
-        "origin_publisher": "로이터",
-        "source_family": "로이터",
+        "origin_publisher": "Reuters",
+        "source_family": "Reuters",
         "origin_basis": "article_source_label",
         "origin_confirmed": false
       }
@@ -8625,8 +8625,8 @@
       "publisher_identity": {
         "version": "publisher-identity-v1",
         "acquisition_publisher": "Yahoo! Finance",
-        "origin_publisher": "블룸버그",
-        "source_family": "블룸버그",
+        "origin_publisher": "Bloomberg",
+        "source_family": "Bloomberg",
         "origin_basis": "article_provider_logo",
         "origin_confirmed": true
       }
@@ -8683,8 +8683,8 @@
       "publisher_identity": {
         "version": "publisher-identity-v1",
         "acquisition_publisher": "CNA",
-        "origin_publisher": "로이터",
-        "source_family": "로이터",
+        "origin_publisher": "Reuters",
+        "source_family": "Reuters",
         "origin_basis": "article_source_label",
         "origin_confirmed": false
       }
@@ -8716,7 +8716,7 @@
       "source_id": "guardian_business",
       "source_kind": "news",
       "title": "Palantir patient data tech rejected by many NHS trusts in England",
-      "publisher": "가디언",
+      "publisher": "The Guardian",
       "author": "Robert Booth",
       "url": "https://www.theguardian.com/technology/2026/oct/17/palantir-patient-data-tech-rejected-by-many-nhs-trusts-in-england",
       "published_at": "2026-10-17T06:00:24+00:00",
@@ -8732,9 +8732,9 @@
       "synthetic": false,
       "publisher_identity": {
         "version": "publisher-identity-v1",
-        "acquisition_publisher": "가디언",
-        "origin_publisher": "가디언",
-        "source_family": "가디언",
+        "acquisition_publisher": "The Guardian",
+        "origin_publisher": "The Guardian",
+        "source_family": "The Guardian",
         "origin_basis": "acquisition_fallback",
         "origin_confirmed": false
       }
@@ -8762,8 +8762,8 @@
       "publisher_identity": {
         "version": "publisher-identity-v1",
         "acquisition_publisher": "CNA",
-        "origin_publisher": "로이터",
-        "source_family": "로이터",
+        "origin_publisher": "Reuters",
+        "source_family": "Reuters",
         "origin_basis": "article_source_label",
         "origin_confirmed": false
       }
@@ -8791,8 +8791,8 @@
       "publisher_identity": {
         "version": "publisher-identity-v1",
         "acquisition_publisher": "CNA",
-        "origin_publisher": "로이터",
-        "source_family": "로이터",
+        "origin_publisher": "Reuters",
+        "source_family": "Reuters",
         "origin_basis": "article_source_label",
         "origin_confirmed": false
       }
@@ -8849,8 +8849,8 @@
       "publisher_identity": {
         "version": "publisher-identity-v1",
         "acquisition_publisher": "CNA",
-        "origin_publisher": "로이터",
-        "source_family": "로이터",
+        "origin_publisher": "Reuters",
+        "source_family": "Reuters",
         "origin_basis": "article_source_label",
         "origin_confirmed": false
       }
@@ -8861,7 +8861,7 @@
       "source_id": "cnbc_business",
       "source_kind": "news",
       "title": "Here's who Netflix just brought in to run content — and what it means for the streamer",
-      "publisher": "시엔비시",
+      "publisher": "CNBC",
       "author": "Sarah Whitten",
       "url": "https://www.cnbc.com/2026/10/16/netflix-peter-rice-chief-content-officer.html",
       "published_at": "2026-10-16T17:02:50+00:00",
@@ -8877,9 +8877,9 @@
       "synthetic": false,
       "publisher_identity": {
         "version": "publisher-identity-v1",
-        "acquisition_publisher": "시엔비시",
-        "origin_publisher": "시엔비시",
-        "source_family": "시엔비시",
+        "acquisition_publisher": "CNBC",
+        "origin_publisher": "CNBC",
+        "source_family": "CNBC",
         "origin_basis": "acquisition_fallback",
         "origin_confirmed": false
       }
@@ -8965,8 +8965,8 @@
       "publisher_identity": {
         "version": "publisher-identity-v1",
         "acquisition_publisher": "Yahoo! Finance",
-        "origin_publisher": "로이터",
-        "source_family": "로이터",
+        "origin_publisher": "Reuters",
+        "source_family": "Reuters",
         "origin_basis": "article_provider_logo",
         "origin_confirmed": true
       }
@@ -9015,8 +9015,8 @@
       "publisher_identity": {
         "version": "publisher-identity-v1",
         "acquisition_publisher": "Yahoo! Finance",
-        "origin_publisher": "블룸버그",
-        "source_family": "블룸버그",
+        "origin_publisher": "Bloomberg",
+        "source_family": "Bloomberg",
         "origin_basis": "article_provider_logo",
         "origin_confirmed": true
       }
@@ -9085,7 +9085,7 @@
       "source_id": "guardian_business",
       "source_kind": "news",
       "title": "Not cool: who hacked France’s supermarket fridges?",
-      "publisher": "가디언",
+      "publisher": "The Guardian",
       "author": "Kim Willsher",
       "url": "https://www.theguardian.com/world/2026/oct/17/who-hacked-frances-supermarket-fridges",
       "published_at": "2026-10-17T04:00:20+00:00",
@@ -9101,9 +9101,9 @@
       "synthetic": false,
       "publisher_identity": {
         "version": "publisher-identity-v1",
-        "acquisition_publisher": "가디언",
-        "origin_publisher": "가디언",
-        "source_family": "가디언",
+        "acquisition_publisher": "The Guardian",
+        "origin_publisher": "The Guardian",
+        "source_family": "The Guardian",
         "origin_basis": "acquisition_fallback",
         "origin_confirmed": false
       }
@@ -9143,7 +9143,7 @@
       "source_id": "cnbc_world",
       "source_kind": "news",
       "title": "Investors are buying up vast tracts of timberland across U.S. in one of market's longest-term bets",
-      "publisher": "시엔비시",
+      "publisher": "CNBC",
       "author": "Kevin Williams",
       "url": "https://www.cnbc.com/2026/10/17/timberland-investing-returns-risk.html",
       "published_at": "2026-10-17T13:47:00+00:00",
@@ -9159,9 +9159,9 @@
       "synthetic": false,
       "publisher_identity": {
         "version": "publisher-identity-v1",
-        "acquisition_publisher": "시엔비시",
-        "origin_publisher": "시엔비시",
-        "source_family": "시엔비시",
+        "acquisition_publisher": "CNBC",
+        "origin_publisher": "CNBC",
+        "source_family": "CNBC",
         "origin_basis": "acquisition_fallback",
         "origin_confirmed": false
       }

@@ -1,9 +1,9 @@
 {
   "schema_version": "2",
-  "run_id": "79668d6660cdb68b3b88626a",
+  "run_id": "b29e7d1e6041e2fb18613d83",
   "report_date": "2026-10-21",
   "cutoff": "2026-10-21T05:30:55.794507+09:00",
-  "generated_at": "2026-10-20T22:26:57.072708+00:00",
+  "generated_at": "2026-10-21T00:06:49.482002+00:00",
   "mode": "reconstruction",
   "status": "complete",
   "reviewable_draft": true,
@@ -17,7 +17,7 @@
   "timezone": "Asia/Seoul",
   "input_manifest_hash": "855b255264c924f1a0c0abc73e7a73810af8b1b4d1174bd94a9922f6c4fe6923",
   "edition_phase": "daily_final",
-  "previous_revision_run_id": "",
+  "previous_revision_run_id": "79668d6660cdb68b3b88626a",
   "news_counts": {
     "total": 35,
     "overseas": 35,
@@ -8690,7 +8690,7 @@
       "source_id": "cnbc_world",
       "source_kind": "news",
       "title": "U.S. oil surges to top $110, Brent crude at five-month high amid Mideast tensions",
-      "publisher": "시엔비시",
+      "publisher": "CNBC",
       "author": "Chloe Taylor",
       "url": "https://www.cnbc.com/2026/10/20/oil-price-wti-brent-crude.html",
       "published_at": "2026-10-20T10:48:27+00:00",
@@ -8706,9 +8706,9 @@
       "synthetic": false,
       "publisher_identity": {
         "version": "publisher-identity-v1",
-        "acquisition_publisher": "시엔비시",
-        "origin_publisher": "시엔비시",
-        "source_family": "시엔비시",
+        "acquisition_publisher": "CNBC",
+        "origin_publisher": "CNBC",
+        "source_family": "CNBC",
         "origin_basis": "acquisition_fallback",
         "origin_confirmed": false
       }
@@ -8736,8 +8736,8 @@
       "publisher_identity": {
         "version": "publisher-identity-v1",
         "acquisition_publisher": "CNA",
-        "origin_publisher": "로이터",
-        "source_family": "로이터",
+        "origin_publisher": "Reuters",
+        "source_family": "Reuters",
         "origin_basis": "article_source_label",
         "origin_confirmed": false
       }
@@ -8765,8 +8765,8 @@
       "publisher_identity": {
         "version": "publisher-identity-v1",
         "acquisition_publisher": "CNA",
-        "origin_publisher": "로이터",
-        "source_family": "로이터",
+        "origin_publisher": "Reuters",
+        "source_family": "Reuters",
         "origin_basis": "article_source_label",
         "origin_confirmed": false
       }
@@ -8777,7 +8777,7 @@
       "source_id": "cnbc_business",
       "source_kind": "news",
       "title": "Boeing wins FAA approval for 737 Max 10 after years of delays",
-      "publisher": "시엔비시",
+      "publisher": "CNBC",
       "author": "Leslie Josephs",
       "url": "https://www.cnbc.com/2026/10/20/boeing-737-max-10-certification.html",
       "published_at": "2026-10-20T19:31:49+00:00",
@@ -8793,9 +8793,9 @@
       "synthetic": false,
       "publisher_identity": {
         "version": "publisher-identity-v1",
-        "acquisition_publisher": "시엔비시",
-        "origin_publisher": "시엔비시",
-        "source_family": "시엔비시",
+        "acquisition_publisher": "CNBC",
+        "origin_publisher": "CNBC",
+        "source_family": "CNBC",
         "origin_basis": "acquisition_fallback",
         "origin_confirmed": false
       }
@@ -8835,7 +8835,7 @@
       "source_id": "cnbc_business",
       "source_kind": "news",
       "title": "United Airlines slashes 2026 profit outlook on fuel prices, but travelers keep booking despite higher fares",
-      "publisher": "시엔비시",
+      "publisher": "CNBC",
       "author": "Leslie Josephs",
       "url": "https://www.cnbc.com/2026/10/20/united-airlines-ual-3q-2026-earnings.html",
       "published_at": "2026-10-20T20:03:05+00:00",
@@ -8851,9 +8851,9 @@
       "synthetic": false,
       "publisher_identity": {
         "version": "publisher-identity-v1",
-        "acquisition_publisher": "시엔비시",
-        "origin_publisher": "시엔비시",
-        "source_family": "시엔비시",
+        "acquisition_publisher": "CNBC",
+        "origin_publisher": "CNBC",
+        "source_family": "CNBC",
         "origin_basis": "acquisition_fallback",
         "origin_confirmed": false
       }
@@ -8864,7 +8864,7 @@
       "source_id": "telegram_joined",
       "source_kind": "news",
       "title": "General Motors beats Wall Street's Q3 earnings expectations, narrows full-year guidance",
-      "publisher": "시엔비시",
+      "publisher": "CNBC",
       "author": "Michael Wayland",
       "url": "https://www.cnbc.com/2026/10/20/general-motors-gm-earnings-q3-2026.html",
       "published_at": "2026-10-20T04:01:01+00:00",
@@ -8880,9 +8880,9 @@
       "synthetic": false,
       "publisher_identity": {
         "version": "publisher-identity-v1",
-        "acquisition_publisher": "시엔비시",
-        "origin_publisher": "시엔비시",
-        "source_family": "시엔비시",
+        "acquisition_publisher": "CNBC",
+        "origin_publisher": "CNBC",
+        "source_family": "CNBC",
         "origin_basis": "acquisition_fallback",
         "origin_confirmed": false
       }
@@ -8952,8 +8952,8 @@
       "publisher_identity": {
         "version": "publisher-identity-v1",
         "acquisition_publisher": "CNA",
-        "origin_publisher": "로이터",
-        "source_family": "로이터",
+        "origin_publisher": "Reuters",
+        "source_family": "Reuters",
         "origin_basis": "article_source_label",
         "origin_confirmed": false
       }
@@ -8981,8 +8981,8 @@
       "publisher_identity": {
         "version": "publisher-identity-v1",
         "acquisition_publisher": "Yahoo! Finance",
-        "origin_publisher": "로이터",
-        "source_family": "로이터",
+        "origin_publisher": "Reuters",
+        "source_family": "Reuters",
         "origin_basis": "article_provider_logo",
         "origin_confirmed": true
       }
@@ -9097,8 +9097,8 @@
       "publisher_identity": {
         "version": "publisher-identity-v1",
         "acquisition_publisher": "CNA",
-        "origin_publisher": "로이터",
-        "source_family": "로이터",
+        "origin_publisher": "Reuters",
+        "source_family": "Reuters",
         "origin_basis": "article_source_label",
         "origin_confirmed": false
       }
@@ -9109,7 +9109,7 @@
       "source_id": "cnbc_world",
       "source_kind": "news",
       "title": "Trump sued over 50% tariffs on Canada in latest trade challenge",
-      "publisher": "시엔비시",
+      "publisher": "CNBC",
       "author": "Kevin Breuninger",
       "url": "https://www.cnbc.com/2026/10/20/trump-tariffs-canada-section-338-lawsuit.html",
       "published_at": "2026-10-20T16:43:17+00:00",
@@ -9125,9 +9125,9 @@
       "synthetic": false,
       "publisher_identity": {
         "version": "publisher-identity-v1",
-        "acquisition_publisher": "시엔비시",
-        "origin_publisher": "시엔비시",
-        "source_family": "시엔비시",
+        "acquisition_publisher": "CNBC",
+        "origin_publisher": "CNBC",
+        "source_family": "CNBC",
         "origin_basis": "acquisition_fallback",
         "origin_confirmed": false
       }
@@ -9196,7 +9196,7 @@
       "source_id": "bbc_business",
       "source_kind": "news",
       "title": "Google says cloud outage affecting UK banks and websites resolved",
-      "publisher": "비비시 뉴스",
+      "publisher": "BBC News",
       "author": "Liv McMahon, James Kelly",
       "url": "https://www.bbc.co.uk/news/articles/cxdd8mm6qy4mo",
       "published_at": "2026-10-20T08:46:00.459000+00:00",
@@ -9212,9 +9212,9 @@
       "synthetic": false,
       "publisher_identity": {
         "version": "publisher-identity-v1",
-        "acquisition_publisher": "비비시 뉴스",
-        "origin_publisher": "비비시 뉴스",
-        "source_family": "비비시 뉴스",
+        "acquisition_publisher": "BBC News",
+        "origin_publisher": "BBC News",
+        "source_family": "BBC News",
         "origin_basis": "acquisition_fallback",
         "origin_confirmed": false
       }
@@ -9304,7 +9304,7 @@
       "source_id": "cnbc_world",
       "source_kind": "news",
       "title": "Bank Indonesia faces mounting pressure to hike after MSCI threat fuels market rout",
-      "publisher": "시엔비시",
+      "publisher": "CNBC",
       "author": "Anniek Bao",
       "url": "https://www.cnbc.com/2026/10/20/indonesia-msci-inflation-interest-rate-.html",
       "published_at": "2026-10-20T03:59:35+00:00",
@@ -9320,9 +9320,9 @@
       "synthetic": false,
       "publisher_identity": {
         "version": "publisher-identity-v1",
-        "acquisition_publisher": "시엔비시",
-        "origin_publisher": "시엔비시",
-        "source_family": "시엔비시",
+        "acquisition_publisher": "CNBC",
+        "origin_publisher": "CNBC",
+        "source_family": "CNBC",
         "origin_basis": "acquisition_fallback",
         "origin_confirmed": false
       }
@@ -9379,8 +9379,8 @@
       "publisher_identity": {
         "version": "publisher-identity-v1",
         "acquisition_publisher": "CNA",
-        "origin_publisher": "로이터",
-        "source_family": "로이터",
+        "origin_publisher": "Reuters",
+        "source_family": "Reuters",
         "origin_basis": "article_source_label",
         "origin_confirmed": false
       }
@@ -9458,8 +9458,8 @@
       "publisher_identity": {
         "version": "publisher-identity-v1",
         "acquisition_publisher": "CNA",
-        "origin_publisher": "로이터",
-        "source_family": "로이터",
+        "origin_publisher": "Reuters",
+        "source_family": "Reuters",
         "origin_basis": "article_source_label",
         "origin_confirmed": false
       }
@@ -9470,7 +9470,7 @@
       "source_id": "cnbc_world",
       "source_kind": "news",
       "title": "UK to deploy fighter jets to defend Saudi cities from Houthi attacks",
-      "publisher": "시엔비시",
+      "publisher": "CNBC",
       "author": "Chloe Taylor",
       "url": "https://www.cnbc.com/2026/10/20/uk-fighter-jets-saudi-houthi-attacks-iran.html",
       "published_at": "2026-10-20T12:23:29+00:00",
@@ -9486,9 +9486,9 @@
       "synthetic": false,
       "publisher_identity": {
         "version": "publisher-identity-v1",
-        "acquisition_publisher": "시엔비시",
-        "origin_publisher": "시엔비시",
-        "source_family": "시엔비시",
+        "acquisition_publisher": "CNBC",
+        "origin_publisher": "CNBC",
+        "source_family": "CNBC",
         "origin_basis": "acquisition_fallback",
         "origin_confirmed": false
       }
@@ -9499,7 +9499,7 @@
       "source_id": "guardian_business",
       "source_kind": "news",
       "title": "European air fares could rise by as much as 20% in 2027, Ryanair boss predicts",
-      "publisher": "가디언",
+      "publisher": "The Guardian",
       "author": "Joanna Partridge",
       "url": "https://www.theguardian.com/business/2026/oct/20/european-air-fares-rise-2027-ryanair-fuel-costs",
       "published_at": "2026-10-20T14:28:56+00:00",
@@ -9515,9 +9515,9 @@
       "synthetic": false,
       "publisher_identity": {
         "version": "publisher-identity-v1",
-        "acquisition_publisher": "가디언",
-        "origin_publisher": "가디언",
-        "source_family": "가디언",
+        "acquisition_publisher": "The Guardian",
+        "origin_publisher": "The Guardian",
+        "source_family": "The Guardian",
         "origin_basis": "acquisition_fallback",
         "origin_confirmed": false
       }
@@ -9586,7 +9586,7 @@
       "source_id": "bbc_business",
       "source_kind": "news",
       "title": "Job vacancies fall as small firms cut back on recruitment",
-      "publisher": "비비시 뉴스",
+      "publisher": "BBC News",
       "author": "Tom Espiner",
       "url": "https://www.bbc.co.uk/news/articles/c6eq327pzr53o",
       "published_at": "2026-10-20T06:19:52.820000+00:00",
@@ -9602,9 +9602,9 @@
       "synthetic": false,
       "publisher_identity": {
         "version": "publisher-identity-v1",
-        "acquisition_publisher": "비비시 뉴스",
-        "origin_publisher": "비비시 뉴스",
-        "source_family": "비비시 뉴스",
+        "acquisition_publisher": "BBC News",
+        "origin_publisher": "BBC News",
+        "source_family": "BBC News",
         "origin_basis": "acquisition_fallback",
         "origin_confirmed": false
       }
@@ -9644,7 +9644,7 @@
       "source_id": "cnbc_world",
       "source_kind": "news",
       "title": "Trump says he'd meet with Putin and Xi, criticizes Zelenskyy",
-      "publisher": "시엔비시",
+      "publisher": "CNBC",
       "author": "Kevin Breuninger",
       "url": "https://www.cnbc.com/2026/10/19/trump-putin-xi-zelenskyy.html",
       "published_at": "2026-10-19T19:33:45+00:00",
@@ -9660,9 +9660,9 @@
       "synthetic": false,
       "publisher_identity": {
         "version": "publisher-identity-v1",
-        "acquisition_publisher": "시엔비시",
-        "origin_publisher": "시엔비시",
-        "source_family": "시엔비시",
+        "acquisition_publisher": "CNBC",
+        "origin_publisher": "CNBC",
+        "source_family": "CNBC",
         "origin_basis": "acquisition_fallback",
         "origin_confirmed": false
       }

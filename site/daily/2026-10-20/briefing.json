@@ -1,9 +1,9 @@
 {
   "schema_version": "2",
-  "run_id": "9c667e7ccd3ac13fbb326732",
+  "run_id": "8a8243f7348c66084cc853fb",
   "report_date": "2026-10-20",
   "cutoff": "2026-10-20T05:27:51.162876+09:00",
-  "generated_at": "2026-10-19T23:25:28.743919+00:00",
+  "generated_at": "2026-10-21T00:06:48.408448+00:00",
   "mode": "reconstruction",
   "status": "complete",
   "reviewable_draft": true,
@@ -17,7 +17,7 @@
   "timezone": "Asia/Seoul",
   "input_manifest_hash": "7c39e91d063402f7b7de02f0ac9a196546e931c0ecbf35a739285168d1808872",
   "edition_phase": "daily_final",
-  "previous_revision_run_id": "",
+  "previous_revision_run_id": "9c667e7ccd3ac13fbb326732",
   "news_counts": {
     "total": 35,
     "overseas": 35,
@@ -8539,8 +8539,8 @@
       "publisher_identity": {
         "version": "publisher-identity-v1",
         "acquisition_publisher": "CNA",
-        "origin_publisher": "로이터",
-        "source_family": "로이터",
+        "origin_publisher": "Reuters",
+        "source_family": "Reuters",
         "origin_basis": "article_source_label",
         "origin_confirmed": false
       }
@@ -8551,7 +8551,7 @@
       "source_id": "cnbc_world",
       "source_kind": "news",
       "title": "China's third-quarter economic growth quickens to 4.5% as exports surge, beating estimates",
-      "publisher": "시엔비시",
+      "publisher": "CNBC",
       "author": "Anniek Bao",
       "url": "https://www.cnbc.com/2026/10/19/chinas-economic-growth-quickens-to-4point6percent-as-exports-surge-stimulus-rolls-out.html",
       "published_at": "2026-10-19T02:05:18+00:00",
@@ -8567,9 +8567,9 @@
       "synthetic": false,
       "publisher_identity": {
         "version": "publisher-identity-v1",
-        "acquisition_publisher": "시엔비시",
-        "origin_publisher": "시엔비시",
-        "source_family": "시엔비시",
+        "acquisition_publisher": "CNBC",
+        "origin_publisher": "CNBC",
+        "source_family": "CNBC",
         "origin_basis": "acquisition_fallback",
         "origin_confirmed": false
       }
@@ -8597,8 +8597,8 @@
       "publisher_identity": {
         "version": "publisher-identity-v1",
         "acquisition_publisher": "CNA",
-        "origin_publisher": "로이터",
-        "source_family": "로이터",
+        "origin_publisher": "Reuters",
+        "source_family": "Reuters",
         "origin_basis": "article_source_label",
         "origin_confirmed": false
       }
@@ -8638,7 +8638,7 @@
       "source_id": "guardian_business",
       "source_kind": "news",
       "title": "France hit by debt sell-off as violent protests unnerve investors",
-      "publisher": "가디언",
+      "publisher": "The Guardian",
       "author": "Lauren Almeida",
       "url": "https://www.theguardian.com/world/2026/oct/19/france-hit-by-debt-sell-off-as-protests-unnerve-investors",
       "published_at": "2026-10-19T15:23:54+00:00",
@@ -8654,9 +8654,9 @@
       "synthetic": false,
       "publisher_identity": {
         "version": "publisher-identity-v1",
-        "acquisition_publisher": "가디언",
-        "origin_publisher": "가디언",
-        "source_family": "가디언",
+        "acquisition_publisher": "The Guardian",
+        "origin_publisher": "The Guardian",
+        "source_family": "The Guardian",
         "origin_basis": "acquisition_fallback",
         "origin_confirmed": false
       }
@@ -8713,8 +8713,8 @@
       "publisher_identity": {
         "version": "publisher-identity-v1",
         "acquisition_publisher": "Yahoo! Finance",
-        "origin_publisher": "로이터",
-        "source_family": "로이터",
+        "origin_publisher": "Reuters",
+        "source_family": "Reuters",
         "origin_basis": "article_provider_logo",
         "origin_confirmed": true
       }
@@ -8742,8 +8742,8 @@
       "publisher_identity": {
         "version": "publisher-identity-v1",
         "acquisition_publisher": "CNA",
-        "origin_publisher": "로이터",
-        "source_family": "로이터",
+        "origin_publisher": "Reuters",
+        "source_family": "Reuters",
         "origin_basis": "article_source_label",
         "origin_confirmed": false
       }
@@ -8771,8 +8771,8 @@
       "publisher_identity": {
         "version": "publisher-identity-v1",
         "acquisition_publisher": "Yahoo! Finance",
-        "origin_publisher": "로이터",
-        "source_family": "로이터",
+        "origin_publisher": "Reuters",
+        "source_family": "Reuters",
         "origin_basis": "article_provider_logo",
         "origin_confirmed": true
       }
@@ -8829,8 +8829,8 @@
       "publisher_identity": {
         "version": "publisher-identity-v1",
         "acquisition_publisher": "CNA",
-        "origin_publisher": "로이터",
-        "source_family": "로이터",
+        "origin_publisher": "Reuters",
+        "source_family": "Reuters",
         "origin_basis": "article_source_label",
         "origin_confirmed": false
       }
@@ -8870,7 +8870,7 @@
       "source_id": "guardian_business",
       "source_kind": "news",
       "title": "People scour strait of Hormuz for spilt cargo after Iran attacks container ships",
-      "publisher": "가디언",
+      "publisher": "The Guardian",
       "author": "Patrick Wintour",
       "url": "https://www.theguardian.com/world/2026/oct/19/strait-of-hormuz-spilt-cargo-iran-attacks-container-ships",
       "published_at": "2026-10-19T14:48:56+00:00",
@@ -8886,9 +8886,9 @@
       "synthetic": false,
       "publisher_identity": {
         "version": "publisher-identity-v1",
-        "acquisition_publisher": "가디언",
-        "origin_publisher": "가디언",
-        "source_family": "가디언",
+        "acquisition_publisher": "The Guardian",
+        "origin_publisher": "The Guardian",
+        "source_family": "The Guardian",
         "origin_basis": "acquisition_fallback",
         "origin_confirmed": false
       }
@@ -8916,8 +8916,8 @@
       "publisher_identity": {
         "version": "publisher-identity-v1",
         "acquisition_publisher": "Yahoo! Finance",
-        "origin_publisher": "로이터",
-        "source_family": "로이터",
+        "origin_publisher": "Reuters",
+        "source_family": "Reuters",
         "origin_basis": "article_provider_logo",
         "origin_confirmed": true
       }
@@ -8957,7 +8957,7 @@
       "source_id": "cnbc_technology",
       "source_kind": "news",
       "title": "Google says it can build data centers the right way. Some experts and residents are skeptical",
-      "publisher": "시엔비시",
+      "publisher": "CNBC",
       "author": "Jeffrey Kopp, MacKenzie Sigalos",
       "url": "https://www.cnbc.com/2026/10/19/how-data-centers-are-reshaping-americas-aging-grid-pine-island-minnesota-google.html",
       "published_at": "2026-10-19T12:00:01+00:00",
@@ -8973,9 +8973,9 @@
       "synthetic": false,
       "publisher_identity": {
         "version": "publisher-identity-v1",
-        "acquisition_publisher": "시엔비시",
-        "origin_publisher": "시엔비시",
-        "source_family": "시엔비시",
+        "acquisition_publisher": "CNBC",
+        "origin_publisher": "CNBC",
+        "source_family": "CNBC",
         "origin_basis": "acquisition_fallback",
         "origin_confirmed": false
       }
@@ -9003,8 +9003,8 @@
       "publisher_identity": {
         "version": "publisher-identity-v1",
         "acquisition_publisher": "CNA",
-        "origin_publisher": "로이터",
-        "source_family": "로이터",
+        "origin_publisher": "Reuters",
+        "source_family": "Reuters",
         "origin_basis": "article_source_label",
         "origin_confirmed": false
       }
@@ -9015,7 +9015,7 @@
       "source_id": "cnbc_world",
       "source_kind": "news",
       "title": "Putin reportedly proposes three-way summit with Trump and Xi on Ukraine war — without Zelenskyy",
-      "publisher": "시엔비시",
+      "publisher": "CNBC",
       "author": "Elsa Ohlen, Lim Hui Jie",
       "url": "https://www.cnbc.com/2026/10/19/putin-trump-xi-ukraine-war-energy.html",
       "published_at": "2026-10-19T03:56:03+00:00",
@@ -9031,9 +9031,9 @@
       "synthetic": false,
       "publisher_identity": {
         "version": "publisher-identity-v1",
-        "acquisition_publisher": "시엔비시",
-        "origin_publisher": "시엔비시",
-        "source_family": "시엔비시",
+        "acquisition_publisher": "CNBC",
+        "origin_publisher": "CNBC",
+        "source_family": "CNBC",
         "origin_basis": "acquisition_fallback",
         "origin_confirmed": false
       }
@@ -9160,7 +9160,7 @@
       "source_id": "cnbc_business",
       "source_kind": "news",
       "title": "Robot factories and hypersonic missiles: JPMorgan Chase's first $5 billion of defense investments",
-      "publisher": "시엔비시",
+      "publisher": "CNBC",
       "author": "Hugh Son",
       "url": "https://www.cnbc.com/2026/10/19/jpmorgan-security-defense-investments.html",
       "published_at": "2026-10-19T10:00:01+00:00",
@@ -9176,9 +9176,9 @@
       "synthetic": false,
       "publisher_identity": {
         "version": "publisher-identity-v1",
-        "acquisition_publisher": "시엔비시",
-        "origin_publisher": "시엔비시",
-        "source_family": "시엔비시",
+        "acquisition_publisher": "CNBC",
+        "origin_publisher": "CNBC",
+        "source_family": "CNBC",
         "origin_basis": "acquisition_fallback",
         "origin_confirmed": false
       }
@@ -9206,8 +9206,8 @@
       "publisher_identity": {
         "version": "publisher-identity-v1",
         "acquisition_publisher": "CNA",
-        "origin_publisher": "로이터",
-        "source_family": "로이터",
+        "origin_publisher": "Reuters",
+        "source_family": "Reuters",
         "origin_basis": "article_source_label",
         "origin_confirmed": false
       }
@@ -9235,8 +9235,8 @@
       "publisher_identity": {
         "version": "publisher-identity-v1",
         "acquisition_publisher": "CNA",
-        "origin_publisher": "로이터",
-        "source_family": "로이터",
+        "origin_publisher": "Reuters",
+        "source_family": "Reuters",
         "origin_basis": "article_source_label",
         "origin_confirmed": false
       }
@@ -9247,7 +9247,7 @@
       "source_id": "cnbc_world",
       "source_kind": "news",
       "title": "NYSE becomes latest exchange to extend options hours as appetite for around-the-clock trading grows",
-      "publisher": "시엔비시",
+      "publisher": "CNBC",
       "author": "Oliver Renick, Tyler Bailey",
       "url": "https://www.cnbc.com/2026/10/19/nyse-extends-options-trading-hours.html",
       "published_at": "2026-10-19T13:46:18+00:00",
@@ -9263,9 +9263,9 @@
       "synthetic": false,
       "publisher_identity": {
         "version": "publisher-identity-v1",
-        "acquisition_publisher": "시엔비시",
-        "origin_publisher": "시엔비시",
-        "source_family": "시엔비시",
+        "acquisition_publisher": "CNBC",
+        "origin_publisher": "CNBC",
+        "source_family": "CNBC",
         "origin_basis": "acquisition_fallback",
         "origin_confirmed": false
       }
@@ -9293,8 +9293,8 @@
       "publisher_identity": {
         "version": "publisher-identity-v1",
         "acquisition_publisher": "CNA",
-        "origin_publisher": "로이터",
-        "source_family": "로이터",
+        "origin_publisher": "Reuters",
+        "source_family": "Reuters",
         "origin_basis": "article_source_label",
         "origin_confirmed": false
       }
@@ -9305,7 +9305,7 @@
       "source_id": "bbc_business",
       "source_kind": "news",
       "title": "EU tariffs aimed at China hitting Ukraine, steel boss says",
-      "publisher": "비비시 뉴스",
+      "publisher": "BBC News",
       "author": "Michael Race, Simon Jack",
       "url": "https://www.bbc.co.uk/news/articles/cwdd8z6gyy96o",
       "published_at": "2026-10-18T23:28:45.737000+00:00",
@@ -9321,9 +9321,9 @@
       "synthetic": false,
       "publisher_identity": {
         "version": "publisher-identity-v1",
-        "acquisition_publisher": "비비시 뉴스",
-        "origin_publisher": "비비시 뉴스",
-        "source_family": "비비시 뉴스",
+        "acquisition_publisher": "BBC News",
+        "origin_publisher": "BBC News",
+        "source_family": "BBC News",
         "origin_basis": "acquisition_fallback",
         "origin_confirmed": false
       }
@@ -9351,8 +9351,8 @@
       "publisher_identity": {
         "version": "publisher-identity-v1",
         "acquisition_publisher": "CNA",
-        "origin_publisher": "로이터",
-        "source_family": "로이터",
+        "origin_publisher": "Reuters",
+        "source_family": "Reuters",
         "origin_basis": "article_source_label",
         "origin_confirmed": false
       }
@@ -9438,8 +9438,8 @@
       "publisher_identity": {
         "version": "publisher-identity-v1",
         "acquisition_publisher": "CNA",
-        "origin_publisher": "로이터",
-        "source_family": "로이터",
+        "origin_publisher": "Reuters",
+        "source_family": "Reuters",
         "origin_basis": "article_source_label",
         "origin_confirmed": false
       }
@@ -9467,8 +9467,8 @@
       "publisher_identity": {
         "version": "publisher-identity-v1",
         "acquisition_publisher": "CNA",
-        "origin_publisher": "로이터",
-        "source_family": "로이터",
+        "origin_publisher": "Reuters",
+        "source_family": "Reuters",
         "origin_basis": "article_source_label",
         "origin_confirmed": false
       }
