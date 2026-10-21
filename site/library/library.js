@@ -14,3 +14,22 @@ async function load(){ready=false;rows=[];const current=++generation;$('retry').
 $('totals').textContent=manifest.edition_count+'개 브리핑 · 뉴스 '+manifest.counts.news.toLocaleString()+'건 · GeekNews '+manifest.counts.geeknews.toLocaleString()+'건 게재';const months=manifest.months.filter(m=>(!from||m.month>=from.slice(0,7))&&(!to||m.month<=to.slice(0,7)));const gathered=[];let cursor=0;await Promise.all(Array.from({length:Math.min(3,months.length)},async()=>{while(cursor<months.length){const m=months[cursor++];if(!cache.has(m.file))cache.set(m.file,await get(m.file));gathered.push(...cache.get(m.file));}}));if(current!==generation)return;const grouped=new Map();for(const r of gathered){const appearances=r.appearances.filter(a=>(!from||a.date>=from)&&(!to||a.date<=to));if(!appearances.length)continue;if(grouped.has(r.id))grouped.get(r.id).appearances.push(...appearances);else grouped.set(r.id,{...r,appearances:[...appearances]});}rows=[...grouped.values()];for(const r of rows){r.appearances.sort((a,b)=>b.date.localeCompare(a.date));r.search=normalize([r.title,...r.body,...r.original_titles,...r.sources,...r.topics].join(' '));}rows.sort((a,b)=>b.appearances[0].date.localeCompare(a.appearances[0].date)||a.title.localeCompare(b.title,'ko'));ready=true;options('topic',rows.flatMap(r=>r.topics));options('source',rows.flatMap(r=>r.sources));filter();}catch(e){if(current!==generation)return;rows=[];$('result-count').textContent='불러오기 실패';$('status').textContent='자료를 불러오지 못했습니다. 연결을 확인한 뒤 다시 시도해 주세요. 일부 결과를 전체 결과로 표시하지 않습니다.';$('retry').hidden=false;}}
 const initial=new URLSearchParams(location.search);for(const id of ids){const value=initial.get(id);if(value){if((id==='topic'||id==='source')&&!Array.from($(id).options).some(o=>o.value===value))$(id).add(new Option(value,value));$(id).value=value;}}
 $('filters').addEventListener('submit',e=>e.preventDefault());let timer;for(const id of ['query','kind','topic','source'])$(id).addEventListener(id==='query'?'input':'change',()=>{clearTimeout(timer);timer=setTimeout(filter,id==='query'?120:0);});for(const id of ['from','to'])$(id).addEventListener('change',()=>{save();load();});$('reset').addEventListener('click',()=>{for(const id of ids)$(id).value='';save();load();});$('more').addEventListener('click',more);$('retry').addEventListener('click',load);load();
+
+// Match the briefing theme preference and shared Hub control.
+(() => {
+  const button = document.getElementById('theme-toggle');
+  function label() {
+    const dark = document.documentElement.dataset.theme === 'dark';
+    const text = dark ? '라이트 모드' : '다크 모드';
+    button.querySelector('.theme-text').textContent = text;
+    button.setAttribute('aria-label', text + '로 전환');
+    button.setAttribute('aria-pressed', String(dark));
+  }
+  button.addEventListener('click', () => {
+    const next = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
+    document.documentElement.dataset.theme = next;
+    try { localStorage.setItem('research-news-theme', next); } catch (_) {}
+    label();
+  });
+  label();
+})();
