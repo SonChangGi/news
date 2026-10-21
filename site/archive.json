@@ -45,7 +45,9 @@
         "json": "7efebd0c050c56dbfc5c024d1fa09201580dac7ae76fd65b0a67a3bc17238765",
         "markdown": "1b473a52b834fcba0ea1346276d3243122d1bf450854c88810a76016d12fe8a1",
         "html": "ec7d20c0f2afd11166b46e9357605938442b7dcd63c65a66c928318b549157af"
-      }
+      },
+      "published_at": "2026-10-21T00:16:33.865702+00:00",
+      "publication_time_basis": "first_public_readback"
     },
     {
       "date": "2026-10-20",
@@ -83,7 +85,9 @@
         "json": "9f81f848a0af6b9ff96654460abbc6a14145eb366b8a0ed18c1deb7d38d54aaf",
         "markdown": "a3774207c513bb85abd614508d9ba4afa1285e056e7fd49546ada608e7f5a9aa",
         "html": "7df570f4b1ea963806a6980deaef4931c783ddca016e245da249b21904a2d195"
-      }
+      },
+      "published_at": "2026-10-21T00:16:33.865702+00:00",
+      "publication_time_basis": "first_public_readback"
     },
     {
       "date": "2026-10-19",
@@ -140,7 +144,9 @@
         "json": "f4bc9b6ca0394ee35f868d13306e50eb8be671b20ed2423ee9e48fa11819b837",
         "markdown": "ee12499e4864f4f6b6e5f0ff3f156704f9f6d03392f27f1004e0232afe63e54b",
         "html": "75b138346ba625e8f60a120394f5e9583fd25e1c8aedd2c739414fe4ff19e4c8"
-      }
+      },
+      "published_at": "2026-10-21T00:16:33.865702+00:00",
+      "publication_time_basis": "first_public_readback"
     },
     {
       "date": "2026-10-18",
