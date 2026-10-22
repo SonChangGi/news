@@ -4,7 +4,7 @@
   "base_path": "/news/",
   "timezone": "Asia/Seoul",
   "latest_date": "2026-10-22",
-  "updated_at": "2026-10-22T08:35:25.719987+00:00",
+  "updated_at": "2026-10-22T08:46:44.835812+00:00",
   "latest_url": "/news/",
   "archive_url": "/news/?archive=1",
   "manifest_url": "/news/archive.json",
@@ -12,19 +12,37 @@
     {
       "date": "2026-10-22",
       "mode": "reconstruction",
-      "generated_at": "2026-10-22T08:35:25.719987+00:00",
+      "generated_at": "2026-10-22T08:46:44.835812+00:00",
       "cutoff": "2026-10-22T09:55:45.280274+09:00",
       "issue_count": 35,
       "status": "complete",
       "edition_phase": "daily_final",
-      "run_id": "156f6c1eab6e0b765a30ccb0",
-      "revisions": [],
+      "run_id": "9c3bec5e82a4767f155a58b4",
+      "revisions": [
+        {
+          "date": "2026-10-22",
+          "mode": "reconstruction",
+          "generated_at": "2026-10-22T08:35:25.719987+00:00",
+          "cutoff": "2026-10-22T09:55:45.280274+09:00",
+          "issue_count": 35,
+          "status": "complete",
+          "edition_phase": "daily_final",
+          "run_id": "156f6c1eab6e0b765a30ccb0",
+          "url": "/news/daily/2026-10-22/revisions/156f6c1eab6e0b765a30ccb0/index.html",
+          "report_url": "/news/daily/2026-10-22/revisions/156f6c1eab6e0b765a30ccb0/index.html",
+          "sha256": {
+            "json": "42557683f447086a0dd71e8f6c87d732c2c2e5350b2922802e57edf083d37569",
+            "markdown": "7908e941a9e9629428d2e38bc31e553df27f0b7190ed68abe3c7b222841af4b9",
+            "html": "ab286192f17f39f2bca5767515bc2e17a4722378c43ef72ba52159fe7a2d91ff"
+          }
+        }
+      ],
       "url": "/news/daily/2026-10-22/index.html",
       "report_url": "/news/daily/2026-10-22/index.html",
       "sha256": {
-        "json": "42557683f447086a0dd71e8f6c87d732c2c2e5350b2922802e57edf083d37569",
-        "markdown": "7908e941a9e9629428d2e38bc31e553df27f0b7190ed68abe3c7b222841af4b9",
-        "html": "ab286192f17f39f2bca5767515bc2e17a4722378c43ef72ba52159fe7a2d91ff"
+        "json": "4d35d08e8cfb7d0047bc465ec0ffcfb15806734a2971a41df42a139d18366160",
+        "markdown": "736814f04fc91ab4e7eb5329fddfd08c153c0ac257942df17aa0874eb30d36c2",
+        "html": "b199921cbe1579d902d21d5a26e2cd1867249f5fe4dcd81848ff10665f5596ac"
       }
     },
     {
