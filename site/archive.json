@@ -3,12 +3,39 @@
   "visibility": "public",
   "base_path": "/news/",
   "timezone": "Asia/Seoul",
-  "latest_date": "2026-10-24",
-  "updated_at": "2026-10-23T21:23:07.984210+00:00",
+  "latest_date": "2026-10-25",
+  "updated_at": "2026-10-24T15:42:11.329810+00:00",
   "latest_url": "/news/",
   "archive_url": "/news/?archive=1",
   "manifest_url": "/news/archive.json",
   "entries": [
+    {
+      "date": "2026-10-25",
+      "mode": "reconstruction",
+      "generated_at": "2026-10-24T15:42:11.329810+00:00",
+      "cutoff": "2026-10-25T00:00:54.195395+09:00",
+      "issue_count": 34,
+      "status": "complete",
+      "edition_phase": "sunday_weekly",
+      "run_id": "a4a45cf6311af54cb8bfde9a",
+      "revisions": [],
+      "edition_kind": "weekend",
+      "period_id": "weekend:2026-10-19",
+      "recap_policy": "published_mon_sat_v1",
+      "period_start": "2026-10-19",
+      "period_end": "2026-10-24",
+      "owner_date": "2026-10-25",
+      "aliases": [
+        "2026-10-25"
+      ],
+      "url": "/news/weekend/2026-10-19/index.html",
+      "report_url": "/news/weekend/2026-10-19/index.html",
+      "sha256": {
+        "json": "375c25d53be53e8fb8d9a0720803e8abb991506429ed6ec018059ea6cbcd0233",
+        "markdown": "aa6e88aba6baaff54804ed96049dac83354ef4ca3158a3b7cfb721f5f3ec13fe",
+        "html": "8403876fc97a653c86e3262964f84a94a76c62984c65196632664fc68ae0ceea"
+      }
+    },
     {
       "date": "2026-10-24",
       "mode": "reconstruction",
