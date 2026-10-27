@@ -313,12 +313,12 @@ body.has-quant-shared-nav .skip-link {
 </style>
 <style>
   .weekly-block-heading{display:flex;align-items:baseline;justify-content:space-between;gap:12px;margin-bottom:16px}.weekly-block-heading h2{font-size:20px;margin:0;letter-spacing:-.035em}.weekly-block-heading>span{font-size:12px;color:var(--muted)}
-  .weekly-overview{margin-bottom:36px}.weekly-spotlights{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0;background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}.weekly-spotlight{padding:24px;display:flex;flex-direction:column;align-items:start;border-left:1px solid var(--line)}.weekly-spotlight:first-child{border-left:0}.weekly-spotlight-topic{color:var(--primary);font-size:12px;font-weight:650;margin:0 0 14px}.weekly-spotlight h3{font-size:20px;line-height:1.5;letter-spacing:-.03em;margin:0 0 12px}.weekly-spotlight h3 a{color:var(--ink);text-decoration:none}.weekly-spotlight h3 a:hover{text-decoration:underline;text-underline-offset:4px}.weekly-spotlight-lead{color:var(--muted);font-size:14px;line-height:1.8;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;margin:0 0 20px}.weekly-chapter-link{font-size:12px;margin-top:auto;padding-top:4px}
+  .weekly-overview{margin-bottom:36px}.weekly-spotlights{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0;background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}.weekly-spotlight{padding:24px;display:flex;flex-direction:column;align-items:start;border-left:1px solid var(--line)}.weekly-spotlight:first-child{border-left:0}.weekly-spotlight-topic{color:var(--primary);font-size:12px;font-weight:650;margin:0 0 14px}.weekly-spotlight h3{font-size:calc(20px + var(--reader-font-step,0px));line-height:1.5;letter-spacing:-.03em;margin:0 0 12px}.weekly-spotlight h3 a{color:var(--ink);text-decoration:none}.weekly-spotlight h3 a:hover{text-decoration:underline;text-underline-offset:4px}.weekly-spotlight-lead{color:var(--muted);font-size:calc(14px + var(--reader-font-step,0px));line-height:1.8;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;margin:0 0 20px}.weekly-chapter-link{font-size:12px;margin-top:auto;padding-top:4px}
   .weekly-contents{scroll-margin-top:20px;margin-bottom:24px}.weekly-contents ol{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:10px;overflow:hidden}.weekly-contents li{background:var(--panel);min-width:0}.weekly-contents a,.weekly-toc-empty{display:flex;align-items:center;gap:10px;padding:16px;font-size:13px;color:var(--ink);text-decoration:none;min-height:54px}.weekly-contents a:hover{background:var(--soft)}.weekly-toc-number{color:var(--primary);font-size:11px;font-variant-numeric:tabular-nums}.weekly-toc-count{margin-left:auto;color:var(--muted);font-size:11px}
   .weekly-reader .toolbar{border-top:0;margin-bottom:34px}.weekly-reader .toolbar-top{grid-template-columns:minmax(220px,2fr) repeat(2,minmax(150px,1fr))}.weekly-search-label{font-size:12px;color:var(--muted)}
   .weekly-reader .section{margin-bottom:48px;scroll-margin-top:20px}.weekly-reader .section-heading{border-top:1px solid var(--line);padding-top:20px;margin-bottom:18px;gap:10px}.weekly-reader .section-heading h2{letter-spacing:-.025em}.weekly-chapter-number{font-size:14px;color:var(--primary);font-variant-numeric:tabular-nums;margin-right:2px}.weekly-back{margin-left:auto;color:var(--muted);font-size:11px}.weekly-reader .section-heading h2{scroll-margin-top:24px}
-  @media(max-width:1000px){.weekly-spotlight{padding:20px}.weekly-spotlight h3{font-size:18px}.weekly-reader .toolbar-top,.weekly-reader .toolbar-top:not(:has(#topic-filter)){grid-template-columns:repeat(2,minmax(0,1fr))}.weekly-contents ol{grid-template-columns:repeat(2,minmax(0,1fr))}}
-  @media(max-width:760px){.weekly-reader .weekly-cover{padding-top:24px;margin-bottom:26px}.weekly-cover-top{margin-bottom:16px}.weekly-cover-bottom{gap:12px}.weekly-totals{gap:20px}.weekly-totals strong{font-size:21px}.weekly-block-heading h2{font-size:18px}.weekly-block-heading>span{font-size:11px}.weekly-spotlights{grid-template-columns:1fr}.weekly-spotlight{border-left:0;border-top:1px solid var(--line);padding:20px}.weekly-spotlight:first-child{border-top:0}.weekly-spotlight-topic{margin-bottom:8px}.weekly-spotlight h3{font-size:19px;margin-bottom:8px}.weekly-spotlight-lead{-webkit-line-clamp:2;margin-bottom:12px}.weekly-contents a,.weekly-toc-empty{padding:13px 12px;gap:7px;font-size:12px}.weekly-reader .section{margin-bottom:34px}}
+  @media(max-width:1000px){.weekly-spotlight{padding:20px}.weekly-spotlight h3{font-size:calc(18px + var(--reader-font-step,0px))}.weekly-reader .toolbar-top,.weekly-reader .toolbar-top:not(:has(#topic-filter)){grid-template-columns:repeat(2,minmax(0,1fr))}.weekly-contents ol{grid-template-columns:repeat(2,minmax(0,1fr))}}
+  @media(max-width:760px){.weekly-reader .weekly-cover{padding-top:24px;margin-bottom:26px}.weekly-cover-top{margin-bottom:16px}.weekly-cover-bottom{gap:12px}.weekly-totals{gap:20px}.weekly-totals strong{font-size:21px}.weekly-block-heading h2{font-size:18px}.weekly-block-heading>span{font-size:11px}.weekly-spotlights{grid-template-columns:1fr}.weekly-spotlight{border-left:0;border-top:1px solid var(--line);padding:20px}.weekly-spotlight:first-child{border-top:0}.weekly-spotlight-topic{margin-bottom:8px}.weekly-spotlight h3{font-size:calc(19px + var(--reader-font-step,0px));margin-bottom:8px}.weekly-spotlight-lead{-webkit-line-clamp:2;margin-bottom:12px}.weekly-contents a,.weekly-toc-empty{padding:13px 12px;gap:7px;font-size:12px}.weekly-reader .section{margin-bottom:34px}}
   @media(max-width:420px){.weekly-cover-title{margin-bottom:18px}.weekly-stamp{width:100%}.weekly-block-heading{flex-wrap:wrap;gap:5px}.weekly-cover-navigation .date-navigation{gap:4px}}
   @media print{.weekly-cover-navigation,.weekly-contents,.weekly-back,.weekly-chapter-link{display:none}.weekly-spotlights{display:block}.weekly-spotlight{border:0;padding:12px 0;break-inside:avoid}.weekly-spotlight-lead{display:block}.weekly-reader .weekly-cover{padding-top:0}.weekly-reader .section{margin-bottom:20px}}
 
@@ -328,10 +328,10 @@ body.has-quant-shared-nav .skip-link {
   .priority-spotlights .weekly-spotlight:hover{background:var(--soft)}
   .priority-spotlights .weekly-spotlight:focus-visible{outline:3px solid var(--primary);outline-offset:-3px}
   .priority-spotlights:has(> :nth-child(4)) .weekly-spotlight:first-child{grid-row:span 2;padding:28px}
-  .priority-spotlights .weekly-spotlight h3{font-size:17px;line-height:1.55;margin-bottom:8px}
-  .priority-spotlights .weekly-spotlight:first-child h3{font-size:24px;line-height:1.5}
-  .priority-spotlights .weekly-spotlight-lead{-webkit-line-clamp:2;font-size:13px;margin-bottom:12px}
-  .priority-spotlights .weekly-spotlight:first-child .weekly-spotlight-lead{-webkit-line-clamp:6;font-size:15px;line-height:1.9}
+  .priority-spotlights .weekly-spotlight h3{font-size:calc(17px + var(--reader-font-step,0px));line-height:1.55;margin-bottom:8px}
+  .priority-spotlights .weekly-spotlight:first-child h3{font-size:calc(24px + var(--reader-font-step,0px));line-height:1.5}
+  .priority-spotlights .weekly-spotlight-lead{-webkit-line-clamp:2;font-size:calc(13px + var(--reader-font-step,0px));margin-bottom:12px}
+  .priority-spotlights .weekly-spotlight:first-child .weekly-spotlight-lead{-webkit-line-clamp:6;font-size:calc(15px + var(--reader-font-step,0px));line-height:1.9}
   .spotlight-number{font-variant-numeric:tabular-nums;color:var(--muted);margin-right:10px}
   .priority-spotlights .weekly-spotlight-topic{margin-bottom:10px}.weekly-chapter-link{font-size:12px}
   .additional-reading{border:1px solid var(--line);border-radius:12px;background:var(--panel);margin:24px 0 40px}
@@ -339,7 +339,7 @@ body.has-quant-shared-nav .skip-link {
   .additional-reading>summary::-webkit-details-marker{display:none}.additional-count{color:var(--muted);font-size:13px;font-weight:400}.additional-hint{margin-left:auto;font-size:12px;color:var(--primary);font-weight:500}.additional-hint:after{content:' ＋'}.additional-reading[open] .additional-hint:after{content:' −'}.additional-close{display:none}.additional-reading[open] .additional-open{display:none}.additional-reading[open] .additional-close{display:inline}
   .additional-body{padding:0 24px 24px}.additional-body .section:last-child{margin-bottom:0}
   .weekly-contents ol{grid-auto-rows:1fr}.weekly-contents li{grid-column:auto}.weekly-toc-empty{color:var(--muted)}
-  @media(max-width:1000px){.topic-reader .toolbar-top,.topic-reader .toolbar-top:not(:has(#topic-filter)){grid-template-columns:repeat(3,minmax(0,1fr))}.topic-reader .search{grid-column:1/-1}.priority-spotlights .weekly-spotlight{padding:18px}.priority-spotlights .weekly-spotlight:first-child{padding:22px}.priority-spotlights .weekly-spotlight:first-child h3{font-size:22px}}
+  @media(max-width:1000px){.topic-reader .toolbar-top,.topic-reader .toolbar-top:not(:has(#topic-filter)){grid-template-columns:repeat(3,minmax(0,1fr))}.topic-reader .search{grid-column:1/-1}.priority-spotlights .weekly-spotlight{padding:18px}.priority-spotlights .weekly-spotlight:first-child{padding:22px}.priority-spotlights .weekly-spotlight:first-child h3{font-size:calc(22px + var(--reader-font-step,0px))}}
   @media(max-width:760px){.priority-spotlights{grid-template-columns:1fr}.priority-spotlights:has(> :nth-child(4)) .weekly-spotlight:first-child{grid-row:auto}.priority-spotlights .weekly-spotlight:first-child .weekly-spotlight-lead{-webkit-line-clamp:3}.priority-spotlights .weekly-spotlight:not(:first-child) .weekly-spotlight-lead{display:none}.priority-spotlights .weekly-spotlight:not(:first-child){padding:16px 20px}.priority-spotlights .weekly-spotlight:not(:first-child) .weekly-chapter-link{display:none}.additional-body{padding:0 14px 14px}.additional-reading>summary{padding:18px;font-size:16px}}
   @media print{.additional-reading{border:0}.additional-hint{display:none}.additional-body{padding:0}}
 .reader-preview-bar{display:flex;gap:12px;align-items:center;font-size:12px;color:var(--muted);padding:14px 0 0;margin:0}.reader-preview-bar a{color:var(--primary)}
@@ -348,14 +348,14 @@ body.has-quant-shared-nav .skip-link {
   :root{--reader-font-size:16px}
   .issue-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
   .issue{padding:24px;cursor:pointer}
-  .issue h3{font-size:21px;line-height:1.55;letter-spacing:-.025em}
-  .issue-lead,.geeknews-card .issue-lead{font-size:15px;line-height:1.8}
+  .issue h3{font-size:calc(21px + var(--reader-font-step,0px));line-height:1.55;letter-spacing:-.025em}
+  .issue-lead,.geeknews-card .issue-lead{font-size:calc(15px + var(--reader-font-step,0px));line-height:1.8}
   .source-caption{font-size:12px;line-height:1.6}
   .issue:has(.issue-detail[open]){padding:28px;grid-column:1/-1}
   .issue:has(.issue-detail[open])>h3,.issue:has(.issue-detail[open])>.issue-top,
   .issue:has(.issue-detail[open])>.issue-lead,.issue:has(.issue-detail[open])>.meaning-warning,
   .issue-reading{width:100%;max-width:780px;margin-inline:auto}
-  .issue:has(.issue-detail[open])>h3{font-size:24px}
+  .issue:has(.issue-detail[open])>h3{font-size:calc(24px + var(--reader-font-step,0px))}
   .issue-summary p{font-size:var(--reader-font-size);line-height:1.9;margin-bottom:1em}
   .issue-reading{padding-top:18px}
   .issue-read-status{margin-left:auto;color:var(--muted);font-size:11px;white-space:nowrap;font-weight:500}
@@ -363,28 +363,30 @@ body.has-quant-shared-nav .skip-link {
   .reader-font-controls{display:flex;align-items:center;gap:2px;border:1px solid var(--line);border-radius:8px;background:var(--panel);flex-shrink:0}
   .reader-font-controls button{min-width:40px;min-height:40px;border:0;border-radius:7px;background:transparent;color:var(--ink);font-size:13px}
   .reader-font-controls button:disabled{opacity:.35;cursor:default}
-  .reader-font-controls output{font-size:12px;min-width:22px;text-align:center;color:var(--muted)}
+  .reader-font-controls input{width:52px;min-width:0;min-height:36px;padding:4px 2px;border:1px solid var(--line);border-radius:5px;background:var(--panel);color:var(--ink);font-size:16px;text-align:center;appearance:textfield}
+  .reader-font-controls input::-webkit-inner-spin-button,.reader-font-controls input::-webkit-outer-spin-button{-webkit-appearance:none;margin:0}
+  .reader-font-unit{font-size:11px;color:var(--muted);padding-right:3px}
   .reader-filters-toggle{display:none;min-height:44px;border:1px solid var(--line);border-radius:8px;color:var(--primary);background:var(--panel);font-size:13px;padding:8px 14px}
   .priority-spotlights .weekly-spotlight-lead{line-height:1.8}
   @media(min-width:761px) and (max-width:1100px){
     .priority-spotlights{grid-template-columns:repeat(2,minmax(0,1fr))}
     .priority-spotlights:has(> :nth-child(4)) .weekly-spotlight:first-child{grid-row:auto;grid-column:1/-1;padding:22px}
-    .priority-spotlights .weekly-spotlight:first-child .weekly-spotlight-lead{-webkit-line-clamp:2;font-size:15px;margin-bottom:0}
-    .priority-spotlights .weekly-spotlight:first-child h3{font-size:22px}
+    .priority-spotlights .weekly-spotlight:first-child .weekly-spotlight-lead{-webkit-line-clamp:2;font-size:calc(15px + var(--reader-font-step,0px));margin-bottom:0}
+    .priority-spotlights .weekly-spotlight:first-child h3{font-size:calc(22px + var(--reader-font-step,0px))}
     .priority-spotlights .weekly-spotlight{padding:20px}
-    .issue h3{font-size:20px}
+    .issue h3{font-size:calc(20px + var(--reader-font-step,0px))}
   }
-  @media(min-width:1280px){.issue-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.issue{padding:26px}.issue h3{font-size:21px}}
+  @media(min-width:1280px){.issue-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.issue{padding:26px}.issue h3{font-size:calc(21px + var(--reader-font-step,0px))}}
   @media(max-width:760px){
     .issue-grid{grid-template-columns:minmax(0,1fr);gap:14px}
     .issue,.issue:has(.issue-detail[open]){padding:20px}
-    .issue h3,.issue:has(.issue-detail[open])>h3{font-size:20px;line-height:1.55}
-    .issue-lead,.geeknews-card .issue-lead{font-size:15px}
+    .issue h3,.issue:has(.issue-detail[open])>h3{font-size:calc(20px + var(--reader-font-step,0px));line-height:1.55}
+    .issue-lead,.geeknews-card .issue-lead{font-size:calc(15px + var(--reader-font-step,0px))}
     .page-header{padding:18px 0 10px}.header-meta{margin-top:10px}.edition-summary{margin-bottom:16px}
     .weekly-overview{margin-bottom:22px}.weekly-block-heading{margin-bottom:10px}
     .priority-spotlights .weekly-spotlight:first-child{padding:18px 20px}
-    .priority-spotlights .weekly-spotlight:first-child h3{font-size:20px;margin-bottom:8px}
-    .priority-spotlights .weekly-spotlight:first-child .weekly-spotlight-lead{-webkit-line-clamp:2;font-size:14px;line-height:1.75;margin-bottom:0}
+    .priority-spotlights .weekly-spotlight:first-child h3{font-size:calc(20px + var(--reader-font-step,0px));margin-bottom:8px}
+    .priority-spotlights .weekly-spotlight:first-child .weekly-spotlight-lead{-webkit-line-clamp:2;font-size:calc(14px + var(--reader-font-step,0px));line-height:1.75;margin-bottom:0}
     .priority-spotlights .weekly-spotlight:not(:first-child){padding:14px 20px}
     .priority-spotlights .weekly-spotlight-topic{margin-bottom:6px}
     .toolbar{padding:10px 0;margin-bottom:18px}
@@ -399,7 +401,7 @@ body.has-quant-shared-nav .skip-link {
     .reading-controls{width:100%;justify-content:space-between;gap:6px;flex-wrap:wrap;margin:0}
     .reading-toggle,.filter-reset{min-height:44px;padding:7px 10px}
     .reader-font-controls button{min-width:36px;min-height:42px}
-    .reader-font-controls output{min-width:20px}.results{font-size:11px}
+    .reader-font-controls input{min-height:40px}.results{font-size:11px}
     .scope-nav{width:100%}
     .scope-nav button{min-height:44px}
   }
@@ -464,25 +466,26 @@ html[data-theme=dark]{--bg:#121923;--panel:#1B2532;--ink:#EAF0F6;--muted:#B6C2D0
 .weekly-spotlight{border-top:3px solid var(--topic)!important;background:var(--tint)!important}
 .weekly-spotlight-topic{color:var(--topic)!important}
 .priority-spotlights .weekly-spotlight:first-child{background:#E6EDF9!important}
-.weekly-contents a{box-shadow:inset 0 3px var(--topic)}
+.weekly-contents a,.weekly-toc-empty{box-shadow:inset 0 3px var(--topic)}
 .weekly-contents .weekly-toc-number{color:var(--topic)!important;font-weight:700}
 .toolbar{background:var(--panel);padding:12px 16px;border:1px solid var(--line);border-radius:12px;box-shadow:0 4px 18px #19273808}
 .issue:hover{border-color:var(--line);box-shadow:0 5px 18px #19273812}
 .issue:focus-within{outline-color:var(--topic)}
 html[data-theme=dark] .weekly-spotlight{background:var(--panel)!important}
 html[data-theme=dark] .priority-spotlights .weekly-spotlight:first-child{background:#26384E!important}
-html[data-theme=dark] .issue .pill.accent{background:#2C3949;color:#DBE7FA}
-html[data-theme=dark] .weekly-spotlight-topic,html[data-theme=dark] .weekly-toc-number{color:#BFD2F3!important}
+html[data-theme=dark] .issue,html[data-theme=dark] .weekly-spotlight,html[data-theme=dark] .weekly-contents a,html[data-theme=dark] .weekly-toc-empty,html[data-theme=dark] .section{--topic:var(--topic-dark,#A9C3FF)}
+html[data-theme=dark] .issue .pill.accent{background:#2C3949;color:var(--topic)}
+html[data-theme=dark] .weekly-spotlight-topic,html[data-theme=dark] .weekly-toc-number{color:var(--topic)!important}
 @media(max-width:760px){.toolbar{padding:10px 12px}.section-heading{padding-left:10px}}
-[data-issue-section$="-company_industry"],[data-report-section$="-company_industry"],.weekly-contents a[href$="-company_industry"],.weekly-spotlight[data-reader-topic="company_industry"]{--topic:#3156A6;--tint:#EDF2FC}
-[data-issue-section$="-company_management"],[data-report-section$="-company_management"],.weekly-contents a[href$="-company_management"],.weekly-spotlight[data-reader-topic="company_management"]{--topic:#3156A6;--tint:#EDF2FC}
-[data-issue-section$="-industry_structure"],[data-report-section$="-industry_structure"],.weekly-contents a[href$="-industry_structure"],.weekly-spotlight[data-reader-topic="industry_structure"]{--topic:#A64B35;--tint:#FAEEE9}
-[data-issue-section$="-markets_flows"],[data-report-section$="-markets_flows"],.weekly-contents a[href$="-markets_flows"],.weekly-spotlight[data-reader-topic="markets_flows"]{--topic:#15766C;--tint:#EAF5F2}
-[data-issue-section$="-commodities_fx"],[data-report-section$="-commodities_fx"],.weekly-contents a[href$="-commodities_fx"],.weekly-spotlight[data-reader-topic="commodities_fx"]{--topic:#94601C;--tint:#FBF3E6}
-[data-issue-section$="-macro_policy"],[data-report-section$="-macro_policy"],.weekly-contents a[href$="-macro_policy"],.weekly-spotlight[data-reader-topic="macro_policy"]{--topic:#526B80;--tint:#EEF2F6}
-[data-issue-section$="-technology_ai"],[data-report-section$="-technology_ai"],.weekly-contents a[href$="-technology_ai"],.weekly-spotlight[data-reader-topic="technology_ai"]{--topic:#7255A6;--tint:#F2EEFA}
-[data-issue-section$="-expert_views"],[data-report-section$="-expert_views"],.weekly-contents a[href$="-expert_views"],.weekly-spotlight[data-reader-topic="expert_views"]{--topic:#9B506C;--tint:#FAEFF3}
-[data-issue-section$="-geeknews"],[data-report-section$="-geeknews"],.weekly-contents a[href$="-geeknews"],.weekly-spotlight[data-reader-topic="geeknews"],.geeknews-card,.weekly-contents a[href="#ai-discovery-title"]{--topic:#147386;--tint:#EAF5F8}
+[data-issue-section$="-company_industry"],[data-report-section$="-company_industry"],.weekly-contents a[href$="-company_industry"],.weekly-spotlight[data-reader-topic="company_industry"],.weekly-contents li[data-reader-topic$="-company_industry"]{--topic:#3156A6;--tint:#EDF2FC;--topic-dark:#A9C3FF}
+[data-issue-section$="-company_management"],[data-report-section$="-company_management"],.weekly-contents a[href$="-company_management"],.weekly-spotlight[data-reader-topic="company_management"],.weekly-contents li[data-reader-topic$="-company_management"]{--topic:#3156A6;--tint:#EDF2FC;--topic-dark:#A9C3FF}
+[data-issue-section$="-industry_structure"],[data-report-section$="-industry_structure"],.weekly-contents a[href$="-industry_structure"],.weekly-spotlight[data-reader-topic="industry_structure"],.weekly-contents li[data-reader-topic$="-industry_structure"]{--topic:#B44632;--tint:#FCEEE8;--topic-dark:#FFA68B}
+[data-issue-section$="-markets_flows"],[data-report-section$="-markets_flows"],.weekly-contents a[href$="-markets_flows"],.weekly-spotlight[data-reader-topic="markets_flows"],.weekly-contents li[data-reader-topic$="-markets_flows"]{--topic:#36713A;--tint:#EDF6E9;--topic-dark:#AAD28D}
+[data-issue-section$="-commodities_fx"],[data-report-section$="-commodities_fx"],.weekly-contents a[href$="-commodities_fx"],.weekly-spotlight[data-reader-topic="commodities_fx"],.weekly-contents li[data-reader-topic$="-commodities_fx"]{--topic:#886300;--tint:#FCF6DD;--topic-dark:#E2C46A}
+[data-issue-section$="-macro_policy"],[data-report-section$="-macro_policy"],.weekly-contents a[href$="-macro_policy"],.weekly-spotlight[data-reader-topic="macro_policy"],.weekly-contents li[data-reader-topic$="-macro_policy"]{--topic:#596273;--tint:#EFF1F4;--topic-dark:#C4CBD4}
+[data-issue-section$="-technology_ai"],[data-report-section$="-technology_ai"],.weekly-contents a[href$="-technology_ai"],.weekly-spotlight[data-reader-topic="technology_ai"],.weekly-contents li[data-reader-topic$="-technology_ai"]{--topic:#7045AF;--tint:#F3EDFC;--topic-dark:#C9B2F4}
+[data-issue-section$="-expert_views"],[data-report-section$="-expert_views"],.weekly-contents a[href$="-expert_views"],.weekly-spotlight[data-reader-topic="expert_views"],.weekly-contents li[data-reader-topic$="-expert_views"]{--topic:#A63B78;--tint:#FBEAF4;--topic-dark:#F0A8CD}
+[data-issue-section$="-geeknews"],[data-report-section$="-geeknews"],.weekly-contents a[href$="-geeknews"],.weekly-spotlight[data-reader-topic="geeknews"],.geeknews-card,.weekly-contents a[href="#ai-discovery-title"],.weekly-contents li[data-reader-topic$="-geeknews"],.weekly-contents li[data-reader-topic="geeknews"]{--topic:#007582;--tint:#E5F6F8;--topic-dark:#83D8E2}
 </style>
 </head>
 <body id="top" class="topic-reader" data-reader-order="importance-topics-v1">
@@ -547,7 +550,7 @@ html[data-theme=dark] .weekly-spotlight-topic,html[data-theme=dark] .weekly-toc-
     <div class="toolbar-top"><div class="search"><input id="search" type="search" aria-label="검색" placeholder="기업 · 키워드 · 출처 검색" autocomplete="off"></div><button type="button" id="reader-filters-toggle" class="reader-filters-toggle" aria-expanded="false" aria-controls="section-filter evidence-filter">필터</button><select id="section-filter" aria-label="브리핑 구간"><option value="all">모든 주제</option><option value="topic-company_management">기업·경영</option><option value="topic-industry_structure">산업·시장구조</option><option value="topic-markets_flows">시장·자금흐름</option><option value="topic-commodities_fx">원자재·환율</option><option value="topic-macro_policy">거시·정책</option><option value="topic-technology_ai">기술·AI</option><option value="topic-expert_views">전문가 견해</option><option value="geeknews">GeekNews 읽을거리</option></select><select id="region-filter" aria-label="지역"><option value="all">모든 지역</option><option value="overseas">해외</option><option value="domestic">국내</option></select><select id="evidence-filter" aria-label="확보한 원문 범위"><option value="all">모든 자료</option><option value="full">기사·문서 본문</option><option value="limited">메시지·요약</option></select></div>
     <div class="toolbar-bottom"><span class="weekly-search-label">오늘의 이슈 찾아보기</span><div class="reading-controls"><div class="reader-font-controls" role="group" aria-label="본문 글자 크기">
   <button type="button" id="reader-font-smaller" aria-label="본문 글자 작게">가−</button>
-  <output id="reader-font-value" aria-live="polite" aria-label="본문 글자 크기">16</output>
+  <input id="reader-font-value" type="number" min="12" max="32" step="1" value="16" inputmode="numeric" aria-label="글자 크기 (12~32px)" title="12~32px, 1px 단위로 입력"><span class="reader-font-unit" aria-hidden="true">px</span>
   <button type="button" id="reader-font-larger" aria-label="본문 글자 크게">가+</button>
 </div><button type="button" id="filter-reset" class="filter-reset" hidden>초기화</button><span class="results" id="result-count" aria-live="polite">43개 항목</span><button type="button" id="reading-toggle" class="reading-toggle" aria-pressed="false">모두 펼치기</button></div></div>
     <div class="reader-tools">
@@ -1860,17 +1863,25 @@ html[data-theme=dark] .weekly-spotlight-topic,html[data-theme=dark] .weekly-toc-
   }
   filtersToggle.addEventListener('click',()=>{toolbar.classList.toggle('filters-open');syncReaderFilters();queueReaderSave();});
   function setReaderFont(value){
-    readerFont=[16,18,20].includes(value)?value:16;
+    const parsed=Number(value);
+    readerFont=Number.isFinite(parsed)?Math.min(32,Math.max(12,Math.round(parsed))):16;
     document.documentElement.style.setProperty('--reader-font-size',readerFont+'px');
-    document.getElementById('reader-font-value').textContent=String(readerFont);
-    document.getElementById('reader-font-smaller').disabled=readerFont===16;
-    document.getElementById('reader-font-larger').disabled=readerFont===20;
+    document.documentElement.style.setProperty('--reader-font-step',(readerFont-16)+'px');
+    document.getElementById('reader-font-value').value=String(readerFont);
+    document.getElementById('reader-font-smaller').disabled=readerFont===12;
+    document.getElementById('reader-font-larger').disabled=readerFont===32;
     try{localStorage.setItem('research-news-reader-font',String(readerFont));}catch(e){}
   }
   let savedFont=16;try{savedFont=Number(localStorage.getItem('research-news-reader-font'))||16;}catch(e){}
   setReaderFont(savedFont);
-  document.getElementById('reader-font-smaller').addEventListener('click',()=>setReaderFont(readerFont-2));
-  document.getElementById('reader-font-larger').addEventListener('click',()=>setReaderFont(readerFont+2));
+  document.getElementById('reader-font-smaller').addEventListener('click',()=>setReaderFont(readerFont-1));
+  document.getElementById('reader-font-larger').addEventListener('click',()=>setReaderFont(readerFont+1));
+  const readerFontInput=document.getElementById('reader-font-value');
+  function commitReaderFont(){setReaderFont(readerFontInput.value.trim()===''?readerFont:readerFontInput.value);}
+  readerFontInput.addEventListener('input',()=>{const n=Number(readerFontInput.value);if(readerFontInput.value.trim()!==''&&Number.isInteger(n)&&n>=12&&n<=32)setReaderFont(n);});
+  readerFontInput.addEventListener('change',commitReaderFont);
+  readerFontInput.addEventListener('blur',commitReaderFont);
+  readerFontInput.addEventListener('keydown',event=>{if(event.key==='Enter'){event.preventDefault();commitReaderFont();}else if(event.key==='Escape'){event.preventDefault();setReaderFont(readerFont);readerFontInput.blur();}});
   function rememberReaderOrigin(issue,fromLink=false){
     if(issue.querySelector('.issue-detail').open||readerOrigins.has(issue.id))return;
     const top=issue.getBoundingClientRect().top;
