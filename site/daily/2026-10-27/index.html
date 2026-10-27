@@ -487,6 +487,39 @@ html[data-theme=dark] .weekly-spotlight-topic,html[data-theme=dark] .weekly-toc-
 [data-issue-section$="-expert_views"],[data-report-section$="-expert_views"],.weekly-contents a[href$="-expert_views"],.weekly-spotlight[data-reader-topic="expert_views"],.weekly-contents li[data-reader-topic$="-expert_views"]{--topic:#A63B78;--tint:#FBEAF4;--topic-dark:#F0A8CD}
 [data-issue-section$="-geeknews"],[data-report-section$="-geeknews"],.weekly-contents a[href$="-geeknews"],.weekly-spotlight[data-reader-topic="geeknews"],.geeknews-card,.weekly-contents a[href="#ai-discovery-title"],.weekly-contents li[data-reader-topic$="-geeknews"],.weekly-contents li[data-reader-topic="geeknews"]{--topic:#007582;--tint:#E5F6F8;--topic-dark:#83D8E2}
 </style>
+<style>
+  html:root{--toolbar-height:0px;scroll-padding-top:calc(var(--masthead-height,60px) + 16px)}
+  .toolbar{position:static;top:auto;z-index:auto;padding:12px 0}
+  html .toolbar .toolbar-top,html .toolbar .toolbar-top:not(:has(#topic-filter)){display:flex;flex-wrap:nowrap;gap:8px}
+  html .toolbar .search{flex:1 1 260px;min-width:170px}
+  html .toolbar-top>select{flex:0 1 auto;width:auto;min-width:110px;max-width:190px}
+  html .toolbar #section-filter{width:165px}html .toolbar #region-filter{width:112px}html .toolbar #evidence-filter{width:155px}
+  .toolbar .toolbar-bottom{gap:8px 14px;margin-top:8px;flex-wrap:wrap}
+  .toolbar .reader-tools{border:0;padding:0;margin:0;gap:6px}
+  .toolbar .reading-controls{margin-left:auto;gap:8px;padding:0;width:auto}
+  .reader-expand-tools{display:flex;align-items:center;gap:6px;flex:none}
+  .reader-expand-tools .reader-topic-preferences{margin:0;flex:none}
+  .reader-expand-tools .reader-topic-preferences>summary{min-height:38px;padding:7px 10px}
+  .toolbar .reader-tools button{padding:7px 10px;min-height:38px}
+  .toolbar .reader-view-switch button{min-height:32px}
+  .toolbar .reader-font-controls{flex-shrink:0}.toolbar .results{font-size:11px}
+  @media(max-width:1000px){.toolbar .toolbar-bottom{gap:8px}.toolbar .reader-tools{flex:1 1 auto}.toolbar .reading-controls{gap:6px}}
+  @media(max-width:760px){
+    html .toolbar .toolbar-top,html .toolbar .toolbar-top:not(:has(#topic-filter)){display:grid;grid-template-columns:minmax(0,1fr) auto}
+    html .toolbar .search{min-width:0;grid-column:1}
+    html .toolbar-top>select,html .toolbar #section-filter,html .toolbar #region-filter,html .toolbar #evidence-filter{width:100%;min-width:0;max-width:none;grid-column:auto}
+    .toolbar .reader-tools{width:100%;justify-content:space-between;gap:4px}
+    .toolbar .reader-tools button{padding:7px 8px;min-height:44px}
+    .toolbar .reader-view-switch button{min-height:38px}
+    .toolbar .reading-controls{width:100%;justify-content:space-between;gap:5px}
+    .reader-expand-tools{margin-left:auto;gap:5px}
+    .reader-expand-tools .reading-toggle,.reader-expand-tools .reader-topic-preferences>summary{min-height:44px;font-size:11px;padding:7px 8px}
+    .reader-expand-tools .reader-topic-preferences>summary::after{margin-left:5px}
+    .toolbar .reader-font-controls{gap:0}.toolbar .reader-font-controls button{min-width:30px;padding:5px 4px}
+    .toolbar .reader-font-controls input{width:40px}
+    .toolbar .results{font-size:10px}
+  }
+</style>
 </head>
 <body id="top" class="topic-reader" data-reader-order="importance-topics-v1">
 <a class="skip" href="#report-content">브리핑 내용으로 이동</a>
@@ -548,12 +581,7 @@ html[data-theme=dark] .weekly-spotlight-topic,html[data-theme=dark] .weekly-toc-
   
   <nav class="toolbar" aria-label="브리핑 필터">
     <div class="toolbar-top"><div class="search"><input id="search" type="search" aria-label="검색" placeholder="기업 · 키워드 · 출처 검색" autocomplete="off"></div><button type="button" id="reader-filters-toggle" class="reader-filters-toggle" aria-expanded="false" aria-controls="section-filter evidence-filter">필터</button><select id="section-filter" aria-label="브리핑 구간"><option value="all">모든 주제</option><option value="topic-company_management">기업·경영</option><option value="topic-industry_structure">산업·시장구조</option><option value="topic-markets_flows">시장·자금흐름</option><option value="topic-commodities_fx">원자재·환율</option><option value="topic-macro_policy">거시·정책</option><option value="topic-technology_ai">기술·AI</option><option value="topic-expert_views">전문가 견해</option><option value="geeknews">GeekNews 읽을거리</option></select><select id="region-filter" aria-label="지역"><option value="all">모든 지역</option><option value="overseas">해외</option><option value="domestic">국내</option></select><select id="evidence-filter" aria-label="확보한 원문 범위"><option value="all">모든 자료</option><option value="full">기사·문서 본문</option><option value="limited">메시지·요약</option></select></div>
-    <div class="toolbar-bottom"><span class="weekly-search-label">오늘의 이슈 찾아보기</span><div class="reading-controls"><div class="reader-font-controls" role="group" aria-label="본문 글자 크기">
-  <button type="button" id="reader-font-smaller" aria-label="본문 글자 작게">가−</button>
-  <input id="reader-font-value" type="number" min="12" max="32" step="1" value="16" inputmode="numeric" aria-label="글자 크기 (12~32px)" title="12~32px, 1px 단위로 입력"><span class="reader-font-unit" aria-hidden="true">px</span>
-  <button type="button" id="reader-font-larger" aria-label="본문 글자 크게">가+</button>
-</div><button type="button" id="filter-reset" class="filter-reset" hidden>초기화</button><span class="results" id="result-count" aria-live="polite">43개 항목</span><button type="button" id="reading-toggle" class="reading-toggle" aria-pressed="false">모두 펼치기</button></div></div>
-    <div class="reader-tools">
+    <div class="toolbar-bottom"><div class="reader-tools">
   <div class="reader-view-switch" role="group" aria-label="카드 보기 방식">
     <button type="button" data-reader-view="summary" aria-pressed="true">요약 포함</button>
     <button type="button" data-reader-view="titles" aria-pressed="false">제목만</button>
@@ -562,15 +590,18 @@ html[data-theme=dark] .weekly-spotlight-topic,html[data-theme=dark] .weekly-toc-
     <button type="button" id="reader-unread" aria-pressed="false">안 읽은 이슈</button>
     <button type="button" id="reader-saved" aria-pressed="false" title="이 브리핑에서 저장한 이슈">저장한 이슈 <span id="reader-saved-count">0</span></button>
   </div>
-  
+</div><div class="reading-controls"><div class="reader-font-controls" role="group" aria-label="본문 글자 크기">
+  <button type="button" id="reader-font-smaller" aria-label="본문 글자 작게">가−</button>
+  <input id="reader-font-value" type="number" min="12" max="32" step="1" value="16" inputmode="numeric" aria-label="글자 크기 (12~32px)" title="12~32px, 1px 단위로 입력"><span class="reader-font-unit" aria-hidden="true">px</span>
+  <button type="button" id="reader-font-larger" aria-label="본문 글자 크게">가+</button>
+</div><button type="button" id="filter-reset" class="filter-reset" hidden>초기화</button><span class="results" id="result-count" aria-live="polite">43개 항목</span><div class="reader-expand-tools"><button type="button" id="reading-toggle" class="reading-toggle" aria-pressed="false">모두 펼치기</button>  
   <details class="reader-topic-preferences" id="reader-topic-preferences">
     <summary>관심 주제</summary>
     <div class="reader-topic-options"><p>선택한 주제를 먼저 표시합니다. 모든 이슈는 그대로 볼 수 있습니다.</p>
     <div class="reader-topic-checks"><label><input type="checkbox" data-reader-preferred="topic-company_management">기업·경영</label><label><input type="checkbox" data-reader-preferred="topic-industry_structure">산업·시장구조</label><label><input type="checkbox" data-reader-preferred="topic-markets_flows">시장·자금흐름</label><label><input type="checkbox" data-reader-preferred="topic-commodities_fx">원자재·환율</label><label><input type="checkbox" data-reader-preferred="topic-macro_policy">거시·정책</label><label><input type="checkbox" data-reader-preferred="topic-technology_ai">기술·AI</label><label><input type="checkbox" data-reader-preferred="topic-expert_views">전문가 견해</label><label><input type="checkbox" data-reader-preferred="geeknews">GeekNews</label></div>
     <div class="reader-topic-actions"><button type="button" id="reader-topics-reset">기본 순서로</button><button type="button" id="reader-topics-close">설정 닫기</button></div><p class="reader-local-note">보기 설정과 저장 상태는 이 브라우저에 보관됩니다.</p></div>
   </details>
-  
-</div>
+  </div></div></div>
   </nav>
   <noscript><p>검색·필터를 사용하려면 JavaScript를 켜세요.</p></noscript>
   <main id="report-content" tabindex="-1">
@@ -1843,7 +1874,7 @@ html[data-theme=dark] .weekly-spotlight-topic,html[data-theme=dark] .weekly-toc-
     const badge=issue.querySelector('.issue-read-status');if(badge)badge.hidden=false;
   }
   function readerPosition(){
-    const top=document.querySelector('.toolbar').getBoundingClientRect().bottom;
+    const top=Math.max(0,document.querySelector('.masthead')?.getBoundingClientRect().bottom||0);
     const visible=issues.find(issue=>!issue.hidden&&issue.getBoundingClientRect().bottom>top&&issue.getBoundingClientRect().top<innerHeight);
     return {y:scrollY,id:visible?.id||'',top:visible?.getBoundingClientRect().top||0,width:innerWidth};
   }
@@ -2069,7 +2100,7 @@ html[data-theme=dark] .weekly-spotlight-topic,html[data-theme=dark] .weekly-toc-
   const projectRail=document.querySelector('.quant-shared-nav__links'),activeProject=projectRail.querySelector('[aria-current="page"]');
   const showActiveProject=()=>{if(activeProject&&projectRail.scrollWidth>projectRail.clientWidth)projectRail.scrollLeft=Math.max(0,activeProject.offsetLeft-(projectRail.clientWidth-activeProject.offsetWidth)/2);};
   requestAnimationFrame(showActiveProject);window.addEventListener('resize',showActiveProject);
-  const measureNavigation=()=>{document.documentElement.style.setProperty('--masthead-height',document.querySelector('.masthead').getBoundingClientRect().height+'px');document.documentElement.style.setProperty('--toolbar-height',document.querySelector('.toolbar').getBoundingClientRect().height+'px');};
+  const measureNavigation=()=>{document.documentElement.style.setProperty('--masthead-height',document.querySelector('.masthead').getBoundingClientRect().height+'px');document.documentElement.style.setProperty('--toolbar-height','0px');};
   initializeReaderPersonalization();measureNavigation();restoreReaderState();syncReaderPersonalControls();if(location.hash)revealIssue(location.hash);if(typeof ResizeObserver!=='undefined'){const observer=new ResizeObserver(measureNavigation);observer.observe(document.querySelector('.masthead'));observer.observe(document.querySelector('.toolbar'));}else window.addEventListener('resize',measureNavigation);
 
   const uiTimePolicy={"archive_fetch_seconds": 15, "connection_wait_seconds": 30, "request_poll_seconds": 2, "response_wait_seconds": 30, "socket_idle_seconds": 30};
