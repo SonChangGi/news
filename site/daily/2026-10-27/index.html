@@ -351,14 +351,13 @@ body.has-quant-shared-nav .skip-link {
   .issue h3{font-size:21px;line-height:1.55;letter-spacing:-.025em}
   .issue-lead,.geeknews-card .issue-lead{font-size:15px;line-height:1.8}
   .source-caption{font-size:12px;line-height:1.6}
-  .issue:has(.issue-detail[open]){cursor:default;padding:28px;grid-column:1/-1}
+  .issue:has(.issue-detail[open]){padding:28px;grid-column:1/-1}
   .issue:has(.issue-detail[open])>h3,.issue:has(.issue-detail[open])>.issue-top,
   .issue:has(.issue-detail[open])>.issue-lead,.issue:has(.issue-detail[open])>.meaning-warning,
   .issue-reading{width:100%;max-width:780px;margin-inline:auto}
   .issue:has(.issue-detail[open])>h3{font-size:24px}
   .issue-summary p{font-size:var(--reader-font-size);line-height:1.9;margin-bottom:1em}
   .issue-reading{padding-top:18px}
-  .issue-close{display:block;min-height:44px;margin:24px 0 0 auto;padding:8px 16px;border:1px solid var(--line);border-radius:8px;color:var(--primary);background:var(--panel);font-size:13px}
   .issue-read-status{margin-left:auto;color:var(--muted);font-size:11px;white-space:nowrap;font-weight:500}
   .issue-read-status::before{content:'✓ ';color:var(--primary)}
   .reader-font-controls{display:flex;align-items:center;gap:2px;border:1px solid var(--line);border-radius:8px;background:var(--panel);flex-shrink:0}
@@ -1826,8 +1825,6 @@ body.has-quant-shared-nav .skip-link {
   for(const issue of issues){
     const details=issue.querySelector('.issue-detail');
     const badge=document.createElement('span');badge.className='issue-read-status';badge.textContent='읽음';badge.title='열어본 이슈';badge.hidden=true;const heading=issue.querySelector('.issue-top');heading?.insertBefore(badge,heading.querySelector('.source-caption'));
-    const close=document.createElement('button');close.type='button';close.className='issue-close';close.textContent='접고 돌아가기';close.setAttribute('aria-label',issue.querySelector('h3').textContent.trim()+' 접고 돌아가기');
-    close.addEventListener('click',()=>closeReaderIssue(issue));details.querySelector('.issue-reading').append(close);
     details.querySelector(':scope>summary').addEventListener('click',event=>{event.preventDefault();if(details.open)closeReaderIssue(issue);else openReaderIssue(issue,false,true);});
     details.addEventListener('toggle',()=>{syncReading();if(details.open)readerReadMark(issue);queueReaderSave();});
     issue.addEventListener('click',event=>{
@@ -1842,7 +1839,8 @@ body.has-quant-shared-nav .skip-link {
         return;
       }
       if(target.closest('a,button,input,select,textarea,label,summary,[role="button"],[contenteditable]'))return;
-      if(!details.open)openReaderIssue(issue,false,true);
+      if(details.open)closeReaderIssue(issue);
+      else openReaderIssue(issue,false,true);
     });
   }
   readingToggle.addEventListener('click',()=>{
