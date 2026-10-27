@@ -405,6 +405,38 @@ body.has-quant-shared-nav .skip-link {
   }
   @media print{.reader-font-controls,.reader-filters-toggle,.issue-close,.issue-read-status{display:none!important}.issue-grid{display:block}.issue-summary p{font-size:11px}}
 </style>
+<style id="reader-color-styles">
+:root{--bg:#F4F5F7;--ink:#192738;--muted:#566575;--line:#DCE2EA;--primary:#3156A6;--soft:#EDF2FC;--radius:12px}
+html[data-theme=dark]{--bg:#121923;--panel:#1B2532;--ink:#EAF0F6;--muted:#B6C2D0;--line:#354353;--primary:#A1BFFF;--soft:#26384E}
+.issue,.weekly-spotlight,.weekly-contents a{--topic:#3156A6;--tint:#EDF2FC}
+.issue{position:relative;border-top:1px solid var(--line);box-shadow:0 3px 12px #19273806;border-radius:12px}
+.issue::before{content:"";position:absolute;top:-1px;left:24px;width:64px;height:3px;border-radius:0 0 3px 3px;background:var(--topic);pointer-events:none}
+.issue .pill.accent{background:var(--tint);color:var(--topic);font-weight:650}
+.issue:has(.issue-detail[open]){border-color:var(--line);box-shadow:0 5px 22px #19273810}
+.issue:has(.issue-detail[open])>.issue-top{padding-bottom:12px;border-bottom:1px solid var(--line)}
+.issue-summary{color:var(--ink)}
+.section-heading{border-left:4px solid var(--topic,#3156A6);padding-left:12px}
+.weekly-spotlight{border-top:3px solid var(--topic)!important;background:var(--tint)!important}
+.weekly-spotlight-topic{color:var(--topic)!important}
+.priority-spotlights .weekly-spotlight:first-child{background:#E6EDF9!important}
+.weekly-contents a{box-shadow:inset 0 3px var(--topic)}
+.weekly-contents .weekly-toc-number{color:var(--topic)!important;font-weight:700}
+.toolbar{background:var(--panel);padding:12px 16px;border:1px solid var(--line);border-radius:12px;box-shadow:0 4px 18px #19273808}
+.issue:hover{border-color:var(--line);box-shadow:0 5px 18px #19273812}
+.issue:focus-within{outline-color:var(--topic)}
+html[data-theme=dark] .weekly-spotlight{background:var(--panel)!important}
+html[data-theme=dark] .priority-spotlights .weekly-spotlight:first-child{background:#26384E!important}
+html[data-theme=dark] .issue .pill.accent{background:#2C3949;color:#DBE7FA}
+html[data-theme=dark] .weekly-spotlight-topic,html[data-theme=dark] .weekly-toc-number{color:#BFD2F3!important}
+@media(max-width:760px){.toolbar{padding:10px 12px}.section-heading{padding-left:10px}}
+[data-issue-section$="-company_industry"],[data-report-section$="-company_industry"],.weekly-contents a[href$="-company_industry"],.weekly-spotlight[data-reader-topic="company_industry"]{--topic:#3156A6;--tint:#EDF2FC}
+[data-issue-section$="-markets_flows"],[data-report-section$="-markets_flows"],.weekly-contents a[href$="-markets_flows"],.weekly-spotlight[data-reader-topic="markets_flows"]{--topic:#15766C;--tint:#EAF5F2}
+[data-issue-section$="-commodities_fx"],[data-report-section$="-commodities_fx"],.weekly-contents a[href$="-commodities_fx"],.weekly-spotlight[data-reader-topic="commodities_fx"]{--topic:#94601C;--tint:#FBF3E6}
+[data-issue-section$="-macro_policy"],[data-report-section$="-macro_policy"],.weekly-contents a[href$="-macro_policy"],.weekly-spotlight[data-reader-topic="macro_policy"]{--topic:#526B80;--tint:#EEF2F6}
+[data-issue-section$="-technology_ai"],[data-report-section$="-technology_ai"],.weekly-contents a[href$="-technology_ai"],.weekly-spotlight[data-reader-topic="technology_ai"]{--topic:#7255A6;--tint:#F2EEFA}
+[data-issue-section$="-expert_views"],[data-report-section$="-expert_views"],.weekly-contents a[href$="-expert_views"],.weekly-spotlight[data-reader-topic="expert_views"]{--topic:#9B506C;--tint:#FAEFF3}
+[data-issue-section$="-geeknews"],[data-report-section$="-geeknews"],.weekly-contents a[href$="-geeknews"],.weekly-spotlight[data-reader-topic="geeknews"],.geeknews-card,.weekly-contents a[href="#ai-discovery-title"]{--topic:#147386;--tint:#EAF5F8}
+</style>
 </head>
 <body id="top" class="topic-reader" data-reader-order="importance-topics-v1">
 <a class="skip" href="#report-content">브리핑 내용으로 이동</a>
@@ -446,15 +478,15 @@ body.has-quant-shared-nav .skip-link {
   <div class="weekly-block-heading"><h2 id="weekly-overview-title">먼저 볼 이슈</h2><span>5개 이슈</span></div>
   <div class="weekly-spotlights priority-spotlights">
   
-    <a class="weekly-spotlight" href="#issue-503a15b14ca1a9c6" aria-labelledby="spotlight-title-1"><p class="weekly-spotlight-topic"><span class="spotlight-number">01</span>기업·산업</p><h3 id="spotlight-title-1">메타, AI 인프라 확장 위해 사상 최대 950억 달러 주식 조달 추진</h3><p class="weekly-spotlight-lead">메타는 월요일 AI 인프라 확장 자금을 마련하기 위해 역대 최대인 총 최대 950억 달러 규모의 주식 조달을 추진한다고 밝혔으며, 약 350억 달러의 보통주·우선주 공모를 개시하고 최대 600억 달러의 별도 시장가 주식 매각 프로그램도 계획하고 있다.</p></a>
+    <a class="weekly-spotlight" data-reader-topic="company_industry" href="#issue-503a15b14ca1a9c6" aria-labelledby="spotlight-title-1"><p class="weekly-spotlight-topic"><span class="spotlight-number">01</span>기업·산업</p><h3 id="spotlight-title-1">메타, AI 인프라 확장 위해 사상 최대 950억 달러 주식 조달 추진</h3><p class="weekly-spotlight-lead">메타는 월요일 AI 인프라 확장 자금을 마련하기 위해 역대 최대인 총 최대 950억 달러 규모의 주식 조달을 추진한다고 밝혔으며, 약 350억 달러의 보통주·우선주 공모를 개시하고 최대 600억 달러의 별도 시장가 주식 매각 프로그램도 계획하고 있다.</p></a>
   
-    <a class="weekly-spotlight" href="#issue-09f3f2fc6a58f609" aria-labelledby="spotlight-title-2"><p class="weekly-spotlight-topic"><span class="spotlight-number">02</span>시장·자금흐름</p><h3 id="spotlight-title-2">룰라 재선 뒤 브라질 주식·헤알화 급락…재정 확대 우려 부각</h3><p class="weekly-spotlight-lead">루이스 이나시우 룰라 다시우바 브라질 대통령의 재선 이후, 26일(현지시간) 오전 11시 10분 보베스파 지수는 전장 대비 15.16% 하락한 173,997.41을 기록했으며 장중 낙폭은 17.34%에 달했다.</p></a>
+    <a class="weekly-spotlight" data-reader-topic="markets_flows" href="#issue-09f3f2fc6a58f609" aria-labelledby="spotlight-title-2"><p class="weekly-spotlight-topic"><span class="spotlight-number">02</span>시장·자금흐름</p><h3 id="spotlight-title-2">룰라 재선 뒤 브라질 주식·헤알화 급락…재정 확대 우려 부각</h3><p class="weekly-spotlight-lead">루이스 이나시우 룰라 다시우바 브라질 대통령의 재선 이후, 26일(현지시간) 오전 11시 10분 보베스파 지수는 전장 대비 15.16% 하락한 173,997.41을 기록했으며 장중 낙폭은 17.34%에 달했다.</p></a>
   
-    <a class="weekly-spotlight" href="#issue-6e5b499307fd9632" aria-labelledby="spotlight-title-3"><p class="weekly-spotlight-topic"><span class="spotlight-number">03</span>기업·산업</p><h3 id="spotlight-title-3">앤스로픽, IPO 추진…매출 급증 속 대규모 순손실·안전성 위험 공개</h3><p class="weekly-spotlight-lead">앤스로픽은 투자설명서를 공개하며 기업공개(IPO)에 한 걸음 다가섰으며, 추수감사절 이전 상장이 예상되지만 공모 조건은 공개하지 않았고 IPO 완료 후 나스닥에서 ‘ANT’로 거래될 예정이다.</p></a>
+    <a class="weekly-spotlight" data-reader-topic="company_industry" href="#issue-6e5b499307fd9632" aria-labelledby="spotlight-title-3"><p class="weekly-spotlight-topic"><span class="spotlight-number">03</span>기업·산업</p><h3 id="spotlight-title-3">앤스로픽, IPO 추진…매출 급증 속 대규모 순손실·안전성 위험 공개</h3><p class="weekly-spotlight-lead">앤스로픽은 투자설명서를 공개하며 기업공개(IPO)에 한 걸음 다가섰으며, 추수감사절 이전 상장이 예상되지만 공모 조건은 공개하지 않았고 IPO 완료 후 나스닥에서 ‘ANT’로 거래될 예정이다.</p></a>
   
-    <a class="weekly-spotlight" href="#issue-c499769aa7a90fb8" aria-labelledby="spotlight-title-4"><p class="weekly-spotlight-topic"><span class="spotlight-number">04</span>원자재·환율</p><h3 id="spotlight-title-4">유럽 가스 가격 4년 만에 최고…겨울 공급 부족·중동 분쟁 우려</h3><p class="weekly-spotlight-lead">월요일 유럽 가스 도매가격은 기온 하락에 따른 난방 수요 증가 전망 속에 메가와트시(MWh)당 97유로로 올라 2022년 이후 최고 수준을 기록했다.</p></a>
+    <a class="weekly-spotlight" data-reader-topic="commodities_fx" href="#issue-c499769aa7a90fb8" aria-labelledby="spotlight-title-4"><p class="weekly-spotlight-topic"><span class="spotlight-number">04</span>원자재·환율</p><h3 id="spotlight-title-4">유럽 가스 가격 4년 만에 최고…겨울 공급 부족·중동 분쟁 우려</h3><p class="weekly-spotlight-lead">월요일 유럽 가스 도매가격은 기온 하락에 따른 난방 수요 증가 전망 속에 메가와트시(MWh)당 97유로로 올라 2022년 이후 최고 수준을 기록했다.</p></a>
   
-    <a class="weekly-spotlight" href="#issue-f7477f10689c978f" aria-labelledby="spotlight-title-5"><p class="weekly-spotlight-topic"><span class="spotlight-number">05</span>거시·정책</p><h3 id="spotlight-title-5">CNN “미군, 트럼프 명령 시 96시간 내 이란 공격 준비”…최종 결정은 미정</h3><p class="weekly-spotlight-lead">CNN은 미국 당국자 2명을 인용해 중동에 배치된 미군이 도널드 트럼프 대통령의 명령을 받으면 96시간 이내에 이란을 상대로 새로운 군사작전에 나설 준비를 갖췄다고 보도했으며, 한 당국자는 상당히 큰 규모의 작전이 될 것이라고 말했다.</p></a>
+    <a class="weekly-spotlight" data-reader-topic="macro_policy" href="#issue-f7477f10689c978f" aria-labelledby="spotlight-title-5"><p class="weekly-spotlight-topic"><span class="spotlight-number">05</span>거시·정책</p><h3 id="spotlight-title-5">CNN “미군, 트럼프 명령 시 96시간 내 이란 공격 준비”…최종 결정은 미정</h3><p class="weekly-spotlight-lead">CNN은 미국 당국자 2명을 인용해 중동에 배치된 미군이 도널드 트럼프 대통령의 명령을 받으면 96시간 이내에 이란을 상대로 새로운 군사작전에 나설 준비를 갖췄다고 보도했으며, 한 당국자는 상당히 큰 규모의 작전이 될 것이라고 말했다.</p></a>
   
   </div>
 </section>
