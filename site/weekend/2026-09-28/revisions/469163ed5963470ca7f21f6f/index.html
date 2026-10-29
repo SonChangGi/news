@@ -1996,6 +1996,11 @@ body.has-quant-shared-nav .skip-link {
     if(typeof value!=='string'||!value||/[\x00-\x20\\]/.test(value)||value.startsWith('//'))return '';
     try{const url=new URL(value,location.href);if(url.username||url.password)return '';if(['http:','https:'].includes(location.protocol))return url.origin===location.origin&&['http:','https:'].includes(url.protocol)?url.href:'';if(location.protocol==='file:'&&url.protocol==='file:'){if(value.startsWith('/')){const root=location.pathname.indexOf('/artifacts/');if(root<0)return '';return new URL(location.pathname.slice(0,root+11)+value.slice(1),'file://').href;}return url.href;}}catch(e){}return '';
   };
+    function briefingLibraryUrl(context,resolve){
+    const manifest=resolve(context.manifest_url||'/archive.json');
+    return manifest?resolve(new URL('library/',manifest).href):'';
+  }
+
   function setLink(id,url,label){const link=document.getElementById(id),safe=safeArchiveUrl(url);if(safe){link.href=safe;link.removeAttribute('aria-disabled');link.removeAttribute('tabindex');}else{link.removeAttribute('href');link.setAttribute('aria-disabled','true');link.setAttribute('tabindex','-1');}if(label)link.textContent=label;return Boolean(safe);}
   function setEntries(data){
     if(!data||!Array.isArray(data.entries))return false;
@@ -2006,7 +2011,7 @@ body.has-quant-shared-nav .skip-link {
     document.getElementById('previous-report').setAttribute('aria-label',before?entryDate(before)+' 브리핑':'이전 저장 날짜 없음');document.getElementById('next-report').setAttribute('aria-label',after?entryDate(after)+' 브리핑':'다음 저장 날짜 없음');
     const latest=entries.length?(data.latest_url||archiveContext.latest_url||entries.at(-1).url):'';
     for(const id of ['latest-report','calendar-latest'])document.getElementById(id).hidden=!setLink(id,latest);
-    document.getElementById('calendar-archive').hidden=!setLink('calendar-archive',data.archive_url||archiveContext.archive_url);
+    document.getElementById('calendar-archive').hidden=!setLink('calendar-archive',briefingLibraryUrl(archiveContext,safeArchiveUrl));
     renderCalendar();return true;
   }
   function renderCalendar(focusDate){
