@@ -3,12 +3,48 @@
   "visibility": "public",
   "base_path": "/news/",
   "timezone": "Asia/Seoul",
-  "latest_date": "2026-10-28",
-  "updated_at": "2026-10-28T00:21:38.311907+00:00",
+  "latest_date": "2026-10-29",
+  "updated_at": "2026-10-29T03:20:04.550174+00:00",
   "latest_url": "/news/",
   "archive_url": "/news/?archive=1",
   "manifest_url": "/news/archive.json",
   "entries": [
+    {
+      "date": "2026-10-29",
+      "mode": "reconstruction",
+      "generated_at": "2026-10-29T03:20:04.550174+00:00",
+      "cutoff": "2026-10-29T08:15:21.258157+09:00",
+      "issue_count": 45,
+      "status": "complete",
+      "edition_phase": "daily_final",
+      "run_id": "c8382e6c6bb6f17217f1f172",
+      "revisions": [
+        {
+          "date": "2026-10-29",
+          "mode": "reconstruction",
+          "generated_at": "2026-10-29T03:06:40.523701+00:00",
+          "cutoff": "2026-10-29T08:15:21.258157+09:00",
+          "issue_count": 45,
+          "status": "complete",
+          "edition_phase": "daily_final",
+          "run_id": "b3a4226a78cb57c2961446a4",
+          "url": "/news/daily/2026-10-29/revisions/b3a4226a78cb57c2961446a4/index.html",
+          "report_url": "/news/daily/2026-10-29/revisions/b3a4226a78cb57c2961446a4/index.html",
+          "sha256": {
+            "json": "0cef50890db4c8b3471784b1ecf01cb3a00d94649b2235da7911b6f544135b84",
+            "markdown": "e5fb5fc7abe4213d97a9fe9e3bb5af649f4e815a151f88654a6ed70651728bb5",
+            "html": "6e8404ea3755f4705ae7879d87303e11a76f994ff576d3bca854c2907c78ee78"
+          }
+        }
+      ],
+      "url": "/news/daily/2026-10-29/index.html",
+      "report_url": "/news/daily/2026-10-29/index.html",
+      "sha256": {
+        "json": "824611c20e8c8cdde30c4c8adbf1d060fdf39b687afd1c143aca8e11dd34135b",
+        "markdown": "e38d3f77e2f5835a2c6a165de6dddf75c20df7b2356b0f3ce1a83b5bd12e10a5",
+        "html": "09e4073cee0357c1c720092cdf043acbb5c748f59c8c46c05a2d156fd9403a66"
+      }
+    },
     {
       "date": "2026-10-28",
       "mode": "reconstruction",
