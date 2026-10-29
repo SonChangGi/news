@@ -1,16 +1,18 @@
 'use strict';
 const $=id=>document.getElementById(id),make=(tag,text,cls)=>{const n=document.createElement(tag);if(text!==undefined)n.textContent=text;if(cls)n.className=cls;return n;};
-const topics=[['company_management','기업·경영'],['industry_structure','산업·시장구조'],['markets_flows','시장·자금흐름'],['commodities_fx','원자재·환율'],['macro_policy','거시·정책'],['technology_ai','기술·AI'],['expert_views','전문가 견해'],['geeknews','GeekNews']];
+const topics=[["economy","경제"],["finance","금융"],["business","기업"],["industry","산업"],["science_technology","과학·기술"],["politics_international","정치·국제"],["society_life","사회·생활"],["geeknews","GeekNews"]];
+const legacyTopics={"expert_views":"finance","quant_research":"finance","company_management":"business","company_industry":"business","industry_structure":"industry","markets_flows":"finance","commodities_fx":"finance","credit_risk":"finance","macro_policy":"economy","technology_ai":"science_technology"};
+function topicKey(value){const key=typeof value==='string'?value.replace(/^additional-/,'').replace(/^(topic-|weekly-)/,''):'';return legacyTopics[key]||key;}
 const label=key=>topics.find(t=>t[0]===key)?.[1]||(key==='other'?'분류 검토 필요':key), norm=s=>String(s||'').normalize('NFKC').toLocaleLowerCase();
 const stateKey='research-news-library-v1';let settings={};try{settings=JSON.parse(localStorage.getItem(stateKey)||'{}')||{};}catch(e){}
 const read=new Set(Array.isArray(settings.read)?settings.read:[]),saved=new Set(Array.isArray(settings.saved)?settings.saved:[]),opened=new Set(),origins=new Map();
 let rows=[],matches=[],category='',source='',unreadOnly=false,savedOnly=false,view=settings.view==='titles'?'titles':'summary',font=16,ready=false,generation=0,limit=24,groupLimits={},latest='',topSources=new Set(),sourceCounts=[];
 let preferences={};try{preferences=JSON.parse(localStorage.getItem('research-news-reader-preferences')||'{}')||{};}catch(e){}
-let preferred=new Set(Array.isArray(preferences.preferred)?preferences.preferred.map(k=>k.replace(/^(topic-|weekly-|additional-)/,'')):[]);
+let preferred=new Set(Array.isArray(preferences.preferred)?preferences.preferred.map(topicKey).filter(k=>topics.some(t=>t[0]===k)):[]);
 const orderedTopics=()=>[...topics].sort((a,b)=>Number(preferred.has(b[0]))-Number(preferred.has(a[0])));
 function saveTopics(){try{const current=JSON.parse(localStorage.getItem('research-news-reader-preferences')||'{}')||{};localStorage.setItem('research-news-reader-preferences',JSON.stringify({...current,preferred:[...preferred]}));}catch(e){}}
 function syncExpand(){const cards=[...document.querySelectorAll('#results .card')],all=cards.length>0&&cards.every(c=>opened.has(c.dataset.id));$('expand-all').textContent=all?'모두 접기':'모두 펼치기';$('expand-all').setAttribute('aria-pressed',String(all));$('expand-all').disabled=!cards.length;}
-const params=new URLSearchParams(location.search);category=topics.some(t=>t[0]===params.get('category'))?params.get('category'):'';source=params.get('source')||'';
+const params=new URLSearchParams(location.search);category=topics.some(t=>t[0]===topicKey(params.get('category')))?topicKey(params.get('category')):'';source=params.get('source')||'';
 // Preserve existing library bookmarks for kind, topic and custom dates.
 if(!category&&params.get('kind')==='geeknews')category='geeknews';
 if(!category&&params.get('topic'))category=topics.find(t=>t[1]===params.get('topic'))?.[0]||'';
