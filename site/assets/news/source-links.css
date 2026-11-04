@@ -1,0 +1,26 @@
+/* Original links stay one click away in both expanded and focused readers. */
+html[data-news-design] .nd-source-access {
+  display:block;width:100%;max-width:var(--nd-reading-width,720px);margin:28px auto 20px;
+}
+html[data-news-design] .nd-source-heading {display:flex;align-items:baseline;justify-content:space-between;gap:12px;margin-bottom:10px}
+html[data-news-design] .nd-source-heading h4 {font-size:13px;font-weight:650;margin:0;color:var(--nd-text);line-height:1.6}
+html[data-news-design] .nd-source-heading>span {font-size:11px;color:var(--nd-muted);white-space:nowrap}
+html[data-news-design] .nd-source-list {list-style:none;padding:0;margin:0;display:grid;gap:8px}
+html[data-news-design] .nd-source-list>li {padding:0;margin:0;min-width:0}
+html[data-news-design] .nd-source-link {
+  display:flex;align-items:flex-start;gap:12px;padding:13px 14px;min-height:52px;
+  border:1px solid var(--nd-border);border-radius:8px;background:var(--nd-bg);
+  color:var(--nd-text);text-decoration:none;transition:border-color 160ms,background 160ms;
+}
+html[data-news-design] .nd-source-number {font-size:11px;line-height:1.8;color:var(--nd-muted);min-width:18px;font-variant-numeric:tabular-nums}
+html[data-news-design] .nd-source-copy {display:grid;gap:4px;min-width:0;flex:1}
+html[data-news-design] .nd-source-publisher {font-size:11px;line-height:1.7;color:var(--nd-muted);overflow-wrap:anywhere;word-break:normal}
+html[data-news-design] .nd-source-title {font-size:14px;line-height:1.65;font-weight:550;word-break:keep-all;overflow-wrap:anywhere}
+html[data-news-design] .nd-source-arrow {color:var(--nd-accent);line-height:1.6;flex-shrink:0}
+html[data-news-design] .nd-source-link:hover {border-color:var(--nd-accent);background:var(--nd-raised)}
+html[data-news-design] .nd-source-link:hover .nd-source-title {text-decoration:underline;text-underline-offset:3px}
+html[data-news-design] .nd-source-unavailable {font-size:13px;line-height:1.8;color:var(--nd-muted);margin:0}
+@media(max-width:600px) {
+  html[data-news-design] .nd-source-link {gap:9px;padding:12px}
+}
+@media(prefers-reduced-motion:reduce) {html[data-news-design] .nd-source-link {transition:none}}

@@ -1,0 +1,47 @@
+/* A perceptually balanced dark-first topic palette; backgrounds stay neutral. */
+html[data-news-design=refined] {
+  --nd-bg:#0f1722;--nd-panel:#1a2534;--nd-raised:#253449;--nd-text:#edf2f8;--nd-muted:#b8c5d5;--nd-border:#43566e;--nd-accent:#9dbbe5;--nd-soft:#273d5b;
+  --nd-topic-economy:oklch(73% 0.09 235);
+  --nd-topic-finance:oklch(73% 0.08 155);
+  --nd-topic-business:oklch(73% 0.09 270);
+  --nd-topic-industry:oklch(73% 0.085 50);
+  --nd-topic-science_technology:oklch(73% 0.085 305);
+  --nd-topic-politics_international:oklch(73% 0.04 85);
+  --nd-topic-society_life:oklch(73% 0.08 350);
+  --nd-topic-geeknews:oklch(73% 0.075 195);
+}
+html[data-theme=light][data-news-design=refined] {
+  --nd-bg:#f3f5f7;--nd-panel:#ffffff;--nd-raised:#e9eef3;--nd-text:#1c2938;--nd-muted:#546374;--nd-border:#a7b3c3;--nd-accent:#3c5b87;--nd-soft:#e5edf6;
+  --nd-topic-economy:oklch(45% 0.07 235);
+  --nd-topic-finance:oklch(45% 0.065 155);
+  --nd-topic-business:oklch(45% 0.07 270);
+  --nd-topic-industry:oklch(45% 0.07 50);
+  --nd-topic-science_technology:oklch(45% 0.07 305);
+  --nd-topic-politics_international:oklch(45% 0.032 85);
+  --nd-topic-society_life:oklch(45% 0.065 350);
+  --nd-topic-geeknews:oklch(45% 0.06 195);
+}
+html[data-news-design=refined] body.qd-v04 :is([data-issue-section$="-economy"],[data-report-section$="-economy"],[data-category="economy"],.weekly-spotlight[data-reader-topic="economy"],.weekly-contents a[href$="-economy"],.weekly-contents [data-reader-topic$="-economy"],[data-issue-section$="-macro_policy"],[data-report-section$="-macro_policy"],[data-category="macro_policy"],.weekly-spotlight[data-reader-topic="macro_policy"],.weekly-contents a[href$="-macro_policy"],.weekly-contents [data-reader-topic$="-macro_policy"]) {
+  --topic:var(--nd-topic-economy);--topic-dark:var(--nd-topic-economy);--dark:var(--nd-topic-economy);--tint:color-mix(in srgb,var(--nd-topic-economy) 4%,var(--nd-panel));
+}
+html[data-news-design=refined] body.qd-v04 :is([data-issue-section$="-finance"],[data-report-section$="-finance"],[data-category="finance"],.weekly-spotlight[data-reader-topic="finance"],.weekly-contents a[href$="-finance"],.weekly-contents [data-reader-topic$="-finance"],[data-issue-section$="-markets_flows"],[data-report-section$="-markets_flows"],[data-category="markets_flows"],.weekly-spotlight[data-reader-topic="markets_flows"],.weekly-contents a[href$="-markets_flows"],.weekly-contents [data-reader-topic$="-markets_flows"]) {
+  --topic:var(--nd-topic-finance);--topic-dark:var(--nd-topic-finance);--dark:var(--nd-topic-finance);--tint:color-mix(in srgb,var(--nd-topic-finance) 4%,var(--nd-panel));
+}
+html[data-news-design=refined] body.qd-v04 :is([data-issue-section$="-business"],[data-report-section$="-business"],[data-category="business"],.weekly-spotlight[data-reader-topic="business"],.weekly-contents a[href$="-business"],.weekly-contents [data-reader-topic$="-business"],[data-issue-section$="-company_management"],[data-report-section$="-company_management"],[data-category="company_management"],.weekly-spotlight[data-reader-topic="company_management"],.weekly-contents a[href$="-company_management"],.weekly-contents [data-reader-topic$="-company_management"]) {
+  --topic:var(--nd-topic-business);--topic-dark:var(--nd-topic-business);--dark:var(--nd-topic-business);--tint:color-mix(in srgb,var(--nd-topic-business) 4%,var(--nd-panel));
+}
+html[data-news-design=refined] body.qd-v04 :is([data-issue-section$="-industry"],[data-report-section$="-industry"],[data-category="industry"],.weekly-spotlight[data-reader-topic="industry"],.weekly-contents a[href$="-industry"],.weekly-contents [data-reader-topic$="-industry"],[data-issue-section$="-industry_structure"],[data-report-section$="-industry_structure"],[data-category="industry_structure"],.weekly-spotlight[data-reader-topic="industry_structure"],.weekly-contents a[href$="-industry_structure"],.weekly-contents [data-reader-topic$="-industry_structure"]) {
+  --topic:var(--nd-topic-industry);--topic-dark:var(--nd-topic-industry);--dark:var(--nd-topic-industry);--tint:color-mix(in srgb,var(--nd-topic-industry) 4%,var(--nd-panel));
+}
+html[data-news-design=refined] body.qd-v04 :is([data-issue-section$="-science_technology"],[data-report-section$="-science_technology"],[data-category="science_technology"],.weekly-spotlight[data-reader-topic="science_technology"],.weekly-contents a[href$="-science_technology"],.weekly-contents [data-reader-topic$="-science_technology"],[data-issue-section$="-technology_ai"],[data-report-section$="-technology_ai"],[data-category="technology_ai"],.weekly-spotlight[data-reader-topic="technology_ai"],.weekly-contents a[href$="-technology_ai"],.weekly-contents [data-reader-topic$="-technology_ai"]) {
+  --topic:var(--nd-topic-science_technology);--topic-dark:var(--nd-topic-science_technology);--dark:var(--nd-topic-science_technology);--tint:color-mix(in srgb,var(--nd-topic-science_technology) 4%,var(--nd-panel));
+}
+html[data-news-design=refined] body.qd-v04 :is([data-issue-section$="-politics_international"],[data-report-section$="-politics_international"],[data-category="politics_international"],.weekly-spotlight[data-reader-topic="politics_international"],.weekly-contents a[href$="-politics_international"],.weekly-contents [data-reader-topic$="-politics_international"],[data-issue-section$="-commodities_fx"],[data-report-section$="-commodities_fx"],[data-category="commodities_fx"],.weekly-spotlight[data-reader-topic="commodities_fx"],.weekly-contents a[href$="-commodities_fx"],.weekly-contents [data-reader-topic$="-commodities_fx"]) {
+  --topic:var(--nd-topic-politics_international);--topic-dark:var(--nd-topic-politics_international);--dark:var(--nd-topic-politics_international);--tint:color-mix(in srgb,var(--nd-topic-politics_international) 4%,var(--nd-panel));
+}
+html[data-news-design=refined] body.qd-v04 :is([data-issue-section$="-society_life"],[data-report-section$="-society_life"],[data-category="society_life"],.weekly-spotlight[data-reader-topic="society_life"],.weekly-contents a[href$="-society_life"],.weekly-contents [data-reader-topic$="-society_life"],[data-issue-section$="-expert_views"],[data-report-section$="-expert_views"],[data-category="expert_views"],.weekly-spotlight[data-reader-topic="expert_views"],.weekly-contents a[href$="-expert_views"],.weekly-contents [data-reader-topic$="-expert_views"]) {
+  --topic:var(--nd-topic-society_life);--topic-dark:var(--nd-topic-society_life);--dark:var(--nd-topic-society_life);--tint:color-mix(in srgb,var(--nd-topic-society_life) 4%,var(--nd-panel));
+}
+html[data-news-design=refined] body.qd-v04 :is([data-issue-section$="-geeknews"],[data-report-section$="-geeknews"],[data-category="geeknews"],.weekly-spotlight[data-reader-topic="geeknews"],.weekly-contents a[href$="-geeknews"],.weekly-contents [data-reader-topic$="-geeknews"],[data-issue-section="geeknews"],[data-report-section="geeknews"],.geeknews-card,.weekly-contents a[href="#ai-discovery-title"],.weekly-contents [data-reader-topic="geeknews"]) {
+  --topic:var(--nd-topic-geeknews);--topic-dark:var(--nd-topic-geeknews);--dark:var(--nd-topic-geeknews);--tint:color-mix(in srgb,var(--nd-topic-geeknews) 4%,var(--nd-panel));
+}
