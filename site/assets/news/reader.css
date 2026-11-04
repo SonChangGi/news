@@ -141,5 +141,5 @@ html[data-nd-filtered=true] :is(.weekly-overview,.weekly-contents){display:none!
 html[data-news-design] .library .back-top{display:none!important}
 
 @media(hover:hover){.nd-quick a:hover{color:var(--nd-accent)}}
-@media(max-width:360px){html[data-news-design] .shell{padding-inline:12px!important}.nd-quick{gap:8px!important}.nd-quick>a{font-size:11px}html[data-news-design] .qd-shell .qd-brand{display:none!important}}
+@media(max-width:360px){html[data-news-design] .shell{padding-inline:12px!important}.nd-quick{gap:8px!important}.nd-quick>a{font-size:11px}html[data-news-design]:not([data-unified-design]) .qd-shell .qd-brand{display:none!important}}
 @media print{.nd-dock,.nd-toast,.nd-quick,.nd-preferences{display:none!important}html[data-news-design] .shell{max-width:none!important}}
