@@ -10,6 +10,8 @@
     }
     document.documentElement.dataset.unifiedDesign='0.5.0';
     state.state='ready';
+    const footer = document.querySelector('.qd-side-footer small');
+    if (footer) footer.textContent = 'Quant Research · v' + state.version;
     dispatchEvent(new Event('quant-design-unified-ready'));
   }
   if (document.readyState === 'complete') ready();
