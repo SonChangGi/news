@@ -17,9 +17,16 @@ class Menu(HTMLParser):
         self.rail = False
         self.assets = []
         self.project = None
+        self.bundle = None
+        self.owned_assets = []
 
     def handle_starttag(self, tag, attrs):
         row = dict(attrs)
+        if tag == 'script' and row.get('data-news-design-bundle'):
+            self.bundle = row['data-news-design-bundle']
+        asset = row.get('src', row.get('href', ''))
+        if tag in {'script', 'link'} and asset.startswith('/news/assets/news/'):
+            self.owned_assets.append(asset)
         if tag == "div" and "quant-shared-nav__links" in row.get("class", "").split():
             self.rail = True
         if self.rail and tag == "a":
@@ -43,8 +50,19 @@ def verify(root):
             continue  # Date aliases and the archive landing are redirects.
         menu = Menu()
         menu.feed(text)
-        assert sorted(menu.assets) == [BASE + "nav.css", BASE + "nav.js"], path
-        assert menu.project == "news", path
+        if menu.bundle:
+            assert menu.bundle == 'news-2026-11-04.1', path
+            assert not menu.assets, path  # One navigation owner; no competing mutable loader.
+            names = {url.split('?')[0].rsplit('/', 1)[-1] for url in menu.owned_assets}
+            assert {'boot.js', 'shell.js', 'v04.js', 'reader.js', 'palette.css', 'source-links.js'} <= names, path
+            for url in menu.owned_assets:
+                relative, _, version = url.removeprefix('/news/').partition('?v=')
+                candidate = root / relative
+                assert '..' not in Path(relative).parts and candidate.is_file(), path
+                assert hashlib.sha256(candidate.read_bytes()).hexdigest()[:12] == version, str(candidate)
+        else:
+            assert sorted(menu.assets) == [BASE + "nav.css", BASE + "nav.js"], path
+            assert menu.project == "news", path
         assert len(menu.links) == len(set(menu.links)) == 8, path
         assert "https://sonchanggi.github.io/factor/" in menu.links, path
         assert not any("best-factor" in href or "momentum-factor-lab" in href or "/SPO/" in href for href in menu.links), path
