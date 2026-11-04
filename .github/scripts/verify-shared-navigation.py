@@ -51,10 +51,12 @@ def verify(root):
         menu = Menu()
         menu.feed(text)
         if menu.bundle:
-            assert menu.bundle == 'news-2026-11-04.1', path
+            assert menu.bundle in {'news-2026-11-04.1', 'news-2026-11-04.2'}, path
             assert not menu.assets, path  # One navigation owner; no competing mutable loader.
             names = {url.split('?')[0].rsplit('/', 1)[-1] for url in menu.owned_assets}
             assert {'boot.js', 'shell.js', 'v04.js', 'reader.js', 'palette.css', 'source-links.js'} <= names, path
+            if menu.bundle == 'news-2026-11-04.2':
+                assert {'common.css', 'editorial.css', 'polish.js', 'editorial.js', 'unified.js'} <= names, path
             for url in menu.owned_assets:
                 relative, _, version = url.removeprefix('/news/').partition('?v=')
                 candidate = root / relative
