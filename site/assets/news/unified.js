@@ -1,17 +1,19 @@
 /* News owns loading; the shared foundation remains pinned and initializes once. */
 (() => {
   'use strict';
-  const state = window.__quantDesignUnified ||= {version:'0.5.0',foundation:'0.4.0',state:'loading',project:'news'};
+  const state = window.__quantDesignUnified ||= {version:'0.6.0',foundation:'0.4.0',state:'loading',project:'news'};
   function ready() {
     clearTimeout(window.__quantNewsPaintTimer);
-    const links = [...document.querySelectorAll('link[rel="stylesheet"]')].filter(link => link.href.includes('/assets/news/extensions/0.5.0/'));
-    if (window.__quantNewsExtensionErrors?.length || links.length !== 2 || links.some(link => !link.sheet) || window.__quantDesignV4?.state !== 'ready') {
+    const links = [...document.querySelectorAll('link[rel="stylesheet"]')].filter(link => /\/assets\/news\/extensions\/(?:0\.5\.0|0\.6\.0)\//.test(link.href));
+    if (window.__quantNewsExtensionErrors?.length || links.length !== 5 || links.some(link => !link.sheet) || window.__quantDesignV4?.state !== 'ready' || window.QuantRange?.version !== '1.2.0') {
       state.state='failed';
       document.documentElement.dataset.quantPaint='fallback';
-      if (links.length !== 2 || links.some(link => !link.sheet)) delete document.documentElement.dataset.unifiedDesign;
+      delete document.documentElement.dataset.quantSilicon;
+      delete document.documentElement.dataset.unifiedDesign;
       return;
     }
-    document.documentElement.dataset.unifiedDesign='0.5.0';
+    document.documentElement.dataset.unifiedDesign=state.version;
+    document.documentElement.dataset.quantSilicon='true';
     state.state='ready';
     document.documentElement.dataset.quantPaint='ready';
     const footer = document.querySelector('.qd-side-footer small');
