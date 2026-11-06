@@ -51,7 +51,7 @@ def verify(root):
         menu = Menu()
         menu.feed(text)
         if menu.bundle:
-            assert menu.bundle in {'news-2026-11-04.1', 'news-2026-11-04.2'}, path
+            assert menu.bundle in {'news-2026-11-04.1', 'news-2026-11-04.2', 'news-2026-11-06.1'}, path
             assert not menu.assets, path  # One navigation owner; no competing mutable loader.
             names = {url.split('?')[0].rsplit('/', 1)[-1] for url in menu.owned_assets}
             assert {'boot.js', 'shell.js', 'v04.js', 'reader.js', 'palette.css', 'source-links.js'} <= names, path

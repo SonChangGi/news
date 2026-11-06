@@ -1,0 +1,1089 @@
+# Quant Research Web Design Prompt
+
+> 버전: `2.8.0` · News 검증을 반영한 개정본
+>
+> 공통 UI 목표: `0.7.0` · 초기 진입: `1.2.0` · 차트: `QuantRange 1.3.0` · News는 자체 고정 번들 사용
+>
+> 개정 기준일: `2026-11-06` · 이전 News 기준: `2026-11-04`
+>
+> 적용 범위: Hub·Factor·DRAM·ETF·SOX·Fear & Greed·Regime·News·투자일지·Alpha House
+>
+> 상태: 승인된 10개 미리보기의 공통 UI 0.7.0 계약. News 고유 원문·읽기 구조는 §19를 유지한다.
+> 이번 배포 승인 범위: 기존 10개 사이트의 디자인·로딩 순서와 로컬/GitHub 지침. 수집·분석·인증·진행 중 브리핑은 보존한다.
+
+현재 공통 원문은 [GitHub 지침 2.8.0](https://github.com/SonChangGi/quant-dashboard/blob/main/docs/web-design.md)이다. News 고유 읽기·원문 계약은 §19를 유지하고, 중립색·차트·로딩은 마지막 UI 0.7.0 계약을 우선한다.
+
+이 문서는 단순한 스타일 참고서가 아니라 **디자인 구현 지시문, 보호 경계, 검증 계약**이다. 다음 프로젝트를 시작할 때 구현 담당자는 이 문서 전체를 먼저 읽고, 마지막의 복사용 실행 프롬프트와 함께 사용한다.
+
+이 파일은 공통 지침 2.5.0과 News 읽기 지침 2.6.0을 이어받는다. **새 작업은 마지막 공통 UI 0.7.0 계약을 먼저 읽고, News는 §19의 원문·읽기 계약을 함께 적용한다.** 기존 계산·데이터·입력 보호 기준은 유지한다.
+
+## 0. 우선순위
+
+규칙이 충돌하면 아래 순서대로 판단한다.
+
+1. **분석·결과 보호 경계**
+2. **이 문서의 §19 개정 규칙 → 충돌하지 않는 나머지 규칙 → 기존 v0.4 운영 구현 계약**
+3. **현재 10개 운영 사이트의 검증된 상호작용과 프로젝트 고유 구조**
+4. **프로젝트 고유의 분석 목적과 필요한 예외**
+5. **Toss 공개 자료에서 참고한 일반적인 디자인 원칙**
+
+공통 디자인의 적용 대상은 Hub를 포함한 10개 사이트이며 등록 목록은 §4가 기준이다. 다음 6개 금융 사이트의 도메인별 상세 계약은 그대로 유지한다.
+
+| 기준 사이트 | 공개 페이지 | 공통 디자인에 제공하는 핵심 근거 | 반드시 보존할 고유 요소 |
+| --- | --- | --- | --- |
+| DRAM Price Lab | [dram-price](https://sonchanggi.github.io/dram-price/) | 간결한 타이포그래피, compact shell, 상태 strip, 대표값 카드, 접힌 고급 필터·운영 상세 | 현물·고정가·`spot_proxy`, 제품·출처·지표 필터, 가격 facet, 대표 6개, 관측 표·모바일 카드, source status·fail-closed |
+| Fear & Greed Flow Lab | [fearNgreed](https://sonchanggi.github.io/fearNgreed/) | 결과 우선 결론, 날짜 역할 분리, 계열·날짜 탐색, 외부 정확값 readout | KOSPI·신호·선택 전략 3패널, 연구 트랙, ETF 1X/2X, 사건 연구·백테스트·거래표 |
+| ETF TOP10 Tracking | [etf-tracking](https://sonchanggi.github.io/etf-tracking/) | 고밀도 다중 계열 차트의 강조·끝 라벨·충돌 방지, 선택일·종목 readout | TOP10 비중, 편입·편출·잔차·가격효과 신호, ETF별 표와 저장 결과 |
+| SOX Semiconductor | [sox](https://sonchanggi.github.io/sox/) | constituent 비교, 연동 선택, 막대·사분면 차트, 검색·정렬 고밀도 표 | snapshot date selector, source status, proxy weight, 가격·실적 모멘텀, coordinated selection, leaders, 원래 표 열 |
+| Factor | [factor](https://sonchanggi.github.io/factor/) | 현재 선택·단일 팩터·비교·실험·데이터 탐색, 연동 날짜 readout, 비중 내림차순 모형 보유 | `integrated-factor/v1`, 32개 정의와 투자 후보 구분, 월별 선택 전략과 고정 팩터의 구분, 신호·체결·보유 기준일, 비용·현금·수취권, URL·입력·결과 binding |
+| Regime | [regime](https://sonchanggi.github.io/regime/) | 관측 소속도와 예측확률의 분리, 기간 탐색, 상태 배경과 t+1 결과 마커 | 주간 관측·예측 시점, 결과 ID·SHA-256, core·이력 일치, source status·fail-closed |
+
+### 0.1 검증 기준선
+
+새 작업은 10개 운영 사이트 중 변경과 연결된 소비 화면의 현재 검증된 소스를 기준으로 시작한다. 같은 실행·기간·단위의 결과, 원본 표 행과 차트 관측, 라이트·다크, 1440·1024·768·390px를 대조한다. Factor는 `factor_lab/web/integrated.*`, 나머지는 각 저장소의 실제 배포 원본을 확인한다. 공통 메뉴 기준은 `shared/navigation/v1/menu.json`이다.
+
+아래 표는 색상·밀도·상호작용 원칙을 추출한 **2026-07-24 역사 기록**이다. 종료된 Best나 이전 Momentum UI를 현재 서비스·필수 검증 대상으로 되살리는 근거가 아니다. 과거 commit과 다른 프로젝트의 Git 이력은 유지한다.
+
+<details>
+<summary>2026-07-24 UI 근거 commit · 비규범 역사 기록</summary>
+
+| 당시 사이트 | 당시 UI 기준 commit | 당시 기준 UI source |
+| --- | --- | --- |
+| DRAM | `7808d1400ae1ada880ff9ee3103fe417a0196e7a` | `frontend/src/index.css`, `App.tsx`, `components/shared-nav.tsx`, `components/price-chart.tsx` |
+| Fear & Greed | `e1e1e720cf1ab406320379afadc522870e3c3032` | `index.html`, `assets/styles.css`, `assets/app.js` |
+| ETF Tracking | `a11f9aa7cda743767eb4ca1781e826565778a084` | `index.html`, `assets/styles.css`, `assets/app.js` |
+| SOX | `f570adf16554d8e006ee8d8b703335288ea3ce78` | `index.html`, `assets/styles.css`, `assets/app.js` |
+| Momentum | `a6ef9c6ac086590e5400c6d17ef107071adfcd65` | `docs/index.html`, `docs/assets/styles.css`, `docs/assets/dashboard.js` |
+| Best Factor (종료) | `269f8d4c872f5fd3275cf43747ad3a5ac4fbc8e2` | `docs/index.html`, `docs/styles.css`, `docs/app.js`, `docs/data/dashboard-config.json` |
+
+</details>
+
+### 0.2 활성 사이트가 서로 다를 때
+
+- 3개 이상에서 반복되고 분석 의미와 충돌하지 않는 패턴은 공통 기본값으로 채택한다.
+- 단, 공통 메뉴·theme·입력 상태·결과 binding처럼 이 문서가 명시한 canonical contract는 기존 구현의 다수결이 아니라 **모든 페이지가 이동할 목표 규칙**이다.
+- 프로젝트 분석 의미 때문에 필요한 차이는 허용된 variant로 기록한다.
+- 단순히 과거 구현이 달랐다는 이유로 새 variant를 만들지 않는다.
+- 한 사이트를 통째로 복사하지 않는다. **활성 사이트의 공통 문법**을 사용한다.
+
+## 1. 절대 보호 경계
+
+### 1.1 디자인 작업으로 변경할 수 있는 것
+
+- HTML 구조의 시각적 순서와 접근성 markup
+- CSS token, typography, spacing, layout, responsive behavior
+- 화면 표시용 컴포넌트, 차트 renderer, tooltip, readout, legend
+- 표시 전용 선택·hover·focus·날짜 탐색 상태
+- 중복 설명 제거와 운영 상세의 단계적 공개
+- 디자인 회귀를 막는 DOM·접근성·시각 테스트
+
+### 1.2 절대 변경하지 않는 것
+
+- Python 수집·정제·분석·전략·백테스트 코드
+- 계산식, threshold, ranking, weighting, 포지션, 체결 규칙
+- 입력값에 따라 결과가 달라지는 기존 실행 경로
+- 공개 JSON schema, field, 정밀도, 날짜 의미, 생성 결과
+- 원본·생성 데이터 파일과 이전 결과 이력
+- API·CLI 계약, 분석·결과 identity에 쓰이는 cache key, result identity
+- 기존 프로젝트의 데이터 수집·분석 workflow, 자동화 주기, Pages 경로, 데이터 권리
+- fail-closed, unavailable, blocked, degraded, stale 판정
+- 차트 series의 값·단위·경제적 의미와 표의 열·순서·원본 행
+
+### 1.3 혼합 파일 보호
+
+JavaScript나 TypeScript 한 파일에 renderer와 계산 로직이 함께 있으면 파일 전체를 변경 가능하다고 보지 않는다.
+
+- DOM 생성, class, ARIA, 표시 문자열, presentation state만 수정한다.
+- 계산·normalization·selection·aggregation 함수는 동결한다.
+- 수정 전후 같은 fixture·입력의 결과 JSON과 핵심 숫자가 같아야 한다.
+- 기존 DOM id·`data-*` hook, fetch URL·key mapping, 입력 기본값·허용 범위는 보존한다.
+- 같은 fixture의 표 행 수와 차트 series·point 수가 수정 전후 같아야 한다.
+- 표시 제어가 분석 입력처럼 보이면 두 상태를 명확히 분리한다.
+- 필요한 디자인을 계산 변경 없이 구현할 수 없으면 작업을 멈추고 사용자에게 알린다.
+
+Python 파일 안에 HTML/CSS presentation template이 들어 있는 프로젝트는 해당 template 영역만 수정할 수 있다. 분석·수집·결과 함수 diff는 금지하며, 같은 fixture의 underlying 결과가 완전히 같다는 테스트가 있어야 한다.
+
+신규 프로젝트의 frontend build·Pages 배포 workflow는 사용자가 별도로 승인한 경우에만 추가할 수 있다. 이 경우에도 분석 자동화, secret, data rights와 결과 생성 경로는 변경하지 않는다.
+
+### 1.4 입력의 네 종류를 먼저 선언한다
+
+모든 입력·선택·필터는 구현 전에 아래 네 종류 중 하나로 등록한다. 한 control이 두 역할을 동시에 가져서는 안 된다. 역할이 섞이면 control과 상태를 분리한다.
+
+| `control_kind` | 의미 | 새 분석 실행 | 결과 identity 영향 | 예시 |
+| --- | --- | --- | --- | --- |
+| `display` | 현재 결과를 정렬·검색·강조하거나 보이는 방식만 변경 | 없음 | 없음 | 표 행 수, 화면 정렬, 검색, 차트 강조 계열, 차트 선택일 |
+| `result_selector` | 이미 계산·검증된 preset, 기준일, 결과를 선택 | 없음 | 선택한 기존 result identity로 전환 | 저장 기준일, 저장 preset, 공식 결과 버전 |
+| `analysis` | 권위 있는 분석 engine을 새 입력으로 실행 | 필수 | 새 config와 run identity 생성 | 분석 기간, 리밸런싱, 편입 종목 수, weighting, 팩터 집합, 거래비용 |
+| `operation` | 수집·백필·강제 갱신·발행 등 운영 작업 | 운영 경로에 따름 | 분석 결과와 별도 operation identity | 전체 backfill, refresh-existing, 재발행 |
+
+각 control은 코드 또는 검증 manifest에 다음 정보를 가져야 한다.
+
+- 안정적인 input id
+- `display`, `result_selector`, `analysis`, `operation` 중 하나인 `control_kind`
+- 기본값의 출처: HTML 상수, 현재 결과, 저장 설정 중 하나
+- type, 단위, 허용값·범위, 비어 있을 때 의미
+- URL·local storage·request payload에 포함되는지 여부
+- canonical input key와 schema version
+- `analysis`이면 대응하는 API field, workflow input, CLI flag 또는 Python parameter
+- 결과에서 해당 입력이 적용되었음을 확인할 field 또는 result binding
+- 입력이 결과 수치를 바꾸지 않아도 정상인 명시적 no-op 조건
+- 입력부터 결과까지 검증하는 binding test
+
+화면에 입력창이 존재하거나 command 문자열이 생성된다는 사실만으로 입력 연결이 완료된 것이 아니다.
+
+### 1.5 현재 6개 사이트의 입력 기준선
+
+새 구현은 현재 페이지의 control 의미를 먼저 보존하고, 아래 상태보다 기능을 후퇴시키지 않는다.
+
+| 프로젝트 | 현재 입력 경계 | 구현 원칙 |
+| --- | --- | --- |
+| DRAM | 8개 `display`, 차트 관찰일 1개 `result_selector` | 저장 관측만 사용한다. 사용자 분석 API를 만들거나 관찰일 선택을 재계산으로 표현하지 않는다. |
+| ETF Tracking | 15개 `display`, 5개 `result_selector`, 인증된 1개 `operation` | 저장 이력 탐색과 수집 작업을 분리한다. 공개 표시·선택 control은 분석 run을 만들지 않는다. |
+| SOX | 공개 5개 `display`, 1개 `result_selector`, 별도 인증 운영 작업 2개 | 저장 기준일·종목을 선택한다. 기준일 선택과 owner operation을 재계산 form으로 표현하지 않는다. |
+| Factor | 통합 결과 조회와 로컬 실험·Python 실행을 구분 | 차트 날짜·신호월·저장 결과 선택은 `display` 또는 `result_selector`다. 새 계산은 실제 Python 실행과 입력·데이터·코드 identity에 결합한다. 공통 Control API의 안정 ID `momentum`·26개 `ResearchInputs` 계약은 capability를 확인하고 사용하며 통합 실행 입력으로 묵시적으로 바꾸지 않는다. |
+| Fear & Greed | 표시·저장 이력 탐색, 선언된 browser scenario 또는 controlled Python run | 각 결과의 engine을 명시한다. 공통 API의 16개 가시 입력·17개 wire field를 실제 capability와 대조하며 JS/Python parity 없는 결과를 같은 계산으로 표현하지 않는다. |
+| Regime | 저장 core·주간 이력·기간·관찰일·상태 선택 | 조회와 표시만 바꾼다. 공개 조회를 새 예측 계산으로 표현하지 않고 core·이력 발행 ID와 SHA-256을 검증한다. |
+
+입력 개수는 과거 감사표를 고정값으로 복사하지 않는다. 현재 control registry와 capability에서 확인한다. command 생성만으로 완료 처리하지 않는다. Best의 독립 입력·실행 경로는 종료됐으며 새 작업의 연결 대상이 아니다.
+
+### 1.6 입력 → 권위 분석 engine → 결과 계약
+
+`analysis` control은 다음 전 구간이 실제로 연결되어야 한다. 권위 분석 engine은 원칙적으로 기존 Python 진입점이다. 현재 계약이 브라우저 engine인 프로젝트는 계산 위치를 결과에 명시하고 Python 결과라고 부르지 않는다.
+
+```text
+control
+→ frontend validation
+→ canonical request/config serialization
+→ API·workflow·CLI 전달
+→ 선언된 권위 engine인 기존 Python 분석 함수·CLI 또는 검증된 browser scenario 실행
+→ 입력을 포함한 run identity
+→ 새 결과 저장
+→ frontend가 새 결과와 입력의 결합을 검증
+→ 화면 갱신
+```
+
+필수 규칙:
+
+- Python 계산식·전략을 frontend나 API에 다시 구현하지 않는다. API와 worker는 기존 Python 진입점을 호출한다.
+- frontend 기본값은 임의 placeholder가 아니라 현재 결과에 실제 적용된 설정 또는 공식 기본 설정에서 읽는다.
+- 제출한 입력은 canonical form으로 정규화하고, 같은 입력은 같은 config hash를 만들어야 한다.
+- 결과는 최소 `run_id`, 요청 설정의 `config_hash`, 실제 적용 설정의 `effective_config_hash`, `input_schema_version`, `data_as_of`, `calculated_at`, `code_version`, artifact URL·SHA-256 또는 동등한 identity를 가져야 한다.
+- frontend는 제출한 `config_hash`와 결과의 binding이 일치할 때만 `현재 결과에 적용됨`이라고 표시한다.
+- artifact를 쓰는 결과는 선언된 URL의 **실제 bytes를 가져와 byte size와 SHA-256을 검증한 뒤** payload를 채택한다. 같은 응답 envelope 안의 payload·hash를 서로 비교하거나 envelope로 가짜 run을 만들어 자기 자신과 비교하는 검증은 binding 증거가 아니다.
+- binding이 없거나 다르면 이전 결과를 새 결과처럼 표시하지 않고 `대기`, `불일치`, `실패` 상태로 닫힌다.
+- 비동기 분석은 `queued → running → succeeded | failed | cancelled` 상태를 구분하고, 이전 성공 결과와 새 실행 상태를 섞지 않는다.
+- 비동기 조회 시간은 worker의 실제 최대 실행 시간과 publication 여유보다 짧아서는 안 된다. browser polling이 끝나도 server run은 내구 저장소에서 재조회할 수 있어야 하며, timeout·재시작·callback 누락은 성공이 아니라 명시적 실패 상태로 수렴해야 한다.
+- GitHub Pages처럼 서버 실행이 없는 화면은 입력이 즉시 계산된다고 표현하지 않는다. 실제 workflow/API 실행 경로가 없으면 분석 input UI를 공개 기능처럼 만들지 않는다.
+- frontend 상태는 `applied_config`, `draft_config`, `pending_run`, `bound_result`로 분리한다. draft 변경만으로 공식 카드·차트·표를 바꾸지 않는다.
+- `display` 변경 전후에는 config hash, run id, Python command와 저장 결과가 변하지 않아야 한다.
+- `result_selector`는 새 계산을 만들지 않고 존재하는 result identity만 선택한다.
+- `operation`은 일반 공개 분석 입력과 같은 form에 섞지 않고 인증된 운영 경로에 둔다.
+- `requested_inputs`, `normalized_inputs`, `effective_inputs`, `ignored_inputs`, `fallbacks`를 결과 metadata에 기록한다.
+- 요청값과 실제 적용값이 다르면 조용히 성공시키지 않는다. 사용자가 명시적으로 `allow_fallback`에 동의하지 않았다면 실패 상태로 끝낸다.
+- fallback이 없으면 `config_hash == effective_config_hash`여야 한다. 명시적으로 허용된 fallback이 있으면 `config_hash`는 요청 identity로 유지하고, 별도 `effective_config_hash`가 실제 적용값을 증명하며 모든 차이를 fallback record로 설명한다.
+
+분석 task에서 Python을 수정하지 않았다는 사실은 입력 동작의 증거가 아니다. 반드시 black-box 실행으로 결과 변화를 검증한다.
+
+### 1.7 입력 민감도와 결정성 테스트
+
+모든 `analysis` control은 최소 다음 테스트를 통과해야 한다.
+
+1. **전달 테스트**: control 값이 canonical config와 실제 CLI/Python parameter에 정확히 도달한다.
+2. **결정성 테스트**: 같은 데이터·코드·입력으로 두 번 실행하면 허용된 비결정 요소를 제외한 핵심 결과가 같다.
+3. **민감도 테스트**: 해당 입력만 의미 있게 바꾼 A/B fixture에서 그 입력이 책임지는 결과 field·행·포트폴리오·기간이 달라진다.
+4. **격리 테스트**: `display` control을 바꿔도 Python command·config hash·결과 JSON은 그대로다.
+5. **binding 테스트**: 결과의 입력 hash·기준일·코드 버전이 요청과 정확히 맞고, 선언된 artifact의 실제 bytes·크기·SHA-256이 검증될 때만 화면이 결과를 채택한다. envelope 자기 비교는 금지한다.
+6. **실패 테스트**: 잘못된 값, timeout, worker 실패, stale result에서 이전 결과를 새 결과처럼 보이지 않는다.
+
+실제 데이터에서 두 합법 입력이 우연히 같은 결과를 낼 수 있다. 이 경우 핵심 숫자가 같다는 이유만으로 실패시키거나, 반대로 기능을 통과 처리하지 않는다. 입력이 실제 worker argument와 새로운 config·run identity에 도달하는지 확인하고, 결과 영향이 분명한 작은 결정적 fixture로 계산 경로를 증명한다. 단순 mock 호출 횟수만으로 민감도 테스트를 대체하지 않는다.
+
+### 1.8 백엔드·프런트엔드 분리 경계
+
+프로젝트 규모상 분리가 유리하면 다음 책임을 사용한다.
+
+- frontend: 표시 상태, 입력 수집, validation feedback, 실행 요청, 상태 조회, 결과 rendering
+- API: schema validation, 인증·권한, run 생성, idempotency, 상태·결과 조회
+- worker: 기존 Python 수집·분석 CLI 실행, artifact 검증, 결과 저장
+- storage: versioned result, run metadata, config hash, data quality·freshness 상태
+
+분리는 계산 로직 복사를 의미하지 않는다. Python 분석은 worker의 단일 source of truth로 유지한다. 정적 JSON snapshot은 삭제하지 않고 검증된 공개 결과와 장애 시 fallback으로 유지한다.
+
+공통 frontend는 다음 경계를 사용한다.
+
+```text
+packages/
+  ui/          token과 프로젝트가 소유하는 재사용 primitive
+  shell/       10개 등록 사이트 탐색, theme, page header, status, disclosure
+  charts/      frame, plot 밖 readout, 날짜·계열 선택 primitive
+  contracts/   Zod 기반 control registry, run/result envelope
+  data-client/ 정적 snapshot과 API result adapter
+  testing/     nav·theme·binding·E2E 공통 검증
+apps/
+  */           프로젝트별 view-model, chart renderer, table schema
+```
+
+공통 package는 navigation·token·button·card·input shell·disclosure·table shell·chart interaction primitive만 공유한다. 프로젝트별 계산 결과 구조, series 의미, table column과 분석 정보 구조는 각 app이 소유한다. shared package로 계산식을 옮기거나 범용화를 이유로 result schema를 합치지 않는다.
+
+`shadcn/ui`처럼 component source를 프로젝트가 직접 소유하는 방식은 사용할 수 있지만, Tailwind·Radix·특정 UI library 자체를 공통 디자인의 필수 조건으로 만들지 않는다. 현재 stack에 이미 검증된 component가 있으면 의미·접근성·상태 계약만 맞추고 전면 교체하지 않는다.
+
+Supabase 같은 client-accessible storage를 사용할 때 browser에는 publishable key만 허용하고 RLS를 적용한다. service-role·provider credential·GitHub token은 frontend bundle과 공개 JSON에 넣지 않는다.
+
+## 2. 제품 인상
+
+Quant Research 제품군은 다음처럼 보여야 한다.
+
+- 차분하고 정확한 개인 리서치 도구
+- 다크를 기본으로 한 차분한 중립 표면과 절제된 blue accent
+- 숫자와 날짜가 먼저 읽히고 장식은 뒤로 물러나는 화면
+- 데이터가 많아도 질서가 있고, 빈 공간이 많아도 마케팅 페이지처럼 보이지 않는 화면
+- 라이트·다크 모두 같은 정보 위계와 의미를 유지하는 화면
+
+피해야 할 표현:
+
+- 거대한 hero와 과도한 세로 여백
+- 화면 전반의 굵은 글자, badge, gradient, glow, glassmorphism
+- 의미 없는 rainbow 카드와 그림자 중첩
+- 모든 내용을 카드로 감싸는 card-in-card 구조
+- 실제 상태를 과장하는 성공색·경고색
+- 투자 행동을 재촉하거나 성과를 보장하는 문구
+
+## 3. 공통 정보 구조
+
+기본 순서는 다음과 같다.
+
+1. 10개 등록 사이트의 공통 탐색과 현재 페이지
+2. 페이지 정체성, 운영 상태, 데이터 기준일
+3. 결론·신호·최신 대표값
+4. 3~5개의 핵심 지표
+5. 가장 중요한 차트와 정확값 탐색
+6. 필요한 분석 입력·필터
+7. 상세 차트·표·거래·원시 관측
+8. 하나의 닫힌 `데이터 · 출처 · 운영 상세` (주요 원문 링크의 노출은 §19.5 우선)
+
+### 3.1 첫 화면
+
+가능하면 `1440×900`에서 다음이 보이게 한다.
+
+- 공통 메뉴
+- 페이지 제목
+- 현재 결과와 기준일
+- 핵심 차트의 제목·상단 또는 주요 행동
+
+첫 화면에서 설정이 꼭 필요하면 전체 form 대신 현재 적용값과 필수 입력만 둔다. 긴 고급 설정은 접는다.
+
+### 3.2 상태와 날짜
+
+운영 상태와 분석 결과를 합치지 않는다.
+
+- 운영 상태: 수집·검증·신선도·출처의 사용 가능성
+- 분석 상태: 신호·포지션·가격·팩터·리스크 등 계산 결과
+
+날짜도 다음 역할을 섞지 않는다.
+
+| 역할 | 표시 위치 |
+| --- | --- |
+| 데이터 기준일 | 상단 상태 또는 핵심 결과 |
+| 평가 종료일 | 해당 전략·모형 결과 |
+| 차트 선택일 | 차트 정확값 readout |
+| 필터 기간 | 차트 metadata |
+| 생성·수집 시각 | 운영 상세 |
+
+프로젝트에 없는 날짜 역할을 새로 만들지 않는다.
+
+## 4. 10개 공통 메뉴
+
+메뉴 원본은 `shared/navigation/v1/menu.json`이다. Hub 브랜드 1개와 프로젝트 9개, 총 10개 사이트를 등록한다. 다음 표는 registry 순서이며 즐겨찾기·사이드바 그룹의 표시 순서는 별도 UI 상태다. 표시 순서를 바꾸어 등록 항목이나 URL을 누락하지 않는다.
+
+| 순서 | Label | URL |
+| ---: | --- | --- |
+| 1 | Quant Research Hub | `https://sonchanggi.github.io/quant-dashboard/` |
+| 2 | Factor | `https://sonchanggi.github.io/factor/` |
+| 3 | DRAM | `https://sonchanggi.github.io/dram-price/` |
+| 4 | ETF | `https://sonchanggi.github.io/etf-tracking/` |
+| 5 | SOX | `https://sonchanggi.github.io/sox/` |
+| 6 | Fear & Greed | `https://sonchanggi.github.io/fearNgreed/` |
+| 7 | Regime | `https://sonchanggi.github.io/regime/` |
+| 8 | News | `https://sonchanggi.github.io/news/` |
+| 9 | 투자일지 | `https://invest.changgi-son.chatgpt.site/` |
+| 10 | 알파 하우스 | `https://research-observatory-changgi.changgi-son.chatgpt.site/` |
+
+### 4.1 Canonical navigation
+
+운영 UI는 `0.4.0`이다. 소비 페이지의 기존 `shared/navigation/v1/nav.js` 진입점과 `shared/design/v3/` 경로는 호환성을 위해 유지한다. v3라는 폴더명을 UI 버전으로 해석하거나 소비 사이트의 URL을 일괄 이전하지 않는다. 로드 순서·프로젝트 alias·배포 검증은 [운영 구현 계약](https://github.com/SonChangGi/quant-dashboard/blob/main/docs/design-v3.md), 메뉴 schema·fallback·CSP는 [공통 메뉴 계약](https://github.com/SonChangGi/quant-dashboard/blob/main/docs/shared-navigation.md)을 따른다. 이전 v1 상단 메뉴의 치수는 fallback에만 해당한다.
+
+- 넓은 화면은 64px 상단 헤더와 224px 사이드바를 사용한다. 사용자가 접으면 72px 아이콘 레일로 전환한다.
+- 1180px 미만에서는 사이드바 접기 버튼과 사이드바를 숨기고 프로젝트 선택 창으로 10개 사이트에 접근한다. 가로로 긴 프로젝트 링크 열을 강제하지 않는다.
+- 상단에는 현재 프로젝트 선택, 빠른 검색, 페이지 목차, 보기 설정, 테마 전환을 제공한다. 브랜드는 Quant와 기존 세 막대 SVG다.
+- 프로젝트 선택 창에서 즐겨찾기를 추가·해제할 수 있다. 즐겨찾기는 사이트를 복제하거나 등록 목록을 바꾸지 않으며 기존 그룹과 중복 표시하지 않는다.
+- `⌘K`/`Ctrl+K` 검색, 방향키·Enter·Escape, 현재 위치와 닫기 후 포커스 복원을 유지한다. 현재 페이지 목차는 현재 렌더된 제목으로 만들고 숨긴 섹션·모달 내용을 포함하지 않는다.
+- 현재 위치는 각 탐색 표면에서 정확히 한 항목의 `aria-current="page"`로 표시한다. 여러 표면의 복제 링크를 문서 전체에서 한 개로 강제하지 않는다.
+- 아이콘 버튼에 accessible name과 visible focus를 제공한다. 모바일에서 버튼과 인접 조작이 겹치지 않도록 실제 크기와 간격을 검증한다.
+- 사용자 설정은 §12의 origin별 저장 계약을 따른다. 데이터 필터·계산 입력과 구분한다.
+
+원래 React·정적 페이지의 DOM 소유권, 네이티브 제어, 데이터 요청을 유지한다. 공통 shell은 별도 노드에 만들고 로드 실패 시 원래 화면과 탐색을 사용할 수 있어야 한다. 새 프로젝트는 registry·로더 alias·shell의 표시 항목·프로젝트 선택·검색·목차를 함께 확인한다.
+
+## 5. Layout·Spacing·Shape
+
+### 5.1 폭과 gutter
+
+- content max-width는 프로젝트별 정보량에 맞춰 유지한다. 공통 헤더와 사이드바를 뺀 실제 가용 폭에서 표·차트가 수축해야 한다.
+- desktop gutter: 최소 `16px`, 일반 `20~32px`
+- mobile gutter: `12~16px`
+- 한 section 안의 핵심 열은 `minmax(0, 1fr)`로 수축 가능해야 한다.
+
+### 5.2 간격
+
+4px/8px 계열을 사용한다.
+
+`4, 6, 8, 12, 16, 18, 20, 24, 28, 32, 40, 48`
+
+- compact section 간격: `14~20px`
+- major section 간격: `20~28px`
+- card gap: `12~18px`
+- 일반 card padding: `14~18px`
+- major panel padding: `18~24px`
+- compact control group padding: `10~14px`
+- 설명 문단과 heading margin만으로 세로 길이를 늘리지 않는다.
+
+### 5.3 모서리와 그림자
+
+- 일반 panel radius: `10~14px`, 관련 KPI를 연결한 요약 영역: `12~14px`
+- button·input radius: `7~10px`
+- 상태 chip·pill: `999px`
+- 기존 승인 화면이 `10~16px` radius를 쓰면 프로젝트 안에서만 일관되게 유지할 수 있다.
+- 그림자는 panel 구분이 border만으로 부족할 때 한 단계만 사용한다.
+- dark mode에서 밝은 glow를 만들지 않는다.
+- 기본 light shadow는 `0 8px 24px rgba(25, 31, 40, .07)`, compact shadow는 `0 2px 8px rgba(25, 31, 40, .045)` 이내로 사용한다.
+- dark shadow는 `0 18px 44px rgba(0, 0, 0, .30)` 이내로 사용한다.
+
+## 6. Semantic Color
+
+색 이름이 아니라 역할을 공유한다. 운영 v0.4는 `--qd-*` 토큰과 [운영 팔레트](https://github.com/SonChangGi/quant-dashboard/blob/main/docs/design-v3.md#색-테마와-브랜드)를 우선한다. 아래 값은 `2026-07-24` 당시 6개 공개 사이트와 source의 computed style·CSS token을 대조한 뒤, 반복된 역할에서 선택한 **신규 프로젝트·누락 token용 fallback 팔레트**다. 기존 사이트는 의미 역할만 mapping하고 승인된 값을 이 표로 일괄 교체하지 않는다. 일부 neutral·blue 값은 기존 사이트가 채택해 온 Toss-inspired 색감 때문에 TDS 공개 팔레트와 일치한다. 이 문서는 TDS에서 신규 값을 가져오는 근거가 아니라 활성 프로젝트의 승인된 시각 역할과 과거 검증 근거 사이의 호환성을 유지하는 근거다.
+
+| Token | Light | Dark | 용도 |
+| --- | --- | --- | --- |
+| `--bg` | `#f7f9fb` | `#111318` | 문서 배경 |
+| `--surface` | `#ffffff` | `#181d26` | 기본 panel |
+| `--surface-raised` | `#ffffff` | `#1d2430` | 선택·상승 panel |
+| `--surface-soft` | `#f2f4f6` | `#242b38` | filter·header·neutral |
+| `--text-primary` | `#191f28` | `#f2f4f6` | 본문 |
+| `--text-strong` | `#0b1018` | `#ffffff` | 제목·핵심값 |
+| `--text-muted` | `#6b7684` | `#b0bac7` | metadata |
+| `--text-muted-strong` | `#4e5968` | `#d1d6df` | 보조 본문 |
+| `--border` | `#e5e8eb` | `#303948` | 기본 경계 |
+| `--border-strong` | `#d1d6db` | `#465267` | focus·축·강한 경계 |
+| `--primary` | `#3182f6` | `#5da2ff` | 주 동작·선택 계열 |
+| `--primary-strong` | `#1b64da` | `#8ec0ff` | 링크·active text |
+| `--primary-soft` | `#eaf3ff` | `#182b44` | active surface |
+| `--primary-soft-strong` | `#d8eaff` | `#203a5f` | active border·selection |
+| `--positive` | `#008768` | `#62d4a4` | 검증된 긍정 상태 |
+| `--positive-soft` | `#e5f8f2` | `#14362b` | 긍정 상태 surface |
+| `--warning` | `#b76e00` | `#ffd166` | 주의·stale |
+| `--warning-soft` | `#fff4df` | `#3a2d14` | 주의 상태 surface |
+| `--negative` | `#e03131` | `#ff8a8a` | 오류·위험 |
+| `--negative-soft` | `#fff0f0` | `#3c1d22` | 오류 상태 surface |
+| `--chart-grid` | `#d8dee8` | `#344154` | 차트 격자 |
+| `--chart-axis` | `#9aa4b2` | `#66758c` | 축·guide |
+| `--chart-text` | `#4e5968` | `#c3ccda` | 축·legend text |
+| `--chart-focal` | `#3182f6` | `#5da2ff` | 선택한 핵심 계열 |
+| `--chart-alt` | `#1687a7` | `#67d4f2` | 대안 계열 |
+| `--chart-secondary` | `#7c3aed` | `#b69cff` | 보조 비교 계열 |
+| `--chart-benchmark` | `#8b95a1` | `#b0bac7` | 중립 benchmark |
+
+규칙:
+
+- 실제 저장소의 기존 변수명은 위 역할에 alias할 수 있다.
+- 활성 사이트의 값을 fallback hex로 강제 교체하지 않는다.
+- 프로젝트 고유 의미색은 유지한다.
+- blue는 기본 선택·주 동작, green·teal은 긍정 또는 대안, amber는 주의, red는 부정·오류에만 사용한다.
+- 색만으로 신호를 구분하지 않는다. label, marker, dash, icon 중 하나를 함께 쓴다.
+- 라이트와 다크는 같은 hex의 단순 반전이 아니다. 각 테마의 실제 대비를 따로 검증한다.
+- 일반 본문·control·표는 WCAG AA 대비를 목표로 한다.
+
+## 7. Typography
+
+번들에 포함한 `PretendardVariable.woff2`와 `--qd-font`를 공통 글꼴로 사용한다. 시스템 sans-serif는 로드 실패 시 대체 경로다. 버튼·입력·표·SVG 텍스트에도 적용하며 프로젝트마다 다른 웹폰트를 추가하지 않는다.
+
+```css
+font-family: var(--qd-font, Pretendard, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif);
+```
+
+- body: `15px / 1.55 / 400~500`
+- helper·table cell: `12~14px`
+- 일반 보조 본문: `13~15px`
+- metadata·table header·eyebrow: `11~12px`
+- 조작 label과 핵심 상태: 최소 `12px`
+- page title: 보통 `27~30px`, 주로 `700`; 별도 문서 읽기 화면은 읽기 위계를 따른다.
+- section title: 보통 `18~21px`, `650~700`
+- card title: 약 `16~18px`, `650~700`; News 첫 이슈는 더 큰 읽기 위계를 사용한다.
+- 대표 숫자: `1.45~2rem`, `700`
+- button·label: `600~700`
+- `800~900`은 brand·eyebrow·한 화면의 한두 개 강조에만 사용한다.
+
+한 카드나 한 행에서는 하나의 정보만 가장 진하게 한다. 전역 `strong` 규칙으로 다수 문장을 모두 bold 처리하지 않는다.
+
+금융 숫자는 `font-variant-numeric: tabular-nums`를 사용하고 값과 단위를 붙여 읽을 수 있게 한다. 숫자만 크게 만들고 단위·기준일을 지나치게 작게 만들지 않는다.
+
+## 8. 공통 컴포넌트
+
+### 8.1 Page header
+
+- eyebrow, 한 개의 h1, 필요할 때만 한 문장 설명
+- 상태·기준일은 별도 status strip 또는 summary panel
+- hero를 마케팅 banner처럼 크게 만들지 않는다.
+
+### 8.2 Status strip
+
+- `상태`, `데이터 기준일`, 필요한 핵심 날짜·출처를 짧게 표시한다.
+- 정상 상태는 한 줄, 오류·degraded만 짧은 대응 문장을 추가한다.
+- 상세 사유와 자동화 내역은 운영 상세로 이동한다.
+
+### 8.3 Result·metric card
+
+- label → 핵심값 → 단위·기준일 순서
+- 대표값마다 label·단위를 유지하되 관련 KPI는 구분선이 있는 하나의 요약 영역으로 연결할 수 있다. 카드 수를 늘리는 것을 목표로 하지 않는다.
+- 장식용 전체 폭 상단 띠를 사용하지 않는다. 의미색·상태·선택만 필요한 위치에 남긴다.
+- 3~5개 핵심 지표를 먼저 보여 주고 나머지는 상세로 보낸다.
+- 카드 전체를 badge와 bold로 채우지 않는다.
+- 값이 없으면 `0`으로 만들지 말고 `관측 없음`, `사용 불가`를 표시한다.
+
+### 8.4 Button·link
+
+- 실제 동작을 예측할 수 있는 label을 쓴다.
+- `확인`, `적용`만 쓰기보다 `최근 1년 보기`, `평가 종료일로`, `필터 적용`처럼 쓴다.
+- primary action은 section당 1개를 기본으로 한다.
+- icon-only control은 accessible name과 `44×44px` target을 갖는다.
+- hover 시 `translateY(-1px)`보다 색·border 변화가 우선이다.
+
+### 8.5 Input·filter
+
+- label, 현재값, 단위를 붙여 제공한다.
+- 분석 입력과 표시 제어를 시각적으로 구분한다.
+- 분석 입력 panel은 **현재 결과에 적용된 값의 compact summary만 항상 보이고 form 본문은 기본 닫힘**으로 시작한다.
+- `현재 적용값`과 `편집 중 값`을 구분하며, 성공 결과 binding 전에는 draft 값으로 공식 카드·차트·표를 바꾸지 않는다.
+- 분석 입력은 기존 적용·재계산 경로를 그대로 사용하고 새 adapter는 기존 Python 진입점을 호출한다.
+- 표시 제어는 공식 결과와 분석 identity를 바꾸지 않는다. 선언된 표시 전용 URL·localStorage는 갱신할 수 있다. 예: Hub의 `view`, 화면 밀도, 즐겨찾기.
+- 고급 필터는 기본 닫힘으로 둘 수 있지만 현재 적용값은 요약한다.
+- 실제 실행 경로가 없는 command-copy UI는 `적용`, `실행`, `재계산` CTA로 표현하지 않는다. `실행 명령 복사`처럼 실제 동작을 그대로 쓴다.
+- 오류는 입력 근처에서 해결 방법과 함께 표시한다.
+
+### 8.6 Badge·status
+
+- badge는 상태·분류·현재 선택에만 쓴다.
+- 장식용 badge를 만들지 않는다.
+- text와 배경 모두 의미색 대비를 충족한다.
+- `정상`, `주의`, `사용 불가`처럼 짧은 상태를 먼저 보여 준다.
+
+### 8.7 Disclosure
+
+다음 정보는 하나의 기본 닫힘 `데이터 · 출처 · 운영 상세`로 모은다.
+
+- 공급자의 상세 정보와 보조 링크. 원문 접근이 주요 동작이면 직접 링크를 밖에 둔다 (§19.5).
+- 생성·수집 시각
+- fallback과 자동화 기록
+- 일반 규제·면책·제한·한계
+- 원본 JSON·GitHub Actions 링크
+
+현재 결과를 사용할 수 없게 만드는 warning·error는 접지 않는다. 상세 원인만 접는다.
+
+결과 해석에 필요한 분석 설정·신호 계산·전략 방법·팩터 선정 근거는 운영 정보와 합치지 않는다. Fear & Greed와 Factor처럼 도메인상 필요한 방법론은 해당 결과 가까이의 별도 접힌 section으로 유지한다.
+
+### 8.8 Loading·empty·degraded
+
+- loading은 기존 layout 크기를 유지하는 subdued placeholder와 짧은 상태 문구로 표시한다.
+- empty는 어떤 필터·데이터 조건 때문에 비었는지와 가능한 다음 행동을 말한다.
+- degraded·stale은 현재 값의 사용 가능 범위와 기준일을 함께 표시한다.
+- error·unavailable에서는 이전 값이나 `0`을 새 결과처럼 보이지 않는다.
+- 상태 전환 때 layout이 크게 뛰거나 흰 화면이 번쩍이지 않게 한다.
+
+### 8.9 긴 페이지 빠른 이동
+
+Fear & Greed, ETF Tracking, SOX, Factor처럼 긴 페이지에는 기존 상단·하단 빠른 이동을 유지할 수 있다. 짧은 페이지에는 억지로 추가하지 않는다.
+
+- `맨 위로`, `맨 아래로`를 예측 가능한 accessible name으로 제공한다.
+- 같은 `44×44px` icon button을 `8px` 간격의 세로 묶음으로 사용한다.
+- desktop은 viewport 오른쪽·아래 `16~24px`에 고정한다.
+- mobile은 네이티브 빠른 이동을 유지하되 읽기·입력·dialog와 겹치면 숨기거나 normal flow의 전용 행으로 옮긴다.
+- chart label, table control, primary CTA를 가리지 않도록 충돌 시 인접한 빈 영역으로 옮기거나 해당 방향 button을 숨긴다.
+- dialog·tooltip보다 낮은 stacking layer를 사용하고 keyboard focus와 reduced motion을 지원한다.
+
+## 9. Table
+
+기존 표의 column·order·값은 보존한다.
+
+- wrapper만 `overflow-x: auto`
+- column이 많으면 표를 찌그러뜨리지 말고 `min-width`를 둔다.
+- header는 필요하면 sticky, `11~12px / 650~700`
+- cell은 `12~14px`, padding `10~14px`
+- 텍스트·종목명은 왼쪽, 숫자·비율·금액은 오른쪽
+- 숫자는 tabular figures, 단위는 원본 계약 유지, 소수점은 아래 공통 숫자 표시 계약 적용
+- 날짜 형식은 같은 표 안에서 통일
+- row border는 `--border`, hover·selected는 `--primary-soft`
+- sortable table은 `aria-sort`와 현재 정렬 방향을 제공
+- keyboard focus가 행 안의 링크·button에서 보이게 한다.
+- mobile에서 표만 내부 스크롤하며 document overflow를 만들지 않는다.
+
+DRAM처럼 단순 관측 목록은 모바일 카드로 바꿀 수 있다. 사건 연구·백테스트·거래·다열 분석표는 의미를 잃는 카드로 쪼개지 않고 표를 보존한다.
+
+빈 결과, loading, 오류는 표 안에서 colspan을 맞춘 한 행으로 표시하고 가짜 행을 만들지 않는다.
+
+## 10. Chart
+
+기존 chart type, panel, series, axis, legend, 단위와 계산 결과를 유지한다.
+
+아래 상호작용은 **그 구조가 이미 있거나 도메인상 필요한 차트에만** 적용한다.
+
+- 계열 preview·pin은 multi-series comparison chart에만 적용한다.
+- 날짜 입력·화살표 탐색은 date-axis chart에만 적용한다.
+- 단일 series, 비시계열, 작은 요약 차트에 새 control이나 가로 scroll을 강제하지 않는다.
+- SOX 같은 bar·quadrant chart는 ticker coordinated selection을 유지하고 line-chart 규칙을 적용하지 않는다.
+
+### 10.1 기본 구성
+
+차트 section은 다음 순서를 사용한다.
+
+1. 제목·짧은 기간/단위
+2. plot 안 선택값·구간 측정 HUD
+3. 계열 선택·날짜 제어
+4. plot
+5. 필요한 한 줄 도움말
+6. 접근 가능한 정확값 표
+
+정확값과 구간 변화는 plot 안의 작은 HUD에 표시한다. 계열·날짜 control은 plot 바로 위 또는 아래의 인접 영역에 둘 수 있다. 접근 가능한 값 대안은 같은 section의 표 또는 명확히 연결된 관측·구성종목 표로 제공할 수 있다.
+
+### 10.2 계열 강조
+
+- hover·focus는 임시 preview
+- click·tap·Enter·Space는 pin
+- line chart의 active stroke는 대체로 `3.8~4px`, context stroke는 `2~2.8px`
+- line chart의 비활성 계열도 다크에서 읽혀야 한다. 현재 Fear `.65`, ETF `.68` 보정은 유지하며, 새 차트는 실제 배경·선·범례 대비로 판단한다. 과거 `.12~.22`를 공통 기본값으로 복사하지 않는다.
+- bar·quadrant의 비활성 opacity는 `.35~.55`를 기준으로 하고 inset·scale·label을 함께 사용
+- pointer가 떠나거나 blur되면 직전 pinned state로 복귀
+- active 계열은 굵기·점·halo·label로도 구분
+- 한 번에 모든 계열을 강하게 표시하지 않는다.
+
+### 10.3 날짜 탐색
+
+- date-axis chart에만 적용한다.
+- hover는 날짜 preview, click·tap은 고정
+- `ArrowLeft`, `ArrowRight`, `Home`, `End`
+- date input과 `최신일로` 또는 `평가 종료일로`
+- 선택일 세로 guide는 `dash 4 4`
+- 선택 point와 halo를 표시
+- 휴장일·누락일 처리는 기존 프로젝트 규칙을 유지
+
+### 10.4 정확값과 tooltip
+
+- 날짜·계열·정확값·단위는 plot 안의 HUD에 둔다.
+- 차트 위에 큰 absolute 정보 박스를 상시 올리지 않는다.
+- tooltip은 pointer·focus에서만 잠깐 표시하고 viewport 밖이면 자동으로 위치를 바꾼다.
+- tooltip은 Escape·외부 click으로 닫을 수 있어야 한다.
+- custom readout과 SVG native title, 모든 시점 label을 동시에 중복 노출하지 않는다.
+- 끝 라벨은 전용 gutter와 collision rule을 갖는다.
+- 값이 많은 차트는 모든 label을 강제하지 않는다.
+
+### 10.5 다중 단위와 사건
+
+- 가격·수익률·지수·비중처럼 다른 단위는 panel·facet 또는 명확한 축으로 분리한다.
+- 신호일과 체결일은 marker·shape·label로 구분한다.
+- 관측이 없으면 선을 임의 보간하지 않는다.
+- 선택일에 값이 없으면 `관측 없음`을 표시한다.
+
+### 10.6 모바일
+
+- readout과 control은 scroll canvas 밖에 둔다.
+- 고밀도 chart는 plot만 `620~960px` 내부 canvas로 가로 스크롤할 수 있다.
+- document 자체의 가로 overflow는 금지한다.
+- chart frame 하나를 keyboard focus 지점으로 사용하고 SVG node마다 tab stop을 만들지 않는다.
+
+## 11. UX writing
+
+- 결론·기준일·핵심 수치·다음 행동을 먼저 쓴다.
+- 같은 내용을 title, badge, helper, footer에서 반복하지 않는다.
+- 제목·값·control로 의미가 분명하면 helper를 쓰지 않는다.
+- Hero 설명은 필요할 때만 한 문장으로 제한한다.
+- `Python이 생성한 값을 그대로 표시합니다`
+- `표시 설정은 저장된 결과를 다시 계산하지 않습니다`
+- `정적 JSON을 읽습니다`
+- `허용구간 안이므로 방향을 추정하지 않습니다`
+
+위와 같은 구현 설명·반복 중립 사유는 공개 화면에서 제거한다. 필요한 보호 경계는 코드·테스트·이 문서에 둔다.
+
+중립 상태는 `추가 신호 없음`처럼 한 번만 표시한다. 규제·제한·한계는 작은 글씨로 여러 번 남겨 두지 말고 운영 상세 한 곳에 모은다.
+
+문장은 짧고 능동적으로 쓴다. CTA는 누른 뒤 일어날 일을 말한다. 과장, 확정적 투자 표현, 사용자의 이탈을 막는 modal·interruption을 사용하지 않는다.
+
+## 12. Theme·Accessibility·Responsive
+
+- theme storage canonical key: `quant-research-theme`
+- 유효한 URL `theme=light|dark` → 저장된 `quant-research-theme` → `dark` 순서. OS 설정은 기본값을 바꾸지 않는다. 저장된 사용자 라이트 선택은 유지한다.
+- 네이티브 테마 제어와 기존 legacy key는 현재 부트·adapter 계약대로 동기화한다. 초기화 과정의 기본 light를 사용자 선택으로 승격하지 않는다. 특히 News library와 React 초기화 뒤에도 공통 우선순위를 유지한다.
+- v0.4 표시 설정은 `quant-ui-v04-favorites`(프로젝트 표시명 배열), `quant-ui-v04-density`(`comfortable` 또는 `compact`), `quant-ui-v04-rail`(접힘 여부 boolean)을 JSON으로 저장한다. 기본값은 대시보드·뉴스 브리핑·투자일지 즐겨찾기, `comfortable`, 펼친 레일이다.
+- localStorage는 origin별이다. GitHub Pages 경로끼리는 같은 origin을 공유하지만 투자일지·Alpha House의 별도 origin과 자동 동기화되지 않는다. 저장소 오류나 잘못된 값은 안전한 표시 기본값으로 처리하고 분석 데이터에 쓰지 않는다.
+- 선택 theme는 `document.documentElement.dataset.theme`와 `color-scheme`에 동기화
+- theme toggle은 `aria-pressed`와 현재 동작을 설명하는 동적 accessible label을 유지
+- 라이트·다크 모두 본문·축·격자·상태·focus ring 검증
+- `prefers-reduced-motion`에서 비필수 motion 제거
+- native button, link, input, table semantics 우선
+- focus-visible을 색과 outline으로 명확히 표시
+- hover에만 의존하는 정보 금지
+- chart·icon control에 accessible name 제공
+- 색 외 marker·dash·text를 함께 사용
+- 브라우저 200% zoom에서도 핵심 control과 값이 잘리지 않게 한다.
+
+필수 viewport:
+
+| 용도 | 크기 |
+| --- | --- |
+| Desktop | `1440×900` |
+| Tablet | `1024×768` |
+| Mobile | `390×844` |
+
+`390px`에서 `document.documentElement.scrollWidth <= document.documentElement.clientWidth + 1`이 기본 계약이다. nav, chart, table, 의도된 KPI rail만 자체 스크롤할 수 있다.
+
+## 13. 기존 페이지 개선 절차
+
+1. 최신 `origin/main`, 공개 URL, Pages 상태, 실제 데이터 기준일을 확인한다.
+2. 기존 checkout/worktree의 사용자 변경을 확인하고 적합한 현재 작업 공간을 재사용한다. 새 worktree는 필요한 경우에 만든다.
+3. 수정 금지 파일·함수·schema·결과 snapshot을 먼저 기록한다.
+4. 공개 화면과 source에서 다음 inventory를 만든다.
+   - 10개 등록 사이트와 표시 그룹·즐겨찾기·프로젝트 선택
+   - 모든 control의 id·`control_kind`·기본값 출처·validation·serialization
+   - `analysis` control의 API/workflow/CLI·Python parameter·result binding·no-op 조건
+   - visible copy와 중복
+   - computed font-size·weight·line-height
+   - spacing·radius·token
+   - chart type·series·axis·legend·readout
+   - table column·order
+   - 긴 페이지의 상단·하단 빠른 이동
+   - desktop/mobile scrollWidth·scrollHeight
+5. 현재 프로젝트의 좋은 구성은 유지하고 이 문서와 다른 drift만 수정한다.
+6. 분석·데이터 테스트와 디자인 회귀 테스트를 실행한다.
+7. desktop/tablet/mobile의 light/dark를 확인한다.
+8. 사용자에게 local preview를 먼저 제공한다.
+9. 배포가 승인되면 commit·PR·CI·Pages·공개 readback까지 확인한다.
+
+기존 페이지를 공통 디자인에 맞춘다는 이유로 한 번에 전체 markup과 CSS를 다시 작성하지 않는다.
+
+## 14. 신규 프로젝트 구현 절차
+
+1. 프로젝트의 가장 중요한 결과·날짜·차트·표·입력을 정의한다.
+2. 성격이 가까운 기준 패턴을 선택한다.
+   - 가격·보유비중 모니터링: DRAM·ETF
+   - 신호·사건·전략 검증: Fear & Greed
+   - 팩터·구성종목 비교: Factor·SOX
+   - 사용자 입력 기반 재실행: Factor의 실제 Python 실행·실험 경로
+3. 이 문서의 nav·token·typography·spacing·상태·table·chart 계약으로 시작한다.
+4. 도메인에 없는 신호·날짜·interaction을 억지로 추가하지 않는다.
+5. 새 frontend stack은 기존 분석 계약과 배포 구조를 바꿀 이유가 아니다.
+6. framework·UI library 채택은 별도 결정이며 이 디자인 문서의 필수 조건이 아니다.
+7. 결과 fixture, 각 `analysis` control의 결정적 A/B fixture, `display` control의 불변 fixture를 먼저 고정하고 UI·worker가 같은 계약을 지키는지 검증한다.
+8. desktop/tablet/mobile의 light/dark와 loading·empty·degraded 상태를 확인한다.
+9. 사용자에게 local preview와 변경 파일 목록을 제공하고 승인 전에는 배포하지 않는다.
+10. 배포가 승인되면 commit·PR·CI·Pages와 공개 asset·데이터 readback을 확인한다.
+
+## 15. 검증 게이트
+
+### 15.1 보호 경계
+
+- 분석·수집·결과 Python 함수, data JSON, 기존 데이터 workflow·schema·analysis module diff가 없어야 한다.
+- Python 안의 presentation template은 허용 범위와 동일 결과 fixture 증거를 별도로 제시해야 한다.
+- 혼합 JS/TS 파일은 계산 함수 diff가 없어야 한다.
+- 같은 입력의 핵심 결과·날짜·정밀도·result identity가 동일해야 한다.
+- 같은 fixture의 underlying row·series·point·value가 동일해야 한다. pagination·표시 필터에 따른 visible count 변화는 presentation state로만 허용한다.
+- 기존 input→result, URL, API 동작이 동일해야 한다.
+
+### 15.2 입력 → 실행 → 결과
+
+- 모든 control의 `display`·`result_selector`·`analysis`·`operation` registry가 존재해야 한다.
+- 모든 `analysis` control은 frontend field → canonical config → API·workflow·CLI → Python parameter mapping이 하나씩 증명되어야 한다.
+- 같은 입력의 반복 실행은 핵심 결과가 결정적으로 같아야 한다.
+- 각 `analysis` control은 실제 worker argument와 config·run identity를 바꾸고, 영향이 드러나는 결정적 A/B fixture에서 책임지는 결과 경로가 달라져야 한다.
+- `display` 변경 전후 config hash·run id·Python command·결과 JSON이 같아야 한다.
+- 화면이 `현재 적용`으로 표시하는 요청 config hash·effective config hash·input schema version·data as-of·code version·artifact SHA-256이 실제 결과 binding과 일치해야 한다.
+- `requested_inputs`와 `effective_inputs`가 다르면 명시적 fallback 동의 또는 실패 상태가 있어야 한다.
+- queued·running·failed·stale·binding mismatch에서 이전 결과를 새 계산 결과처럼 표시하지 않아야 한다.
+- 입력 UI만 존재하거나 command 문자열만 생성하고 실제 Python 결과가 바뀌지 않는 상태는 완료가 아니다.
+
+### 15.3 디자인
+
+- 10개 registry label·순서·URL 일치, 표시 그룹과 즐겨찾기에서 누락·중복 없음
+- 각 탐색 표면에서 `aria-current="page"` 정확히 1개
+- 비교 화면은 `15px/1.55` 중심, News 긴 글은 §19.4의 읽기 위계
+- 불필요한 `800+` weight 반복 없음
+- 접근성 전용 label을 제외한 visible semantic duplicate 0건
+- 구현·재계산 설명 0건
+- 일반 운영·한계 상세는 닫힌 한 곳
+- 현재 사용 불가 warning은 접히지 않음
+- table 숫자 정렬·단위·column 보존
+- chart readout과 plot·축·끝 라벨 overlap 없음
+- 해당 기능이 있는 multi-series chart의 active·muted 계열과 date-axis chart의 날짜 pin·keyboard·touch 동작
+- 다크 기본값·저장된 라이트·유효한 URL 테마, 표시 설정 저장/복원, 목차·프로젝트 선택·즐겨찾기·접기·검색·빈 결과를 검증
+- light/dark 및 세 viewport에서 document overflow 없음
+- `NaN`, `undefined`, 잘린 label, 빈 tooltip 없음
+- loading·empty·degraded·fail-closed 상태와 긴 한글·긴 종목명에서도 잘림·겹침 없음
+
+### 15.4 배포
+
+- local test와 preview 통과
+- 운영 번들에 `QuantPreview`, `localhost`, 로컬 프록시·비교 모드·미리보기 전용 저장키가 없어야 한다. 기존 중앙 로더 또는 §19.2의 버전 고정 기반을 사용하며 실제 foundation·adapter 버전과 파일 해시를 확인한다.
+- Vercel Preview는 UI 검수 환경이며 운영 snapshot·분석 성공의 증거로 취급하지 않는다.
+- Preview는 검증된 GitHub Pages data origin을 read-only로 사용하고 production 데이터·current pointer를 덮어쓰지 않는다.
+- 승인 후 commit·push·PR·CI·Pages 성공
+- 공개 HTML·CSS·JS가 배포 대상 main의 UI commit과 일치
+- 공개 JSON은 현재 원격 main의 검증된 data commit·schema·기준일과 일치
+- 공개 화면에서 기준일·핵심값·interaction을 다시 확인
+
+## 16. 완료 정의
+
+다음이 모두 충족되어야 완료다.
+
+1. 10개 운영 사이트의 v0.4 공통 탐색·글꼴·표시 체계를 따른다.
+2. 페이지 고유의 결과 구조·차트·표·의미색은 유지된다.
+3. 첫 화면에서 핵심 결과와 기준일을 찾을 수 있다.
+4. 메뉴·타이포그래피·색상 역할·간격·상태·접근성이 일관된다.
+5. 차트 값이 선·점·축·label을 가리지 않는다.
+6. 표는 숫자와 단위를 빠르게 비교할 수 있다.
+7. 반복 설명과 구현 문구가 제거된다.
+8. mobile·keyboard·light/dark에서 기능이 같다.
+9. 분석·결과·데이터와 기존 데이터·분석 자동화 코드는 변경되지 않는다.
+10. 배포 요청이 있었다면 공개 페이지까지 검증된다.
+11. 모든 `analysis` control이 실제 Python parameter 또는 명시된 권위 engine에 전달되고, 새 config·run identity와 입력 민감도 fixture의 기대 결과 경로를 만든다.
+12. `display` control은 분석 identity와 저장 결과를 바꾸지 않는다.
+13. 비동기 실행 결과는 요청 config·effective config·input schema·artifact hash와 binding이 일치할 때만 현재 결과로 채택된다.
+
+## 17. Toss 참고 원칙과 사용 제한
+
+Toss 자료에서는 일관된 정보 위계, semantic token, 간결한 문구, 예측 가능한 interaction, 접근성, component 수준의 품질 보장을 참고한다.
+
+다음은 하지 않는다.
+
+- TDS UI Kit, TDS package, Toss logo·icon·graphic·font를 가져오지 않는다.
+- Toss 화면·component·신규 color value·motion을 Toss 자료만을 근거로 복제하지 않는다.
+- `TDS 기반`, `TDS 호환`이라고 표현하지 않는다.
+- 앱인토스 전용 navigation·light-mode 제약을 이 프로젝트군에 적용하지 않는다.
+
+공개 UI Kit 라이선스는 앱인토스 애플리케이션 개발·디자인·prototype으로 사용 범위를 제한하고, 다른 프로젝트에서의 사용·복사·수정·재가공·재배포를 금지한다. 따라서 UI Kit를 사용하지 않으며, 실제 디자인 값과 component의 source of truth는 위 활성 프로젝트의 현재 구현과 이 문서다. 향후에도 Toss 자료에서 새 값을 직접 가져오지 않는다.
+
+공식 참고자료:
+
+- [TDS Mobile Colors](https://tossmini-docs.toss.im/tds-mobile/foundation/colors/)
+- [TDS Typography](https://tossmini-docs.toss.im/tds-react-native/foundation/typography/)
+- [TDS BarChart](https://tossmini-docs.toss.im/tds-mobile/components/Chart/bar-chart/)
+- [TDS TableRow](https://tossmini-docs.toss.im/tds-mobile/components/table-row/)
+- [TDS Tooltip](https://tossmini-docs.toss.im/tds-mobile/components/tooltip/)
+- [Apps-in-Toss UI/UX Guide](https://developers-apps-in-toss.toss.im/design/consumer-ux-guide.html)
+- [TDS Color System Update](https://toss.tech/article/tds-color-system-update)
+- [Figma/TDS Mobile UI Kit License](https://developers-apps-in-toss.toss.im/design/prepare/figma-ui-license.html)
+
+## 18. 복사용 실행 프롬프트
+
+```text
+[프로젝트 이름] 웹페이지에 Quant Research 공통 디자인을 적용해줘.
+
+반드시 먼저 /Users/changgison/projects/news/docs/web-design.md (2.6.0)의 §19와 전체 계약을 읽어.
+기존 quant-dashboard/docs/web-design.md (2.5.0)는 보호·금융·입력 계약의 기준으로 함께 참고해.
+
+우선순위
+1. Python·분석·결과·데이터·자동화 보호
+2. 운영 UI v0.4.0의 10개 등록 사이트와 공통 디자인 통일성
+3. web-design.md의 nav·색상·타이포그래피·간격·컴포넌트·표·차트·접근성 계약
+4. 현재 프로젝트의 고유 분석 목적과 기존 결과 구조
+
+절대 금지
+- 디자인 작업을 이유로 Python 수집·분석·전략·백테스트 계산을 수정
+- 계산식·threshold·ranking·weighting·입력→결과 동작 수정
+- JSON schema·값·정밀도·날짜 의미·데이터 파일 수정
+- 기존 데이터·분석 workflow·Pages URL·API·CLI 계약 수정
+- 기존 차트 series·축·단위와 표 column·order 변경
+
+입력·백엔드 작업이 명시적으로 승인된 경우
+- 기존 Python 계산 모듈은 그대로 두고 API·worker adapter가 기존 CLI·함수를 호출하게 해.
+- 모든 control을 display, result_selector, analysis, operation으로 먼저 분류해.
+- analysis control마다 frontend field → canonical config → API/workflow/CLI → Python parameter → result binding mapping을 문서화해.
+- applied_config, draft_config, pending_run, bound_result를 분리하고 draft만 바꾼 상태를 공식 결과처럼 보이지 마.
+- UI나 command 문자열이 있다는 이유로 완료 처리하지 말고, 각 input이 실제 worker argument와 새 result identity에 도달하며 결정적 A/B fixture의 기대 결과 경로를 바꾸는지 검증해.
+- 같은 입력의 결정성, display 격리, requested/effective input 차이, 실패·stale·binding mismatch fail-closed를 함께 테스트해.
+
+진행
+1. 최신 origin/main, worktree, 공개 화면, 데이터 계약을 읽기 전용으로 감사해.
+2. 수정 금지 파일·함수와 현재 결과 snapshot을 먼저 고정해.
+3. 모든 visible control의 mode, 기본값 출처, validation, serialization, 실제 분석 mapping inventory를 만들어.
+4. 10개 등록 사이트의 탐색·즐겨찾기·목차·밀도, visible copy, typography, spacing, token, chart, table, overflow inventory를 만들어.
+5. 현재 프로젝트의 고유 분석 구조는 보존하고 v0.4 계약과 다른 drift만 수정해. body.qd-v04 아래로 표시 변경을 제한해.
+6. 결과→기준일·핵심 지표→핵심 차트→입력→표·운영 상세 순서로 정리해.
+7. 반복 설명, Python·JSON·재계산 구현 문구를 지우고 일반 운영 정보는 운영 상세 한 곳으로 통합해. 결과 해석에 필요한 도메인 방법론은 별도 접힘 영역으로 보존해.
+8. 차트 정확값과 구간 변화를 plot 안 HUD에 두고, 해당 기능이 있는 차트에서만 선택 계열 강조·날짜·keyboard·mobile 동작을 검증해.
+9. 표의 숫자 정렬·단위·내부 스크롤을 개선하되 원본 열과 값을 유지해.
+10. 변경 영향에 해당하는 기존 필수 검사와 UI 회귀를 실행해. 분석 입력 연결을 변경한 경우에만 결정성·민감도·binding 검증을 넓히고, 표시 변경 때문에 수집·전체 백테스트를 다시 실행하지 마.
+11. 1440×900, 1024×768, 390×844의 light/dark를 확인해.
+
+배포 승인이 없으면 local preview URL과 변경 파일 목록을 제공해.
+사용자가 배포를 승인했다면 그 범위 안에서 commit·push·PR·CI·Pages·공개 readback까지 진행하고 이미 받은 승인을 반복 요청하지 마.
+
+완료 보고에는 다음을 분리해서 적어.
+- 통일한 디자인
+- 보존한 프로젝트 고유 요소
+- 제거한 반복 문구
+- 분석·결과 코드 무변경 증거
+- analysis control별 실제 Python 전달·worker argument·A/B 결과 변화 증거
+- display control의 분석 결과 불변 증거
+- 요청 config·input schema·artifact hash와 결과 binding 일치 증거
+- 테스트와 visual QA 결과
+```
+
+## 19. 2026-11-04 개정: 고정된 공통 기반과 프로젝트별 화면
+
+### 19.1 적용 상태와 버전 구분
+
+공통 확장 `0.5.0`의 승인된 로컬 후보를 제품군에 이전한다. `0.4.0` 기반 자산의 바이트·해시는 유지하고, 공통 중립색·조작·프로젝트별 표시 보정을 별도 확장으로 추가한다. 중앙 불변 경로는 `shared/design/releases/0.5.0/`이며 News는 같은 확장 파일을 `assets/news/extensions/0.5.0/`에 고정한다. 각 사이트의 배포·공개 검증 상태는 작업별 기록을 따른다.
+
+이 개정은 기존 문서 2.5.0 / 공통 UI 0.4.0을 계승한다. 문서 개정 번호는 **2.6.0**이며, 새 공통 UI 번들을 모든 사이트에 배포했다는 뜻이 아니다. 현재 구현 기준은 사용자에게 승인받은 News의 ‘현재 디자인 개선’ 방향이다. 다른 프로젝트의 디자인 변경·외부 배포는 해당 작업에서 진행한다.
+
+- 공통 기반: `0.4.0`. 글꼴, Quant 브랜드, 탐색, 테마, 표시 설정, 공통 접근성 동작을 유지한다.
+- 공통 확장: `0.5.0`. 기반의 중립색·공통 조작을 News 승인 팔레트로 맞추고 프로젝트별 표시 보정을 제공한다.
+- News 어댑터: `news-2026-11-04.2`. 8개 주제색, 읽기 폭·행간, 카드 정렬, 필터 여백, 원문 바로가기, 읽기 편의 기능을 소유한다.
+- News 자동화 버전: 런타임 `active.json`에서 별도로 확인한다. 공통 UI나 문서 버전과 혼용하지 않는다.
+- 시각적 변경은 승인된 News 미리보기가 기준이다. 새로운 색상·구도·애니메이션 제안은 비교 근거를 보여 주고 사용자 선택 후 반영한다.
+
+이 절은 이전 절의 중앙 mutable 로더 의무, News에도 적용되던 compact 본문 기준, 원문 링크의 일괄 접기와 충돌하는 부분을 구체화한다. 분석·수집·결과 보호 계약은 그대로 유효하다. 단, 사용자가 **향후 자동 생성 페이지에도 디자인을 적용하도록 명시적으로 요청한 경우**, 공개 출력 단계의 자산 설치·HTML presentation·해시 검증·런타임 자산 포함은 수정할 수 있다. 수집·평가·스케줄·데이터·동결된 승인 판본은 변경하지 않는다.
+
+### 19.2 공통성과 프로젝트 자율성을 함께 유지하는 구조
+
+```text
+공통 디자인 원본 (중앙에서 관리)
+  └─ 버전이 고정된 foundation + 파일별 SHA-256
+       ├─ 글꼴·브랜드·탐색·테마·표시 설정
+       ├─ 공통 요소와 금융/읽기 화면의 기본 표현
+       └─ 프로젝트별 adapter (각 프로젝트에서 관리)
+            ├─ semantic token 매핑·주제색·도메인 의미색
+            ├─ 읽기 / 차트 / 표 / 계좌 등 화면 기능
+            └─ 기존 데이터·네이티브 동작 연결
+```
+
+1. 공통 원본은 한 곳에서 유지한다. 프로젝트는 검증된 release·commit·package 버전의 파일을 사용하며 실제 파일 해시를 기록한다. 단순히 폴더명을 `v3`로 붙이거나 mutable URL에 버전 query만 추가하는 것은 버전 고정이 아니다.
+2. 배포 방식은 불변 버전 경로 또는 검증된 파일의 프로젝트 내 복사본을 허용한다. 복사본은 원본 바이트를 유지하고 원본 버전·출처·해시를 함께 남긴다. 프로젝트별 보정은 별도 파일에 둔다.
+3. 공통 자산 변경이 모든 운영 화면에 즉시 전파되지 않도록 한다. 새 공통 release를 만든 뒤 소비 프로젝트별로 검증하고 pin을 올린다. 실패 시 해당 pin·adapter만 되돌린다.
+4. 공통 기반에 News의 원문 기능·8개 주제·720px 읽기 폭을 넣지 않는다. 금융 차트와 투자일지에 글 읽기 레이아웃을 강제하지 않는다.
+5. 프로젝트 CSS는 프로젝트 root 아래로 제한하고 같은 역할의 색을 여러 컴포넌트에 직접 반복하지 않는다. 기반 파일 안을 개별 수정하거나 날짜별 HTML에 수동 패치를 쌓지 않는다.
+6. 탐색 registry의 이름·URL은 공통 계약을 따른다. foundation의 메뉴 사본·fallback이 있으면 같은 registry snapshot에서 생성하거나 차이를 검증한다. 사이트 수·URL은 현재 registry로 확인하고 오래된 목록을 현재 상태로 단정하지 않는다.
+7. theme·즐겨찾기·밀도·레일 저장키는 기존 계약을 유지한다. 별도 origin 사이의 localStorage가 동기화된다고 가정하지 않는다.
+8. 기존 중앙 loader를 병행하는 이행기에는 foundation이 중복 초기화되지 않게 소유권을 하나로 정한다. 기반 ready와 adapter ready를 구분하며 실제 DOM·자산·기능을 검증한다.
+
+News의 현재 운영 소스는 `src/research_news/static/news/`, 자산 설치와 HTML 연결은 `reader_design.py`다. 공통 기반의 고정 해시는 [foundation 기록](news-design-foundation.json)에 있다. `/news/assets/news/manifest.json`은 배포된 파일의 실제 해시를 제공한다. 개선된 News 페이지는 고정된 shell 하나가 탐색을 소유한다. 충돌을 만드는 기존 중앙 nav.js·nav.css 로드는 제거하고 원래 정적 메뉴와 URL은 유지한다. 이전 형식의 비대상 페이지는 기존 로더를 유지한다. 향후 각 프로젝트도 이 책임 분리를 따르되 News의 파일명·Python export를 그대로 복사할 필요는 없다.
+
+### 19.2.1 전체 제품군의 시각적 통일성 — 필수 계약
+
+목표는 **어느 프로젝트로 이동해도 같은 제품군으로 느껴지는 화면**이다. ‘프로젝트별 adapter’는 각자 다른 디자인을 만들 수 있다는 의미가 아니다.
+
+| 반드시 공통으로 유지 | 도메인 목적에 따라 달라질 수 있음 |
+| --- | --- |
+| 다크/라이트의 배경·카드·상승 표면·글자·보조 글자·경계·동작색 | 뉴스 주제색, 차트 계열색, 상승/하락·위험 등 의미색 |
+| Quant 브랜드, Pretendard, 제목·본문·보조 정보의 역할별 글자 체계 | 긴 글의 읽기 폭·행간, 데이터 표의 밀도 등 승인된 역할별 variant |
+| 공통 메뉴·헤더·사이드바·프로젝트 선택·테마 전환 | 뉴스 목차·집중 읽기, 차트 탐색, 계좌·거래 기능 |
+| 버튼·입력·select·badge·dialog·focus·disabled의 기본 형태 | 도메인에 필요한 정보 구조와 표시 항목 |
+| 공통 간격 scale·모서리·경계·그림자·전환 속도 | 표·차트에 필요한 가로 폭과 내용량 |
+| 동일 역할의 hover·선택·오류·빈 결과 표현 | 실제 오류·stale·수익/손실의 도메인 의미 |
+
+- 같은 역할의 버튼·필터·카드가 사이트마다 다른 배경·모서리·높이·글꼴을 쓰지 않는다. 역할이 다르면 공통 `reading`, `data`, `compact` 같은 문서화된 variant로 설명하고 개별 임의 값을 늘리지 않는다.
+- 프로젝트 adapter는 공통 중립색·글꼴·shell을 재정의하지 않는 것을 목표로 한다. 현재 News의 `--nd-* → --qd-*` 매핑은 선행 적용을 위한 이행 상태다. 다음 공통 기반 개정에서 중립 토큰·공통 control 규칙을 추출하고 News에는 주제색·읽기 기능만 남긴다.
+- 기존 0.4.0 파일을 각 프로젝트가 따로 수정해 이름만 같은 foundation을 만들지 않는다. 공통 원본은 하나, 승인된 공통 release도 하나의 해시 묶음이다. 전환 중 서로 다른 pin이 존재하면 대상과 차이를 기록하고 순차적으로 같은 목표 버전에 맞춘다.
+- 여러 프로젝트가 서로 다른 foundation 버전에 영구적으로 머무는 것을 ‘버전 고정’의 목표로 삼지 않는다. 고정은 예기치 않은 변경을 막는 배포 장치이며, 통일성은 **공통 원본·같은 목표 release·동일 역할 토큰**으로 유지한다.
+- 다음 프로젝트 작업은 News와 해당 사이트의 같은 viewport·theme 화면을 나란히 비교한다. 헤더, 표면 명도, 제목 위계, 필터, 카드 경계·간격이 일관된지 확인하고, 고유 차이는 데이터·읽기 목적에 필요한지 설명한다.
+- 사용자가 승인한 News 미리보기보다 새로운 시각 방향으로 바꾸려면 별도로 비교안을 제시한다. 이번 기준 통일은 승인된 News 디자인을 기준으로 하며 새 색감 실험을 자동 반영하지 않는다.
+
+### 19.3 공통 색상 역할과 News의 검증된 팔레트
+
+기본 테마는 **다크**다. `theme=light|dark` → 저장된 `quant-research-theme` → `dark` 우선순위를 유지한다. 저장된 라이트 선택을 임의로 지우지 않는다.
+
+페이지 → 카드 → 상승 표면의 명도 차이로 깊이를 만들고, 본문과 보조 글자의 대비를 먼저 확보한다. ‘더 어두우면 더 고급스럽다’, ‘대비 수치가 높으면 무조건 읽기 쉽다’고 단정하지 않는다. 실제 글자 크기·굵기·배경·주변 조명·사용자 선호를 함께 본다.
+
+아래는 News 2.6.0에서 승인한 이전 팔레트 기록이다. **현재 중립색·동작색은 마지막의 공통 UI 0.7.0 계약을 따른다.** 프로젝트별 분위기 참고표가 아니다. 다음 공통 기반 개정에서 이 역할들을 중앙 토큰으로 옮기고, 각 프로젝트는 검증된 같은 버전을 채택한다. 현재 다른 프로젝트를 이 문서 작성만으로 수정·배포하지는 않는다. chart·상승/하락·위험 등 도메인 의미색은 별도로 유지한다.
+
+| 역할 | 공통 토큰 | News 다크 | News 라이트 |
+| --- | --- | --- | --- |
+| 페이지 | `--qd-bg` | `#0f1722` | `#f3f5f7` |
+| 카드·기본 표면 | `--qd-surface` | `#1a2534` | `#ffffff` |
+| 상승 표면 | `--qd-raised` | `#253449` | `#e9eef3` |
+| 본문 | `--qd-text` | `#edf2f8` | `#1c2938` |
+| 보조 글자 | `--qd-muted` | `#b8c5d5` | `#546374` |
+| 경계 | `--qd-border` | `#43566e` | `#a7b3c3` |
+| 동작·선택 | `--qd-accent` | `#9dbbe5` | `#3c5b87` |
+| 선택 배경 | `--qd-soft` | `#273d5b` | `#e5edf6` |
+
+News는 `--nd-*`를 위 역할에 매핑한다. 의미색은 최소 세 계층으로 분리한다.
+
+- **동작색:** 링크·선택·포커스. 다른 프로젝트로 이동해도 같은 역할을 알아볼 수 있게 한다.
+- **분류색:** News 주제·차트 계열 등 범주. 분류색에 성공/실패 의미를 부여하지 않는다.
+- **상태색:** 정상·주의·오류·수익/손실 등 도메인 상태. 주제색으로 대체하지 않는다.
+
+| News 주제 | 인상 | 다크 OKLCH | 라이트 OKLCH |
+| --- | --- | --- | --- |
+| 경제 | 하늘색 | `oklch(73% 0.09 235)` | `oklch(45% 0.07 235)` |
+| 금융 | 세이지 | `oklch(73% 0.08 155)` | `oklch(45% 0.065 155)` |
+| 기업 | 페리윙클 | `oklch(73% 0.09 270)` | `oklch(45% 0.07 270)` |
+| 산업 | 클레이 | `oklch(73% 0.085 50)` | `oklch(45% 0.07 50)` |
+| 과학·기술 | 라벤더 | `oklch(73% 0.085 305)` | `oklch(45% 0.07 305)` |
+| 정치·국제 | 모래색 | `oklch(73% 0.04 85)` | `oklch(45% 0.032 85)` |
+| 사회·생활 | 로즈 | `oklch(73% 0.08 350)` | `oklch(45% 0.065 350)` |
+| GeekNews | 틸 | `oklch(73% 0.075 195)` | `oklch(45% 0.06 195)` |
+
+이 8개 색은 뉴스 분류용이며 모든 프로젝트에 8색을 강제하는 팔레트가 아니다. 정치·국제는 노란 채도를 낮추고 경제는 배경과 구별되도록 정했다. 같은 주제는 목차·목록·먼저 볼 이슈·상세에서 같은 토큰을 사용한다. OKLCH의 밝기 통일은 지각 균형을 위한 출발점이며, 대비 검사를 대체하지 않는다.
+
+주제 카드 배경은 `color-mix(in srgb, var(--topic) 4%, var(--panel))`, hover는 7%를 기준으로 한다. 첫 이슈라고 배경의 채도까지 크게 높이지 않는다. 제목 크기·배치·순위로 중요도를 표현한다. 태그·띠·이름을 함께 사용해 색을 구별하기 어려워도 분류를 읽을 수 있게 한다.
+
+일반 텍스트는 실제 합성 배경에서 4.5:1 이상, 큰 텍스트는 해당 크기·굵기 조건을 만족할 때 3:1 이상을 확인한다. 조작을 식별하는 필수 경계와 focus 표시도 관련 인접색을 확인한다. 모든 장식 테두리에 3:1을 일괄 강제하거나 AA 최소 target을 44px라고 잘못 설명하지 않는다. 이 제품군의 주요 조작 목표 크기는 44px다.
+
+### 19.4 레이아웃·글자·카드
+
+공통 글꼴과 탐색은 유지하되 **비교용 화면과 읽기용 화면의 밀도를 구분**한다.
+
+| 항목 | 금융·비교 화면 | News 읽기 화면 |
+| --- | --- | --- |
+| 본문 기준 | 기존 14–15px, 표 12–14px | 본문 16px, 행간 약 1.85–1.95 |
+| 본문 폭 | 표·차트·정보량에 맞춤 | 긴 글 최대 720px, 제목·요약·본문 시작선 정렬 |
+| 제목 | 기존 compact 위계 | 페이지 34px/모바일 28px, 목록 19px, 펼친 기사 22px |
+| 카드 | KPI·비교 의미에 따라 그룹 | 일반 카드 행 높이 일치, 긴 기사는 전체 열로 펼침 |
+| 강조 | 핵심값·선택 계열 | 큰 첫 이슈 + 보조 이슈, 주제 띠·이름·순위 |
+
+고정 높이로 글을 자르지 않는다. CSS Grid의 같은 행은 stretch하고 카드 내부는 flex column으로 배치해 하단 동작을 정렬한다. 한 행의 독립적인 **표 컨테이너** 높이도 정렬할 수 있지만 표의 행 수·내용을 숨기거나 가짜 행을 추가하지 않는다. 먼저 볼 이슈의 큰 카드가 두 행을 차지하는 의도된 구조는 유지한다.
+
+장식용 KPI 띠의 남용은 계속 피한다. 다만 News의 3–4px 주제 띠처럼 **분류를 전달하는 띠**는 허용한다. 색만으로 의미를 전달하지 않고 주제 이름을 함께 둔다. 카드 자체가 한 동작을 수행하면 포인터·키보드·열림 상태를 일관되게 제공하고, 카드 안의 링크·저장·필터 동작과 충돌하지 않게 한다.
+
+한글 긴 제목은 `word-break: keep-all`과 `overflow-wrap: anywhere`를 조합할 수 있다. 줄 수 제한은 목록의 요약에만 사용하고 펼친 본문·원문 제목은 모두 읽을 수 있게 한다. 사용자 글자 크기·200% 확대·긴 URL을 함께 확인한다. News의 720px을 영문 ‘몇 글자’ 기준과 동일하게 취급하지 않는다.
+
+### 19.5 조작·원문·읽기 흐름
+
+- 주요 검색·주제·지역 필터는 바로 보인다. 글자 크기·제목만 보기 같은 덜 빈번한 표시 설정은 ‘읽기 설정’으로 묶을 수 있다. 현재 적용 상태·검색 결과·초기화는 찾기 쉬워야 한다.
+- select 화살표는 오른쪽 약 16px 여백과 아이콘 16px를 확보하고 텍스트 오른쪽 padding은 약 48px로 둔다. 모바일은 높이 44–46px, 입력 글자 16px를 기준으로 한다. 네이티브 select의 키보드 동작을 유지하고 강제 색상 모드에서는 네이티브 표시로 돌아간다.
+- 검색 `/` 단축키에는 보이는 진입점도 제공한다. 입력창·IME 조합·열린 dialog·기존 단축키를 가로채지 않는다. `⌘K` 공통 검색과 프로젝트 검색의 역할을 구분한다.
+- 카드 빈 영역·제목의 기존 펼침/접힘을 보존한다. 링크는 링크로, 저장 버튼은 저장으로 동작하고 텍스트 선택을 클릭으로 오인하지 않는다. presentation layer에서 전역 `stopPropagation`으로 네이티브 동작을 막지 않는다.
+- **News 상세와 집중 읽기:** 기사 본문 맨 아래, 기존 ‘출처·근거’ 접힘 영역 바로 위에 ‘원문 바로가기’를 기본 노출한다. 근거를 펼쳐야만 원문을 볼 수 있는 구조로 되돌리지 않는다.
+- 원문이 여러 개이면 URL별로 번호·매체/도메인·기사 제목·새 탭 표시를 한 행씩 제공한다. 행 전체를 링크로 만들되 여러 URL을 하나의 링크에 묶지 않는다. URL과 제목·매체는 정확한 매칭 근거가 있어야 하며 독립 배열의 같은 순서라고 추측하지 않는다.
+- 출처·원문 검증이 주요 동작인 다른 프로젝트도 결과 가까이의 직접 링크를 둘 수 있다. 생성 로그·수집 이력·상세 인용·운영 내역은 접힌 상세로 유지한다. 분석을 사용할 수 없게 만드는 오류·stale 경고는 접지 않는다.
+- 직접 링크가 없으면 간결하게 알린다. 검색 URL을 원문으로 꾸미거나 잘못된 출처를 채우지 않는다.
+- 집중 읽기에서는 원래 기사·근거·저장 상태를 보존하고 닫기·Escape 후 원래 위치와 포커스로 돌아간다. 외부 링크와 evidence disclosure는 모달 안에서도 작동해야 한다.
+- 저장 결과는 `role=status`로 짧게 알리고 포커스를 옮기지 않는다. 검색 결과가 없으면 원인과 초기화 동작을 제공한다.
+- 긴 읽기 화면의 하단 도크에는 현재 구획·검색·목차·맨 위로를 둘 수 있다. 표시한 진행도는 **스크롤 위치**이며 독해·완독률로 표현하지 않는다. 본문·조작·모달을 가리지 않고 키보드 포커스를 가진 동안 사라지지 않게 한다.
+
+### 19.6 움직임과 완성도
+
+hover·focus·선택은 배경·경계·글자색의 150–180ms 변화를 기본으로 한다. 펼침은 짧은 opacity와 최대 4px 이동 정도로 제한한다. 카드 전체의 반복 이동, 자동 스크롤, 배경 glow·과한 그라데이션을 고급감의 대체재로 사용하지 않는다.
+
+`prefers-reduced-motion: reduce`에서는 비필수 애니메이션·transition·smooth scroll을 제거한다. 상태 변경을 애니메이션 종료에 의존시키지 않는다. 링크 이동·필터·저장·접힘은 애니메이션 없이도 즉시 사용할 수 있어야 한다.
+
+### 19.7 프로젝트별 이전과 검증
+
+1. 현재 배포·로컬 변경·registry·공통 기반 버전·adapter·데이터 계약을 확인한다. 사용자의 기존 checkout이 적합하면 재사용한다.
+2. common / domain / display / operation의 소유권을 구분하고 이번 변경에 필요한 파일만 수정한다.
+3. 새 foundation을 채택할 때 현재 버전과 새 버전의 자산 해시·로드 순서를 비교한다. 공통 원본과 목표 release는 하나로 유지하고 프로젝트별 검증 후 같은 목표 버전으로 순차 이전한다. 다른 프로젝트의 pin을 검증 없이 함께 바꾸지 않는다.
+4. 승인된 미리보기와 실제 화면을 비교한다. 같은 데이터의 article ID·본문·원문 URL, 표 행·숫자·날짜·차트 값을 보존한다.
+5. 데스크톱 1440, 태블릿 1024 또는 실제 breakpoint, 모바일 390, 최소 320px에서 두 테마와 좁은 화면을 확인한다. 문서 가로 넘침·동일 행 정렬·화살표 여백·focus·폰트·긴 제목을 실제 이미지로 본다.
+6. 네이티브 카드 클릭·직접 링크·펼침·저장·필터·빈 결과·테마 유지·공통 탐색·dialog 닫기·포커스 복원을 검증한다. 공통 기반을 변경하지 않은 프로젝트까지 전체 기능을 반복 검사하지 않는다.
+7. export를 다시 실행해도 HTML·asset manifest가 안정적이며 이후 자동 생성 페이지에 같은 adapter가 붙는지 확인한다. CSS·JS·폰트가 불변 런타임에 포함되고 디자인 변경이 배포 캐시를 무효화해야 한다.
+8. 기존 필수 검사를 통과한 뒤 이미 승인받은 범위에서 배포하고, 공개 HTML·CSS·JS·폰트 해시와 실제 사용자 흐름을 확인한다. 사용자 추가 승인을 요구하는 절차를 임의로 만들지 않는다.
+9. 미배포 지침, News에 적용된 어댑터, 여러 프로젝트에 적용된 공통 기반을 구분해 보고한다. 연구 원칙·자동 검사·실제 사용성 실험의 증거 수준을 혼동하지 않는다.
+
+### 19.8 참고 근거와 다음 작업용 프롬프트
+
+기존 36개 참고자료와 적용 이유는 [News 디자인 연구](../artifacts/verification/news-design-20261104/research.md)에 있다. 초기 연구의 ‘편집지형 추천’은 세 방향을 비교하기 전 판단이며, 최종 선택은 **03 현재 디자인 개선**이다. 이후 최종 수치는 [읽기·색상 최종 검증](../artifacts/verification/news-reading-polish-20261104/report.md)과 현재 운영 소스가 우선한다.
+
+원칙을 바로 확인할 자료:
+
+- [W3C: Contrast Minimum](https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html) — 실제 텍스트/배경 대비와 큰 글자 조건.
+- [W3C: Non-text Contrast](https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html) — 조작·상태 식별에 필요한 비텍스트 대비.
+- [W3C: Reflow](https://www.w3.org/WAI/WCAG22/Understanding/reflow.html) — 좁은 화면에서도 정보·기능 유지.
+- [W3C APG: Modal Dialog](https://www.w3.org/WAI/ARIA/apg/patterns/dialog-modal/) — 모달의 키보드와 포커스 복귀.
+- [W3C: Status Messages](https://www.w3.org/WAI/WCAG22/Understanding/status-messages.html) — 저장 알림이 포커스를 빼앗지 않도록 구성.
+- [NN/g: Dark Mode vs. Light Mode](https://www.nngroup.com/articles/dark-mode/) — 다크의 보편적인 가독성 우위를 가정하지 않음.
+- [NN/g: Progressive Disclosure](https://www.nngroup.com/articles/progressive-disclosure/) — 주 동작과 덜 빈번한 설정을 구분.
+- [Practical Typography: Line Length](https://practicaltypography.com/line-length.html) — 읽기 폭은 실제 언어·화면에서 조정.
+- [Linear: How we redesigned the UI](https://linear.app/now/how-we-redesigned-the-linear-ui) — 기존 동작을 보존하면서 위계·색을 정리한 사례.
+
+이 자료들이 News의 특정 hex·720px·4% 배경을 직접 입증하는 것은 아니다. 해당 수치는 프로젝트 화면에서 비교·검증하고 사용자 선택을 거친 설계값이다.
+
+```text
+[프로젝트]에 News와 이어지는 Quant 공통 디자인을 적용해줘.
+
+/Users/changgison/projects/news/docs/web-design.md (2.6.0)를 읽고,
+기존 quant-dashboard 2.5.0 / 공통 UI 0.4.0과의 변경 범위도 확인해.
+공통 기반은 버전·파일 해시로 고정하고 프로젝트별 색상·기능은 별도 adapter에 둬.
+기존 계산·데이터·스키마·URL·원문·자동화 동작은 보존해.
+다크를 기본으로 하되 저장된 라이트 선택과 theme URL은 존중해.
+공통 메뉴·글꼴·배경/카드/글자/경계/동작색·버튼/필터 형태·간격·모서리·움직임은 통일하고,
+차트·표·뉴스 읽기·계좌 등 고유 구조와 의미색은 보존해.
+카드 행 정렬, 필터 화살표 여백, 글자 대비, 직접 링크, 네이티브 클릭을 실제로 확인해.
+원문 접근이 주 동작이면 관련 내용 가까이에서 직접 열 수 있게 해.
+News와 같은 viewport·theme의 화면을 나란히 비교해 전체 제품군의 시각적 통일성을 검증해.
+새로운 시각적 방향은 먼저 비교안을 보여주고 선택받아.
+현재 승인 범위의 구현·검증을 끝내고, 배포가 이미 승인됐다면 공개 readback까지 진행해.
+```
+
+
+## 공통 UI 0.7.0 — 초기 진입과 차트 계약
+
+이 절은 2026-11-06 승인된 10개 로컬 미리보기의 배포 기준이다. 이전의 plot 밖 readout 규칙과 News 2.6.0의 중립색 목표보다 우선한다. 수집·분석·계산·원문·인증·스케줄은 그대로 유지한다.
+
+### 하나의 원본과 프로젝트별 고정 버전
+
+- 공통 원본: [Quant Dashboard의 고정 자산](https://github.com/SonChangGi/quant-dashboard/tree/main/shared/design/releases/0.7.0). News는 검증된 자산을 `src/research_news/static/news/extensions/0.7.0/`에 고정해 사용한다. 기존 0.5.0 기반은 수정하지 않고 새 표시 계층을 결합한다.
+- 초기 진입: `shared/design/startup/1.2.0/`. 프로젝트별 CSS 10개, `start.js`, `runtime.js`, 원본·출력 SHA-256 `manifest.json`.
+- 공통 차트 엔진: QuantRange 1.3.0. 실제 데이터와 좌표는 프로젝트 adapter가 제공한다. DOM 글자에서 가격을 추측하거나 화면만을 위해 관측값을 생성하지 않는다.
+- News는 같은 승인된 공통 표시 계층을 자신의 고정 번들에 포함한다. 원문 링크·주제색·읽기 폭은 News adapter가 소유한다. 브리핑 내용과 실행 중 자동화를 디자인 배포로 교체하지 않는다.
+- 프로젝트 문서는 이 문서로 연결한다. 버전이 같은 파일을 각 저장소에서 별개로 수정하지 않는다. 변경은 새 불변 release와 소비 사이트별 검증을 통해 배포한다.
+
+### 로딩 순서
+
+1. 네이티브 CSS와 공통 프로젝트 CSS를 head에서 읽는다. 공통 CSS에는 최종 색상·표·차트 HUD 스타일을 모두 포함한다.
+2. 공통 CSS 다음에 동기 `start.js`를 둔다. `async`·`defer`를 붙이지 않는다. 테마와 root/body scope를 준비하고 QuantRange를 네이티브 차트 렌더링 전에 등록한다.
+3. 네이티브 앱의 `defer` 또는 module이 실제 데이터와 차트를 렌더링한다. React hydration 이후의 탐색 loader도 기존 단일 소유권을 유지한다.
+4. 공통 nav가 `QuantFirstPaint.base`의 `runtime.js`를 한 번 실행한다. shell → 제어 → 프로젝트 adapter → 표/문구 → ready 순서로 초기화하며 footer는 실제 UI 버전 `v0.7.0`을 표시한다.
+5. 첫 화면 전체를 숨기거나 네트워크 완료 뒤 테마를 바꾸지 않는다. 공통 CSS 실패는 네이티브 화면을 유지하고, 초기화 실패·4초 timeout은 scope를 해제한다. 늦게 도착한 runtime이 fallback을 덮지 않는다.
+6. 공유 자산을 먼저 배포하고 공개 해시를 확인한 뒤 소비 사이트의 pin을 올린다. 배포된 0.5.0/1.0.0 파일은 캐시된 이전 페이지를 위해 유지한다.
+
+```html
+<link rel="stylesheet" href="https://sonchanggi.github.io/quant-dashboard/shared/design/startup/1.2.0/factor.css" data-quant-first-paint-css>
+<script src="https://sonchanggi.github.io/quant-dashboard/shared/design/startup/1.2.0/start.js" data-quant-design-project="factor"></script>
+```
+
+### 색·구조·움직임
+
+| 역할 | 다크 | 라이트 |
+| --- | --- | --- |
+| 배경 / 표면 / 상승 표면 | #090b0d / #111416 / #191e22 | #f6f7f8 / #ffffff / #eef1f3 |
+| 본문 / 보조 글자 | #eef1f2 / #a4afb5 | #142027 / #53636d |
+| 경계 / 동작 / 선택 배경 | #293136 / #66d9ed / #112c33 | #d8e0e4 / #08788d / #e3f3f5 |
+
+같은 역할의 글자·제어·카드·경계·간격은 공통 토큰을 사용한다. News 주제·차트 계열·수익/손실의 의미색은 분리한다. 숫자는 tabular, 열 단위는 헤더 가까이, 숫자 열은 우측 정렬한다. 표는 내부 스크롤·sticky header·선택 정렬을 지원하되 기존 필터·열·정렬이 있는 표의 소유권을 빼앗지 않는다. 숨겨진 데이터가 최신 데이터인 것처럼 보이지 않게 기준일을 보존한다.
+
+반복 설명·기술 구현 문구·상투적인 한계 나열은 제거한다. 실제 빈 결과·오류·데이터 시점은 필요한 위치에서 간결하게 보여준다. 150ms 내외의 배경·경계 변화와 focus로 상태를 표현하고 reduced-motion을 존중한다.
+
+### 차트 선택 계약
+
+- 드래그는 차트 안에서 구간을 선택하고 HUD에 시작·종료 관측값과 지표별 변화를 즉시 표시한다.
+- 가격·양수 지수는 상대변화율, 확률·수익률은 정의된 scale의 %p, 0·음수 기준은 절대변화량, 산점도는 실제 점의 범위·개수를 쓴다. 누락된 끝점을 다른 날짜로 대체하지 않는다.
+- 구간이 없을 때 선·점·막대 클릭은 해당 관측값을 보여준다. 전체 기간 수익률을 임의로 계산하지 않는다.
+- 구간이 있을 때 다른 선·범례를 누르면 구간을 유지하며 계열만 바꾼다. 표시/숨김 제어는 별도로 둔다.
+- 차트 빈 영역 클릭, Escape, 초기화는 구간과 네이티브 고정을 함께 해제한다. 시각적인 선과 가까운 계열을 선택하며 겹친 넓은 hit 영역의 DOM 순서에 의존하지 않는다.
+- HUD는 plot 안에 머무르고 포인터 충돌 때만 모서리를 바꾼다. 관측값 색은 중립, 변화량 색은 부호 의미를 따른다. 단위·날짜·선택 계열을 함께 표시한다.
+- touch selection, 키보드 구간 조작, 확대 dialog에서도 같은 계약을 유지한다. 같은 데이터의 확대/접기에서는 선택을 유지하고 데이터·개인정보 표시 조건 변경 시 정리한다.
+- 뉴스 기사 이미지와 Alpha House 도면에 금융 차트를 억지로 추가하지 않는다.
+
+### 검증과 배포
+
+`node scripts/build-silicon-startup.mjs`가 원본 해시를 기록하며 CSS와 순서가 고정된 runtime을 생성한다. `npm test`가 생성 drift, 첫 표시·실패 경로, 엔진 계산과 선택 계약을 검사한다. 프로젝트 필수 검사 후 실제 1440px/390px 화면, 라이트·다크, 가로 넘침, 범례·드래그·해제·확대·표 정렬을 확인한다. 변경하지 않은 검사를 이유 없이 반복하지 않는다.
+
+기존 승인된 데이터·인증·자동화·원문을 보존하고, 공개 HTML/핵심 자산의 exact SHA와 실제 화면 ready 상태를 구분해 확인한다. 최종 지침과 소비 프로젝트 pin은 GitHub에서도 읽을 수 있어야 한다.
+
+
+## 숫자·여백 공통 계약 — 2.8.0
+
+- 공통 `QuantFormat 1.0.0`은 일반 소수를 최대 소수점 둘째 자리까지 반올림하고 끝의 0을 생략한다. `12.345 → 12.35`, `12.5 → 12.5`, `475 → 475`.
+- 표시 단위에서 `0 < |값| < 0.01`이면 첫 유효숫자부터 두 자리까지 보존한다. `0.0001234 → 0.00012`. percent formatter는 100배 표시값으로 이 기준을 판단한다.
+- 가격·지수·확률·수익률의 원값, 비율→% 배율, %p, 통화, compact 단위, 부호, 결측 의미는 보존한다. 날짜·버전·ID·종목 코드·수정 가능한 입력·SVG 좌표에는 표시 포맷을 강제하지 않는다. 반올림한 화면 값을 계산 입력으로 재사용하지 않는다.
+- 동기 `start.js`는 `QuantFormat` → 초기 테마·scope → `QuantRange 1.3.0` 순으로 준비한 뒤 네이티브 앱이 실행된다. React SSR formatter와 브라우저 formatter는 같은 대표 입력으로 일치 검증한다.
+- 카드·표·필터·차트·확대 화면·날짜 입력을 1440/390/320px에서 확인한다. 문서 가로 넘침뿐 아니라 카드 내부 수치, native date input, SVG 가장자리 숫자, 한글 고아 글자와 불필요한 빈 높이도 검사한다.
+- 달력 `table[role=grid]`는 데이터 표 정렬·비교·고정 열 처리에서 제외한다. 날짜 선택 7열은 유지하고 좁은 화면의 시작/종료 입력은 충분한 폭을 확보한다.
+- 모바일의 긴 데이터 표는 내부 가로 스크롤을 유지한다. 숨겨진 열 방향에만 은은한 좌우 음영을 표시하고 끝에 도달하면 제거한다. 음영은 입력을 가로채지 않는다.
+- News는 같은 원본을 고정한 별도 번들을 사용한다. 기사 원문·edition JSON·평가·선정·수집·스케줄을 디자인 배포에서 변경하지 않는다. 실행 중인 자동화의 소스·활성 release·잠금은 별도 작업과 충돌하지 않는 시점에 통합한다.
+- 릴리스 순서: 불변 공통 자산 게시·공개 SHA 확인 → 소비자 pin 갱신 → 공개 HTML/JS/CSS 일치와 실제 UI 확인. 이전 불변 release는 덮어쓰지 않는다.
