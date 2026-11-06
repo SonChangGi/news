@@ -4,10 +4,43 @@ from __future__ import annotations
 
 import hashlib
 import json
+import re
 from html.parser import HTMLParser
 from pathlib import Path
 
 BASE = "https://sonchanggi.github.io/quant-dashboard/shared/navigation/v1/"
+MINIMUM_DESIGN = (0, 7, 0)
+REQUIRED_EXTENSION_ASSETS = {'number.js', 'spacing.css', 'table-edges.js',
+                             'news-numbers.js', 'quant-range.js', 'quant-range.css'}
+
+
+def verify_design_manifest(root):
+    """Keep the published design floor outside the replaceable runtime/export."""
+    target = root / 'assets/news'
+    manifest = json.loads((target / 'manifest.json').read_text())
+    version = manifest.get('extension_version', '')
+    assert re.fullmatch(r'\d+\.\d+\.\d+', version), 'Invalid reader design version'
+    assert tuple(map(int, version.split('.'))) >= MINIMUM_DESIGN, 'Reader design downgrade blocked'
+    assert manifest.get('adapter_version'), 'Missing reader adapter version'
+    prefix = f'extensions/{version}/'
+    required = {prefix + name for name in REQUIRED_EXTENSION_ASSETS}
+    files = manifest.get('files', {})
+    extension_files = manifest.get('extension_files', {})
+    assert required <= extension_files.keys(), 'Required reader design assets missing'
+    for name, digest in extension_files.items():
+        assert name.startswith(prefix) and '..' not in Path(name).parts, 'Invalid extension path'
+        candidate = target / name
+        assert files.get(name) == digest and candidate.is_file(), 'Unbound reader design asset'
+        assert hashlib.sha256(candidate.read_bytes()).hexdigest() == digest, 'Reader design asset hash mismatch'
+    return manifest
+
+
+def verify_design_page(menu, manifest, path):
+    assert menu.bundle == manifest['adapter_version'], f'Reader adapter downgrade or mismatch: {path}'
+    assets = [url.split('?')[0].removeprefix('/news/assets/news/') for url in menu.owned_assets]
+    prefix = f"extensions/{manifest['extension_version']}/"
+    assert {prefix + name for name in REQUIRED_EXTENSION_ASSETS} <= set(assets), f'Reader design links missing: {path}'
+    assert assets.index(prefix + 'number.js') < assets.index(prefix + 'quant-range.js') < assets.index('shell.js'), f'Reader startup order changed: {path}'
 
 
 class Menu(HTMLParser):
@@ -43,6 +76,7 @@ class Menu(HTMLParser):
 
 
 def verify(root):
+    manifest = verify_design_manifest(root)
     pages = 0
     for path in root.rglob("*.html"):
         text = path.read_text()
@@ -50,7 +84,11 @@ def verify(root):
             continue  # Date aliases and the archive landing are redirects.
         menu = Menu()
         menu.feed(text)
+        # Approved previews are immutable historical artifacts, not the next edition.
+        preview = path.relative_to(root).parts[0] == 'previews'
         if menu.bundle:
+            if not preview:
+                verify_design_page(menu, manifest, path)
             assert menu.bundle in {'news-2026-11-04.1', 'news-2026-11-04.2', 'news-2026-11-06.1'}, path
             assert not menu.assets, path  # One navigation owner; no competing mutable loader.
             names = {url.split('?')[0].rsplit('/', 1)[-1] for url in menu.owned_assets}
@@ -63,6 +101,7 @@ def verify(root):
                 assert '..' not in Path(relative).parts and candidate.is_file(), path
                 assert hashlib.sha256(candidate.read_bytes()).hexdigest()[:12] == version, str(candidate)
         else:
+            assert preview or 'data-reader-layout' not in text, f'Reader bootstrap missing: {path}'
             assert sorted(menu.assets) == [BASE + "nav.css", BASE + "nav.js"], path
             assert menu.project == "news", path
         assert len(menu.links) == len(set(menu.links)) == 8, path
