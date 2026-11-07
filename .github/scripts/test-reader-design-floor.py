@@ -32,6 +32,9 @@ class ReaderDesignFloorTests(unittest.TestCase):
         self.menu = SimpleNamespace(bundle=self.manifest['adapter_version'], owned_assets=[
             '/news/assets/news/' + self.prefix + name + '?v=fixture' for name in names
         ] + ['/news/assets/news/shell.js?v=fixture'])
+        self.menu.owned_styles = self.menu.owned_assets[:2]
+        self.menu.owned_scripts = [dict(src=url, **({} if name in {'number.js', 'quant-range.js'} else {'defer': None}))
+                                   for url, name in zip(self.menu.owned_assets[2:], names[2:] + ['shell.js'])]
 
     def save(self):
         (self.assets / 'manifest.json').write_text(json.dumps(self.manifest))
@@ -70,6 +73,16 @@ class ReaderDesignFloorTests(unittest.TestCase):
     def test_number_loader_after_native_shell_is_blocked(self):
         self.menu.owned_assets.insert(0, self.menu.owned_assets.pop())
         with self.assertRaisesRegex(AssertionError, 'startup order'):
+            module.verify_design_page(self.menu, self.manifest, 'new-edition.html')
+
+    def test_late_stylesheet_is_blocked(self):
+        self.menu.owned_assets.append(self.menu.owned_assets.pop(0))
+        with self.assertRaisesRegex(AssertionError, 'stylesheet loaded after'):
+            module.verify_design_page(self.menu, self.manifest, 'new-edition.html')
+
+    def test_async_engine_is_blocked(self):
+        self.menu.owned_scripts[1]['async'] = None
+        with self.assertRaisesRegex(AssertionError, 'startup must block'):
             module.verify_design_page(self.menu, self.manifest, 'new-edition.html')
 
 

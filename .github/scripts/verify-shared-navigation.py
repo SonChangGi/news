@@ -41,6 +41,16 @@ def verify_design_page(menu, manifest, path):
     prefix = f"extensions/{manifest['extension_version']}/"
     assert {prefix + name for name in REQUIRED_EXTENSION_ASSETS} <= set(assets), f'Reader design links missing: {path}'
     assert assets.index(prefix + 'number.js') < assets.index(prefix + 'quant-range.js') < assets.index('shell.js'), f'Reader startup order changed: {path}'
+    number_index = assets.index(prefix + 'number.js')
+    for url in menu.owned_styles:
+        name = url.split('?')[0].removeprefix('/news/assets/news/')
+        assert assets.index(name) < number_index, f'Reader stylesheet loaded after startup: {path}'
+    for row in menu.owned_scripts:
+        name = row['src'].split('?')[0].removeprefix('/news/assets/news/')
+        if name in {'boot.js', prefix + 'number.js', prefix + 'quant-range.js'}:
+            assert not {'async', 'defer'} & row.keys() and row.get('type', '') != 'module', f'Reader startup must block: {path}'
+        else:
+            assert 'defer' in row and 'async' not in row and assets.index(name) > assets.index(prefix + 'quant-range.js'), f'Reader handler loaded before engine: {path}'
 
 
 class Menu(HTMLParser):
@@ -52,6 +62,8 @@ class Menu(HTMLParser):
         self.project = None
         self.bundle = None
         self.owned_assets = []
+        self.owned_styles = []
+        self.owned_scripts = []
 
     def handle_starttag(self, tag, attrs):
         row = dict(attrs)
@@ -60,6 +72,10 @@ class Menu(HTMLParser):
         asset = row.get('src', row.get('href', ''))
         if tag in {'script', 'link'} and asset.startswith('/news/assets/news/'):
             self.owned_assets.append(asset)
+            if tag == 'script':
+                self.owned_scripts.append(row)
+            elif row.get('rel') == 'stylesheet':
+                self.owned_styles.append(asset)
         if tag == "div" and "quant-shared-nav__links" in row.get("class", "").split():
             self.rail = True
         if self.rail and tag == "a":

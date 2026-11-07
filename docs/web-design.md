@@ -1,6 +1,6 @@
 # Quant Research Web Design Prompt
 
-> 버전: `2.8.0` · News 검증을 반영한 개정본
+> 버전: `2.9.0` · News 검증을 반영한 개정본
 >
 > 공통 UI 목표: `0.7.0` · 초기 진입: `1.2.0` · 차트: `QuantRange 1.3.0` · News는 자체 고정 번들 사용
 >
@@ -11,7 +11,7 @@
 > 상태: 승인된 10개 미리보기의 공통 UI 0.7.0 계약. News 고유 원문·읽기 구조는 §19를 유지한다.
 > 이번 배포 승인 범위: 기존 10개 사이트의 디자인·로딩 순서와 로컬/GitHub 지침. 수집·분석·인증·진행 중 브리핑은 보존한다.
 
-현재 공통 원문은 [GitHub 지침 2.8.0](https://github.com/SonChangGi/quant-dashboard/blob/main/docs/web-design.md)이다. News 고유 읽기·원문 계약은 §19를 유지하고, 중립색·차트·로딩은 마지막 UI 0.7.0 계약을 우선한다.
+현재 공통 원문은 [GitHub 지침 2.9.0](https://github.com/SonChangGi/quant-dashboard/blob/main/docs/web-design.md)이다. News 고유 읽기·원문 계약은 §19를 유지하고, 중립색·차트·로딩은 마지막 UI 0.7.0 계약을 우선한다.
 
 이 문서는 단순한 스타일 참고서가 아니라 **디자인 구현 지시문, 보호 경계, 검증 계약**이다. 다음 프로젝트를 시작할 때 구현 담당자는 이 문서 전체를 먼저 읽고, 마지막의 복사용 실행 프롬프트와 함께 사용한다.
 
@@ -1076,7 +1076,7 @@ News와 같은 viewport·theme의 화면을 나란히 비교해 전체 제품군
 기존 승인된 데이터·인증·자동화·원문을 보존하고, 공개 HTML/핵심 자산의 exact SHA와 실제 화면 ready 상태를 구분해 확인한다. 최종 지침과 소비 프로젝트 pin은 GitHub에서도 읽을 수 있어야 한다.
 
 
-## 숫자·여백 공통 계약 — 2.8.0
+## 숫자·여백 공통 계약 — 2.9.0
 
 - 공통 `QuantFormat 1.0.0`은 일반 소수를 최대 소수점 둘째 자리까지 반올림하고 끝의 0을 생략한다. `12.345 → 12.35`, `12.5 → 12.5`, `475 → 475`.
 - 표시 단위에서 `0 < |값| < 0.01`이면 첫 유효숫자부터 두 자리까지 보존한다. `0.0001234 → 0.00012`. percent formatter는 100배 표시값으로 이 기준을 판단한다.
@@ -1093,3 +1093,5 @@ News와 같은 viewport·theme의 화면을 나란히 비교해 전체 제품군
 운영 자동화와 고정 런타임은 승인된 News 디자인 자산을 함께 포함한다. 게시 체크아웃의 `.github/scripts/verify-shared-navigation.py`는 디자인 최소 버전0.7.0, manifest와 HTML adapter 일치, 숫자·간격·표 음영·차트 자산과 해시, 숫자 formatter → 차트 엔진 → native shell 로딩 순서를 확인한다. 정상 게시의 commit/push 전 검사와 GitHub Pages 게시 전 검사에 같은 검증을 사용한다. 구버전이나 누락된 자산은 기존 공개 화면을 덮어쓰기 전에 차단한다. 승인된 과거 preview는 원래 보존 계약을 유지한다.
 
 디자인 변경 시 소스·불변 런타임·배포 체크아웃의 반영 상태를 함께 확인한다. 게시 검증의 최소 버전은 새 디자인의 하한이며 자동화 릴리스 번호와 구분한다. `.github/scripts/test-reader-design-floor.py`로 구버전·혼합 adapter·누락 자산·해시 변경·로딩 순서 회귀를 검증한다.
+
+News 초기화는 boot·전체CSS → 동기 숫자 formatter → 동기 차트 엔진 → defer reader/표/문구 → ready 순서다. 게시 검증은 후행 CSS, async/defer로 바뀐 초기화 엔진, 엔진보다 앞선 reader 핸들러도 차단한다. 다른9사이트와의 공통 배포 계약은 Quant Dashboard shared/design/contracts/1.0.0에서 관리하며 News는 원문 보존을 위해 자체번들 검증기를 유지한다.
