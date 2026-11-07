@@ -85,6 +85,20 @@ class ReaderDesignFloorTests(unittest.TestCase):
         with self.assertRaisesRegex(AssertionError, 'startup must block'):
             module.verify_design_page(self.menu, self.manifest, 'new-edition.html')
 
+    def test_unused_legacy_output_is_blocked_even_with_a_valid_hash(self):
+        page = self.root / 'index.html'
+        page.write_text(''.join('<script src="/news/assets/news/' + name + '"></script>'
+                                for name in self.manifest['files']))
+        module.verify_asset_inventory(self.root, self.manifest)
+        legacy = 'extensions/0.6.0/unused.js'
+        self.manifest['files'][legacy] = hashlib.sha256(b'old').hexdigest()
+        with self.assertRaisesRegex(AssertionError, 'Unused reader assets'):
+            module.verify_asset_inventory(self.root, self.manifest)
+        preview = self.root / 'previews/approved/index.html'
+        preview.parent.mkdir(parents=True)
+        preview.write_text('<script src="/news/assets/news/' + legacy + '"></script>')
+        module.verify_asset_inventory(self.root, self.manifest)
+
 
 if __name__ == '__main__':
     unittest.main()

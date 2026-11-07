@@ -91,8 +91,25 @@ class Menu(HTMLParser):
             self.rail = False
 
 
+def verify_asset_inventory(root, manifest):
+    referenced, preview_versions = set(), set()
+    for page in root.rglob('*.html'):
+        menu = Menu()
+        menu.feed(page.read_text())
+        names = {url.split('?')[0].removeprefix('/news/assets/news/') for url in menu.owned_assets}
+        referenced.update(names)
+        if page.relative_to(root).parts[0] == 'previews':
+            preview_versions.update('/'.join(name.split('/')[:2]) + '/' for name in names
+                                    if name.startswith('extensions/'))
+    files = set(manifest['files'])
+    retained = {name for name in files if any(name.startswith(prefix) for prefix in preview_versions)}
+    unused = files - referenced - retained - {'PretendardVariable.woff2'}
+    assert not unused, f'Unused reader assets must not be republished: {sorted(unused)}'
+
+
 def verify(root):
     manifest = verify_design_manifest(root)
+    verify_asset_inventory(root, manifest)
     pages = 0
     for path in root.rglob("*.html"):
         text = path.read_text()
