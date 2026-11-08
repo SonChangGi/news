@@ -84,3 +84,34 @@
   }
   document.body.dataset.designReady='true';
 })();
+
+/* Weekly display controls: preserve every claim and citation in the native DOM. */
+(() => {
+  'use strict';
+  const root = document.querySelector('[data-weekly-reading="judgment-first-v1"]');
+  if (!root) return;
+  const controls = root.querySelector('.narrative-reading-controls');
+  const judgments = root.querySelector('#weekly-judgments');
+  const developments = root.querySelector('#weekly-developments');
+  const sections = [...root.querySelectorAll('.narrative-development')];
+  if (!controls || !judgments || !developments || !sections.length) return;
+  // Default is the HTML's expanded account. No URL, storage or analysis input changes.
+  controls.hidden = false;
+  const sync = () => {
+    judgments.setAttribute('aria-pressed', String(sections.every(node => !node.open)));
+    developments.setAttribute('aria-pressed', String(sections.every(node => node.open)));
+  };
+  for (const [button, expanded] of [[judgments, false], [developments, true]]) {
+    button.addEventListener('click', () => {sections.forEach(node => {node.open = expanded;}); sync();});
+  }
+  sections.forEach(node => node.addEventListener('toggle', sync));
+  const reveal = () => {
+    let id;
+    try { id = decodeURIComponent(location.hash.slice(1)); } catch { return; }
+    const target = document.getElementById(id);
+    const section = target?.closest('.narrative-development');
+    if (section && root.contains(section)) {section.open = true; sync();}
+  };
+  window.addEventListener('hashchange', reveal);
+  reveal(); sync();
+})();

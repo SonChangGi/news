@@ -1,9 +1,9 @@
 {
   "schema_version": "2",
-  "run_id": "6c9e14c6ce9116424c95adce",
+  "run_id": "e177ff4ea63a700630aecb51",
   "report_date": "2026-11-08",
   "cutoff": "2026-11-08T00:00:23.709202+09:00",
-  "generated_at": "2026-11-07T15:10:11.242650+00:00",
+  "generated_at": "2026-11-08T00:33:16.130912+00:00",
   "mode": "reconstruction",
   "status": "complete",
   "reviewable_draft": true,
@@ -17,7 +17,7 @@
   "timezone": "Asia/Seoul",
   "input_manifest_hash": "116c7906d5dbb64f844f3169cacd63638a9a1d6143d229010dfc252ed7169a7f",
   "edition_phase": "sunday_weekly",
-  "previous_revision_run_id": "",
+  "previous_revision_run_id": "6c9e14c6ce9116424c95adce",
   "news_counts": {
     "total": 287,
     "overseas": 287,
@@ -75231,28 +75231,44 @@
       "unavailable_dates": [],
       "overview": [
         {
-          "text": "이번 주 AI 투자에서는 IREN의 매출 반영 지연과 코어위브의 높은 채권 수익률이 자금조달·매출 실현을 점검할 이유를 보여줬다. 민주당의 AI 규제 추진도 별도 변수지만, 이를 부채금융 붕괴나 규제 시행 확정으로 읽기는 어렵다.",
+          "text": "AI 인프라 투자는 자금을 마련하는 일과 투자에서 현금을 회수하는 일, 새 시설의 허가를 받는 일을 구분해 봐야 한다. 메타는 달러채로 자금을 조달했지만, 골드만삭스 집계에서 하이퍼스케일러의 3분기 합산 설비투자는 영업현금흐름을 웃돌았다. 텍사스에서는 주지사 당선인이 신규 데이터센터 허가 중단을 제안해, 이미 공사 중인 사업이 예외로 인정될지가 별도 변수로 남았다.",
           "kind": "interpretation",
           "citations": [
             {
-              "source_version_id": "d2bc4eef19de7bb861ba879f",
-              "quote": "IREN said in its earnings report on Thursday that over $4 billion in annual recurring revenue projected to land in 2026 has been pushed out to at least January.",
-              "source_url": "https://www.cnbc.com/2026/11/05/iren-earnings-report-q1-2027-.html",
-              "source_title": "Neocloud IREN says $4 billion in annualized revenue being delayed due to customer request",
+              "source_version_id": "f553bbaecf64dab62247e22c",
+              "quote": "Meta Platforms said on Tuesday it is raising $15 billion through a five-part US dollar bond offering, as the Facebook parent turns to debt markets to help finance accelerating investments in AI infrastructure.",
+              "source_url": "https://www.channelnewsasia.com/business/meta-raises-15-billion-in-five-part-us-bond-sale-fund-ai-expansion-6518121",
+              "source_title": "Meta raises $15 billion in five-part US bond sale to fund AI expansion",
               "report_dates": [
-                "2026-11-07"
+                "2026-11-05"
               ],
               "card_anchors": [
                 {
-                  "report_date": "2026-11-07",
-                  "run_id": "7f1944d3c6d1c9c2ebc3fa8e",
-                  "card_anchor": "issue-bd73dd3c75991522"
+                  "report_date": "2026-11-05",
+                  "run_id": "e414af502d217f1ac404d015",
+                  "card_anchor": "issue-2a98695ba9b8f775"
+                }
+              ]
+            },
+            {
+              "source_version_id": "3265be282faffa6b31e6f64e",
+              "quote": "전날 미국 시장에서 150억달러를 조달한 데 이어 유로화 채권시장에서도 대규모 자금조달을 추진하고 있는 것이다. 메타의 유로화 채권 발행은 이번이 처음이다.",
+              "source_url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4443076",
+              "source_title": "'AI 투자 박차' 메타 폭풍 자금 조달…이번엔 90억유로 규모 회사채",
+              "report_dates": [
+                "2026-11-05"
+              ],
+              "card_anchors": [
+                {
+                  "report_date": "2026-11-05",
+                  "run_id": "e414af502d217f1ac404d015",
+                  "card_anchor": "issue-609131bde8e2e71d"
                 }
               ]
             },
             {
               "source_version_id": "164a5d4869ac2f50c9cf5538",
-              "quote": "The yield on its 2032 bond with a 9.625% coupon has climbed above 16%.",
+              "quote": "Goldman analysts said hyperscalers collectively reported negative free cash flow in the third quarter as capital spending exceeded operating cash flow.",
               "source_url": "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html",
               "source_title": "The AI ‘credit card’ is getting costlier as CoreWeave bond yield tops 16%",
               "report_dates": [
@@ -75268,7 +75284,7 @@
             },
             {
               "source_version_id": "164a5d4869ac2f50c9cf5538",
-              "quote": "None of these means AI debt financing is collapsing.",
+              "quote": "The big question now is how quickly AI spending will generate enough cash for hyperscalers to keep investors comfortable with future capex plans.",
               "source_url": "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html",
               "source_title": "The AI ‘credit card’ is getting costlier as CoreWeave bond yield tops 16%",
               "report_dates": [
@@ -75283,62 +75299,46 @@
               ]
             },
             {
-              "source_version_id": "5128a05b4600b2558e5e7128",
-              "quote": "Democrats plan on introducing bills aimed at shielding consumers from rising electricity costs tied to data centers, requiring independent testing of advanced AI systems and clarifying when AI companies can be held liable for harm caused by their products, they said.",
-              "source_url": "https://www.channelnewsasia.com/business/democrats-planning-flood-ai-bills-when-they-take-control-congress-6530926",
-              "source_title": "Democrats planning flood of AI bills when they take control of Congress",
+              "source_version_id": "d164b6e2c00161e73e54e75e",
+              "quote": "In Texas, Democratic governor-elect Gina Hinojosa has proposed a statewide moratorium on new data center permits, although projects already under construction would reportedly be exempt.",
+              "source_url": "https://www.cnbc.com/2026/11/05/ai-data-centers-midterms-capacity.html",
+              "source_title": "How the midterms could fuel the K-shaped AI trade",
               "report_dates": [
-                "2026-11-07"
+                "2026-11-06"
               ],
               "card_anchors": [
                 {
-                  "report_date": "2026-11-07",
-                  "run_id": "7f1944d3c6d1c9c2ebc3fa8e",
-                  "card_anchor": "issue-a0055104eecfa4f3"
-                }
-              ]
-            },
-            {
-              "source_version_id": "5128a05b4600b2558e5e7128",
-              "quote": "Any legislation would face steep odds while President Donald Trump remains in the White House, as he has repeatedly dismissed calls to write mandatory rules for AI technology.",
-              "source_url": "https://www.channelnewsasia.com/business/democrats-planning-flood-ai-bills-when-they-take-control-congress-6530926",
-              "source_title": "Democrats planning flood of AI bills when they take control of Congress",
-              "report_dates": [
-                "2026-11-07"
-              ],
-              "card_anchors": [
-                {
-                  "report_date": "2026-11-07",
-                  "run_id": "7f1944d3c6d1c9c2ebc3fa8e",
-                  "card_anchor": "issue-a0055104eecfa4f3"
+                  "report_date": "2026-11-06",
+                  "run_id": "1b038da32d669e88260f8228",
+                  "card_anchor": "issue-c42e38bcf9171b21"
                 }
               ]
             }
           ]
         },
         {
-          "text": "한편 유가 급락에는 종전 기대가 반영됐지만, 확고한 합의의 증거를 기다리는 시장과 계속되는 선박 공격을 고려하면 가격 하락과 공급 위험 해소는 구분해야 한다.",
-          "kind": "interpretation",
+          "text": "원유 시장에서는 호르무즈 수송량과 수송 여건이 서로 다른 신호를 보냈다. 애널리스트들에 따르면 원유 수송량은 전쟁 전 수준에 근접했지만 비용은 더 높았고, 영국 해사무역기구 자료는 석유 운반선 공격 빈도가 기록적 수준에 가깝다는 점을 시사했다. JP모건은 걸프 공급 재개로 세계 석유시장이 공급 과잉으로 돌아섰다고 평가했다.",
+          "kind": "fact",
           "citations": [
             {
-              "source_version_id": "dbc3c18b6d917203bf1c3af6",
-              "quote": "Oil prices fell more than 7 per cent on Monday as talks between Iranian and Qatari officials lifted hopes for an end to the US-Israeli war with Iran and stabilization of Middle East crude supply.",
-              "source_url": "https://www.channelnewsasia.com/business/oil-drops-7-iran-signals-openness-peace-talks-6511686",
-              "source_title": "Oil drops 7% as Iran signals openness to peace talks",
+              "source_version_id": "74df56c47467c17556dd1b66",
+              "quote": "Crude shipments through this key waterway for most Gulf oil supplies have recovered to close to pre-war levels, according to analysts, though at a higher cost.",
+              "source_url": "https://www.channelnewsasia.com/business/oil-rises-investors-weigh-uncertainties-around-iran-war-6526116",
+              "source_title": "Oil rises as investors weigh uncertainties around Iran war",
               "report_dates": [
-                "2026-11-03"
+                "2026-11-06"
               ],
               "card_anchors": [
                 {
-                  "report_date": "2026-11-03",
-                  "run_id": "5746355ff169056858e066fa",
-                  "card_anchor": "issue-dac29e7473c718cc"
+                  "report_date": "2026-11-06",
+                  "run_id": "1b038da32d669e88260f8228",
+                  "card_anchor": "issue-243b5da4160d1784"
                 }
               ]
             },
             {
               "source_version_id": "b771614664300d2af3b8e2a6",
-              "quote": "\"The market is still looking for evidence of a firm deal being signed (on Iran), or any backlash from either party could tighten fundamentals once more.\"",
+              "quote": "maritime security agency UKMTO suggested that attacks on oil-carrying ships are still running at close to a record pace.",
               "source_url": "https://finance.yahoo.com/news/oil-set-sharp-weekly-drop-052924519.html",
               "source_title": "Brent oil price benchmark set for biggest weekly drop since 2020",
               "report_dates": [
@@ -75353,18 +75353,18 @@
               ]
             },
             {
-              "source_version_id": "b771614664300d2af3b8e2a6",
-              "quote": "Data from Britain's ​maritime security agency UKMTO suggested that attacks on oil-carrying ships are still running at close to a record pace.",
-              "source_url": "https://finance.yahoo.com/news/oil-set-sharp-weekly-drop-052924519.html",
-              "source_title": "Brent oil price benchmark set for biggest weekly drop since 2020",
+              "source_version_id": "74df56c47467c17556dd1b66",
+              "quote": "The resumption of Gulf supply has pushed the global oil market back into surplus after months of disruption caused by the war, JPMorgan said in a note on Wednesday.",
+              "source_url": "https://www.channelnewsasia.com/business/oil-rises-investors-weigh-uncertainties-around-iran-war-6526116",
+              "source_title": "Oil rises as investors weigh uncertainties around Iran war",
               "report_dates": [
-                "2026-11-07"
+                "2026-11-06"
               ],
               "card_anchors": [
                 {
-                  "report_date": "2026-11-07",
-                  "run_id": "7f1944d3c6d1c9c2ebc3fa8e",
-                  "card_anchor": "issue-6a3c1f9d9660bc5a"
+                  "report_date": "2026-11-06",
+                  "run_id": "1b038da32d669e88260f8228",
+                  "card_anchor": "issue-243b5da4160d1784"
                 }
               ]
             }
@@ -75374,76 +75374,60 @@
       "watchpoints": [
         {
           "event": {
-            "text": "IREN의 지연된 매출 반영이 실제로 진행되는지, 시장 여건에 달린 추가 자금조달이 확보되는지 확인할 필요가 있다.",
+            "text": "텍사스의 신규 데이터센터 허가 중단안이 구체화될 때 이미 공사 중인 사업의 예외가 명시되는지 본다.",
             "kind": "open",
             "citations": [
               {
-                "source_version_id": "d2bc4eef19de7bb861ba879f",
-                "quote": "IREN said in its earnings report on Thursday that over $4 billion in annual recurring revenue projected to land in 2026 has been pushed out to at least January.",
-                "source_url": "https://www.cnbc.com/2026/11/05/iren-earnings-report-q1-2027-.html",
-                "source_title": "Neocloud IREN says $4 billion in annualized revenue being delayed due to customer request",
+                "source_version_id": "d164b6e2c00161e73e54e75e",
+                "quote": "In Texas, Democratic governor-elect Gina Hinojosa has proposed a statewide moratorium on new data center permits, although projects already under construction would reportedly be exempt.",
+                "source_url": "https://www.cnbc.com/2026/11/05/ai-data-centers-midterms-capacity.html",
+                "source_title": "How the midterms could fuel the K-shaped AI trade",
                 "report_dates": [
-                  "2026-11-07"
+                  "2026-11-06"
                 ],
                 "card_anchors": [
                   {
-                    "report_date": "2026-11-07",
-                    "run_id": "7f1944d3c6d1c9c2ebc3fa8e",
-                    "card_anchor": "issue-bd73dd3c75991522"
-                  }
-                ]
-              },
-              {
-                "source_version_id": "d2bc4eef19de7bb861ba879f",
-                "quote": "Still, Iren said it planed to shell out $15 billion in capital expenditures the rest of this fiscal year, including $9 billion in cash and committed financing, and $6 billion in \"target\" financing, which is \"subject to market conditions.\"",
-                "source_url": "https://www.cnbc.com/2026/11/05/iren-earnings-report-q1-2027-.html",
-                "source_title": "Neocloud IREN says $4 billion in annualized revenue being delayed due to customer request",
-                "report_dates": [
-                  "2026-11-07"
-                ],
-                "card_anchors": [
-                  {
-                    "report_date": "2026-11-07",
-                    "run_id": "7f1944d3c6d1c9c2ebc3fa8e",
-                    "card_anchor": "issue-bd73dd3c75991522"
+                    "report_date": "2026-11-06",
+                    "run_id": "1b038da32d669e88260f8228",
+                    "card_anchor": "issue-c42e38bcf9171b21"
                   }
                 ]
               }
             ]
           },
           "why_it_matters": {
-            "text": "회사는 ARR 목표의 계약·자금 확보를 밝혔지만, 이는 남은 설비투자 재원 전체가 확정됐다는 뜻은 아니다. 계약 확보와 투자 실행 능력을 구분하는 점검이다.",
+            "text": "CNBC는 2027년 가동 예정 용량의 상당 부분이 이미 공사 중이어서 신규 규제의 단기 영향이 제한적이라고 봤다. 착공 사업의 예외 여부는 이 판단을 텍사스 사업에 적용할 수 있는지 가늠할 근거가 된다.",
             "kind": "interpretation",
             "citations": [
               {
-                "source_version_id": "d2bc4eef19de7bb861ba879f",
-                "quote": "The $4 billion ARR target is fully contracted and funded, the company said.",
-                "source_url": "https://www.cnbc.com/2026/11/05/iren-earnings-report-q1-2027-.html",
-                "source_title": "Neocloud IREN says $4 billion in annualized revenue being delayed due to customer request",
+                "source_version_id": "d164b6e2c00161e73e54e75e",
+                "quote": "Much of the data center capacity expected to come online in 2027 is already under construction, limiting the near-term impact of new restrictions.",
+                "source_url": "https://www.cnbc.com/2026/11/05/ai-data-centers-midterms-capacity.html",
+                "source_title": "How the midterms could fuel the K-shaped AI trade",
                 "report_dates": [
-                  "2026-11-07"
+                  "2026-11-06"
                 ],
                 "card_anchors": [
                   {
-                    "report_date": "2026-11-07",
-                    "run_id": "7f1944d3c6d1c9c2ebc3fa8e",
-                    "card_anchor": "issue-bd73dd3c75991522"
+                    "report_date": "2026-11-06",
+                    "run_id": "1b038da32d669e88260f8228",
+                    "card_anchor": "issue-c42e38bcf9171b21"
                   }
                 ]
               },
               {
-                "source_version_id": "d2bc4eef19de7bb861ba879f",
-                "quote": "Still, Iren said it planed to shell out $15 billion in capital expenditures the rest of this fiscal year, including $9 billion in cash and committed financing, and $6 billion in \"target\" financing, which is \"subject to market conditions.\"",
-                "source_url": "https://www.cnbc.com/2026/11/05/iren-earnings-report-q1-2027-.html",
-                "source_title": "Neocloud IREN says $4 billion in annualized revenue being delayed due to customer request",
+                "source_version_id": "d164b6e2c00161e73e54e75e",
+                "quote": "In Texas, Democratic governor-elect Gina Hinojosa has proposed a statewide moratorium on new data center permits, although projects already under construction would reportedly be exempt.",
+                "source_url": "https://www.cnbc.com/2026/11/05/ai-data-centers-midterms-capacity.html",
+                "source_title": "How the midterms could fuel the K-shaped AI trade",
                 "report_dates": [
-                  "2026-11-07"
+                  "2026-11-06"
                 ],
                 "card_anchors": [
                   {
-                    "report_date": "2026-11-07",
-                    "run_id": "7f1944d3c6d1c9c2ebc3fa8e",
-                    "card_anchor": "issue-bd73dd3c75991522"
+                    "report_date": "2026-11-06",
+                    "run_id": "1b038da32d669e88260f8228",
+                    "card_anchor": "issue-c42e38bcf9171b21"
                   }
                 ]
               }
@@ -75454,76 +75438,12 @@
         },
         {
           "event": {
-            "text": "민주당이 예고한 전기요금 보호·AI 독립평가·기업 책임 법안이 실제 발의와 입법으로 이어지는지 살펴야 한다.",
-            "kind": "open",
-            "citations": [
-              {
-                "source_version_id": "5128a05b4600b2558e5e7128",
-                "quote": "Democrats plan on introducing bills aimed at shielding consumers from rising electricity costs tied to data centers, requiring independent testing of advanced AI systems and clarifying when AI companies can be held liable for harm caused by their products, they said.",
-                "source_url": "https://www.channelnewsasia.com/business/democrats-planning-flood-ai-bills-when-they-take-control-congress-6530926",
-                "source_title": "Democrats planning flood of AI bills when they take control of Congress",
-                "report_dates": [
-                  "2026-11-07"
-                ],
-                "card_anchors": [
-                  {
-                    "report_date": "2026-11-07",
-                    "run_id": "7f1944d3c6d1c9c2ebc3fa8e",
-                    "card_anchor": "issue-a0055104eecfa4f3"
-                  }
-                ]
-              }
-            ]
-          },
-          "why_it_matters": {
-            "text": "AI와 데이터센터의 규제 부담을 판단하려면 정책 의지와 시행 가능성을 나눠 봐야 한다. 트럼프의 의무 규제 반대는 입법 장벽이어서, 추진 계획을 확정된 의무로 투자 판단에 반영하기는 이르다.",
-            "kind": "interpretation",
-            "citations": [
-              {
-                "source_version_id": "5128a05b4600b2558e5e7128",
-                "quote": "Democrats plan on introducing bills aimed at shielding consumers from rising electricity costs tied to data centers, requiring independent testing of advanced AI systems and clarifying when AI companies can be held liable for harm caused by their products, they said.",
-                "source_url": "https://www.channelnewsasia.com/business/democrats-planning-flood-ai-bills-when-they-take-control-congress-6530926",
-                "source_title": "Democrats planning flood of AI bills when they take control of Congress",
-                "report_dates": [
-                  "2026-11-07"
-                ],
-                "card_anchors": [
-                  {
-                    "report_date": "2026-11-07",
-                    "run_id": "7f1944d3c6d1c9c2ebc3fa8e",
-                    "card_anchor": "issue-a0055104eecfa4f3"
-                  }
-                ]
-              },
-              {
-                "source_version_id": "5128a05b4600b2558e5e7128",
-                "quote": "Any legislation would face steep odds while President Donald Trump remains in the White House, as he has repeatedly dismissed calls to write mandatory rules for AI technology.",
-                "source_url": "https://www.channelnewsasia.com/business/democrats-planning-flood-ai-bills-when-they-take-control-congress-6530926",
-                "source_title": "Democrats planning flood of AI bills when they take control of Congress",
-                "report_dates": [
-                  "2026-11-07"
-                ],
-                "card_anchors": [
-                  {
-                    "report_date": "2026-11-07",
-                    "run_id": "7f1944d3c6d1c9c2ebc3fa8e",
-                    "card_anchor": "issue-a0055104eecfa4f3"
-                  }
-                ]
-              }
-            ]
-          },
-          "scheduled_for": null,
-          "schedule_citations": []
-        },
-        {
-          "event": {
-            "text": "이란 협상에서 확고한 합의 서명과 호르무즈 재개방 조건의 충족 여부를 확인하고, 선박 공격 추이도 함께 봐야 한다.",
+            "text": "이란 전쟁의 종전 합의에 실제로 서명했다는 확인이 나오는지 본다.",
             "kind": "open",
             "citations": [
               {
                 "source_version_id": "b771614664300d2af3b8e2a6",
-                "quote": "\"The market is still looking for evidence of a firm deal being signed (on Iran), or any backlash from either party could tighten fundamentals once more.\"",
+                "quote": "The market is still looking for evidence of a firm deal being signed (on Iran), or any backlash from either party could tighten fundamentals once more.",
                 "source_url": "https://finance.yahoo.com/news/oil-set-sharp-weekly-drop-052924519.html",
                 "source_title": "Brent oil price benchmark set for biggest weekly drop since 2020",
                 "report_dates": [
@@ -75538,24 +75458,46 @@
                 ]
               },
               {
-                "source_version_id": "16a2c22a4b0d5a9c4d0a35e0",
-                "quote": "레자이 총장은 \"미국은 이란의 7가지 조건에 대해 완전하고 명시적으로 답변하고 이를 이행해야 한다\"면서 \"오직 이 경우에만 호르무즈 해협이 다시 개방될 것\"이라고 제시했다.",
-                "source_url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4442836",
-                "source_title": "이란 안보수장 \"이란 요구에 대한 美 답변 설득력 없어\"",
+                "source_version_id": "b1144e2452fc90f7334aff02",
+                "quote": "미국이 이란이 제시한 종전 양해각서(MOU) 초안을 승인했다고 카타르 매체인 알 아라비 알자디드가 3일(현지시간) 보도했다.",
+                "source_url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4442833",
+                "source_title": "카타르 매체 \"美, 이란이 제시한 양해각서 초안에 동의\"",
                 "report_dates": [
-                  "2026-11-04"
+                  "2026-11-05"
                 ],
                 "card_anchors": [
                   {
-                    "report_date": "2026-11-04",
-                    "run_id": "cd984b397b76addaf41115a4",
-                    "card_anchor": "issue-98ad578e47755be0"
+                    "report_date": "2026-11-05",
+                    "run_id": "e414af502d217f1ac404d015",
+                    "card_anchor": "issue-c62b8e2bda4a58e3"
+                  }
+                ]
+              }
+            ]
+          },
+          "why_it_matters": {
+            "text": "JP모건은 걸프 공급 재개로 세계 석유시장이 공급 과잉으로 돌아섰다고 봤다. 다만 리스타드의 원유시장 애널리스트 자니브 샤는 어느 한쪽이라도 반발하면 수급이 다시 빠듯해질 수 있다고 봤다. 실제 서명 여부는 현재의 공급 여유를 평가할 때 협상 차질 위험을 가늠할 단서다.",
+            "kind": "interpretation",
+            "citations": [
+              {
+                "source_version_id": "74df56c47467c17556dd1b66",
+                "quote": "The resumption of Gulf supply has pushed the global oil market back into surplus after months of disruption caused by the war, JPMorgan said in a note on Wednesday.",
+                "source_url": "https://www.channelnewsasia.com/business/oil-rises-investors-weigh-uncertainties-around-iran-war-6526116",
+                "source_title": "Oil rises as investors weigh uncertainties around Iran war",
+                "report_dates": [
+                  "2026-11-06"
+                ],
+                "card_anchors": [
+                  {
+                    "report_date": "2026-11-06",
+                    "run_id": "1b038da32d669e88260f8228",
+                    "card_anchor": "issue-243b5da4160d1784"
                   }
                 ]
               },
               {
                 "source_version_id": "b771614664300d2af3b8e2a6",
-                "quote": "Data from Britain's ​maritime security agency UKMTO suggested that attacks on oil-carrying ships are still running at close to a record pace.",
+                "quote": "said Rystad oil market analyst Janiv Shah",
                 "source_url": "https://finance.yahoo.com/news/oil-set-sharp-weekly-drop-052924519.html",
                 "source_title": "Brent oil price benchmark set for biggest weekly drop since 2020",
                 "report_dates": [
@@ -75568,32 +75510,10 @@
                     "card_anchor": "issue-6a3c1f9d9660bc5a"
                   }
                 ]
-              }
-            ]
-          },
-          "why_it_matters": {
-            "text": "종전 기대에 따른 유가 하락이 실제 공급 안정으로 뒷받침되는지를 가르는 근거다. Rystad 분석가는 어느 쪽이든 반발하면 수급이 다시 빠듯해질 수 있다고 평가했다.",
-            "kind": "interpretation",
-            "citations": [
-              {
-                "source_version_id": "dbc3c18b6d917203bf1c3af6",
-                "quote": "Oil prices fell more than 7 per cent on Monday as talks between Iranian and Qatari officials lifted hopes for an end to the US-Israeli war with Iran and stabilization of Middle East crude supply.",
-                "source_url": "https://www.channelnewsasia.com/business/oil-drops-7-iran-signals-openness-peace-talks-6511686",
-                "source_title": "Oil drops 7% as Iran signals openness to peace talks",
-                "report_dates": [
-                  "2026-11-03"
-                ],
-                "card_anchors": [
-                  {
-                    "report_date": "2026-11-03",
-                    "run_id": "5746355ff169056858e066fa",
-                    "card_anchor": "issue-dac29e7473c718cc"
-                  }
-                ]
               },
               {
                 "source_version_id": "b771614664300d2af3b8e2a6",
-                "quote": "\"The market is still looking for evidence of a firm deal being signed (on Iran), or any backlash from either party could tighten fundamentals once more.\"",
+                "quote": "The market is still looking for evidence of a firm deal being signed (on Iran), or any backlash from either party could tighten fundamentals once more.",
                 "source_url": "https://finance.yahoo.com/news/oil-set-sharp-weekly-drop-052924519.html",
                 "source_title": "Brent oil price benchmark set for biggest weekly drop since 2020",
                 "report_dates": [
@@ -75615,221 +75535,13 @@
       ],
       "stories": [
         {
-          "id": "ai-capital-execution",
-          "title": "AI 투자, 계약 규모에서 자금조달·가동 능력 검증으로",
-          "timeline": [
-            {
-              "report_date": "2026-11-03",
-              "claim": {
-                "text": "AI 확장의 자금 부담이 구체화됐다. 앤스로픽이 공개한 약정은 약 8,950억 달러로 대부분 컴퓨팅·데이터센터 관련이며, 약 700억 달러는 1년 안에 지급해야 한다. 오라클은 AI·클라우드 인프라 확장을 위해 채권·주식으로 200억 달러를 조달할 계획을 밝혔다. 두 사례는 투자 약정과 이를 뒷받침할 자금 확보를 함께 살펴야 할 이유를 보여준다.",
-                "kind": "interpretation",
-                "citations": [
-                  {
-                    "source_version_id": "d8ce11bd62a7c51ae131f3d7",
-                    "quote": "Its amended IPO filing lists about $895 billion of commitments, nearly all of it for computing and data centers. About $70 billion comes due within a year.",
-                    "source_url": "https://finance.yahoo.com/markets/article/anthropics-new-ipo-filing-puts-its-computing-bill-near-900-billion-151830444.html",
-                    "source_title": "Anthropic's new IPO filing puts its computing bill near $900 billion",
-                    "report_dates": [
-                      "2026-11-03"
-                    ],
-                    "card_anchors": [
-                      {
-                        "report_date": "2026-11-03",
-                        "run_id": "5746355ff169056858e066fa",
-                        "card_anchor": "issue-a1ea34f390dd8c74"
-                      }
-                    ]
-                  },
-                  {
-                    "source_version_id": "dfde58836c1f4ed13aefb976",
-                    "quote": "Oracle plans to raise $20 billion through bond and share sales, regulatory filings showed on Monday, as the software giant taps investors to fund its costly AI and cloud infrastructure build-out.",
-                    "source_url": "https://www.channelnewsasia.com/business/oracle-taps-investors-20-billion-finance-ai-expansion-6513341",
-                    "source_title": "Oracle taps investors for $20 billion to finance AI expansion",
-                    "report_dates": [
-                      "2026-11-03"
-                    ],
-                    "card_anchors": [
-                      {
-                        "report_date": "2026-11-03",
-                        "run_id": "5746355ff169056858e066fa",
-                        "card_anchor": "issue-8d75a49e4498593b"
-                      }
-                    ]
-                  }
-                ]
-              }
-            },
-            {
-              "report_date": "2026-11-07",
-              "claim": {
-                "text": "주 후반에는 계약의 실제 가동과 금융비용이 쟁점으로 드러났다. IREN은 고객 요청과 공급업체 일정으로 2026년 반영을 예상한 40억 달러 초과 규모의 연간 반복매출이 최소 1월로 미뤄졌다고 밝혔다. 이는 한 해 실현 매출의 손실액을 뜻하지 않는다. 코어위브의 2032년 만기 채권 수익률은 16%를 넘었다. 다만 CNBC는 AI 부채조달이 붕괴한 상황은 아니라고 설명했다.",
-                "kind": "interpretation",
-                "citations": [
-                  {
-                    "source_version_id": "d2bc4eef19de7bb861ba879f",
-                    "quote": "IREN said in its earnings report on Thursday that over $4 billion in annual recurring revenue projected to land in 2026 has been pushed out to at least January.",
-                    "source_url": "https://www.cnbc.com/2026/11/05/iren-earnings-report-q1-2027-.html",
-                    "source_title": "Neocloud IREN says $4 billion in annualized revenue being delayed due to customer request",
-                    "report_dates": [
-                      "2026-11-07"
-                    ],
-                    "card_anchors": [
-                      {
-                        "report_date": "2026-11-07",
-                        "run_id": "7f1944d3c6d1c9c2ebc3fa8e",
-                        "card_anchor": "issue-bd73dd3c75991522"
-                      }
-                    ]
-                  },
-                  {
-                    "source_version_id": "d2bc4eef19de7bb861ba879f",
-                    "quote": "IREN said the move, which could extend payment to February, is due to \"a customer-requested change and supplier timing.\"",
-                    "source_url": "https://www.cnbc.com/2026/11/05/iren-earnings-report-q1-2027-.html",
-                    "source_title": "Neocloud IREN says $4 billion in annualized revenue being delayed due to customer request",
-                    "report_dates": [
-                      "2026-11-07"
-                    ],
-                    "card_anchors": [
-                      {
-                        "report_date": "2026-11-07",
-                        "run_id": "7f1944d3c6d1c9c2ebc3fa8e",
-                        "card_anchor": "issue-bd73dd3c75991522"
-                      }
-                    ]
-                  },
-                  {
-                    "source_version_id": "164a5d4869ac2f50c9cf5538",
-                    "quote": "The yield on its 2032 bond with a 9.625% coupon has climbed above 16%.",
-                    "source_url": "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html",
-                    "source_title": "The AI ‘credit card’ is getting costlier as CoreWeave bond yield tops 16%",
-                    "report_dates": [
-                      "2026-11-07"
-                    ],
-                    "card_anchors": [
-                      {
-                        "report_date": "2026-11-07",
-                        "run_id": "7f1944d3c6d1c9c2ebc3fa8e",
-                        "card_anchor": "issue-4ec02f65c0d24131"
-                      }
-                    ]
-                  },
-                  {
-                    "source_version_id": "164a5d4869ac2f50c9cf5538",
-                    "quote": "None of these means AI debt financing is collapsing.",
-                    "source_url": "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html",
-                    "source_title": "The AI ‘credit card’ is getting costlier as CoreWeave bond yield tops 16%",
-                    "report_dates": [
-                      "2026-11-07"
-                    ],
-                    "card_anchors": [
-                      {
-                        "report_date": "2026-11-07",
-                        "run_id": "7f1944d3c6d1c9c2ebc3fa8e",
-                        "card_anchor": "issue-4ec02f65c0d24131"
-                      }
-                    ]
-                  }
-                ]
-              }
-            }
-          ],
-          "status": [
-            {
-              "text": "주말 현재 IREN은 40억 달러 ARR 목표의 계약·자금이 확보됐다고 밝혔지만, 남은 회계연도 설비투자 중 60억 달러는 시장 여건에 달린 목표 조달액이다. 마이크로소프트는 이미 Nscale 협력을 줄이고 잉글랜드 부지에서 철수했으며, 소식통들은 오라클 계약 미갱신 결정도 전했다. 이와 별도로 이용을 중단할 네오클라우드 선정은 아직 평가 단계라는 보도다.",
-              "kind": "open",
-              "citations": [
-                {
-                  "source_version_id": "d2bc4eef19de7bb861ba879f",
-                  "quote": "The $4 billion ARR target is fully contracted and funded, the company said.",
-                  "source_url": "https://www.cnbc.com/2026/11/05/iren-earnings-report-q1-2027-.html",
-                  "source_title": "Neocloud IREN says $4 billion in annualized revenue being delayed due to customer request",
-                  "report_dates": [
-                    "2026-11-07"
-                  ],
-                  "card_anchors": [
-                    {
-                      "report_date": "2026-11-07",
-                      "run_id": "7f1944d3c6d1c9c2ebc3fa8e",
-                      "card_anchor": "issue-bd73dd3c75991522"
-                    }
-                  ]
-                },
-                {
-                  "source_version_id": "d2bc4eef19de7bb861ba879f",
-                  "quote": "Still, Iren said it planed to shell out $15 billion in capital expenditures the rest of this fiscal year, including $9 billion in cash and committed financing, and $6 billion in \"target\" financing, which is \"subject to market conditions.\"",
-                  "source_url": "https://www.cnbc.com/2026/11/05/iren-earnings-report-q1-2027-.html",
-                  "source_title": "Neocloud IREN says $4 billion in annualized revenue being delayed due to customer request",
-                  "report_dates": [
-                    "2026-11-07"
-                  ],
-                  "card_anchors": [
-                    {
-                      "report_date": "2026-11-07",
-                      "run_id": "7f1944d3c6d1c9c2ebc3fa8e",
-                      "card_anchor": "issue-bd73dd3c75991522"
-                    }
-                  ]
-                },
-                {
-                  "source_version_id": "7643eb8d381f2f83bb16c9b6",
-                  "quote": "Microsoft has already slashed its work with U.K.-based neocloud Nscale, walking away from a site that it had intended to use in England.",
-                  "source_url": "https://www.cnbc.com/2026/11/06/microsoft-moves-to-consolidate-its-relationships-with-neoclouds-in-ai.html",
-                  "source_title": "Microsoft plans to use fewer neoclouds as AI buildout shows signs of strain",
-                  "report_dates": [
-                    "2026-11-07"
-                  ],
-                  "card_anchors": [
-                    {
-                      "report_date": "2026-11-07",
-                      "run_id": "7f1944d3c6d1c9c2ebc3fa8e",
-                      "card_anchor": "issue-fd92491524843a3a"
-                    }
-                  ]
-                },
-                {
-                  "source_version_id": "7643eb8d381f2f83bb16c9b6",
-                  "quote": "Two people said that Microsoft opted not to renew a deal with Oracle.",
-                  "source_url": "https://www.cnbc.com/2026/11/06/microsoft-moves-to-consolidate-its-relationships-with-neoclouds-in-ai.html",
-                  "source_title": "Microsoft plans to use fewer neoclouds as AI buildout shows signs of strain",
-                  "report_dates": [
-                    "2026-11-07"
-                  ],
-                  "card_anchors": [
-                    {
-                      "report_date": "2026-11-07",
-                      "run_id": "7f1944d3c6d1c9c2ebc3fa8e",
-                      "card_anchor": "issue-fd92491524843a3a"
-                    }
-                  ]
-                },
-                {
-                  "source_version_id": "7643eb8d381f2f83bb16c9b6",
-                  "quote": "Microsoft is now in the evaluation stage and hasn't decided which neoclouds it will stop using, said two sources, who asked not to be named because the talks are confidential.",
-                  "source_url": "https://www.cnbc.com/2026/11/06/microsoft-moves-to-consolidate-its-relationships-with-neoclouds-in-ai.html",
-                  "source_title": "Microsoft plans to use fewer neoclouds as AI buildout shows signs of strain",
-                  "report_dates": [
-                    "2026-11-07"
-                  ],
-                  "card_anchors": [
-                    {
-                      "report_date": "2026-11-07",
-                      "run_id": "7f1944d3c6d1c9c2ebc3fa8e",
-                      "card_anchor": "issue-fd92491524843a3a"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "election-ai-repricing",
-          "title": "민주당 승리 이후, AI 투자에 더해진 규제 부담",
+          "id": "us-election-data-centers",
+          "title": "미 중간선거 이후 텍사스 데이터센터 인허가의 변수",
           "timeline": [
             {
               "report_date": "2026-11-05",
               "claim": {
-                "text": "민주당의 상·하원 탈환과 텍사스 주지사 교체로 데이터센터 규제 강화가 부각됐다. 텍사스 당선인 히노호사는 주민 보호 입법까지 모든 데이터센터 승인을 막겠다고 공약했다. 다만 전력망 접속 중단은 공화당 애벗 주지사가 이미 시행한 조치로, 개발 제약이 선거로 처음 생긴 것은 아니다.",
+                "text": "미 중간선거에서 민주당이 연방 상·하원을 탈환했고, 텍사스에서는 이노호사가 공화당 현직 애벗을 꺾었다. 트럼프 대통령은 민주당과 협력하겠지만 필요하면 거부권을 행사하겠다고 밝혔다.",
                 "kind": "fact",
                 "citations": [
                   {
@@ -75849,10 +75561,10 @@
                     ]
                   },
                   {
-                    "source_version_id": "cc4a95548e011b2f54b144df",
-                    "quote": "Before the election, Hinojosa said she would take the crackdown on data centers a step further by banning all data center approvals until the state legislature passes laws",
-                    "source_url": "https://www.channelnewsasia.com/business/texas-data-centers-face-uncertain-future-after-hinojosa-wins-governors-race-6525056",
-                    "source_title": "Texas data centers face uncertain future after Hinojosa wins governor’s race",
+                    "source_version_id": "302868e2cf432426f3764fc4",
+                    "quote": "And Gina Hinojosa, a lawyer and state representative, unseated three-term Republican Gov. Greg Abbott.",
+                    "source_url": "https://www.tovima.com/wsj/democrats-ride-stunning-blue-wave-to-capture-senate/",
+                    "source_title": "Democrats Ride Stunning Blue Wave to Capture Senate and House",
                     "report_dates": [
                       "2026-11-05"
                     ],
@@ -75860,15 +75572,15 @@
                       {
                         "report_date": "2026-11-05",
                         "run_id": "e414af502d217f1ac404d015",
-                        "card_anchor": "issue-affb1898a5922496"
+                        "card_anchor": "issue-b34d38e54c61230e"
                       }
                     ]
                   },
                   {
-                    "source_version_id": "cc4a95548e011b2f54b144df",
-                    "quote": "On August 3, Abbott became one of the first Republican governors in the US to halt the connection of new data centers to the state's electric grid.",
-                    "source_url": "https://www.channelnewsasia.com/business/texas-data-centers-face-uncertain-future-after-hinojosa-wins-governors-race-6525056",
-                    "source_title": "Texas data centers face uncertain future after Hinojosa wins governor’s race",
+                    "source_version_id": "302868e2cf432426f3764fc4",
+                    "quote": "He said he would work with Democrats but would use his “veto power” if needed.",
+                    "source_url": "https://www.tovima.com/wsj/democrats-ride-stunning-blue-wave-to-capture-senate/",
+                    "source_title": "Democrats Ride Stunning Blue Wave to Capture Senate and House",
                     "report_dates": [
                       "2026-11-05"
                     ],
@@ -75876,7 +75588,7 @@
                       {
                         "report_date": "2026-11-05",
                         "run_id": "e414af502d217f1ac404d015",
-                        "card_anchor": "issue-affb1898a5922496"
+                        "card_anchor": "issue-b34d38e54c61230e"
                       }
                     ]
                   }
@@ -75886,95 +75598,54 @@
             {
               "report_date": "2026-11-06",
               "claim": {
-                "text": "선거 직후 상승했던 증시는 목요일 급락했고, 필라델피아 반도체지수는 12% 떨어졌다. 야후 파이낸스는 관심이 민주당 의회의 AI 인프라 정책으로 옮겨갔다고 전했다. AI 지출 의구심과 차입 부담도 앞서 존재했다는 점에서, 하락을 선거 결과만으로 설명하기는 어렵다.",
-                "kind": "interpretation",
-                "citations": [
-                  {
-                    "source_version_id": "22bcb07d2fdc1959cb9acb6a",
-                    "quote": "Investors bought stocks Wednesday after Democrats won control of both chambers of Congress , helped by falling oil prices and lower Treasury yields. Thursday, the focus shifted to what a Democratic Congress could mean for the AI build-out, and in particular for the data centers driving it .",
-                    "source_url": "https://finance.yahoo.com/markets/article/chip-stocks-slaughtered-as-wall-street-suffers-worst-post-midterm-day-since-1896-213204256.html",
-                    "source_title": "Chip stocks slaughtered as Wall Street suffers worst post-midterm day since 1896",
-                    "report_dates": [
-                      "2026-11-06"
-                    ],
-                    "card_anchors": [
-                      {
-                        "report_date": "2026-11-06",
-                        "run_id": "1b038da32d669e88260f8228",
-                        "card_anchor": "issue-3ef405df0eb7d8c6"
-                      }
-                    ]
-                  },
-                  {
-                    "source_version_id": "22bcb07d2fdc1959cb9acb6a",
-                    "quote": "The PHLX Semiconductor Index ( ^SOX ) sank 12%, its worst day since March 2020",
-                    "source_url": "https://finance.yahoo.com/markets/article/chip-stocks-slaughtered-as-wall-street-suffers-worst-post-midterm-day-since-1896-213204256.html",
-                    "source_title": "Chip stocks slaughtered as Wall Street suffers worst post-midterm day since 1896",
-                    "report_dates": [
-                      "2026-11-06"
-                    ],
-                    "card_anchors": [
-                      {
-                        "report_date": "2026-11-06",
-                        "run_id": "1b038da32d669e88260f8228",
-                        "card_anchor": "issue-3ef405df0eb7d8c6"
-                      }
-                    ]
-                  },
-                  {
-                    "source_version_id": "22bcb07d2fdc1959cb9acb6a",
-                    "quote": "Thursday's drop builds on the Oct. 30 sell-off, which erased more than $1 trillion in tech market value over doubts about AI spending. Investors have also been demanding higher yields from the heavily borrowed companies building out data centers.",
-                    "source_url": "https://finance.yahoo.com/markets/article/chip-stocks-slaughtered-as-wall-street-suffers-worst-post-midterm-day-since-1896-213204256.html",
-                    "source_title": "Chip stocks slaughtered as Wall Street suffers worst post-midterm day since 1896",
-                    "report_dates": [
-                      "2026-11-06"
-                    ],
-                    "card_anchors": [
-                      {
-                        "report_date": "2026-11-06",
-                        "run_id": "1b038da32d669e88260f8228",
-                        "card_anchor": "issue-3ef405df0eb7d8c6"
-                      }
-                    ]
-                  }
-                ]
-              }
-            },
-            {
-              "report_date": "2026-11-07",
-              "claim": {
-                "text": "금요일 AI주가 낙폭 일부를 회복하며 나스닥은 1.1% 반등했다. S&P 500도 주간 손실을 일부 줄였지만, 주간 상승으로 돌아선 것은 아니었다.",
+                "text": "야후 파이낸스는 목요일 투자자들의 관심이 민주당 주도 의회가 AI 인프라 확대, 특히 데이터센터 건설에 어떤 영향을 미칠지로 옮겨갔다고 전했다. 이날 나스닥 종합지수는 선거 직후 상승분을 반납하고 5.5% 하락 마감했고, 필라델피아 반도체지수는 12% 떨어졌다.",
                 "kind": "fact",
                 "citations": [
                   {
-                    "source_version_id": "4d99c513015c1c270f4f8443",
-                    "quote": "AI stocks bounced back and recovered some of their sell-off from earlier in the week.",
-                    "source_url": "https://apnews.com/article/markets-japan-nikkei-oil-ai-bba6f0bf9035a6e6b1c4fef3e8230b89",
-                    "source_title": "AI stocks halt their brutal, worldwide sell-off as Wall Street trims its loss for the week",
+                    "source_version_id": "22bcb07d2fdc1959cb9acb6a",
+                    "quote": "Thursday, the focus shifted to what a Democratic Congress could mean for the AI build-out, and in particular for the data centers driving it .",
+                    "source_url": "https://finance.yahoo.com/markets/article/chip-stocks-slaughtered-as-wall-street-suffers-worst-post-midterm-day-since-1896-213204256.html",
+                    "source_title": "Chip stocks slaughtered as Wall Street suffers worst post-midterm day since 1896",
                     "report_dates": [
-                      "2026-11-07"
+                      "2026-11-06"
                     ],
                     "card_anchors": [
                       {
-                        "report_date": "2026-11-07",
-                        "run_id": "7f1944d3c6d1c9c2ebc3fa8e",
-                        "card_anchor": "issue-b46a29032f0915f2"
+                        "report_date": "2026-11-06",
+                        "run_id": "1b038da32d669e88260f8228",
+                        "card_anchor": "issue-3ef405df0eb7d8c6"
                       }
                     ]
                   },
                   {
-                    "source_version_id": "4d99c513015c1c270f4f8443",
-                    "quote": "The S&P 500 rose 0.3% and trimmed its loss for the week. The Dow Jones Industrial Average dipped 0.5%, and the Nasdaq composite rallied 1.1%.",
-                    "source_url": "https://apnews.com/article/markets-japan-nikkei-oil-ai-bba6f0bf9035a6e6b1c4fef3e8230b89",
-                    "source_title": "AI stocks halt their brutal, worldwide sell-off as Wall Street trims its loss for the week",
+                    "source_version_id": "22bcb07d2fdc1959cb9acb6a",
+                    "quote": "It took the Nasdaq Composite ( ^IXIC ) six minutes to erase its entire post-election rally. Then the selling got worse.\n\nThe tech-heavy index closed down 5.5%",
+                    "source_url": "https://finance.yahoo.com/markets/article/chip-stocks-slaughtered-as-wall-street-suffers-worst-post-midterm-day-since-1896-213204256.html",
+                    "source_title": "Chip stocks slaughtered as Wall Street suffers worst post-midterm day since 1896",
                     "report_dates": [
-                      "2026-11-07"
+                      "2026-11-06"
                     ],
                     "card_anchors": [
                       {
-                        "report_date": "2026-11-07",
-                        "run_id": "7f1944d3c6d1c9c2ebc3fa8e",
-                        "card_anchor": "issue-b46a29032f0915f2"
+                        "report_date": "2026-11-06",
+                        "run_id": "1b038da32d669e88260f8228",
+                        "card_anchor": "issue-3ef405df0eb7d8c6"
+                      }
+                    ]
+                  },
+                  {
+                    "source_version_id": "22bcb07d2fdc1959cb9acb6a",
+                    "quote": "The PHLX Semiconductor Index ( ^SOX ) sank 12%",
+                    "source_url": "https://finance.yahoo.com/markets/article/chip-stocks-slaughtered-as-wall-street-suffers-worst-post-midterm-day-since-1896-213204256.html",
+                    "source_title": "Chip stocks slaughtered as Wall Street suffers worst post-midterm day since 1896",
+                    "report_dates": [
+                      "2026-11-06"
+                    ],
+                    "card_anchors": [
+                      {
+                        "report_date": "2026-11-06",
+                        "run_id": "1b038da32d669e88260f8228",
+                        "card_anchor": "issue-3ef405df0eb7d8c6"
                       }
                     ]
                   }
@@ -75984,70 +75655,162 @@
           ],
           "status": [
             {
-              "text": "주말 현재 규제 추진과 시행은 구분해야 한다. 민주당은 전기요금 보호·AI 독립평가·기업 책임 법안을 준비하지만 트럼프의 반대가 입법 장벽이다. AP는 연방 단속이 막혀도 규제 환경이 강화될 것으로 전망했다. 반등만으로 건설 제약 우려가 해소됐다고 판단하기는 어렵다.",
+              "text": "텍사스 주지사 당선인 지나 이노호사는 주 의회가 주민을 보호하고 데이터센터 입지 결정에 주민이 참여할 수 있도록 법을 통과시킬 때까지 승인을 중단하겠다고 공약했다. 현직 그레그 애벗은 앞서 신규 데이터센터의 전력망 접속을 중단했다. 당시 주 전력망 운영기관 ERCOT가 추적하던 접속 요청 사업의 규모는 400GW를 넘었다.",
+              "kind": "fact",
+              "citations": [
+                {
+                  "source_version_id": "cc4a95548e011b2f54b144df",
+                  "quote": "Before the election, Hinojosa said she would take the crackdown on data centers a step further by banning all data center approvals until the state legislature passes laws \"to protect Texans, so that Texans have a seat at the table to decide if and how data centers come into our community.\"",
+                  "source_url": "https://www.channelnewsasia.com/business/texas-data-centers-face-uncertain-future-after-hinojosa-wins-governors-race-6525056",
+                  "source_title": "Texas data centers face uncertain future after Hinojosa wins governor’s race",
+                  "report_dates": [
+                    "2026-11-05"
+                  ],
+                  "card_anchors": [
+                    {
+                      "report_date": "2026-11-05",
+                      "run_id": "e414af502d217f1ac404d015",
+                      "card_anchor": "issue-affb1898a5922496"
+                    }
+                  ]
+                },
+                {
+                  "source_version_id": "cc4a95548e011b2f54b144df",
+                  "quote": "On August 3, Abbott became one of the first Republican governors in the US to halt the connection of new data centers to the state's electric grid.",
+                  "source_url": "https://www.channelnewsasia.com/business/texas-data-centers-face-uncertain-future-after-hinojosa-wins-governors-race-6525056",
+                  "source_title": "Texas data centers face uncertain future after Hinojosa wins governor’s race",
+                  "report_dates": [
+                    "2026-11-05"
+                  ],
+                  "card_anchors": [
+                    {
+                      "report_date": "2026-11-05",
+                      "run_id": "e414af502d217f1ac404d015",
+                      "card_anchor": "issue-affb1898a5922496"
+                    }
+                  ]
+                },
+                {
+                  "source_version_id": "cc4a95548e011b2f54b144df",
+                  "quote": "By the time Texas halted data centers connecting to its grid, state grid operator ERCOT said it was tracking more than 400 gigawatts of data center projects - roughly equivalent to what it would take to power the entire US South - seeking to connect to the grid.",
+                  "source_url": "https://www.channelnewsasia.com/business/texas-data-centers-face-uncertain-future-after-hinojosa-wins-governors-race-6525056",
+                  "source_title": "Texas data centers face uncertain future after Hinojosa wins governor’s race",
+                  "report_dates": [
+                    "2026-11-05"
+                  ],
+                  "card_anchors": [
+                    {
+                      "report_date": "2026-11-05",
+                      "run_id": "e414af502d217f1ac404d015",
+                      "card_anchor": "issue-affb1898a5922496"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "중단 조치가 어디까지 적용될지는 미정이다. CNA는 선거 전 공약을 승인 전면 중단으로 전했고, CNBC는 신규 허가 중단 제안을 보도하면서 이미 공사 중인 사업은 제외될 것으로 전했다. 공사 중인 사업의 예외가 실제 규정에 담길지는 확인되지 않았다.",
+              "kind": "open",
+              "citations": [
+                {
+                  "source_version_id": "cc4a95548e011b2f54b144df",
+                  "quote": "banning all data center approvals until the state legislature passes laws",
+                  "source_url": "https://www.channelnewsasia.com/business/texas-data-centers-face-uncertain-future-after-hinojosa-wins-governors-race-6525056",
+                  "source_title": "Texas data centers face uncertain future after Hinojosa wins governor’s race",
+                  "report_dates": [
+                    "2026-11-05"
+                  ],
+                  "card_anchors": [
+                    {
+                      "report_date": "2026-11-05",
+                      "run_id": "e414af502d217f1ac404d015",
+                      "card_anchor": "issue-affb1898a5922496"
+                    }
+                  ]
+                },
+                {
+                  "source_version_id": "d164b6e2c00161e73e54e75e",
+                  "quote": "In Texas, Democratic governor-elect Gina Hinojosa has proposed a statewide moratorium on new data center permits, although projects already under construction would reportedly be exempt.",
+                  "source_url": "https://www.cnbc.com/2026/11/05/ai-data-centers-midterms-capacity.html",
+                  "source_title": "How the midterms could fuel the K-shaped AI trade",
+                  "report_dates": [
+                    "2026-11-06"
+                  ],
+                  "card_anchors": [
+                    {
+                      "report_date": "2026-11-06",
+                      "run_id": "1b038da32d669e88260f8228",
+                      "card_anchor": "issue-c42e38bcf9171b21"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "투자 관점에서는 착공 여부와 가동 예정 시점을 함께 봐야 한다. CNBC는 미 중간선거 이후 데이터센터 건설 전망을 다루며 2027년 가동 예정 용량의 상당 부분이 이미 공사 중이어서 신규 규제의 단기 영향은 제한적이라고 설명했다. 같은 보도에서 노무라는 2028년 예정 사업이 허가 지연과 규제 불확실성에 더 노출돼 있다고 봤다. 텍사스 개별 사업에 이 판단을 적용하려면 공사 중인 사업의 예외 여부와 실제 허가 범위를 확인해야 한다.",
               "kind": "interpretation",
               "citations": [
                 {
-                  "source_version_id": "5128a05b4600b2558e5e7128",
-                  "quote": "Democrats plan on introducing bills aimed at shielding consumers from rising electricity costs tied to data centers, requiring independent testing of advanced AI systems and clarifying when AI companies can be held liable for harm caused by their products, they said.",
-                  "source_url": "https://www.channelnewsasia.com/business/democrats-planning-flood-ai-bills-when-they-take-control-congress-6530926",
-                  "source_title": "Democrats planning flood of AI bills when they take control of Congress",
+                  "source_version_id": "d164b6e2c00161e73e54e75e",
+                  "quote": "The U.S. midterms could widen the AI divide: tighter data center rules may reward tech giants with capacity in hand and squeeze debt-funded companies trying to catch up.",
+                  "source_url": "https://www.cnbc.com/2026/11/05/ai-data-centers-midterms-capacity.html",
+                  "source_title": "How the midterms could fuel the K-shaped AI trade",
                   "report_dates": [
-                    "2026-11-07"
+                    "2026-11-06"
                   ],
                   "card_anchors": [
                     {
-                      "report_date": "2026-11-07",
-                      "run_id": "7f1944d3c6d1c9c2ebc3fa8e",
-                      "card_anchor": "issue-a0055104eecfa4f3"
+                      "report_date": "2026-11-06",
+                      "run_id": "1b038da32d669e88260f8228",
+                      "card_anchor": "issue-c42e38bcf9171b21"
                     }
                   ]
                 },
                 {
-                  "source_version_id": "5128a05b4600b2558e5e7128",
-                  "quote": "Any legislation would face steep odds while President Donald Trump remains in the White House, as he has repeatedly dismissed calls to write mandatory rules for AI technology.",
-                  "source_url": "https://www.channelnewsasia.com/business/democrats-planning-flood-ai-bills-when-they-take-control-congress-6530926",
-                  "source_title": "Democrats planning flood of AI bills when they take control of Congress",
+                  "source_version_id": "d164b6e2c00161e73e54e75e",
+                  "quote": "Much of the data center capacity expected to come online in 2027 is already under construction, limiting the near-term impact of new restrictions.",
+                  "source_url": "https://www.cnbc.com/2026/11/05/ai-data-centers-midterms-capacity.html",
+                  "source_title": "How the midterms could fuel the K-shaped AI trade",
                   "report_dates": [
-                    "2026-11-07"
+                    "2026-11-06"
                   ],
                   "card_anchors": [
                     {
-                      "report_date": "2026-11-07",
-                      "run_id": "7f1944d3c6d1c9c2ebc3fa8e",
-                      "card_anchor": "issue-a0055104eecfa4f3"
+                      "report_date": "2026-11-06",
+                      "run_id": "1b038da32d669e88260f8228",
+                      "card_anchor": "issue-c42e38bcf9171b21"
                     }
                   ]
                 },
                 {
-                  "source_version_id": "0a9dc614cfd3e2e74460d44c",
-                  "quote": "A tougher regulatory environment for AI giants and data center developers is expected to follow, even if President Donald Trump — perhaps the industry’s biggest champion — stalls any federal crackdown.",
-                  "source_url": "https://apnews.com/article/data-centers-artificial-intelligence-texas-tech-trump-63b33be8884d867d3ac831040d683a2c",
-                  "source_title": "A reckoning may await data centers following a beating in the midterms",
+                  "source_version_id": "d164b6e2c00161e73e54e75e",
+                  "quote": "Projects planned for 2028 face greater exposure to permitting delays and regulatory uncertainty, investment bank Nomura said in a note Wednesday about the midterm results.",
+                  "source_url": "https://www.cnbc.com/2026/11/05/ai-data-centers-midterms-capacity.html",
+                  "source_title": "How the midterms could fuel the K-shaped AI trade",
                   "report_dates": [
-                    "2026-11-07"
+                    "2026-11-06"
                   ],
                   "card_anchors": [
                     {
-                      "report_date": "2026-11-07",
-                      "run_id": "7f1944d3c6d1c9c2ebc3fa8e",
-                      "card_anchor": "issue-f4d3dc82f85bf85a"
+                      "report_date": "2026-11-06",
+                      "run_id": "1b038da32d669e88260f8228",
+                      "card_anchor": "issue-c42e38bcf9171b21"
                     }
                   ]
                 },
                 {
-                  "source_version_id": "4d99c513015c1c270f4f8443",
-                  "quote": "AI stocks bounced back and recovered some of their sell-off from earlier in the week.",
-                  "source_url": "https://apnews.com/article/markets-japan-nikkei-oil-ai-bba6f0bf9035a6e6b1c4fef3e8230b89",
-                  "source_title": "AI stocks halt their brutal, worldwide sell-off as Wall Street trims its loss for the week",
+                  "source_version_id": "d164b6e2c00161e73e54e75e",
+                  "quote": "In Texas, Democratic governor-elect Gina Hinojosa has proposed a statewide moratorium on new data center permits, although projects already under construction would reportedly be exempt.",
+                  "source_url": "https://www.cnbc.com/2026/11/05/ai-data-centers-midterms-capacity.html",
+                  "source_title": "How the midterms could fuel the K-shaped AI trade",
                   "report_dates": [
-                    "2026-11-07"
+                    "2026-11-06"
                   ],
                   "card_anchors": [
                     {
-                      "report_date": "2026-11-07",
-                      "run_id": "7f1944d3c6d1c9c2ebc3fa8e",
-                      "card_anchor": "issue-b46a29032f0915f2"
+                      "report_date": "2026-11-06",
+                      "run_id": "1b038da32d669e88260f8228",
+                      "card_anchor": "issue-c42e38bcf9171b21"
                     }
                   ]
                 }
@@ -76056,60 +75819,60 @@
           ]
         },
         {
-          "id": "oil-diplomacy-gap",
-          "title": "유가 급락과 종전 합의 사이의 간극",
+          "id": "ai-infrastructure-credit",
+          "title": "메타의 채권 조달과 코어위브의 신용 부담",
           "timeline": [
             {
-              "report_date": "2026-11-03",
+              "report_date": "2026-11-02",
               "claim": {
-                "text": "주초 유가는 이란·카타르 협상이 종전과 중동 원유 공급 안정으로 이어질 것이라는 기대에 급락했다. 이란 대통령은 정부가 평화협상 권한을 받았다고 밝혔지만, 당시 진전은 제안 초안 회람과 후속 회의 가능성 단계였다.",
+                "text": "S&P 글로벌 레이팅스는 메타의 자본지출과 잉여영업현금흐름에 상당한 불확실성이 있다며 신용등급 전망을 ‘안정적’에서 ‘부정적’으로 낮췄다. S&P는 메타의 AI 수익화 역량이 경쟁사보다 제한적이라고 평가했고, 메타 대변인은 로이터에 이 평가에 동의하지 않는다며 제품과 사업 기회가 신용도를 뒷받침한다고 밝혔다.",
                 "kind": "fact",
                 "citations": [
                   {
-                    "source_version_id": "dbc3c18b6d917203bf1c3af6",
-                    "quote": "Oil prices fell more than 7 per cent on Monday as talks between Iranian and Qatari officials lifted hopes for an end to the US-Israeli war with Iran and stabilization of Middle East crude supply.",
-                    "source_url": "https://www.channelnewsasia.com/business/oil-drops-7-iran-signals-openness-peace-talks-6511686",
-                    "source_title": "Oil drops 7% as Iran signals openness to peace talks",
+                    "source_version_id": "857bb46bcc190dcb4d61ddef",
+                    "quote": "S&P Global Ratings on Friday revised its outlook on Meta Platforms to \"negative\" from \"stable\", citing significant uncertainty around the social media giant's capital spending and free operating cash flow.",
+                    "source_url": "https://www.channelnewsasia.com/business/sp-global-revises-metas-outlook-negative-ai-spending-cash-flow-worries-6508631",
+                    "source_title": "S&P Global revises Meta's outlook to 'negative' on AI spending, cash flow worries",
                     "report_dates": [
-                      "2026-11-03"
+                      "2026-11-02"
                     ],
                     "card_anchors": [
                       {
-                        "report_date": "2026-11-03",
-                        "run_id": "5746355ff169056858e066fa",
-                        "card_anchor": "issue-dac29e7473c718cc"
+                        "report_date": "2026-11-02",
+                        "run_id": "0b5ce8742aa4a9bfc77850b0",
+                        "card_anchor": "issue-574572cfb3db61e2"
                       }
                     ]
                   },
                   {
-                    "source_version_id": "dbc3c18b6d917203bf1c3af6",
-                    "quote": "Iran's president said the supreme leader had granted the government \"certain authorities\" regarding peace talks.",
-                    "source_url": "https://www.channelnewsasia.com/business/oil-drops-7-iran-signals-openness-peace-talks-6511686",
-                    "source_title": "Oil drops 7% as Iran signals openness to peace talks",
+                    "source_version_id": "857bb46bcc190dcb4d61ddef",
+                    "quote": "Meta's ability to monetize its AI investments is more limited than that of its peers, S&P said",
+                    "source_url": "https://www.channelnewsasia.com/business/sp-global-revises-metas-outlook-negative-ai-spending-cash-flow-worries-6508631",
+                    "source_title": "S&P Global revises Meta's outlook to 'negative' on AI spending, cash flow worries",
                     "report_dates": [
-                      "2026-11-03"
+                      "2026-11-02"
                     ],
                     "card_anchors": [
                       {
-                        "report_date": "2026-11-03",
-                        "run_id": "5746355ff169056858e066fa",
-                        "card_anchor": "issue-dac29e7473c718cc"
+                        "report_date": "2026-11-02",
+                        "run_id": "0b5ce8742aa4a9bfc77850b0",
+                        "card_anchor": "issue-574572cfb3db61e2"
                       }
                     ]
                   },
                   {
-                    "source_version_id": "dbc3c18b6d917203bf1c3af6",
-                    "quote": "A draft proposal is being circulated with a follow-up meeting possible, an official briefed on the talks said.",
-                    "source_url": "https://www.channelnewsasia.com/business/oil-drops-7-iran-signals-openness-peace-talks-6511686",
-                    "source_title": "Oil drops 7% as Iran signals openness to peace talks",
+                    "source_version_id": "857bb46bcc190dcb4d61ddef",
+                    "quote": "\"We respectfully disagree with S&P's assertion about Meta's AI monetization capabilities,\" a Meta spokesperson told Reuters, adding that the company sees \"significant product and business opportunities ahead of us, supporting our very strong credit profile.\"",
+                    "source_url": "https://www.channelnewsasia.com/business/sp-global-revises-metas-outlook-negative-ai-spending-cash-flow-worries-6508631",
+                    "source_title": "S&P Global revises Meta's outlook to 'negative' on AI spending, cash flow worries",
                     "report_dates": [
-                      "2026-11-03"
+                      "2026-11-02"
                     ],
                     "card_anchors": [
                       {
-                        "report_date": "2026-11-03",
-                        "run_id": "5746355ff169056858e066fa",
-                        "card_anchor": "issue-dac29e7473c718cc"
+                        "report_date": "2026-11-02",
+                        "run_id": "0b5ce8742aa4a9bfc77850b0",
+                        "card_anchor": "issue-574572cfb3db61e2"
                       }
                     ]
                   }
@@ -76117,30 +75880,215 @@
               }
             },
             {
-              "report_date": "2026-11-04",
+              "report_date": "2026-11-05",
               "claim": {
-                "text": "미국이 종전 양해각서 초안을 승인했다는 카타르 매체 보도 뒤에도 이란 안보수장은 미국 답변이 설득력 없다고 밝혔다. 이란은 자국의 7가지 조건에 대한 명시적 답변과 이행을 호르무즈 재개방 조건으로 제시했다. 승인 보도만으로 양측 합의가 확정됐다고 읽기는 어려웠다.",
-                "kind": "interpretation",
+                "text": "메타는 AI 인프라 투자 자금으로 달러화 회사채 150억 달러를 조달한다고 밝혔고, 연합인포맥스는 이후 메타가 미국 시장에서 이 금액을 조달한 데 이어 90억 유로 규모의 첫 유로화 회사채 발행을 추진 중이라고 보도했다. 무디스는 AI 지출이 늘어도 메타가 보수적인 재무정책과 순현금 상태를 유지할 것으로 보고 신규 달러채에 Aa3 등급을 부여했다.",
+                "kind": "fact",
                 "citations": [
                   {
-                    "source_version_id": "16a2c22a4b0d5a9c4d0a35e0",
-                    "quote": "미국이 이란의 제안한 종전 양해각서(MOU) 초안을 승인했다는 카타르 매체인 알 아라비 알자디드의 보도가 나온 후 발언이다.",
-                    "source_url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4442836",
-                    "source_title": "이란 안보수장 \"이란 요구에 대한 美 답변 설득력 없어\"",
+                    "source_version_id": "f553bbaecf64dab62247e22c",
+                    "quote": "Meta Platforms said on Tuesday it is raising $15 billion through a five-part US dollar bond offering, as the Facebook parent turns to debt markets to help finance accelerating investments in AI infrastructure.",
+                    "source_url": "https://www.channelnewsasia.com/business/meta-raises-15-billion-in-five-part-us-bond-sale-fund-ai-expansion-6518121",
+                    "source_title": "Meta raises $15 billion in five-part US bond sale to fund AI expansion",
                     "report_dates": [
-                      "2026-11-04"
+                      "2026-11-05"
                     ],
                     "card_anchors": [
                       {
-                        "report_date": "2026-11-04",
-                        "run_id": "cd984b397b76addaf41115a4",
-                        "card_anchor": "issue-98ad578e47755be0"
+                        "report_date": "2026-11-05",
+                        "run_id": "e414af502d217f1ac404d015",
+                        "card_anchor": "issue-2a98695ba9b8f775"
                       }
                     ]
                   },
                   {
+                    "source_version_id": "3265be282faffa6b31e6f64e",
+                    "quote": "페이스북 모회사인 메타플랫폼스(NAS:META)가 90억유로 규모의 회사채 발행에 나선 것으로 4일(현지시간) 알려졌다.",
+                    "source_url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4443076",
+                    "source_title": "'AI 투자 박차' 메타 폭풍 자금 조달…이번엔 90억유로 규모 회사채",
+                    "report_dates": [
+                      "2026-11-05"
+                    ],
+                    "card_anchors": [
+                      {
+                        "report_date": "2026-11-05",
+                        "run_id": "e414af502d217f1ac404d015",
+                        "card_anchor": "issue-609131bde8e2e71d"
+                      }
+                    ]
+                  },
+                  {
+                    "source_version_id": "3265be282faffa6b31e6f64e",
+                    "quote": "전날 미국 시장에서 150억달러를 조달한 데 이어 유로화 채권시장에서도 대규모 자금조달을 추진하고 있는 것이다. 메타의 유로화 채권 발행은 이번이 처음이다.",
+                    "source_url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4443076",
+                    "source_title": "'AI 투자 박차' 메타 폭풍 자금 조달…이번엔 90억유로 규모 회사채",
+                    "report_dates": [
+                      "2026-11-05"
+                    ],
+                    "card_anchors": [
+                      {
+                        "report_date": "2026-11-05",
+                        "run_id": "e414af502d217f1ac404d015",
+                        "card_anchor": "issue-609131bde8e2e71d"
+                      }
+                    ]
+                  },
+                  {
+                    "source_version_id": "f553bbaecf64dab62247e22c",
+                    "quote": "Moody's assigned the new debt an Aa3 rating, saying it expects Meta to maintain conservative financial policies and a positive net cash position despite rising AI spending.",
+                    "source_url": "https://www.channelnewsasia.com/business/meta-raises-15-billion-in-five-part-us-bond-sale-fund-ai-expansion-6518121",
+                    "source_title": "Meta raises $15 billion in five-part US bond sale to fund AI expansion",
+                    "report_dates": [
+                      "2026-11-05"
+                    ],
+                    "card_anchors": [
+                      {
+                        "report_date": "2026-11-05",
+                        "run_id": "e414af502d217f1ac404d015",
+                        "card_anchor": "issue-2a98695ba9b8f775"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ],
+          "status": [
+            {
+              "text": "코어위브의 표면금리 9.625%인 2032년 만기 채권 수익률이 16%를 넘어섰다. CNBC가 인용한 도이체방크 자료에서 코어위브의 5년물 신용부도스와프(CDS) 스프레드는 목요일 1,289bp를 웃돌아 10월 고점을 넘어섰고, 금요일에는 8% 내려 약 1,155bp로 완화됐다.",
+              "kind": "fact",
+              "citations": [
+                {
+                  "source_version_id": "164a5d4869ac2f50c9cf5538",
+                  "quote": "The yield on its 2032 bond with a 9.625% coupon has climbed above 16%. Coreweave's five-year credit default swaps spiked above 1,289 basis points on Thursday, widening above their October peak, according to Deutsche Bank. The CDS eased 8% Friday to around 1,155.",
+                  "source_url": "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html",
+                  "source_title": "The AI ‘credit card’ is getting costlier as CoreWeave bond yield tops 16%",
+                  "report_dates": [
+                    "2026-11-07"
+                  ],
+                  "card_anchors": [
+                    {
+                      "report_date": "2026-11-07",
+                      "run_id": "7f1944d3c6d1c9c2ebc3fa8e",
+                      "card_anchor": "issue-4ec02f65c0d24131"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "코어위브의 신용 부담과 업계의 실제 조달 실적은 구분해 볼 필요가 있다. 코어위브 채권 수익률이 16%를 넘은 가운데서도 골드만삭스 집계로 10월 29일 이후 AI 채권 거래는 5건, 총 670억 달러에 달했다.",
+              "kind": "interpretation",
+              "citations": [
+                {
+                  "source_version_id": "164a5d4869ac2f50c9cf5538",
+                  "quote": "The yield on its 2032 bond with a 9.625% coupon has climbed above 16%.",
+                  "source_url": "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html",
+                  "source_title": "The AI ‘credit card’ is getting costlier as CoreWeave bond yield tops 16%",
+                  "report_dates": [
+                    "2026-11-07"
+                  ],
+                  "card_anchors": [
+                    {
+                      "report_date": "2026-11-07",
+                      "run_id": "7f1944d3c6d1c9c2ebc3fa8e",
+                      "card_anchor": "issue-4ec02f65c0d24131"
+                    }
+                  ]
+                },
+                {
+                  "source_version_id": "164a5d4869ac2f50c9cf5538",
+                  "quote": "Goldman tallies five AI bond deals totaling $67 billion since October 29",
+                  "source_url": "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html",
+                  "source_title": "The AI ‘credit card’ is getting costlier as CoreWeave bond yield tops 16%",
+                  "report_dates": [
+                    "2026-11-07"
+                  ],
+                  "card_anchors": [
+                    {
+                      "report_date": "2026-11-07",
+                      "run_id": "7f1944d3c6d1c9c2ebc3fa8e",
+                      "card_anchor": "issue-4ec02f65c0d24131"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "골드만삭스에 따르면 하이퍼스케일러의 3분기 합산 설비투자가 영업현금흐름을 웃돌면서 합산 잉여현금흐름은 마이너스를 기록했다.",
+              "kind": "fact",
+              "citations": [
+                {
+                  "source_version_id": "164a5d4869ac2f50c9cf5538",
+                  "quote": "Goldman analysts said hyperscalers collectively reported negative free cash flow in the third quarter as capital spending exceeded operating cash flow.",
+                  "source_url": "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html",
+                  "source_title": "The AI ‘credit card’ is getting costlier as CoreWeave bond yield tops 16%",
+                  "report_dates": [
+                    "2026-11-07"
+                  ],
+                  "card_anchors": [
+                    {
+                      "report_date": "2026-11-07",
+                      "run_id": "7f1944d3c6d1c9c2ebc3fa8e",
+                      "card_anchor": "issue-4ec02f65c0d24131"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "남은 질문은 하이퍼스케일러가 향후 설비투자 계획에 대한 투자자의 신뢰를 유지할 만큼 빠르게 AI 투자에서 현금을 창출할 수 있느냐다. 골드만삭스는 시장 여건에 따라 수익화 지연과 구매약정 증가가 추가 부채 발행의 주요 위험이 될 수 있다고 봤다. 골드만삭스는 구매약정에 설비투자와 별개로 상당한 현금이 들어간다고 평가했다.",
+              "kind": "open",
+              "citations": [
+                {
+                  "source_version_id": "164a5d4869ac2f50c9cf5538",
+                  "quote": "The big question now is how quickly AI spending will generate enough cash for hyperscalers to keep investors comfortable with future capex plans.",
+                  "source_url": "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html",
+                  "source_title": "The AI ‘credit card’ is getting costlier as CoreWeave bond yield tops 16%",
+                  "report_dates": [
+                    "2026-11-07"
+                  ],
+                  "card_anchors": [
+                    {
+                      "report_date": "2026-11-07",
+                      "run_id": "7f1944d3c6d1c9c2ebc3fa8e",
+                      "card_anchor": "issue-4ec02f65c0d24131"
+                    }
+                  ]
+                },
+                {
+                  "source_version_id": "164a5d4869ac2f50c9cf5538",
+                  "quote": "\"Delayed monetization and growth in purchase commitments—which we view as additional and sizable uses of cash, separate from Capex—are the key risks to more debt issuance, subject to market conditions,\" according to the bank.",
+                  "source_url": "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html",
+                  "source_title": "The AI ‘credit card’ is getting costlier as CoreWeave bond yield tops 16%",
+                  "report_dates": [
+                    "2026-11-07"
+                  ],
+                  "card_anchors": [
+                    {
+                      "report_date": "2026-11-07",
+                      "run_id": "7f1944d3c6d1c9c2ebc3fa8e",
+                      "card_anchor": "issue-4ec02f65c0d24131"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hormuz-oil",
+          "title": "유가 급락 속 호르무즈 수송 회복과 종전 협상",
+          "timeline": [
+            {
+              "report_date": "2026-11-04",
+              "claim": {
+                "text": "모흐센 레자이 이란 최고국가안보회의 사무총장은 이란의 요구에 대한 미국의 답변에 설득력이 없다고 평가했다. 그는 미국이 이란의 일곱 가지 조건에 완전하고 명시적으로 답하고 이를 이행해야만 호르무즈 해협이 다시 열릴 것이라고 밝혔다.",
+                "kind": "fact",
+                "citations": [
+                  {
                     "source_version_id": "16a2c22a4b0d5a9c4d0a35e0",
-                    "quote": "\"이란의 권리와 요구에 대한 미국의 답변은 설득력이 없었다\"",
+                    "quote": "모흐센 레자이 이란 최고국가안보회의(SNSC) 사무총장은 3일(현지시간) \"이란의 권리와 요구에 대한 미국의 답변은 설득력이 없었다\"고 밝혔다.",
                     "source_url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4442836",
                     "source_title": "이란 안보수장 \"이란 요구에 대한 美 답변 설득력 없어\"",
                     "report_dates": [
@@ -76174,56 +76122,81 @@
               }
             },
             {
-              "report_date": "2026-11-07",
+              "report_date": "2026-11-05",
               "claim": {
-                "text": "금요일 장중 브렌트유는 주간 17% 하락할 전망이었다. 이는 확정 종가가 아니다. 한편 타임스 오브 이스라엘은 미국 당국자와 외교관을 인용해 이란이 핵 프로그램 제한 제안을 검토한다고 보도했다. 보도가 맞다면 협상 입장의 변화지만, 제안 수용이나 종전 확정으로 볼 단계는 아니었다.",
-                "kind": "interpretation",
+                "text": "카타르 매체 알 아라비 알자디드가 미국의 종전 양해각서 초안 동의를 보도했으나, 초안 제시 경위는 불분명하다. 이를 전한 연합인포맥스 기사의 첫 문단은 이란이 초안을 제시했다고 썼고, 같은 기사에 실린 알자디드의 소식통 인용은 카타르 대표단이 이란에 초안을 제시했다고 전했다.",
+                "kind": "open",
                 "citations": [
                   {
-                    "source_version_id": "b771614664300d2af3b8e2a6",
-                    "quote": "The Brent contract is on track for a 17% decline this week",
-                    "source_url": "https://finance.yahoo.com/news/oil-set-sharp-weekly-drop-052924519.html",
-                    "source_title": "Brent oil price benchmark set for biggest weekly drop since 2020",
+                    "source_version_id": "b1144e2452fc90f7334aff02",
+                    "quote": "미국이 이란이 제시한 종전 양해각서(MOU) 초안을 승인했다고 카타르 매체인 알 아라비 알자디드가 3일(현지시간) 보도했다.",
+                    "source_url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4442833",
+                    "source_title": "카타르 매체 \"美, 이란이 제시한 양해각서 초안에 동의\"",
                     "report_dates": [
-                      "2026-11-07"
+                      "2026-11-05"
                     ],
                     "card_anchors": [
                       {
-                        "report_date": "2026-11-07",
-                        "run_id": "7f1944d3c6d1c9c2ebc3fa8e",
-                        "card_anchor": "issue-6a3c1f9d9660bc5a"
+                        "report_date": "2026-11-05",
+                        "run_id": "e414af502d217f1ac404d015",
+                        "card_anchor": "issue-c62b8e2bda4a58e3"
                       }
                     ]
                   },
                   {
-                    "source_version_id": "9e5cb784d8f869e735d3694e",
-                    "quote": "이 매체는 미국 당국자 1명과 사안에 정통한 외교관을 인용해 \"이란 협상단이 핵 프로그램을 제한하는 내용의 제안을 검토하고 있다\"고 전했다.",
-                    "source_url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4443574",
-                    "source_title": "\"이란, 핵 활동 축소 방안 검토…논의 거부서 선회\"",
+                    "source_version_id": "b1144e2452fc90f7334aff02",
+                    "quote": "알자디드는 중재자에 가까운 소식통을 인용해 \"미국, 카타르 대표단이 전날 이란에 제시한 양해각서 초안에 동의했다\"고 전했다.",
+                    "source_url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4442833",
+                    "source_title": "카타르 매체 \"美, 이란이 제시한 양해각서 초안에 동의\"",
                     "report_dates": [
-                      "2026-11-07"
+                      "2026-11-05"
                     ],
                     "card_anchors": [
                       {
-                        "report_date": "2026-11-07",
-                        "run_id": "7f1944d3c6d1c9c2ebc3fa8e",
-                        "card_anchor": "issue-112e2c255352d38b"
+                        "report_date": "2026-11-05",
+                        "run_id": "e414af502d217f1ac404d015",
+                        "card_anchor": "issue-c62b8e2bda4a58e3"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "report_date": "2026-11-05",
+              "claim": {
+                "text": "야후파이낸스는 미국 민주당의 중간선거 압승 뒤 트레이더들이 종전에 베팅하는 가운데 WTI가 수요일 하루 8% 넘게 내려 배럴당 88.12달러에 마감했다고 전했다. 직전 금요일 종가는 104달러였다.",
+                "kind": "fact",
+                "citations": [
+                  {
+                    "source_version_id": "ff6845fb176e3262f275a748",
+                    "quote": "West Texas Intermediate crude ( CL=F ) settled at $88.12 a barrel on Wednesday, down more than 8% on the day and $16 below Friday's close of $104.",
+                    "source_url": "https://finance.yahoo.com/markets/article/oil-prices-fall-below-90-as-traders-bet-on-iran-war-ending-after-democrats-sweep-midterms-192105228.html",
+                    "source_title": "Oil prices fall below $90 as traders bet on Iran war ending after Democrats sweep midterms",
+                    "report_dates": [
+                      "2026-11-05"
+                    ],
+                    "card_anchors": [
+                      {
+                        "report_date": "2026-11-05",
+                        "run_id": "e414af502d217f1ac404d015",
+                        "card_anchor": "issue-b2a41ac46df31bed"
                       }
                     ]
                   },
                   {
-                    "source_version_id": "9e5cb784d8f869e735d3694e",
-                    "quote": "이 보도가 맞는다면 이란의 입장에 변화가 생긴 것이다.",
-                    "source_url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4443574",
-                    "source_title": "\"이란, 핵 활동 축소 방안 검토…논의 거부서 선회\"",
+                    "source_version_id": "ff6845fb176e3262f275a748",
+                    "quote": "The sell-off came as traders bet on an end to the Iran war after Democrats swept Tuesday's elections.",
+                    "source_url": "https://finance.yahoo.com/markets/article/oil-prices-fall-below-90-as-traders-bet-on-iran-war-ending-after-democrats-sweep-midterms-192105228.html",
+                    "source_title": "Oil prices fall below $90 as traders bet on Iran war ending after Democrats sweep midterms",
                     "report_dates": [
-                      "2026-11-07"
+                      "2026-11-05"
                     ],
                     "card_anchors": [
                       {
-                        "report_date": "2026-11-07",
-                        "run_id": "7f1944d3c6d1c9c2ebc3fa8e",
-                        "card_anchor": "issue-112e2c255352d38b"
+                        "report_date": "2026-11-05",
+                        "run_id": "e414af502d217f1ac404d015",
+                        "card_anchor": "issue-b2a41ac46df31bed"
                       }
                     ]
                   }
@@ -76233,12 +76206,82 @@
           ],
           "status": [
             {
-              "text": "주말 판단의 핵심은 가격에 반영된 기대와 실제 합의·운송 안전 사이의 간극이다. Rystad 분석가는 시장이 확고한 합의 체결의 증거를 기다린다고 평가했고, UKMTO 자료는 선박 공격 빈도가 여전히 기록적 수준에 근접함을 시사했다. 유가 하락을 위험 해소와 동일시하기는 어렵다.",
-              "kind": "interpretation",
+              "text": "타임스 오브 이스라엘은 미국 당국자 1명과 사안에 정통한 외교관을 인용해, 그간 핵 프로그램 논의를 거부해 온 이란의 협상단이 핵 프로그램 제한안을 검토 중이라고 보도했다. 외교관에 따르면 이 제안은 핵 프로그램의 완전 해체까지 요구하지는 않지만 고농축 우라늄 비축량 문제를 다루며, 핵 프로그램 제한의 대가로 미국이 상당한 수준의 제재를 완화하는 내용을 담고 있다.",
+              "kind": "fact",
+              "citations": [
+                {
+                  "source_version_id": "9e5cb784d8f869e735d3694e",
+                  "quote": "이 매체는 미국 당국자 1명과 사안에 정통한 외교관을 인용해 \"이란 협상단이 핵 프로그램을 제한하는 내용의 제안을 검토하고 있다\"고 전했다.",
+                  "source_url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4443574",
+                  "source_title": "\"이란, 핵 활동 축소 방안 검토…논의 거부서 선회\"",
+                  "report_dates": [
+                    "2026-11-07"
+                  ],
+                  "card_anchors": [
+                    {
+                      "report_date": "2026-11-07",
+                      "run_id": "7f1944d3c6d1c9c2ebc3fa8e",
+                      "card_anchor": "issue-112e2c255352d38b"
+                    }
+                  ]
+                },
+                {
+                  "source_version_id": "9e5cb784d8f869e735d3694e",
+                  "quote": "이란은 그간 미국과 지속적인 분쟁에서 핵심 쟁점인 핵 프로그램을 논의하는 것을 거부했다고 매체는 설명했다.",
+                  "source_url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4443574",
+                  "source_title": "\"이란, 핵 활동 축소 방안 검토…논의 거부서 선회\"",
+                  "report_dates": [
+                    "2026-11-07"
+                  ],
+                  "card_anchors": [
+                    {
+                      "report_date": "2026-11-07",
+                      "run_id": "7f1944d3c6d1c9c2ebc3fa8e",
+                      "card_anchor": "issue-112e2c255352d38b"
+                    }
+                  ]
+                },
+                {
+                  "source_version_id": "9e5cb784d8f869e735d3694e",
+                  "quote": "이란 핵 프로그램의 완전한 해체를 요구하는 수준에는 미치지 못하지만, 이란이 보유한 고농축 우라늄 비축량 문제를 다루고 있다",
+                  "source_url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4443574",
+                  "source_title": "\"이란, 핵 활동 축소 방안 검토…논의 거부서 선회\"",
+                  "report_dates": [
+                    "2026-11-07"
+                  ],
+                  "card_anchors": [
+                    {
+                      "report_date": "2026-11-07",
+                      "run_id": "7f1944d3c6d1c9c2ebc3fa8e",
+                      "card_anchor": "issue-112e2c255352d38b"
+                    }
+                  ]
+                },
+                {
+                  "source_version_id": "9e5cb784d8f869e735d3694e",
+                  "quote": "이 외교관은 이란이 핵 프로그램을 제한하는 대가로 미국으로부터 상당한 수준의 제재 완화를 받는 내용도 제안에 포함돼 있다고 설명했다.",
+                  "source_url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4443574",
+                  "source_title": "\"이란, 핵 활동 축소 방안 검토…논의 거부서 선회\"",
+                  "report_dates": [
+                    "2026-11-07"
+                  ],
+                  "card_anchors": [
+                    {
+                      "report_date": "2026-11-07",
+                      "run_id": "7f1944d3c6d1c9c2ebc3fa8e",
+                      "card_anchor": "issue-112e2c255352d38b"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "로이터에 따르면 금요일 장중 브렌트유 1월물은 배럴당 97.84달러, WTI 선물은 90.67달러였다. 당시 장중 흐름대로라면 브렌트유는 주간 17%, WTI는 13% 하락할 전망이었다.",
+              "kind": "fact",
               "citations": [
                 {
                   "source_version_id": "b771614664300d2af3b8e2a6",
-                  "quote": "\"The market is still looking for evidence of a firm deal being signed (on Iran), or any backlash from either party could tighten fundamentals once more.\"",
+                  "quote": "Brent crude futures for January were down 45 cents, or 0.46%, at $97.84 a barrel by 10:34 a.m. CDT (1637 GMT).",
                   "source_url": "https://finance.yahoo.com/news/oil-set-sharp-weekly-drop-052924519.html",
                   "source_title": "Brent oil price benchmark set for biggest weekly drop since 2020",
                   "report_dates": [
@@ -76254,7 +76297,163 @@
                 },
                 {
                   "source_version_id": "b771614664300d2af3b8e2a6",
-                  "quote": "Data from Britain's ​maritime security agency UKMTO suggested that attacks on oil-carrying ships are still running at close to a record pace.",
+                  "quote": "US West Texas Intermediate futures edged up 15 cents, or 0.17% to $90.67.",
+                  "source_url": "https://finance.yahoo.com/news/oil-set-sharp-weekly-drop-052924519.html",
+                  "source_title": "Brent oil price benchmark set for biggest weekly drop since 2020",
+                  "report_dates": [
+                    "2026-11-07"
+                  ],
+                  "card_anchors": [
+                    {
+                      "report_date": "2026-11-07",
+                      "run_id": "7f1944d3c6d1c9c2ebc3fa8e",
+                      "card_anchor": "issue-6a3c1f9d9660bc5a"
+                    }
+                  ]
+                },
+                {
+                  "source_version_id": "b771614664300d2af3b8e2a6",
+                  "quote": "The Brent contract is on track for a 17% decline this week",
+                  "source_url": "https://finance.yahoo.com/news/oil-set-sharp-weekly-drop-052924519.html",
+                  "source_title": "Brent oil price benchmark set for biggest weekly drop since 2020",
+                  "report_dates": [
+                    "2026-11-07"
+                  ],
+                  "card_anchors": [
+                    {
+                      "report_date": "2026-11-07",
+                      "run_id": "7f1944d3c6d1c9c2ebc3fa8e",
+                      "card_anchor": "issue-6a3c1f9d9660bc5a"
+                    }
+                  ]
+                },
+                {
+                  "source_version_id": "b771614664300d2af3b8e2a6",
+                  "quote": "WTI is set for a 13% decline.",
+                  "source_url": "https://finance.yahoo.com/news/oil-set-sharp-weekly-drop-052924519.html",
+                  "source_title": "Brent oil price benchmark set for biggest weekly drop since 2020",
+                  "report_dates": [
+                    "2026-11-07"
+                  ],
+                  "card_anchors": [
+                    {
+                      "report_date": "2026-11-07",
+                      "run_id": "7f1944d3c6d1c9c2ebc3fa8e",
+                      "card_anchor": "issue-6a3c1f9d9660bc5a"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "CNA가 인용한 애널리스트들에 따르면 호르무즈 해협의 원유 수송량은 전쟁 전 수준에 근접했지만 수송 비용은 더 높다. JP모건은 걸프 공급 재개로 세계 석유시장이 공급 과잉으로 돌아섰고, 초과 공급량은 9월 하루 110만 배럴에서 10월 140만 배럴로 늘었다고 추정했다. 한편 영국 해사무역기구 자료는 석유 운반선 공격 빈도가 기록적 수준에 가깝다는 점을 시사했다.",
+              "kind": "fact",
+              "citations": [
+                {
+                  "source_version_id": "74df56c47467c17556dd1b66",
+                  "quote": "Crude shipments through this key waterway for most Gulf oil supplies have recovered to close to pre-war levels, according to analysts, though at a higher cost.",
+                  "source_url": "https://www.channelnewsasia.com/business/oil-rises-investors-weigh-uncertainties-around-iran-war-6526116",
+                  "source_title": "Oil rises as investors weigh uncertainties around Iran war",
+                  "report_dates": [
+                    "2026-11-06"
+                  ],
+                  "card_anchors": [
+                    {
+                      "report_date": "2026-11-06",
+                      "run_id": "1b038da32d669e88260f8228",
+                      "card_anchor": "issue-243b5da4160d1784"
+                    }
+                  ]
+                },
+                {
+                  "source_version_id": "74df56c47467c17556dd1b66",
+                  "quote": "The resumption of Gulf supply has pushed the global oil market back into surplus after months of disruption caused by the war, JPMorgan said in a note on Wednesday.",
+                  "source_url": "https://www.channelnewsasia.com/business/oil-rises-investors-weigh-uncertainties-around-iran-war-6526116",
+                  "source_title": "Oil rises as investors weigh uncertainties around Iran war",
+                  "report_dates": [
+                    "2026-11-06"
+                  ],
+                  "card_anchors": [
+                    {
+                      "report_date": "2026-11-06",
+                      "run_id": "1b038da32d669e88260f8228",
+                      "card_anchor": "issue-243b5da4160d1784"
+                    }
+                  ]
+                },
+                {
+                  "source_version_id": "74df56c47467c17556dd1b66",
+                  "quote": "JPMorgan estimates the market returned to a surplus of 1.1 million barrels per day in September, widening to 1.4 million bpd in October, nearly matching last year's average of 1.3 million bpd.",
+                  "source_url": "https://www.channelnewsasia.com/business/oil-rises-investors-weigh-uncertainties-around-iran-war-6526116",
+                  "source_title": "Oil rises as investors weigh uncertainties around Iran war",
+                  "report_dates": [
+                    "2026-11-06"
+                  ],
+                  "card_anchors": [
+                    {
+                      "report_date": "2026-11-06",
+                      "run_id": "1b038da32d669e88260f8228",
+                      "card_anchor": "issue-243b5da4160d1784"
+                    }
+                  ]
+                },
+                {
+                  "source_version_id": "b771614664300d2af3b8e2a6",
+                  "quote": "maritime security agency UKMTO suggested that attacks on oil-carrying ships are still running at close to a record pace.",
+                  "source_url": "https://finance.yahoo.com/news/oil-set-sharp-weekly-drop-052924519.html",
+                  "source_title": "Brent oil price benchmark set for biggest weekly drop since 2020",
+                  "report_dates": [
+                    "2026-11-07"
+                  ],
+                  "card_anchors": [
+                    {
+                      "report_date": "2026-11-07",
+                      "run_id": "7f1944d3c6d1c9c2ebc3fa8e",
+                      "card_anchor": "issue-6a3c1f9d9660bc5a"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "핵 프로그램 제한안 검토가 실제 종전 합의 서명으로 이어질지는 미정이다. 리스타드의 원유시장 애널리스트 자니브 샤는 시장이 합의 서명의 증거를 기다리고 있으며, 어느 한쪽이라도 반발하면 원유 수급이 다시 빠듯해질 수 있다고 봤다.",
+              "kind": "open",
+              "citations": [
+                {
+                  "source_version_id": "9e5cb784d8f869e735d3694e",
+                  "quote": "이란 협상단이 핵 프로그램을 제한하는 내용의 제안을 검토하고 있다",
+                  "source_url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4443574",
+                  "source_title": "\"이란, 핵 활동 축소 방안 검토…논의 거부서 선회\"",
+                  "report_dates": [
+                    "2026-11-07"
+                  ],
+                  "card_anchors": [
+                    {
+                      "report_date": "2026-11-07",
+                      "run_id": "7f1944d3c6d1c9c2ebc3fa8e",
+                      "card_anchor": "issue-112e2c255352d38b"
+                    }
+                  ]
+                },
+                {
+                  "source_version_id": "b771614664300d2af3b8e2a6",
+                  "quote": "said Rystad oil market analyst Janiv Shah",
+                  "source_url": "https://finance.yahoo.com/news/oil-set-sharp-weekly-drop-052924519.html",
+                  "source_title": "Brent oil price benchmark set for biggest weekly drop since 2020",
+                  "report_dates": [
+                    "2026-11-07"
+                  ],
+                  "card_anchors": [
+                    {
+                      "report_date": "2026-11-07",
+                      "run_id": "7f1944d3c6d1c9c2ebc3fa8e",
+                      "card_anchor": "issue-6a3c1f9d9660bc5a"
+                    }
+                  ]
+                },
+                {
+                  "source_version_id": "b771614664300d2af3b8e2a6",
+                  "quote": "The market is still looking for evidence of a firm deal being signed (on Iran), or any backlash from either party could tighten fundamentals once more.",
                   "source_url": "https://finance.yahoo.com/news/oil-set-sharp-weekly-drop-052924519.html",
                   "source_title": "Brent oil price benchmark set for biggest weekly drop since 2020",
                   "report_dates": [
@@ -76273,133 +76472,60 @@
           ]
         },
         {
-          "id": "inflation-policy-test",
-          "title": "미국 고용은 예상 밖 호조, 노동비용은 완화…추가 긴축 시점은 미정",
+          "id": "us-jobs-fed",
+          "title": "미국 10월 고용은 예상 상회, 광의 실업률은 상승",
           "timeline": [
             {
-              "report_date": "2026-11-05",
+              "report_date": "2026-11-04",
               "claim": {
-                "text": "미국 서비스업은 10월에도 확장했지만 신규주문 증가세가 약해졌다. 투입가격 지수는 74.0에서 73.0으로 낮아졌어도 높은 수준을 유지했다. 성장세 둔화와 가격 압력 완화가 함께 진행되되, 물가 부담은 남은 모습이었다.",
-                "kind": "interpretation",
-                "citations": [
-                  {
-                    "source_version_id": "1941e279c34f642780d6b5d1",
-                    "quote": "US services sector growth slowed marginally in October amid a moderation in new orders, but supply chains remained strained, keeping prices for inputs elevated.",
-                    "source_url": "https://finance.yahoo.com/economy/articles/us-services-sector-activity-cools-150727376.html",
-                    "source_title": "US services sector activity cools slightly in October; inflation remains elevated",
-                    "report_dates": [
-                      "2026-11-05"
-                    ],
-                    "card_anchors": [
-                      {
-                        "report_date": "2026-11-05",
-                        "run_id": "e414af502d217f1ac404d015",
-                        "card_anchor": "issue-0d23060ad8871847"
-                      }
-                    ]
-                  },
-                  {
-                    "source_version_id": "1941e279c34f642780d6b5d1",
-                    "quote": "The survey's measure of prices paid by businesses for inputs eased to a still-high 73.0 last month from 74.0 in September.",
-                    "source_url": "https://finance.yahoo.com/economy/articles/us-services-sector-activity-cools-150727376.html",
-                    "source_title": "US services sector activity cools slightly in October; inflation remains elevated",
-                    "report_dates": [
-                      "2026-11-05"
-                    ],
-                    "card_anchors": [
-                      {
-                        "report_date": "2026-11-05",
-                        "run_id": "e414af502d217f1ac404d015",
-                        "card_anchor": "issue-0d23060ad8871847"
-                      }
-                    ]
-                  }
-                ]
-              }
-            },
-            {
-              "report_date": "2026-11-06",
-              "claim": {
-                "text": "비농업 기업의 3분기 잠정치는 비용 측면의 완화를 보여줬다. 계절조정 전분기 대비 연율로 생산성이 3.6% 늘어 시간당 보상 증가를 웃돌면서 단위노동비용은 0.7% 하락했다. 다만 전년 동기 대비 노동비용은 여전히 2.4% 상승했다.",
+                "text": "미 노동통계국의 JOLTS에서 9월 말 구인은 33만3천 건 늘어난 752만3천 건이었다. 해고·면직은 12만7천 명 줄어 164만1천 명이었다. 로이터는 조사 응답률이 코로나19 대유행 이전보다 크게 낮아졌다고 짚었다.",
                 "kind": "fact",
                 "citations": [
                   {
-                    "source_version_id": "ddf23a31b1f3412fcf4be7db",
-                    "quote": "Third Quarter 2026, Preliminary",
-                    "source_url": "https://www.bls.gov/news.release/archives/prod2_11052026.htm",
-                    "source_title": "Productivity increases 3.6% in Q3 2026; unit labor costs decrease 0.7% (annualized rates)",
+                    "source_version_id": "03be5f54da3c03dc372b0bdd",
+                    "quote": "Job openings, a measure of labor demand, had risen by 333,000 ​to 7.523 million by the last day of September, the Labor Department's Bureau of Labor Statistics said in its Job Openings and Labor Turnover Survey, or JOLTS report, on Tuesday.",
+                    "source_url": "https://finance.yahoo.com/economy/articles/us-job-openings-increase-sharply-152156751.html",
+                    "source_title": "US job openings increase sharply in September",
                     "report_dates": [
-                      "2026-11-06"
+                      "2026-11-04"
                     ],
                     "card_anchors": [
                       {
-                        "report_date": "2026-11-06",
-                        "run_id": "1b038da32d669e88260f8228",
-                        "card_anchor": "issue-9ef469c55b726ba9"
+                        "report_date": "2026-11-04",
+                        "run_id": "cd984b397b76addaf41115a4",
+                        "card_anchor": "issue-e5cb1eba25170144"
                       }
                     ]
                   },
                   {
-                    "source_version_id": "ddf23a31b1f3412fcf4be7db",
-                    "quote": "All quarterly percent changes in this release are seasonally adjusted annualized",
-                    "source_url": "https://www.bls.gov/news.release/archives/prod2_11052026.htm",
-                    "source_title": "Productivity increases 3.6% in Q3 2026; unit labor costs decrease 0.7% (annualized rates)",
+                    "source_version_id": "03be5f54da3c03dc372b0bdd",
+                    "quote": "Layoffs and ‌discharges decreased by 127,000 to ​1.641 million, with ​the rate falling to 1.0% from 1.1% in August.",
+                    "source_url": "https://finance.yahoo.com/economy/articles/us-job-openings-increase-sharply-152156751.html",
+                    "source_title": "US job openings increase sharply in September",
                     "report_dates": [
-                      "2026-11-06"
+                      "2026-11-04"
                     ],
                     "card_anchors": [
                       {
-                        "report_date": "2026-11-06",
-                        "run_id": "1b038da32d669e88260f8228",
-                        "card_anchor": "issue-9ef469c55b726ba9"
+                        "report_date": "2026-11-04",
+                        "run_id": "cd984b397b76addaf41115a4",
+                        "card_anchor": "issue-e5cb1eba25170144"
                       }
                     ]
                   },
                   {
-                    "source_version_id": "ddf23a31b1f3412fcf4be7db",
-                    "quote": "Unit labor costs in the nonfarm business sector decreased 0.7 percent in the third quarter of 2026,",
-                    "source_url": "https://www.bls.gov/news.release/archives/prod2_11052026.htm",
-                    "source_title": "Productivity increases 3.6% in Q3 2026; unit labor costs decrease 0.7% (annualized rates)",
+                    "source_version_id": "03be5f54da3c03dc372b0bdd",
+                    "quote": "The JOLTS report has been plagued ​by a ​low response rate, which has ​decreased considerably from the period ‌prior to the COVID-19 pandemic.",
+                    "source_url": "https://finance.yahoo.com/economy/articles/us-job-openings-increase-sharply-152156751.html",
+                    "source_title": "US job openings increase sharply in September",
                     "report_dates": [
-                      "2026-11-06"
+                      "2026-11-04"
                     ],
                     "card_anchors": [
                       {
-                        "report_date": "2026-11-06",
-                        "run_id": "1b038da32d669e88260f8228",
-                        "card_anchor": "issue-9ef469c55b726ba9"
-                      }
-                    ]
-                  },
-                  {
-                    "source_version_id": "ddf23a31b1f3412fcf4be7db",
-                    "quote": "reflecting a 2.9-percent increase in hourly compensation and a 3.6-percent increase in productivity.",
-                    "source_url": "https://www.bls.gov/news.release/archives/prod2_11052026.htm",
-                    "source_title": "Productivity increases 3.6% in Q3 2026; unit labor costs decrease 0.7% (annualized rates)",
-                    "report_dates": [
-                      "2026-11-06"
-                    ],
-                    "card_anchors": [
-                      {
-                        "report_date": "2026-11-06",
-                        "run_id": "1b038da32d669e88260f8228",
-                        "card_anchor": "issue-9ef469c55b726ba9"
-                      }
-                    ]
-                  },
-                  {
-                    "source_version_id": "ddf23a31b1f3412fcf4be7db",
-                    "quote": "labor costs increased 2.4 percent over the last four quarters.",
-                    "source_url": "https://www.bls.gov/news.release/archives/prod2_11052026.htm",
-                    "source_title": "Productivity increases 3.6% in Q3 2026; unit labor costs decrease 0.7% (annualized rates)",
-                    "report_dates": [
-                      "2026-11-06"
-                    ],
-                    "card_anchors": [
-                      {
-                        "report_date": "2026-11-06",
-                        "run_id": "1b038da32d669e88260f8228",
-                        "card_anchor": "issue-9ef469c55b726ba9"
+                        "report_date": "2026-11-04",
+                        "run_id": "cd984b397b76addaf41115a4",
+                        "card_anchor": "issue-e5cb1eba25170144"
                       }
                     ]
                   }
@@ -76409,8 +76535,8 @@
             {
               "report_date": "2026-11-07",
               "claim": {
-                "text": "이어 나온 10월 비농업 고용은 예상 6만5,000명을 웃도는 16만5,000명 증가였다. 앞서 보도된 9월 증가분도 2만9,000명에서 6만 명으로 상향 수정됐다. 다만 광의 실업률은 7.6%에서 7.9%로 올라, 고용 호조만으로 노동시장 전반의 개선을 단정하기는 어렵다.",
-                "kind": "interpretation",
+                "text": "10월 고용보고서는 앞서 2만9천 명으로 보도된 9월 비농업 고용 증가분을 6만 명으로 상향 수정했다. 8월도 13만3천 명에서 18만6천 명으로 수정돼 두 달 증가분이 종전 발표보다 합계 8만4천 명 늘었다.",
+                "kind": "fact",
                 "citations": [
                   {
                     "source_version_id": "35d60b0e85a1287651314406",
@@ -76430,7 +76556,23 @@
                   },
                   {
                     "source_version_id": "35d60b0e85a1287651314406",
-                    "quote": "A broader measure of unemployment, which includes people who want to work but have given up ​searching and those working part-time because they cannot find full-time employment, rose to 7.9% from 7.6% in September.",
+                    "quote": "August's employment gains were revised up to 186,000 from the previously estimated 133,000.",
+                    "source_url": "https://finance.yahoo.com/news/us-job-growth-beats-expectations-133634157.html",
+                    "source_title": "US labor market regains ground as job growth surges, unemployment rate falls to 4.1%",
+                    "report_dates": [
+                      "2026-11-07"
+                    ],
+                    "card_anchors": [
+                      {
+                        "report_date": "2026-11-07",
+                        "run_id": "7f1944d3c6d1c9c2ebc3fa8e",
+                        "card_anchor": "issue-75f93787e1528a49"
+                      }
+                    ]
+                  },
+                  {
+                    "source_version_id": "35d60b0e85a1287651314406",
+                    "quote": "The Labor Department's closely watched employment report on Friday also showed the economy added 84,000 more jobs in August and September than previously reported.",
                     "source_url": "https://finance.yahoo.com/news/us-job-growth-beats-expectations-133634157.html",
                     "source_title": "US labor market regains ground as job growth surges, unemployment rate falls to 4.1%",
                     "report_dates": [
@@ -76450,12 +76592,152 @@
           ],
           "status": [
             {
-              "text": "주말 현재 추가 인상은 확정된 결정이 아니다. 데일리 샌프란시스코 연은 총재는 추가 긴축이 필요할 것으로 예상하면서도 시기와 폭은 들어오는 변수에 따라 결정해야 한다고 밝혔다. 이번 주 지표를 곧바로 특정 인상 일정으로 연결해서는 안 된다는 해석이다.",
+              "text": "미국의 10월 비농업 고용은 16만5천 명 늘어 로이터 조사 예상치인 6만5천 명을 웃돌았다. 실업률은 9월 4.2%에서 10월 4.1%로 낮아졌지만, 일할 의사가 있으나 구직을 포기한 사람과 풀타임 일자리를 구하지 못해 시간제로 일하는 사람 등을 포함한 광의 실업률은 같은 기간 7.6%에서 7.9%로 올랐다.",
+              "kind": "fact",
+              "citations": [
+                {
+                  "source_version_id": "35d60b0e85a1287651314406",
+                  "quote": "Nonfarm ​payrolls jumped by 165,000 jobs last month after an upwardly revised 60,000 gain in September, the Labor Department's Bureau of Labor Statistics said. Economists polled by Reuters had forecast payrolls advancing 65,000 after a previously reported 29,000 increase in September.",
+                  "source_url": "https://finance.yahoo.com/news/us-job-growth-beats-expectations-133634157.html",
+                  "source_title": "US labor market regains ground as job growth surges, unemployment rate falls to 4.1%",
+                  "report_dates": [
+                    "2026-11-07"
+                  ],
+                  "card_anchors": [
+                    {
+                      "report_date": "2026-11-07",
+                      "run_id": "7f1944d3c6d1c9c2ebc3fa8e",
+                      "card_anchor": "issue-75f93787e1528a49"
+                    }
+                  ]
+                },
+                {
+                  "source_version_id": "35d60b0e85a1287651314406",
+                  "quote": "US job growth accelerated in October and the unemployment rate fell to 4.1%",
+                  "source_url": "https://finance.yahoo.com/news/us-job-growth-beats-expectations-133634157.html",
+                  "source_title": "US labor market regains ground as job growth surges, unemployment rate falls to 4.1%",
+                  "report_dates": [
+                    "2026-11-07"
+                  ],
+                  "card_anchors": [
+                    {
+                      "report_date": "2026-11-07",
+                      "run_id": "7f1944d3c6d1c9c2ebc3fa8e",
+                      "card_anchor": "issue-75f93787e1528a49"
+                    }
+                  ]
+                },
+                {
+                  "source_version_id": "35d60b0e85a1287651314406",
+                  "quote": "The decline in the unemployment ‌rate from 4.2% in September",
+                  "source_url": "https://finance.yahoo.com/news/us-job-growth-beats-expectations-133634157.html",
+                  "source_title": "US labor market regains ground as job growth surges, unemployment rate falls to 4.1%",
+                  "report_dates": [
+                    "2026-11-07"
+                  ],
+                  "card_anchors": [
+                    {
+                      "report_date": "2026-11-07",
+                      "run_id": "7f1944d3c6d1c9c2ebc3fa8e",
+                      "card_anchor": "issue-75f93787e1528a49"
+                    }
+                  ]
+                },
+                {
+                  "source_version_id": "35d60b0e85a1287651314406",
+                  "quote": "A broader measure of unemployment, which includes people who want to work but have given up ​searching and those working part-time because they cannot find full-time employment, rose to 7.9% from 7.6% in September.",
+                  "source_url": "https://finance.yahoo.com/news/us-job-growth-beats-expectations-133634157.html",
+                  "source_title": "US labor market regains ground as job growth surges, unemployment rate falls to 4.1%",
+                  "report_dates": [
+                    "2026-11-07"
+                  ],
+                  "card_anchors": [
+                    {
+                      "report_date": "2026-11-07",
+                      "run_id": "7f1944d3c6d1c9c2ebc3fa8e",
+                      "card_anchor": "issue-75f93787e1528a49"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "연준은 직전 회의에서 기준금리를 3.75~4.00%로 동결했다. CME FedWatch에 따르면 시장에 반영된 12월 인상 확률은 목요일 66.9%에서 약 80%로 높아졌다.",
+              "kind": "fact",
+              "citations": [
+                {
+                  "source_version_id": "35d60b0e85a1287651314406",
+                  "quote": "The Fed last week left its benchmark overnight interest rate in the 3.75%-4.00% range.",
+                  "source_url": "https://finance.yahoo.com/news/us-job-growth-beats-expectations-133634157.html",
+                  "source_title": "US labor market regains ground as job growth surges, unemployment rate falls to 4.1%",
+                  "report_dates": [
+                    "2026-11-07"
+                  ],
+                  "card_anchors": [
+                    {
+                      "report_date": "2026-11-07",
+                      "run_id": "7f1944d3c6d1c9c2ebc3fa8e",
+                      "card_anchor": "issue-75f93787e1528a49"
+                    }
+                  ]
+                },
+                {
+                  "source_version_id": "35d60b0e85a1287651314406",
+                  "quote": "Financial markets priced in a roughly ​80% chance of a rate hike at the US central bank's meeting next month, up from 66.9% ‌on Thursday, CME's FedWatch tool showed.",
+                  "source_url": "https://finance.yahoo.com/news/us-job-growth-beats-expectations-133634157.html",
+                  "source_title": "US labor market regains ground as job growth surges, unemployment rate falls to 4.1%",
+                  "report_dates": [
+                    "2026-11-07"
+                  ],
+                  "card_anchors": [
+                    {
+                      "report_date": "2026-11-07",
+                      "run_id": "7f1944d3c6d1c9c2ebc3fa8e",
+                      "card_anchor": "issue-75f93787e1528a49"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "추가 인상의 시기와 폭은 여전히 미정이다. 메리 데일리 샌프란시스코 연은 총재는 물가 상승세의 지속을 우려하며 추가 긴축이 필요할 것으로 봤지만, 새로 들어오는 정보를 살펴 시기와 폭을 판단하겠다고 밝혔다.",
               "kind": "open",
               "citations": [
                 {
                   "source_version_id": "a6a754df55e1f2d91dff0f36",
-                  "quote": "\"My expectation is we're going to have to tighten policy further. Exactly when and how much is still to be decided because we just have to take all the variables that are coming in,\" Daly told CNBC's Steve Liesman during a live interview.",
+                  "quote": "San Francisco Federal Reserve President Mary Daly said Friday she expects the central bank will need to raise interest rates further, but joined her fellow policymakers in saying the pace and timing remain uncertain.",
+                  "source_url": "https://www.cnbc.com/2026/11/06/fed-daly-interest-rates-inflation.html",
+                  "source_title": "Americans are on a 'treadmill of high inflation' and more rate hikes are likely, Fed's Daly says",
+                  "report_dates": [
+                    "2026-11-07"
+                  ],
+                  "card_anchors": [
+                    {
+                      "report_date": "2026-11-07",
+                      "run_id": "7f1944d3c6d1c9c2ebc3fa8e",
+                      "card_anchor": "issue-5934c69545716c19"
+                    }
+                  ]
+                },
+                {
+                  "source_version_id": "a6a754df55e1f2d91dff0f36",
+                  "quote": "My expectation is we're going to have to tighten policy further. Exactly when and how much is still to be decided because we just have to take all the variables that are coming in,",
+                  "source_url": "https://www.cnbc.com/2026/11/06/fed-daly-interest-rates-inflation.html",
+                  "source_title": "Americans are on a 'treadmill of high inflation' and more rate hikes are likely, Fed's Daly says",
+                  "report_dates": [
+                    "2026-11-07"
+                  ],
+                  "card_anchors": [
+                    {
+                      "report_date": "2026-11-07",
+                      "run_id": "7f1944d3c6d1c9c2ebc3fa8e",
+                      "card_anchor": "issue-5934c69545716c19"
+                    }
+                  ]
+                },
+                {
+                  "source_version_id": "a6a754df55e1f2d91dff0f36",
+                  "quote": "The policymaker said she's not concerned generally about economic growth but worried about the persistence of inflation.",
                   "source_url": "https://www.cnbc.com/2026/11/06/fed-daly-interest-rates-inflation.html",
                   "source_title": "Americans are on a 'treadmill of high inflation' and more rate hikes are likely, Fed's Daly says",
                   "report_dates": [

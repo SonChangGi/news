@@ -115,7 +115,7 @@
   function enhanceWeekly() {
     if (document.body.dataset.qdProject !== 'news') return;
     const narrative = document.querySelector('.weekly-narrative');
-    if (!narrative || narrative.dataset.nw4Reader) return;
+    if (!narrative || narrative.dataset.nw4Reader || narrative.dataset.weeklyReading) return;
     const stories = [...narrative.querySelectorAll('.narrative-story')].filter(story =>
       /^[A-Za-z0-9_-]+$/.test(story.id) && story.querySelector('h3'));
     const nativeNav = narrative.querySelector('.narrative-contents');
