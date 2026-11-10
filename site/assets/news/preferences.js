@@ -1,4 +1,4 @@
-/* Quant preferences 1.0.0: browser-local state and trusted project-link handoff. */
+/* Quant preferences 1.0.1: browser-local state and trusted project-link handoff. */
 (function(scope){
 'use strict';
 const KEY='quant-preferences-v1';
@@ -121,11 +121,14 @@ doc.addEventListener('click',event=>{
  // Capture fresh state at activation as well as decorating context-menu/new-tab links.
  const a=event.target.closest?.('a[href]');if(a){readRemote();const href=linkUrl(a.href);if(href)a.href=href}
 },true);
+// The pinned shell redraws its project picker from an old closure when reopened.
+// Reconcile after that native handler, before the browser paints.
+doc.addEventListener('click',event=>{if(mounted&&event.target.closest?.('.q4-picker')){readRemote();render()}});
 scope.addEventListener('storage',event=>{if(event.key===KEY)readRemote()});
 scope.addEventListener('pageshow',readRemote);scope.addEventListener('focus',readRemote);
 doc.addEventListener('visibilitychange',()=>{if(doc.visibilityState==='visible')readRemote()});
 scope.addEventListener('quant-design-ready',mount);
 scope.addEventListener('quant-design-unified-ready',mount);
 if(doc.readyState==='loading')doc.addEventListener('DOMContentLoaded',mount,{once:true});else mount();
-scope.QuantPreferences={version:'1.0.0',get:()=>structuredClone(state),set:change};
+scope.QuantPreferences={version:'1.0.1',get:()=>structuredClone(state),set:change};
 })(typeof window==='undefined'?globalThis:window);
