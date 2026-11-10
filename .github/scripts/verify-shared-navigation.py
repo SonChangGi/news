@@ -60,10 +60,10 @@ def verify_design_page(menu, manifest, path):
         assert assets.index(name) < number_index, f'Reader stylesheet loaded after startup: {path}'
     for row in menu.owned_scripts:
         name = row['src'].split('?')[0].removeprefix('/news/assets/news/')
-        if name in {'preferences.js', 'boot.js', prefix + 'number.js', prefix + 'quant-range.js'}:
+        if name in {'preferences.js', 'boot.js'}:
             assert not {'async', 'defer'} & row.keys() and row.get('type', '') != 'module', f'Reader startup must block: {path}'
         else:
-            assert 'defer' in row and 'async' not in row and assets.index(name) > assets.index(prefix + 'quant-range.js'), f'Reader handler loaded before engine: {path}'
+            assert 'defer' in row and 'async' not in row and assets.index(name) >= number_index, f'Reader handler loaded before engine: {path}'
 
 
 class Menu(HTMLParser):
@@ -151,7 +151,10 @@ def verify(root):
                 relative, _, version = url.removeprefix('/news/').partition('?v=')
                 candidate = root / relative
                 assert '..' not in Path(relative).parts and candidate.is_file(), path
-                assert hashlib.sha256(candidate.read_bytes()).hexdigest()[:12] == version, str(candidate)
+                if relative == 'assets/news/PretendardVariable.woff2' and not version:
+                    assert hashlib.sha256(candidate.read_bytes()).hexdigest() == manifest['files']['PretendardVariable.woff2'], str(candidate)
+                else:
+                    assert hashlib.sha256(candidate.read_bytes()).hexdigest()[:12] == version, str(candidate)
         else:
             assert preview or 'data-reader-layout' not in text, f'Reader bootstrap missing: {path}'
             assert sorted(menu.assets) == [BASE + "nav.css", BASE + "nav.js"], path
