@@ -55,6 +55,23 @@
       sync();
     }
   }
+  // Historical editions keep their original HTML. Move the existing nodes so
+  // the publisher/date and Save share a row, with the same listeners and order.
+  if (!library) {
+    for (const heading of $$('.issue[data-issue-section] > .issue-top')) {
+      const caption = heading.querySelector(':scope > .source-caption');
+      const save = heading.querySelector(':scope > .reader-save');
+      if (!caption || !save || heading.hasAttribute('data-quant-story-meta')) continue;
+      const topics = document.createElement('span');
+      topics.className = 'qs-story-topics';
+      for (const child of [...heading.children]) if (child !== caption && child !== save) topics.append(child);
+      const credit = document.createElement('span');
+      credit.className = 'qs-story-credit';
+      credit.append(caption, save);
+      heading.replaceChildren(topics, credit);
+      heading.dataset.quantStoryMeta = '';
+    }
+  }
   // Native card handlers own background/title toggling and ignore links, controls
   // and text selections. Do not intercept those clicks in the presentation layer.
   const live = document.createElement('div'); live.className='nd-toast'; live.setAttribute('role','status'); live.setAttribute('aria-live','polite'); document.body.append(live);
