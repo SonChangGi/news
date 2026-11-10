@@ -45,6 +45,12 @@ def verify_design_page(menu, manifest, path):
     assets = [url.split('?')[0].removeprefix('/news/assets/news/') for url in menu.owned_assets]
     if menu.bundle == ENGINE_ADAPTER:
         assert 'engine-040.css' in assets, f'Engine adapter stylesheet link missing: {path}'
+    if 'preferences.js' in manifest.get('files', {}):
+        assert assets.count('preferences.js') == 1, f'Preferences loader missing or duplicated: {path}'
+        assert assets[0] == 'preferences.js' and 'boot.js' in assets, f'Preferences must precede boot: {path}'
+        pref = next(row for row in menu.owned_scripts if row['src'].split('?')[0].endswith('/preferences.js'))
+        assert pref.get('_in_head') is True, f'Preferences must load in head: {path}'
+        assert pref.get('type', '') in {'', 'text/javascript', 'application/javascript'}, f'Preferences must be classic JavaScript: {path}'
     prefix = f"extensions/{manifest['extension_version']}/"
     assert {prefix + name for name in REQUIRED_EXTENSION_ASSETS} <= set(assets), f'Reader design links missing: {path}'
     assert assets.index(prefix + 'number.js') < assets.index(prefix + 'quant-range.js') < assets.index('shell.js'), f'Reader startup order changed: {path}'
@@ -54,7 +60,7 @@ def verify_design_page(menu, manifest, path):
         assert assets.index(name) < number_index, f'Reader stylesheet loaded after startup: {path}'
     for row in menu.owned_scripts:
         name = row['src'].split('?')[0].removeprefix('/news/assets/news/')
-        if name in {'boot.js', prefix + 'number.js', prefix + 'quant-range.js'}:
+        if name in {'preferences.js', 'boot.js', prefix + 'number.js', prefix + 'quant-range.js'}:
             assert not {'async', 'defer'} & row.keys() and row.get('type', '') != 'module', f'Reader startup must block: {path}'
         else:
             assert 'defer' in row and 'async' not in row and assets.index(name) > assets.index(prefix + 'quant-range.js'), f'Reader handler loaded before engine: {path}'
@@ -71,15 +77,19 @@ class Menu(HTMLParser):
         self.owned_assets = []
         self.owned_styles = []
         self.owned_scripts = []
+        self.in_head = False
 
     def handle_starttag(self, tag, attrs):
         row = dict(attrs)
+        if tag == "head":
+            self.in_head = True
         if tag == 'script' and row.get('data-news-design-bundle'):
             self.bundle = row['data-news-design-bundle']
         asset = row.get('src', row.get('href', ''))
         if tag in {'script', 'link'} and asset.startswith('/news/assets/news/'):
             self.owned_assets.append(asset)
             if tag == 'script':
+                row['_in_head'] = self.in_head
                 self.owned_scripts.append(row)
             elif row.get('rel') == 'stylesheet':
                 self.owned_styles.append(asset)
@@ -94,6 +104,8 @@ class Menu(HTMLParser):
             self.project = row.get("data-quant-project")
 
     def handle_endtag(self, tag):
+        if tag == "head":
+            self.in_head = False
         if tag == "div" and self.rail:
             self.rail = False
 

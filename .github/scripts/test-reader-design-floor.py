@@ -57,6 +57,44 @@ class ReaderDesignFloorTests(unittest.TestCase):
         self.menu.owned_styles.insert(0, url)
         module.verify_design_page(self.menu, self.manifest, 'new-edition.html')
 
+    def preferences_fixture(self):
+        pref = '/news/assets/news/preferences.js?v=fixture'
+        boot = '/news/assets/news/boot.js?v=fixture'
+        self.manifest['files']['preferences.js'] = hashlib.sha256(b'preferences').hexdigest()
+        self.menu.owned_assets[:0] = [pref, boot]
+        self.menu.owned_scripts[:0] = [{'src': pref, '_in_head': True}, {'src': boot, '_in_head': True}]
+
+    def test_preferences_are_blocking_and_first_in_head(self):
+        self.preferences_fixture()
+        module.verify_design_page(self.menu, self.manifest, 'current.html')
+        parser = module.Menu()
+        parser.feed('<html><head><script src="/news/assets/news/preferences.js"></script></head><body><script src="/news/assets/news/boot.js"></script></body></html>')
+        self.assertTrue(parser.owned_scripts[0]['_in_head'])
+        self.assertFalse(parser.owned_scripts[1]['_in_head'])
+
+    def test_preferences_missing_duplicate_late_or_async_are_blocked(self):
+        import copy
+
+        self.preferences_fixture()
+        valid = copy.deepcopy(self.menu)
+        mutations = [
+            lambda m: m.owned_assets.pop(0),
+            lambda m: m.owned_assets.append(m.owned_assets[0]),
+            lambda m: m.owned_assets.insert(1, m.owned_assets.pop(0)),
+            lambda m: m.owned_scripts[0].update(async_=None),
+            lambda m: m.owned_scripts[0].update(defer=None),
+            lambda m: m.owned_scripts[0].update(type='module'),
+            lambda m: m.owned_scripts[0].update(_in_head=False),
+        ]
+        for index, mutate in enumerate(mutations):
+            with self.subTest(index=index):
+                menu = copy.deepcopy(valid)
+                mutate(menu)
+                if 'async_' in menu.owned_scripts[0]:
+                    menu.owned_scripts[0]['async'] = menu.owned_scripts[0].pop('async_')
+                with self.assertRaises(AssertionError):
+                    module.verify_design_page(menu, self.manifest, 'current.html')
+
     def test_current_bundle_and_startup_pass(self):
         manifest = module.verify_design_manifest(self.root)
         module.verify_design_page(self.menu, manifest, 'new-edition.html')
