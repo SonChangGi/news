@@ -3,7 +3,6 @@ html[data-news-design=refined] {--nd-reading-width:720px}
 /* Equal-height rows without truncating titles or setting a fixed card height. */
 html[data-news-design=refined] body.qd-v04 :is(.issue-grid,.library .card-grid,.priority-spotlights) {align-items:stretch}
 html[data-news-design=refined] body.qd-v04 :is(.issue-grid>.issue,.library .card-grid>.card) {align-self:stretch;display:flex;flex-direction:column;cursor:pointer}
-html[data-news-design=refined] body.qd-v04 :is(.issue:not(:has(>.issue-detail[open])),.library .card:not(.open))>.nw3-read-button {margin-top:auto;padding-top:14px}
 html[data-news-design=refined] body.qd-v04[data-qd-project=news] .weekly-spotlights.priority-spotlights {
   gap:12px;border:0!important;border-radius:0!important;overflow:visible;background:transparent!important;
 }
@@ -60,12 +59,11 @@ html[data-news-design=refined] body.qd-v04 .weekly-contents a[aria-current=locat
   background:color-mix(in srgb,var(--topic) 9%,var(--nd-panel));border-color:var(--topic);
 }
 /* Keep title, copy, source disclosure and reader action on the same left edge. */
-html[data-news-design=refined] body.qd-v04 .issue:has(>.issue-detail[open])>:is(.issue-top,h3,.issue-lead,.nw3-read-button),
+html[data-news-design=refined] body.qd-v04 .issue:has(>.issue-detail[open])>:is(.issue-top,h3,.issue-lead),
 html[data-news-design=refined] body.qd-v04 .issue-reading {
   width:100%;max-width:var(--nd-reading-width);margin-inline:auto;
 }
 html[data-news-design=refined] body.qd-v04 .issue-summary {max-width:none;margin-inline:0}
-html[data-news-design=refined] body.qd-v04 .issue:has(>.issue-detail[open])>.nw3-read-button {display:block;text-align:left}
 html[data-news-design=refined] body.qd-v04 .issue:has(>.issue-detail[open])>h3 {
   font-size:calc(22px + var(--reader-font-step,0px));line-height:1.6;margin-block:18px 8px;
 }
@@ -79,8 +77,6 @@ html[data-news-design=refined] body.qd-v04 .evidence-panel[open]>summary {color:
 html[data-news-design=refined] body.qd-v04 .quote {font-size:14px;line-height:1.9;padding:14px 16px;border-left-color:var(--topic,var(--nd-accent))}
 html[data-news-design=refined] body.qd-v04 .source-list>li>a {font-size:13px;line-height:1.8}
 html[data-news-design=refined] body.qd-v04 :is(.source-meta,.location) {font-size:12px;line-height:1.8}
-html[data-news-design=refined] body.qd-v04 .nw3-reader .nw3-focused {max-width:768px!important}
-html[data-news-design=refined] body.qd-v04 .nw3-reader .nw3-focused h3 {font-size:clamp(24px,2.3vw,30px)}
 /* The archive uses the same topic language and control sizes as a daily edition. */
 html[data-news-design=refined] body.qd-v04 .library .page-header {
   display:grid;grid-template-columns:minmax(0,1fr) auto;gap:12px 24px;align-items:end;padding:16px 0 24px;

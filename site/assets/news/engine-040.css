@@ -9,3 +9,12 @@ html[data-design-engine="0.4.0"] .qr-measure:not([data-selected="true"]) .qr-rea
 html[data-design-engine="0.4.0"] .qr-toolbar{opacity:0;pointer-events:none}
 html[data-design-engine="0.4.0"] :has(>.qr-measure):is(:hover,:focus-within)>.qr-measure .qr-toolbar{opacity:1;pointer-events:auto}
 @media(max-width:600px){html[data-design-engine="0.4.0"] body.qd-v04 :is(.panel,.issue-grid>.issue,.library .card-grid>.card){padding:var(--qe-card-inset-mobile)!important}}
+
+/* Topic identity belongs to the article, not the shared action accent. */
+html[data-news-design=refined][data-design-engine="0.4.0"] body.qd-v03.qd-v04[data-qd-project=news] :is(.issue-top>.pill.accent,.library .card .badge,.weekly-spotlight-topic,.weekly-contents a,.library #topic-grid button[data-category]) {
+  color:var(--topic)!important;
+}
+html[data-news-design=refined][data-design-engine="0.4.0"] body.qd-v03.qd-v04[data-qd-project=news] :is(.issue-top>.pill.accent,.library .card .badge) {
+  background:color-mix(in srgb,var(--topic) 8%,var(--qe-surface))!important;
+  border-color:color-mix(in srgb,var(--topic) 35%,var(--qe-surface))!important;
+}
