@@ -3,12 +3,30 @@
   "visibility": "public",
   "base_path": "/news/",
   "timezone": "Asia/Seoul",
-  "latest_date": "2026-11-10",
-  "updated_at": "2026-11-10T05:34:23.876695+00:00",
+  "latest_date": "2026-11-11",
+  "updated_at": "2026-11-10T21:59:19.194196+00:00",
   "latest_url": "/news/",
   "archive_url": "/news/?archive=1",
   "manifest_url": "/news/archive.json",
   "entries": [
+    {
+      "date": "2026-11-11",
+      "mode": "reconstruction",
+      "generated_at": "2026-11-10T21:59:19.194196+00:00",
+      "cutoff": "2026-11-11T06:20:00.078615+09:00",
+      "issue_count": 45,
+      "status": "complete",
+      "edition_phase": "daily_final",
+      "run_id": "f1dcc0df4b56a9555f5fb390",
+      "revisions": [],
+      "url": "/news/daily/2026-11-11/index.html",
+      "report_url": "/news/daily/2026-11-11/index.html",
+      "sha256": {
+        "json": "207119ab2254d72d30762bb561b82e3bbdd90494941057621e1fae4f72927524",
+        "markdown": "539cff6890048a33c6bd8352b5d4781d92bb3dbf2117a654f6cc0290be5372d2",
+        "html": "ec3d684fff37ade12569e78f079b12a312a0ac19d356d85f7d7031206ac5a73f"
+      }
+    },
     {
       "date": "2026-11-10",
       "mode": "reconstruction",
