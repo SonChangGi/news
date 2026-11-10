@@ -8,6 +8,8 @@ import re
 from html.parser import HTMLParser
 from pathlib import Path
 
+ENGINE_ADAPTER = 'news-engine-0.4.0-production'
+
 BASE = "https://sonchanggi.github.io/quant-dashboard/shared/navigation/v1/"
 MINIMUM_DESIGN = (0, 7, 0)
 REQUIRED_EXTENSION_ASSETS = {'number.js', 'spacing.css', 'table-edges.js',
@@ -32,12 +34,17 @@ def verify_design_manifest(root):
         candidate = target / name
         assert files.get(name) == digest and candidate.is_file(), 'Unbound reader design asset'
         assert hashlib.sha256(candidate.read_bytes()).hexdigest() == digest, 'Reader design asset hash mismatch'
+    if manifest['adapter_version'] == ENGINE_ADAPTER:
+        candidate = target / 'engine-040.css'
+        assert candidate.is_file() and files.get('engine-040.css') == hashlib.sha256(candidate.read_bytes()).hexdigest(), 'Engine adapter stylesheet missing or changed'
     return manifest
 
 
 def verify_design_page(menu, manifest, path):
     assert menu.bundle == manifest['adapter_version'], f'Reader adapter downgrade or mismatch: {path}'
     assets = [url.split('?')[0].removeprefix('/news/assets/news/') for url in menu.owned_assets]
+    if menu.bundle == ENGINE_ADAPTER:
+        assert 'engine-040.css' in assets, f'Engine adapter stylesheet link missing: {path}'
     prefix = f"extensions/{manifest['extension_version']}/"
     assert {prefix + name for name in REQUIRED_EXTENSION_ASSETS} <= set(assets), f'Reader design links missing: {path}'
     assert assets.index(prefix + 'number.js') < assets.index(prefix + 'quant-range.js') < assets.index('shell.js'), f'Reader startup order changed: {path}'
@@ -122,7 +129,7 @@ def verify(root):
         if menu.bundle:
             if not preview:
                 verify_design_page(menu, manifest, path)
-            assert menu.bundle in {'news-2026-11-04.1', 'news-2026-11-04.2', 'news-2026-11-06.1'}, path
+            assert menu.bundle in {'news-2026-11-04.1', 'news-2026-11-04.2', 'news-2026-11-06.1', ENGINE_ADAPTER}, path
             assert not menu.assets, path  # One navigation owner; no competing mutable loader.
             names = {url.split('?')[0].rsplit('/', 1)[-1] for url in menu.owned_assets}
             assert {'boot.js', 'shell.js', 'v04.js', 'reader.js', 'palette.css', 'source-links.js'} <= names, path

@@ -39,6 +39,24 @@ class ReaderDesignFloorTests(unittest.TestCase):
     def save(self):
         (self.assets / 'manifest.json').write_text(json.dumps(self.manifest))
 
+    def test_engine_adapter_requires_bound_stylesheet(self):
+        self.manifest['adapter_version'] = module.ENGINE_ADAPTER
+        self.save()
+        with self.assertRaisesRegex(AssertionError, 'Engine adapter stylesheet'):
+            module.verify_design_manifest(self.root)
+        target = self.assets / 'engine-040.css'
+        target.write_text('verified engine tokens')
+        self.manifest['files']['engine-040.css'] = hashlib.sha256(target.read_bytes()).hexdigest()
+        self.save()
+        module.verify_design_manifest(self.root)
+        self.menu.bundle = module.ENGINE_ADAPTER
+        with self.assertRaisesRegex(AssertionError, 'stylesheet link missing'):
+            module.verify_design_page(self.menu, self.manifest, 'new-edition.html')
+        url = '/news/assets/news/engine-040.css?v=fixture'
+        self.menu.owned_assets.insert(0, url)
+        self.menu.owned_styles.insert(0, url)
+        module.verify_design_page(self.menu, self.manifest, 'new-edition.html')
+
     def test_current_bundle_and_startup_pass(self):
         manifest = module.verify_design_manifest(self.root)
         module.verify_design_page(self.menu, manifest, 'new-edition.html')
