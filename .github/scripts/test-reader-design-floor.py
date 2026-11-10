@@ -33,7 +33,7 @@ class ReaderDesignFloorTests(unittest.TestCase):
             '/news/assets/news/' + self.prefix + name + '?v=fixture' for name in names
         ] + ['/news/assets/news/shell.js?v=fixture'])
         self.menu.owned_styles = self.menu.owned_assets[:2]
-        self.menu.owned_scripts = [dict(src=url, **({} if name in {'number.js', 'quant-range.js'} else {'defer': None}))
+        self.menu.owned_scripts = [dict(src=url, **{'defer': None})
                                    for url, name in zip(self.menu.owned_assets[2:], names[2:] + ['shell.js'])]
 
     def save(self):
@@ -138,7 +138,7 @@ class ReaderDesignFloorTests(unittest.TestCase):
 
     def test_async_engine_is_blocked(self):
         self.menu.owned_scripts[1]['async'] = None
-        with self.assertRaisesRegex(AssertionError, 'startup must block'):
+        with self.assertRaisesRegex(AssertionError, 'handler loaded before engine'):
             module.verify_design_page(self.menu, self.manifest, 'new-edition.html')
 
     def test_unused_legacy_output_is_blocked_even_with_a_valid_hash(self):
