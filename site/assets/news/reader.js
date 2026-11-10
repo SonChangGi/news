@@ -32,6 +32,29 @@
     prefs.addEventListener('keydown', event => {if (event.key === 'Escape') {prefs.open=false; summary.focus();}});
     document.addEventListener('pointerdown', event => {if(prefs.open && !prefs.contains(event.target)) prefs.open=false;});
   }
+  // Keep search and topic direct; the original filter nodes retain their handlers.
+  if (!library) {
+    const top = $('.toolbar-top');
+    const secondary = ['#region-filter', '#evidence-filter'].map($).filter(Boolean);
+    if (top && secondary.length && !$('.nd-filter-options')) {
+      const options = document.createElement('details'); options.className='nd-filter-options';
+      const summary = document.createElement('summary'); summary.textContent='상세 필터';
+      const fields = document.createElement('div'); fields.className='nd-filter-fields';
+      options.append(summary, fields);
+      secondary.forEach(select => {
+        const label=document.createElement('label');
+        const text=document.createElement('span'); text.textContent=select.getAttribute('aria-label');
+        label.append(text,select);fields.append(label);
+      });
+      top.append(options);
+      const sync=()=>{const count=secondary.filter(select=>select.value!=='all').length;
+        summary.textContent=count ? `상세 필터 · ${count}` : '상세 필터';};
+      secondary.forEach(select=>select.addEventListener('change',sync));
+      $('#filter-reset')?.addEventListener('click',()=>requestAnimationFrame(sync));
+      options.addEventListener('keydown',event=>{if(event.key==='Escape'){options.open=false;summary.focus();}});
+      sync();
+    }
+  }
   // Native card handlers own background/title toggling and ignore links, controls
   // and text selections. Do not intercept those clicks in the presentation layer.
   const live = document.createElement('div'); live.className='nd-toast'; live.setAttribute('role','status'); live.setAttribute('aria-live','polite'); document.body.append(live);
