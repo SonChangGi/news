@@ -138,3 +138,16 @@
   window.addEventListener('hashchange', reveal);
   reveal(); sync();
 })();
+
+/* Explicit shared component roles; native article content and handlers stay intact. */
+(() => {
+  const cards='article.issue,.library .card,.narrative-story,.narrative-watchpoint';
+  const apply=root=>{
+    if(root.nodeType!==1&&root!==document)return;
+    if(root.matches?.(cards))root.setAttribute('data-quant-card','');
+    root.querySelectorAll(cards).forEach(e=>e.setAttribute('data-quant-card',''));
+    root.querySelectorAll('table').forEach(e=>e.setAttribute('data-quant-table',''));
+  };
+  apply(document);
+  new MutationObserver(records=>records.forEach(r=>r.addedNodes.forEach(apply))).observe(document.body,{childList:true,subtree:true});
+})();
