@@ -17,7 +17,7 @@
   "timezone": "Asia/Seoul",
   "input_manifest_hash": "45d571a4b2ca82eef7a95907e9bad10ac7fac387ec615c62ed1bbb13172f816c",
   "edition_phase": "daily_final",
-  "previous_revision_run_id": "e0a39d5d4852ecbd83416b28",
+  "previous_revision_run_id": "",
   "news_counts": {
     "total": 45,
     "overseas": 44,
